@@ -326,5 +326,24 @@ fail on dyadic lengths.
 [residue_discrepancy.md](research/residue_discrepancy.md).
 The prize is still open.
 
+## Cycle J (ideas9, 2026-09-10)
+
+The constant \(L_{\mathrm{run}}\le 24\) dies at radius 11: mask
+\(4369552\) has a period-2 centre burst of length 29 that survives
+doubling the time cap. Cycle I’s statement for \(w\le 10\) *inside*
+\(tcap=8w+128\) is unchanged; even at radius 10 a longer window
+reveals a length-25 burst truncated by that cap.
+[period2_lrun.md](research/period2_lrun.md).
+
+Period-3 and isolated-zero period-9 finite-row scans have no eventual
+witness, but \(L_3(w)\) and \(L_{\mathrm{iso}}(w)\) still grow through
+the scanned radii, so they do not inherit a period-2-style plateau.
+Short \(d\le 3\) matrix traces over \(\mathbb F_2\) and \(\mathbb F_3\)
+are unsat on \(t=1,\ldots,255\).
+[period3_fiber.md](research/period3_fiber.md),
+[period9_fiber.md](research/period9_fiber.md),
+[trace_product.md](research/trace_product.md).
+The prize is still open.
+
 
 

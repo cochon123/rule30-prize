@@ -247,5 +247,23 @@ residue-class exact zeros at N=10^5 do not persist dyadically.
 Prize status: still unsolved. Next: upgrade L_run≤24 to a uniform-in-w
 bound, or run the same finite-row scan at periods 3–7 and q=8.
 
+## Cycle J (2026-09-10)
+
+Ideas9. The constant-24 hope dies; periods 3 and q=8 do not plateau;
+short traces are unsat. No prize claim.
+
+1. Period-2 L_run extension: exhaustive w=11 (2^{23}-1 states).
+   L_run(11)=29, witness mask 4369552, run t=159..188, stable at
+   tcap=432. Ten masks have L≥25 after doubling. A radius-10 row
+   (mask 1082165) reaches L=25 only past Cycle I’s cap. period2_lrun.md.
+2. Period-3 finite rows w≤8: L3=[11,11,12,12,17,18,20,20,22], still
+   growing, n_eventual=0. period3_fiber.md.
+3. Isolated-zero q=8 finite rows w≤7: L_iso grows to 23, no eventual
+   01^8 witness. period9_fiber.md.
+4. Trace of d≤3 products over F2/F3: unsat on t=1..255. trace_product.md.
+
+Prize status: still unsolved. Next: leftover streaming next-bit
+(ideas9 item 5); whether L_run(w) is unbounded; periods 4–7.
+
 
 
