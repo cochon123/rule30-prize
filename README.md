@@ -18,10 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **H** (Astra ideas7). Time-digit matrices, noise
-susceptibility, coarse-graining, and the algebraic bitstream screen all
-hit their kill criteria. The CFG parse-parity attack (ideas7 item 4) was
-not run.
+Last completed cycle is **I** (ideas8 plus leftover CFG). CFG parse-parity
+is unsat in the frozen grammar family. Period-2 centre runs last at most
+24 on every nonzero row of radius `w≤10`; that is a finite theorem, not
+a uniform exclusion. Automaticity, XOR-recodings, packed-row overlaps,
+coalescence, and residue-class discrepancies all hit their kill criteria.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -32,7 +33,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   Jen/Kopra (width-2 aperiodicity).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
-- Period 2 has no uniform-in-onset bound. Periods 3–7 and `q=8` remain.
+- Period 2 has no uniform-in-onset bound. Every nonzero row of radius
+  `w≤10` has period-2 centre runs of length at most 24. Periods 3–7
+  and `q=8` remain.
 - Density and linear-time computation are untouched by a proof.
 
 Helper scripts live in `research/`. Dumps are the matching `.json` files.

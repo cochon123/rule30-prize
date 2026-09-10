@@ -1,0 +1,134 @@
+{
+  "not_a_prize_claim": true,
+  "family": {
+    "n_nonterminals": 4,
+    "start": 0,
+    "max_binary_productions": 8,
+    "terminals": [
+      0,
+      1
+    ],
+    "no_epsilon": true,
+    "no_unit": true,
+    "omit_n0": true,
+    "omit_n0_reason": "bin(0) is special (\u03b5 is forbidden; '0' would be a leading-zero-free encoding of zero). Constraints start at n=1.",
+    "fit": [
+      1,
+      1023
+    ],
+    "holdout": [
+      1,
+      65535
+    ]
+  },
+  "self_check_prefix": true,
+  "self_check_cyk": true,
+  "python_2nt_exists_n1_31": false,
+  "z3_version": "5.1.0",
+  "solver": "bit-sliced CYK over all terminal assignments; OpenMP subset enum",
+  "ranks": [
+    {
+      "n_nt": 2,
+      "max_bin": 8,
+      "fit_n": 1023,
+      "start": 0,
+      "status": "unsat",
+      "phases": [
+        {
+          "fit_n": 1023,
+          "status": "unsat",
+          "checked": 256,
+          "elapsed_sec": 0.091946,
+          "k": null,
+          "prods": null,
+          "tmask": null
+        }
+      ],
+      "elapsed_sec": 0.5996112823486328
+    },
+    {
+      "n_nt": 3,
+      "max_bin": 6,
+      "fit_n": 1023,
+      "start": 0,
+      "status": "unsat",
+      "phases": [
+        {
+          "fit_n": 1023,
+          "status": "unsat",
+          "checked": 397594,
+          "elapsed_sec": 0.114337,
+          "k": null,
+          "prods": null,
+          "tmask": null
+        }
+      ],
+      "elapsed_sec": 0.7147543430328369
+    },
+    {
+      "n_nt": 3,
+      "max_bin": 8,
+      "fit_n": 1023,
+      "start": 0,
+      "status": "unsat",
+      "phases": [
+        {
+          "fit_n": 1023,
+          "status": "unsat",
+          "checked": 3505699,
+          "elapsed_sec": 0.563174,
+          "k": null,
+          "prods": null,
+          "tmask": null
+        }
+      ],
+      "elapsed_sec": 1.2790501117706299
+    },
+    {
+      "n_nt": 4,
+      "max_bin": 6,
+      "fit_n": 1023,
+      "start": 0,
+      "status": "unsat",
+      "phases": [
+        {
+          "fit_n": 1023,
+          "status": "unsat",
+          "checked": 83278001,
+          "elapsed_sec": 7.087222,
+          "k": null,
+          "prods": null,
+          "tmask": null
+        }
+      ],
+      "elapsed_sec": 8.367789506912231
+    },
+    {
+      "n_nt": 4,
+      "max_bin": 8,
+      "fit_n": 1023,
+      "start": 0,
+      "status": "unsat",
+      "phases": [
+        {
+          "fit_n": 1023,
+          "status": "unsat",
+          "checked": 5130659561,
+          "elapsed_sec": 643.882292,
+          "k": null,
+          "prods": null,
+          "tmask": null
+        }
+      ],
+      "elapsed_sec": 652.2522690296173
+    }
+  ],
+  "kill": {
+    "unsat_bounded": true,
+    "holdout_mismatch": null,
+    "no_candidate_in_cap": false,
+    "fired": true,
+    "text": "No Chomsky grammar with 4 nonterminals, at most 8 binary productions, and no \u03b5/unit productions realises c_n as parse parity of canonical bin(n) on n=1..1023."
+  },
+  "elapsed_sec": 652.2522792816162
+}

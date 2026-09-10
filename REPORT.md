@@ -294,6 +294,36 @@ algebraic equation for the centre real.
 [noise_susceptibility.md](research/noise_susceptibility.md),
 [coarse_bias.md](research/coarse_bias.md),
 [algebraic_bitstream.md](research/algebraic_bitstream.md).
+The leftover CFG parse-parity attack is recorded in Cycle I.
+The prize is still open.
+
+## Cycle I (ideas8, 2026-09-10)
+
+The leftover Chomsky parse-parity freeze is unsatisfiable: no grammar
+with four nonterminals and at most eight binary productions realises
+\(c_n\) as the GF(2) parse count of \(\operatorname{bin}(n)\) on
+\(n=1,\ldots,1023\).
+[cfg_parse_parity.md](research/cfg_parse_parity.md).
+
+A Condrey-style unique-left reconstruction at period 2 yields a
+**finite theorem**, not a prize claim: every nonzero row of support
+radius \(w\le 10\) has every period-2 centre run of length at most 24
+inside \(tcap=8w+128\). The reconstructed left is infinite in the scan
+but has no closed form, so this is not a uniform exclusion.
+[period2_fiber.md](research/period2_fiber.md).
+
+The 2-kernel of \(c\) is full through depth 12 on length-128 prefixes
+(\(|K|\ge 4096\)); that is not an infinite-kernel proof. XOR-recodings
+(first difference, \(t\bmod 2\), paperfolding, Laplacian, Thue–Morse)
+all still have \(L(N)\approx N/2\). Packed-row OR-overlaps stay at
+density \(\approx 1/2\). Left-permutivity forbids coalescence inside
+the light cone. Residue-class discrepancies that vanish at \(N=10^5\)
+fail on dyadic lengths.
+[two_kernel.md](research/two_kernel.md),
+[xor_transform.md](research/xor_transform.md),
+[packed_valuation.md](research/packed_valuation.md),
+[coalescence.md](research/coalescence.md),
+[residue_discrepancy.md](research/residue_discrepancy.md).
 The prize is still open.
 
 

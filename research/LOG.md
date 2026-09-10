@@ -216,9 +216,36 @@ as well.
    height-\(\le 2^{16}\) polynomial with a root in \(I_{256}\).
    algebraic_bitstream.md.
 
-(CFG parse-parity of bin(n), item 4, not required in the first three.)
+(CFG parse-parity of bin(n), item 4, completed in Cycle I: unsat.)
 
 Prize status: still unsolved.
+
+## Cycle I (2026-09-10)
+
+Leftover ideas7 item 4 plus five new screens. One finite theorem; the
+rest hit their kill criteria. No prize claim.
+
+1. CFG parse-parity of bin(n): 4 NT, ≤8 binary productions, no ε/unit.
+   Bit-sliced CYK over 5.13e9 subsets; unsat on n=1..1023 in 644s.
+   Nested 2- and 3-NT freezes also unsat. cfg_parse_parity.md.
+2. 2-kernel of c: distinct length-128 prefixes = 2^k through k=12.
+   Finite lower bound |K|≥4096, not an infinite kernel. No disagreement
+   lemma. Kill the proof-via-automaticity route. two_kernel.md.
+3. Period-2 finite-row fiber (Condrey analogue): every nonzero row of
+   radius w≤10 has L_run(w)≤24 inside tcap=8w+128. Unique left is
+   infinite in the scan, not a closed-form tail. Verdict FINITE_THEOREM;
+   not a uniform exclusion. period2_fiber.md.
+4. Packed-row OR-overlaps: mean N_t/t≈0.50 at T=16384>0.05. Valuations
+   of z XOR shifts do not extract c_t. packed_valuation.md.
+5. XOR-transforms of c: a_t, first difference, paperfolding, Laplacian,
+   Thue–Morse XOR all have L(N)≈N/2 and discrepancy of the same order
+   as D(N). xor_transform.md.
+
+Extras: coalescence killed by left-permutivity (disagree at time W+1);
+residue-class exact zeros at N=10^5 do not persist dyadically.
+
+Prize status: still unsolved. Next: upgrade L_run≤24 to a uniform-in-w
+bound, or run the same finite-row scan at periods 3–7 and q=8.
 
 
 
