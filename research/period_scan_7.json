@@ -1,0 +1,4935 @@
+{
+  "period": 7,
+  "results": [
+    {
+      "word": "0000001",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.003468,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.003926,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.004729,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.006264,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 113,
+          "surviving_edges": 216,
+          "elapsed_seconds": 0.009014,
+          "components": [
+            {
+              "size": 27,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 86,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 192,
+          "surviving_edges": 370,
+          "elapsed_seconds": 0.012258,
+          "components": [
+            {
+              "size": 156,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 36,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 274,
+          "surviving_edges": 548,
+          "elapsed_seconds": 0.019969,
+          "components": [
+            {
+              "size": 28,
+              "period": 14,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 274,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 480,
+          "surviving_edges": 960,
+          "elapsed_seconds": 0.028279,
+          "components": [
+            {
+              "size": 480,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 842,
+          "surviving_edges": 1684,
+          "elapsed_seconds": 0.042088,
+          "components": [
+            {
+              "size": 842,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1276,
+          "surviving_edges": 2552,
+          "elapsed_seconds": 0.065611,
+          "components": [
+            {
+              "size": 1276,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2110,
+          "surviving_edges": 4220,
+          "elapsed_seconds": 0.107242,
+          "components": [
+            {
+              "size": 2110,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3314,
+          "surviving_edges": 6628,
+          "elapsed_seconds": 0.177776,
+          "components": [
+            {
+              "size": 3314,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 5568,
+          "surviving_edges": 11136,
+          "elapsed_seconds": 0.322494,
+          "components": [
+            {
+              "size": 5568,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 9394,
+          "surviving_edges": 18788,
+          "elapsed_seconds": 0.570616,
+          "components": [
+            {
+              "size": 9394,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 15236,
+          "surviving_edges": 30472,
+          "elapsed_seconds": 0.967937,
+          "components": [
+            {
+              "size": 15236,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 24856,
+          "surviving_edges": 49712,
+          "elapsed_seconds": 1.550455,
+          "components": [
+            {
+              "size": 24856,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.561029
+    },
+    {
+      "word": "0001001",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.00035,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000759,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001513,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002931,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 122,
+          "surviving_edges": 244,
+          "elapsed_seconds": 0.005605,
+          "components": [
+            {
+              "size": 11,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 122,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 224,
+          "surviving_edges": 448,
+          "elapsed_seconds": 0.009092,
+          "components": [
+            {
+              "size": 224,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 358,
+          "surviving_edges": 716,
+          "elapsed_seconds": 0.015361,
+          "components": [
+            {
+              "size": 358,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 622,
+          "surviving_edges": 1244,
+          "elapsed_seconds": 0.028451,
+          "components": [
+            {
+              "size": 622,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1090,
+          "surviving_edges": 2180,
+          "elapsed_seconds": 0.053518,
+          "components": [
+            {
+              "size": 1090,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1528,
+          "surviving_edges": 3056,
+          "elapsed_seconds": 0.098254,
+          "components": [
+            {
+              "size": 32,
+              "period": 14,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 1528,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2566,
+          "surviving_edges": 5132,
+          "elapsed_seconds": 0.175659,
+          "components": [
+            {
+              "size": 2566,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3436,
+          "surviving_edges": 6872,
+          "elapsed_seconds": 0.269728,
+          "components": [
+            {
+              "size": 3436,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 5696,
+          "surviving_edges": 11392,
+          "elapsed_seconds": 0.407207,
+          "components": [
+            {
+              "size": 5696,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 9738,
+          "surviving_edges": 19476,
+          "elapsed_seconds": 0.637056,
+          "components": [
+            {
+              "size": 9738,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 15660,
+          "surviving_edges": 31320,
+          "elapsed_seconds": 1.122744,
+          "components": [
+            {
+              "size": 56,
+              "period": 21,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 15660,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 26084,
+          "surviving_edges": 52168,
+          "elapsed_seconds": 1.807272,
+          "components": [
+            {
+              "size": 26084,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.819376
+    },
+    {
+      "word": "0000101",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000321,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000745,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001509,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.003233,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 158,
+          "surviving_edges": 316,
+          "elapsed_seconds": 0.007258,
+          "components": [
+            {
+              "size": 158,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 288,
+          "surviving_edges": 576,
+          "elapsed_seconds": 0.01221,
+          "components": [
+            {
+              "size": 288,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 486,
+          "surviving_edges": 972,
+          "elapsed_seconds": 0.023509,
+          "components": [
+            {
+              "size": 486,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 824,
+          "surviving_edges": 1648,
+          "elapsed_seconds": 0.042044,
+          "components": [
+            {
+              "size": 824,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1394,
+          "surviving_edges": 2788,
+          "elapsed_seconds": 0.082213,
+          "components": [
+            {
+              "size": 1394,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2234,
+          "surviving_edges": 4468,
+          "elapsed_seconds": 0.136655,
+          "components": [
+            {
+              "size": 49,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 2234,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3682,
+          "surviving_edges": 7364,
+          "elapsed_seconds": 0.212923,
+          "components": [
+            {
+              "size": 3682,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 6176,
+          "surviving_edges": 12352,
+          "elapsed_seconds": 0.406903,
+          "components": [
+            {
+              "size": 6176,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 9472,
+          "surviving_edges": 18944,
+          "elapsed_seconds": 0.806381,
+          "components": [
+            {
+              "size": 9472,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 14940,
+          "surviving_edges": 29880,
+          "elapsed_seconds": 1.285064,
+          "components": [
+            {
+              "size": 14940,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 24830,
+          "surviving_edges": 49660,
+          "elapsed_seconds": 1.988218,
+          "components": [
+            {
+              "size": 24830,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.998314
+    },
+    {
+      "word": "0010101",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000302,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000725,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001457,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.00284,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 160,
+          "surviving_edges": 320,
+          "elapsed_seconds": 0.00586,
+          "components": [
+            {
+              "size": 160,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 292,
+          "surviving_edges": 584,
+          "elapsed_seconds": 0.011224,
+          "components": [
+            {
+              "size": 292,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 514,
+          "surviving_edges": 1028,
+          "elapsed_seconds": 0.023164,
+          "components": [
+            {
+              "size": 514,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 898,
+          "surviving_edges": 1796,
+          "elapsed_seconds": 0.042474,
+          "components": [
+            {
+              "size": 898,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1548,
+          "surviving_edges": 3096,
+          "elapsed_seconds": 0.088495,
+          "components": [
+            {
+              "size": 1548,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2646,
+          "surviving_edges": 5292,
+          "elapsed_seconds": 0.162355,
+          "components": [
+            {
+              "size": 2646,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 4500,
+          "surviving_edges": 9000,
+          "elapsed_seconds": 0.274261,
+          "components": [
+            {
+              "size": 4500,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 7626,
+          "surviving_edges": 15252,
+          "elapsed_seconds": 0.470686,
+          "components": [
+            {
+              "size": 7626,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 12578,
+          "surviving_edges": 25156,
+          "elapsed_seconds": 0.744038,
+          "components": [
+            {
+              "size": 12578,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 20484,
+          "surviving_edges": 40968,
+          "elapsed_seconds": 1.26193,
+          "components": [
+            {
+              "size": 20484,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.269684
+    },
+    {
+      "word": "0001101",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000264,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000594,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001245,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002435,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 160,
+          "surviving_edges": 320,
+          "elapsed_seconds": 0.004626,
+          "components": [
+            {
+              "size": 160,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 276,
+          "surviving_edges": 552,
+          "elapsed_seconds": 0.008313,
+          "components": [
+            {
+              "size": 276,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 444,
+          "surviving_edges": 888,
+          "elapsed_seconds": 0.014607,
+          "components": [
+            {
+              "size": 444,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 732,
+          "surviving_edges": 1464,
+          "elapsed_seconds": 0.028746,
+          "components": [
+            {
+              "size": 732,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1272,
+          "surviving_edges": 2544,
+          "elapsed_seconds": 0.052807,
+          "components": [
+            {
+              "size": 1272,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2158,
+          "surviving_edges": 4316,
+          "elapsed_seconds": 0.097848,
+          "components": [
+            {
+              "size": 2158,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3626,
+          "surviving_edges": 7252,
+          "elapsed_seconds": 0.175636,
+          "components": [
+            {
+              "size": 3626,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 6088,
+          "surviving_edges": 12176,
+          "elapsed_seconds": 0.330938,
+          "components": [
+            {
+              "size": 6088,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 10278,
+          "surviving_edges": 20556,
+          "elapsed_seconds": 0.604089,
+          "components": [
+            {
+              "size": 10278,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 17274,
+          "surviving_edges": 34548,
+          "elapsed_seconds": 1.173894,
+          "components": [
+            {
+              "size": 17274,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 28114,
+          "surviving_edges": 56228,
+          "elapsed_seconds": 2.185409,
+          "components": [
+            {
+              "size": 28114,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 2.205652
+    },
+    {
+      "word": "0011101",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000327,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.0007,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001457,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002878,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 162,
+          "surviving_edges": 324,
+          "elapsed_seconds": 0.005947,
+          "components": [
+            {
+              "size": 162,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 282,
+          "surviving_edges": 564,
+          "elapsed_seconds": 0.010682,
+          "components": [
+            {
+              "size": 282,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 486,
+          "surviving_edges": 972,
+          "elapsed_seconds": 0.019852,
+          "components": [
+            {
+              "size": 486,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 842,
+          "surviving_edges": 1684,
+          "elapsed_seconds": 0.046127,
+          "components": [
+            {
+              "size": 842,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1408,
+          "surviving_edges": 2816,
+          "elapsed_seconds": 0.090013,
+          "components": [
+            {
+              "size": 1408,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2446,
+          "surviving_edges": 4892,
+          "elapsed_seconds": 0.168019,
+          "components": [
+            {
+              "size": 2446,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 4090,
+          "surviving_edges": 8180,
+          "elapsed_seconds": 0.281409,
+          "components": [
+            {
+              "size": 4090,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 6704,
+          "surviving_edges": 13408,
+          "elapsed_seconds": 0.518703,
+          "components": [
+            {
+              "size": 6704,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 9682,
+          "surviving_edges": 19364,
+          "elapsed_seconds": 0.773481,
+          "components": [
+            {
+              "size": 821,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 9682,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 16030,
+          "surviving_edges": 32060,
+          "elapsed_seconds": 1.167254,
+          "components": [
+            {
+              "size": 16030,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 26278,
+          "surviving_edges": 52556,
+          "elapsed_seconds": 2.095847,
+          "components": [
+            {
+              "size": 26278,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 2.106739
+    },
+    {
+      "word": "0000011",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.00036,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000828,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 30,
+          "surviving_edges": 60,
+          "elapsed_seconds": 0.001544,
+          "components": [
+            {
+              "size": 10,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 30,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 58,
+          "surviving_edges": 116,
+          "elapsed_seconds": 0.002319,
+          "components": [
+            {
+              "size": 58,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 102,
+          "surviving_edges": 204,
+          "elapsed_seconds": 0.003901,
+          "components": [
+            {
+              "size": 102,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 180,
+          "surviving_edges": 360,
+          "elapsed_seconds": 0.006722,
+          "components": [
+            {
+              "size": 180,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 278,
+          "surviving_edges": 556,
+          "elapsed_seconds": 0.012046,
+          "components": [
+            {
+              "size": 278,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 486,
+          "surviving_edges": 972,
+          "elapsed_seconds": 0.021955,
+          "components": [
+            {
+              "size": 486,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 856,
+          "surviving_edges": 1712,
+          "elapsed_seconds": 0.037364,
+          "components": [
+            {
+              "size": 856,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1428,
+          "surviving_edges": 2856,
+          "elapsed_seconds": 0.065387,
+          "components": [
+            {
+              "size": 1428,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2452,
+          "surviving_edges": 4904,
+          "elapsed_seconds": 0.119984,
+          "components": [
+            {
+              "size": 2452,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 4212,
+          "surviving_edges": 8424,
+          "elapsed_seconds": 0.214484,
+          "components": [
+            {
+              "size": 4212,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 7000,
+          "surviving_edges": 14000,
+          "elapsed_seconds": 0.387978,
+          "components": [
+            {
+              "size": 7000,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 11378,
+          "surviving_edges": 22756,
+          "elapsed_seconds": 0.670838,
+          "components": [
+            {
+              "size": 11378,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 19026,
+          "surviving_edges": 38052,
+          "elapsed_seconds": 1.13855,
+          "components": [
+            {
+              "size": 19026,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 31420,
+          "surviving_edges": 62840,
+          "elapsed_seconds": 2.030589,
+          "components": [
+            {
+              "size": 31420,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 2.042792
+    },
+    {
+      "word": "0010011",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000307,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.00078,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.00154,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.003105,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 160,
+          "surviving_edges": 320,
+          "elapsed_seconds": 0.006006,
+          "components": [
+            {
+              "size": 160,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 262,
+          "surviving_edges": 524,
+          "elapsed_seconds": 0.010632,
+          "components": [
+            {
+              "size": 262,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 428,
+          "surviving_edges": 856,
+          "elapsed_seconds": 0.020031,
+          "components": [
+            {
+              "size": 428,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 734,
+          "surviving_edges": 1468,
+          "elapsed_seconds": 0.03606,
+          "components": [
+            {
+              "size": 734,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1274,
+          "surviving_edges": 2548,
+          "elapsed_seconds": 0.070246,
+          "components": [
+            {
+              "size": 1274,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2218,
+          "surviving_edges": 4436,
+          "elapsed_seconds": 0.131463,
+          "components": [
+            {
+              "size": 2218,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3588,
+          "surviving_edges": 7176,
+          "elapsed_seconds": 0.228028,
+          "components": [
+            {
+              "size": 3588,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 5796,
+          "surviving_edges": 11592,
+          "elapsed_seconds": 0.383642,
+          "components": [
+            {
+              "size": 5796,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 9630,
+          "surviving_edges": 19260,
+          "elapsed_seconds": 0.64386,
+          "components": [
+            {
+              "size": 9630,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 13320,
+          "surviving_edges": 26640,
+          "elapsed_seconds": 1.13483,
+          "components": [
+            {
+              "size": 311,
+              "period": 14,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 114,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 13320,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 22282,
+          "surviving_edges": 44564,
+          "elapsed_seconds": 1.76879,
+          "components": [
+            {
+              "size": 22282,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.781641
+    },
+    {
+      "word": "0001011",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000338,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000771,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001526,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.003178,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 160,
+          "surviving_edges": 320,
+          "elapsed_seconds": 0.006211,
+          "components": [
+            {
+              "size": 160,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 186,
+          "surviving_edges": 372,
+          "elapsed_seconds": 0.010788,
+          "components": [
+            {
+              "size": 17,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 186,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 310,
+          "surviving_edges": 620,
+          "elapsed_seconds": 0.016193,
+          "components": [
+            {
+              "size": 310,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 544,
+          "surviving_edges": 1088,
+          "elapsed_seconds": 0.026363,
+          "components": [
+            {
+              "size": 544,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 950,
+          "surviving_edges": 1900,
+          "elapsed_seconds": 0.047991,
+          "components": [
+            {
+              "size": 950,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1430,
+          "surviving_edges": 2860,
+          "elapsed_seconds": 0.092983,
+          "components": [
+            {
+              "size": 52,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 1430,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2254,
+          "surviving_edges": 4508,
+          "elapsed_seconds": 0.161666,
+          "components": [
+            {
+              "size": 2254,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3772,
+          "surviving_edges": 7544,
+          "elapsed_seconds": 0.276975,
+          "components": [
+            {
+              "size": 3772,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 6152,
+          "surviving_edges": 12304,
+          "elapsed_seconds": 0.470006,
+          "components": [
+            {
+              "size": 6152,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 9860,
+          "surviving_edges": 19720,
+          "elapsed_seconds": 0.757383,
+          "components": [
+            {
+              "size": 9860,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 14694,
+          "surviving_edges": 29388,
+          "elapsed_seconds": 1.187211,
+          "components": [
+            {
+              "size": 14694,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 22762,
+          "surviving_edges": 45524,
+          "elapsed_seconds": 1.849387,
+          "components": [
+            {
+              "size": 22762,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.859396
+    },
+    {
+      "word": "0101011",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000352,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000761,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001564,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002975,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 162,
+          "surviving_edges": 324,
+          "elapsed_seconds": 0.005634,
+          "components": [
+            {
+              "size": 162,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 280,
+          "surviving_edges": 560,
+          "elapsed_seconds": 0.010105,
+          "components": [
+            {
+              "size": 280,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 502,
+          "surviving_edges": 1004,
+          "elapsed_seconds": 0.018718,
+          "components": [
+            {
+              "size": 502,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 876,
+          "surviving_edges": 1752,
+          "elapsed_seconds": 0.036814,
+          "components": [
+            {
+              "size": 876,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1366,
+          "surviving_edges": 2732,
+          "elapsed_seconds": 0.073279,
+          "components": [
+            {
+              "size": 1366,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2330,
+          "surviving_edges": 4660,
+          "elapsed_seconds": 0.124994,
+          "components": [
+            {
+              "size": 2330,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3656,
+          "surviving_edges": 7312,
+          "elapsed_seconds": 0.214376,
+          "components": [
+            {
+              "size": 3656,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 5296,
+          "surviving_edges": 10592,
+          "elapsed_seconds": 0.374907,
+          "components": [
+            {
+              "size": 5296,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 8562,
+          "surviving_edges": 17124,
+          "elapsed_seconds": 0.601042,
+          "components": [
+            {
+              "size": 8562,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 14236,
+          "surviving_edges": 28472,
+          "elapsed_seconds": 0.996178,
+          "components": [
+            {
+              "size": 14236,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 22758,
+          "surviving_edges": 45516,
+          "elapsed_seconds": 1.497022,
+          "components": [
+            {
+              "size": 22758,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.508168
+    },
+    {
+      "word": "0011011",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000364,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000705,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 32,
+          "surviving_edges": 64,
+          "elapsed_seconds": 0.001358,
+          "components": [
+            {
+              "size": 13,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 32,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 60,
+          "surviving_edges": 120,
+          "elapsed_seconds": 0.002036,
+          "components": [
+            {
+              "size": 60,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 106,
+          "surviving_edges": 212,
+          "elapsed_seconds": 0.003352,
+          "components": [
+            {
+              "size": 106,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 192,
+          "surviving_edges": 384,
+          "elapsed_seconds": 0.00576,
+          "components": [
+            {
+              "size": 192,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 346,
+          "surviving_edges": 692,
+          "elapsed_seconds": 0.010185,
+          "components": [
+            {
+              "size": 346,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 612,
+          "surviving_edges": 1224,
+          "elapsed_seconds": 0.018835,
+          "components": [
+            {
+              "size": 612,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 967,
+          "surviving_edges": 1912,
+          "elapsed_seconds": 0.036378,
+          "components": [
+            {
+              "size": 211,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 756,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1401,
+          "surviving_edges": 2778,
+          "elapsed_seconds": 0.06767,
+          "components": [
+            {
+              "size": 1128,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 273,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2209,
+          "surviving_edges": 4386,
+          "elapsed_seconds": 0.124844,
+          "components": [
+            {
+              "size": 455,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 1754,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3196,
+          "surviving_edges": 6343,
+          "elapsed_seconds": 0.209167,
+          "components": [
+            {
+              "size": 2464,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 732,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 5007,
+          "surviving_edges": 9907,
+          "elapsed_seconds": 0.33608,
+          "components": [
+            {
+              "size": 787,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 114,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 4220,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 7958,
+          "surviving_edges": 15802,
+          "elapsed_seconds": 0.576788,
+          "components": [
+            {
+              "size": 7122,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 50,
+              "period": 14,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 836,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 12253,
+          "surviving_edges": 24409,
+          "elapsed_seconds": 0.919779,
+          "components": [
+            {
+              "size": 837,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 62,
+              "period": 21,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 11416,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 19946,
+          "surviving_edges": 39761,
+          "elapsed_seconds": 1.504649,
+          "components": [
+            {
+              "size": 18734,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 1212,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 17,
+          "surviving_states": 31867,
+          "surviving_edges": 63593,
+          "elapsed_seconds": 2.413828,
+          "components": [
+            {
+              "size": 1017,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 30850,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 2.426327
+    },
+    {
+      "word": "0000111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000305,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000702,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001456,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.00286,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 160,
+          "surviving_edges": 320,
+          "elapsed_seconds": 0.005549,
+          "components": [
+            {
+              "size": 160,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 270,
+          "surviving_edges": 540,
+          "elapsed_seconds": 0.010421,
+          "components": [
+            {
+              "size": 270,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 426,
+          "surviving_edges": 852,
+          "elapsed_seconds": 0.019511,
+          "components": [
+            {
+              "size": 426,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 704,
+          "surviving_edges": 1408,
+          "elapsed_seconds": 0.03474,
+          "components": [
+            {
+              "size": 704,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1164,
+          "surviving_edges": 2328,
+          "elapsed_seconds": 0.067684,
+          "components": [
+            {
+              "size": 1164,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1930,
+          "surviving_edges": 3860,
+          "elapsed_seconds": 0.123377,
+          "components": [
+            {
+              "size": 1930,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3280,
+          "surviving_edges": 6560,
+          "elapsed_seconds": 0.225079,
+          "components": [
+            {
+              "size": 3280,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 5430,
+          "surviving_edges": 10860,
+          "elapsed_seconds": 0.381155,
+          "components": [
+            {
+              "size": 5430,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 9106,
+          "surviving_edges": 18212,
+          "elapsed_seconds": 0.615968,
+          "components": [
+            {
+              "size": 9106,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 15056,
+          "surviving_edges": 30112,
+          "elapsed_seconds": 1.002812,
+          "components": [
+            {
+              "size": 15056,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 25006,
+          "surviving_edges": 50012,
+          "elapsed_seconds": 1.6105,
+          "components": [
+            {
+              "size": 25006,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.621921
+    },
+    {
+      "word": "0010111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000317,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000711,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.00146,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002807,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 138,
+          "surviving_edges": 276,
+          "elapsed_seconds": 0.005114,
+          "components": [
+            {
+              "size": 11,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 138,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 214,
+          "surviving_edges": 428,
+          "elapsed_seconds": 0.008154,
+          "components": [
+            {
+              "size": 214,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 366,
+          "surviving_edges": 732,
+          "elapsed_seconds": 0.013147,
+          "components": [
+            {
+              "size": 366,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 640,
+          "surviving_edges": 1280,
+          "elapsed_seconds": 0.022395,
+          "components": [
+            {
+              "size": 640,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1064,
+          "surviving_edges": 2128,
+          "elapsed_seconds": 0.042248,
+          "components": [
+            {
+              "size": 1064,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1840,
+          "surviving_edges": 3680,
+          "elapsed_seconds": 0.093022,
+          "components": [
+            {
+              "size": 1840,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3024,
+          "surviving_edges": 6048,
+          "elapsed_seconds": 0.176388,
+          "components": [
+            {
+              "size": 3024,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 5130,
+          "surviving_edges": 10260,
+          "elapsed_seconds": 0.32181,
+          "components": [
+            {
+              "size": 5130,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 8606,
+          "surviving_edges": 17212,
+          "elapsed_seconds": 0.560104,
+          "components": [
+            {
+              "size": 8606,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 13934,
+          "surviving_edges": 27868,
+          "elapsed_seconds": 0.877129,
+          "components": [
+            {
+              "size": 13934,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 22830,
+          "surviving_edges": 45660,
+          "elapsed_seconds": 1.426156,
+          "components": [
+            {
+              "size": 22830,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.436196
+    },
+    {
+      "word": "0110111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.00031,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000757,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001497,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002972,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 164,
+          "surviving_edges": 328,
+          "elapsed_seconds": 0.005665,
+          "components": [
+            {
+              "size": 164,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 270,
+          "surviving_edges": 540,
+          "elapsed_seconds": 0.012421,
+          "components": [
+            {
+              "size": 270,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 482,
+          "surviving_edges": 964,
+          "elapsed_seconds": 0.022255,
+          "components": [
+            {
+              "size": 482,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 852,
+          "surviving_edges": 1704,
+          "elapsed_seconds": 0.040905,
+          "components": [
+            {
+              "size": 852,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1448,
+          "surviving_edges": 2896,
+          "elapsed_seconds": 0.074918,
+          "components": [
+            {
+              "size": 1448,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2460,
+          "surviving_edges": 4920,
+          "elapsed_seconds": 0.139233,
+          "components": [
+            {
+              "size": 2460,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 4104,
+          "surviving_edges": 8208,
+          "elapsed_seconds": 0.257424,
+          "components": [
+            {
+              "size": 4104,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 6936,
+          "surviving_edges": 13872,
+          "elapsed_seconds": 0.472363,
+          "components": [
+            {
+              "size": 6936,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 11652,
+          "surviving_edges": 23304,
+          "elapsed_seconds": 0.834502,
+          "components": [
+            {
+              "size": 11652,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 18578,
+          "surviving_edges": 37156,
+          "elapsed_seconds": 1.424696,
+          "components": [
+            {
+              "size": 18578,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 29006,
+          "surviving_edges": 58012,
+          "elapsed_seconds": 2.405948,
+          "components": [
+            {
+              "size": 34,
+              "period": 14,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 29006,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 2.420215
+    },
+    {
+      "word": "0001111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000301,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000712,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 32,
+          "surviving_edges": 64,
+          "elapsed_seconds": 0.00141,
+          "components": [
+            {
+              "size": 13,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 32,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 60,
+          "surviving_edges": 120,
+          "elapsed_seconds": 0.002213,
+          "components": [
+            {
+              "size": 60,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 106,
+          "surviving_edges": 212,
+          "elapsed_seconds": 0.003739,
+          "components": [
+            {
+              "size": 106,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 162,
+          "surviving_edges": 324,
+          "elapsed_seconds": 0.006651,
+          "components": [
+            {
+              "size": 162,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 270,
+          "surviving_edges": 540,
+          "elapsed_seconds": 0.011033,
+          "components": [
+            {
+              "size": 270,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 476,
+          "surviving_edges": 952,
+          "elapsed_seconds": 0.019289,
+          "components": [
+            {
+              "size": 476,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 810,
+          "surviving_edges": 1620,
+          "elapsed_seconds": 0.036722,
+          "components": [
+            {
+              "size": 15,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 810,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1392,
+          "surviving_edges": 2784,
+          "elapsed_seconds": 0.078574,
+          "components": [
+            {
+              "size": 1392,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2360,
+          "surviving_edges": 4720,
+          "elapsed_seconds": 0.141267,
+          "components": [
+            {
+              "size": 2360,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3976,
+          "surviving_edges": 7952,
+          "elapsed_seconds": 0.263034,
+          "components": [
+            {
+              "size": 3976,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 5920,
+          "surviving_edges": 11840,
+          "elapsed_seconds": 0.440249,
+          "components": [
+            {
+              "size": 5920,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 9516,
+          "surviving_edges": 19032,
+          "elapsed_seconds": 0.692875,
+          "components": [
+            {
+              "size": 9516,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 15798,
+          "surviving_edges": 31596,
+          "elapsed_seconds": 1.054914,
+          "components": [
+            {
+              "size": 15798,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 25810,
+          "surviving_edges": 51620,
+          "elapsed_seconds": 1.763714,
+          "components": [
+            {
+              "size": 25810,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.77576
+    },
+    {
+      "word": "0101111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000324,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000741,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001493,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.003049,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 164,
+          "surviving_edges": 328,
+          "elapsed_seconds": 0.005774,
+          "components": [
+            {
+              "size": 164,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 264,
+          "surviving_edges": 528,
+          "elapsed_seconds": 0.011814,
+          "components": [
+            {
+              "size": 264,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 454,
+          "surviving_edges": 908,
+          "elapsed_seconds": 0.020016,
+          "components": [
+            {
+              "size": 454,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 796,
+          "surviving_edges": 1592,
+          "elapsed_seconds": 0.0391,
+          "components": [
+            {
+              "size": 796,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 1326,
+          "surviving_edges": 2652,
+          "elapsed_seconds": 0.075353,
+          "components": [
+            {
+              "size": 13,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 1326,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 2302,
+          "surviving_edges": 4604,
+          "elapsed_seconds": 0.132057,
+          "components": [
+            {
+              "size": 2302,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 3802,
+          "surviving_edges": 7604,
+          "elapsed_seconds": 0.249125,
+          "components": [
+            {
+              "size": 3802,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 6390,
+          "surviving_edges": 12780,
+          "elapsed_seconds": 0.422664,
+          "components": [
+            {
+              "size": 6390,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 10186,
+          "surviving_edges": 20372,
+          "elapsed_seconds": 0.691619,
+          "components": [
+            {
+              "size": 64,
+              "period": 28,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 10186,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 16614,
+          "surviving_edges": 33228,
+          "elapsed_seconds": 1.066248,
+          "components": [
+            {
+              "size": 16614,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 27568,
+          "surviving_edges": 55136,
+          "elapsed_seconds": 1.788891,
+          "components": [
+            {
+              "size": 27568,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.801264
+    },
+    {
+      "word": "0011111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000345,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000726,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 56,
+          "surviving_edges": 112,
+          "elapsed_seconds": 0.001501,
+          "components": [
+            {
+              "size": 56,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 98,
+          "surviving_edges": 196,
+          "elapsed_seconds": 0.002956,
+          "components": [
+            {
+              "size": 98,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 164,
+          "surviving_edges": 328,
+          "elapsed_seconds": 0.005718,
+          "components": [
+            {
+              "size": 164,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 142,
+          "surviving_edges": 284,
+          "elapsed_seconds": 0.010762,
+          "components": [
+            {
+              "size": 37,
+              "period": 14,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 142,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 254,
+          "surviving_edges": 508,
+          "elapsed_seconds": 0.015081,
+          "components": [
+            {
+              "size": 254,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 442,
+          "surviving_edges": 884,
+          "elapsed_seconds": 0.023553,
+          "components": [
+            {
+              "size": 442,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 682,
+          "surviving_edges": 1364,
+          "elapsed_seconds": 0.0391,
+          "components": [
+            {
+              "size": 682,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1188,
+          "surviving_edges": 2376,
+          "elapsed_seconds": 0.067393,
+          "components": [
+            {
+              "size": 1188,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2006,
+          "surviving_edges": 4012,
+          "elapsed_seconds": 0.118952,
+          "components": [
+            {
+              "size": 2006,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3488,
+          "surviving_edges": 6976,
+          "elapsed_seconds": 0.215607,
+          "components": [
+            {
+              "size": 3488,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 5914,
+          "surviving_edges": 11828,
+          "elapsed_seconds": 0.378567,
+          "components": [
+            {
+              "size": 5914,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 9754,
+          "surviving_edges": 19508,
+          "elapsed_seconds": 0.695163,
+          "components": [
+            {
+              "size": 9754,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 16168,
+          "surviving_edges": 32336,
+          "elapsed_seconds": 1.427024,
+          "components": [
+            {
+              "size": 16168,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 26692,
+          "surviving_edges": 53384,
+          "elapsed_seconds": 2.157519,
+          "components": [
+            {
+              "size": 26692,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 2.167358
+    },
+    {
+      "word": "0111111",
+      "records": [
+        {
+          "radius": 1,
+          "surviving_states": 14,
+          "surviving_edges": 28,
+          "elapsed_seconds": 0.000269,
+          "components": [
+            {
+              "size": 14,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 2,
+          "surviving_states": 28,
+          "surviving_edges": 56,
+          "elapsed_seconds": 0.000595,
+          "components": [
+            {
+              "size": 28,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 3,
+          "surviving_states": 34,
+          "surviving_edges": 68,
+          "elapsed_seconds": 0.001227,
+          "components": [
+            {
+              "size": 16,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 34,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 4,
+          "surviving_states": 62,
+          "surviving_edges": 124,
+          "elapsed_seconds": 0.001949,
+          "components": [
+            {
+              "size": 62,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 5,
+          "surviving_states": 110,
+          "surviving_edges": 220,
+          "elapsed_seconds": 0.00328,
+          "components": [
+            {
+              "size": 110,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 6,
+          "surviving_states": 168,
+          "surviving_edges": 336,
+          "elapsed_seconds": 0.005666,
+          "components": [
+            {
+              "size": 168,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 7,
+          "surviving_states": 298,
+          "surviving_edges": 596,
+          "elapsed_seconds": 0.009442,
+          "components": [
+            {
+              "size": 298,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 8,
+          "surviving_states": 534,
+          "surviving_edges": 1068,
+          "elapsed_seconds": 0.016161,
+          "components": [
+            {
+              "size": 534,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 9,
+          "surviving_states": 842,
+          "surviving_edges": 1684,
+          "elapsed_seconds": 0.03036,
+          "components": [
+            {
+              "size": 842,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 10,
+          "surviving_states": 1498,
+          "surviving_edges": 2996,
+          "elapsed_seconds": 0.057995,
+          "components": [
+            {
+              "size": 1498,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 11,
+          "surviving_states": 2574,
+          "surviving_edges": 5148,
+          "elapsed_seconds": 0.112946,
+          "components": [
+            {
+              "size": 2574,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 12,
+          "surviving_states": 3975,
+          "surviving_edges": 7914,
+          "elapsed_seconds": 0.208564,
+          "components": [
+            {
+              "size": 155,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 3820,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 13,
+          "surviving_states": 6458,
+          "surviving_edges": 12916,
+          "elapsed_seconds": 0.372424,
+          "components": [
+            {
+              "size": 6458,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            },
+            {
+              "size": 48,
+              "period": 21,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 52,
+              "period": 7,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            }
+          ]
+        },
+        {
+          "radius": 14,
+          "surviving_states": 10632,
+          "surviving_edges": 21264,
+          "elapsed_seconds": 0.635314,
+          "components": [
+            {
+              "size": 10632,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 15,
+          "surviving_states": 17148,
+          "surviving_edges": 34296,
+          "elapsed_seconds": 1.036416,
+          "components": [
+            {
+              "size": 47,
+              "period": 21,
+              "fixed": [
+                -1,
+                0,
+                1
+              ],
+              "excluded": true
+            },
+            {
+              "size": 17148,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        },
+        {
+          "radius": 16,
+          "surviving_states": 28410,
+          "surviving_edges": 56820,
+          "elapsed_seconds": 1.690173,
+          "components": [
+            {
+              "size": 28410,
+              "period": 7,
+              "fixed": [
+                0
+              ],
+              "excluded": false
+            }
+          ]
+        }
+      ],
+      "status": "cap_or_radius",
+      "elapsed_seconds": 1.701888
+    }
+  ]
+}

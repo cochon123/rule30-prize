@@ -1,0 +1,142 @@
+[
+  {
+    "forbidden_word": "11",
+    "radius": 1,
+    "surviving_states": 6,
+    "surviving_edges": 20,
+    "components": [
+      {
+        "size": 6,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 2,
+    "surviving_states": 20,
+    "surviving_edges": 64,
+    "components": [
+      {
+        "size": 20,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 3,
+    "surviving_states": 64,
+    "surviving_edges": 208,
+    "components": [
+      {
+        "size": 64,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 4,
+    "surviving_states": 198,
+    "surviving_edges": 640,
+    "components": [
+      {
+        "size": 198,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 5,
+    "surviving_states": 624,
+    "surviving_edges": 2020,
+    "components": [
+      {
+        "size": 624,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 6,
+    "surviving_states": 1994,
+    "surviving_edges": 6452,
+    "components": [
+      {
+        "size": 1994,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 7,
+    "surviving_states": 6326,
+    "surviving_edges": 20472,
+    "components": [
+      {
+        "size": 6326,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 8,
+    "surviving_states": 20022,
+    "surviving_edges": 64792,
+    "components": [
+      {
+        "size": 20022,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 9,
+    "surviving_states": 63488,
+    "surviving_edges": 205452,
+    "components": [
+      {
+        "size": 63488,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "forbidden_word": "11",
+    "radius": 10,
+    "surviving_states": 201410,
+    "surviving_edges": 651776,
+    "components": [
+      {
+        "size": 201410,
+        "period": 1,
+        "fixed": [],
+        "excluded": false
+      }
+    ]
+  }
+]

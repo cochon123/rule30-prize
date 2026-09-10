@@ -1,0 +1,106 @@
+{
+  "not_a_prize_claim": true,
+  "self_check_centres": true,
+  "derivatives": [
+    {
+      "N": 64,
+      "D_N": 6,
+      "n_sites": 4095,
+      "sum_delta": -4114,
+      "B_prime_0": -64.28125,
+      "abs_B_prime": 64.28125,
+      "threshold_8_N_3_2": 4096.0,
+      "exceeds": false,
+      "max_abs_delta": 22,
+      "mean_abs_delta_times_sites_over_N": 64.28125
+    },
+    {
+      "N": 128,
+      "D_N": -2,
+      "n_sites": 16383,
+      "sum_delta": 43150,
+      "B_prime_0": 337.109375,
+      "abs_B_prime": 337.109375,
+      "threshold_8_N_3_2": 11585.237502960395,
+      "exceeds": false,
+      "max_abs_delta": 34,
+      "mean_abs_delta_times_sites_over_N": 337.109375
+    },
+    {
+      "N": 256,
+      "D_N": 14,
+      "n_sites": 65535,
+      "sum_delta": -169322,
+      "B_prime_0": -661.4140625,
+      "abs_B_prime": 661.4140625,
+      "threshold_8_N_3_2": 32768.0,
+      "exceeds": false,
+      "max_abs_delta": 56,
+      "mean_abs_delta_times_sites_over_N": 661.4140625
+    }
+  ],
+  "noisy": [
+    {
+      "eps": 0.015625,
+      "N": 512,
+      "n_traj": 8192,
+      "late_mean_abs": 0.008924484252929688,
+      "n_envelope_violations_listed": 0,
+      "violations_head": [],
+      "contradicts_envelope": false,
+      "mean_abs_t_64": 0.010498046875,
+      "mean_abs_t_256": 0.00439453125,
+      "mean_abs_last": 0.004638671875
+    },
+    {
+      "eps": 0.00390625,
+      "N": 512,
+      "n_traj": 8192,
+      "late_mean_abs": 0.009188652038574219,
+      "n_envelope_violations_listed": 0,
+      "violations_head": [],
+      "contradicts_envelope": false,
+      "mean_abs_t_64": 0.007080078125,
+      "mean_abs_t_256": 0.003662109375,
+      "mean_abs_last": 0.015380859375
+    },
+    {
+      "eps": 0.0009765625,
+      "N": 512,
+      "n_traj": 8192,
+      "late_mean_abs": 0.008830070495605469,
+      "n_envelope_violations_listed": 0,
+      "violations_head": [],
+      "contradicts_envelope": false,
+      "mean_abs_t_64": 0.298095703125,
+      "mean_abs_t_256": 0.004638671875,
+      "mean_abs_last": 0.01123046875
+    }
+  ],
+  "kill": {
+    "derivative_exceeds_8_N_3_2": false,
+    "relaxation_contradicts_envelope": false,
+    "unsigned_quadratic_fault_scale": false,
+    "fired": true,
+    "text": "|B_N'(0)| is O(N) and stays below 8 N^{3/2}. Noisy means do not contradict the exponential envelope beyond Monte-Carlo slack. Pair interactions have mean absolute size 2.19 (N=64) and 3.22 (N=128), max 58. There is no uniform bound on higher-order fault clusters, which was the required next lemma. The route is abandoned. Not a prize claim.",
+    "higher_order_uncontrolled": true,
+    "pair_mean_abs_grows": false
+  },
+  "elapsed_sec": 54.77342772483826,
+  "pair_interactions": [
+    {
+      "N": 64,
+      "n": 400,
+      "mean_abs_I": 2.185,
+      "max_abs_I": 38,
+      "frac_nonzero": 0.3175
+    },
+    {
+      "N": 128,
+      "n": 400,
+      "mean_abs_I": 3.22,
+      "max_abs_I": 58,
+      "frac_nonzero": 0.2975
+    }
+  ]
+}

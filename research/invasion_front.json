@@ -1,0 +1,378 @@
+{
+  "not_a_prize_claim": true,
+  "family": {
+    "drivers": [
+      "001",
+      "0111"
+    ],
+    "max_interface_width": 12,
+    "max_wake_period": 8,
+    "max_temporal_period": 12,
+    "positive_displacement": true,
+    "full_enum_when_q_plus_iw_le": 14,
+    "larger_slice": "periodic wake plus optional leading 1 in the interface"
+  },
+  "tried": {
+    "001": {
+      "n_tried": 1034304,
+      "n_found": 5
+    },
+    "0111": {
+      "n_tried": 775728,
+      "n_found": 102
+    }
+  },
+  "n_fronts": 107,
+  "fronts": [
+    {
+      "driver": "001",
+      "T": 12,
+      "q": 2,
+      "iw": 4,
+      "d": 2,
+      "row": "011101",
+      "rowT": "0101110100",
+      "mode": "full"
+    },
+    {
+      "driver": "001",
+      "T": 12,
+      "q": 3,
+      "iw": 3,
+      "d": 2,
+      "row": "011101",
+      "rowT": "0101110100",
+      "mode": "full"
+    },
+    {
+      "driver": "001",
+      "T": 12,
+      "q": 4,
+      "iw": 2,
+      "d": 2,
+      "row": "011101",
+      "rowT": "0101110100",
+      "mode": "full"
+    },
+    {
+      "driver": "001",
+      "T": 12,
+      "q": 5,
+      "iw": 1,
+      "d": 2,
+      "row": "011101",
+      "rowT": "0101110100",
+      "mode": "full"
+    },
+    {
+      "driver": "001",
+      "T": 12,
+      "q": 6,
+      "iw": 0,
+      "d": 2,
+      "row": "011101",
+      "rowT": "0101110100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 1,
+      "d": 4,
+      "row": "1",
+      "rowT": "0000100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 2,
+      "d": 4,
+      "row": "10",
+      "rowT": "00001000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 2,
+      "d": 4,
+      "row": "11",
+      "rowT": "00001100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 3,
+      "d": 4,
+      "row": "100",
+      "rowT": "000010000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 3,
+      "d": 4,
+      "row": "110",
+      "rowT": "000011000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 3,
+      "d": 4,
+      "row": "101",
+      "rowT": "000010100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 4,
+      "d": 4,
+      "row": "1000",
+      "rowT": "0000100000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 4,
+      "d": 4,
+      "row": "1100",
+      "rowT": "0000110000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 4,
+      "d": 4,
+      "row": "1010",
+      "rowT": "0000101000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 4,
+      "d": 4,
+      "row": "1011",
+      "rowT": "0000101100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 5,
+      "d": 4,
+      "row": "10000",
+      "rowT": "00001000000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 5,
+      "d": 4,
+      "row": "11000",
+      "rowT": "00001100000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 5,
+      "d": 4,
+      "row": "10100",
+      "rowT": "00001010000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 5,
+      "d": 4,
+      "row": "10110",
+      "rowT": "00001011000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 5,
+      "d": 4,
+      "row": "10101",
+      "rowT": "00001010100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 6,
+      "d": 4,
+      "row": "100000",
+      "rowT": "000010000000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 6,
+      "d": 4,
+      "row": "110000",
+      "rowT": "000011000000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 6,
+      "d": 4,
+      "row": "101000",
+      "rowT": "000010100000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 6,
+      "d": 4,
+      "row": "101100",
+      "rowT": "000010110000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 6,
+      "d": 4,
+      "row": "101010",
+      "rowT": "000010101000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 6,
+      "d": 4,
+      "row": "101011",
+      "rowT": "000010101100",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 7,
+      "d": 4,
+      "row": "1000000",
+      "rowT": "0000100000000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 7,
+      "d": 4,
+      "row": "1100000",
+      "rowT": "0000110000000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 7,
+      "d": 4,
+      "row": "1010000",
+      "rowT": "0000101000000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 7,
+      "d": 4,
+      "row": "1011000",
+      "rowT": "0000101100000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 7,
+      "d": 4,
+      "row": "1010100",
+      "rowT": "0000101010000",
+      "mode": "full"
+    },
+    {
+      "driver": "0111",
+      "T": 4,
+      "q": 0,
+      "iw": 7,
+      "d": 4,
+      "row": "1010110",
+      "rowT": "0000101011000",
+      "mode": "full"
+    }
+  ],
+  "kill": {
+    "no_front_in_family": false,
+    "finite_pulses_exist_but_not_infinite_periodic_wakes": true,
+    "drift_infeasible": true,
+    "fired": true,
+    "text": "Finite-support translations exist, but repeating the putative wake destroys the 001 travelling match, and 0111 q=0 hits are light-cone pulses, not periodic wakes. Astra drift B=min(\u2113,R)+\u03c6(window) is infeasible: a 1 to the right of an 8-zero window decreases \u2113 by 1 with \u0394\u03c6=0. Certificate validity would need a bound on perturbation length (forbidden). Not a prize claim."
+  },
+  "elapsed_sec": 126.97954154014587,
+  "long_wake_retest": {
+    "001_011101_repeated_wake_is_not_travelling": true,
+    "0111_q0_are_finite_pulses_not_periodic_wakes": true
+  },
+  "drift": {
+    "window": 8,
+    "phi_bound": 16,
+    "infeasible": true,
+    "witness": {
+      "driver": "0111",
+      "phase": 0,
+      "window": "00000000",
+      "row": "000000000001",
+      "ell": 11,
+      "ell_next": 10,
+      "window_next": "00000000",
+      "delta_ell": -1,
+      "delta_phi": 0,
+      "note": "A defect to the right of an all-zero 8-window moves left by 1 while the window is unchanged, so \u03c6 is constant and B=min(\u2113,R)+\u03c6 decreases. No \u03b5>0 works. Left-moving defects are the generic finite perturbation of a driven half-line."
+    },
+    "001_empty_col1_not_periodic_at_512": true
+  }
+}

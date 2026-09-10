@@ -1,0 +1,245 @@
+{
+  "C2": {
+    "all": [
+      {
+        "sigma_n": 0,
+        "sigma_n1": 0,
+        "C1": "000000001",
+        "C2": "011111101"
+      },
+      {
+        "sigma_n": 0,
+        "sigma_n1": 1,
+        "C1": "000000001",
+        "C2": "011111100"
+      },
+      {
+        "sigma_n": 1,
+        "sigma_n1": 0,
+        "C1": "100000001",
+        "C2": "111111101"
+      },
+      {
+        "sigma_n": 1,
+        "sigma_n1": 1,
+        "C1": "100000001",
+        "C2": "111111100"
+      }
+    ],
+    "constant": {
+      "0": "011111101",
+      "1": "111111100"
+    },
+    "mixed_wrap": {
+      "0then1": "011111100",
+      "1then0": "111111101"
+    }
+  },
+  "jen_periodic_sigma": {
+    "lemma": "If sigma is eventually period m, column -1 is eventually period 9m (sigma on isolated 0, forced 0^7 1 on the 1-run). Column 0 is period 9. Jen/Kopra exclude every such adjacent pair for a nonzero finite seed. This includes constant sigma and alternating 0101....",
+    "samples": [
+      {
+        "sigma": "0",
+        "col_m1_period": 9
+      },
+      {
+        "sigma": "1",
+        "col_m1_period": 9
+      },
+      {
+        "sigma": "01",
+        "col_m1_period": 18
+      },
+      {
+        "sigma": "10",
+        "col_m1_period": 18
+      },
+      {
+        "sigma": "001",
+        "col_m1_period": 27
+      },
+      {
+        "sigma": "011",
+        "col_m1_period": 27
+      },
+      {
+        "sigma": "0101",
+        "col_m1_period": 36
+      },
+      {
+        "sigma": "0001",
+        "col_m1_period": 36
+      },
+      {
+        "sigma": "0111",
+        "col_m1_period": 36
+      }
+    ]
+  },
+  "automaton": {
+    "n_states": 20,
+    "n_sigma0": 6,
+    "n_sigma1": 14,
+    "outdeg_min": 6,
+    "outdeg_max": 14,
+    "sofic": {
+      "n_sigma0": 6,
+      "n_sigma1": 14,
+      "full_2_shift": true,
+      "from0_on0": 6,
+      "from0_on1": 14,
+      "from1_on0": 6,
+      "from1_on1": 14
+    }
+  },
+  "Z_sizes": [
+    131072,
+    65536,
+    32768,
+    16384,
+    8192,
+    4096,
+    2048,
+    1024,
+    512
+  ],
+  "Z_formulas": {
+    "Z0": {
+      "miss": 0,
+      "extra": 0,
+      "ok": true
+    },
+    "Z1": {
+      "miss": 0,
+      "extra": 0,
+      "ok": true
+    },
+    "Z2": {
+      "miss": 0,
+      "extra": 0,
+      "ok": true
+    },
+    "Z3": {
+      "miss": 0,
+      "extra": 0,
+      "ok": true
+    },
+    "Z4": {
+      "miss": 0,
+      "extra": 0,
+      "ok": true
+    }
+  },
+  "I": {
+    "size": 512,
+    "unique_wrap": true,
+    "n_wrap0": 293,
+    "n_wrap1": 219,
+    "n_recurrent_sccs": 1,
+    "recurrent_is_vacuum_wrap0": true,
+    "longest_path_to_vacuum": 9,
+    "curr_is_function_of_prev": true
+  },
+  "constant_sigma_orbits": [
+    {
+      "sigma": 0,
+      "preperiod": 11,
+      "period": 135,
+      "cycle_ones": 64,
+      "infinitely_many_1s": true,
+      "has_last_1": false
+    },
+    {
+      "sigma": 1,
+      "preperiod": 8,
+      "period": 135,
+      "cycle_ones": 65,
+      "infinitely_many_1s": true,
+      "has_last_1": false
+    }
+  ],
+  "vacuum_propagation": {
+    "identity": "C_{k+1,0}(n)=C_{k,1}(n) XOR (C_{k,0}(n) OR C_{k-1,0}(n)); phase 8 wrap uses C_{k,0}(n+1).",
+    "lemma": "If C_{k,0}(0)=0 for every k>T, then C_{k,a}(0)=0 for a=0..8 and k>T+a, and C_{k,0}(1)=0 for k>T+8. Iterating, C_{k,0}(n)=0 for k>T+9n."
+  },
+  "consistent_rank": {
+    "depth": 16,
+    "max_rank": 3,
+    "n_pairs_in_I": 0,
+    "witness_max_rank": {
+      "sigma": "0100000000",
+      "rank": 3,
+      "prev": "110011000",
+      "curr": "011001110"
+    },
+    "never_enters_I": true,
+    "no_five_consecutive_phase0_zeros": true,
+    "elapsed": 9.639
+  },
+  "onset": [
+    {
+      "T": 1,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    },
+    {
+      "T": 2,
+      "killed_at_R": 2,
+      "survivor_prefix": "100"
+    },
+    {
+      "T": 3,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    },
+    {
+      "T": 4,
+      "killed_at_R": 2,
+      "survivor_prefix": "00000"
+    },
+    {
+      "T": 5,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    },
+    {
+      "T": 6,
+      "killed_at_R": 2,
+      "survivor_prefix": "0000000"
+    },
+    {
+      "T": 7,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    },
+    {
+      "T": 8,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    },
+    {
+      "T": 9,
+      "killed_at_R": 5,
+      "survivor_prefix": "0100000000000"
+    },
+    {
+      "T": 10,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    },
+    {
+      "T": 11,
+      "killed_at_R": 2,
+      "survivor_prefix": "000000000000"
+    },
+    {
+      "T": 12,
+      "killed_at_R": 1,
+      "survivor_prefix": null
+    }
+  ],
+  "onset_elapsed": 2.308,
+  "elapsed_total": 19.462,
+  "excluded": false,
+  "strongest": "q=8 is not excluded. Every eventually periodic sigma is Jen-excluded. The reconstruction quotient I forces a periodic wrap label (eventually 0) on any phase-0 vacuum tail, but consistent sigma streams do not enter I through depth 16, and every onset T<= 12 dies by R=5. The 20-state strip automaton is a full 2-shift on sigma; free-boundary mixing is not a seed orbit."
+}

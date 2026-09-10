@@ -1,0 +1,46 @@
+{
+  "not_a_prize_claim": true,
+  "alpha": "sum c_t 2^{-t-1}",
+  "I_256": [
+    "99857914820185327575944424001251637135773022873794103347434043669198364662111/115792089237316195423570985008687907853269984665640564039457584007913129639936",
+    "3120559838130791486748263250039113660492906964806065729607313864662448895691/3618502788666131106986593281521497120414687020801267626233049500247285301248"
+  ],
+  "self_check_prefix": true,
+  "degrees": [
+    {
+      "degree": 2,
+      "shortest_coeff_height": 944410855142050,
+      "n_crossing_this_degree": 0
+    },
+    {
+      "degree": 3,
+      "shortest_coeff_height": 10201428425718884921986,
+      "n_crossing_this_degree": 0
+    },
+    {
+      "degree": 4,
+      "shortest_coeff_height": 10201428425718884921986,
+      "n_crossing_this_degree": 0
+    },
+    {
+      "degree": 5,
+      "shortest_coeff_height": 10201428425718884921986,
+      "n_crossing_this_degree": 0
+    },
+    {
+      "degree": 6,
+      "shortest_coeff_height": 10201428425718884921986,
+      "n_crossing_this_degree": 0
+    }
+  ],
+  "n_I256_crossing": 0,
+  "n_validate_4096": 0,
+  "validated": [],
+  "mismatches_head": [],
+  "kill": {
+    "no_polynomial_in_family": true,
+    "fired": true,
+    "text": "No primitive polynomial of degree 2..6 and height \u2264 2^16 has a real root throughout I_256 that survives 4096-bit isolation. Not a prize claim."
+  },
+  "elapsed_sec": 0.07709598541259766
+}

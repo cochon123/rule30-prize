@@ -1,0 +1,2452 @@
+[
+  {
+    "word": "00000001",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.005711163976229727
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.006171571905724704
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.007084773969836533
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.009902535937726498
+      },
+      {
+        "radius": 5,
+        "surviving_states": 116,
+        "elapsed_seconds": 0.012954482925124466
+      },
+      {
+        "radius": 6,
+        "surviving_states": 189,
+        "elapsed_seconds": 0.016059789923019707
+      },
+      {
+        "radius": 7,
+        "surviving_states": 249,
+        "elapsed_seconds": 0.023020801949314773
+      },
+      {
+        "radius": 8,
+        "surviving_states": 415,
+        "elapsed_seconds": 0.0310195479542017
+      },
+      {
+        "radius": 9,
+        "surviving_states": 130,
+        "elapsed_seconds": 0.042187785962596536
+      },
+      {
+        "radius": 10,
+        "surviving_states": 192,
+        "elapsed_seconds": 0.05190684390254319
+      },
+      {
+        "radius": 11,
+        "surviving_states": 230,
+        "elapsed_seconds": 0.05727354099508375
+      },
+      {
+        "radius": 12,
+        "surviving_states": 172,
+        "elapsed_seconds": 0.06623319198843092
+      },
+      {
+        "radius": 13,
+        "surviving_states": 0,
+        "elapsed_seconds": 0.07100349594838917
+      }
+    ],
+    "status": "empty"
+  },
+  {
+    "word": "00000011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003564810613170266
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000812698039226234
+      },
+      {
+        "radius": 3,
+        "surviving_states": 34,
+        "elapsed_seconds": 0.0016575930640101433
+      },
+      {
+        "radius": 4,
+        "surviving_states": 66,
+        "elapsed_seconds": 0.0025130349677056074
+      },
+      {
+        "radius": 5,
+        "surviving_states": 116,
+        "elapsed_seconds": 0.004223151016049087
+      },
+      {
+        "radius": 6,
+        "surviving_states": 204,
+        "elapsed_seconds": 0.009383599972352386
+      },
+      {
+        "radius": 7,
+        "surviving_states": 0,
+        "elapsed_seconds": 0.01607082597911358
+      }
+    ],
+    "status": "empty"
+  },
+  {
+    "word": "00000101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00033007992897182703
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0009129929821938276
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0017631968948990107
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0036708989646285772
+      },
+      {
+        "radius": 5,
+        "surviving_states": 180,
+        "elapsed_seconds": 0.007154198945499957
+      },
+      {
+        "radius": 6,
+        "surviving_states": 328,
+        "elapsed_seconds": 0.01274544291663915
+      },
+      {
+        "radius": 7,
+        "surviving_states": 351,
+        "elapsed_seconds": 0.02367341995704919
+      },
+      {
+        "radius": 8,
+        "surviving_states": 592,
+        "elapsed_seconds": 0.035895385895855725
+      },
+      {
+        "radius": 9,
+        "surviving_states": 943,
+        "elapsed_seconds": 0.056911962921731174
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1598,
+        "elapsed_seconds": 0.0900243679061532
+      },
+      {
+        "radius": 11,
+        "surviving_states": 2606,
+        "elapsed_seconds": 0.1597802519099787
+      },
+      {
+        "radius": 12,
+        "surviving_states": 4276,
+        "elapsed_seconds": 0.2712619089288637
+      },
+      {
+        "radius": 13,
+        "surviving_states": 5986,
+        "elapsed_seconds": 0.4491687569534406
+      },
+      {
+        "radius": 14,
+        "surviving_states": 9926,
+        "elapsed_seconds": 0.7433883299818262
+      },
+      {
+        "radius": 15,
+        "surviving_states": 15855,
+        "elapsed_seconds": 1.3625639489619061
+      },
+      {
+        "radius": 16,
+        "surviving_states": 24663,
+        "elapsed_seconds": 2.104527822928503
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00000111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003638840280473232
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008064110297709703
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0016322400188073516
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0032672040397301316
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.006323550944216549
+      },
+      {
+        "radius": 6,
+        "surviving_states": 310,
+        "elapsed_seconds": 0.011590720969252288
+      },
+      {
+        "radius": 7,
+        "surviving_states": 492,
+        "elapsed_seconds": 0.020635860040783882
+      },
+      {
+        "radius": 8,
+        "surviving_states": 788,
+        "elapsed_seconds": 0.03694191901013255
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1314,
+        "elapsed_seconds": 0.0691316929878667
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2152,
+        "elapsed_seconds": 0.1279049819568172
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3700,
+        "elapsed_seconds": 0.20019171095918864
+      },
+      {
+        "radius": 12,
+        "surviving_states": 6140,
+        "elapsed_seconds": 0.3482799689518288
+      },
+      {
+        "radius": 13,
+        "surviving_states": 9416,
+        "elapsed_seconds": 0.5709419769700617
+      },
+      {
+        "radius": 14,
+        "surviving_states": 15728,
+        "elapsed_seconds": 0.9660198870114982
+      },
+      {
+        "radius": 15,
+        "surviving_states": 25516,
+        "elapsed_seconds": 2.011214738013223
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00001001",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003534069983288646
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0009240279905498028
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0017492269398644567
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0032893440220505
+      },
+      {
+        "radius": 5,
+        "surviving_states": 136,
+        "elapsed_seconds": 0.006882018991746008
+      },
+      {
+        "radius": 6,
+        "surviving_states": 248,
+        "elapsed_seconds": 0.011112432926893234
+      },
+      {
+        "radius": 7,
+        "surviving_states": 424,
+        "elapsed_seconds": 0.0205732099711895
+      },
+      {
+        "radius": 8,
+        "surviving_states": 722,
+        "elapsed_seconds": 0.03522775194142014
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1202,
+        "elapsed_seconds": 0.06331199198029935
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1928,
+        "elapsed_seconds": 0.11209502094425261
+      },
+      {
+        "radius": 11,
+        "surviving_states": 2974,
+        "elapsed_seconds": 0.21274836699012667
+      },
+      {
+        "radius": 12,
+        "surviving_states": 5054,
+        "elapsed_seconds": 0.4684834589716047
+      },
+      {
+        "radius": 13,
+        "surviving_states": 7966,
+        "elapsed_seconds": 0.9106051569106057
+      },
+      {
+        "radius": 14,
+        "surviving_states": 12856,
+        "elapsed_seconds": 1.2982587829465047
+      },
+      {
+        "radius": 15,
+        "surviving_states": 21260,
+        "elapsed_seconds": 2.1156607199227437
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00001011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003745699068531394
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008346289396286011
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0016537519404664636
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.00332377792801708
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.006307347910478711
+      },
+      {
+        "radius": 6,
+        "surviving_states": 264,
+        "elapsed_seconds": 0.013104157987982035
+      },
+      {
+        "radius": 7,
+        "surviving_states": 324,
+        "elapsed_seconds": 0.021957157994620502
+      },
+      {
+        "radius": 8,
+        "surviving_states": 554,
+        "elapsed_seconds": 0.032225464936345816
+      },
+      {
+        "radius": 9,
+        "surviving_states": 682,
+        "elapsed_seconds": 0.04774124489631504
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1018,
+        "elapsed_seconds": 0.06927047297358513
+      },
+      {
+        "radius": 11,
+        "surviving_states": 1639,
+        "elapsed_seconds": 0.10692304791882634
+      },
+      {
+        "radius": 12,
+        "surviving_states": 2661,
+        "elapsed_seconds": 0.19040148297790438
+      },
+      {
+        "radius": 13,
+        "surviving_states": 4068,
+        "elapsed_seconds": 0.2868709299946204
+      },
+      {
+        "radius": 14,
+        "surviving_states": 6732,
+        "elapsed_seconds": 0.45331193692982197
+      },
+      {
+        "radius": 15,
+        "surviving_states": 11406,
+        "elapsed_seconds": 0.7336144449654967
+      },
+      {
+        "radius": 16,
+        "surviving_states": 19144,
+        "elapsed_seconds": 1.4299735139356926
+      },
+      {
+        "radius": 17,
+        "surviving_states": 32062,
+        "elapsed_seconds": 2.285305514000356
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00001101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003346889279782772
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0007001799531280994
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0014820069773122668
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.002849539974704385
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.005543399951420724
+      },
+      {
+        "radius": 6,
+        "surviving_states": 316,
+        "elapsed_seconds": 0.01065321289934218
+      },
+      {
+        "radius": 7,
+        "surviving_states": 506,
+        "elapsed_seconds": 0.022733675898052752
+      },
+      {
+        "radius": 8,
+        "surviving_states": 842,
+        "elapsed_seconds": 0.03736873192247003
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1330,
+        "elapsed_seconds": 0.06327923492062837
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2120,
+        "elapsed_seconds": 0.1063897229032591
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3328,
+        "elapsed_seconds": 0.1765309328911826
+      },
+      {
+        "radius": 12,
+        "surviving_states": 5660,
+        "elapsed_seconds": 0.2954331709770486
+      },
+      {
+        "radius": 13,
+        "surviving_states": 9284,
+        "elapsed_seconds": 0.4922017880016938
+      },
+      {
+        "radius": 14,
+        "surviving_states": 15608,
+        "elapsed_seconds": 0.9071867419406772
+      },
+      {
+        "radius": 15,
+        "surviving_states": 24884,
+        "elapsed_seconds": 1.571391306933947
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00001111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003379029221832752
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000698923016898334
+      },
+      {
+        "radius": 3,
+        "surviving_states": 36,
+        "elapsed_seconds": 0.00139309698715806
+      },
+      {
+        "radius": 4,
+        "surviving_states": 46,
+        "elapsed_seconds": 0.0021729680011048913
+      },
+      {
+        "radius": 5,
+        "surviving_states": 84,
+        "elapsed_seconds": 0.0031981299398466945
+      },
+      {
+        "radius": 6,
+        "surviving_states": 152,
+        "elapsed_seconds": 0.005057150963693857
+      },
+      {
+        "radius": 7,
+        "surviving_states": 256,
+        "elapsed_seconds": 0.008468930958770216
+      },
+      {
+        "radius": 8,
+        "surviving_states": 448,
+        "elapsed_seconds": 0.01501940400339663
+      },
+      {
+        "radius": 9,
+        "surviving_states": 770,
+        "elapsed_seconds": 0.057359869009815156
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1258,
+        "elapsed_seconds": 0.10650412796530873
+      },
+      {
+        "radius": 11,
+        "surviving_states": 2142,
+        "elapsed_seconds": 0.15252317395061255
+      },
+      {
+        "radius": 12,
+        "surviving_states": 3636,
+        "elapsed_seconds": 0.2376073789782822
+      },
+      {
+        "radius": 13,
+        "surviving_states": 6174,
+        "elapsed_seconds": 0.3802067139185965
+      },
+      {
+        "radius": 14,
+        "surviving_states": 10460,
+        "elapsed_seconds": 0.645973622915335
+      },
+      {
+        "radius": 15,
+        "surviving_states": 17376,
+        "elapsed_seconds": 1.067333392915316
+      },
+      {
+        "radius": 16,
+        "surviving_states": 28938,
+        "elapsed_seconds": 1.8716073560062796
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00010011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003770149778574705
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0007753309328109026
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.001508686924353242
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0029942559776827693
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.005781985935755074
+      },
+      {
+        "radius": 6,
+        "surviving_states": 268,
+        "elapsed_seconds": 0.011238640989176929
+      },
+      {
+        "radius": 7,
+        "surviving_states": 442,
+        "elapsed_seconds": 0.017935574986040592
+      },
+      {
+        "radius": 8,
+        "surviving_states": 744,
+        "elapsed_seconds": 0.029587897937744856
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1314,
+        "elapsed_seconds": 0.058961097965948284
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2256,
+        "elapsed_seconds": 0.12480994197539985
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3834,
+        "elapsed_seconds": 0.22495035792235285
+      },
+      {
+        "radius": 12,
+        "surviving_states": 6258,
+        "elapsed_seconds": 0.4457308549899608
+      },
+      {
+        "radius": 13,
+        "surviving_states": 10416,
+        "elapsed_seconds": 0.7080305989366025
+      },
+      {
+        "radius": 14,
+        "surviving_states": 17736,
+        "elapsed_seconds": 1.1738356339046732
+      },
+      {
+        "radius": 15,
+        "surviving_states": 29522,
+        "elapsed_seconds": 1.9274556019809097
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00010101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00035815697629004717
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0007992180762812495
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0015943159814924002
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0033015679800882936
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.006336961989291012
+      },
+      {
+        "radius": 6,
+        "surviving_states": 332,
+        "elapsed_seconds": 0.011450545978732407
+      },
+      {
+        "radius": 7,
+        "surviving_states": 582,
+        "elapsed_seconds": 0.022243167040869594
+      },
+      {
+        "radius": 8,
+        "surviving_states": 1002,
+        "elapsed_seconds": 0.044010560028254986
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1722,
+        "elapsed_seconds": 0.08789184002671391
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2868,
+        "elapsed_seconds": 0.16538951499387622
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4886,
+        "elapsed_seconds": 0.33759672299493104
+      },
+      {
+        "radius": 12,
+        "surviving_states": 8296,
+        "elapsed_seconds": 0.575845543993637
+      },
+      {
+        "radius": 13,
+        "surviving_states": 13046,
+        "elapsed_seconds": 0.9007872709771618
+      },
+      {
+        "radius": 14,
+        "surviving_states": 21788,
+        "elapsed_seconds": 1.449316433048807
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00010111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0004025079542770982
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008592139929533005
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0017404279205948114
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.003523948951624334
+      },
+      {
+        "radius": 5,
+        "surviving_states": 184,
+        "elapsed_seconds": 0.006889562937431037
+      },
+      {
+        "radius": 6,
+        "surviving_states": 310,
+        "elapsed_seconds": 0.012597932945936918
+      },
+      {
+        "radius": 7,
+        "surviving_states": 536,
+        "elapsed_seconds": 0.024598215939477086
+      },
+      {
+        "radius": 8,
+        "surviving_states": 900,
+        "elapsed_seconds": 0.041260545956902206
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1428,
+        "elapsed_seconds": 0.07055901293642819
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2370,
+        "elapsed_seconds": 0.11973148898687214
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3934,
+        "elapsed_seconds": 0.21487195591907948
+      },
+      {
+        "radius": 12,
+        "surviving_states": 6632,
+        "elapsed_seconds": 0.37357214896474034
+      },
+      {
+        "radius": 13,
+        "surviving_states": 11082,
+        "elapsed_seconds": 0.6521813039435074
+      },
+      {
+        "radius": 14,
+        "surviving_states": 18278,
+        "elapsed_seconds": 1.1132176419487223
+      },
+      {
+        "radius": 15,
+        "surviving_states": 29570,
+        "elapsed_seconds": 2.035888036014512
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00011001",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00045475002843886614
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0009062880417332053
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0018016800750046968
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0032681820448487997
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.005729882046580315
+      },
+      {
+        "radius": 6,
+        "surviving_states": 302,
+        "elapsed_seconds": 0.01009663101285696
+      },
+      {
+        "radius": 7,
+        "surviving_states": 494,
+        "elapsed_seconds": 0.01726011896971613
+      },
+      {
+        "radius": 8,
+        "surviving_states": 812,
+        "elapsed_seconds": 0.030751978047192097
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1398,
+        "elapsed_seconds": 0.05725496297236532
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2278,
+        "elapsed_seconds": 0.12976002297364175
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3780,
+        "elapsed_seconds": 0.23822989198379219
+      },
+      {
+        "radius": 12,
+        "surviving_states": 6050,
+        "elapsed_seconds": 0.3917737570591271
+      },
+      {
+        "radius": 13,
+        "surviving_states": 10184,
+        "elapsed_seconds": 0.609266935964115
+      },
+      {
+        "radius": 14,
+        "surviving_states": 17222,
+        "elapsed_seconds": 0.9909104669932276
+      },
+      {
+        "radius": 15,
+        "surviving_states": 27962,
+        "elapsed_seconds": 1.7072337820427492
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00011011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003421630244702101
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0007877630414441228
+      },
+      {
+        "radius": 3,
+        "surviving_states": 36,
+        "elapsed_seconds": 0.001666044001467526
+      },
+      {
+        "radius": 4,
+        "surviving_states": 68,
+        "elapsed_seconds": 0.0025895830476656556
+      },
+      {
+        "radius": 5,
+        "surviving_states": 120,
+        "elapsed_seconds": 0.004620280000381172
+      },
+      {
+        "radius": 6,
+        "surviving_states": 216,
+        "elapsed_seconds": 0.008445393992587924
+      },
+      {
+        "radius": 7,
+        "surviving_states": 374,
+        "elapsed_seconds": 0.014557878021150827
+      },
+      {
+        "radius": 8,
+        "surviving_states": 652,
+        "elapsed_seconds": 0.02629981003701687
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1130,
+        "elapsed_seconds": 0.05180333706084639
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1824,
+        "elapsed_seconds": 0.09974272700492293
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3078,
+        "elapsed_seconds": 0.17994473897852004
+      },
+      {
+        "radius": 12,
+        "surviving_states": 4688,
+        "elapsed_seconds": 0.31406725000124425
+      },
+      {
+        "radius": 13,
+        "surviving_states": 7696,
+        "elapsed_seconds": 0.5161285300273448
+      },
+      {
+        "radius": 14,
+        "surviving_states": 12654,
+        "elapsed_seconds": 0.8301080570090562
+      },
+      {
+        "radius": 15,
+        "surviving_states": 19932,
+        "elapsed_seconds": 1.323083920055069
+      },
+      {
+        "radius": 16,
+        "surviving_states": 31904,
+        "elapsed_seconds": 2.2427973550511524
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00011101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0004674619995057583
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0009067771025002003
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0017502059927210212
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0033233590656891465
+      },
+      {
+        "radius": 5,
+        "surviving_states": 184,
+        "elapsed_seconds": 0.0066122839925810695
+      },
+      {
+        "radius": 6,
+        "surviving_states": 322,
+        "elapsed_seconds": 0.011857384000904858
+      },
+      {
+        "radius": 7,
+        "surviving_states": 554,
+        "elapsed_seconds": 0.021534396102651954
+      },
+      {
+        "radius": 8,
+        "surviving_states": 944,
+        "elapsed_seconds": 0.04338601999916136
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1512,
+        "elapsed_seconds": 0.08307837205938995
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2340,
+        "elapsed_seconds": 0.16042225307319313
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3498,
+        "elapsed_seconds": 0.26563769904896617
+      },
+      {
+        "radius": 12,
+        "surviving_states": 5911,
+        "elapsed_seconds": 0.4171697950223461
+      },
+      {
+        "radius": 13,
+        "surviving_states": 9782,
+        "elapsed_seconds": 0.6655481430934742
+      },
+      {
+        "radius": 14,
+        "surviving_states": 16319,
+        "elapsed_seconds": 1.1755483340239152
+      },
+      {
+        "radius": 15,
+        "surviving_states": 24083,
+        "elapsed_seconds": 1.8423236249946058
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00011111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003578070318326354
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008520890260115266
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0016880451003089547
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0032974460627883673
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.006294636055827141
+      },
+      {
+        "radius": 6,
+        "surviving_states": 284,
+        "elapsed_seconds": 0.012097155093215406
+      },
+      {
+        "radius": 7,
+        "surviving_states": 458,
+        "elapsed_seconds": 0.020999395055696368
+      },
+      {
+        "radius": 8,
+        "surviving_states": 770,
+        "elapsed_seconds": 0.03939831105526537
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1314,
+        "elapsed_seconds": 0.08144543308299035
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2232,
+        "elapsed_seconds": 0.16298396803904325
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3826,
+        "elapsed_seconds": 0.2612467840081081
+      },
+      {
+        "radius": 12,
+        "surviving_states": 5106,
+        "elapsed_seconds": 0.44253971008583903
+      },
+      {
+        "radius": 13,
+        "surviving_states": 8053,
+        "elapsed_seconds": 0.6401541309896857
+      },
+      {
+        "radius": 14,
+        "surviving_states": 11100,
+        "elapsed_seconds": 0.9305305010639131
+      },
+      {
+        "radius": 15,
+        "surviving_states": 14541,
+        "elapsed_seconds": 1.3113657350186259
+      },
+      {
+        "radius": 16,
+        "surviving_states": 21967,
+        "elapsed_seconds": 1.8962421690812334
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00100101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00036660791374742985
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008232439868152142
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0016054200241342187
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0031341519206762314
+      },
+      {
+        "radius": 5,
+        "surviving_states": 182,
+        "elapsed_seconds": 0.006117512937635183
+      },
+      {
+        "radius": 6,
+        "surviving_states": 332,
+        "elapsed_seconds": 0.011143233976326883
+      },
+      {
+        "radius": 7,
+        "surviving_states": 542,
+        "elapsed_seconds": 0.021237281966023147
+      },
+      {
+        "radius": 8,
+        "surviving_states": 944,
+        "elapsed_seconds": 0.04207331291399896
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1638,
+        "elapsed_seconds": 0.07979880494531244
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2792,
+        "elapsed_seconds": 0.15155081392731518
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4538,
+        "elapsed_seconds": 0.3030318539822474
+      },
+      {
+        "radius": 12,
+        "surviving_states": 7412,
+        "elapsed_seconds": 0.4833704399643466
+      },
+      {
+        "radius": 13,
+        "surviving_states": 11956,
+        "elapsed_seconds": 0.7462378699565306
+      },
+      {
+        "radius": 14,
+        "surviving_states": 20010,
+        "elapsed_seconds": 1.2376453300239518
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00100111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003508930094540119
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000867106020450592
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0017256210558116436
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.003476595040410757
+      },
+      {
+        "radius": 5,
+        "surviving_states": 140,
+        "elapsed_seconds": 0.006569121032953262
+      },
+      {
+        "radius": 6,
+        "surviving_states": 238,
+        "elapsed_seconds": 0.010128200985491276
+      },
+      {
+        "radius": 7,
+        "surviving_states": 408,
+        "elapsed_seconds": 0.01611217309255153
+      },
+      {
+        "radius": 8,
+        "surviving_states": 708,
+        "elapsed_seconds": 0.032187259988859296
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1210,
+        "elapsed_seconds": 0.0679287810344249
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2070,
+        "elapsed_seconds": 0.12397447507828474
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3534,
+        "elapsed_seconds": 0.20923077408224344
+      },
+      {
+        "radius": 12,
+        "surviving_states": 5988,
+        "elapsed_seconds": 0.3552453110460192
+      },
+      {
+        "radius": 13,
+        "surviving_states": 10126,
+        "elapsed_seconds": 0.6396381980739534
+      },
+      {
+        "radius": 14,
+        "surviving_states": 16576,
+        "elapsed_seconds": 1.1759461620822549
+      },
+      {
+        "radius": 15,
+        "surviving_states": 27276,
+        "elapsed_seconds": 2.0021952320821583
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00101011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00030884798616170883
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000698923016898334
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0015403960132971406
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.004522499977611005
+      },
+      {
+        "radius": 5,
+        "surviving_states": 184,
+        "elapsed_seconds": 0.009306841995567083
+      },
+      {
+        "radius": 6,
+        "surviving_states": 306,
+        "elapsed_seconds": 0.014040617970749736
+      },
+      {
+        "radius": 7,
+        "surviving_states": 532,
+        "elapsed_seconds": 0.023381893057376146
+      },
+      {
+        "radius": 8,
+        "surviving_states": 930,
+        "elapsed_seconds": 0.045230653951875865
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1614,
+        "elapsed_seconds": 0.07795654598157853
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2746,
+        "elapsed_seconds": 0.1516180030303076
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4152,
+        "elapsed_seconds": 0.24835320399142802
+      },
+      {
+        "radius": 12,
+        "surviving_states": 6476,
+        "elapsed_seconds": 0.3922080439515412
+      },
+      {
+        "radius": 13,
+        "surviving_states": 10498,
+        "elapsed_seconds": 0.6076206569559872
+      },
+      {
+        "radius": 14,
+        "surviving_states": 17192,
+        "elapsed_seconds": 0.9569405950605869
+      },
+      {
+        "radius": 15,
+        "surviving_states": 26650,
+        "elapsed_seconds": 1.5585695259505883
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00101101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00031946308445185423
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000704231089912355
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.001417611027136445
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0027612580452114344
+      },
+      {
+        "radius": 5,
+        "surviving_states": 184,
+        "elapsed_seconds": 0.005510225077159703
+      },
+      {
+        "radius": 6,
+        "surviving_states": 320,
+        "elapsed_seconds": 0.01020272308960557
+      },
+      {
+        "radius": 7,
+        "surviving_states": 566,
+        "elapsed_seconds": 0.018791366019286215
+      },
+      {
+        "radius": 8,
+        "surviving_states": 990,
+        "elapsed_seconds": 0.03485080704558641
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1732,
+        "elapsed_seconds": 0.06785467604640871
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2908,
+        "elapsed_seconds": 0.1332175499992445
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4802,
+        "elapsed_seconds": 0.24295996699947864
+      },
+      {
+        "radius": 12,
+        "surviving_states": 7784,
+        "elapsed_seconds": 0.44884545204695314
+      },
+      {
+        "radius": 13,
+        "surviving_states": 12572,
+        "elapsed_seconds": 0.7521414529765025
+      },
+      {
+        "radius": 14,
+        "surviving_states": 19074,
+        "elapsed_seconds": 1.172827025060542
+      },
+      {
+        "radius": 15,
+        "surviving_states": 29142,
+        "elapsed_seconds": 1.7766060860594735
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00101111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003314770292490721
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0007221810519695282
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0014926230069249868
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.00323123496491462
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.006722216960042715
+      },
+      {
+        "radius": 6,
+        "surviving_states": 220,
+        "elapsed_seconds": 0.01207082497421652
+      },
+      {
+        "radius": 7,
+        "surviving_states": 332,
+        "elapsed_seconds": 0.01895989803597331
+      },
+      {
+        "radius": 8,
+        "surviving_states": 588,
+        "elapsed_seconds": 0.02953055698890239
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1032,
+        "elapsed_seconds": 0.046756383031606674
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1736,
+        "elapsed_seconds": 0.07959709805436432
+      },
+      {
+        "radius": 11,
+        "surviving_states": 2644,
+        "elapsed_seconds": 0.15449450304731727
+      },
+      {
+        "radius": 12,
+        "surviving_states": 4308,
+        "elapsed_seconds": 0.26226684695575386
+      },
+      {
+        "radius": 13,
+        "surviving_states": 6920,
+        "elapsed_seconds": 0.45037977199535817
+      },
+      {
+        "radius": 14,
+        "surviving_states": 11414,
+        "elapsed_seconds": 0.6848714359803125
+      },
+      {
+        "radius": 15,
+        "surviving_states": 19110,
+        "elapsed_seconds": 1.1222333760233596
+      },
+      {
+        "radius": 16,
+        "surviving_states": 31300,
+        "elapsed_seconds": 1.9079180989647284
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00110101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0004916969919577241
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008780009811744094
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0014892700128257275
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0025619249790906906
+      },
+      {
+        "radius": 5,
+        "surviving_states": 184,
+        "elapsed_seconds": 0.004656389006413519
+      },
+      {
+        "radius": 6,
+        "surviving_states": 320,
+        "elapsed_seconds": 0.007998815039172769
+      },
+      {
+        "radius": 7,
+        "surviving_states": 546,
+        "elapsed_seconds": 0.014353935024701059
+      },
+      {
+        "radius": 8,
+        "surviving_states": 888,
+        "elapsed_seconds": 0.027456626994535327
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1530,
+        "elapsed_seconds": 0.05463192402385175
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2676,
+        "elapsed_seconds": 0.11553767195437104
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4378,
+        "elapsed_seconds": 0.20805621694307774
+      },
+      {
+        "radius": 12,
+        "surviving_states": 7372,
+        "elapsed_seconds": 0.3576154470210895
+      },
+      {
+        "radius": 13,
+        "surviving_states": 8718,
+        "elapsed_seconds": 0.6009730319492519
+      },
+      {
+        "radius": 14,
+        "surviving_states": 11346,
+        "elapsed_seconds": 0.8725977069698274
+      },
+      {
+        "radius": 15,
+        "surviving_states": 19194,
+        "elapsed_seconds": 1.2628995149862021
+      },
+      {
+        "radius": 16,
+        "surviving_states": 31750,
+        "elapsed_seconds": 2.021254168008454
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00110111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.000249341013841331
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0006964789936318994
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0012052180245518684
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.002339544938877225
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.004765414982102811
+      },
+      {
+        "radius": 6,
+        "surviving_states": 296,
+        "elapsed_seconds": 0.008109027985483408
+      },
+      {
+        "radius": 7,
+        "surviving_states": 484,
+        "elapsed_seconds": 0.0152005780255422
+      },
+      {
+        "radius": 8,
+        "surviving_states": 844,
+        "elapsed_seconds": 0.026666978024877608
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1432,
+        "elapsed_seconds": 0.0503179079387337
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2522,
+        "elapsed_seconds": 0.10335775197017938
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4166,
+        "elapsed_seconds": 0.1940203489502892
+      },
+      {
+        "radius": 12,
+        "surviving_states": 7054,
+        "elapsed_seconds": 0.34285558201372623
+      },
+      {
+        "radius": 13,
+        "surviving_states": 11502,
+        "elapsed_seconds": 0.582194029004313
+      },
+      {
+        "radius": 14,
+        "surviving_states": 18816,
+        "elapsed_seconds": 0.9646211339859292
+      },
+      {
+        "radius": 15,
+        "surviving_states": 29750,
+        "elapsed_seconds": 1.5985219760332257
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00111011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00031080294866114855
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000670216977596283
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0013936549657955766
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.00271907402202487
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.005400500958785415
+      },
+      {
+        "radius": 6,
+        "surviving_states": 284,
+        "elapsed_seconds": 0.010470433975569904
+      },
+      {
+        "radius": 7,
+        "surviving_states": 490,
+        "elapsed_seconds": 0.01829533895943314
+      },
+      {
+        "radius": 8,
+        "surviving_states": 816,
+        "elapsed_seconds": 0.037153264973312616
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1414,
+        "elapsed_seconds": 0.0723242349922657
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2416,
+        "elapsed_seconds": 0.13137738697696477
+      },
+      {
+        "radius": 11,
+        "surviving_states": 3914,
+        "elapsed_seconds": 0.23666519101243466
+      },
+      {
+        "radius": 12,
+        "surviving_states": 6180,
+        "elapsed_seconds": 0.3796546009834856
+      },
+      {
+        "radius": 13,
+        "surviving_states": 10246,
+        "elapsed_seconds": 0.6401396039873362
+      },
+      {
+        "radius": 14,
+        "surviving_states": 16756,
+        "elapsed_seconds": 1.0495481209363788
+      },
+      {
+        "radius": 15,
+        "surviving_states": 27082,
+        "elapsed_seconds": 1.633348059025593
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00111101",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.000279861968010664
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0005459659732878208
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.001282045035623014
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.002782630966976285
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.005289030959829688
+      },
+      {
+        "radius": 6,
+        "surviving_states": 292,
+        "elapsed_seconds": 0.009847569977864623
+      },
+      {
+        "radius": 7,
+        "surviving_states": 488,
+        "elapsed_seconds": 0.01588944299146533
+      },
+      {
+        "radius": 8,
+        "surviving_states": 836,
+        "elapsed_seconds": 0.0281873979838565
+      },
+      {
+        "radius": 9,
+        "surviving_states": 982,
+        "elapsed_seconds": 0.05080031603574753
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1249,
+        "elapsed_seconds": 0.07931283500511199
+      },
+      {
+        "radius": 11,
+        "surviving_states": 1916,
+        "elapsed_seconds": 0.12037376896478236
+      },
+      {
+        "radius": 12,
+        "surviving_states": 3197,
+        "elapsed_seconds": 0.19627971295267344
+      },
+      {
+        "radius": 13,
+        "surviving_states": 4999,
+        "elapsed_seconds": 0.33417271997313946
+      },
+      {
+        "radius": 14,
+        "surviving_states": 8188,
+        "elapsed_seconds": 0.5502715449547395
+      },
+      {
+        "radius": 15,
+        "surviving_states": 12773,
+        "elapsed_seconds": 0.8420105599798262
+      },
+      {
+        "radius": 16,
+        "surviving_states": 19255,
+        "elapsed_seconds": 1.2729910479392856
+      },
+      {
+        "radius": 17,
+        "surviving_states": 28289,
+        "elapsed_seconds": 2.0083372599910945
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "00111111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00028419296722859144
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0005515540251508355
+      },
+      {
+        "radius": 3,
+        "surviving_states": 38,
+        "elapsed_seconds": 0.0010632959892973304
+      },
+      {
+        "radius": 4,
+        "surviving_states": 70,
+        "elapsed_seconds": 0.0016461389604955912
+      },
+      {
+        "radius": 5,
+        "surviving_states": 124,
+        "elapsed_seconds": 0.002924971980974078
+      },
+      {
+        "radius": 6,
+        "surviving_states": 190,
+        "elapsed_seconds": 0.005982646020129323
+      },
+      {
+        "radius": 7,
+        "surviving_states": 334,
+        "elapsed_seconds": 0.009531039977446198
+      },
+      {
+        "radius": 8,
+        "surviving_states": 253,
+        "elapsed_seconds": 0.015538619947619736
+      },
+      {
+        "radius": 9,
+        "surviving_states": 331,
+        "elapsed_seconds": 0.019785307929851115
+      },
+      {
+        "radius": 10,
+        "surviving_states": 502,
+        "elapsed_seconds": 0.02658351499121636
+      },
+      {
+        "radius": 11,
+        "surviving_states": 740,
+        "elapsed_seconds": 0.03737634501885623
+      },
+      {
+        "radius": 12,
+        "surviving_states": 1157,
+        "elapsed_seconds": 0.05842910101637244
+      },
+      {
+        "radius": 13,
+        "surviving_states": 1814,
+        "elapsed_seconds": 0.09594967297744006
+      },
+      {
+        "radius": 14,
+        "surviving_states": 2700,
+        "elapsed_seconds": 0.16655387403443456
+      },
+      {
+        "radius": 15,
+        "surviving_states": 3916,
+        "elapsed_seconds": 0.2561292889295146
+      },
+      {
+        "radius": 16,
+        "surviving_states": 4739,
+        "elapsed_seconds": 0.39885238592978567
+      },
+      {
+        "radius": 17,
+        "surviving_states": 6686,
+        "elapsed_seconds": 0.5786773440195248
+      },
+      {
+        "radius": 18,
+        "surviving_states": 9310,
+        "elapsed_seconds": 0.7923644760157913
+      },
+      {
+        "radius": 19,
+        "surviving_states": 10624,
+        "elapsed_seconds": 1.074608210939914
+      },
+      {
+        "radius": 20,
+        "surviving_states": 14278,
+        "elapsed_seconds": 1.4239941509440541
+      },
+      {
+        "radius": 21,
+        "surviving_states": 18851,
+        "elapsed_seconds": 1.9055529229808599
+      },
+      {
+        "radius": 22,
+        "surviving_states": 14772,
+        "elapsed_seconds": 2.453220146941021
+      },
+      {
+        "radius": 23,
+        "surviving_states": 18374,
+        "elapsed_seconds": 2.961824937025085
+      },
+      {
+        "radius": 24,
+        "surviving_states": 22540,
+        "elapsed_seconds": 3.5808691809652373
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "01010111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0003088470548391342
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0006745470454916358
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.001423338078893721
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.002746033016592264
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.0057032720651477575
+      },
+      {
+        "radius": 6,
+        "surviving_states": 326,
+        "elapsed_seconds": 0.010843606083653867
+      },
+      {
+        "radius": 7,
+        "surviving_states": 580,
+        "elapsed_seconds": 0.01889138203114271
+      },
+      {
+        "radius": 8,
+        "surviving_states": 1030,
+        "elapsed_seconds": 0.03482280008029193
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1638,
+        "elapsed_seconds": 0.07064764411188662
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2818,
+        "elapsed_seconds": 0.13814067200291902
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4774,
+        "elapsed_seconds": 0.255425546085462
+      },
+      {
+        "radius": 12,
+        "surviving_states": 8076,
+        "elapsed_seconds": 0.48484651010949165
+      },
+      {
+        "radius": 13,
+        "surviving_states": 13496,
+        "elapsed_seconds": 0.8111625470919535
+      },
+      {
+        "radius": 14,
+        "surviving_states": 22246,
+        "elapsed_seconds": 1.547059404081665
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "01011011",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00042723200749605894
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0008642419707030058
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.001602976000867784
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0033001010306179523
+      },
+      {
+        "radius": 5,
+        "surviving_states": 186,
+        "elapsed_seconds": 0.006665854016318917
+      },
+      {
+        "radius": 6,
+        "surviving_states": 308,
+        "elapsed_seconds": 0.012035624007694423
+      },
+      {
+        "radius": 7,
+        "surviving_states": 556,
+        "elapsed_seconds": 0.01986758306156844
+      },
+      {
+        "radius": 8,
+        "surviving_states": 982,
+        "elapsed_seconds": 0.038637647056020796
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1722,
+        "elapsed_seconds": 0.07170563202816993
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2838,
+        "elapsed_seconds": 0.13695794402156025
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4802,
+        "elapsed_seconds": 0.24338943406473845
+      },
+      {
+        "radius": 12,
+        "surviving_states": 8048,
+        "elapsed_seconds": 0.4382640380645171
+      },
+      {
+        "radius": 13,
+        "surviving_states": 12954,
+        "elapsed_seconds": 0.7151296910597011
+      },
+      {
+        "radius": 14,
+        "surviving_states": 17804,
+        "elapsed_seconds": 1.1646517160115764
+      },
+      {
+        "radius": 15,
+        "surviving_states": 27926,
+        "elapsed_seconds": 1.8148922809632495
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "01011111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0002507379977032542
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0006607889663428068
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.0013626449508592486
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.0026516049401834607
+      },
+      {
+        "radius": 5,
+        "surviving_states": 188,
+        "elapsed_seconds": 0.005177282029762864
+      },
+      {
+        "radius": 6,
+        "surviving_states": 294,
+        "elapsed_seconds": 0.009377244976349175
+      },
+      {
+        "radius": 7,
+        "surviving_states": 512,
+        "elapsed_seconds": 0.016161413048394024
+      },
+      {
+        "radius": 8,
+        "surviving_states": 908,
+        "elapsed_seconds": 0.032013001036830246
+      },
+      {
+        "radius": 9,
+        "surviving_states": 1540,
+        "elapsed_seconds": 0.06861590000335127
+      },
+      {
+        "radius": 10,
+        "surviving_states": 2626,
+        "elapsed_seconds": 0.13548808998893946
+      },
+      {
+        "radius": 11,
+        "surviving_states": 4392,
+        "elapsed_seconds": 0.24732504005078226
+      },
+      {
+        "radius": 12,
+        "surviving_states": 7262,
+        "elapsed_seconds": 0.413960631005466
+      },
+      {
+        "radius": 13,
+        "surviving_states": 12012,
+        "elapsed_seconds": 0.6505121870432049
+      },
+      {
+        "radius": 14,
+        "surviving_states": 19824,
+        "elapsed_seconds": 1.042321425047703
+      },
+      {
+        "radius": 15,
+        "surviving_states": 33318,
+        "elapsed_seconds": 1.7913183190394193
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "01101111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.00040872395038604736
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.000673291040584445
+      },
+      {
+        "radius": 3,
+        "surviving_states": 38,
+        "elapsed_seconds": 0.0013029989786446095
+      },
+      {
+        "radius": 4,
+        "surviving_states": 70,
+        "elapsed_seconds": 0.0018934550462290645
+      },
+      {
+        "radius": 5,
+        "surviving_states": 124,
+        "elapsed_seconds": 0.0031065649818629026
+      },
+      {
+        "radius": 6,
+        "surviving_states": 208,
+        "elapsed_seconds": 0.0055517120053991675
+      },
+      {
+        "radius": 7,
+        "surviving_states": 374,
+        "elapsed_seconds": 0.009587613050825894
+      },
+      {
+        "radius": 8,
+        "surviving_states": 656,
+        "elapsed_seconds": 0.016757108038291335
+      },
+      {
+        "radius": 9,
+        "surviving_states": 992,
+        "elapsed_seconds": 0.03332633594982326
+      },
+      {
+        "radius": 10,
+        "surviving_states": 1678,
+        "elapsed_seconds": 0.06693316297605634
+      },
+      {
+        "radius": 11,
+        "surviving_states": 2834,
+        "elapsed_seconds": 0.13336352398619056
+      },
+      {
+        "radius": 12,
+        "surviving_states": 4782,
+        "elapsed_seconds": 0.24116045201662928
+      },
+      {
+        "radius": 13,
+        "surviving_states": 7800,
+        "elapsed_seconds": 0.4138717199675739
+      },
+      {
+        "radius": 14,
+        "surviving_states": 12126,
+        "elapsed_seconds": 0.6941814220044762
+      },
+      {
+        "radius": 15,
+        "surviving_states": 18708,
+        "elapsed_seconds": 1.0836522330064327
+      },
+      {
+        "radius": 16,
+        "surviving_states": 29942,
+        "elapsed_seconds": 1.7577185459667817
+      }
+    ],
+    "status": "cap"
+  },
+  {
+    "word": "01111111",
+    "primitive_period": 8,
+    "scan": [
+      {
+        "radius": 1,
+        "surviving_states": 16,
+        "elapsed_seconds": 0.0002484329743310809
+      },
+      {
+        "radius": 2,
+        "surviving_states": 32,
+        "elapsed_seconds": 0.0006183929508551955
+      },
+      {
+        "radius": 3,
+        "surviving_states": 64,
+        "elapsed_seconds": 0.00125969504006207
+      },
+      {
+        "radius": 4,
+        "surviving_states": 112,
+        "elapsed_seconds": 0.002279968000948429
+      },
+      {
+        "radius": 5,
+        "surviving_states": 190,
+        "elapsed_seconds": 0.004955108975991607
+      },
+      {
+        "radius": 6,
+        "surviving_states": 0,
+        "elapsed_seconds": 0.009562887949869037
+      }
+    ],
+    "status": "empty"
+  }
+]

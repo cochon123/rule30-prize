@@ -1,0 +1,489 @@
+{
+  "model": {
+    "gate": "one internal gate per evolved cell a XOR (b OR c)",
+    "free": "seed t=0 and vacuum |j|>t",
+    "XOR_always_needs_a": true,
+    "OR_one_1_suffices": true,
+    "OR_0_needs_both": true,
+    "sharing": "each selected gate charged once",
+    "C_n": "min selected internal gates for a certificate of c_n"
+  },
+  "kill_criterion": {
+    "retire_if_lb_exceeds_0_1_n2_at_128_and_256": true,
+    "retire_if_savings_need_uncharged_oracle": true,
+    "finite_cutoff_not_a_complexity_lower_bound": true
+  },
+  "tiny_exact_checks": [
+    {
+      "n": 4,
+      "C_n": 9,
+      "lb": 6,
+      "oracle_overlap": 9,
+      "executable_left": 10,
+      "n2": 16
+    },
+    {
+      "n": 8,
+      "C_n": 37,
+      "lb": 37,
+      "oracle_overlap": 37,
+      "executable_left": 40,
+      "n2": 64
+    },
+    {
+      "n": 12,
+      "C_n": 71,
+      "lb": 62,
+      "oracle_overlap": 77,
+      "executable_left": 72,
+      "n2": 144
+    },
+    {
+      "n": 16,
+      "C_n": 107,
+      "lb": 107,
+      "oracle_overlap": 116,
+      "executable_left": 107,
+      "n2": 256
+    }
+  ],
+  "results": [
+    {
+      "n": 32,
+      "n2": 1024,
+      "light_cone_internal": 544,
+      "kill_threshold": 102.4,
+      "center": 0,
+      "verify": {
+        "update_checked": 1088,
+        "update_failures": 0,
+        "center_failures": 0,
+        "light_cone_internal": 544,
+        "full_triangle_internal": 1024,
+        "n2": 1024
+      },
+      "or_kind_in_cone": {
+        "c": 129,
+        "b": 125,
+        "both0": 136,
+        "either": 154
+      },
+      "lower": {
+        "forced": 416,
+        "eleven_in_forced_with_internal_witness": 3,
+        "eleven_both_witnesses_internal": 3,
+        "matching_extra": 3,
+        "greedy_matching_extra": 3,
+        "certified_lb": 419
+      },
+      "C_n_exact": 474,
+      "C_n_certified_lb": 419,
+      "C_n_ub": 474,
+      "lb_over_n2": 0.4091796875,
+      "ub_over_n2": 0.462890625,
+      "lb_over_cone": 0.7702205882352942,
+      "ub_over_cone": 0.8713235294117647,
+      "kill_lb_exceeds_0_1_n2": true,
+      "executable": [
+        {
+          "prefer": "left",
+          "value": 0,
+          "gates": 478,
+          "memo_internal": 478,
+          "seconds": 0.0007
+        },
+        {
+          "prefer": "right",
+          "value": 0,
+          "gates": 544,
+          "memo_internal": 544,
+          "seconds": 0.0008
+        },
+        {
+          "prefer": "rightedge",
+          "value": 0,
+          "gates": 544,
+          "memo_internal": 544,
+          "seconds": 0.0009
+        },
+        {
+          "prefer": "leftedge",
+          "value": 0,
+          "gates": 478,
+          "memo_internal": 478,
+          "seconds": 0.0008
+        }
+      ],
+      "executable_edge_lemmas": {
+        "prefer": "left_plus_edge_lemmas",
+        "value": 0,
+        "gates": 450,
+        "memo_internal": 450,
+        "seconds": 0.0006
+      },
+      "executable_best_gates": 478,
+      "executable_best_prefer": "left",
+      "oracle_greedy": [
+        {
+          "prefer": "left",
+          "gates": 474,
+          "value": 0,
+          "seconds": 0.0016,
+          "oracle_cells_touched": 474
+        },
+        {
+          "prefer": "right",
+          "gates": 514,
+          "value": 0,
+          "seconds": 0.0016,
+          "oracle_cells_touched": 514
+        },
+        {
+          "prefer": "overlap",
+          "gates": 489,
+          "value": 0,
+          "seconds": 0.0173,
+          "oracle_cells_touched": 489
+        }
+      ],
+      "oracle_best_gates": 474,
+      "gap_oracle_vs_executable": 4,
+      "gap_lb_vs_oracle": 55,
+      "exact_search": {
+        "C_n": 474,
+        "upper_after_search": 474,
+        "nodes": 39,
+        "timed_out": false,
+        "seconds": 0.0915,
+        "certificate_size_if_any": null
+      },
+      "seconds": 0.1231
+    },
+    {
+      "n": 64,
+      "n2": 4096,
+      "light_cone_internal": 2112,
+      "kill_threshold": 409.6,
+      "center": 1,
+      "verify": {
+        "update_checked": 4224,
+        "update_failures": 0,
+        "center_failures": 0,
+        "light_cone_internal": 2112,
+        "full_triangle_internal": 4096,
+        "n2": 4096
+      },
+      "or_kind_in_cone": {
+        "c": 508,
+        "b": 501,
+        "both0": 532,
+        "either": 571
+      },
+      "lower": {
+        "forced": 1631,
+        "eleven_in_forced_with_internal_witness": 4,
+        "eleven_both_witnesses_internal": 4,
+        "matching_extra": 4,
+        "greedy_matching_extra": 4,
+        "certified_lb": 1635
+      },
+      "C_n_exact": null,
+      "C_n_certified_lb": 1635,
+      "C_n_ub": 1824,
+      "lb_over_n2": 0.399169921875,
+      "ub_over_n2": 0.4453125,
+      "lb_over_cone": 0.7741477272727273,
+      "ub_over_cone": 0.8636363636363636,
+      "kill_lb_exceeds_0_1_n2": true,
+      "executable": [
+        {
+          "prefer": "left",
+          "value": 1,
+          "gates": 1827,
+          "memo_internal": 1827,
+          "seconds": 0.0029
+        },
+        {
+          "prefer": "right",
+          "value": 1,
+          "gates": 2112,
+          "memo_internal": 2112,
+          "seconds": 0.0036
+        },
+        {
+          "prefer": "rightedge",
+          "value": 1,
+          "gates": 2112,
+          "memo_internal": 2112,
+          "seconds": 0.0037
+        },
+        {
+          "prefer": "leftedge",
+          "value": 1,
+          "gates": 1827,
+          "memo_internal": 1827,
+          "seconds": 0.0035
+        }
+      ],
+      "executable_edge_lemmas": {
+        "prefer": "left_plus_edge_lemmas",
+        "value": 1,
+        "gates": 1771,
+        "memo_internal": 1771,
+        "seconds": 0.0027
+      },
+      "executable_best_gates": 1827,
+      "executable_best_prefer": "left",
+      "oracle_greedy": [
+        {
+          "prefer": "left",
+          "gates": 1824,
+          "value": 1,
+          "seconds": 0.0063,
+          "oracle_cells_touched": 1824
+        },
+        {
+          "prefer": "right",
+          "gates": 1974,
+          "value": 1,
+          "seconds": 0.0067,
+          "oracle_cells_touched": 1974
+        },
+        {
+          "prefer": "overlap",
+          "gates": 1833,
+          "value": 1,
+          "seconds": 0.1158,
+          "oracle_cells_touched": 1833
+        }
+      ],
+      "oracle_best_gates": 1824,
+      "gap_oracle_vs_executable": 3,
+      "gap_lb_vs_oracle": 189,
+      "exact_search": {
+        "C_n": null,
+        "upper_after_search": 1824,
+        "nodes": 2475,
+        "timed_out": true,
+        "seconds": 25.0088,
+        "certificate_size_if_any": null
+      },
+      "seconds": 25.1797
+    },
+    {
+      "n": 128,
+      "n2": 16384,
+      "light_cone_internal": 8320,
+      "kill_threshold": 1638.4,
+      "center": 1,
+      "verify": {
+        "update_checked": 16640,
+        "update_failures": 0,
+        "center_failures": 0,
+        "light_cone_internal": 8320,
+        "full_triangle_internal": 16384,
+        "n2": 16384
+      },
+      "or_kind_in_cone": {
+        "c": 2078,
+        "b": 2067,
+        "both0": 2022,
+        "either": 2153
+      },
+      "lower": {
+        "forced": 6429,
+        "eleven_in_forced_with_internal_witness": 9,
+        "eleven_both_witnesses_internal": 9,
+        "matching_extra": 9,
+        "greedy_matching_extra": 9,
+        "certified_lb": 6438
+      },
+      "C_n_exact": null,
+      "C_n_certified_lb": 6438,
+      "C_n_ub": 6580,
+      "lb_over_n2": 0.3929443359375,
+      "ub_over_n2": 0.401611328125,
+      "lb_over_cone": 0.7737980769230769,
+      "ub_over_cone": 0.7908653846153846,
+      "kill_lb_exceeds_0_1_n2": true,
+      "executable": [
+        {
+          "prefer": "left",
+          "value": 1,
+          "gates": 6587,
+          "memo_internal": 6587,
+          "seconds": 0.0148
+        },
+        {
+          "prefer": "right",
+          "value": 1,
+          "gates": 8317,
+          "memo_internal": 8317,
+          "seconds": 0.0145
+        },
+        {
+          "prefer": "rightedge",
+          "value": 1,
+          "gates": 8317,
+          "memo_internal": 8317,
+          "seconds": 0.0166
+        },
+        {
+          "prefer": "leftedge",
+          "value": 1,
+          "gates": 6587,
+          "memo_internal": 6587,
+          "seconds": 0.0124
+        }
+      ],
+      "executable_edge_lemmas": {
+        "prefer": "left_plus_edge_lemmas",
+        "value": 1,
+        "gates": 6486,
+        "memo_internal": 6486,
+        "seconds": 0.0091
+      },
+      "executable_best_gates": 6587,
+      "executable_best_prefer": "left",
+      "oracle_greedy": [
+        {
+          "prefer": "left",
+          "gates": 6580,
+          "value": 1,
+          "seconds": 0.0243,
+          "oracle_cells_touched": 6580
+        },
+        {
+          "prefer": "right",
+          "gates": 7180,
+          "value": 1,
+          "seconds": 0.0229,
+          "oracle_cells_touched": 7180
+        }
+      ],
+      "oracle_best_gates": 6580,
+      "gap_oracle_vs_executable": 7,
+      "gap_lb_vs_oracle": 142,
+      "exact_search": {
+        "C_n": null,
+        "upper_after_search": 6580,
+        "nodes": 736,
+        "timed_out": true,
+        "seconds": 30.0357,
+        "certificate_size_if_any": null
+      },
+      "seconds": 30.2476
+    },
+    {
+      "n": 256,
+      "n2": 65536,
+      "light_cone_internal": 33024,
+      "kill_threshold": 6553.6,
+      "center": 1,
+      "verify": {
+        "update_checked": 66048,
+        "update_failures": 0,
+        "center_failures": 0,
+        "light_cone_internal": 33024,
+        "full_triangle_internal": 65536,
+        "n2": 65536
+      },
+      "or_kind_in_cone": {
+        "c": 8225,
+        "b": 8228,
+        "both0": 8192,
+        "either": 8379
+      },
+      "lower": {
+        "forced": 27121,
+        "eleven_in_forced_with_internal_witness": 18,
+        "eleven_both_witnesses_internal": 18,
+        "matching_extra": 18,
+        "greedy_matching_extra": 18,
+        "certified_lb": 27139
+      },
+      "C_n_exact": null,
+      "C_n_certified_lb": 27139,
+      "C_n_ub": 27490,
+      "lb_over_n2": 0.4141082763671875,
+      "ub_over_n2": 0.419464111328125,
+      "lb_over_cone": 0.821796269379845,
+      "ub_over_cone": 0.8324249031007752,
+      "kill_lb_exceeds_0_1_n2": true,
+      "executable": [
+        {
+          "prefer": "left",
+          "value": 1,
+          "gates": 27501,
+          "memo_internal": 27501,
+          "seconds": 0.0556
+        },
+        {
+          "prefer": "right",
+          "value": 1,
+          "gates": 33024,
+          "memo_internal": 33024,
+          "seconds": 0.0668
+        },
+        {
+          "prefer": "rightedge",
+          "value": 1,
+          "gates": 33024,
+          "memo_internal": 33024,
+          "seconds": 0.0812
+        },
+        {
+          "prefer": "leftedge",
+          "value": 1,
+          "gates": 27501,
+          "memo_internal": 27501,
+          "seconds": 0.0658
+        }
+      ],
+      "executable_edge_lemmas": {
+        "prefer": "left_plus_edge_lemmas",
+        "value": 1,
+        "gates": 27287,
+        "memo_internal": 27287,
+        "seconds": 0.0468
+      },
+      "executable_best_gates": 27501,
+      "executable_best_prefer": "left",
+      "oracle_greedy": [
+        {
+          "prefer": "left",
+          "gates": 27490,
+          "value": 1,
+          "seconds": 0.1112,
+          "oracle_cells_touched": 27490
+        },
+        {
+          "prefer": "right",
+          "gates": 29830,
+          "value": 1,
+          "seconds": 0.1133,
+          "oracle_cells_touched": 29830
+        }
+      ],
+      "oracle_best_gates": 27490,
+      "gap_oracle_vs_executable": 11,
+      "gap_lb_vs_oracle": 351,
+      "exact_search": {
+        "C_n": null,
+        "upper_after_search": 27490,
+        "nodes": 253,
+        "timed_out": true,
+        "seconds": 45.3015,
+        "certificate_size_if_any": null
+      },
+      "seconds": 46.2548
+    }
+  ],
+  "both_n128_n256_lb_exceed_threshold": true,
+  "oracle_only_savings_flag": false,
+  "executable_below_half_n2": true,
+  "executable_below_half_cone": false,
+  "retired": true,
+  "prize_claim": false,
+  "total_seconds": 101.8129
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "word": "000001",
+    "radius": 16,
+    "states": 30088,
+    "excluded": false,
+    "seconds": 2.023
+  },
+  {
+    "word": "000011",
+    "radius": 16,
+    "states": 24484,
+    "excluded": false,
+    "seconds": 1.436
+  },
+  {
+    "word": "000101",
+    "radius": 15,
+    "states": 26648,
+    "excluded": false,
+    "seconds": 1.538
+  },
+  {
+    "word": "000111",
+    "radius": 15,
+    "states": 20724,
+    "excluded": false,
+    "seconds": 1.159
+  },
+  {
+    "word": "001011",
+    "radius": 15,
+    "states": 20176,
+    "excluded": false,
+    "seconds": 1.28
+  },
+  {
+    "word": "001101",
+    "radius": 15,
+    "states": 24140,
+    "excluded": false,
+    "seconds": 1.545
+  },
+  {
+    "word": "001111",
+    "radius": 17,
+    "states": 30588,
+    "excluded": false,
+    "seconds": 2.26
+  },
+  {
+    "word": "010111",
+    "radius": 16,
+    "states": 31900,
+    "excluded": false,
+    "seconds": 2.109
+  },
+  {
+    "word": "011111",
+    "radius": 15,
+    "states": 22744,
+    "excluded": false,
+    "seconds": 2.253
+  }
+]

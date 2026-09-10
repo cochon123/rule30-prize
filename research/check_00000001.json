@@ -1,0 +1,274 @@
+[
+  {
+    "radius": 1,
+    "word": "00000001",
+    "surviving_states": 16,
+    "surviving_edges": 32,
+    "components": [
+      {
+        "size": 16,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 2,
+    "word": "00000001",
+    "surviving_states": 32,
+    "surviving_edges": 64,
+    "components": [
+      {
+        "size": 32,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 3,
+    "word": "00000001",
+    "surviving_states": 64,
+    "surviving_edges": 128,
+    "components": [
+      {
+        "size": 64,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 4,
+    "word": "00000001",
+    "surviving_states": 112,
+    "surviving_edges": 224,
+    "components": [
+      {
+        "size": 112,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 5,
+    "word": "00000001",
+    "surviving_states": 116,
+    "surviving_edges": 214,
+    "components": [
+      {
+        "size": 64,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      },
+      {
+        "size": 14,
+        "period": 8,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      },
+      {
+        "size": 52,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 6,
+    "word": "00000001",
+    "surviving_states": 189,
+    "surviving_edges": 350,
+    "components": [
+      {
+        "size": 98,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      },
+      {
+        "size": 91,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 7,
+    "word": "00000001",
+    "surviving_states": 249,
+    "surviving_edges": 478,
+    "components": [
+      {
+        "size": 79,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      },
+      {
+        "size": 170,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 8,
+    "word": "00000001",
+    "surviving_states": 415,
+    "surviving_edges": 807,
+    "components": [
+      {
+        "size": 298,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      },
+      {
+        "size": 117,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 9,
+    "word": "00000001",
+    "surviving_states": 130,
+    "surviving_edges": 229,
+    "components": [
+      {
+        "size": 130,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      },
+      {
+        "size": 46,
+        "period": 16,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      },
+      {
+        "size": 218,
+        "period": 8,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      }
+    ]
+  },
+  {
+    "radius": 10,
+    "word": "00000001",
+    "surviving_states": 192,
+    "surviving_edges": 339,
+    "components": [
+      {
+        "size": 192,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 11,
+    "word": "00000001",
+    "surviving_states": 230,
+    "surviving_edges": 405,
+    "components": [
+      {
+        "size": 230,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 12,
+    "word": "00000001",
+    "surviving_states": 172,
+    "surviving_edges": 304,
+    "components": [
+      {
+        "size": 172,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 13,
+    "word": "00000001",
+    "surviving_states": 0,
+    "surviving_edges": 0,
+    "components": [
+      {
+        "size": 34,
+        "period": 16,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,1309 @@
+{
+  "bits": 65536,
+  "triangle_N": 64,
+  "packed_diagonal_matches_triangle": true,
+  "identity": {
+    "N": 64,
+    "identity_mismatches": 0,
+    "identity_ok_interior": true,
+    "cartier_lhs_eq_rhs": {
+      "00": true,
+      "01": true,
+      "10": true,
+      "11": true
+    },
+    "predicted_formulas_ok": {
+      "00": true,
+      "01": true,
+      "10": true,
+      "11": true
+    },
+    "diag_equal_index_is_kernel": {
+      "00": true,
+      "11": true
+    },
+    "mixed_diag_is_not_center": {
+      "01_eq_even": false,
+      "01_eq_odd": false,
+      "10_eq_even": false,
+      "10_eq_odd": false
+    },
+    "right_edge_period1": true,
+    "offset1_is_t_mod2": true
+  },
+  "R_next_ANF": {
+    "terms": [
+      "b",
+      "c",
+      "ac",
+      "abc",
+      "ad",
+      "bd",
+      "abd",
+      "cd"
+    ],
+    "anf": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ]
+  },
+  "R_formula": {
+    "formula_mismatches": 0,
+    "middle_zero_cells": 2365,
+    "skip1_values_when_middle_zero": {
+      "0": 2060,
+      "1": 305
+    },
+    "skip1_not_a_function_of_R": true
+  },
+  "R_distance3": {
+    "distance3_when_bc_zero": {
+      "0": 1479,
+      "1": 211
+    },
+    "distance3_independent_of_R_window": true
+  },
+  "R_generating_equation": {
+    "checked": 3717,
+    "mismatches": 0
+  },
+  "kernel_prefix_counts": {
+    "N": 65536,
+    "rows": [
+      {
+        "depth": 0,
+        "residues": 1,
+        "prefix_len": 65536,
+        "distinct_prefixes": 1,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 4.336808689942018e-19,
+        "birthday_safe": true
+      },
+      {
+        "depth": 1,
+        "residues": 2,
+        "prefix_len": 32768,
+        "distinct_prefixes": 2,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 1.734723475976807e-18,
+        "birthday_safe": true
+      },
+      {
+        "depth": 2,
+        "residues": 4,
+        "prefix_len": 16384,
+        "distinct_prefixes": 4,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 6.938893903907228e-18,
+        "birthday_safe": true
+      },
+      {
+        "depth": 3,
+        "residues": 8,
+        "prefix_len": 8192,
+        "distinct_prefixes": 8,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 2.7755575615628914e-17,
+        "birthday_safe": true
+      },
+      {
+        "depth": 4,
+        "residues": 16,
+        "prefix_len": 4096,
+        "distinct_prefixes": 16,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 1.1102230246251565e-16,
+        "birthday_safe": true
+      },
+      {
+        "depth": 5,
+        "residues": 32,
+        "prefix_len": 2048,
+        "distinct_prefixes": 32,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 4.440892098500626e-16,
+        "birthday_safe": true
+      },
+      {
+        "depth": 6,
+        "residues": 64,
+        "prefix_len": 1024,
+        "distinct_prefixes": 64,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 1.7763568394002505e-15,
+        "birthday_safe": true
+      },
+      {
+        "depth": 7,
+        "residues": 128,
+        "prefix_len": 512,
+        "distinct_prefixes": 128,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 7.105427357601002e-15,
+        "birthday_safe": true
+      },
+      {
+        "depth": 8,
+        "residues": 256,
+        "prefix_len": 256,
+        "distinct_prefixes": 256,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 2.842170943040401e-14,
+        "birthday_safe": true
+      },
+      {
+        "depth": 9,
+        "residues": 512,
+        "prefix_len": 128,
+        "distinct_prefixes": 512,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 1.1368683772161603e-13,
+        "birthday_safe": true
+      },
+      {
+        "depth": 10,
+        "residues": 1024,
+        "prefix_len": 64,
+        "distinct_prefixes": 1024,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 4.547473508864641e-13,
+        "birthday_safe": true
+      },
+      {
+        "depth": 11,
+        "residues": 2048,
+        "prefix_len": 32,
+        "distinct_prefixes": 2048,
+        "too_short": 0,
+        "colliding_classes": 0,
+        "expected_birthday_collisions": 0.00048828125,
+        "birthday_safe": true
+      },
+      {
+        "depth": 12,
+        "residues": 4096,
+        "prefix_len": 16,
+        "distinct_prefixes": 3976,
+        "too_short": 0,
+        "colliding_classes": 114,
+        "expected_birthday_collisions": 120.60986328125,
+        "birthday_safe": false
+      }
+    ]
+  },
+  "sparse": {
+    "c_at_2^m": [
+      {
+        "m": 0,
+        "t": 1,
+        "c": 1
+      },
+      {
+        "m": 1,
+        "t": 2,
+        "c": 0
+      },
+      {
+        "m": 2,
+        "t": 4,
+        "c": 1
+      },
+      {
+        "m": 3,
+        "t": 8,
+        "c": 1
+      },
+      {
+        "m": 4,
+        "t": 16,
+        "c": 1
+      },
+      {
+        "m": 5,
+        "t": 32,
+        "c": 0
+      },
+      {
+        "m": 6,
+        "t": 64,
+        "c": 1
+      },
+      {
+        "m": 7,
+        "t": 128,
+        "c": 1
+      },
+      {
+        "m": 8,
+        "t": 256,
+        "c": 1
+      },
+      {
+        "m": 9,
+        "t": 512,
+        "c": 0
+      },
+      {
+        "m": 10,
+        "t": 1024,
+        "c": 1
+      },
+      {
+        "m": 11,
+        "t": 2048,
+        "c": 0
+      },
+      {
+        "m": 12,
+        "t": 4096,
+        "c": 1
+      },
+      {
+        "m": 13,
+        "t": 8192,
+        "c": 1
+      },
+      {
+        "m": 14,
+        "t": 16384,
+        "c": 0
+      },
+      {
+        "m": 15,
+        "t": 32768,
+        "c": 1
+      }
+    ],
+    "c_at_2^m-1": [
+      {
+        "m": 0,
+        "t": 0,
+        "c": 1
+      },
+      {
+        "m": 1,
+        "t": 1,
+        "c": 1
+      },
+      {
+        "m": 2,
+        "t": 3,
+        "c": 1
+      },
+      {
+        "m": 3,
+        "t": 7,
+        "c": 0
+      },
+      {
+        "m": 4,
+        "t": 15,
+        "c": 1
+      },
+      {
+        "m": 5,
+        "t": 31,
+        "c": 0
+      },
+      {
+        "m": 6,
+        "t": 63,
+        "c": 1
+      },
+      {
+        "m": 7,
+        "t": 127,
+        "c": 0
+      },
+      {
+        "m": 8,
+        "t": 255,
+        "c": 1
+      },
+      {
+        "m": 9,
+        "t": 511,
+        "c": 0
+      },
+      {
+        "m": 10,
+        "t": 1023,
+        "c": 0
+      },
+      {
+        "m": 11,
+        "t": 2047,
+        "c": 1
+      },
+      {
+        "m": 12,
+        "t": 4095,
+        "c": 1
+      },
+      {
+        "m": 13,
+        "t": 8191,
+        "c": 1
+      },
+      {
+        "m": 14,
+        "t": 16383,
+        "c": 0
+      },
+      {
+        "m": 15,
+        "t": 32767,
+        "c": 0
+      },
+      {
+        "m": 16,
+        "t": 65535,
+        "c": 1
+      }
+    ]
+  },
+  "family_Lambda0^m": {
+    "rows": [
+      {
+        "m": 0,
+        "word": "\u03b5",
+        "residue": 0,
+        "depth": 0,
+        "prefix": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 1,
+        "word": "0",
+        "residue": 0,
+        "depth": 1,
+        "prefix": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 2,
+        "word": "00",
+        "residue": 0,
+        "depth": 2,
+        "prefix": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 3,
+        "word": "000",
+        "residue": 0,
+        "depth": 3,
+        "prefix": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 4,
+        "word": "0000",
+        "residue": 0,
+        "depth": 4,
+        "prefix": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 5,
+        "word": "00000",
+        "residue": 0,
+        "depth": 5,
+        "prefix": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 6,
+        "word": "000000",
+        "residue": 0,
+        "depth": 6,
+        "prefix": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 7,
+        "word": "0000000",
+        "residue": 0,
+        "depth": 7,
+        "prefix": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 8,
+        "word": "00000000",
+        "residue": 0,
+        "depth": 8,
+        "prefix": [
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 9,
+        "word": "000000000",
+        "residue": 0,
+        "depth": 9,
+        "prefix": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 10,
+        "word": "0000000000",
+        "residue": 0,
+        "depth": 10,
+        "prefix": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 11,
+        "word": "00000000000",
+        "residue": 0,
+        "depth": 11,
+        "prefix": [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 12,
+        "word": "000000000000",
+        "residue": 0,
+        "depth": 12,
+        "prefix": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      }
+    ],
+    "prefix_collisions": {
+      "distinct_prefixes": 13,
+      "families": 13,
+      "colliding_prefix_groups": []
+    }
+  },
+  "family_Lambda1^m": {
+    "rows": [
+      {
+        "m": 0,
+        "word": "\u03b5",
+        "residue": 0,
+        "depth": 0,
+        "prefix": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 1,
+        "word": "1",
+        "residue": 1,
+        "depth": 1,
+        "prefix": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 2,
+        "word": "11",
+        "residue": 3,
+        "depth": 2,
+        "prefix": [
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 3,
+        "word": "111",
+        "residue": 7,
+        "depth": 3,
+        "prefix": [
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 4,
+        "word": "1111",
+        "residue": 15,
+        "depth": 4,
+        "prefix": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 5,
+        "word": "11111",
+        "residue": 31,
+        "depth": 5,
+        "prefix": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 6,
+        "word": "111111",
+        "residue": 63,
+        "depth": 6,
+        "prefix": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 7,
+        "word": "1111111",
+        "residue": 127,
+        "depth": 7,
+        "prefix": [
+          0,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 8,
+        "word": "11111111",
+        "residue": 255,
+        "depth": 8,
+        "prefix": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 9,
+        "word": "111111111",
+        "residue": 511,
+        "depth": 9,
+        "prefix": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 10,
+        "word": "1111111111",
+        "residue": 1023,
+        "depth": 10,
+        "prefix": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 11,
+        "word": "11111111111",
+        "residue": 2047,
+        "depth": 11,
+        "prefix": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 12,
+        "word": "111111111111",
+        "residue": 4095,
+        "depth": 12,
+        "prefix": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      }
+    ],
+    "prefix_collisions": {
+      "distinct_prefixes": 13,
+      "families": 13,
+      "colliding_prefix_groups": []
+    }
+  },
+  "family_Lambda10^m": {
+    "rows": [
+      {
+        "m": 0,
+        "word": "\u03b5",
+        "residue": 0,
+        "depth": 0,
+        "prefix": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 1,
+        "word": "10",
+        "residue": 2,
+        "depth": 2,
+        "prefix": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 2,
+        "word": "1010",
+        "residue": 10,
+        "depth": 4,
+        "prefix": [
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 3,
+        "word": "101010",
+        "residue": 42,
+        "depth": 6,
+        "prefix": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 4,
+        "word": "10101010",
+        "residue": 170,
+        "depth": 8,
+        "prefix": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 5,
+        "word": "1010101010",
+        "residue": 682,
+        "depth": 10,
+        "prefix": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0
+        ],
+        "prefix_len": 16
+      },
+      {
+        "m": 6,
+        "word": "101010101010",
+        "residue": 2730,
+        "depth": 12,
+        "prefix": [
+          1,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "prefix_len": 16
+      }
+    ],
+    "prefix_collisions": {
+      "distinct_prefixes": 7,
+      "families": 7,
+      "colliding_prefix_groups": []
+    }
+  },
+  "mixed_left_family_not_a_c_kernel": [
+    {
+      "m": 0,
+      "prefix": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "kind": "left_even_decimation"
+    },
+    {
+      "m": 1,
+      "prefix": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "kind": "left_even_decimation"
+    },
+    {
+      "m": 2,
+      "prefix": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "kind": "left_even_decimation"
+    },
+    {
+      "m": 3,
+      "prefix": [
+        0,
+        1,
+        0
+      ],
+      "kind": "left_even_decimation"
+    },
+    {
+      "m": 4,
+      "prefix": [
+        0,
+        0
+      ],
+      "kind": "left_even_decimation"
+    },
+    {
+      "m": 5,
+      "prefix": [
+        0
+      ],
+      "kind": "left_even_decimation"
+    }
+  ],
+  "note": "Growing distinct prefixes do not prove an infinite kernel. No prize claim."
+}

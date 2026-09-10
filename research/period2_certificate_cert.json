@@ -1,0 +1,444 @@
+{
+  "certify": {
+    "small_identities": {
+      "F4_zero": true,
+      "F2": "u0",
+      "F3": "1 + u1",
+      "F8": "u1*u3",
+      "F6": "u2",
+      "F12": "u1*u3 + u2*u5 + u3*u5",
+      "F16": "u2*u4 + u5 + u2*u5 + u1*u3*u5 + u4*u6 + u2*u4*u6 + u3*u7 + u1*u3*u7 + u4*u7 + u2*u4*u7 + u2*u5*u7",
+      "T2_F2_times_1plusF3": "0",
+      "T2_empty_R1": true
+    },
+    "anf_certs": [
+      {
+        "T": 1,
+        "R": 7,
+        "ok": true
+      },
+      {
+        "T": 2,
+        "R": 1,
+        "ok": true
+      },
+      {
+        "T": 3,
+        "R": 3,
+        "ok": true
+      },
+      {
+        "T": 5,
+        "R": 4,
+        "ok": true
+      },
+      {
+        "T": 6,
+        "R": 4,
+        "ok": true
+      },
+      {
+        "T": 7,
+        "R": 3,
+        "ok": true
+      },
+      {
+        "T": 8,
+        "R": 10,
+        "ok": true
+      },
+      {
+        "T": 9,
+        "R": 7,
+        "ok": true
+      },
+      {
+        "T": 10,
+        "R": 6,
+        "ok": true
+      },
+      {
+        "T": 11,
+        "R": 3,
+        "ok": true
+      },
+      {
+        "T": 12,
+        "R": 2,
+        "ok": true
+      }
+    ],
+    "tautological_T1_T2_T8": [
+      {
+        "T": 1,
+        "R": 7,
+        "n": 8,
+        "n_fail": 0,
+        "ok": true
+      },
+      {
+        "T": 2,
+        "R": 1,
+        "n": 3,
+        "n_fail": 0,
+        "ok": true
+      },
+      {
+        "T": 8,
+        "R": 10,
+        "n": 89,
+        "n_fail": 0,
+        "ok": true
+      }
+    ],
+    "zero_run_id_T3": [
+      {
+        "T": 1,
+        "n_on_variety": 2,
+        "n_fail": 0,
+        "L": 4
+      },
+      {
+        "T": 2,
+        "n_on_variety": 0,
+        "n_fail": 0,
+        "L": 4
+      },
+      {
+        "T": 3,
+        "n_on_variety": 4,
+        "n_fail": 0,
+        "L": 5
+      },
+      {
+        "T": 5,
+        "n_on_variety": 4,
+        "n_fail": 0,
+        "L": 6
+      },
+      {
+        "T": 6,
+        "n_on_variety": 6,
+        "n_fail": 0,
+        "L": 6
+      },
+      {
+        "T": 7,
+        "n_on_variety": 6,
+        "n_fail": 0,
+        "L": 7
+      },
+      {
+        "T": 8,
+        "n_on_variety": 3,
+        "n_fail": 0,
+        "L": 7
+      },
+      {
+        "T": 9,
+        "n_on_variety": 12,
+        "n_fail": 0,
+        "L": 8
+      },
+      {
+        "T": 10,
+        "n_on_variety": 6,
+        "n_fail": 0,
+        "L": 8
+      },
+      {
+        "T": 11,
+        "n_on_variety": 19,
+        "n_fail": 0,
+        "L": 9
+      },
+      {
+        "T": 12,
+        "n_on_variety": 0,
+        "n_fail": 0,
+        "L": 9
+      }
+    ],
+    "shift_poly_equalities": [
+      {
+        "s": 1,
+        "t": 1,
+        "k": 3,
+        "kind": "F_3 = S^1 F_1",
+        "poly": "1 + u1"
+      },
+      {
+        "s": 2,
+        "t": 2,
+        "k": 6,
+        "kind": "F_6 = S^2 F_2",
+        "poly": "u2"
+      },
+      {
+        "s": 1,
+        "t": 5,
+        "k": 7,
+        "kind": "F_7 = S^1 F_5",
+        "poly": "1 + u2 + u3"
+      }
+    ],
+    "linear_fails_T16_T20": true,
+    "T20_explicit": {
+      "n": 6,
+      "tail_from_4": "00010010010001",
+      "F37_forced": 1,
+      "tautological": {
+        "T": 20,
+        "R": 17,
+        "n": 10946,
+        "n_fail": 0,
+        "ok": true
+      }
+    },
+    "onset": [
+      {
+        "T": 1,
+        "max_sat_R": 6,
+        "n_at_max": 1,
+        "killed_by": 8,
+        "nvars_kill": 4,
+        "forced_prefix": "0101",
+        "supports": [
+          [
+            1,
+            3
+          ]
+        ],
+        "n_supports_shown": 1
+      },
+      {
+        "T": 2,
+        "max_sat_R": 0,
+        "n_at_max": 1,
+        "killed_by": 3,
+        "nvars_kill": 2,
+        "forced_prefix": "1",
+        "supports": [
+          [
+            0
+          ]
+        ],
+        "n_supports_shown": 1
+      },
+      {
+        "T": 3,
+        "max_sat_R": 2,
+        "n_at_max": 2,
+        "killed_by": 6,
+        "nvars_kill": 3,
+        "forced_prefix": ".01",
+        "supports": [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "n_supports_shown": 2
+      },
+      {
+        "T": 4,
+        "max_sat_R": -1,
+        "n_at_max": 0,
+        "killed_by": 4,
+        "nvars_kill": 2,
+        "forced_prefix": "",
+        "supports": [],
+        "n_supports_shown": 0
+      },
+      {
+        "T": 5,
+        "max_sat_R": 3,
+        "n_at_max": 2,
+        "killed_by": 9,
+        "nvars_kill": 5,
+        "forced_prefix": ".001",
+        "supports": [
+          [
+            3
+          ],
+          [
+            0,
+            3
+          ]
+        ],
+        "n_supports_shown": 2
+      },
+      {
+        "T": 6,
+        "max_sat_R": 3,
+        "n_at_max": 2,
+        "killed_by": 10,
+        "nvars_kill": 5,
+        "forced_prefix": ".0100",
+        "supports": [
+          [
+            2
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "n_supports_shown": 2
+      },
+      {
+        "T": 7,
+        "max_sat_R": 2,
+        "n_at_max": 3,
+        "killed_by": 10,
+        "nvars_kill": 5,
+        "forced_prefix": "..001",
+        "supports": [
+          [
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            4
+          ]
+        ],
+        "n_supports_shown": 3
+      },
+      {
+        "T": 8,
+        "max_sat_R": 9,
+        "n_at_max": 1,
+        "killed_by": 18,
+        "nvars_kill": 9,
+        "forced_prefix": "010101001",
+        "supports": [
+          [
+            1,
+            3,
+            5,
+            8
+          ]
+        ],
+        "n_supports_shown": 1
+      },
+      {
+        "T": 9,
+        "max_sat_R": 6,
+        "n_at_max": 5,
+        "killed_by": 16,
+        "nvars_kill": 8,
+        "forced_prefix": "..0.0.0.",
+        "supports": [
+          [
+            5
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            0,
+            3,
+            7
+          ]
+        ],
+        "n_supports_shown": 5
+      },
+      {
+        "T": 10,
+        "max_sat_R": 5,
+        "n_at_max": 2,
+        "killed_by": 16,
+        "nvars_kill": 8,
+        "forced_prefix": ".0101001",
+        "supports": [
+          [
+            2,
+            4,
+            7
+          ],
+          [
+            0,
+            2,
+            4,
+            7
+          ]
+        ],
+        "n_supports_shown": 2
+      },
+      {
+        "T": 11,
+        "max_sat_R": 2,
+        "n_at_max": 8,
+        "killed_by": 14,
+        "nvars_kill": 7,
+        "forced_prefix": "...0.0.",
+        "supports": [
+          [
+            6
+          ],
+          [
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            2,
+            6
+          ]
+        ],
+        "n_supports_shown": 8
+      },
+      {
+        "T": 12,
+        "max_sat_R": 1,
+        "n_at_max": 1,
+        "killed_by": 14,
+        "nvars_kill": 7,
+        "forced_prefix": "0101001",
+        "supports": [
+          [
+            1,
+            3,
+            6
+          ]
+        ],
+        "n_supports_shown": 1
+      }
+    ]
+  }
+}

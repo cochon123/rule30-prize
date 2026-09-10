@@ -1,0 +1,65 @@
+{
+  "not_a_prize_claim": true,
+  "freeze": {
+    "b": [
+      2,
+      3
+    ],
+    "coarse_bits": [
+      1,
+      2
+    ],
+    "G": "additive radius-1 over F2^k",
+    "P": "linear maps on a (b+2)-window",
+    "psi": "affine in a radius-2 neighbourhood, coeffs -4..4"
+  },
+  "self_check": {
+    "f_110": false
+  },
+  "results": [
+    {
+      "b": 2,
+      "k": 1,
+      "n_G": 64,
+      "n_P": 16,
+      "n_factor": 0,
+      "n_both": 0,
+      "n_G_family": 8,
+      "n_P_family": 16,
+      "survivors": [],
+      "elapsed_so_far": 0.005
+    },
+    {
+      "b": 3,
+      "k": 1,
+      "n_G": 128,
+      "n_P": 32,
+      "n_factor": 0,
+      "n_both": 0,
+      "n_G_family": 8,
+      "n_P_family": 32,
+      "survivors": [],
+      "elapsed_so_far": 0.016
+    },
+    {
+      "b": 2,
+      "k": 2,
+      "n_G": 983040,
+      "n_P": 256,
+      "n_factor": 0,
+      "n_both": 0,
+      "n_G_family": 4096,
+      "n_P_family": 256,
+      "survivors": [],
+      "elapsed_so_far": 54.155
+    }
+  ],
+  "kill": {
+    "no_nonconstant_projection_with_both_identities": true,
+    "n_factor_diagrams": 0,
+    "n_with_coboundary": 0,
+    "fired": true,
+    "text": "No nonconstant linear P and additive G in the freeze satisfy both the factor diagram and the bias coboundary. A factor diagram alone is insufficient. Not a prize claim."
+  },
+  "elapsed_sec": 54.156
+}

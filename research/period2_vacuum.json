@@ -1,0 +1,142 @@
+{
+  "vacuum_base": true,
+  "fsm": {
+    "worst_absorb": 9,
+    "max_t": 9,
+    "n_checks": 128
+  },
+  "spatial_identity": true,
+  "eventual_vacuum_single_1": {
+    "single_1": [
+      {
+        "m": 0,
+        "last_dis": 2,
+        "bound": 27
+      },
+      {
+        "m": 1,
+        "last_dis": 5,
+        "bound": 38
+      },
+      {
+        "m": 2,
+        "last_dis": 10,
+        "bound": 49
+      },
+      {
+        "m": 3,
+        "last_dis": 13,
+        "bound": 60
+      },
+      {
+        "m": 4,
+        "last_dis": 18,
+        "bound": 71
+      },
+      {
+        "m": 5,
+        "last_dis": 26,
+        "bound": 82
+      },
+      {
+        "m": 6,
+        "last_dis": 34,
+        "bound": 93
+      },
+      {
+        "m": 7,
+        "last_dis": 42,
+        "bound": 104
+      },
+      {
+        "m": 8,
+        "last_dis": 50,
+        "bound": 115
+      },
+      {
+        "m": 9,
+        "last_dis": 58,
+        "bound": 126
+      },
+      {
+        "m": 10,
+        "last_dis": 66,
+        "bound": 137
+      }
+    ]
+  },
+  "sound_onset": [
+    {
+      "T": 1,
+      "max_sat_R": 6,
+      "n_at_max": 1,
+      "killed_by": 8
+    },
+    {
+      "T": 2,
+      "max_sat_R": 0,
+      "n_at_max": 1,
+      "killed_by": 3
+    },
+    {
+      "T": 3,
+      "max_sat_R": 2,
+      "n_at_max": 2,
+      "killed_by": 6
+    },
+    {
+      "T": 4,
+      "max_sat_R": -1,
+      "n_at_max": 0,
+      "killed_by": 4
+    },
+    {
+      "T": 5,
+      "max_sat_R": 3,
+      "n_at_max": 2,
+      "killed_by": 9
+    },
+    {
+      "T": 6,
+      "max_sat_R": 3,
+      "n_at_max": 2,
+      "killed_by": 10
+    },
+    {
+      "T": 7,
+      "max_sat_R": 2,
+      "n_at_max": 3,
+      "killed_by": 10
+    },
+    {
+      "T": 8,
+      "max_sat_R": 9,
+      "n_at_max": 1,
+      "killed_by": 18
+    },
+    {
+      "T": 9,
+      "max_sat_R": 6,
+      "n_at_max": 5,
+      "killed_by": 16
+    },
+    {
+      "T": 10,
+      "max_sat_R": 5,
+      "n_at_max": 2,
+      "killed_by": 16
+    },
+    {
+      "T": 11,
+      "max_sat_R": 2,
+      "n_at_max": 8,
+      "killed_by": 14
+    },
+    {
+      "T": 12,
+      "max_sat_R": 1,
+      "n_at_max": 1,
+      "killed_by": 14
+    }
+  ]
+}

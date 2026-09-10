@@ -1,0 +1,316 @@
+[
+  {
+    "q": 1,
+    "word": "01",
+    "period": 2,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 1,
+    "residual_sizes": [
+      84
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 2,
+    "word": "011",
+    "period": 3,
+    "radius": 6,
+    "recurrent_components": 2,
+    "residual_components": 1,
+    "residual_sizes": [
+      84
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 3,
+    "word": "0111",
+    "period": 4,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 1,
+    "residual_sizes": [
+      158
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 4,
+    "word": "01111",
+    "period": 5,
+    "radius": 6,
+    "recurrent_components": 2,
+    "residual_components": 1,
+    "residual_sizes": [
+      124
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 5,
+    "word": "011111",
+    "period": 6,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 1,
+    "residual_sizes": [
+      188
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 6,
+    "word": "0111111",
+    "period": 7,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 1,
+    "residual_sizes": [
+      168
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 7,
+    "word": "01111111",
+    "period": 8,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 8,
+    "word": "011111111",
+    "period": 9,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 1,
+    "residual_sizes": [
+      186
+    ],
+    "excluded_for_finite_seed": false
+  },
+  {
+    "q": 9,
+    "word": "0111111111",
+    "period": 10,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 10,
+    "word": "01111111111",
+    "period": 11,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 11,
+    "word": "011111111111",
+    "period": 12,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 12,
+    "word": "0111111111111",
+    "period": 13,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 13,
+    "word": "01111111111111",
+    "period": 14,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 14,
+    "word": "011111111111111",
+    "period": 15,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 15,
+    "word": "0111111111111111",
+    "period": 16,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 16,
+    "word": "01111111111111111",
+    "period": 17,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 17,
+    "word": "011111111111111111",
+    "period": 18,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 18,
+    "word": "0111111111111111111",
+    "period": 19,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 19,
+    "word": "01111111111111111111",
+    "period": 20,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 20,
+    "word": "011111111111111111111",
+    "period": 21,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 21,
+    "word": "0111111111111111111111",
+    "period": 22,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 22,
+    "word": "01111111111111111111111",
+    "period": 23,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 23,
+    "word": "011111111111111111111111",
+    "period": 24,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 24,
+    "word": "0111111111111111111111111",
+    "period": 25,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 25,
+    "word": "01111111111111111111111111",
+    "period": 26,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 26,
+    "word": "011111111111111111111111111",
+    "period": 27,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 27,
+    "word": "0111111111111111111111111111",
+    "period": 28,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 28,
+    "word": "01111111111111111111111111111",
+    "period": 29,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 29,
+    "word": "011111111111111111111111111111",
+    "period": 30,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  },
+  {
+    "q": 30,
+    "word": "0111111111111111111111111111111",
+    "period": 31,
+    "radius": 6,
+    "recurrent_components": 1,
+    "residual_components": 0,
+    "residual_sizes": [],
+    "excluded_for_finite_seed": true
+  }
+]

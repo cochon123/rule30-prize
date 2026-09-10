@@ -1,0 +1,2074 @@
+{
+  "self_checks": {
+    "T_mixed_parity": true,
+    "T_even_odd": [
+      6,
+      2
+    ],
+    "T_is_matchgate": false,
+    "EQ4_is_matchgate": false,
+    "EQ3_is_matchgate": false,
+    "X_bosonic_is_matchgate": false,
+    "X_fermionic_is_matchgate": true,
+    "X_bosonic_GP": 2,
+    "X_fermionic_GP": 0,
+    "EQ4_GP": 1,
+    "U0_is_matchgate": true,
+    "U1_is_matchgate": true,
+    "T_support_size": 8,
+    "T2_support_size": 32,
+    "EQ2_is_matchgate": true,
+    "generic_K4_is_matchgate": true,
+    "generic_K4_GP": 0
+  },
+  "elementary_holant": {
+    "n1_holant_equals_c1": true,
+    "c1": 1,
+    "n2_holant_equals_c2": true,
+    "c2": 0,
+    "T2_agrees_with_two_T": true
+  },
+  "unaries": {
+    "U0_always_matchgate": true,
+    "U1_always_matchgate": true,
+    "seed0_transformed": [
+      "M00",
+      "M01"
+    ],
+    "seed1_transformed": [
+      "M10",
+      "M11"
+    ],
+    "output1_transformed_adj": [
+      "-M01",
+      "M00"
+    ],
+    "seed0_nonzero_iff_row0_nonzero": true,
+    "seed1_nonzero_iff_row1_nonzero": true,
+    "invertible_implies_seeds_nonzero": true,
+    "MGI_arity1_vacuous": true
+  },
+  "crossing": {
+    "transform_minus_scaled_X": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "all_diffs_zero": true,
+    "GP_transformed": "2*A00**2*A11**2*C00**2*C11**2 - 4*A00**2*A11**2*C00*C01*C10*C11 + 2*A00**2*A11**2*C01**2*C10**2 - 4*A00*A01*A10*A11*C00**2*C11**2 + 8*A00*A01*A10*A11*C00*C01*C10*C11 - 4*A00*A01*A10*A11*C01**2*C10**2 + 2*A01**2*A10**2*C00**2*C11**2 - 4*A01**2*A10**2*C00*C01*C10*C11 + 2*A01**2*A10**2*C01**2*C10**2",
+    "GP_equals_2_detA2_detC2": true,
+    "GP_target": "2*A00**2*A11**2*C00**2*C11**2 - 4*A00**2*A11**2*C00*C01*C10*C11 + 2*A00**2*A11**2*C01**2*C10**2 - 4*A00*A01*A10*A11*C00**2*C11**2 + 8*A00*A01*A10*A11*C00*C01*C10*C11 - 4*A00*A01*A10*A11*C01**2*C10**2 + 2*A01**2*A10**2*C00**2*C11**2 - 4*A01**2*A10**2*C00*C01*C10*C11 + 2*A01**2*A10**2*C01**2*C10**2",
+    "dies_when_invertible": true
+  },
+  "common_basis": {
+    "n_MGI_T": 29,
+    "n_MGI_EQ": 19,
+    "T_mod": {
+      "basis": [
+        "1"
+      ],
+      "is_unit": true,
+      "n_input": 30,
+      "n_basis": 1,
+      "seconds": 0.8606,
+      "modulus": 32003,
+      "note": ""
+    },
+    "EQ_mod": {
+      "basis": [
+        "16001*M00**3 + M10**4*M11*z",
+        "-16001*M00**2*M01 + M10**3*M11**2*z",
+        "16001*M00*M01**2 + M10**2*M11**3*z",
+        "-16001*M01**3 + M10*M11**4*z",
+        "M00**4 - M10**4",
+        "M00**3*M01 + M10**3*M11",
+        "M00**2*M01**2 - M10**2*M11**2",
+        "M00*M01**3 + M10*M11**3",
+        "M01**4 - M11**4",
+        "M00*M11*z + 16001",
+        "M00*M11 + M01*M10"
+      ],
+      "is_unit": false,
+      "n_input": 20,
+      "n_basis": 11,
+      "seconds": 0.1697,
+      "modulus": 32003,
+      "note": ""
+    },
+    "both_mod": {
+      "basis": [
+        "1"
+      ],
+      "is_unit": true,
+      "n_input": 49,
+      "n_basis": 1,
+      "seconds": 0.9889,
+      "modulus": 32003,
+      "note": ""
+    },
+    "T_QQ": {
+      "basis": [
+        "1"
+      ],
+      "is_unit": true,
+      "n_input": 30,
+      "n_basis": 1,
+      "seconds": 0.7002,
+      "modulus": 0,
+      "note": ""
+    },
+    "EQ_QQ": null,
+    "both_QQ": {
+      "basis": [
+        "1"
+      ],
+      "is_unit": true,
+      "n_input": 49,
+      "n_basis": 1,
+      "seconds": 0.8854,
+      "modulus": 0,
+      "note": ""
+    },
+    "T_parity_even_odd_symbolic_zero_count": [
+      8,
+      8
+    ]
+  },
+  "T_independent": {
+    "primes": [
+      32003,
+      104729
+    ],
+    "charts": [
+      {
+        "mask": 0,
+        "kinds": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": false,
+          "n_basis": 20,
+          "seconds": 58.5146,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp - Ar*Dr",
+            "-Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq + Ar",
+            "Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA - 16001*Dq",
+            "Ar*zA + 16001",
+            "Br*zB - 1",
+            "Cr*zC - 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq - Dq",
+            "Bp",
+            "Bq + 1",
+            "Cp",
+            "Cq + 1"
+          ]
+        },
+        "even_n_lifted_sols": 5,
+        "even_mgi_dead": true,
+        "even_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0094,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0046,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Br",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0037,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0023,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Br",
+              "Cr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0013,
+            "survives": false
+          }
+        ],
+        "odd_parity_p": {
+          "is_unit": false,
+          "n_basis": 20,
+          "seconds": 65.6707,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp + Ar*Dr",
+            "Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq - Ar",
+            "-Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA + 16001*Dq",
+            "Ar*zA + 16001",
+            "Br*zB - 1",
+            "Cr*zC - 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq + Dq",
+            "Bp",
+            "Bq + 1",
+            "Cp",
+            "Cq + 1"
+          ]
+        },
+        "odd_n_lifted_sols": 4,
+        "odd_mgi_dead": true,
+        "odd_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0042,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0046,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Br",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0014,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0021,
+            "survives": false
+          }
+        ]
+      },
+      {
+        "mask": 1,
+        "kinds": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 9.0516,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 1.8058,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 2,
+        "kinds": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": false,
+          "n_basis": 19,
+          "seconds": 16.5312,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp + Ar*Dr",
+            "Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq - Ar",
+            "-Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA + 16001*Dq",
+            "Ar*zA + 16001",
+            "Bp*zB + 1",
+            "Cr*zC - 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq + Dq",
+            "Br + 1",
+            "Cp",
+            "Cq + 1"
+          ]
+        },
+        "even_n_lifted_sols": 4,
+        "even_mgi_dead": true,
+        "even_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0103,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.005,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Bp",
+              "Bq",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0015,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.003,
+            "survives": false
+          }
+        ],
+        "odd_parity_p": {
+          "is_unit": false,
+          "n_basis": 19,
+          "seconds": 2.662,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp - Ar*Dr",
+            "-Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq + Ar",
+            "Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA - 16001*Dq",
+            "Ar*zA + 16001",
+            "Bp*zB + 1",
+            "Cr*zC - 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq - Dq",
+            "Br + 1",
+            "Cp",
+            "Cq + 1"
+          ]
+        },
+        "odd_n_lifted_sols": 5,
+        "odd_mgi_dead": true,
+        "odd_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0044,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0044,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Bp",
+              "Bq",
+              "Cr",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0015,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0022,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Br": "-1",
+              "Cp": "0",
+              "Cq": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Bp",
+              "Bq",
+              "Cr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0014,
+            "survives": false
+          }
+        ]
+      },
+      {
+        "mask": 3,
+        "kinds": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0923,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0998,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 4,
+        "kinds": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": false,
+          "n_basis": 19,
+          "seconds": 4.8061,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp + Ar*Dr",
+            "Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq - Ar",
+            "-Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA + 16001*Dq",
+            "Ar*zA + 16001",
+            "Br*zB - 1",
+            "Cp*zC + 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq + Dq",
+            "Bp",
+            "Bq + 1",
+            "Cr + 1"
+          ]
+        },
+        "even_n_lifted_sols": 4,
+        "even_mgi_dead": true,
+        "even_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0133,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.006,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Br",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.005,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cp",
+              "Cq"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0028,
+            "survives": false
+          }
+        ],
+        "odd_parity_p": {
+          "is_unit": false,
+          "n_basis": 19,
+          "seconds": 6.661,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp - Ar*Dr",
+            "-Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq + Ar",
+            "Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA - 16001*Dq",
+            "Ar*zA + 16001",
+            "Br*zB - 1",
+            "Cp*zC + 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq - Dq",
+            "Bp",
+            "Bq + 1",
+            "Cr + 1"
+          ]
+        },
+        "odd_n_lifted_sols": 5,
+        "odd_mgi_dead": true,
+        "odd_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0051,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0051,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Br",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0017,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Br",
+              "Cp",
+              "Cq"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0025,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Bp": "0",
+              "Bq": "-1",
+              "Cr": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Br",
+              "Cp",
+              "Cq"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0048,
+            "survives": false
+          }
+        ]
+      },
+      {
+        "mask": 5,
+        "kinds": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0943,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.1134,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 6,
+        "kinds": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": false,
+          "n_basis": 18,
+          "seconds": 0.4651,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp - Ar*Dr",
+            "-Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq + Ar",
+            "Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA - 16001*Dq",
+            "Ar*zA + 16001",
+            "Bp*zB + 1",
+            "Cp*zC + 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq - Dq",
+            "Br + 1",
+            "Cr + 1"
+          ]
+        },
+        "even_n_lifted_sols": 5,
+        "even_mgi_dead": true,
+        "even_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0094,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0065,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.002,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.003,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0018,
+            "survives": false
+          }
+        ],
+        "odd_parity_p": {
+          "is_unit": false,
+          "n_basis": 18,
+          "seconds": 0.3422,
+          "basis": [
+            "Ap**2 - Ar**2",
+            "Ap*Dp + Ar*Dr",
+            "Ap*Dr + Ar*Dp",
+            "Dp**2 - Dr**2",
+            "Ap*Dq - Ar",
+            "-Ap + Ar*Dq",
+            "Dp*Dq + Dr",
+            "Dq**2 - 1",
+            "Dp + Dq*Dr",
+            "Ap*zA + 16001*Dq",
+            "Ar*zA + 16001",
+            "Bp*zB + 1",
+            "Cp*zC + 1",
+            "Dp*zD - 16001*Dq",
+            "Dr*zD + 16001",
+            "Aq + Dq",
+            "Br + 1",
+            "Cr + 1"
+          ]
+        },
+        "odd_n_lifted_sols": 4,
+        "odd_mgi_dead": true,
+        "odd_sols": [
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "Dr",
+              "Dq": "-1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0055,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "Ar",
+              "Aq": "-1",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0057,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "0",
+              "Aq": "-1",
+              "Ar": "0",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "-Dr",
+              "Dq": "1"
+            },
+            "free": [
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq",
+              "Dr"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.002,
+            "survives": false
+          },
+          {
+            "sol": {
+              "Ap": "-Ar",
+              "Aq": "1",
+              "Br": "-1",
+              "Cr": "-1",
+              "Dp": "0",
+              "Dq": "-1",
+              "Dr": "0"
+            },
+            "free": [
+              "Ar",
+              "Bp",
+              "Bq",
+              "Cp",
+              "Cq"
+            ],
+            "mgi_QQ_unit": true,
+            "mgi_QQ_basis": [
+              "1"
+            ],
+            "mgi_QQ_seconds": 0.0027,
+            "survives": false
+          }
+        ]
+      },
+      {
+        "mask": 7,
+        "kinds": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.07,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0388,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 8,
+        "kinds": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 2.8026,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 2.5055,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 9,
+        "kinds": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.1036,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.059,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 10,
+        "kinds": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.1153,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.1695,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 11,
+        "kinds": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0328,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0657,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 12,
+        "kinds": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.1395,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.2468,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 13,
+        "kinds": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0333,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0743,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 14,
+        "kinds": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0637,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0387,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      },
+      {
+        "mask": 15,
+        "kinds": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "even_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0308,
+          "basis": [
+            "1"
+          ]
+        },
+        "even_mgi_dead": true,
+        "even_note": "parity empty over F_32003",
+        "odd_parity_p": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0201,
+          "basis": [
+            "1"
+          ]
+        },
+        "odd_mgi_dead": true,
+        "odd_note": "parity empty over F_32003"
+      }
+    ],
+    "survivors": [],
+    "any_compatible_T_basis": false,
+    "ansatz_families_QQ": {
+      "diagonal": {
+        "is_unit": true,
+        "n_basis": 1,
+        "seconds": 0.0604,
+        "basis": [
+          "1"
+        ],
+        "modulus": 0
+      },
+      "triangular": {
+        "is_unit": true,
+        "n_basis": 1,
+        "seconds": 4.6975,
+        "basis": [
+          "1"
+        ],
+        "modulus": 0
+      },
+      "common": {
+        "is_unit": true,
+        "n_basis": 1,
+        "seconds": 1.9001,
+        "basis": [
+          "1"
+        ],
+        "modulus": 0
+      }
+    },
+    "second_prime_parity": {
+      "0": {
+        "even": {
+          "is_unit": false,
+          "seconds": 41.7092,
+          "n": 20
+        },
+        "odd": {
+          "is_unit": false,
+          "seconds": 53.8708,
+          "n": 20
+        }
+      },
+      "1": {
+        "even": {
+          "is_unit": true,
+          "seconds": 7.8109,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 1.4994,
+          "n": 1
+        }
+      },
+      "2": {
+        "even": {
+          "is_unit": false,
+          "seconds": 13.4006,
+          "n": 19
+        },
+        "odd": {
+          "is_unit": false,
+          "seconds": 2.0902,
+          "n": 19
+        }
+      },
+      "3": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0688,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0776,
+          "n": 1
+        }
+      },
+      "4": {
+        "even": {
+          "is_unit": false,
+          "seconds": 2.1173,
+          "n": 19
+        },
+        "odd": {
+          "is_unit": false,
+          "seconds": 4.7197,
+          "n": 19
+        }
+      },
+      "5": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0619,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0832,
+          "n": 1
+        }
+      },
+      "6": {
+        "even": {
+          "is_unit": false,
+          "seconds": 0.3179,
+          "n": 18
+        },
+        "odd": {
+          "is_unit": false,
+          "seconds": 0.1945,
+          "n": 18
+        }
+      },
+      "7": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0399,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0237,
+          "n": 1
+        }
+      },
+      "8": {
+        "even": {
+          "is_unit": true,
+          "seconds": 1.4494,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 1.1466,
+          "n": 1
+        }
+      },
+      "9": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0465,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0268,
+          "n": 1
+        }
+      },
+      "10": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.072,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.1096,
+          "n": 1
+        }
+      },
+      "11": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0162,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0325,
+          "n": 1
+        }
+      },
+      "12": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.094,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.1021,
+          "n": 1
+        }
+      },
+      "13": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0178,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0376,
+          "n": 1
+        }
+      },
+      "14": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0403,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0239,
+          "n": 1
+        }
+      },
+      "15": {
+        "even": {
+          "is_unit": true,
+          "seconds": 0.0204,
+          "n": 1
+        },
+        "odd": {
+          "is_unit": true,
+          "seconds": 0.0127,
+          "n": 1
+        }
+      }
+    }
+  },
+  "T_and_EQ": {
+    "EQ_common_charts_QQ": {
+      "M00=1": {
+        "is_unit": false,
+        "n_basis": 8,
+        "seconds": 0.12,
+        "basis": [
+          "Mp**4 - Mr**4",
+          "Mp**3 + Mq*Mr**3",
+          "Mp**3*z + Mq*Mr**2/2",
+          "Mp**2*z**2 - Mq**2/4",
+          "2*Mp*z + Mq**3",
+          "-2*Mp**2*z + Mq**2*Mr",
+          "Mp*Mq + Mr",
+          "Mr*z - 1/2"
+        ],
+        "modulus": 0
+      },
+      "M00=0_M01=1": {
+        "is_unit": true,
+        "n_basis": 1,
+        "seconds": 0.0102,
+        "basis": [
+          "1"
+        ],
+        "modulus": 0
+      }
+    },
+    "Hadamard_makes_EQ_matchgate": true,
+    "Hadamard_EQ_even_odd_support": [
+      8,
+      0
+    ],
+    "sample_points": {
+      "all_I": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "0"
+        },
+        "EQ": {
+          "mgi": false,
+          "mixed_parity": false,
+          "GP4": "1"
+        }
+      },
+      "all_H": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "32"
+        },
+        "EQ": {
+          "mgi": true,
+          "mixed_parity": false,
+          "GP4": "0"
+        }
+      },
+      "all_S": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "0"
+        },
+        "EQ": {
+          "mgi": false,
+          "mixed_parity": false,
+          "GP4": "1"
+        }
+      },
+      "Hadamard_on_output": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "2"
+        },
+        "EQ": {
+          "mgi": true,
+          "mixed_parity": false,
+          "GP4": "0"
+        }
+      },
+      "Fourier_inputs": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "-8"
+        },
+        "EQ": {
+          "mgi": false,
+          "mixed_parity": false,
+          "GP4": "1"
+        }
+      },
+      "shear": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "2"
+        },
+        "EQ": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "1"
+        }
+      },
+      "Z_parity": {
+        "T": {
+          "mgi": false,
+          "mixed_parity": true,
+          "GP4": "0"
+        },
+        "EQ": {
+          "mgi": false,
+          "mixed_parity": false,
+          "GP4": "1"
+        }
+      }
+    },
+    "note": "EQ_4 is matchgate-realizable (Hadamard). T is not, even with four independent bases; see T_independent. Simultaneous T+EQ therefore dies."
+  },
+  "two_step": {
+    "T2_support": 32,
+    "T2_even_odd_support": [
+      20,
+      12
+    ],
+    "T2_common_charts_QQ": {
+      "M00=1": {
+        "even_matchgate_parity_QQ": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.2221,
+          "basis": [
+            "1"
+          ],
+          "modulus": 0
+        },
+        "odd_matchgate_parity_QQ": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.1556,
+          "basis": [
+            "1"
+          ],
+          "modulus": 0
+        },
+        "died_at_parity": true
+      },
+      "M00=0_M01=1": {
+        "even_matchgate_parity_QQ": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.0209,
+          "basis": [
+            "1"
+          ],
+          "modulus": 0
+        },
+        "odd_matchgate_parity_QQ": {
+          "is_unit": true,
+          "n_basis": 1,
+          "seconds": 0.025,
+          "basis": [
+            "1"
+          ],
+          "modulus": 0
+        },
+        "died_at_parity": true
+      }
+    },
+    "unblocked_includes_bosonic_X_GP": 2,
+    "unblocked_X_is_matchgate": false,
+    "ansatz_T2_diagonal": {
+      "even_parity_mod": {
+        "is_unit": true,
+        "n_basis": 1,
+        "seconds": 0.0669,
+        "modulus": 32003
+      },
+      "odd_parity_mod": {
+        "is_unit": true,
+        "n_basis": 1,
+        "seconds": 0.0936,
+        "modulus": 32003
+      },
+      "died_at_parity": true
+    }
+  },
+  "summary": {
+    "compatible_bases": null,
+    "small_boundary_pfaffian": false,
+    "representation_E_died": true,
+    "representation_two_step_died": true,
+    "crossing_certificate": true,
+    "common_basis_T_empty_QQ": true,
+    "T_independent_any_survivor": false,
+    "T2_common_empty_QQ": true,
+    "T2_diagonal_empty_modp": true,
+    "Hadamard_EQ_ok": true,
+    "why": "The bosonic crossover is invariant under through-going dual 2x2 bases and has Grassmann-Plucker value 2(det A det C)^2; it is never a matchgate. The rule tensor T has no invertible 2x2 wire bases (orientation-dependent) making it a matchgate: every GL(2)^4 chart dies at parity or after lifting to MGI over Q. EQ_4 is realizable (Hadamard), so transforming only the copy would not have been enough. The blocked two-step 6-ary T2 likewise has no common invertible basis. No small boundary Pfaffian exists; even a successful local transform would have left a Pfaffian on Theta(n^2) vertices."
+  },
+  "note": "Not a prize claim. A Pfaffian on Theta(n^2) vertices would not meet the prize threshold even if the local tensors were matchgates."
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "radius": 1,
+    "word": "01",
+    "surviving_states": 4,
+    "surviving_edges": 8,
+    "components": [
+      {
+        "size": 4,
+        "period": 2,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 2,
+    "word": "01",
+    "surviving_states": 8,
+    "surviving_edges": 16,
+    "components": [
+      {
+        "size": 8,
+        "period": 2,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 3,
+    "word": "01",
+    "surviving_states": 16,
+    "surviving_edges": 32,
+    "components": [
+      {
+        "size": 16,
+        "period": 2,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 4,
+    "word": "01",
+    "surviving_states": 28,
+    "surviving_edges": 56,
+    "components": [
+      {
+        "size": 28,
+        "period": 2,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+{
+  "not_a_prize_claim": true,
+  "field": "GF(2)",
+  "dim": 2,
+  "gauge": "M(0,0,0)=I, values in GL(2,F2)",
+  "constant": {
+    "n_L_tried": 1296,
+    "n_solutions": 36,
+    "n_config_independent_L": 6,
+    "n_config_dependent_L": 30,
+    "distinct_n6_trace_sets": [
+      [
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "config_dependent_spectrally_trivial": false,
+    "sample_dependent": [
+      {
+        "L_traces_n4": [
+          0,
+          1
+        ],
+        "L_traces_n6": [
+          0,
+          1
+        ],
+        "config_independent_L": false,
+        "L": {
+          "00": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "01": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "10": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "11": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "n_distinct_L": 4
+      },
+      {
+        "L_traces_n4": [
+          0
+        ],
+        "L_traces_n6": [
+          0
+        ],
+        "config_independent_L": false,
+        "L": {
+          "00": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "01": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "10": [
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "11": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ]
+        },
+        "n_distinct_L": 2
+      },
+      {
+        "L_traces_n4": [
+          0
+        ],
+        "L_traces_n6": [
+          0
+        ],
+        "config_independent_L": false,
+        "L": {
+          "00": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "01": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "10": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "11": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        "n_distinct_L": 3
+      },
+      {
+        "L_traces_n4": [
+          0
+        ],
+        "L_traces_n6": [
+          0
+        ],
+        "config_independent_L": false,
+        "L": {
+          "00": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "01": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "10": [
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ],
+          "11": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "n_distinct_L": 3
+      },
+      {
+        "L_traces_n4": [
+          0,
+          1
+        ],
+        "L_traces_n6": [
+          0,
+          1
+        ],
+        "config_independent_L": false,
+        "L": {
+          "00": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "01": [
+            [
+              1,
+              1
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "10": [
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "11": [
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        },
+        "n_distinct_L": 4
+      }
+    ]
+  },
+  "affine_screen": {
+    "mode": "sampled",
+    "n_try": 43753,
+    "n_ok_same_M": 0,
+    "witnesses": []
+  },
+  "dim3_screen": {
+    "catalog_size": 20,
+    "n_L_tried": 160000,
+    "n_solutions": 252,
+    "n_config_independent_L": 20,
+    "n_config_dependent_variable_trace": 20,
+    "sample_dependent": [
+      {
+        "n_distinct_L": 4,
+        "traces_n4": [
+          1
+        ]
+      },
+      {
+        "n_distinct_L": 4,
+        "traces_n4": [
+          1
+        ]
+      },
+      {
+        "n_distinct_L": 3,
+        "traces_n4": [
+          1
+        ]
+      }
+    ]
+  },
+  "kill": "Constant GL(2,F2) Lax pairs exist (36 with M(0,0,0)=I). Six have configuration-independent L. The rest have 2-4 distinct L(b,c). Periodic monodromy traces on rings of length 4 and 6 take values in {0} or {0,1}. Over GF(2) that is at most one bit of spectral information, not a reconstruction of a finite seed orbit. Affine L0+\u03bb L1 with M independent of \u03bb (restricted L1 screen) produced no extra pair. A restricted constant GL(3,F2) catalog (permutation and unitriangular matrices) is reported under dim3_screen; isolated traces still do not continue the attack. Full affine dim-3 over Q was not Groebner-solved."
+}

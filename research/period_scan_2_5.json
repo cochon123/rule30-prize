@@ -1,0 +1,1137 @@
+[
+  {
+    "word": "01",
+    "length": 2,
+    "stop": "state_cap",
+    "last_radius": 19,
+    "last_states": 30543,
+    "elapsed_sec": 3.2211121250875294,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 4,
+        "edges": 8
+      },
+      {
+        "radius": 2,
+        "states": 8,
+        "edges": 16
+      },
+      {
+        "radius": 3,
+        "states": 16,
+        "edges": 32
+      },
+      {
+        "radius": 4,
+        "states": 28,
+        "edges": 56
+      },
+      {
+        "radius": 5,
+        "states": 46,
+        "edges": 92
+      },
+      {
+        "radius": 6,
+        "states": 84,
+        "edges": 168
+      },
+      {
+        "radius": 7,
+        "states": 150,
+        "edges": 300
+      },
+      {
+        "radius": 8,
+        "states": 264,
+        "edges": 528
+      },
+      {
+        "radius": 9,
+        "states": 456,
+        "edges": 912
+      },
+      {
+        "radius": 10,
+        "states": 796,
+        "edges": 1592
+      },
+      {
+        "radius": 11,
+        "states": 1388,
+        "edges": 2776
+      },
+      {
+        "radius": 12,
+        "states": 2408,
+        "edges": 4816
+      },
+      {
+        "radius": 13,
+        "states": 3334,
+        "edges": 6632
+      },
+      {
+        "radius": 14,
+        "states": 4904,
+        "edges": 9808
+      },
+      {
+        "radius": 15,
+        "states": 8030,
+        "edges": 16060
+      },
+      {
+        "radius": 16,
+        "states": 12170,
+        "edges": 24340
+      },
+      {
+        "radius": 17,
+        "states": 13044,
+        "edges": 25573
+      },
+      {
+        "radius": 18,
+        "states": 19801,
+        "edges": 38911
+      },
+      {
+        "radius": 19,
+        "states": 30543,
+        "edges": 60140
+      }
+    ]
+  },
+  {
+    "word": "001",
+    "length": 3,
+    "stop": "state_cap",
+    "last_radius": 18,
+    "last_states": 25939,
+    "elapsed_sec": 1.9538143610116094,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 6,
+        "edges": 12
+      },
+      {
+        "radius": 2,
+        "states": 12,
+        "edges": 24
+      },
+      {
+        "radius": 3,
+        "states": 24,
+        "edges": 48
+      },
+      {
+        "radius": 4,
+        "states": 42,
+        "edges": 84
+      },
+      {
+        "radius": 5,
+        "states": 40,
+        "edges": 80
+      },
+      {
+        "radius": 6,
+        "states": 76,
+        "edges": 152
+      },
+      {
+        "radius": 7,
+        "states": 142,
+        "edges": 284
+      },
+      {
+        "radius": 8,
+        "states": 248,
+        "edges": 496
+      },
+      {
+        "radius": 9,
+        "states": 436,
+        "edges": 872
+      },
+      {
+        "radius": 10,
+        "states": 722,
+        "edges": 1444
+      },
+      {
+        "radius": 11,
+        "states": 1106,
+        "edges": 2212
+      },
+      {
+        "radius": 12,
+        "states": 1934,
+        "edges": 3868
+      },
+      {
+        "radius": 13,
+        "states": 3268,
+        "edges": 6536
+      },
+      {
+        "radius": 14,
+        "states": 4698,
+        "edges": 9396
+      },
+      {
+        "radius": 15,
+        "states": 7676,
+        "edges": 15352
+      },
+      {
+        "radius": 16,
+        "states": 12504,
+        "edges": 25008
+      },
+      {
+        "radius": 17,
+        "states": 15941,
+        "edges": 31733
+      },
+      {
+        "radius": 18,
+        "states": 25939,
+        "edges": 51715
+      }
+    ]
+  },
+  {
+    "word": "011",
+    "length": 3,
+    "stop": "state_cap",
+    "last_radius": 19,
+    "last_states": 30802,
+    "elapsed_sec": 2.3663024130510166,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 6,
+        "edges": 12
+      },
+      {
+        "radius": 2,
+        "states": 12,
+        "edges": 24
+      },
+      {
+        "radius": 3,
+        "states": 14,
+        "edges": 28
+      },
+      {
+        "radius": 4,
+        "states": 26,
+        "edges": 52
+      },
+      {
+        "radius": 5,
+        "states": 46,
+        "edges": 92
+      },
+      {
+        "radius": 6,
+        "states": 84,
+        "edges": 168
+      },
+      {
+        "radius": 7,
+        "states": 154,
+        "edges": 308
+      },
+      {
+        "radius": 8,
+        "states": 272,
+        "edges": 544
+      },
+      {
+        "radius": 9,
+        "states": 442,
+        "edges": 884
+      },
+      {
+        "radius": 10,
+        "states": 738,
+        "edges": 1476
+      },
+      {
+        "radius": 11,
+        "states": 1204,
+        "edges": 2408
+      },
+      {
+        "radius": 12,
+        "states": 1994,
+        "edges": 3988
+      },
+      {
+        "radius": 13,
+        "states": 2926,
+        "edges": 5817
+      },
+      {
+        "radius": 14,
+        "states": 4822,
+        "edges": 9610
+      },
+      {
+        "radius": 15,
+        "states": 5104,
+        "edges": 10073
+      },
+      {
+        "radius": 16,
+        "states": 7783,
+        "edges": 15401
+      },
+      {
+        "radius": 17,
+        "states": 11427,
+        "edges": 22798
+      },
+      {
+        "radius": 18,
+        "states": 18908,
+        "edges": 37816
+      },
+      {
+        "radius": 19,
+        "states": 30802,
+        "edges": 61604
+      }
+    ]
+  },
+  {
+    "word": "0001",
+    "length": 4,
+    "stop": "state_cap",
+    "last_radius": 19,
+    "last_states": 29445,
+    "elapsed_sec": 2.330927360919304,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 8,
+        "edges": 16
+      },
+      {
+        "radius": 2,
+        "states": 16,
+        "edges": 32
+      },
+      {
+        "radius": 3,
+        "states": 32,
+        "edges": 64
+      },
+      {
+        "radius": 4,
+        "states": 56,
+        "edges": 112
+      },
+      {
+        "radius": 5,
+        "states": 60,
+        "edges": 112
+      },
+      {
+        "radius": 6,
+        "states": 101,
+        "edges": 191
+      },
+      {
+        "radius": 7,
+        "states": 135,
+        "edges": 264
+      },
+      {
+        "radius": 8,
+        "states": 227,
+        "edges": 444
+      },
+      {
+        "radius": 9,
+        "states": 328,
+        "edges": 643
+      },
+      {
+        "radius": 10,
+        "states": 354,
+        "edges": 708
+      },
+      {
+        "radius": 11,
+        "states": 636,
+        "edges": 1272
+      },
+      {
+        "radius": 12,
+        "states": 1076,
+        "edges": 2152
+      },
+      {
+        "radius": 13,
+        "states": 1854,
+        "edges": 3708
+      },
+      {
+        "radius": 14,
+        "states": 3008,
+        "edges": 6016
+      },
+      {
+        "radius": 15,
+        "states": 5046,
+        "edges": 10092
+      },
+      {
+        "radius": 16,
+        "states": 8364,
+        "edges": 16728
+      },
+      {
+        "radius": 17,
+        "states": 12085,
+        "edges": 23919
+      },
+      {
+        "radius": 18,
+        "states": 18768,
+        "edges": 37144
+      },
+      {
+        "radius": 19,
+        "states": 29445,
+        "edges": 58351
+      }
+    ]
+  },
+  {
+    "word": "0011",
+    "length": 4,
+    "stop": "state_cap",
+    "last_radius": 17,
+    "last_states": 22431,
+    "elapsed_sec": 1.6679801170248538,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 8,
+        "edges": 16
+      },
+      {
+        "radius": 2,
+        "states": 16,
+        "edges": 32
+      },
+      {
+        "radius": 3,
+        "states": 18,
+        "edges": 36
+      },
+      {
+        "radius": 4,
+        "states": 34,
+        "edges": 68
+      },
+      {
+        "radius": 5,
+        "states": 60,
+        "edges": 120
+      },
+      {
+        "radius": 6,
+        "states": 108,
+        "edges": 216
+      },
+      {
+        "radius": 7,
+        "states": 192,
+        "edges": 384
+      },
+      {
+        "radius": 8,
+        "states": 342,
+        "edges": 684
+      },
+      {
+        "radius": 9,
+        "states": 524,
+        "edges": 1048
+      },
+      {
+        "radius": 10,
+        "states": 830,
+        "edges": 1660
+      },
+      {
+        "radius": 11,
+        "states": 1474,
+        "edges": 2948
+      },
+      {
+        "radius": 12,
+        "states": 2492,
+        "edges": 4984
+      },
+      {
+        "radius": 13,
+        "states": 4168,
+        "edges": 8336
+      },
+      {
+        "radius": 14,
+        "states": 6698,
+        "edges": 13396
+      },
+      {
+        "radius": 15,
+        "states": 9986,
+        "edges": 19773
+      },
+      {
+        "radius": 16,
+        "states": 14627,
+        "edges": 28768
+      },
+      {
+        "radius": 17,
+        "states": 22431,
+        "edges": 44221
+      }
+    ]
+  },
+  {
+    "word": "0111",
+    "length": 4,
+    "stop": "state_cap",
+    "last_radius": 17,
+    "last_states": 26966,
+    "elapsed_sec": 2.4019969989312813,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 8,
+        "edges": 16
+      },
+      {
+        "radius": 2,
+        "states": 16,
+        "edges": 32
+      },
+      {
+        "radius": 3,
+        "states": 32,
+        "edges": 64
+      },
+      {
+        "radius": 4,
+        "states": 56,
+        "edges": 112
+      },
+      {
+        "radius": 5,
+        "states": 94,
+        "edges": 188
+      },
+      {
+        "radius": 6,
+        "states": 158,
+        "edges": 316
+      },
+      {
+        "radius": 7,
+        "states": 228,
+        "edges": 456
+      },
+      {
+        "radius": 8,
+        "states": 416,
+        "edges": 832
+      },
+      {
+        "radius": 9,
+        "states": 740,
+        "edges": 1480
+      },
+      {
+        "radius": 10,
+        "states": 1284,
+        "edges": 2568
+      },
+      {
+        "radius": 11,
+        "states": 2102,
+        "edges": 4204
+      },
+      {
+        "radius": 12,
+        "states": 3610,
+        "edges": 7220
+      },
+      {
+        "radius": 13,
+        "states": 6192,
+        "edges": 12384
+      },
+      {
+        "radius": 14,
+        "states": 8172,
+        "edges": 16070
+      },
+      {
+        "radius": 15,
+        "states": 12684,
+        "edges": 24973
+      },
+      {
+        "radius": 16,
+        "states": 18264,
+        "edges": 35892
+      },
+      {
+        "radius": 17,
+        "states": 26966,
+        "edges": 53043
+      }
+    ]
+  },
+  {
+    "word": "00001",
+    "length": 5,
+    "stop": "state_cap",
+    "last_radius": 16,
+    "last_states": 24966,
+    "elapsed_sec": 1.5223471340723336,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 10,
+        "edges": 20
+      },
+      {
+        "radius": 2,
+        "states": 20,
+        "edges": 40
+      },
+      {
+        "radius": 3,
+        "states": 40,
+        "edges": 80
+      },
+      {
+        "radius": 4,
+        "states": 70,
+        "edges": 140
+      },
+      {
+        "radius": 5,
+        "states": 112,
+        "edges": 224
+      },
+      {
+        "radius": 6,
+        "states": 204,
+        "edges": 408
+      },
+      {
+        "radius": 7,
+        "states": 332,
+        "edges": 664
+      },
+      {
+        "radius": 8,
+        "states": 558,
+        "edges": 1116
+      },
+      {
+        "radius": 9,
+        "states": 932,
+        "edges": 1864
+      },
+      {
+        "radius": 10,
+        "states": 1446,
+        "edges": 2892
+      },
+      {
+        "radius": 11,
+        "states": 2328,
+        "edges": 4656
+      },
+      {
+        "radius": 12,
+        "states": 3672,
+        "edges": 7344
+      },
+      {
+        "radius": 13,
+        "states": 5322,
+        "edges": 10644
+      },
+      {
+        "radius": 14,
+        "states": 8988,
+        "edges": 17976
+      },
+      {
+        "radius": 15,
+        "states": 14912,
+        "edges": 29824
+      },
+      {
+        "radius": 16,
+        "states": 24966,
+        "edges": 49932
+      }
+    ]
+  },
+  {
+    "word": "00011",
+    "length": 5,
+    "stop": "state_cap",
+    "last_radius": 16,
+    "last_states": 24248,
+    "elapsed_sec": 1.6591577080544084,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 10,
+        "edges": 20
+      },
+      {
+        "radius": 2,
+        "states": 20,
+        "edges": 40
+      },
+      {
+        "radius": 3,
+        "states": 22,
+        "edges": 44
+      },
+      {
+        "radius": 4,
+        "states": 42,
+        "edges": 84
+      },
+      {
+        "radius": 5,
+        "states": 74,
+        "edges": 148
+      },
+      {
+        "radius": 6,
+        "states": 132,
+        "edges": 264
+      },
+      {
+        "radius": 7,
+        "states": 222,
+        "edges": 444
+      },
+      {
+        "radius": 8,
+        "states": 398,
+        "edges": 796
+      },
+      {
+        "radius": 9,
+        "states": 700,
+        "edges": 1400
+      },
+      {
+        "radius": 10,
+        "states": 1096,
+        "edges": 2192
+      },
+      {
+        "radius": 11,
+        "states": 1918,
+        "edges": 3836
+      },
+      {
+        "radius": 12,
+        "states": 3310,
+        "edges": 6620
+      },
+      {
+        "radius": 13,
+        "states": 5474,
+        "edges": 10948
+      },
+      {
+        "radius": 14,
+        "states": 8654,
+        "edges": 17308
+      },
+      {
+        "radius": 15,
+        "states": 14426,
+        "edges": 28852
+      },
+      {
+        "radius": 16,
+        "states": 24248,
+        "edges": 48496
+      }
+    ]
+  },
+  {
+    "word": "00101",
+    "length": 5,
+    "stop": "state_cap",
+    "last_radius": 15,
+    "last_states": 24216,
+    "elapsed_sec": 1.7464798350119963,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 10,
+        "edges": 20
+      },
+      {
+        "radius": 2,
+        "states": 20,
+        "edges": 40
+      },
+      {
+        "radius": 3,
+        "states": 40,
+        "edges": 80
+      },
+      {
+        "radius": 4,
+        "states": 70,
+        "edges": 140
+      },
+      {
+        "radius": 5,
+        "states": 114,
+        "edges": 228
+      },
+      {
+        "radius": 6,
+        "states": 208,
+        "edges": 416
+      },
+      {
+        "radius": 7,
+        "states": 364,
+        "edges": 728
+      },
+      {
+        "radius": 8,
+        "states": 634,
+        "edges": 1268
+      },
+      {
+        "radius": 9,
+        "states": 1092,
+        "edges": 2184
+      },
+      {
+        "radius": 10,
+        "states": 1866,
+        "edges": 3732
+      },
+      {
+        "radius": 11,
+        "states": 3104,
+        "edges": 6208
+      },
+      {
+        "radius": 12,
+        "states": 5248,
+        "edges": 10496
+      },
+      {
+        "radius": 13,
+        "states": 8528,
+        "edges": 17056
+      },
+      {
+        "radius": 14,
+        "states": 14524,
+        "edges": 29048
+      },
+      {
+        "radius": 15,
+        "states": 24216,
+        "edges": 48432
+      }
+    ]
+  },
+  {
+    "word": "00111",
+    "length": 5,
+    "stop": "state_cap",
+    "last_radius": 16,
+    "last_states": 23792,
+    "elapsed_sec": 1.5675541809760034,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 10,
+        "edges": 20
+      },
+      {
+        "radius": 2,
+        "states": 20,
+        "edges": 40
+      },
+      {
+        "radius": 3,
+        "states": 40,
+        "edges": 80
+      },
+      {
+        "radius": 4,
+        "states": 70,
+        "edges": 140
+      },
+      {
+        "radius": 5,
+        "states": 116,
+        "edges": 232
+      },
+      {
+        "radius": 6,
+        "states": 184,
+        "edges": 368
+      },
+      {
+        "radius": 7,
+        "states": 302,
+        "edges": 604
+      },
+      {
+        "radius": 8,
+        "states": 476,
+        "edges": 952
+      },
+      {
+        "radius": 9,
+        "states": 664,
+        "edges": 1328
+      },
+      {
+        "radius": 10,
+        "states": 1086,
+        "edges": 2172
+      },
+      {
+        "radius": 11,
+        "states": 1892,
+        "edges": 3784
+      },
+      {
+        "radius": 12,
+        "states": 3142,
+        "edges": 6284
+      },
+      {
+        "radius": 13,
+        "states": 5338,
+        "edges": 10676
+      },
+      {
+        "radius": 14,
+        "states": 8768,
+        "edges": 17536
+      },
+      {
+        "radius": 15,
+        "states": 14580,
+        "edges": 29160
+      },
+      {
+        "radius": 16,
+        "states": 23792,
+        "edges": 47584
+      }
+    ]
+  },
+  {
+    "word": "01011",
+    "length": 5,
+    "stop": "state_cap",
+    "last_radius": 15,
+    "last_states": 20700,
+    "elapsed_sec": 1.2992086530430242,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 10,
+        "edges": 20
+      },
+      {
+        "radius": 2,
+        "states": 20,
+        "edges": 40
+      },
+      {
+        "radius": 3,
+        "states": 40,
+        "edges": 80
+      },
+      {
+        "radius": 4,
+        "states": 70,
+        "edges": 140
+      },
+      {
+        "radius": 5,
+        "states": 116,
+        "edges": 232
+      },
+      {
+        "radius": 6,
+        "states": 196,
+        "edges": 392
+      },
+      {
+        "radius": 7,
+        "states": 340,
+        "edges": 680
+      },
+      {
+        "radius": 8,
+        "states": 598,
+        "edges": 1196
+      },
+      {
+        "radius": 9,
+        "states": 1044,
+        "edges": 2088
+      },
+      {
+        "radius": 10,
+        "states": 1796,
+        "edges": 3592
+      },
+      {
+        "radius": 11,
+        "states": 3000,
+        "edges": 6000
+      },
+      {
+        "radius": 12,
+        "states": 4392,
+        "edges": 8784
+      },
+      {
+        "radius": 13,
+        "states": 7454,
+        "edges": 14908
+      },
+      {
+        "radius": 14,
+        "states": 12568,
+        "edges": 25136
+      },
+      {
+        "radius": 15,
+        "states": 20700,
+        "edges": 41400
+      }
+    ]
+  },
+  {
+    "word": "01111",
+    "length": 5,
+    "stop": "state_cap",
+    "last_radius": 16,
+    "last_states": 25208,
+    "elapsed_sec": 1.9526702559087425,
+    "trajectory": [
+      {
+        "radius": 1,
+        "states": 10,
+        "edges": 20
+      },
+      {
+        "radius": 2,
+        "states": 20,
+        "edges": 40
+      },
+      {
+        "radius": 3,
+        "states": 24,
+        "edges": 48
+      },
+      {
+        "radius": 4,
+        "states": 44,
+        "edges": 88
+      },
+      {
+        "radius": 5,
+        "states": 78,
+        "edges": 156
+      },
+      {
+        "radius": 6,
+        "states": 124,
+        "edges": 248
+      },
+      {
+        "radius": 7,
+        "states": 222,
+        "edges": 444
+      },
+      {
+        "radius": 8,
+        "states": 394,
+        "edges": 788
+      },
+      {
+        "radius": 9,
+        "states": 660,
+        "edges": 1320
+      },
+      {
+        "radius": 10,
+        "states": 1148,
+        "edges": 2296
+      },
+      {
+        "radius": 11,
+        "states": 1876,
+        "edges": 3752
+      },
+      {
+        "radius": 12,
+        "states": 3234,
+        "edges": 6468
+      },
+      {
+        "radius": 13,
+        "states": 5562,
+        "edges": 11124
+      },
+      {
+        "radius": 14,
+        "states": 9396,
+        "edges": 18792
+      },
+      {
+        "radius": 15,
+        "states": 15354,
+        "edges": 30708
+      },
+      {
+        "radius": 16,
+        "states": 25208,
+        "edges": 50416
+      }
+    ]
+  }
+]

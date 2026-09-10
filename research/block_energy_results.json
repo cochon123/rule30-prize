@@ -1,0 +1,3109 @@
+{
+  "status": "finite measurement only; no density proof; no prize claim",
+  "seed": "x(0,0)=1; packed generator matches experiment.center_bits",
+  "bits": 262144,
+  "full_corr_limit": 256,
+  "target": "E_m = o(N L) with L=2^{floor(m/2)} would imply A_m=o(N) via CS",
+  "annuli": [
+    {
+      "m": 4,
+      "N": 16,
+      "L": 4,
+      "B": 4,
+      "NL": 64,
+      "E_m": 4,
+      "E_over_NL": 0.0625,
+      "E_over_N": 0.25,
+      "A_m": 3,
+      "A_over_N": 0.1875,
+      "annulus_sum": 2,
+      "cs_bound": 8.0,
+      "cs_bound_over_N": 0.5,
+      "max_abs_block_sum": 2,
+      "rms_block_sum": 1.0,
+      "rms_over_sqrt_L": 0.5,
+      "block_sign_pos": 1,
+      "block_sign_neg": 0,
+      "block_sign_zero": 3,
+      "lag1_background": {
+        "pairs": 12,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 2,
+        "by_cr": {
+          "00": 1,
+          "01": -2,
+          "10": -2,
+          "11": 1
+        },
+        "count_cr": {
+          "00": 3,
+          "01": 2,
+          "10": 4,
+          "11": 3
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": -6,
+        "sum_abs_C": 6,
+        "abs_sum_over_sum_abs": 1.0,
+        "even_C": -2,
+        "odd_C": -4,
+        "alternating_signed_C": 2,
+        "selected": [
+          {
+            "h": 1,
+            "C": -2,
+            "pairs": 12,
+            "mean": -0.16666666666666666
+          },
+          {
+            "h": 2,
+            "C": -2,
+            "pairs": 8,
+            "mean": -0.25
+          },
+          {
+            "h": 3,
+            "C": -2,
+            "pairs": 4,
+            "mean": -0.5
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -2,
+          "energy": 12,
+          "energy_over_N": 0.75,
+          "energy_over_NL_at_prescribed": 0.1875
+        },
+        {
+          "block_len": 4,
+          "cross": -4,
+          "energy": 4,
+          "energy_over_N": 0.25,
+          "energy_over_NL_at_prescribed": 0.0625
+        },
+        {
+          "block_len": 8,
+          "cross": 0,
+          "energy": 4,
+          "energy_over_N": 0.25,
+          "energy_over_NL_at_prescribed": 0.0625
+        },
+        {
+          "block_len": 16,
+          "cross": 0,
+          "energy": 4,
+          "energy_over_N": 0.25,
+          "energy_over_NL_at_prescribed": 0.0625
+        }
+      ]
+    },
+    {
+      "m": 5,
+      "N": 32,
+      "L": 4,
+      "B": 8,
+      "NL": 128,
+      "E_m": 12,
+      "E_over_NL": 0.09375,
+      "E_over_N": 0.375,
+      "A_m": 3,
+      "A_over_N": 0.09375,
+      "annulus_sum": 2,
+      "cs_bound": 13.797958971132712,
+      "cs_bound_over_N": 0.43118621784789724,
+      "max_abs_block_sum": 2,
+      "rms_block_sum": 1.224744871391589,
+      "rms_over_sqrt_L": 0.6123724356957945,
+      "block_sign_pos": 2,
+      "block_sign_neg": 1,
+      "block_sign_zero": 5,
+      "lag1_background": {
+        "pairs": 24,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 6,
+        "by_cr": {
+          "00": -4,
+          "01": -3,
+          "10": -4,
+          "11": 1
+        },
+        "count_cr": {
+          "00": 4,
+          "01": 9,
+          "10": 8,
+          "11": 3
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": -10,
+        "sum_abs_C": 14,
+        "abs_sum_over_sum_abs": 0.7142857142857143,
+        "even_C": 2,
+        "odd_C": -12,
+        "alternating_signed_C": 14,
+        "selected": [
+          {
+            "h": 1,
+            "C": -10,
+            "pairs": 24,
+            "mean": -0.4166666666666667
+          },
+          {
+            "h": 2,
+            "C": 2,
+            "pairs": 16,
+            "mean": 0.125
+          },
+          {
+            "h": 3,
+            "C": -2,
+            "pairs": 8,
+            "mean": -0.25
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -10,
+          "energy": 12,
+          "energy_over_N": 0.375,
+          "energy_over_NL_at_prescribed": 0.09375
+        },
+        {
+          "block_len": 4,
+          "cross": 0,
+          "energy": 12,
+          "energy_over_N": 0.375,
+          "energy_over_NL_at_prescribed": 0.09375
+        },
+        {
+          "block_len": 8,
+          "cross": 0,
+          "energy": 12,
+          "energy_over_N": 0.375,
+          "energy_over_NL_at_prescribed": 0.09375
+        },
+        {
+          "block_len": 16,
+          "cross": -4,
+          "energy": 4,
+          "energy_over_N": 0.125,
+          "energy_over_NL_at_prescribed": 0.03125
+        },
+        {
+          "block_len": 32,
+          "cross": 0,
+          "energy": 4,
+          "energy_over_N": 0.125,
+          "energy_over_NL_at_prescribed": 0.03125
+        }
+      ]
+    },
+    {
+      "m": 6,
+      "N": 64,
+      "L": 8,
+      "B": 8,
+      "NL": 512,
+      "E_m": 64,
+      "E_over_NL": 0.125,
+      "E_over_N": 1.0,
+      "A_m": 8,
+      "A_over_N": 0.125,
+      "annulus_sum": -8,
+      "cs_bound": 30.627416997969522,
+      "cs_bound_over_N": 0.4785533905932738,
+      "max_abs_block_sum": 6,
+      "rms_block_sum": 2.8284271247461903,
+      "rms_over_sqrt_L": 1.0,
+      "block_sign_pos": 2,
+      "block_sign_neg": 3,
+      "block_sign_zero": 3,
+      "lag1_background": {
+        "pairs": 56,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 9,
+        "by_cr": {
+          "00": 5,
+          "01": 4,
+          "10": 3,
+          "11": 0
+        },
+        "count_cr": {
+          "00": 15,
+          "01": 16,
+          "10": 15,
+          "11": 10
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 0,
+        "sum_abs_C": 32,
+        "abs_sum_over_sum_abs": 0.0,
+        "even_C": -8,
+        "odd_C": 8,
+        "alternating_signed_C": -16,
+        "selected": [
+          {
+            "h": 1,
+            "C": 12,
+            "pairs": 56,
+            "mean": 0.21428571428571427
+          },
+          {
+            "h": 2,
+            "C": 0,
+            "pairs": 48,
+            "mean": 0.0
+          },
+          {
+            "h": 3,
+            "C": -6,
+            "pairs": 40,
+            "mean": -0.15
+          },
+          {
+            "h": 4,
+            "C": -8,
+            "pairs": 32,
+            "mean": -0.25
+          },
+          {
+            "h": 5,
+            "C": -2,
+            "pairs": 24,
+            "mean": -0.08333333333333333
+          },
+          {
+            "h": 6,
+            "C": 0,
+            "pairs": 16,
+            "mean": 0.0
+          },
+          {
+            "h": 7,
+            "C": 4,
+            "pairs": 8,
+            "mean": 0.5
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": 8,
+          "energy": 80,
+          "energy_over_N": 1.25,
+          "energy_over_NL_at_prescribed": 0.15625
+        },
+        {
+          "block_len": 4,
+          "cross": 8,
+          "energy": 96,
+          "energy_over_N": 1.5,
+          "energy_over_NL_at_prescribed": 0.1875
+        },
+        {
+          "block_len": 8,
+          "cross": -16,
+          "energy": 64,
+          "energy_over_N": 1.0,
+          "energy_over_NL_at_prescribed": 0.125
+        },
+        {
+          "block_len": 16,
+          "cross": 12,
+          "energy": 88,
+          "energy_over_N": 1.375,
+          "energy_over_NL_at_prescribed": 0.171875
+        },
+        {
+          "block_len": 32,
+          "cross": -24,
+          "energy": 40,
+          "energy_over_N": 0.625,
+          "energy_over_NL_at_prescribed": 0.078125
+        },
+        {
+          "block_len": 64,
+          "cross": 12,
+          "energy": 64,
+          "energy_over_N": 1.0,
+          "energy_over_NL_at_prescribed": 0.125
+        }
+      ]
+    },
+    {
+      "m": 7,
+      "N": 128,
+      "L": 8,
+      "B": 16,
+      "NL": 1024,
+      "E_m": 144,
+      "E_over_NL": 0.140625,
+      "E_over_N": 1.125,
+      "A_m": 16,
+      "A_over_N": 0.125,
+      "annulus_sum": 16,
+      "cs_bound": 56.0,
+      "cs_bound_over_N": 0.4375,
+      "max_abs_block_sum": 6,
+      "rms_block_sum": 3.0,
+      "rms_over_sqrt_L": 1.0606601717798212,
+      "block_sign_pos": 7,
+      "block_sign_neg": 4,
+      "block_sign_zero": 5,
+      "lag1_background": {
+        "pairs": 112,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 20,
+        "by_cr": {
+          "00": 6,
+          "01": -3,
+          "10": 5,
+          "11": 8
+        },
+        "count_cr": {
+          "00": 20,
+          "01": 31,
+          "10": 35,
+          "11": 26
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 8,
+        "sum_abs_C": 36,
+        "abs_sum_over_sum_abs": 0.2222222222222222,
+        "even_C": -8,
+        "odd_C": 16,
+        "alternating_signed_C": -24,
+        "selected": [
+          {
+            "h": 1,
+            "C": 16,
+            "pairs": 112,
+            "mean": 0.14285714285714285
+          },
+          {
+            "h": 2,
+            "C": -6,
+            "pairs": 96,
+            "mean": -0.0625
+          },
+          {
+            "h": 3,
+            "C": 2,
+            "pairs": 80,
+            "mean": 0.025
+          },
+          {
+            "h": 4,
+            "C": 0,
+            "pairs": 64,
+            "mean": 0.0
+          },
+          {
+            "h": 5,
+            "C": -6,
+            "pairs": 48,
+            "mean": -0.125
+          },
+          {
+            "h": 6,
+            "C": -2,
+            "pairs": 32,
+            "mean": -0.0625
+          },
+          {
+            "h": 7,
+            "C": 4,
+            "pairs": 16,
+            "mean": 0.25
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -4,
+          "energy": 120,
+          "energy_over_N": 0.9375,
+          "energy_over_NL_at_prescribed": 0.1171875
+        },
+        {
+          "block_len": 4,
+          "cross": 24,
+          "energy": 168,
+          "energy_over_N": 1.3125,
+          "energy_over_NL_at_prescribed": 0.1640625
+        },
+        {
+          "block_len": 8,
+          "cross": -12,
+          "energy": 144,
+          "energy_over_N": 1.125,
+          "energy_over_NL_at_prescribed": 0.140625
+        },
+        {
+          "block_len": 16,
+          "cross": 0,
+          "energy": 144,
+          "energy_over_N": 1.125,
+          "energy_over_NL_at_prescribed": 0.140625
+        },
+        {
+          "block_len": 32,
+          "cross": -28,
+          "energy": 88,
+          "energy_over_N": 0.6875,
+          "energy_over_NL_at_prescribed": 0.0859375
+        },
+        {
+          "block_len": 64,
+          "cross": 24,
+          "energy": 136,
+          "energy_over_N": 1.0625,
+          "energy_over_NL_at_prescribed": 0.1328125
+        },
+        {
+          "block_len": 128,
+          "cross": 60,
+          "energy": 256,
+          "energy_over_N": 2.0,
+          "energy_over_NL_at_prescribed": 0.25
+        }
+      ]
+    },
+    {
+      "m": 8,
+      "N": 256,
+      "L": 16,
+      "B": 16,
+      "NL": 4096,
+      "E_m": 276,
+      "E_over_NL": 0.0673828125,
+      "E_over_N": 1.078125,
+      "A_m": 12,
+      "A_over_N": 0.046875,
+      "annulus_sum": -6,
+      "cs_bound": 82.4529909033446,
+      "cs_bound_over_N": 0.32208199571618984,
+      "max_abs_block_sum": 10,
+      "rms_block_sum": 4.153311931459037,
+      "rms_over_sqrt_L": 1.0383279828647594,
+      "block_sign_pos": 6,
+      "block_sign_neg": 6,
+      "block_sign_zero": 4,
+      "lag1_background": {
+        "pairs": 240,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 59,
+        "by_cr": {
+          "00": 9,
+          "01": 1,
+          "10": -1,
+          "11": 1
+        },
+        "count_cr": {
+          "00": 61,
+          "01": 63,
+          "10": 55,
+          "11": 61
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 10,
+        "sum_abs_C": 142,
+        "abs_sum_over_sum_abs": 0.07042253521126761,
+        "even_C": -42,
+        "odd_C": 52,
+        "alternating_signed_C": -94,
+        "selected": [
+          {
+            "h": 1,
+            "C": 10,
+            "pairs": 240,
+            "mean": 0.041666666666666664
+          },
+          {
+            "h": 2,
+            "C": -2,
+            "pairs": 224,
+            "mean": -0.008928571428571428
+          },
+          {
+            "h": 3,
+            "C": 22,
+            "pairs": 208,
+            "mean": 0.10576923076923077
+          },
+          {
+            "h": 4,
+            "C": -36,
+            "pairs": 192,
+            "mean": -0.1875
+          },
+          {
+            "h": 5,
+            "C": -12,
+            "pairs": 176,
+            "mean": -0.06818181818181818
+          },
+          {
+            "h": 6,
+            "C": 10,
+            "pairs": 160,
+            "mean": 0.0625
+          },
+          {
+            "h": 7,
+            "C": 12,
+            "pairs": 144,
+            "mean": 0.08333333333333333
+          },
+          {
+            "h": 8,
+            "C": -2,
+            "pairs": 128,
+            "mean": -0.015625
+          },
+          {
+            "h": 9,
+            "C": 12,
+            "pairs": 112,
+            "mean": 0.10714285714285714
+          },
+          {
+            "h": 10,
+            "C": -10,
+            "pairs": 96,
+            "mean": -0.10416666666666667
+          },
+          {
+            "h": 11,
+            "C": 4,
+            "pairs": 80,
+            "mean": 0.05
+          },
+          {
+            "h": 12,
+            "C": 0,
+            "pairs": 64,
+            "mean": 0.0
+          },
+          {
+            "h": 13,
+            "C": 6,
+            "pairs": 48,
+            "mean": 0.125
+          },
+          {
+            "h": 14,
+            "C": -2,
+            "pairs": 32,
+            "mean": -0.0625
+          },
+          {
+            "h": 15,
+            "C": -2,
+            "pairs": 16,
+            "mean": -0.125
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": 6,
+          "energy": 268,
+          "energy_over_N": 1.046875,
+          "energy_over_NL_at_prescribed": 0.0654296875
+        },
+        {
+          "block_len": 4,
+          "cross": 12,
+          "energy": 292,
+          "energy_over_N": 1.140625,
+          "energy_over_NL_at_prescribed": 0.0712890625
+        },
+        {
+          "block_len": 8,
+          "cross": -12,
+          "energy": 268,
+          "energy_over_N": 1.046875,
+          "energy_over_NL_at_prescribed": 0.0654296875
+        },
+        {
+          "block_len": 16,
+          "cross": 4,
+          "energy": 276,
+          "energy_over_N": 1.078125,
+          "energy_over_NL_at_prescribed": 0.0673828125
+        },
+        {
+          "block_len": 32,
+          "cross": -4,
+          "energy": 268,
+          "energy_over_N": 1.046875,
+          "energy_over_NL_at_prescribed": 0.0654296875
+        },
+        {
+          "block_len": 64,
+          "cross": -100,
+          "energy": 68,
+          "energy_over_N": 0.265625,
+          "energy_over_NL_at_prescribed": 0.0166015625
+        },
+        {
+          "block_len": 128,
+          "cross": -16,
+          "energy": 36,
+          "energy_over_N": 0.140625,
+          "energy_over_NL_at_prescribed": 0.0087890625
+        },
+        {
+          "block_len": 256,
+          "cross": 0,
+          "energy": 36,
+          "energy_over_N": 0.140625,
+          "energy_over_NL_at_prescribed": 0.0087890625
+        }
+      ]
+    },
+    {
+      "m": 9,
+      "N": 512,
+      "L": 16,
+      "B": 32,
+      "NL": 8192,
+      "E_m": 560,
+      "E_over_NL": 0.068359375,
+      "E_over_N": 1.09375,
+      "A_m": 52,
+      "A_over_N": 0.1015625,
+      "annulus_sum": -52,
+      "cs_bound": 149.8656042454521,
+      "cs_bound_over_N": 0.2927062582918986,
+      "max_abs_block_sum": 8,
+      "rms_block_sum": 4.183300132670378,
+      "rms_over_sqrt_L": 1.0458250331675945,
+      "block_sign_pos": 7,
+      "block_sign_neg": 20,
+      "block_sign_zero": 5,
+      "lag1_background": {
+        "pairs": 480,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 125,
+        "by_cr": {
+          "00": 27,
+          "01": 13,
+          "10": -2,
+          "11": -8
+        },
+        "count_cr": {
+          "00": 131,
+          "01": 131,
+          "10": 96,
+          "11": 122
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 24,
+        "sum_abs_C": 228,
+        "abs_sum_over_sum_abs": 0.10526315789473684,
+        "even_C": -52,
+        "odd_C": 76,
+        "alternating_signed_C": -128,
+        "selected": [
+          {
+            "h": 1,
+            "C": 30,
+            "pairs": 480,
+            "mean": 0.0625
+          },
+          {
+            "h": 2,
+            "C": 18,
+            "pairs": 448,
+            "mean": 0.04017857142857143
+          },
+          {
+            "h": 3,
+            "C": 22,
+            "pairs": 416,
+            "mean": 0.052884615384615384
+          },
+          {
+            "h": 4,
+            "C": -28,
+            "pairs": 384,
+            "mean": -0.07291666666666667
+          },
+          {
+            "h": 5,
+            "C": -20,
+            "pairs": 352,
+            "mean": -0.056818181818181816
+          },
+          {
+            "h": 6,
+            "C": -26,
+            "pairs": 320,
+            "mean": -0.08125
+          },
+          {
+            "h": 7,
+            "C": 20,
+            "pairs": 288,
+            "mean": 0.06944444444444445
+          },
+          {
+            "h": 8,
+            "C": 12,
+            "pairs": 256,
+            "mean": 0.046875
+          },
+          {
+            "h": 9,
+            "C": 0,
+            "pairs": 224,
+            "mean": 0.0
+          },
+          {
+            "h": 10,
+            "C": -10,
+            "pairs": 192,
+            "mean": -0.052083333333333336
+          },
+          {
+            "h": 11,
+            "C": 12,
+            "pairs": 160,
+            "mean": 0.075
+          },
+          {
+            "h": 12,
+            "C": -4,
+            "pairs": 128,
+            "mean": -0.03125
+          },
+          {
+            "h": 13,
+            "C": 10,
+            "pairs": 96,
+            "mean": 0.10416666666666667
+          },
+          {
+            "h": 14,
+            "C": -14,
+            "pairs": 64,
+            "mean": -0.21875
+          },
+          {
+            "h": 15,
+            "C": 2,
+            "pairs": 32,
+            "mean": 0.0625
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": 24,
+          "energy": 560,
+          "energy_over_N": 1.09375,
+          "energy_over_NL_at_prescribed": 0.068359375
+        },
+        {
+          "block_len": 4,
+          "cross": 20,
+          "energy": 600,
+          "energy_over_N": 1.171875,
+          "energy_over_NL_at_prescribed": 0.0732421875
+        },
+        {
+          "block_len": 8,
+          "cross": -16,
+          "energy": 568,
+          "energy_over_N": 1.109375,
+          "energy_over_NL_at_prescribed": 0.0693359375
+        },
+        {
+          "block_len": 16,
+          "cross": -4,
+          "energy": 560,
+          "energy_over_N": 1.09375,
+          "energy_over_NL_at_prescribed": 0.068359375
+        },
+        {
+          "block_len": 32,
+          "cross": 64,
+          "energy": 688,
+          "energy_over_N": 1.34375,
+          "energy_over_NL_at_prescribed": 0.083984375
+        },
+        {
+          "block_len": 64,
+          "cross": -108,
+          "energy": 472,
+          "energy_over_N": 0.921875,
+          "energy_over_NL_at_prescribed": 0.0576171875
+        },
+        {
+          "block_len": 128,
+          "cross": 140,
+          "energy": 752,
+          "energy_over_N": 1.46875,
+          "energy_over_NL_at_prescribed": 0.091796875
+        },
+        {
+          "block_len": 256,
+          "cross": 336,
+          "energy": 1424,
+          "energy_over_N": 2.78125,
+          "energy_over_NL_at_prescribed": 0.173828125
+        },
+        {
+          "block_len": 512,
+          "cross": 640,
+          "energy": 2704,
+          "energy_over_N": 5.28125,
+          "energy_over_NL_at_prescribed": 0.330078125
+        }
+      ]
+    },
+    {
+      "m": 10,
+      "N": 1024,
+      "L": 32,
+      "B": 32,
+      "NL": 32768,
+      "E_m": 1280,
+      "E_over_NL": 0.0390625,
+      "E_over_N": 1.25,
+      "A_m": 36,
+      "A_over_N": 0.03515625,
+      "annulus_sum": 0,
+      "cs_bound": 234.3857702507763,
+      "cs_bound_over_N": 0.22889235376052372,
+      "max_abs_block_sum": 18,
+      "rms_block_sum": 6.324555320336759,
+      "rms_over_sqrt_L": 1.118033988749895,
+      "block_sign_pos": 15,
+      "block_sign_neg": 13,
+      "block_sign_zero": 4,
+      "lag1_background": {
+        "pairs": 992,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 245,
+        "by_cr": {
+          "00": 5,
+          "01": 10,
+          "10": 21,
+          "11": 0
+        },
+        "count_cr": {
+          "00": 247,
+          "01": 250,
+          "10": 247,
+          "11": 248
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 128,
+        "sum_abs_C": 456,
+        "abs_sum_over_sum_abs": 0.2807017543859649,
+        "even_C": 48,
+        "odd_C": 80,
+        "alternating_signed_C": -32,
+        "selected": [
+          {
+            "h": 1,
+            "C": 36,
+            "pairs": 992,
+            "mean": 0.036290322580645164
+          },
+          {
+            "h": 2,
+            "C": 28,
+            "pairs": 960,
+            "mean": 0.029166666666666667
+          },
+          {
+            "h": 3,
+            "C": -8,
+            "pairs": 928,
+            "mean": -0.008620689655172414
+          },
+          {
+            "h": 4,
+            "C": 46,
+            "pairs": 896,
+            "mean": 0.05133928571428571
+          },
+          {
+            "h": 5,
+            "C": 12,
+            "pairs": 864,
+            "mean": 0.013888888888888888
+          },
+          {
+            "h": 6,
+            "C": 6,
+            "pairs": 832,
+            "mean": 0.007211538461538462
+          },
+          {
+            "h": 7,
+            "C": -30,
+            "pairs": 800,
+            "mean": -0.0375
+          },
+          {
+            "h": 8,
+            "C": -4,
+            "pairs": 768,
+            "mean": -0.005208333333333333
+          },
+          {
+            "h": 9,
+            "C": 40,
+            "pairs": 736,
+            "mean": 0.05434782608695652
+          },
+          {
+            "h": 10,
+            "C": 36,
+            "pairs": 704,
+            "mean": 0.05113636363636364
+          },
+          {
+            "h": 11,
+            "C": 40,
+            "pairs": 672,
+            "mean": 0.05952380952380952
+          },
+          {
+            "h": 12,
+            "C": -2,
+            "pairs": 640,
+            "mean": -0.003125
+          },
+          {
+            "h": 13,
+            "C": 0,
+            "pairs": 608,
+            "mean": 0.0
+          },
+          {
+            "h": 14,
+            "C": 0,
+            "pairs": 576,
+            "mean": 0.0
+          },
+          {
+            "h": 15,
+            "C": 8,
+            "pairs": 544,
+            "mean": 0.014705882352941176
+          },
+          {
+            "h": 16,
+            "C": -4,
+            "pairs": 512,
+            "mean": -0.0078125
+          },
+          {
+            "h": 31,
+            "C": 8,
+            "pairs": 32,
+            "mean": 0.25
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": 28,
+          "energy": 1080,
+          "energy_over_N": 1.0546875,
+          "energy_over_NL_at_prescribed": 0.032958984375
+        },
+        {
+          "block_len": 4,
+          "cross": -16,
+          "energy": 1048,
+          "energy_over_N": 1.0234375,
+          "energy_over_NL_at_prescribed": 0.031982421875
+        },
+        {
+          "block_len": 8,
+          "cross": 48,
+          "energy": 1144,
+          "energy_over_N": 1.1171875,
+          "energy_over_NL_at_prescribed": 0.034912109375
+        },
+        {
+          "block_len": 16,
+          "cross": 40,
+          "energy": 1224,
+          "energy_over_N": 1.1953125,
+          "energy_over_NL_at_prescribed": 0.037353515625
+        },
+        {
+          "block_len": 32,
+          "cross": 28,
+          "energy": 1280,
+          "energy_over_N": 1.25,
+          "energy_over_NL_at_prescribed": 0.0390625
+        },
+        {
+          "block_len": 64,
+          "cross": -176,
+          "energy": 928,
+          "energy_over_N": 0.90625,
+          "energy_over_NL_at_prescribed": 0.0283203125
+        },
+        {
+          "block_len": 128,
+          "cross": 96,
+          "energy": 1120,
+          "energy_over_N": 1.09375,
+          "energy_over_NL_at_prescribed": 0.0341796875
+        },
+        {
+          "block_len": 256,
+          "cross": -256,
+          "energy": 608,
+          "energy_over_N": 0.59375,
+          "energy_over_NL_at_prescribed": 0.0185546875
+        },
+        {
+          "block_len": 512,
+          "cross": 96,
+          "energy": 800,
+          "energy_over_N": 0.78125,
+          "energy_over_NL_at_prescribed": 0.0244140625
+        },
+        {
+          "block_len": 1024,
+          "cross": -400,
+          "energy": 0,
+          "energy_over_N": 0.0,
+          "energy_over_NL_at_prescribed": 0.0
+        }
+      ]
+    },
+    {
+      "m": 11,
+      "N": 2048,
+      "L": 32,
+      "B": 64,
+      "NL": 65536,
+      "E_m": 1816,
+      "E_over_NL": 0.0277099609375,
+      "E_over_N": 0.88671875,
+      "A_m": 25,
+      "A_over_N": 0.01220703125,
+      "annulus_sum": 4,
+      "cs_bound": 372.91641204260026,
+      "cs_bound_over_N": 0.1820880918176759,
+      "max_abs_block_sum": 12,
+      "rms_block_sum": 5.326818938165629,
+      "rms_over_sqrt_L": 0.9416574483324601,
+      "block_sign_pos": 30,
+      "block_sign_neg": 24,
+      "block_sign_zero": 10,
+      "lag1_background": {
+        "pairs": 1984,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 502,
+        "by_cr": {
+          "00": -21,
+          "01": -1,
+          "10": -42,
+          "11": 32
+        },
+        "count_cr": {
+          "00": 501,
+          "01": 491,
+          "10": 486,
+          "11": 506
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": -116,
+        "sum_abs_C": 800,
+        "abs_sum_over_sum_abs": 0.145,
+        "even_C": -80,
+        "odd_C": -36,
+        "alternating_signed_C": -44,
+        "selected": [
+          {
+            "h": 1,
+            "C": -32,
+            "pairs": 1984,
+            "mean": -0.016129032258064516
+          },
+          {
+            "h": 2,
+            "C": -88,
+            "pairs": 1920,
+            "mean": -0.04583333333333333
+          },
+          {
+            "h": 3,
+            "C": -28,
+            "pairs": 1856,
+            "mean": -0.015086206896551725
+          },
+          {
+            "h": 4,
+            "C": 72,
+            "pairs": 1792,
+            "mean": 0.04017857142857143
+          },
+          {
+            "h": 5,
+            "C": -76,
+            "pairs": 1728,
+            "mean": -0.04398148148148148
+          },
+          {
+            "h": 6,
+            "C": -80,
+            "pairs": 1664,
+            "mean": -0.04807692307692308
+          },
+          {
+            "h": 7,
+            "C": 16,
+            "pairs": 1600,
+            "mean": 0.01
+          },
+          {
+            "h": 8,
+            "C": 16,
+            "pairs": 1536,
+            "mean": 0.010416666666666666
+          },
+          {
+            "h": 9,
+            "C": -22,
+            "pairs": 1472,
+            "mean": -0.014945652173913044
+          },
+          {
+            "h": 10,
+            "C": -12,
+            "pairs": 1408,
+            "mean": -0.008522727272727272
+          },
+          {
+            "h": 11,
+            "C": -52,
+            "pairs": 1344,
+            "mean": -0.03869047619047619
+          },
+          {
+            "h": 12,
+            "C": 36,
+            "pairs": 1280,
+            "mean": 0.028125
+          },
+          {
+            "h": 13,
+            "C": 30,
+            "pairs": 1216,
+            "mean": 0.024671052631578948
+          },
+          {
+            "h": 14,
+            "C": 4,
+            "pairs": 1152,
+            "mean": 0.003472222222222222
+          },
+          {
+            "h": 15,
+            "C": 14,
+            "pairs": 1088,
+            "mean": 0.012867647058823529
+          },
+          {
+            "h": 16,
+            "C": 4,
+            "pairs": 1024,
+            "mean": 0.00390625
+          },
+          {
+            "h": 31,
+            "C": 4,
+            "pairs": 64,
+            "mean": 0.0625
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -44,
+          "energy": 1960,
+          "energy_over_N": 0.95703125,
+          "energy_over_NL_at_prescribed": 0.0299072265625
+        },
+        {
+          "block_len": 4,
+          "cross": -44,
+          "energy": 1872,
+          "energy_over_N": 0.9140625,
+          "energy_over_NL_at_prescribed": 0.028564453125
+        },
+        {
+          "block_len": 8,
+          "cross": -100,
+          "energy": 1672,
+          "energy_over_N": 0.81640625,
+          "energy_over_NL_at_prescribed": 0.0255126953125
+        },
+        {
+          "block_len": 16,
+          "cross": 16,
+          "energy": 1704,
+          "energy_over_N": 0.83203125,
+          "energy_over_NL_at_prescribed": 0.0260009765625
+        },
+        {
+          "block_len": 32,
+          "cross": 56,
+          "energy": 1816,
+          "energy_over_N": 0.88671875,
+          "energy_over_NL_at_prescribed": 0.0277099609375
+        },
+        {
+          "block_len": 64,
+          "cross": -36,
+          "energy": 1744,
+          "energy_over_N": 0.8515625,
+          "energy_over_NL_at_prescribed": 0.026611328125
+        },
+        {
+          "block_len": 128,
+          "cross": -44,
+          "energy": 1656,
+          "energy_over_N": 0.80859375,
+          "energy_over_NL_at_prescribed": 0.0252685546875
+        },
+        {
+          "block_len": 256,
+          "cross": 184,
+          "energy": 2024,
+          "energy_over_N": 0.98828125,
+          "energy_over_NL_at_prescribed": 0.0308837890625
+        },
+        {
+          "block_len": 512,
+          "cross": -992,
+          "energy": 40,
+          "energy_over_N": 0.01953125,
+          "energy_over_NL_at_prescribed": 0.0006103515625
+        },
+        {
+          "block_len": 1024,
+          "cross": -16,
+          "energy": 8,
+          "energy_over_N": 0.00390625,
+          "energy_over_NL_at_prescribed": 0.0001220703125
+        },
+        {
+          "block_len": 2048,
+          "cross": 4,
+          "energy": 16,
+          "energy_over_N": 0.0078125,
+          "energy_over_NL_at_prescribed": 0.000244140625
+        }
+      ]
+    },
+    {
+      "m": 12,
+      "N": 4096,
+      "L": 64,
+      "B": 64,
+      "NL": 262144,
+      "E_m": 5264,
+      "E_over_NL": 0.02008056640625,
+      "E_over_N": 1.28515625,
+      "A_m": 65,
+      "A_over_N": 0.015869140625,
+      "annulus_sum": 56,
+      "cs_bound": 644.4274287109457,
+      "cs_bound_over_N": 0.15733091521263323,
+      "max_abs_block_sum": 24,
+      "rms_block_sum": 9.069178573608527,
+      "rms_over_sqrt_L": 1.1336473217010659,
+      "block_sign_pos": 28,
+      "block_sign_neg": 30,
+      "block_sign_zero": 6,
+      "lag1_background": {
+        "pairs": 4032,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 1020,
+        "by_cr": {
+          "00": -18,
+          "01": -21,
+          "10": -6,
+          "11": 13
+        },
+        "count_cr": {
+          "00": 986,
+          "01": 1001,
+          "10": 1020,
+          "11": 1025
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 584,
+        "sum_abs_C": 2100,
+        "abs_sum_over_sum_abs": 0.2780952380952381,
+        "even_C": 152,
+        "odd_C": 432,
+        "alternating_signed_C": -280,
+        "selected": [
+          {
+            "h": 1,
+            "C": -32,
+            "pairs": 4032,
+            "mean": -0.007936507936507936
+          },
+          {
+            "h": 2,
+            "C": 68,
+            "pairs": 3968,
+            "mean": 0.017137096774193547
+          },
+          {
+            "h": 3,
+            "C": 46,
+            "pairs": 3904,
+            "mean": 0.0117827868852459
+          },
+          {
+            "h": 4,
+            "C": -34,
+            "pairs": 3840,
+            "mean": -0.008854166666666666
+          },
+          {
+            "h": 5,
+            "C": -2,
+            "pairs": 3776,
+            "mean": -0.0005296610169491525
+          },
+          {
+            "h": 6,
+            "C": -8,
+            "pairs": 3712,
+            "mean": -0.0021551724137931034
+          },
+          {
+            "h": 7,
+            "C": -2,
+            "pairs": 3648,
+            "mean": -0.0005482456140350877
+          },
+          {
+            "h": 8,
+            "C": 42,
+            "pairs": 3584,
+            "mean": 0.01171875
+          },
+          {
+            "h": 9,
+            "C": -106,
+            "pairs": 3520,
+            "mean": -0.030113636363636363
+          },
+          {
+            "h": 10,
+            "C": 94,
+            "pairs": 3456,
+            "mean": 0.027199074074074073
+          },
+          {
+            "h": 11,
+            "C": 22,
+            "pairs": 3392,
+            "mean": 0.006485849056603774
+          },
+          {
+            "h": 12,
+            "C": 14,
+            "pairs": 3328,
+            "mean": 0.004206730769230769
+          },
+          {
+            "h": 13,
+            "C": 28,
+            "pairs": 3264,
+            "mean": 0.00857843137254902
+          },
+          {
+            "h": 14,
+            "C": -26,
+            "pairs": 3200,
+            "mean": -0.008125
+          },
+          {
+            "h": 15,
+            "C": -48,
+            "pairs": 3136,
+            "mean": -0.015306122448979591
+          },
+          {
+            "h": 16,
+            "C": 12,
+            "pairs": 3072,
+            "mean": 0.00390625
+          },
+          {
+            "h": 32,
+            "C": 28,
+            "pairs": 2048,
+            "mean": 0.013671875
+          },
+          {
+            "h": 63,
+            "C": 4,
+            "pairs": 64,
+            "mean": 0.0625
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -88,
+          "energy": 3920,
+          "energy_over_N": 0.95703125,
+          "energy_over_NL_at_prescribed": 0.01495361328125
+        },
+        {
+          "block_len": 4,
+          "cross": 60,
+          "energy": 4040,
+          "energy_over_N": 0.986328125,
+          "energy_over_NL_at_prescribed": 0.015411376953125
+        },
+        {
+          "block_len": 8,
+          "cross": -80,
+          "energy": 3880,
+          "energy_over_N": 0.947265625,
+          "energy_over_NL_at_prescribed": 0.014801025390625
+        },
+        {
+          "block_len": 16,
+          "cross": 132,
+          "energy": 4144,
+          "energy_over_N": 1.01171875,
+          "energy_over_NL_at_prescribed": 0.01580810546875
+        },
+        {
+          "block_len": 32,
+          "cross": 128,
+          "energy": 4400,
+          "energy_over_N": 1.07421875,
+          "energy_over_NL_at_prescribed": 0.01678466796875
+        },
+        {
+          "block_len": 64,
+          "cross": 432,
+          "energy": 5264,
+          "energy_over_N": 1.28515625,
+          "energy_over_NL_at_prescribed": 0.02008056640625
+        },
+        {
+          "block_len": 128,
+          "cross": 88,
+          "energy": 5440,
+          "energy_over_N": 1.328125,
+          "energy_over_NL_at_prescribed": 0.020751953125
+        },
+        {
+          "block_len": 256,
+          "cross": -508,
+          "energy": 4424,
+          "energy_over_N": 1.080078125,
+          "energy_over_NL_at_prescribed": 0.016876220703125
+        },
+        {
+          "block_len": 512,
+          "cross": -252,
+          "energy": 3920,
+          "energy_over_N": 0.95703125,
+          "energy_over_NL_at_prescribed": 0.01495361328125
+        },
+        {
+          "block_len": 1024,
+          "cross": -248,
+          "energy": 3424,
+          "energy_over_N": 0.8359375,
+          "energy_over_NL_at_prescribed": 0.0130615234375
+        },
+        {
+          "block_len": 2048,
+          "cross": 672,
+          "energy": 4768,
+          "energy_over_N": 1.1640625,
+          "energy_over_NL_at_prescribed": 0.0181884765625
+        },
+        {
+          "block_len": 4096,
+          "cross": -816,
+          "energy": 3136,
+          "energy_over_N": 0.765625,
+          "energy_over_NL_at_prescribed": 0.011962890625
+        }
+      ]
+    },
+    {
+      "m": 13,
+      "N": 8192,
+      "L": 64,
+      "B": 128,
+      "NL": 524288,
+      "E_m": 8636,
+      "E_over_NL": 0.01647186279296875,
+      "E_over_N": 1.05419921875,
+      "A_m": 183,
+      "A_over_N": 0.0223388671875,
+      "annulus_sum": 154,
+      "cs_bound": 1115.3838499805863,
+      "cs_bound_over_N": 0.1361552551245833,
+      "max_abs_block_sum": 26,
+      "rms_block_sum": 8.21393632797333,
+      "rms_over_sqrt_L": 1.0267420409966663,
+      "block_sign_pos": 66,
+      "block_sign_neg": 49,
+      "block_sign_zero": 13,
+      "lag1_background": {
+        "pairs": 8064,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 2061,
+        "by_cr": {
+          "00": -89,
+          "01": -65,
+          "10": -15,
+          "11": 3
+        },
+        "count_cr": {
+          "00": 2063,
+          "01": 1897,
+          "10": 2055,
+          "11": 2049
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 222,
+        "sum_abs_C": 2582,
+        "abs_sum_over_sum_abs": 0.08597986057319908,
+        "even_C": 318,
+        "odd_C": -96,
+        "alternating_signed_C": 414,
+        "selected": [
+          {
+            "h": 1,
+            "C": -166,
+            "pairs": 8064,
+            "mean": -0.02058531746031746
+          },
+          {
+            "h": 2,
+            "C": -2,
+            "pairs": 7936,
+            "mean": -0.00025201612903225806
+          },
+          {
+            "h": 3,
+            "C": 40,
+            "pairs": 7808,
+            "mean": 0.005122950819672131
+          },
+          {
+            "h": 4,
+            "C": 98,
+            "pairs": 7680,
+            "mean": 0.012760416666666666
+          },
+          {
+            "h": 5,
+            "C": -6,
+            "pairs": 7552,
+            "mean": -0.0007944915254237289
+          },
+          {
+            "h": 6,
+            "C": 62,
+            "pairs": 7424,
+            "mean": 0.008351293103448275
+          },
+          {
+            "h": 7,
+            "C": 46,
+            "pairs": 7296,
+            "mean": 0.006304824561403508
+          },
+          {
+            "h": 8,
+            "C": -18,
+            "pairs": 7168,
+            "mean": -0.0025111607142857145
+          },
+          {
+            "h": 9,
+            "C": -30,
+            "pairs": 7040,
+            "mean": -0.004261363636363636
+          },
+          {
+            "h": 10,
+            "C": -60,
+            "pairs": 6912,
+            "mean": -0.008680555555555556
+          },
+          {
+            "h": 11,
+            "C": 70,
+            "pairs": 6784,
+            "mean": 0.010318396226415094
+          },
+          {
+            "h": 12,
+            "C": -30,
+            "pairs": 6656,
+            "mean": -0.004507211538461538
+          },
+          {
+            "h": 13,
+            "C": 86,
+            "pairs": 6528,
+            "mean": 0.013174019607843137
+          },
+          {
+            "h": 14,
+            "C": 50,
+            "pairs": 6400,
+            "mean": 0.0078125
+          },
+          {
+            "h": 15,
+            "C": -18,
+            "pairs": 6272,
+            "mean": -0.0028698979591836736
+          },
+          {
+            "h": 16,
+            "C": -56,
+            "pairs": 6144,
+            "mean": -0.009114583333333334
+          },
+          {
+            "h": 32,
+            "C": 106,
+            "pairs": 4096,
+            "mean": 0.02587890625
+          },
+          {
+            "h": 63,
+            "C": 2,
+            "pairs": 128,
+            "mean": 0.015625
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -70,
+          "energy": 8052,
+          "energy_over_N": 0.98291015625,
+          "energy_over_NL_at_prescribed": 0.01535797119140625
+        },
+        {
+          "block_len": 4,
+          "cross": -28,
+          "energy": 7996,
+          "energy_over_N": 0.97607421875,
+          "energy_over_NL_at_prescribed": 0.01525115966796875
+        },
+        {
+          "block_len": 8,
+          "cross": -4,
+          "energy": 7988,
+          "energy_over_N": 0.97509765625,
+          "energy_over_NL_at_prescribed": 0.01523590087890625
+        },
+        {
+          "block_len": 16,
+          "cross": -72,
+          "energy": 7844,
+          "energy_over_N": 0.95751953125,
+          "energy_over_NL_at_prescribed": 0.01496124267578125
+        },
+        {
+          "block_len": 32,
+          "cross": 376,
+          "energy": 8596,
+          "energy_over_N": 1.04931640625,
+          "energy_over_NL_at_prescribed": 0.01639556884765625
+        },
+        {
+          "block_len": 64,
+          "cross": 20,
+          "energy": 8636,
+          "energy_over_N": 1.05419921875,
+          "energy_over_NL_at_prescribed": 0.01647186279296875
+        },
+        {
+          "block_len": 128,
+          "cross": -368,
+          "energy": 7900,
+          "energy_over_N": 0.96435546875,
+          "energy_over_NL_at_prescribed": 0.01506805419921875
+        },
+        {
+          "block_len": 256,
+          "cross": 792,
+          "energy": 9484,
+          "energy_over_N": 1.15771484375,
+          "energy_over_NL_at_prescribed": 0.01808929443359375
+        },
+        {
+          "block_len": 512,
+          "cross": 1520,
+          "energy": 12524,
+          "energy_over_N": 1.52880859375,
+          "energy_over_NL_at_prescribed": 0.02388763427734375
+        },
+        {
+          "block_len": 1024,
+          "cross": 2092,
+          "energy": 16708,
+          "energy_over_N": 2.03955078125,
+          "energy_over_NL_at_prescribed": 0.03186798095703125
+        },
+        {
+          "block_len": 2048,
+          "cross": -928,
+          "energy": 14852,
+          "energy_over_N": 1.81298828125,
+          "energy_over_NL_at_prescribed": 0.02832794189453125
+        },
+        {
+          "block_len": 4096,
+          "cross": 2728,
+          "energy": 20308,
+          "energy_over_N": 2.47900390625,
+          "energy_over_NL_at_prescribed": 0.03873443603515625
+        },
+        {
+          "block_len": 8192,
+          "cross": 1704,
+          "energy": 23716,
+          "energy_over_N": 2.89501953125,
+          "energy_over_NL_at_prescribed": 0.04523468017578125
+        }
+      ]
+    },
+    {
+      "m": 14,
+      "N": 16384,
+      "L": 128,
+      "B": 128,
+      "NL": 2097152,
+      "E_m": 14312,
+      "E_over_NL": 0.006824493408203125,
+      "E_over_N": 0.87353515625,
+      "A_m": 249,
+      "A_over_N": 0.01519775390625,
+      "annulus_sum": 112,
+      "cs_bound": 1481.4903028836225,
+      "cs_bound_over_N": 0.09042299211936172,
+      "max_abs_block_sum": 30,
+      "rms_block_sum": 10.5741429912783,
+      "rms_over_sqrt_L": 0.9346310267961362,
+      "block_sign_pos": 65,
+      "block_sign_neg": 59,
+      "block_sign_zero": 4,
+      "lag1_background": {
+        "pairs": 16256,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 4104,
+        "by_cr": {
+          "00": -104,
+          "01": 82,
+          "10": 54,
+          "11": 32
+        },
+        "count_cr": {
+          "00": 4010,
+          "01": 4068,
+          "10": 4100,
+          "11": 4078
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": -1036,
+        "sum_abs_C": 8220,
+        "abs_sum_over_sum_abs": 0.12603406326034064,
+        "even_C": -1072,
+        "odd_C": 36,
+        "alternating_signed_C": -1108,
+        "selected": [
+          {
+            "h": 1,
+            "C": 64,
+            "pairs": 16256,
+            "mean": 0.003937007874015748
+          },
+          {
+            "h": 2,
+            "C": 112,
+            "pairs": 16128,
+            "mean": 0.006944444444444444
+          },
+          {
+            "h": 3,
+            "C": 2,
+            "pairs": 16000,
+            "mean": 0.000125
+          },
+          {
+            "h": 4,
+            "C": 8,
+            "pairs": 15872,
+            "mean": 0.0005040322580645161
+          },
+          {
+            "h": 5,
+            "C": -50,
+            "pairs": 15744,
+            "mean": -0.0031758130081300812
+          },
+          {
+            "h": 6,
+            "C": -234,
+            "pairs": 15616,
+            "mean": -0.014984631147540983
+          },
+          {
+            "h": 7,
+            "C": 26,
+            "pairs": 15488,
+            "mean": 0.0016787190082644629
+          },
+          {
+            "h": 8,
+            "C": -260,
+            "pairs": 15360,
+            "mean": -0.016927083333333332
+          },
+          {
+            "h": 9,
+            "C": -124,
+            "pairs": 15232,
+            "mean": -0.008140756302521009
+          },
+          {
+            "h": 10,
+            "C": -186,
+            "pairs": 15104,
+            "mean": -0.012314618644067797
+          },
+          {
+            "h": 11,
+            "C": 90,
+            "pairs": 14976,
+            "mean": 0.006009615384615385
+          },
+          {
+            "h": 12,
+            "C": 74,
+            "pairs": 14848,
+            "mean": 0.004983836206896552
+          },
+          {
+            "h": 13,
+            "C": -174,
+            "pairs": 14720,
+            "mean": -0.011820652173913043
+          },
+          {
+            "h": 14,
+            "C": 30,
+            "pairs": 14592,
+            "mean": 0.002055921052631579
+          },
+          {
+            "h": 15,
+            "C": 58,
+            "pairs": 14464,
+            "mean": 0.0040099557522123895
+          },
+          {
+            "h": 16,
+            "C": 10,
+            "pairs": 14336,
+            "mean": 0.0006975446428571429
+          },
+          {
+            "h": 32,
+            "C": -24,
+            "pairs": 12288,
+            "mean": -0.001953125
+          },
+          {
+            "h": 64,
+            "C": 72,
+            "pairs": 8192,
+            "mean": 0.0087890625
+          },
+          {
+            "h": 127,
+            "C": -4,
+            "pairs": 128,
+            "mean": -0.03125
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -52,
+          "energy": 16280,
+          "energy_over_N": 0.99365234375,
+          "energy_over_NL_at_prescribed": 0.007762908935546875
+        },
+        {
+          "block_len": 4,
+          "cross": 228,
+          "energy": 16736,
+          "energy_over_N": 1.021484375,
+          "energy_over_NL_at_prescribed": 0.0079803466796875
+        },
+        {
+          "block_len": 8,
+          "cross": 68,
+          "energy": 16872,
+          "energy_over_N": 1.02978515625,
+          "energy_over_NL_at_prescribed": 0.008045196533203125
+        },
+        {
+          "block_len": 16,
+          "cross": -492,
+          "energy": 15888,
+          "energy_over_N": 0.9697265625,
+          "energy_over_NL_at_prescribed": 0.00757598876953125
+        },
+        {
+          "block_len": 32,
+          "cross": 412,
+          "energy": 16712,
+          "energy_over_N": 1.02001953125,
+          "energy_over_NL_at_prescribed": 0.007968902587890625
+        },
+        {
+          "block_len": 64,
+          "cross": -876,
+          "energy": 14960,
+          "energy_over_N": 0.9130859375,
+          "energy_over_NL_at_prescribed": 0.00713348388671875
+        },
+        {
+          "block_len": 128,
+          "cross": -324,
+          "energy": 14312,
+          "energy_over_N": 0.87353515625,
+          "energy_over_NL_at_prescribed": 0.006824493408203125
+        },
+        {
+          "block_len": 256,
+          "cross": 204,
+          "energy": 14720,
+          "energy_over_N": 0.8984375,
+          "energy_over_NL_at_prescribed": 0.00701904296875
+        },
+        {
+          "block_len": 512,
+          "cross": 2472,
+          "energy": 19664,
+          "energy_over_N": 1.2001953125,
+          "energy_over_NL_at_prescribed": 0.00937652587890625
+        },
+        {
+          "block_len": 1024,
+          "cross": 304,
+          "energy": 20272,
+          "energy_over_N": 1.2373046875,
+          "energy_over_NL_at_prescribed": 0.00966644287109375
+        },
+        {
+          "block_len": 2048,
+          "cross": -2232,
+          "energy": 15808,
+          "energy_over_N": 0.96484375,
+          "energy_over_NL_at_prescribed": 0.007537841796875
+        },
+        {
+          "block_len": 4096,
+          "cross": 6256,
+          "energy": 28320,
+          "energy_over_N": 1.728515625,
+          "energy_over_NL_at_prescribed": 0.0135040283203125
+        },
+        {
+          "block_len": 8192,
+          "cross": 12080,
+          "energy": 52480,
+          "energy_over_N": 3.203125,
+          "energy_over_NL_at_prescribed": 0.0250244140625
+        },
+        {
+          "block_len": 16384,
+          "cross": -19968,
+          "energy": 12544,
+          "energy_over_N": 0.765625,
+          "energy_over_NL_at_prescribed": 0.0059814453125
+        }
+      ]
+    },
+    {
+      "m": 15,
+      "N": 32768,
+      "L": 128,
+      "B": 256,
+      "NL": 4194304,
+      "E_m": 31544,
+      "E_over_NL": 0.0075206756591796875,
+      "E_over_N": 0.962646484375,
+      "A_m": 180,
+      "A_over_N": 0.0054931640625,
+      "annulus_sum": -64,
+      "cs_bound": 2969.700899109546,
+      "cs_bound_over_N": 0.09062807919645831,
+      "max_abs_block_sum": 36,
+      "rms_block_sum": 11.100394137146663,
+      "rms_over_sqrt_L": 0.981145496027475,
+      "block_sign_pos": 113,
+      "block_sign_neg": 122,
+      "block_sign_zero": 21,
+      "lag1_background": {
+        "pairs": 32512,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 8193,
+        "by_cr": {
+          "00": 83,
+          "01": -128,
+          "10": -51,
+          "11": -76
+        },
+        "count_cr": {
+          "00": 8179,
+          "01": 8108,
+          "10": 8065,
+          "11": 8160
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": -612,
+        "sum_abs_C": 12704,
+        "abs_sum_over_sum_abs": 0.048173803526448365,
+        "even_C": -1440,
+        "odd_C": 828,
+        "alternating_signed_C": -2268,
+        "selected": [
+          {
+            "h": 1,
+            "C": -172,
+            "pairs": 32512,
+            "mean": -0.0052903543307086616
+          },
+          {
+            "h": 2,
+            "C": -80,
+            "pairs": 32256,
+            "mean": -0.00248015873015873
+          },
+          {
+            "h": 3,
+            "C": 148,
+            "pairs": 32000,
+            "mean": 0.004625
+          },
+          {
+            "h": 4,
+            "C": 290,
+            "pairs": 31744,
+            "mean": 0.009135584677419355
+          },
+          {
+            "h": 5,
+            "C": 142,
+            "pairs": 31488,
+            "mean": 0.004509654471544716
+          },
+          {
+            "h": 6,
+            "C": 170,
+            "pairs": 31232,
+            "mean": 0.005443135245901639
+          },
+          {
+            "h": 7,
+            "C": 138,
+            "pairs": 30976,
+            "mean": 0.004455061983471074
+          },
+          {
+            "h": 8,
+            "C": -174,
+            "pairs": 30720,
+            "mean": -0.0056640625
+          },
+          {
+            "h": 9,
+            "C": 52,
+            "pairs": 30464,
+            "mean": 0.0017069327731092437
+          },
+          {
+            "h": 10,
+            "C": -422,
+            "pairs": 30208,
+            "mean": -0.013969809322033898
+          },
+          {
+            "h": 11,
+            "C": 2,
+            "pairs": 29952,
+            "mean": 6.677350427350428e-05
+          },
+          {
+            "h": 12,
+            "C": 164,
+            "pairs": 29696,
+            "mean": 0.005522629310344827
+          },
+          {
+            "h": 13,
+            "C": -196,
+            "pairs": 29440,
+            "mean": -0.006657608695652174
+          },
+          {
+            "h": 14,
+            "C": 24,
+            "pairs": 29184,
+            "mean": 0.0008223684210526315
+          },
+          {
+            "h": 15,
+            "C": 52,
+            "pairs": 28928,
+            "mean": 0.001797566371681416
+          },
+          {
+            "h": 16,
+            "C": -6,
+            "pairs": 28672,
+            "mean": -0.00020926339285714285
+          },
+          {
+            "h": 32,
+            "C": -300,
+            "pairs": 24576,
+            "mean": -0.01220703125
+          },
+          {
+            "h": 64,
+            "C": -92,
+            "pairs": 16384,
+            "mean": -0.005615234375
+          },
+          {
+            "h": 127,
+            "C": -28,
+            "pairs": 256,
+            "mean": -0.109375
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": -64,
+          "energy": 32640,
+          "energy_over_N": 0.99609375,
+          "energy_over_NL_at_prescribed": 0.007781982421875
+        },
+        {
+          "block_len": 4,
+          "cross": -260,
+          "energy": 32120,
+          "energy_over_N": 0.980224609375,
+          "energy_over_NL_at_prescribed": 0.0076580047607421875
+        },
+        {
+          "block_len": 8,
+          "cross": 44,
+          "energy": 32208,
+          "energy_over_N": 0.98291015625,
+          "energy_over_NL_at_prescribed": 0.007678985595703125
+        },
+        {
+          "block_len": 16,
+          "cross": 340,
+          "energy": 32888,
+          "energy_over_N": 1.003662109375,
+          "energy_over_NL_at_prescribed": 0.007841110229492188
+        },
+        {
+          "block_len": 32,
+          "cross": -188,
+          "energy": 32512,
+          "energy_over_N": 0.9921875,
+          "energy_over_NL_at_prescribed": 0.00775146484375
+        },
+        {
+          "block_len": 64,
+          "cross": 640,
+          "energy": 33792,
+          "energy_over_N": 1.03125,
+          "energy_over_NL_at_prescribed": 0.008056640625
+        },
+        {
+          "block_len": 128,
+          "cross": -1124,
+          "energy": 31544,
+          "energy_over_N": 0.962646484375,
+          "energy_over_NL_at_prescribed": 0.0075206756591796875
+        },
+        {
+          "block_len": 256,
+          "cross": 1744,
+          "energy": 35032,
+          "energy_over_N": 1.069091796875,
+          "energy_over_NL_at_prescribed": 0.008352279663085938
+        },
+        {
+          "block_len": 512,
+          "cross": -104,
+          "energy": 34824,
+          "energy_over_N": 1.062744140625,
+          "energy_over_NL_at_prescribed": 0.008302688598632812
+        },
+        {
+          "block_len": 1024,
+          "cross": -2936,
+          "energy": 28952,
+          "energy_over_N": 0.883544921875,
+          "energy_over_NL_at_prescribed": 0.0069026947021484375
+        },
+        {
+          "block_len": 2048,
+          "cross": -3596,
+          "energy": 21760,
+          "energy_over_N": 0.6640625,
+          "energy_over_NL_at_prescribed": 0.00518798828125
+        },
+        {
+          "block_len": 4096,
+          "cross": 1380,
+          "energy": 24520,
+          "energy_over_N": 0.748291015625,
+          "energy_over_NL_at_prescribed": 0.0058460235595703125
+        },
+        {
+          "block_len": 8192,
+          "cross": -728,
+          "energy": 23064,
+          "energy_over_N": 0.703857421875,
+          "energy_over_NL_at_prescribed": 0.0054988861083984375
+        },
+        {
+          "block_len": 16384,
+          "cross": -6908,
+          "energy": 9248,
+          "energy_over_N": 0.2822265625,
+          "energy_over_NL_at_prescribed": 0.00220489501953125
+        },
+        {
+          "block_len": 32768,
+          "cross": -2576,
+          "energy": 4096,
+          "energy_over_N": 0.125,
+          "energy_over_NL_at_prescribed": 0.0009765625
+        }
+      ]
+    },
+    {
+      "m": 16,
+      "N": 65536,
+      "L": 256,
+      "B": 256,
+      "NL": 16777216,
+      "E_m": 72656,
+      "E_over_NL": 0.004330635070800781,
+      "E_over_N": 1.108642578125,
+      "A_m": 367,
+      "A_over_N": 0.0055999755859375,
+      "annulus_sum": -356,
+      "cs_bound": 4568.76431074085,
+      "cs_bound_over_N": 0.06971381089387284,
+      "max_abs_block_sum": 44,
+      "rms_block_sum": 16.846735588831447,
+      "rms_over_sqrt_L": 1.0529209743019654,
+      "block_sign_pos": 116,
+      "block_sign_neg": 128,
+      "block_sign_zero": 12,
+      "lag1_background": {
+        "pairs": 65280,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 16218,
+        "by_cr": {
+          "00": 155,
+          "01": 172,
+          "10": 10,
+          "11": -47
+        },
+        "count_cr": {
+          "00": 16239,
+          "01": 16580,
+          "10": 16284,
+          "11": 16177
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 3560,
+        "sum_abs_C": 35156,
+        "abs_sum_over_sum_abs": 0.10126294231425646,
+        "even_C": 3416,
+        "odd_C": 144,
+        "alternating_signed_C": 3272,
+        "selected": [
+          {
+            "h": 1,
+            "C": 290,
+            "pairs": 65280,
+            "mean": 0.0044424019607843136
+          },
+          {
+            "h": 2,
+            "C": 442,
+            "pairs": 65024,
+            "mean": 0.006797490157480315
+          },
+          {
+            "h": 3,
+            "C": 46,
+            "pairs": 64768,
+            "mean": 0.0007102272727272727
+          },
+          {
+            "h": 4,
+            "C": 334,
+            "pairs": 64512,
+            "mean": 0.005177331349206349
+          },
+          {
+            "h": 5,
+            "C": 142,
+            "pairs": 64256,
+            "mean": 0.0022099103585657373
+          },
+          {
+            "h": 6,
+            "C": -324,
+            "pairs": 64000,
+            "mean": -0.0050625
+          },
+          {
+            "h": 7,
+            "C": 458,
+            "pairs": 63744,
+            "mean": 0.007184989959839357
+          },
+          {
+            "h": 8,
+            "C": 380,
+            "pairs": 63488,
+            "mean": 0.005985383064516129
+          },
+          {
+            "h": 9,
+            "C": 108,
+            "pairs": 63232,
+            "mean": 0.0017079959514170041
+          },
+          {
+            "h": 10,
+            "C": -36,
+            "pairs": 62976,
+            "mean": -0.0005716463414634146
+          },
+          {
+            "h": 11,
+            "C": 78,
+            "pairs": 62720,
+            "mean": 0.0012436224489795918
+          },
+          {
+            "h": 12,
+            "C": 338,
+            "pairs": 62464,
+            "mean": 0.005411116803278689
+          },
+          {
+            "h": 13,
+            "C": 206,
+            "pairs": 62208,
+            "mean": 0.003311471193415638
+          },
+          {
+            "h": 14,
+            "C": 270,
+            "pairs": 61952,
+            "mean": 0.004358212809917356
+          },
+          {
+            "h": 15,
+            "C": -198,
+            "pairs": 61696,
+            "mean": -0.003209284232365145
+          },
+          {
+            "h": 16,
+            "C": -272,
+            "pairs": 61440,
+            "mean": -0.004427083333333333
+          },
+          {
+            "h": 32,
+            "C": -62,
+            "pairs": 57344,
+            "mean": -0.0010811941964285715
+          },
+          {
+            "h": 64,
+            "C": 60,
+            "pairs": 49152,
+            "mean": 0.001220703125
+          },
+          {
+            "h": 128,
+            "C": -160,
+            "pairs": 32768,
+            "mean": -0.0048828125
+          },
+          {
+            "h": 255,
+            "C": 6,
+            "pairs": 256,
+            "mean": 0.0234375
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": 212,
+          "energy": 65960,
+          "energy_over_N": 1.0064697265625,
+          "energy_over_NL_at_prescribed": 0.003931522369384766
+        },
+        {
+          "block_len": 4,
+          "cross": 348,
+          "energy": 66656,
+          "energy_over_N": 1.01708984375,
+          "energy_over_NL_at_prescribed": 0.0039730072021484375
+        },
+        {
+          "block_len": 8,
+          "cross": 236,
+          "energy": 67128,
+          "energy_over_N": 1.0242919921875,
+          "energy_over_NL_at_prescribed": 0.004001140594482422
+        },
+        {
+          "block_len": 16,
+          "cross": 488,
+          "energy": 68104,
+          "energy_over_N": 1.0391845703125,
+          "energy_over_NL_at_prescribed": 0.004059314727783203
+        },
+        {
+          "block_len": 32,
+          "cross": -768,
+          "energy": 66568,
+          "energy_over_N": 1.0157470703125,
+          "energy_over_NL_at_prescribed": 0.003967761993408203
+        },
+        {
+          "block_len": 64,
+          "cross": 1608,
+          "energy": 69784,
+          "energy_over_N": 1.0648193359375,
+          "energy_over_NL_at_prescribed": 0.004159450531005859
+        },
+        {
+          "block_len": 128,
+          "cross": 1420,
+          "energy": 72624,
+          "energy_over_N": 1.108154296875,
+          "energy_over_NL_at_prescribed": 0.004328727722167969
+        },
+        {
+          "block_len": 256,
+          "cross": 16,
+          "energy": 72656,
+          "energy_over_N": 1.108642578125,
+          "energy_over_NL_at_prescribed": 0.004330635070800781
+        },
+        {
+          "block_len": 512,
+          "cross": -2180,
+          "energy": 68296,
+          "energy_over_N": 1.0421142578125,
+          "energy_over_NL_at_prescribed": 0.004070758819580078
+        },
+        {
+          "block_len": 1024,
+          "cross": -1336,
+          "energy": 65624,
+          "energy_over_N": 1.0013427734375,
+          "energy_over_NL_at_prescribed": 0.003911495208740234
+        },
+        {
+          "block_len": 2048,
+          "cross": -7992,
+          "energy": 49640,
+          "energy_over_N": 0.7574462890625,
+          "energy_over_NL_at_prescribed": 0.0029587745666503906
+        },
+        {
+          "block_len": 4096,
+          "cross": -2452,
+          "energy": 44736,
+          "energy_over_N": 0.6826171875,
+          "energy_over_NL_at_prescribed": 0.002666473388671875
+        },
+        {
+          "block_len": 8192,
+          "cross": 6256,
+          "energy": 57248,
+          "energy_over_N": 0.87353515625,
+          "energy_over_NL_at_prescribed": 0.0034122467041015625
+        },
+        {
+          "block_len": 16384,
+          "cross": 9400,
+          "energy": 76048,
+          "energy_over_N": 1.160400390625,
+          "energy_over_NL_at_prescribed": 0.004532814025878906
+        },
+        {
+          "block_len": 32768,
+          "cross": 25344,
+          "energy": 126736,
+          "energy_over_N": 1.933837890625,
+          "energy_over_NL_at_prescribed": 0.007554054260253906
+        },
+        {
+          "block_len": 65536,
+          "cross": 0,
+          "energy": 126736,
+          "energy_over_N": 1.933837890625,
+          "energy_over_NL_at_prescribed": 0.007554054260253906
+        }
+      ]
+    },
+    {
+      "m": 17,
+      "N": 131072,
+      "L": 256,
+      "B": 512,
+      "NL": 33554432,
+      "E_m": 142224,
+      "E_over_NL": 0.004238605499267578,
+      "E_over_N": 1.0850830078125,
+      "A_m": 889,
+      "A_over_N": 0.00678253173828125,
+      "annulus_sum": 772,
+      "cs_bound": 8789.3866665,
+      "cs_bound_over_N": 0.06705769856643677,
+      "max_abs_block_sum": 48,
+      "rms_block_sum": 16.666770833007813,
+      "rms_over_sqrt_L": 1.0416731770629883,
+      "block_sign_pos": 265,
+      "block_sign_neg": 224,
+      "block_sign_zero": 23,
+      "lag1_background": {
+        "pairs": 130560,
+        "formula_mismatch": 0,
+        "quadratic_term_ones": 32778,
+        "by_cr": {
+          "00": -338,
+          "01": -204,
+          "10": 38,
+          "11": 210
+        },
+        "count_cr": {
+          "00": 32590,
+          "01": 32322,
+          "10": 32884,
+          "11": 32764
+        }
+      },
+      "correlations": {
+        "full": true,
+        "sum_C": 5576,
+        "sum_abs_C": 52232,
+        "abs_sum_over_sum_abs": 0.10675448001225303,
+        "even_C": 5604,
+        "odd_C": -28,
+        "alternating_signed_C": 5632,
+        "selected": [
+          {
+            "h": 1,
+            "C": -294,
+            "pairs": 130560,
+            "mean": -0.0022518382352941175
+          },
+          {
+            "h": 2,
+            "C": 62,
+            "pairs": 130048,
+            "mean": 0.0004767470472440945
+          },
+          {
+            "h": 3,
+            "C": -712,
+            "pairs": 129536,
+            "mean": -0.005496541501976285
+          },
+          {
+            "h": 4,
+            "C": 62,
+            "pairs": 129024,
+            "mean": 0.00048053075396825394
+          },
+          {
+            "h": 5,
+            "C": 104,
+            "pairs": 128512,
+            "mean": 0.0008092629482071714
+          },
+          {
+            "h": 6,
+            "C": -98,
+            "pairs": 128000,
+            "mean": -0.000765625
+          },
+          {
+            "h": 7,
+            "C": 294,
+            "pairs": 127488,
+            "mean": 0.0023060993975903615
+          },
+          {
+            "h": 8,
+            "C": 386,
+            "pairs": 126976,
+            "mean": 0.003039944556451613
+          },
+          {
+            "h": 9,
+            "C": -4,
+            "pairs": 126464,
+            "mean": -3.1629554655870446e-05
+          },
+          {
+            "h": 10,
+            "C": 132,
+            "pairs": 125952,
+            "mean": 0.001048018292682927
+          },
+          {
+            "h": 11,
+            "C": 120,
+            "pairs": 125440,
+            "mean": 0.0009566326530612245
+          },
+          {
+            "h": 12,
+            "C": 1252,
+            "pairs": 124928,
+            "mean": 0.010021772540983607
+          },
+          {
+            "h": 13,
+            "C": 50,
+            "pairs": 124416,
+            "mean": 0.0004018775720164609
+          },
+          {
+            "h": 14,
+            "C": 126,
+            "pairs": 123904,
+            "mean": 0.0010169163223140497
+          },
+          {
+            "h": 15,
+            "C": 136,
+            "pairs": 123392,
+            "mean": 0.0011021784232365145
+          },
+          {
+            "h": 16,
+            "C": 168,
+            "pairs": 122880,
+            "mean": 0.0013671875
+          },
+          {
+            "h": 32,
+            "C": -612,
+            "pairs": 114688,
+            "mean": -0.005336216517857143
+          },
+          {
+            "h": 64,
+            "C": -192,
+            "pairs": 98304,
+            "mean": -0.001953125
+          },
+          {
+            "h": 128,
+            "C": 264,
+            "pairs": 65536,
+            "mean": 0.0040283203125
+          },
+          {
+            "h": 255,
+            "C": 26,
+            "pairs": 512,
+            "mean": 0.05078125
+          }
+        ]
+      },
+      "haar_cascade": [
+        {
+          "block_len": 2,
+          "cross": 20,
+          "energy": 131112,
+          "energy_over_N": 1.00030517578125,
+          "energy_over_NL_at_prescribed": 0.003907442092895508
+        },
+        {
+          "block_len": 4,
+          "cross": 48,
+          "energy": 131208,
+          "energy_over_N": 1.00103759765625,
+          "energy_over_NL_at_prescribed": 0.0039103031158447266
+        },
+        {
+          "block_len": 8,
+          "cross": -248,
+          "energy": 130712,
+          "energy_over_N": 0.99725341796875,
+          "energy_over_NL_at_prescribed": 0.0038955211639404297
+        },
+        {
+          "block_len": 16,
+          "cross": 428,
+          "energy": 131568,
+          "energy_over_N": 1.0037841796875,
+          "energy_over_NL_at_prescribed": 0.003921031951904297
+        },
+        {
+          "block_len": 32,
+          "cross": 768,
+          "energy": 133104,
+          "energy_over_N": 1.0155029296875,
+          "energy_over_NL_at_prescribed": 0.003966808319091797
+        },
+        {
+          "block_len": 64,
+          "cross": 1532,
+          "energy": 136168,
+          "energy_over_N": 1.03887939453125,
+          "energy_over_NL_at_prescribed": 0.004058122634887695
+        },
+        {
+          "block_len": 128,
+          "cross": 3452,
+          "energy": 143072,
+          "energy_over_N": 1.091552734375,
+          "energy_over_NL_at_prescribed": 0.004263877868652344
+        },
+        {
+          "block_len": 256,
+          "cross": -424,
+          "energy": 142224,
+          "energy_over_N": 1.0850830078125,
+          "energy_over_NL_at_prescribed": 0.004238605499267578
+        },
+        {
+          "block_len": 512,
+          "cross": 2176,
+          "energy": 146576,
+          "energy_over_N": 1.1182861328125,
+          "energy_over_NL_at_prescribed": 0.004368305206298828
+        },
+        {
+          "block_len": 1024,
+          "cross": -3600,
+          "energy": 139376,
+          "energy_over_N": 1.0633544921875,
+          "energy_over_NL_at_prescribed": 0.004153728485107422
+        },
+        {
+          "block_len": 2048,
+          "cross": 13952,
+          "energy": 167280,
+          "energy_over_N": 1.2762451171875,
+          "energy_over_NL_at_prescribed": 0.004985332489013672
+        },
+        {
+          "block_len": 4096,
+          "cross": 8176,
+          "energy": 183632,
+          "energy_over_N": 1.4010009765625,
+          "energy_over_NL_at_prescribed": 0.005472660064697266
+        },
+        {
+          "block_len": 8192,
+          "cross": 23848,
+          "energy": 231328,
+          "energy_over_N": 1.764892578125,
+          "energy_over_NL_at_prescribed": 0.006894111633300781
+        },
+        {
+          "block_len": 16384,
+          "cross": -16320,
+          "energy": 198688,
+          "energy_over_N": 1.515869140625,
+          "energy_over_NL_at_prescribed": 0.005921363830566406
+        },
+        {
+          "block_len": 32768,
+          "cross": 37804,
+          "energy": 274296,
+          "energy_over_N": 2.09271240234375,
+          "energy_over_NL_at_prescribed": 0.008174657821655273
+        },
+        {
+          "block_len": 65536,
+          "cross": 60248,
+          "energy": 394792,
+          "energy_over_N": 3.01202392578125,
+          "energy_over_NL_at_prescribed": 0.011765718460083008
+        },
+        {
+          "block_len": 131072,
+          "cross": 100596,
+          "energy": 595984,
+          "energy_over_N": 4.5469970703125,
+          "energy_over_NL_at_prescribed": 0.017761707305908203
+        }
+      ]
+    }
+  ],
+  "closed_form_identity_failures": [
+    {
+      "m": 4,
+      "E_m": 4,
+      "E_minus_N": -12,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": -6,
+        "sum_C=-N/2 (would give E=0)": 2.0,
+        "even_C=0": -2,
+        "odd_C=0": -4,
+        "alternating_C=0": 2
+      }
+    },
+    {
+      "m": 5,
+      "E_m": 12,
+      "E_minus_N": -20,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": -10,
+        "sum_C=-N/2 (would give E=0)": 6.0,
+        "even_C=0": 2,
+        "odd_C=0": -12,
+        "alternating_C=0": 14
+      }
+    },
+    {
+      "m": 6,
+      "E_m": 64,
+      "E_minus_N": 0,
+      "failed_closed_forms": {
+        "sum_C=-N/2 (would give E=0)": 32.0,
+        "even_C=0": -8,
+        "odd_C=0": 8,
+        "alternating_C=0": -16
+      }
+    },
+    {
+      "m": 7,
+      "E_m": 144,
+      "E_minus_N": 16,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 8,
+        "sum_C=-N/2 (would give E=0)": 72.0,
+        "even_C=0": -8,
+        "odd_C=0": 16,
+        "alternating_C=0": -24
+      }
+    },
+    {
+      "m": 8,
+      "E_m": 276,
+      "E_minus_N": 20,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 10,
+        "sum_C=-N/2 (would give E=0)": 138.0,
+        "even_C=0": -42,
+        "odd_C=0": 52,
+        "alternating_C=0": -94
+      }
+    },
+    {
+      "m": 9,
+      "E_m": 560,
+      "E_minus_N": 48,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 24,
+        "sum_C=-N/2 (would give E=0)": 280.0,
+        "even_C=0": -52,
+        "odd_C=0": 76,
+        "alternating_C=0": -128
+      }
+    },
+    {
+      "m": 10,
+      "E_m": 1280,
+      "E_minus_N": 256,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 128,
+        "sum_C=-N/2 (would give E=0)": 640.0,
+        "even_C=0": 48,
+        "odd_C=0": 80,
+        "alternating_C=0": -32
+      }
+    },
+    {
+      "m": 11,
+      "E_m": 1816,
+      "E_minus_N": -232,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": -116,
+        "sum_C=-N/2 (would give E=0)": 908.0,
+        "even_C=0": -80,
+        "odd_C=0": -36,
+        "alternating_C=0": -44
+      }
+    },
+    {
+      "m": 12,
+      "E_m": 5264,
+      "E_minus_N": 1168,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 584,
+        "sum_C=-N/2 (would give E=0)": 2632.0,
+        "even_C=0": 152,
+        "odd_C=0": 432,
+        "alternating_C=0": -280
+      }
+    },
+    {
+      "m": 13,
+      "E_m": 8636,
+      "E_minus_N": 444,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 222,
+        "sum_C=-N/2 (would give E=0)": 4318.0,
+        "even_C=0": 318,
+        "odd_C=0": -96,
+        "alternating_C=0": 414
+      }
+    },
+    {
+      "m": 14,
+      "E_m": 14312,
+      "E_minus_N": -2072,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": -1036,
+        "sum_C=-N/2 (would give E=0)": 7156.0,
+        "even_C=0": -1072,
+        "odd_C=0": 36,
+        "alternating_C=0": -1108
+      }
+    },
+    {
+      "m": 15,
+      "E_m": 31544,
+      "E_minus_N": -1224,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": -612,
+        "sum_C=-N/2 (would give E=0)": 15772.0,
+        "even_C=0": -1440,
+        "odd_C=0": 828,
+        "alternating_C=0": -2268
+      }
+    },
+    {
+      "m": 16,
+      "E_m": 72656,
+      "E_minus_N": 7120,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 3560,
+        "sum_C=-N/2 (would give E=0)": 36328.0,
+        "even_C=0": 3416,
+        "odd_C=0": 144,
+        "alternating_C=0": 3272
+      }
+    },
+    {
+      "m": 17,
+      "E_m": 142224,
+      "E_minus_N": 11152,
+      "failed_closed_forms": {
+        "sum_C=0 (would give E=N)": 5576,
+        "sum_C=-N/2 (would give E=0)": 71112.0,
+        "even_C=0": 5604,
+        "odd_C=0": -28,
+        "alternating_C=0": 5632
+      }
+    }
+  ]
+}

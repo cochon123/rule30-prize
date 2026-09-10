@@ -1,0 +1,7548 @@
+{
+  "algebraic": {
+    "001": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 4,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "001",
+          "011",
+          "101"
+        ],
+        "possible_r_words": [
+          "000",
+          "001",
+          "011",
+          "111"
+        ]
+      }
+    },
+    "011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 4,
+        "n_l_words": 2,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "001",
+          "101"
+        ],
+        "possible_r_words": [
+          "000",
+          "001",
+          "010",
+          "110"
+        ]
+      }
+    },
+    "0001": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 5,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0001",
+          "0011",
+          "0101",
+          "1101"
+        ],
+        "possible_r_words": [
+          "0000",
+          "0001",
+          "0011",
+          "0111",
+          "1111"
+        ]
+      }
+    },
+    "0011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 5,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0001",
+          "0101",
+          "1001"
+        ],
+        "possible_r_words": [
+          "0000",
+          "0001",
+          "0010",
+          "0110",
+          "1110"
+        ]
+      }
+    },
+    "0111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 5,
+        "n_l_words": 2,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 0,
+          "3": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0001",
+          "1001"
+        ],
+        "possible_r_words": [
+          "0000",
+          "0010",
+          "0101",
+          "1100",
+          "1101"
+        ]
+      }
+    },
+    "00001": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 4,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 6,
+        "n_l_words": 5,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "4": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "00001",
+          "00011",
+          "00101",
+          "01101",
+          "11101"
+        ],
+        "possible_r_words": [
+          "00000",
+          "00001",
+          "00011",
+          "00111",
+          "01111",
+          "11111"
+        ]
+      }
+    },
+    "00011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 6,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 0,
+          "4": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "00001",
+          "00101",
+          "01001",
+          "11001"
+        ],
+        "possible_r_words": [
+          "00000",
+          "00001",
+          "00010",
+          "00110",
+          "01110",
+          "11110"
+        ]
+      }
+    },
+    "00101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 1
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        3
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 7,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 1,
+          "4": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "00111",
+          "01101",
+          "01111",
+          "10111"
+        ],
+        "possible_r_words": [
+          "00001",
+          "00011",
+          "00100",
+          "01100",
+          "01101",
+          "11100",
+          "11101"
+        ]
+      }
+    },
+    "00111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 7,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 0,
+          "4": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "00001",
+          "01001",
+          "10001"
+        ],
+        "possible_r_words": [
+          "00000",
+          "00010",
+          "00101",
+          "01100",
+          "01101",
+          "11100",
+          "11101"
+        ]
+      }
+    },
+    "01011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 1
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        2
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        1,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 7,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 1,
+          "3": 0,
+          "4": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "01101",
+          "11001",
+          "11101"
+        ],
+        "possible_r_words": [
+          "00010",
+          "00110",
+          "01000",
+          "01001",
+          "11000",
+          "11001",
+          "11010"
+        ]
+      }
+    },
+    "01111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 6,
+        "n_l_words": 2,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "00001",
+          "10001"
+        ],
+        "possible_r_words": [
+          "00000",
+          "00100",
+          "00101",
+          "01010",
+          "11000",
+          "11010"
+        ]
+      }
+    },
+    "000001": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 5,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 7,
+        "n_l_words": 6,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000001",
+          "000011",
+          "000101",
+          "001101",
+          "011101",
+          "111101"
+        ],
+        "possible_r_words": [
+          "000000",
+          "000001",
+          "000011",
+          "000111",
+          "001111",
+          "011111",
+          "111111"
+        ]
+      }
+    },
+    "000011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 4,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 7,
+        "n_l_words": 5,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "4": 0,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000001",
+          "000101",
+          "001001",
+          "011001",
+          "111001"
+        ],
+        "possible_r_words": [
+          "000000",
+          "000001",
+          "000010",
+          "000110",
+          "001110",
+          "011110",
+          "111110"
+        ]
+      }
+    },
+    "000101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 1
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 5,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 1,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000111",
+          "001101",
+          "001111",
+          "010111",
+          "110111"
+        ],
+        "possible_r_words": [
+          "000001",
+          "000011",
+          "000100",
+          "001100",
+          "001101",
+          "011100",
+          "111100",
+          "111101"
+        ]
+      }
+    },
+    "000111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000001",
+          "001001",
+          "010001",
+          "110001"
+        ],
+        "possible_r_words": [
+          "000000",
+          "000010",
+          "000101",
+          "001100",
+          "001101",
+          "011101",
+          "111100",
+          "111101"
+        ]
+      }
+    },
+    "001011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 1
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        3
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        1,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 9,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 1,
+          "4": 0,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "001101",
+          "011001",
+          "011101",
+          "101101"
+        ],
+        "possible_r_words": [
+          "000010",
+          "000110",
+          "001000",
+          "001001",
+          "011000",
+          "011010",
+          "111000",
+          "111001",
+          "111010"
+        ]
+      }
+    },
+    "001101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 1
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 6,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 1,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000101",
+          "000111",
+          "010101",
+          "010111",
+          "100101",
+          "100111"
+        ],
+        "possible_r_words": [
+          "000001",
+          "000100",
+          "000101",
+          "001011",
+          "011001",
+          "011011",
+          "111001",
+          "111011"
+        ]
+      }
+    },
+    "001111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000001",
+          "010001",
+          "100001"
+        ],
+        "possible_r_words": [
+          "000000",
+          "000100",
+          "000101",
+          "001010",
+          "011000",
+          "011010",
+          "111000",
+          "111010"
+        ]
+      }
+    },
+    "010111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 1
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        2
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        1,
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 1,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "011001",
+          "110001",
+          "111001"
+        ],
+        "possible_r_words": [
+          "000101",
+          "001100",
+          "001101",
+          "010000",
+          "010010",
+          "110000",
+          "110010",
+          "110101"
+        ]
+      }
+    },
+    "011111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 2,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000001",
+          "100001"
+        ],
+        "possible_r_words": [
+          "000000",
+          "001000",
+          "001010",
+          "010100",
+          "010101",
+          "110000",
+          "110100",
+          "110101"
+        ]
+      }
+    },
+    "0000001": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 6,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 7,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000001",
+          "0000011",
+          "0000101",
+          "0001101",
+          "0011101",
+          "0111101",
+          "1111101"
+        ],
+        "possible_r_words": [
+          "0000000",
+          "0000001",
+          "0000011",
+          "0000111",
+          "0001111",
+          "0011111",
+          "0111111",
+          "1111111"
+        ]
+      }
+    },
+    "0000011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 5,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 8,
+        "n_l_words": 6,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000001",
+          "0000101",
+          "0001001",
+          "0011001",
+          "0111001",
+          "1111001"
+        ],
+        "possible_r_words": [
+          "0000000",
+          "0000001",
+          "0000010",
+          "0000110",
+          "0001110",
+          "0011110",
+          "0111110",
+          "1111110"
+        ]
+      }
+    },
+    "0000101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 1
+        },
+        {
+          "phase": 5,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 4,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 6,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "4": 1,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000111",
+          "0001101",
+          "0001111",
+          "0010111",
+          "0110111",
+          "1110111"
+        ],
+        "possible_r_words": [
+          "0000001",
+          "0000011",
+          "0000100",
+          "0001100",
+          "0001101",
+          "0011100",
+          "0111100",
+          "0111101",
+          "1111100",
+          "1111101"
+        ]
+      }
+    },
+    "0000111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 4,
+          "equal_nondecreasing_phases": [
+            0,
+            1,
+            2
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 5,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000001",
+          "0001001",
+          "0010001",
+          "0110001",
+          "1110001"
+        ],
+        "possible_r_words": [
+          "0000000",
+          "0000010",
+          "0000101",
+          "0001100",
+          "0001101",
+          "0011101",
+          "0111100",
+          "0111101",
+          "1111100",
+          "1111101"
+        ]
+      }
+    },
+    "0001001": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 1
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        },
+        {
+          "start_phase": 4,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            4
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 11,
+        "n_l_words": 8,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 1,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0001001",
+          "0001011",
+          "0011001",
+          "0011011",
+          "0011101",
+          "0101011",
+          "1101001",
+          "1101011"
+        ],
+        "possible_r_words": [
+          "0000011",
+          "0000111",
+          "0001000",
+          "0001001",
+          "0011001",
+          "0011011",
+          "0111000",
+          "0111001",
+          "1111000",
+          "1111001",
+          "1111011"
+        ]
+      }
+    },
+    "0001011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 1
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        1,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 11,
+        "n_l_words": 5,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 1,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0001101",
+          "0011001",
+          "0011101",
+          "0101101",
+          "1101101"
+        ],
+        "possible_r_words": [
+          "0000010",
+          "0000110",
+          "0001000",
+          "0001001",
+          "0011000",
+          "0011010",
+          "0111000",
+          "0111001",
+          "1111000",
+          "1111001",
+          "1111010"
+        ]
+      }
+    },
+    "0001101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 1
+        },
+        {
+          "phase": 5,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        0,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 9,
+        "n_l_words": 7,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 0,
+          "4": 1,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000101",
+          "0000111",
+          "0010101",
+          "0010111",
+          "0100101",
+          "1100101",
+          "1100111"
+        ],
+        "possible_r_words": [
+          "0000001",
+          "0000100",
+          "0000101",
+          "0001011",
+          "0011001",
+          "0011011",
+          "0111011",
+          "1111001",
+          "1111011"
+        ]
+      }
+    },
+    "0001111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        2
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 3,
+          "equal_nondecreasing_phases": [
+            0,
+            1
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        null,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 9,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000001",
+          "0010001",
+          "0100001",
+          "1100001"
+        ],
+        "possible_r_words": [
+          "0000000",
+          "0000100",
+          "0000101",
+          "0001010",
+          "0011000",
+          "0011010",
+          "0111010",
+          "1111000",
+          "1111010"
+        ]
+      }
+    },
+    "0010011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 1
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        3,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        },
+        {
+          "start_phase": 3,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            3
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 11,
+        "n_l_words": 7,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 1,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0010001",
+          "0010101",
+          "0110001",
+          "0110101",
+          "0111001",
+          "1010001",
+          "1010101"
+        ],
+        "possible_r_words": [
+          "0000110",
+          "0001110",
+          "0010000",
+          "0010001",
+          "0010010",
+          "0110010",
+          "0110110",
+          "1110000",
+          "1110001",
+          "1110010",
+          "1110110"
+        ]
+      }
+    },
+    "0010101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 1
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 1
+        },
+        {
+          "phase": 5,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 6,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 1,
+          "4": 1,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0011111",
+          "0110111",
+          "0111101",
+          "0111111",
+          "1011101",
+          "1011111"
+        ],
+        "possible_r_words": [
+          "0000100",
+          "0001100",
+          "0001101",
+          "0010001",
+          "0010011",
+          "0110001",
+          "0110100",
+          "1110001",
+          "1110011",
+          "1110100"
+        ]
+      }
+    },
+    "0010111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 1
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        3
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        1,
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 1,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0011001",
+          "0110001",
+          "0111001",
+          "1011001"
+        ],
+        "possible_r_words": [
+          "0000101",
+          "0001100",
+          "0001101",
+          "0010000",
+          "0010010",
+          "0110000",
+          "0110101",
+          "1110000",
+          "1110010",
+          "1110101"
+        ]
+      }
+    },
+    "0011011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 1
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        4
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        1,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 9,
+        "n_l_words": 6,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 1,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0001001",
+          "0001101",
+          "0101001",
+          "0101101",
+          "1001001",
+          "1001101"
+        ],
+        "possible_r_words": [
+          "0000010",
+          "0001000",
+          "0001001",
+          "0001010",
+          "0010110",
+          "0110010",
+          "0110110",
+          "1110010",
+          "1110110"
+        ]
+      }
+    },
+    "0011101": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 1
+        },
+        {
+          "phase": 5,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1,
+        5
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        0,
+        1,
+        null,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 0,
+          "4": 1,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000111",
+          "0100101",
+          "0100111",
+          "1000111"
+        ],
+        "possible_r_words": [
+          "0000001",
+          "0001001",
+          "0001011",
+          "0010100",
+          "0010101",
+          "0110001",
+          "0110100",
+          "1110001",
+          "1110100",
+          "1110101"
+        ]
+      }
+    },
+    "0011111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "0 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        1
+      ],
+      "zero_runs_k_ge_2": [
+        {
+          "start_phase": 0,
+          "length": 2,
+          "equal_nondecreasing_phases": [
+            0
+          ]
+        }
+      ],
+      "predicted_left_on_ones": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000001",
+          "0100001",
+          "1000001"
+        ],
+        "possible_r_words": [
+          "0000000",
+          "0001000",
+          "0001010",
+          "0010100",
+          "0010101",
+          "0110000",
+          "0110101",
+          "1110000",
+          "1110100",
+          "1110101"
+        ]
+      }
+    },
+    "0101011": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 1
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 1
+        },
+        {
+          "phase": 4,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        2,
+        4
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        1,
+        null,
+        1,
+        null,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 11,
+        "n_l_words": 5,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 1,
+          "3": 1,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0111001",
+          "0111101",
+          "1101101",
+          "1111001",
+          "1111101"
+        ],
+        "possible_r_words": [
+          "0001000",
+          "0001001",
+          "0011000",
+          "0011001",
+          "0011010",
+          "0100010",
+          "0100110",
+          "1100010",
+          "1100110",
+          "1101000",
+          "1101001"
+        ]
+      }
+    },
+    "0101111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 1
+        },
+        {
+          "phase": 2,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        2
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        1,
+        null,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 10,
+        "n_l_words": 3,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 1,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0110001",
+          "1100001",
+          "1110001"
+        ],
+        "possible_r_words": [
+          "0001010",
+          "0011000",
+          "0011010",
+          "0100000",
+          "0100100",
+          "0100101",
+          "1100000",
+          "1100100",
+          "1100101",
+          "1101010"
+        ]
+      }
+    },
+    "0110111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 1
+        },
+        {
+          "phase": 3,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0,
+        3
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        1,
+        null,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 9,
+        "n_l_words": 4,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 1,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "phase0_r_from_1": [
+          0
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0010001",
+          "0011001",
+          "1010001",
+          "1011001"
+        ],
+        "possible_r_words": [
+          "0000101",
+          "0010000",
+          "0010010",
+          "0010101",
+          "0101100",
+          "0101101",
+          "1100101",
+          "1101100",
+          "1101101"
+        ]
+      }
+    },
+    "0111111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 9,
+        "n_l_words": 2,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "0000001",
+          "1000001"
+        ],
+        "possible_r_words": [
+          "0000000",
+          "0010000",
+          "0010100",
+          "0010101",
+          "0101000",
+          "0101010",
+          "1100000",
+          "1101000",
+          "1101010"
+        ]
+      }
+    },
+    "011111111": {
+      "forced_left_on_ones": [
+        {
+          "phase": 0,
+          "left": null,
+          "formula": "1 XOR r"
+        },
+        {
+          "phase": 1,
+          "left": 0
+        },
+        {
+          "phase": 2,
+          "left": 0
+        },
+        {
+          "phase": 3,
+          "left": 0
+        },
+        {
+          "phase": 4,
+          "left": 0
+        },
+        {
+          "phase": 5,
+          "left": 0
+        },
+        {
+          "phase": 6,
+          "left": 0
+        },
+        {
+          "phase": 7,
+          "left": 0
+        },
+        {
+          "phase": 8,
+          "left": 1
+        }
+      ],
+      "free_zero_phases": [
+        0
+      ],
+      "zero_runs_k_ge_2": [],
+      "predicted_left_on_ones": [
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "window3": {
+        "extra_width": 3,
+        "n_r_words": 12,
+        "n_l_words": 2,
+        "r_bits_forced": {},
+        "l_bits_forced": {
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0,
+          "5": 0,
+          "6": 0,
+          "7": 0,
+          "8": 1
+        },
+        "phase0_r_pairs": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "phase0_r_from_1": [
+          0,
+          1
+        ],
+        "phase0_r_from_0": [
+          0,
+          1
+        ],
+        "left_forced_periodic": false,
+        "right_forced_periodic": false,
+        "possible_l_words": [
+          "000000001",
+          "100000001"
+        ],
+        "possible_r_words": [
+          "000000000",
+          "001000000",
+          "001010000",
+          "001010100",
+          "001010101",
+          "010100000",
+          "010101000",
+          "010101010",
+          "110000000",
+          "110100000",
+          "110101000",
+          "110101010"
+        ]
+      }
+    }
+  },
+  "radius_table": [
+    {
+      "radius": 6,
+      "center_word": "001",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        76
+      ],
+      "residual_any_sizes": [
+        76
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.084,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "001",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        142
+      ],
+      "residual_any_sizes": [
+        142
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.804,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        84
+      ],
+      "residual_any_sizes": [
+        84
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.063,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        154
+      ],
+      "residual_any_sizes": [
+        154
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.304,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0001",
+      "recurrent_components": 3,
+      "residual_neighbor": 2,
+      "residual_any_adjacent": 2,
+      "residual_neighbor_sizes": [
+        51,
+        50
+      ],
+      "residual_any_sizes": [
+        51,
+        50
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.096,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0001",
+      "recurrent_components": 4,
+      "residual_neighbor": 2,
+      "residual_any_adjacent": 2,
+      "residual_neighbor_sizes": [
+        92,
+        43
+      ],
+      "residual_any_sizes": [
+        92,
+        43
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.424,
+      "n_with_adjacent_pair": 2
+    },
+    {
+      "radius": 6,
+      "center_word": "0011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        108
+      ],
+      "residual_any_sizes": [
+        108
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.097,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        192
+      ],
+      "residual_any_sizes": [
+        192
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.468,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        158
+      ],
+      "residual_any_sizes": [
+        158
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.102,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        228
+      ],
+      "residual_any_sizes": [
+        228
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.492,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "00001",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        204
+      ],
+      "residual_any_sizes": [
+        204
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.128,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "00001",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        332
+      ],
+      "residual_any_sizes": [
+        332
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.63,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "00011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        132
+      ],
+      "residual_any_sizes": [
+        132
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.117,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "00011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        222
+      ],
+      "residual_any_sizes": [
+        222
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.614,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "00101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        208
+      ],
+      "residual_any_sizes": [
+        208
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.137,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "00101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        364
+      ],
+      "residual_any_sizes": [
+        364
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.567,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "00111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        184
+      ],
+      "residual_any_sizes": [
+        184
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.114,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "00111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        302
+      ],
+      "residual_any_sizes": [
+        302
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.591,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "01011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        196
+      ],
+      "residual_any_sizes": [
+        196
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.157,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "01011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        340
+      ],
+      "residual_any_sizes": [
+        340
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.765,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "01111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        124
+      ],
+      "residual_any_sizes": [
+        124
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.27,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "01111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        222
+      ],
+      "residual_any_sizes": [
+        222
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.842,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "000001",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        244
+      ],
+      "residual_any_sizes": [
+        244
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.188,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "000001",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        394
+      ],
+      "residual_any_sizes": [
+        394
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.879,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "000011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        156
+      ],
+      "residual_any_sizes": [
+        156
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.157,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "000011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        220
+      ],
+      "residual_any_sizes": [
+        220
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.903,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "000101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        248
+      ],
+      "residual_any_sizes": [
+        248
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.174,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "000101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        432
+      ],
+      "residual_any_sizes": [
+        432
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.787,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "000111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        226
+      ],
+      "residual_any_sizes": [
+        226
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.251,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "000111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        376
+      ],
+      "residual_any_sizes": [
+        376
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.812,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "001011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        222
+      ],
+      "residual_any_sizes": [
+        222
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.162,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "001011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        356
+      ],
+      "residual_any_sizes": [
+        356
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.849,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "001101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        236
+      ],
+      "residual_any_sizes": [
+        236
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.175,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "001101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        374
+      ],
+      "residual_any_sizes": [
+        374
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.845,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "001111",
+      "recurrent_components": 3,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        120
+      ],
+      "residual_any_sizes": [
+        120
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.194,
+      "n_with_adjacent_pair": 2
+    },
+    {
+      "radius": 7,
+      "center_word": "001111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        216
+      ],
+      "residual_any_sizes": [
+        216
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.834,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "010111",
+      "recurrent_components": 3,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        174
+      ],
+      "residual_any_sizes": [
+        174
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.161,
+      "n_with_adjacent_pair": 2
+    },
+    {
+      "radius": 7,
+      "center_word": "010111",
+      "recurrent_components": 3,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        308
+      ],
+      "residual_any_sizes": [
+        308
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.773,
+      "n_with_adjacent_pair": 2
+    },
+    {
+      "radius": 6,
+      "center_word": "011111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        188
+      ],
+      "residual_any_sizes": [
+        188
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.19,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "011111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        324
+      ],
+      "residual_any_sizes": [
+        324
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.984,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0000001",
+      "recurrent_components": 2,
+      "residual_neighbor": 2,
+      "residual_any_adjacent": 2,
+      "residual_neighbor_sizes": [
+        156,
+        36
+      ],
+      "residual_any_sizes": [
+        156,
+        36
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.189,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0000001",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        274
+      ],
+      "residual_any_sizes": [
+        274
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.969,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0000011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        180
+      ],
+      "residual_any_sizes": [
+        180
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.226,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0000011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        278
+      ],
+      "residual_any_sizes": [
+        278
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.016,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0000101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        288
+      ],
+      "residual_any_sizes": [
+        288
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.196,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0000101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        486
+      ],
+      "residual_any_sizes": [
+        486
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.865,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0000111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        270
+      ],
+      "residual_any_sizes": [
+        270
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.196,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0000111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        426
+      ],
+      "residual_any_sizes": [
+        426
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.049,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0001001",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        224
+      ],
+      "residual_any_sizes": [
+        224
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.187,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0001001",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        358
+      ],
+      "residual_any_sizes": [
+        358
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.922,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0001011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        186
+      ],
+      "residual_any_sizes": [
+        186
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.205,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0001011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        310
+      ],
+      "residual_any_sizes": [
+        310
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.043,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0001101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        276
+      ],
+      "residual_any_sizes": [
+        276
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.178,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0001101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        444
+      ],
+      "residual_any_sizes": [
+        444
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.813,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0001111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        162
+      ],
+      "residual_any_sizes": [
+        162
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.172,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0001111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        270
+      ],
+      "residual_any_sizes": [
+        270
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.845,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0010011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        262
+      ],
+      "residual_any_sizes": [
+        262
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.197,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0010011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        428
+      ],
+      "residual_any_sizes": [
+        428
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.818,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0010101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        292
+      ],
+      "residual_any_sizes": [
+        292
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.195,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0010101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        514
+      ],
+      "residual_any_sizes": [
+        514
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.892,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0010111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        214
+      ],
+      "residual_any_sizes": [
+        214
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.201,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0010111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        366
+      ],
+      "residual_any_sizes": [
+        366
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.861,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0011011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        192
+      ],
+      "residual_any_sizes": [
+        192
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.174,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0011011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        346
+      ],
+      "residual_any_sizes": [
+        346
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.073,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0011101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        282
+      ],
+      "residual_any_sizes": [
+        282
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.217,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0011101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        486
+      ],
+      "residual_any_sizes": [
+        486
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.815,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0011111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        142
+      ],
+      "residual_any_sizes": [
+        142
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.177,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 7,
+      "center_word": "0011111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        254
+      ],
+      "residual_any_sizes": [
+        254
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.98,
+      "n_with_adjacent_pair": 1
+    },
+    {
+      "radius": 6,
+      "center_word": "0101011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        280
+      ],
+      "residual_any_sizes": [
+        280
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.199,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0101011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        502
+      ],
+      "residual_any_sizes": [
+        502
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.827,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0101111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        264
+      ],
+      "residual_any_sizes": [
+        264
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.198,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0101111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        454
+      ],
+      "residual_any_sizes": [
+        454
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.905,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0110111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        270
+      ],
+      "residual_any_sizes": [
+        270
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.201,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0110111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        482
+      ],
+      "residual_any_sizes": [
+        482
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.86,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "0111111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        168
+      ],
+      "residual_any_sizes": [
+        168
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.211,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "0111111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        298
+      ],
+      "residual_any_sizes": [
+        298
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.961,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 6,
+      "center_word": "011111111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        186
+      ],
+      "residual_any_sizes": [
+        186
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 0.312,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 7,
+      "center_word": "011111111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        328
+      ],
+      "residual_any_sizes": [
+        328
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.459,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 8,
+      "center_word": "011111111",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        586
+      ],
+      "residual_any_sizes": [
+        586
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 5.837,
+      "n_with_adjacent_pair": 0
+    },
+    {
+      "radius": 8,
+      "center_word": "001",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        248
+      ],
+      "residual_any_sizes": [
+        248
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.416
+    },
+    {
+      "radius": 8,
+      "center_word": "011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        272
+      ],
+      "residual_any_sizes": [
+        272
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.38
+    },
+    {
+      "radius": 8,
+      "center_word": "0001",
+      "recurrent_components": 4,
+      "residual_neighbor": 2,
+      "residual_any_adjacent": 2,
+      "residual_neighbor_sizes": [
+        162,
+        65
+      ],
+      "residual_any_sizes": [
+        162,
+        65
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.292
+    },
+    {
+      "radius": 8,
+      "center_word": "0011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        342
+      ],
+      "residual_any_sizes": [
+        342
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.052
+    },
+    {
+      "radius": 8,
+      "center_word": "0111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        416
+      ],
+      "residual_any_sizes": [
+        416
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 1.906
+    },
+    {
+      "radius": 8,
+      "center_word": "00001",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        558
+      ],
+      "residual_any_sizes": [
+        558
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.357
+    },
+    {
+      "radius": 8,
+      "center_word": "00011",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        398
+      ],
+      "residual_any_sizes": [
+        398
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.417
+    },
+    {
+      "radius": 8,
+      "center_word": "00101",
+      "recurrent_components": 1,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        634
+      ],
+      "residual_any_sizes": [
+        634
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.9
+    },
+    {
+      "radius": 8,
+      "center_word": "00111",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        476
+      ],
+      "residual_any_sizes": [
+        476
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.517
+    },
+    {
+      "radius": 8,
+      "center_word": "01011",
+      "recurrent_components": 2,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        598
+      ],
+      "residual_any_sizes": [
+        598
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.799
+    },
+    {
+      "radius": 8,
+      "center_word": "01111",
+      "recurrent_components": 3,
+      "residual_neighbor": 1,
+      "residual_any_adjacent": 1,
+      "residual_neighbor_sizes": [
+        394
+      ],
+      "residual_any_sizes": [
+        394
+      ],
+      "excluded_neighbor": false,
+      "excluded_any_adjacent": false,
+      "elapsed": 2.434
+    }
+  ],
+  "extend": [
+    {
+      "word": "001",
+      "stop": "cap",
+      "last_radius": 19,
+      "last_states": 40757,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 6,
+          "edges": 12,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 12,
+          "edges": 24,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 24,
+          "edges": 48,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 42,
+          "edges": 84,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 40,
+          "edges": 80,
+          "n_components": 2
+        },
+        {
+          "radius": 6,
+          "states": 76,
+          "edges": 152,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 142,
+          "edges": 284,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 248,
+          "edges": 496,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 436,
+          "edges": 872,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 722,
+          "edges": 1444,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 1106,
+          "edges": 2212,
+          "n_components": 3
+        },
+        {
+          "radius": 12,
+          "states": 1934,
+          "edges": 3868,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 3268,
+          "edges": 6536,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 4698,
+          "edges": 9396,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 7676,
+          "edges": 15352,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 12504,
+          "edges": 25008,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 15941,
+          "edges": 31733,
+          "n_components": 3
+        },
+        {
+          "radius": 18,
+          "states": 25939,
+          "edges": 51715,
+          "n_components": 2
+        },
+        {
+          "radius": 19,
+          "states": 40757,
+          "edges": 81429,
+          "n_components": 2
+        }
+      ],
+      "elapsed": 2.709
+    },
+    {
+      "word": "011",
+      "stop": "cap",
+      "last_radius": 20,
+      "last_states": 49354,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 6,
+          "edges": 12,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 12,
+          "edges": 24,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 14,
+          "edges": 28,
+          "n_components": 2
+        },
+        {
+          "radius": 4,
+          "states": 26,
+          "edges": 52,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 46,
+          "edges": 92,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 84,
+          "edges": 168,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 154,
+          "edges": 308,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 272,
+          "edges": 544,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 442,
+          "edges": 884,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 738,
+          "edges": 1476,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 1204,
+          "edges": 2408,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 1994,
+          "edges": 3988,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 2926,
+          "edges": 5817,
+          "n_components": 2
+        },
+        {
+          "radius": 14,
+          "states": 4822,
+          "edges": 9610,
+          "n_components": 2
+        },
+        {
+          "radius": 15,
+          "states": 5104,
+          "edges": 10073,
+          "n_components": 3
+        },
+        {
+          "radius": 16,
+          "states": 7783,
+          "edges": 15401,
+          "n_components": 4
+        },
+        {
+          "radius": 17,
+          "states": 11427,
+          "edges": 22798,
+          "n_components": 3
+        },
+        {
+          "radius": 18,
+          "states": 18908,
+          "edges": 37816,
+          "n_components": 2
+        },
+        {
+          "radius": 19,
+          "states": 30802,
+          "edges": 61604,
+          "n_components": 2
+        },
+        {
+          "radius": 20,
+          "states": 49354,
+          "edges": 98708,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 3.483
+    },
+    {
+      "word": "0001",
+      "stop": "cap",
+      "last_radius": 20,
+      "last_states": 45247,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 8,
+          "edges": 16,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 16,
+          "edges": 32,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 32,
+          "edges": 64,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 56,
+          "edges": 112,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 60,
+          "edges": 112,
+          "n_components": 3
+        },
+        {
+          "radius": 6,
+          "states": 101,
+          "edges": 191,
+          "n_components": 2
+        },
+        {
+          "radius": 7,
+          "states": 135,
+          "edges": 264,
+          "n_components": 3
+        },
+        {
+          "radius": 8,
+          "states": 227,
+          "edges": 444,
+          "n_components": 2
+        },
+        {
+          "radius": 9,
+          "states": 328,
+          "edges": 643,
+          "n_components": 3
+        },
+        {
+          "radius": 10,
+          "states": 354,
+          "edges": 708,
+          "n_components": 3
+        },
+        {
+          "radius": 11,
+          "states": 636,
+          "edges": 1272,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 1076,
+          "edges": 2152,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 1854,
+          "edges": 3708,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 3008,
+          "edges": 6016,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 5046,
+          "edges": 10092,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 8364,
+          "edges": 16728,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 12085,
+          "edges": 23919,
+          "n_components": 2
+        },
+        {
+          "radius": 18,
+          "states": 18768,
+          "edges": 37144,
+          "n_components": 1
+        },
+        {
+          "radius": 19,
+          "states": 29445,
+          "edges": 58351,
+          "n_components": 1
+        },
+        {
+          "radius": 20,
+          "states": 45247,
+          "edges": 89697,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 3.259
+    },
+    {
+      "word": "0011",
+      "stop": "cap",
+      "last_radius": 19,
+      "last_states": 48973,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 8,
+          "edges": 16,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 16,
+          "edges": 32,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 18,
+          "edges": 36,
+          "n_components": 2
+        },
+        {
+          "radius": 4,
+          "states": 34,
+          "edges": 68,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 60,
+          "edges": 120,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 108,
+          "edges": 216,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 192,
+          "edges": 384,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 342,
+          "edges": 684,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 524,
+          "edges": 1048,
+          "n_components": 2
+        },
+        {
+          "radius": 10,
+          "states": 830,
+          "edges": 1660,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 1474,
+          "edges": 2948,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 2492,
+          "edges": 4984,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 4168,
+          "edges": 8336,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 6698,
+          "edges": 13396,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 9986,
+          "edges": 19773,
+          "n_components": 2
+        },
+        {
+          "radius": 16,
+          "states": 14627,
+          "edges": 28768,
+          "n_components": 2
+        },
+        {
+          "radius": 17,
+          "states": 22431,
+          "edges": 44221,
+          "n_components": 1
+        },
+        {
+          "radius": 18,
+          "states": 32539,
+          "edges": 64291,
+          "n_components": 1
+        },
+        {
+          "radius": 19,
+          "states": 48973,
+          "edges": 96948,
+          "n_components": 2
+        }
+      ],
+      "elapsed": 3.774
+    },
+    {
+      "word": "0111",
+      "stop": "cap",
+      "last_radius": 18,
+      "last_states": 40346,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 8,
+          "edges": 16,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 16,
+          "edges": 32,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 32,
+          "edges": 64,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 56,
+          "edges": 112,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 94,
+          "edges": 188,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 158,
+          "edges": 316,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 228,
+          "edges": 456,
+          "n_components": 2
+        },
+        {
+          "radius": 8,
+          "states": 416,
+          "edges": 832,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 740,
+          "edges": 1480,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1284,
+          "edges": 2568,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 2102,
+          "edges": 4204,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 3610,
+          "edges": 7220,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 6192,
+          "edges": 12384,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 8172,
+          "edges": 16070,
+          "n_components": 2
+        },
+        {
+          "radius": 15,
+          "states": 12684,
+          "edges": 24973,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 18264,
+          "edges": 35892,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 26966,
+          "edges": 53043,
+          "n_components": 1
+        },
+        {
+          "radius": 18,
+          "states": 40346,
+          "edges": 79363,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 2.918
+    },
+    {
+      "word": "011111111",
+      "stop": "cap",
+      "last_radius": 17,
+      "last_states": 55252,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 18,
+          "edges": 36,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 36,
+          "edges": 72,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 44,
+          "edges": 88,
+          "n_components": 2
+        },
+        {
+          "radius": 4,
+          "states": 80,
+          "edges": 160,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 142,
+          "edges": 284,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 186,
+          "edges": 372,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 328,
+          "edges": 656,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 586,
+          "edges": 1172,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 916,
+          "edges": 1832,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1612,
+          "edges": 3224,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 2778,
+          "edges": 5556,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 4786,
+          "edges": 9572,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 7808,
+          "edges": 15616,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 12594,
+          "edges": 25188,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 21180,
+          "edges": 42360,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 33660,
+          "edges": 67320,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 55252,
+          "edges": 110504,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 3.52
+    },
+    {
+      "word": "00001",
+      "stop": "cap",
+      "last_radius": 17,
+      "last_states": 41334,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 10,
+          "edges": 20,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 20,
+          "edges": 40,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 40,
+          "edges": 80,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 70,
+          "edges": 140,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 112,
+          "edges": 224,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 204,
+          "edges": 408,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 332,
+          "edges": 664,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 558,
+          "edges": 1116,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 932,
+          "edges": 1864,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1446,
+          "edges": 2892,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 2328,
+          "edges": 4656,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 3672,
+          "edges": 7344,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 5322,
+          "edges": 10644,
+          "n_components": 2
+        },
+        {
+          "radius": 14,
+          "states": 8988,
+          "edges": 17976,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 14912,
+          "edges": 29824,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 24966,
+          "edges": 49932,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 41334,
+          "edges": 82668,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 2.396
+    },
+    {
+      "word": "00011",
+      "stop": "cap",
+      "last_radius": 17,
+      "last_states": 38390,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 10,
+          "edges": 20,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 20,
+          "edges": 40,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 22,
+          "edges": 44,
+          "n_components": 2
+        },
+        {
+          "radius": 4,
+          "states": 42,
+          "edges": 84,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 74,
+          "edges": 148,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 132,
+          "edges": 264,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 222,
+          "edges": 444,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 398,
+          "edges": 796,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 700,
+          "edges": 1400,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1096,
+          "edges": 2192,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 1918,
+          "edges": 3836,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 3310,
+          "edges": 6620,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 5474,
+          "edges": 10948,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 8654,
+          "edges": 17308,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 14426,
+          "edges": 28852,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 24248,
+          "edges": 48496,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 38390,
+          "edges": 76780,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 2.563
+    },
+    {
+      "word": "00101",
+      "stop": "cap",
+      "last_radius": 16,
+      "last_states": 40308,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 10,
+          "edges": 20,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 20,
+          "edges": 40,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 40,
+          "edges": 80,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 70,
+          "edges": 140,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 114,
+          "edges": 228,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 208,
+          "edges": 416,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 364,
+          "edges": 728,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 634,
+          "edges": 1268,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 1092,
+          "edges": 2184,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1866,
+          "edges": 3732,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 3104,
+          "edges": 6208,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 5248,
+          "edges": 10496,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 8528,
+          "edges": 17056,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 14524,
+          "edges": 29048,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 24216,
+          "edges": 48432,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 40308,
+          "edges": 80616,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 2.281
+    },
+    {
+      "word": "00111",
+      "stop": "cap",
+      "last_radius": 17,
+      "last_states": 39034,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 10,
+          "edges": 20,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 20,
+          "edges": 40,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 40,
+          "edges": 80,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 70,
+          "edges": 140,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 116,
+          "edges": 232,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 184,
+          "edges": 368,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 302,
+          "edges": 604,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 476,
+          "edges": 952,
+          "n_components": 2
+        },
+        {
+          "radius": 9,
+          "states": 664,
+          "edges": 1328,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1086,
+          "edges": 2172,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 1892,
+          "edges": 3784,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 3142,
+          "edges": 6284,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 5338,
+          "edges": 10676,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 8768,
+          "edges": 17536,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 14580,
+          "edges": 29160,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 23792,
+          "edges": 47584,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 39034,
+          "edges": 78068,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 2.52
+    },
+    {
+      "word": "01011",
+      "stop": "cap",
+      "last_radius": 17,
+      "last_states": 52430,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 10,
+          "edges": 20,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 20,
+          "edges": 40,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 40,
+          "edges": 80,
+          "n_components": 1
+        },
+        {
+          "radius": 4,
+          "states": 70,
+          "edges": 140,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 116,
+          "edges": 232,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 196,
+          "edges": 392,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 340,
+          "edges": 680,
+          "n_components": 2
+        },
+        {
+          "radius": 8,
+          "states": 598,
+          "edges": 1196,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 1044,
+          "edges": 2088,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1796,
+          "edges": 3592,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 3000,
+          "edges": 6000,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 4392,
+          "edges": 8784,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 7454,
+          "edges": 14908,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 12568,
+          "edges": 25136,
+          "n_components": 2
+        },
+        {
+          "radius": 15,
+          "states": 20700,
+          "edges": 41400,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 32560,
+          "edges": 65120,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 52430,
+          "edges": 104860,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 3.15
+    },
+    {
+      "word": "01111",
+      "stop": "cap",
+      "last_radius": 17,
+      "last_states": 41342,
+      "scan": [
+        {
+          "radius": 1,
+          "states": 10,
+          "edges": 20,
+          "n_components": 1
+        },
+        {
+          "radius": 2,
+          "states": 20,
+          "edges": 40,
+          "n_components": 1
+        },
+        {
+          "radius": 3,
+          "states": 24,
+          "edges": 48,
+          "n_components": 2
+        },
+        {
+          "radius": 4,
+          "states": 44,
+          "edges": 88,
+          "n_components": 1
+        },
+        {
+          "radius": 5,
+          "states": 78,
+          "edges": 156,
+          "n_components": 1
+        },
+        {
+          "radius": 6,
+          "states": 124,
+          "edges": 248,
+          "n_components": 1
+        },
+        {
+          "radius": 7,
+          "states": 222,
+          "edges": 444,
+          "n_components": 1
+        },
+        {
+          "radius": 8,
+          "states": 394,
+          "edges": 788,
+          "n_components": 1
+        },
+        {
+          "radius": 9,
+          "states": 660,
+          "edges": 1320,
+          "n_components": 1
+        },
+        {
+          "radius": 10,
+          "states": 1148,
+          "edges": 2296,
+          "n_components": 1
+        },
+        {
+          "radius": 11,
+          "states": 1876,
+          "edges": 3752,
+          "n_components": 1
+        },
+        {
+          "radius": 12,
+          "states": 3234,
+          "edges": 6468,
+          "n_components": 1
+        },
+        {
+          "radius": 13,
+          "states": 5562,
+          "edges": 11124,
+          "n_components": 1
+        },
+        {
+          "radius": 14,
+          "states": 9396,
+          "edges": 18792,
+          "n_components": 1
+        },
+        {
+          "radius": 15,
+          "states": 15354,
+          "edges": 30708,
+          "n_components": 1
+        },
+        {
+          "radius": 16,
+          "states": 25208,
+          "edges": 50416,
+          "n_components": 1
+        },
+        {
+          "radius": 17,
+          "states": 41342,
+          "edges": 82684,
+          "n_components": 1
+        }
+      ],
+      "elapsed": 2.793
+    }
+  ],
+  "light_cone": [
+    {
+      "word": "001",
+      "tmax": 11,
+      "per_T": [
+        {
+          "T": 0,
+          "max_match": 1,
+          "width": 1
+        },
+        {
+          "T": 1,
+          "max_match": 2,
+          "width": 3
+        },
+        {
+          "T": 2,
+          "max_match": 5,
+          "width": 5
+        },
+        {
+          "T": 3,
+          "max_match": 6,
+          "width": 7
+        },
+        {
+          "T": 4,
+          "max_match": 9,
+          "width": 9
+        },
+        {
+          "T": 5,
+          "max_match": 10,
+          "width": 11
+        },
+        {
+          "T": 6,
+          "max_match": 14,
+          "width": 13
+        },
+        {
+          "T": 7,
+          "max_match": 13,
+          "width": 15
+        },
+        {
+          "T": 8,
+          "max_match": 12,
+          "width": 17
+        },
+        {
+          "T": 9,
+          "max_match": 15,
+          "width": 19
+        },
+        {
+          "T": 10,
+          "max_match": 15,
+          "width": 21
+        },
+        {
+          "T": 11,
+          "max_match": 19,
+          "width": 23
+        }
+      ],
+      "global_best_match": 19,
+      "unbounded_witness": false,
+      "elapsed": 10.098
+    },
+    {
+      "word": "011",
+      "tmax": 11,
+      "per_T": [
+        {
+          "T": 0,
+          "max_match": 5,
+          "width": 1
+        },
+        {
+          "T": 1,
+          "max_match": 4,
+          "width": 3
+        },
+        {
+          "T": 2,
+          "max_match": 3,
+          "width": 5
+        },
+        {
+          "T": 3,
+          "max_match": 8,
+          "width": 7
+        },
+        {
+          "T": 4,
+          "max_match": 9,
+          "width": 9
+        },
+        {
+          "T": 5,
+          "max_match": 9,
+          "width": 11
+        },
+        {
+          "T": 6,
+          "max_match": 12,
+          "width": 13
+        },
+        {
+          "T": 7,
+          "max_match": 12,
+          "width": 15
+        },
+        {
+          "T": 8,
+          "max_match": 17,
+          "width": 17
+        },
+        {
+          "T": 9,
+          "max_match": 16,
+          "width": 19
+        },
+        {
+          "T": 10,
+          "max_match": 15,
+          "width": 21
+        },
+        {
+          "T": 11,
+          "max_match": 18,
+          "width": 23
+        }
+      ],
+      "global_best_match": 18,
+      "unbounded_witness": false,
+      "elapsed": 10.11
+    },
+    {
+      "word": "0001",
+      "tmax": 11,
+      "per_T": [
+        {
+          "T": 0,
+          "max_match": 1,
+          "width": 1
+        },
+        {
+          "T": 1,
+          "max_match": 5,
+          "width": 3
+        },
+        {
+          "T": 2,
+          "max_match": 5,
+          "width": 5
+        },
+        {
+          "T": 3,
+          "max_match": 5,
+          "width": 7
+        },
+        {
+          "T": 4,
+          "max_match": 11,
+          "width": 9
+        },
+        {
+          "T": 5,
+          "max_match": 13,
+          "width": 11
+        },
+        {
+          "T": 6,
+          "max_match": 14,
+          "width": 13
+        },
+        {
+          "T": 7,
+          "max_match": 13,
+          "width": 15
+        },
+        {
+          "T": 8,
+          "max_match": 12,
+          "width": 17
+        },
+        {
+          "T": 9,
+          "max_match": 14,
+          "width": 19
+        },
+        {
+          "T": 10,
+          "max_match": 19,
+          "width": 21
+        },
+        {
+          "T": 11,
+          "max_match": 20,
+          "width": 23
+        }
+      ],
+      "global_best_match": 20,
+      "unbounded_witness": false,
+      "elapsed": 11.21
+    },
+    {
+      "word": "0011",
+      "tmax": 11,
+      "per_T": [
+        {
+          "T": 0,
+          "max_match": 3,
+          "width": 1
+        },
+        {
+          "T": 1,
+          "max_match": 2,
+          "width": 3
+        },
+        {
+          "T": 2,
+          "max_match": 4,
+          "width": 5
+        },
+        {
+          "T": 3,
+          "max_match": 6,
+          "width": 7
+        },
+        {
+          "T": 4,
+          "max_match": 8,
+          "width": 9
+        },
+        {
+          "T": 5,
+          "max_match": 12,
+          "width": 11
+        },
+        {
+          "T": 6,
+          "max_match": 13,
+          "width": 13
+        },
+        {
+          "T": 7,
+          "max_match": 12,
+          "width": 15
+        },
+        {
+          "T": 8,
+          "max_match": 11,
+          "width": 17
+        },
+        {
+          "T": 9,
+          "max_match": 16,
+          "width": 19
+        },
+        {
+          "T": 10,
+          "max_match": 15,
+          "width": 21
+        },
+        {
+          "T": 11,
+          "max_match": 17,
+          "width": 23
+        }
+      ],
+      "global_best_match": 17,
+      "unbounded_witness": false,
+      "elapsed": 12.928
+    },
+    {
+      "word": "0111",
+      "tmax": 11,
+      "per_T": [
+        {
+          "T": 0,
+          "max_match": 7,
+          "width": 1
+        },
+        {
+          "T": 1,
+          "max_match": 6,
+          "width": 3
+        },
+        {
+          "T": 2,
+          "max_match": 5,
+          "width": 5
+        },
+        {
+          "T": 3,
+          "max_match": 6,
+          "width": 7
+        },
+        {
+          "T": 4,
+          "max_match": 5,
+          "width": 9
+        },
+        {
+          "T": 5,
+          "max_match": 9,
+          "width": 11
+        },
+        {
+          "T": 6,
+          "max_match": 10,
+          "width": 13
+        },
+        {
+          "T": 7,
+          "max_match": 14,
+          "width": 15
+        },
+        {
+          "T": 8,
+          "max_match": 17,
+          "width": 17
+        },
+        {
+          "T": 9,
+          "max_match": 16,
+          "width": 19
+        },
+        {
+          "T": 10,
+          "max_match": 15,
+          "width": 21
+        },
+        {
+          "T": 11,
+          "max_match": 15,
+          "width": 23
+        }
+      ],
+      "global_best_match": 17,
+      "unbounded_witness": false,
+      "elapsed": 11.144
+    }
+  ],
+  "period8_known_empty": [
+    "00000001",
+    "00000011",
+    "01111111"
+  ],
+  "necklaces": {
+    "3": [
+      "001",
+      "011"
+    ],
+    "4": [
+      "0001",
+      "0011",
+      "0111"
+    ],
+    "5": [
+      "00001",
+      "00011",
+      "00101",
+      "00111",
+      "01011",
+      "01111"
+    ],
+    "6": [
+      "000001",
+      "000011",
+      "000101",
+      "000111",
+      "001011",
+      "001101",
+      "001111",
+      "010111",
+      "011111"
+    ],
+    "7": [
+      "0000001",
+      "0000011",
+      "0000101",
+      "0000111",
+      "0001001",
+      "0001011",
+      "0001101",
+      "0001111",
+      "0010011",
+      "0010101",
+      "0010111",
+      "0011011",
+      "0011101",
+      "0011111",
+      "0101011",
+      "0101111",
+      "0110111",
+      "0111111"
+    ],
+    "8": [
+      "00000001",
+      "00000011",
+      "00000101",
+      "00000111",
+      "00001001",
+      "00001011",
+      "00001101",
+      "00001111",
+      "00010011",
+      "00010101",
+      "00010111",
+      "00011001",
+      "00011011",
+      "00011101",
+      "00011111",
+      "00100101",
+      "00100111",
+      "00101011",
+      "00101101",
+      "00101111",
+      "00110101",
+      "00110111",
+      "00111011",
+      "00111101",
+      "00111111",
+      "01010111",
+      "01011011",
+      "01011111",
+      "01101111",
+      "01111111"
+    ],
+    "9": [
+      "000000001",
+      "000000011",
+      "000000101",
+      "000000111",
+      "000001001",
+      "000001011",
+      "000001101",
+      "000001111",
+      "000010001",
+      "000010011",
+      "000010101",
+      "000010111",
+      "000011001",
+      "000011011",
+      "000011101",
+      "000011111",
+      "000100011",
+      "000100101",
+      "000100111",
+      "000101001",
+      "000101011",
+      "000101101",
+      "000101111",
+      "000110011",
+      "000110101",
+      "000110111",
+      "000111001",
+      "000111011",
+      "000111101",
+      "000111111",
+      "001001011",
+      "001001101",
+      "001001111",
+      "001010011",
+      "001010101",
+      "001010111",
+      "001011011",
+      "001011101",
+      "001011111",
+      "001100111",
+      "001101011",
+      "001101101",
+      "001101111",
+      "001110101",
+      "001110111",
+      "001111011",
+      "001111101",
+      "001111111",
+      "010101011",
+      "010101111",
+      "010110111",
+      "010111011",
+      "010111111",
+      "011011111",
+      "011101111",
+      "011111111"
+    ]
+  }
+}

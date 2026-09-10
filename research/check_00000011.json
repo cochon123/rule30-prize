@@ -1,0 +1,136 @@
+[
+  {
+    "radius": 1,
+    "word": "00000011",
+    "surviving_states": 16,
+    "surviving_edges": 32,
+    "components": [
+      {
+        "size": 16,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 2,
+    "word": "00000011",
+    "surviving_states": 32,
+    "surviving_edges": 64,
+    "components": [
+      {
+        "size": 32,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 3,
+    "word": "00000011",
+    "surviving_states": 34,
+    "surviving_edges": 68,
+    "components": [
+      {
+        "size": 11,
+        "period": 8,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      },
+      {
+        "size": 34,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 4,
+    "word": "00000011",
+    "surviving_states": 66,
+    "surviving_edges": 132,
+    "components": [
+      {
+        "size": 66,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 5,
+    "word": "00000011",
+    "surviving_states": 116,
+    "surviving_edges": 232,
+    "components": [
+      {
+        "size": 116,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 6,
+    "word": "00000011",
+    "surviving_states": 204,
+    "surviving_edges": 408,
+    "components": [
+      {
+        "size": 204,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 7,
+    "word": "00000011",
+    "surviving_states": 0,
+    "surviving_edges": 0,
+    "components": [
+      {
+        "size": 45,
+        "period": 8,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      },
+      {
+        "size": 218,
+        "period": 8,
+        "fixed": [
+          -1,
+          0,
+          1
+        ],
+        "excluded": true
+      }
+    ]
+  }
+]

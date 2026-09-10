@@ -1,0 +1,1911 @@
+{
+  "algebraic_m2": {
+    "identity": "on every 01^8 path with the locally forced 1-run left bits, column -2 is determined by sigma",
+    "branches": [
+      {
+        "sigma": 0,
+        "left": "000000001",
+        "col_m2": "011111101",
+        "right_phase0": 1
+      },
+      {
+        "sigma": 1,
+        "left": "100000001",
+        "col_m2": "111111100",
+        "right_phase0": 0
+      }
+    ],
+    "jen": "constant sigma => columns -1 and 0 both period 9, excluded. Mixing sigma is the only residual case."
+  },
+  "r6": {
+    "residual_vertices": 186,
+    "phase_sizes": [
+      20,
+      16,
+      14,
+      18,
+      20,
+      28,
+      24,
+      26,
+      20
+    ],
+    "phase0_left0": [
+      "1011000100000",
+      "1011000100010",
+      "1011000100110",
+      "1011000100001",
+      "1011000100011",
+      "1011000100111"
+    ],
+    "phase0_left1_n": 14,
+    "phase0_left0_n": 6,
+    "extra_last_n": 4,
+    "good_last_n": 16,
+    "extra_last_rows": [
+      "0001111000000",
+      "0001111000010",
+      "0001111000001",
+      "0001111000011"
+    ],
+    "good_last_n_prefixes": [
+      "110001101"
+    ],
+    "step9_recurrent": [
+      {
+        "size": 20,
+        "sigmas": [
+          0,
+          1
+        ]
+      }
+    ],
+    "mix_period_steps": 1,
+    "extra_successors": [
+      {
+        "row": "0001111000001",
+        "next_left": [
+          0
+        ],
+        "next_pref": [
+          "101100010"
+        ]
+      },
+      {
+        "row": "0001111000000",
+        "next_left": [
+          0
+        ],
+        "next_pref": [
+          "101100010"
+        ]
+      },
+      {
+        "row": "0001111000011",
+        "next_left": [
+          0
+        ],
+        "next_pref": [
+          "101100010"
+        ]
+      },
+      {
+        "row": "0001111000010",
+        "next_left": [
+          0
+        ],
+        "next_pref": [
+          "101100010"
+        ]
+      }
+    ],
+    "info": {
+      "vertices": 186,
+      "graph_period": 9,
+      "phase0_left": [
+        0,
+        1
+      ],
+      "last_col_m2": [
+        0,
+        1
+      ],
+      "phase_sizes": [
+        20,
+        16,
+        14,
+        18,
+        20,
+        28,
+        24,
+        26,
+        20
+      ],
+      "phase0_n_left0": 6,
+      "phase0_n_left1": 14,
+      "last_n_extra_prefix": 4,
+      "last_extra_rows": [
+        "0001111000000",
+        "0001111000010",
+        "0001111000001",
+        "0001111000011"
+      ],
+      "prefixes9": {
+        "0": [
+          "101011001",
+          "101100010"
+        ],
+        "1": [
+          "101010111"
+        ],
+        "2": [
+          "101010100"
+        ],
+        "3": [
+          "001010110",
+          "001010111"
+        ],
+        "4": [
+          "011010100",
+          "011010101",
+          "111010100"
+        ],
+        "5": [
+          "010010101",
+          "010010110",
+          "010010111",
+          "100010110"
+        ],
+        "6": [
+          "010110100",
+          "111110100",
+          "111110101"
+        ],
+        "7": [
+          "100000101",
+          "100000110",
+          "110100111"
+        ],
+        "8": [
+          "000111100",
+          "110001101"
+        ]
+      },
+      "neighbor_forced": false,
+      "fixed_relative": [
+        0
+      ]
+    }
+  },
+  "extra_only": {
+    "extra_n": 10,
+    "good_n": 30,
+    "extra_reaches_good": true,
+    "good_reaches_extra": true,
+    "extra_only_recurrent_sizes": [
+      20
+    ],
+    "note": "extra-only recurrent would mean a Jen-excluded constant-sigma=0 tail; mixing is the obstruction"
+  },
+  "rotations_r6": [
+    {
+      "word": "011111111",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "111111110",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "111111101",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "111111011",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "111110111",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "111101111",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "111011111",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "110111111",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    },
+    {
+      "word": "101111111",
+      "residual": 1,
+      "sizes": [
+        186
+      ],
+      "recurrent": 1
+    }
+  ],
+  "analyze": [
+    {
+      "radius": 6,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        186
+      ],
+      "elapsed": 0.229
+    },
+    {
+      "radius": 7,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        328
+      ],
+      "elapsed": 0.973
+    },
+    {
+      "radius": 8,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        586
+      ],
+      "elapsed": 4.233
+    }
+  ],
+  "prefix_automata": [
+    {
+      "prefix_len": 9,
+      "center": 6,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        51
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.013
+    },
+    {
+      "prefix_len": 10,
+      "center": 7,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        55
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.024
+    },
+    {
+      "prefix_len": 11,
+      "center": 8,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        59
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.045
+    },
+    {
+      "prefix_len": 12,
+      "center": 9,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        63
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.089
+    },
+    {
+      "prefix_len": 13,
+      "center": 10,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        67
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.193
+    },
+    {
+      "prefix_len": 14,
+      "center": 11,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        71
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.422
+    },
+    {
+      "prefix_len": 15,
+      "center": 12,
+      "recurrent": 1,
+      "residual": 1,
+      "residual_sizes": [
+        78
+      ],
+      "residual_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "residual_col_m2": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.85
+    }
+  ],
+  "left_zero_boundary": [
+    {
+      "left": 6,
+      "right": 6,
+      "width": 13,
+      "recurrent": 0,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "elapsed": 0.183,
+      "all_sigma": [],
+      "all_forced": []
+    },
+    {
+      "left": 8,
+      "right": 6,
+      "width": 15,
+      "recurrent": 0,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "elapsed": 0.908,
+      "all_sigma": [],
+      "all_forced": []
+    },
+    {
+      "left": 10,
+      "right": 4,
+      "width": 15,
+      "recurrent": 0,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "elapsed": 0.823,
+      "all_sigma": [],
+      "all_forced": []
+    },
+    {
+      "left": 10,
+      "right": 6,
+      "width": 17,
+      "recurrent": 0,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "elapsed": 4.05,
+      "all_sigma": [],
+      "all_forced": []
+    },
+    {
+      "left": 12,
+      "right": 4,
+      "width": 17,
+      "recurrent": 0,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "elapsed": 3.936,
+      "all_sigma": [],
+      "all_forced": []
+    }
+  ],
+  "extend": {
+    "stop": "cap",
+    "last_radius": 18,
+    "last_states": 91762,
+    "scan": [
+      {
+        "radius": 1,
+        "n": 18,
+        "edges": 36,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 1,
+        "phase0_n_left1": 1,
+        "last_col_m2": [],
+        "last_n_col_m2_is_1": 0,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 18,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 2,
+        "n": 36,
+        "edges": 72,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 2,
+        "phase0_n_left1": 2,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 1,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 36,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 3,
+        "n": 44,
+        "edges": 88,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 4,
+        "phase0_n_left1": 2,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 2,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          6,
+          4,
+          4,
+          6,
+          4,
+          6,
+          4,
+          6,
+          4
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 21,
+            "period": 9,
+            "fixed": [
+              -1,
+              0,
+              1
+            ],
+            "excluded": true
+          },
+          {
+            "size": 44,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 4,
+        "n": 80,
+        "edges": 160,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 4,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          10,
+          8,
+          8,
+          10,
+          8,
+          10,
+          8,
+          10,
+          8
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 80,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 5,
+        "n": 142,
+        "edges": 284,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 10,
+        "phase0_n_left1": 8,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 6,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          18,
+          14,
+          14,
+          18,
+          14,
+          18,
+          14,
+          18,
+          14
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 142,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 6,
+        "n": 186,
+        "edges": 372,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "last_n_extra_prefix": 4,
+        "phase_sizes": [
+          20,
+          16,
+          14,
+          18,
+          20,
+          28,
+          24,
+          26,
+          20
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 186,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 7,
+        "n": 328,
+        "edges": 656,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 10,
+        "phase0_n_left1": 26,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 8,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          36,
+          30,
+          26,
+          30,
+          34,
+          46,
+          42,
+          46,
+          38
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 328,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 8,
+        "n": 586,
+        "edges": 1172,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 18,
+        "phase0_n_left1": 48,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 14,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          66,
+          56,
+          48,
+          52,
+          58,
+          76,
+          78,
+          82,
+          70
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 586,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 9,
+        "n": 916,
+        "edges": 1832,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 24,
+        "phase0_n_left1": 80,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 18,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          104,
+          94,
+          80,
+          84,
+          90,
+          116,
+          120,
+          114,
+          114
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 916,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 10,
+        "n": 1612,
+        "edges": 3224,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 36,
+        "phase0_n_left1": 146,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 28,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          182,
+          176,
+          150,
+          152,
+          160,
+          190,
+          204,
+          200,
+          198
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 1612,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 11,
+        "n": 2778,
+        "edges": 5556,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 58,
+        "phase0_n_left1": 254,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 48,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          312,
+          310,
+          276,
+          268,
+          274,
+          308,
+          338,
+          348,
+          344
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 2778,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 12,
+        "n": 4786,
+        "edges": 9572,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 94,
+        "phase0_n_left1": 456,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 86,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          550,
+          534,
+          492,
+          474,
+          478,
+          520,
+          572,
+          586,
+          580
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 4786,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 13,
+        "n": 7808,
+        "edges": 15616,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 144,
+        "phase0_n_left1": 766,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 138,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          910,
+          890,
+          832,
+          800,
+          794,
+          832,
+          890,
+          922,
+          938
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 7808,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 14,
+        "n": 12594,
+        "edges": 25188,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 218,
+        "phase0_n_left1": 1250,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 206,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          1468,
+          1424,
+          1374,
+          1328,
+          1322,
+          1330,
+          1414,
+          1446,
+          1488
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 12594,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 15,
+        "n": 21180,
+        "edges": 42360,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 330,
+        "phase0_n_left1": 2126,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 324,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          2456,
+          2424,
+          2352,
+          2254,
+          2240,
+          2248,
+          2350,
+          2390,
+          2466
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 21180,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 16,
+        "n": 33660,
+        "edges": 67320,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 534,
+        "phase0_n_left1": 3350,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 520,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          3884,
+          3808,
+          3752,
+          3618,
+          3624,
+          3590,
+          3702,
+          3790,
+          3892
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 33660,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 17,
+        "n": 55252,
+        "edges": 110504,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 854,
+        "phase0_n_left1": 5432,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 842,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          6286,
+          6274,
+          6198,
+          6024,
+          6016,
+          5930,
+          6062,
+          6150,
+          6312
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 55252,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      },
+      {
+        "radius": 18,
+        "n": 91762,
+        "edges": 183524,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 1444,
+        "phase0_n_left1": 9002,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 1420,
+        "last_n_extra_prefix": 0,
+        "phase_sizes": [
+          10446,
+          10480,
+          10356,
+          10070,
+          10010,
+          9874,
+          10042,
+          10106,
+          10378
+        ],
+        "graph_periods": [
+          9
+        ],
+        "n_components": 1,
+        "stats": [
+          {
+            "size": 91762,
+            "period": 9,
+            "fixed": [
+              0
+            ],
+            "excluded": false
+          }
+        ]
+      }
+    ],
+    "elapsed": 5.472
+  },
+  "left_extend": {
+    "stop": "left",
+    "scan": [
+      {
+        "left_radius": 6,
+        "right_radius": 6,
+        "n": 186,
+        "edges": 372,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false,
+        "via": "symmetric"
+      },
+      {
+        "left_radius": 7,
+        "right_radius": 6,
+        "n": 186,
+        "edges": 372,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 8,
+        "right_radius": 6,
+        "n": 186,
+        "edges": 372,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 9,
+        "right_radius": 6,
+        "n": 186,
+        "edges": 372,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 10,
+        "right_radius": 6,
+        "n": 186,
+        "edges": 372,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 4,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 11,
+        "right_radius": 6,
+        "n": 187,
+        "edges": 375,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 12,
+        "right_radius": 6,
+        "n": 193,
+        "edges": 383,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 13,
+        "right_radius": 6,
+        "n": 198,
+        "edges": 398,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 14,
+        "right_radius": 6,
+        "n": 207,
+        "edges": 409,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 15,
+        "right_radius": 6,
+        "n": 215,
+        "edges": 423,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 16,
+        "right_radius": 6,
+        "n": 224,
+        "edges": 436,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 17,
+        "right_radius": 6,
+        "n": 233,
+        "edges": 457,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 18,
+        "right_radius": 6,
+        "n": 245,
+        "edges": 490,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 6,
+        "phase0_n_left1": 14,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 19,
+        "right_radius": 6,
+        "n": 264,
+        "edges": 527,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 5,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 20,
+        "right_radius": 6,
+        "n": 285,
+        "edges": 582,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 21,
+        "right_radius": 6,
+        "n": 317,
+        "edges": 638,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 22,
+        "right_radius": 6,
+        "n": 346,
+        "edges": 709,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 23,
+        "right_radius": 6,
+        "n": 383,
+        "edges": 760,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 24,
+        "right_radius": 6,
+        "n": 411,
+        "edges": 810,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 25,
+        "right_radius": 6,
+        "n": 438,
+        "edges": 851,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      },
+      {
+        "left_radius": 26,
+        "right_radius": 6,
+        "n": 461,
+        "edges": 904,
+        "phase0_left": [
+          0,
+          1
+        ],
+        "phase0_n_left0": 12,
+        "phase0_n_left1": 27,
+        "last_col_m2": [
+          0,
+          1
+        ],
+        "last_n_col_m2_is_1": 10,
+        "n_components": 1,
+        "periods": [
+          9
+        ],
+        "any_excluded": false,
+        "residual_empty": false
+      }
+    ],
+    "elapsed": 0.08
+  },
+  "light_cone": {
+    "word": "011111111",
+    "tmax": 11,
+    "per_T": [
+      {
+        "T": 0,
+        "max_match": 6,
+        "width": 1
+      },
+      {
+        "T": 1,
+        "max_match": 5,
+        "width": 3
+      },
+      {
+        "T": 2,
+        "max_match": 6,
+        "width": 5
+      },
+      {
+        "T": 3,
+        "max_match": 7,
+        "width": 7
+      },
+      {
+        "T": 4,
+        "max_match": 8,
+        "width": 9
+      },
+      {
+        "T": 5,
+        "max_match": 9,
+        "width": 11
+      },
+      {
+        "T": 6,
+        "max_match": 11,
+        "width": 13
+      },
+      {
+        "T": 7,
+        "max_match": 16,
+        "width": 15
+      },
+      {
+        "T": 8,
+        "max_match": 15,
+        "width": 17
+      },
+      {
+        "T": 9,
+        "max_match": 14,
+        "width": 19
+      },
+      {
+        "T": 10,
+        "max_match": 14,
+        "width": 21
+      },
+      {
+        "T": 11,
+        "max_match": 19,
+        "width": 23
+      }
+    ],
+    "global_best_match": 19,
+    "unbounded_witness": false,
+    "elapsed": 21.288
+  },
+  "elapsed_total": 46.498,
+  "excluded": false,
+  "strongest": "q=8 is not excluded for the finite nonzero seed. Every sound free-boundary strip over-approx keeps a unique residual SCC of graph period 9 in which the isolated-0 left bit takes both values (mixing of extra prefix 000111100 with the good wrap 110001101). Fixed 0-walls empty or Jen-prune, but those are under-approximations and are not seed-applicable.",
+  "analyze_r9": {
+    "radius": 9,
+    "recurrent": 1,
+    "residual": 1,
+    "residual_sizes": [
+      916
+    ],
+    "elapsed": 203.961,
+    "note": "independent strip_graph.analyze; matches extend."
+  },
+  "right_zero_boundary": [
+    {
+      "left": 6,
+      "right": 6,
+      "width": 13,
+      "recurrent": 1,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "all_forced": [
+        true
+      ],
+      "all_sigma": [
+        [
+          1
+        ]
+      ],
+      "elapsed": 2.299
+    },
+    {
+      "left": 8,
+      "right": 6,
+      "width": 15,
+      "recurrent": 1,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "all_forced": [
+        true
+      ],
+      "all_sigma": [
+        [
+          1
+        ]
+      ],
+      "elapsed": 0.853
+    },
+    {
+      "left": 6,
+      "right": 8,
+      "width": 15,
+      "recurrent": 1,
+      "residual": 0,
+      "residual_sizes": [],
+      "residual_sigma": [],
+      "all_forced": [
+        true
+      ],
+      "all_sigma": [
+        [
+          0,
+          1
+        ]
+      ],
+      "elapsed": 0.815
+    }
+  ]
+}

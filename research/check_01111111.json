@@ -1,0 +1,99 @@
+[
+  {
+    "radius": 1,
+    "word": "01111111",
+    "surviving_states": 16,
+    "surviving_edges": 32,
+    "components": [
+      {
+        "size": 16,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 2,
+    "word": "01111111",
+    "surviving_states": 32,
+    "surviving_edges": 64,
+    "components": [
+      {
+        "size": 32,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 3,
+    "word": "01111111",
+    "surviving_states": 64,
+    "surviving_edges": 128,
+    "components": [
+      {
+        "size": 64,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 4,
+    "word": "01111111",
+    "surviving_states": 112,
+    "surviving_edges": 224,
+    "components": [
+      {
+        "size": 112,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 5,
+    "word": "01111111",
+    "surviving_states": 190,
+    "surviving_edges": 380,
+    "components": [
+      {
+        "size": 190,
+        "period": 8,
+        "fixed": [
+          0
+        ],
+        "excluded": false
+      }
+    ]
+  },
+  {
+    "radius": 6,
+    "word": "01111111",
+    "surviving_states": 0,
+    "surviving_edges": 0,
+    "components": [
+      {
+        "size": 218,
+        "period": 8,
+        "fixed": [
+          -1,
+          0
+        ],
+        "excluded": true
+      }
+    ]
+  }
+]
