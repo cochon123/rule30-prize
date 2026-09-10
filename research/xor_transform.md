@@ -68,16 +68,20 @@ Run lengths on the full generated prefix:
 
 Signed sums \(D_f(N)=\sum_{t<N}(2f_t-1)\) and the annulus maximum \(A_m\) (max absolute partial imbalance on `[2^m,2^{m+1})`), against the same quantities for raw `c`.
 
-| transform | D(4096) | D(16384) | D(32768) | D(65536) | D(100000) | max A_m/2^m (m≥8) | same order as D(c) |
+| transform | D(4096) | D(16384) | D(32768) | D(65536) | D(end) | max A_m/2^m (m≥8) | same order as D(c) |
 |---|---:|---:|---:|---:|---:|---:|---|
 | `c` | -40 | 170 | 282 | 218 | 196 | 0.1016 | yes |
 | `a` | 0 | -74 | -234 | 90 | 528 | 0.0508 | yes |
-| `d` | -76 | 130 | 56 | 256 |  | 0.0859 | yes |
+| `d` | -76 | 130 | 56 | 256 | 65 | 0.0859 | yes |
 | `e` | 96 | 142 | 258 | 562 | 436 | 0.0898 | yes |
-| `s` | -70 | -40 | -140 | -154 |  | 0.0938 | yes |
+| `s` | -70 | -40 | -140 | -154 | 60 | 0.0938 | yes |
 | `m` | 8 | 142 | 34 | 298 | -40 | 0.0742 | yes |
 
 Signed sums stay the same order as raw `D(N)`: none is visibly `o(N)` better on these prefixes, so there is no Problem 2 shortcut.
+
+## Why it died
+
+Preregistered kill: every transform still has `L(N) ≥ N/4` at `N=4096` and `N=16384`; none is eventually periodic on the scanned prefix with a tiny last-mismatch; signed sums are the same order as raw `D(N)`. Overall kill if no transform is simpler in all three. All three clauses fire, so the overall clause fires. XOR with a period-2 or Thue–Morse sequence changes `L` by `O(1)`, as expected. First difference and the discrete Laplacian stay on the `L≈N/2` line. Paperfolding-style `e` has a *larger* `|D|` than raw `c` at `N=65536`. No bounded `L(N)` and no eventual period, so there is nothing to prove from Rule 30. Not a prize claim.
 
 ## Kill verdict
 
@@ -87,7 +91,7 @@ A single nicer statistic would not have been a prize claim. Overall kill require
 
 No transform has bounded `L(N)` or a clear eventual period on the scanned prefixes, so there is nothing to prove from Rule 30 along this route.
 
-Wall time: `1.032` seconds.
+Wall time: `1.043` seconds.
 
 Self-check: packed centre agrees with `experiment.center_bits` on 256 bits;
 copied BM agrees on `c[:100]` (`L=48`) and on the three toy words;

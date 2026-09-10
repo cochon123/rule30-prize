@@ -964,6 +964,12 @@
             "D": 256,
             "abs_D": 256,
             "abs_D_over_N": 0.00390625
+          },
+          {
+            "N": 99999,
+            "D": 65,
+            "abs_D": 65,
+            "abs_D_over_N": 0.0006500065000650006
           }
         ],
         "annuli_vs_raw": [
@@ -1166,6 +1172,15 @@
             "abs_D_raw": 218,
             "abs_D_over_N": 0.00390625,
             "abs_D_over_abs_raw": 1.1743119266055047
+          },
+          {
+            "N": 99999,
+            "D": 65,
+            "D_raw": null,
+            "abs_D": 65,
+            "abs_D_raw": null,
+            "abs_D_over_N": 0.0006500065000650006,
+            "abs_D_over_abs_raw": null
           }
         ],
         "max_normalized_A_m_from_256": 0.0859375,
@@ -1733,6 +1748,12 @@
             "D": -154,
             "abs_D": 154,
             "abs_D_over_N": 0.002349853515625
+          },
+          {
+            "N": 99998,
+            "D": 60,
+            "abs_D": 60,
+            "abs_D_over_N": 0.0006000120002400048
           }
         ],
         "annuli_vs_raw": [
@@ -1935,6 +1956,15 @@
             "abs_D_raw": 218,
             "abs_D_over_N": 0.002349853515625,
             "abs_D_over_abs_raw": 0.7064220183486238
+          },
+          {
+            "N": 99998,
+            "D": 60,
+            "D_raw": null,
+            "abs_D": 60,
+            "abs_D_raw": null,
+            "abs_D_over_N": 0.0006000120002400048,
+            "abs_D_over_abs_raw": null
           }
         ],
         "max_normalized_A_m_from_256": 0.09375,
@@ -2356,5 +2386,5 @@
     "stop_and_prove_transforms": [],
     "text": "Killed. No transform is simpler than raw c in all three of linear complexity, periodicity witnesses, and discrepancy. Every screened transform still has L(N) \u2265 N/4 at N=4096 and N=16384; none has a tiny last-mismatch for a small period on the scanned prefix; signed sums stay the same order as D(N). A single nicer statistic is not a prize claim. Not a prize claim."
   },
-  "elapsed_sec": 1.0317168235778809
+  "elapsed_sec": 1.0426952838897705
 }
