@@ -1117,3 +1117,13 @@ prefix.
 cycle_cm.md.
 
 Prize status: still unsolved.
+
+## Cycle CN (2026-09-11)
+
+Packed update splits pointwise on B, so B=0 implies DC=A along
+any unique continuation. The fifth tail pair is never equal
+through even length 16, via W=1 with X!=V on every block.
+Covering still a prefix.
+cycle_cn.md.
+
+Prize status: still unsolved.

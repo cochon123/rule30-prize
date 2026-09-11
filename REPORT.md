@@ -1385,3 +1385,13 @@ that range, with Hamming at least \(n_0/2\). The Fermat covering
 remains a prefix.
 [cycle_cm.md](research/cycle_cm.md).
 The prize is still open.
+
+## Cycle CN (2026-09-11)
+
+Packed update \(C'=A\oplus(B\lor C)\) splits pointwise on \(B\),
+so \(B=0\Rightarrow DC=A\) along any unique continuation. The
+fifth tail pair is never equal through even length \(16\): every
+block has \(W=1\) with \(X\ne V\). The Fermat covering remains a
+prefix.
+[cycle_cn.md](research/cycle_cn.md).
+The prize is still open.
