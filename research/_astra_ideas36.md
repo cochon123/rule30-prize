@@ -11,8 +11,13 @@ AI extras stay outside; \(P\equiv 1\) for every odd \(q\) is killed
 
    Either kills every eventual period \(2^m\). Even-popcount \(q\)
    still have \(\varphi=1\oplus S\); no GF(2) linear combination of
-   \((I,\varphi^{(3)},\varphi^{(5)},\varphi^{(9)},\varphi^{(17)})\) is
-   constant on \(k\le 13\). Survive only with a production on
+   unshifted \(\varphi^{(q)}\) for
+   \(q\in\{2,3,4,5,6,7,9,10,11,12,13,15,17\}\) is the constant 1 on
+   \(k\le 15\) (rank 13 on length 16). A 7-term sum
+   \(\varphi^{(2,6,7,9,10,11,17)}\) vanishes on \(k=2..15\) and dies
+   at \(k=16,17\) — a prefix accident, not a relation. Extra Green
+   hits for \(q=3\) are bulk (already 27 others at \(k=3\)), not a
+   local formula for \(S\). Survive only with a production on
    infinitely many of these intervals.
 
 2. **A bulk production of infinitely many centre `00`s**

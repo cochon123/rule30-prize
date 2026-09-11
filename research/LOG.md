@@ -560,4 +560,8 @@ P=0 (p=1 odd for every odd q is killed). Odd q: chained AI extras
 stay outside. Period 2^m forces every integer phi^{(q)}=0. TM has
 Fermat phi ≡ 1 (Cycle AK's TM parenthetical was wrong). cycle_al.md.
 
+Unshifted GF(2) span of 13 spines does not contain the constant 1 on
+k<=15. The 7-term sum phi^{2,6,7,9,10,11,17} vanishes on k=2..15 and
+dies at k=16 (prefix accident). Extra hits for q=3 are bulk, not local S.
+
 Prize status: still unsolved.
