@@ -775,6 +775,20 @@ at \(t=2^{k+1}\). The two-point family of packed bits
 [cycle_ao.md](research/cycle_ao.md).
 The prize is still open.
 
+## Cycle AP (2026-09-11)
+
+\(G(m,2^a-1)=1\) iff \(2^a\mid(m+1)\). \(G(m,5\cdot 2^k-1)\) occupies
+four residue classes modulo \(2^{k+3}\). On the 3-fold annulus these
+laws, with Cycle AO’s two-point form, give four unique-Green packed
+bits for \(k\ge 3\): \(p=1\) at \(t=2^k\) (always fires),
+\(p=2^{k-1}+1\) at \(t=3\cdot 2^{k-1}\), \(p=2^k+1\) at \(t=2^k\)
+(centre-right), and \(p=2^{k+1}+1\) at \(t=2^{k+1}\) (centre-right at
+\(2U\); the other Mersenne time lies outside the cone). The extra
+three take both firing values. Exhaustiveness of the four is a prefix
+through \(k=8\).
+[cycle_ap.md](research/cycle_ap.md).
+The prize is still open.
+
 
 
 

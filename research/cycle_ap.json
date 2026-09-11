@@ -1,0 +1,169 @@
+{
+  "cycle": "AP",
+  "wall_s": 0.104,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "mersenne_target": true,
+    "four_point_5": true
+  },
+  "annulus": [
+    {
+      "k": 3,
+      "n_unique": 4,
+      "uniq": [
+        1,
+        5,
+        9,
+        17
+      ],
+      "t_p1": 8,
+      "t_half": 12,
+      "t_U1": 8,
+      "t_2U1": 16,
+      "n_p1": 1,
+      "n_half": 1,
+      "n_U1": 1,
+      "n_2U1": 1,
+      "fire_p1": 1,
+      "fire_half": 0,
+      "fire_U1": 1,
+      "fire_2U1": 0,
+      "theta": 0
+    },
+    {
+      "k": 4,
+      "n_unique": 4,
+      "uniq": [
+        1,
+        9,
+        17,
+        33
+      ],
+      "t_p1": 16,
+      "t_half": 24,
+      "t_U1": 16,
+      "t_2U1": 32,
+      "n_p1": 1,
+      "n_half": 1,
+      "n_U1": 1,
+      "n_2U1": 1,
+      "fire_p1": 1,
+      "fire_half": 1,
+      "fire_U1": 0,
+      "fire_2U1": 0,
+      "theta": 0
+    },
+    {
+      "k": 5,
+      "n_unique": 4,
+      "uniq": [
+        1,
+        17,
+        33,
+        65
+      ],
+      "t_p1": 32,
+      "t_half": 48,
+      "t_U1": 32,
+      "t_2U1": 64,
+      "n_p1": 1,
+      "n_half": 1,
+      "n_U1": 1,
+      "n_2U1": 1,
+      "fire_p1": 1,
+      "fire_half": 0,
+      "fire_U1": 0,
+      "fire_2U1": 0,
+      "theta": 1
+    },
+    {
+      "k": 6,
+      "n_unique": 4,
+      "uniq": [
+        1,
+        33,
+        65,
+        129
+      ],
+      "t_p1": 64,
+      "t_half": 96,
+      "t_U1": 64,
+      "t_2U1": 128,
+      "n_p1": 1,
+      "n_half": 1,
+      "n_U1": 1,
+      "n_2U1": 1,
+      "fire_p1": 1,
+      "fire_half": 1,
+      "fire_U1": 0,
+      "fire_2U1": 1,
+      "theta": 0
+    },
+    {
+      "k": 7,
+      "n_unique": 4,
+      "uniq": [
+        1,
+        65,
+        129,
+        257
+      ],
+      "t_p1": 128,
+      "t_half": 192,
+      "t_U1": 128,
+      "t_2U1": 256,
+      "n_p1": 1,
+      "n_half": 1,
+      "n_U1": 1,
+      "n_2U1": 1,
+      "fire_p1": 1,
+      "fire_half": 0,
+      "fire_U1": 1,
+      "fire_2U1": 0,
+      "theta": 1
+    },
+    {
+      "k": 8,
+      "n_unique": 4,
+      "uniq": [
+        1,
+        129,
+        257,
+        513
+      ],
+      "t_p1": 256,
+      "t_half": 384,
+      "t_U1": 256,
+      "t_2U1": 512,
+      "n_p1": 1,
+      "n_half": 1,
+      "n_U1": 1,
+      "n_2U1": 1,
+      "fire_p1": 1,
+      "fire_half": 0,
+      "fire_U1": 0,
+      "fire_2U1": 0,
+      "theta": 1
+    }
+  ],
+  "lemmas": {
+    "mersenne_target": true,
+    "four_point_5fold": true,
+    "four_unique_green_bits": true,
+    "exactly_four_all_k": null,
+    "extra_unique_always_fire": false,
+    "theta_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "mersenne_target": "LEMMA",
+    "four_point_5fold": "LEMMA",
+    "four_unique_green_bits": "LEMMA",
+    "exactly_four_all_k": "PREFIX",
+    "extra_unique_always_fire": "KILLED",
+    "theta_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
