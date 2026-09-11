@@ -1094,3 +1094,12 @@ is not identically 1 for \(k\ge 5\) (zero at \(k=13\)), and
 covering remains a prefix.
 [cycle_bo.md](research/cycle_bo.md).
 The prize is still open.
+
+## Cycle BP (2026-09-11)
+
+Packed bit \(p=5U+1\) is unique-Green on the 9-fold annulus and fires
+iff \(\gamma_k=c_{5U}\land r_{5U}\). That AND is 1 at \(k=13\) and
+\(k=14\), so \(\gamma_k\equiv 0\) is false. The 9-fold unique XOR is
+not identically \(\alpha_k\). The Fermat covering remains a prefix.
+[cycle_bp.md](research/cycle_bp.md).
+The prize is still open.

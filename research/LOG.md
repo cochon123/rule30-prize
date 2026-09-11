@@ -856,3 +856,12 @@ Covering still a prefix.
 cycle_bo.md.
 
 Prize status: still unsolved.
+
+## Cycle BP (2026-09-11)
+
+The 9-fold unique-Green bit p=5U+1 fires at k=13 and k=14, so
+gamma_k = c_{5U} and r_{5U} is not identically 0. The vanishing
+through k=12 was a prefix. Covering still a prefix.
+cycle_bp.md.
+
+Prize status: still unsolved.
