@@ -332,6 +332,15 @@ onsets T=33,34 still maxR≤16. period2_germ.md. Fiber note corrected.
 
 Prize status: still unsolved.
 
+## Cycle P (2026-09-11)
+
+Ideas14 items 2–3. Period-2 even neighbor u has no 5 consecutive zeros
+(4-state drain of (e,f) while u=0). SFT {11, 00000} forbidden. Does not
+kill T=20 R=16. F^2 is not width-1 left-expansive. period2_ugap.md.
+
+Prize status: still unsolved.
+
+
 
 
 

@@ -18,9 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **O** (ideas14). Period-2 `L_0` shift germs have
-no descent rank; sound onsets through `T=34` still have `maxR≤16`. The
-prize is still open.
+Last completed cycle is **P**. A period-2 centre forces the even right
+neighbor `u` to have no five consecutive zeros (SFT `{11, 00000}`
+forbidden). That does not exclude period 2. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -32,9 +32,11 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
-  the worst through `T=34`). Origin-in-hull rows of weight `≤10` and
-  span `≤20` (weight `≤8` through span 24) have `L_run≤31`. Off-hull
-  weight-8 reaches 35. Periods 3–7 and `q=8` remain.
+  the worst through `T=34`). The even right neighbor of a period-2
+  centre has no five consecutive zeros, in addition to no consecutive
+  1s. Origin-in-hull rows of weight `≤10` and span `≤20` (weight `≤8`
+  through span 24) have `L_run≤31`. Off-hull weight-8 reaches 35.
+  Periods 3–7 and `q=8` remain.
 - Density and linear-time computation are untouched by a proof.
 
 Helper scripts live in `research/`. Dumps are the matching `.json` files.

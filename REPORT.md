@@ -420,5 +420,19 @@ die with `maxR=14,12`. Worst remains `T=20`, `R=16`.
 [period2_germ.md](research/period2_germ.md).
 The prize is still open.
 
+## Cycle P (ideas14 items 2–3, 2026-09-11)
+
+While a period-2 centre is in phase `01`, the even right neighbor `u`
+has no five consecutive zeros. The pair `(e,f)` while `u=0` walks an
+acyclic four-state graph whose unique longest path is
+`11→01→10→00`, independent of the right half past column 5. Together
+with no consecutive 1s this is the SFT forbidding `{11,00000}`. The
+`T=20` onset with `R=16` already lies in that SFT, so period 2 is not
+excluded. `F^2` is lag-2 permutive and not lag-1, so Kopra width 1 for
+the even lattice is false.
+[period2_ugap.md](research/period2_ugap.md).
+The prize is still open.
+
+
 
 
