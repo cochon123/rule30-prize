@@ -865,3 +865,13 @@ through k=12 was a prefix. Covering still a prefix.
 cycle_bp.md.
 
 Prize status: still unsolved.
+
+## Cycle BQ (2026-09-11)
+
+Packed bit 1 Green-hits target T only for t<=(T-1)/2. The covering
+blocks [6U,10U)->10U and [10U,18U)->18U lie past that cone, so they
+have zero bit-1 hits for every k. Covering fails iff S_A=1 and
+S_B=S_C=0. Covering still a prefix.
+cycle_bq.md.
+
+Prize status: still unsolved.
