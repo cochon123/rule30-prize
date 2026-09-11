@@ -1069,3 +1069,16 @@ adjacent \(0\)-bits. Time \(T\) is a packed-bit-1 hit for every
 \(k=3\)). The Fermat covering remains a prefix.
 [cycle_bm.md](research/cycle_bm.md).
 The prize is still open.
+
+## Cycle BN (2026-09-11)
+
+The net packed-bit-1 parity \(P(q,T)=\bigoplus_{m<(q-1)T}G(m,qT-1)\)
+obeys \(P(q,2S)=P(q,S)\) for every \(q,S\ge 1\), recovering Cycle AL
+as \(P(q,2^k)=P(q)=1\oplus\mathrm{wt}(q)\). On the 3-fold remainder,
+\(P(3,4p+1)=P(3,p)\) and \(P(3,4p+3)=P(3,p\lor 1)\), so \(P(3,T)\)
+reduces to \(\{1,3\}\). In particular \(P(3,2^k)=1\) and
+\(P(3,3\cdot 2^k)=0\). That net 1 is not a covering production:
+\(\Theta(T)=P\oplus S_{\mathrm{other}}\) still cancels on
+\(\theta_k\). The Fermat covering remains a prefix.
+[cycle_bn.md](research/cycle_bn.md).
+The prize is still open.
