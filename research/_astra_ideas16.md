@@ -12,12 +12,23 @@ proposals.
    not eventually periodic. The length-\(2^k\) matrix is *not* always
    full rank over \(\mathrm{GF}(2)\) (ranks \(3/4\), \(31/32\),
    \(127/128\) at \(k=2,5,7\)), so invertibility is the wrong target;
-   distinct columns are enough. Kill if some \(k\) has a collision at
-   length \(2^k\), or if no CA identity distinguishes two residues
-   inside a bound depending only on \(k\). Survive only with a proof
-   for all \(k\), not another prefix table.
+   distinct columns are enough. First disagreement of two residues is
+   not a function of \(r\oplus s\). Kill if some \(k\) has a collision
+   at length \(2^k\). Survive only with a proof for all \(k\), not
+   another prefix table.
 
-2. **Long-range pairing of \(11\) with \(00\) — Problem 2**
+2. **Condrey iteration of the lag-2 inverse of \(F^2\) — Problem 1**
+
+   The two-step map is
+   \(G_0=x_{-2}\oplus\bigl((x_{-1}\,\mathrm{XNOR}\,x_0)\land(x_1\lor x_2)\bigr)\).
+   If the even-time centre is held at \(0\),
+   \(x_{-2}=(\lnot x_{-1})\land(x_1\lor x_2)\). Iterate that leftward
+   as Condrey did for \(F\). Kill if the iterated left is a generic
+   high-complexity fiber (same obstruction as `period2_fiber.md`).
+   Survive only if a finite right forces a 1 at an unbounded odd
+   depth. This is not Kopra width 1 (already killed in Cycle P).
+
+3. **Long-range pairing of \(11\) with \(00\) — Problem 2**
 
    Cycle R: \(D(N)=N_{11}-N_{00}+c_{N-1}\). Local \(L_i=M_i\) is
    false. Seek a bijection (or \(o(N)\) unmatched) between \(11\)-pairs
@@ -28,7 +39,7 @@ proposals.
    signs of the next unmatched \(00\) (resp. \(11\)) with comparable
    frequency. Survive only with \(N_{11}-N_{00}=o(N)\).
 
-3. **Odd-time zeros of column \(-1\) via a production gadget — Problem 1**
+4. **Odd-time zeros of column \(-1\) via a production gadget — Problem 1**
 
    Phase `01` forces \(x(2n+1,-1)=1\) eventually. Empirically that
    column is \(0\) on half of all odd times through \(2^{16}\). A
@@ -39,6 +50,6 @@ proposals.
    even time, or if it does not recur from the single-1 edges.
    Distinct from screening unforced \(r_{2n}\) for membership in \(X\).
 
-4. **Stop after (1)–(3) unless a \(T\)-uniform or \(k\)-uniform identity
+5. **Stop after (1)–(4) unless a \(T\)-uniform or \(k\)-uniform identity
    appears.** Another finite onset table, another hull census, and
    another driven-\(\sigma\) scan are not new mechanisms.
