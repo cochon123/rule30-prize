@@ -1,0 +1,173 @@
+{
+  "cycle": "AQ",
+  "wall_s": 0.107,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "pow2_formula": true,
+    "pairing": true,
+    "period": true
+  },
+  "annulus": [
+    {
+      "k": 3,
+      "n1": 4,
+      "n2": 1,
+      "n3": 6,
+      "p_double": 13,
+      "t_double": [
+        12,
+        16
+      ],
+      "fire_double": [
+        0,
+        0
+      ],
+      "xor_double": 0,
+      "triples": [
+        0,
+        2,
+        3,
+        6,
+        7,
+        21
+      ]
+    },
+    {
+      "k": 4,
+      "n1": 4,
+      "n2": 1,
+      "n3": 5,
+      "p_double": 25,
+      "t_double": [
+        24,
+        32
+      ],
+      "fire_double": [
+        1,
+        0
+      ],
+      "xor_double": 1,
+      "triples": [
+        3,
+        5,
+        11,
+        13,
+        41
+      ]
+    },
+    {
+      "k": 5,
+      "n1": 4,
+      "n2": 1,
+      "n3": 5,
+      "p_double": 49,
+      "t_double": [
+        48,
+        64
+      ],
+      "fire_double": [
+        0,
+        0
+      ],
+      "xor_double": 0,
+      "triples": [
+        5,
+        9,
+        21,
+        25,
+        81
+      ]
+    },
+    {
+      "k": 6,
+      "n1": 4,
+      "n2": 1,
+      "n3": 5,
+      "p_double": 97,
+      "t_double": [
+        96,
+        128
+      ],
+      "fire_double": [
+        0,
+        0
+      ],
+      "xor_double": 0,
+      "triples": [
+        9,
+        17,
+        41,
+        49,
+        161
+      ]
+    },
+    {
+      "k": 7,
+      "n1": 4,
+      "n2": 1,
+      "n3": 5,
+      "p_double": 193,
+      "t_double": [
+        192,
+        256
+      ],
+      "fire_double": [
+        0,
+        0
+      ],
+      "xor_double": 0,
+      "triples": [
+        17,
+        33,
+        81,
+        97,
+        321
+      ]
+    },
+    {
+      "k": 8,
+      "n1": 4,
+      "n2": 1,
+      "n3": 5,
+      "p_double": 385,
+      "t_double": [
+        384,
+        512
+      ],
+      "fire_double": [
+        0,
+        0
+      ],
+      "xor_double": 0,
+      "triples": [
+        33,
+        65,
+        161,
+        193,
+        641
+      ]
+    }
+  ],
+  "lemmas": {
+    "G_pow2_run_form": true,
+    "G_pow2_period_pairing": true,
+    "unique_double_hit_bit": true,
+    "exactly_one_double_all_k": null,
+    "five_triples_all_k": null,
+    "double_always_xor_1": false,
+    "theta_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "G_pow2_run_form": "LEMMA",
+    "G_pow2_period_pairing": "LEMMA",
+    "unique_double_hit_bit": "LEMMA",
+    "exactly_one_double_all_k": "PREFIX",
+    "five_triples_all_k": "PREFIX",
+    "double_always_xor_1": "KILLED",
+    "theta_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

@@ -6,7 +6,7 @@ identifies the unique double-Green bit as Cycle AO’s \(j=k-1\)
 two-point member. That bit does not always fire. Not a prize claim:
 \(\theta_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_aq.py --certify`. Dump:
+Helper: `python3 research/cycle_aq.py --certify` (~0.11s). Dump:
 `research/cycle_aq.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
