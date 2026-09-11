@@ -1241,3 +1241,16 @@ halves also avoid \(A=DB\) (prefix). Post-scar differences of
 linear syndrome. The Fermat covering remains a prefix.
 [cycle_ca.md](research/cycle_ca.md).
 The prize is still open.
+
+## Cycle CB (2026-09-11)
+
+On a length-\(2\pi\) string, \(v(s)_t=s_t\oplus s_{t+\pi}\) satisfies
+\(v(DB)=D(v(B))\), so \(A=DB\) forces \(v(A)=D(v(B))\). Odd
+\(2\)-copy strings are never cyclic derivatives of \(2\)-copy bits.
+Unique continuation does not preserve \(2\)-copy type, and the
+half-xor obstruction is not absorbing on arbitrary drives. After the
+three-pair scar window on the \(k=8\) odd lift, \(v(A)\ne D(v(B))\)
+on every remaining pair (prefix). The Fermat covering remains a
+prefix.
+[cycle_cb.md](research/cycle_cb.md).
+The prize is still open.
