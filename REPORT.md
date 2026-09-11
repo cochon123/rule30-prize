@@ -659,6 +659,24 @@ production of `00`s.
 [cycle_ag.md](research/cycle_ag.md).
 The prize is still open.
 
+## Cycle AH (2026-09-11)
+
+For every \(q\ge 1\), Freshman gives
+\((1+x+x^2)^{q 2^k}=Q(x^{2^k})\) with \(Q=(1+x+x^2)^q\). The
+light-cone edges cancel and the centre contributes, so
+\(c_{2qU}=c_{qU}\oplus\Delta^{(q)}_k\oplus J^{(q)}_k\). Cycle Z is
+the \(q=1\) case (\(\Delta=0\) by empty extras). For
+\(q\in\{3,5,7,9\}\) neither \(\Delta\) nor \(J\) is identically 0 or
+a formula for the spine flip (\(\Delta^{(9)}\) dies at \(k=8\)). If
+\(c\) is eventually period \(2^m r\) with \(r\) odd, then
+\((c_{2^k})\) is eventually periodic with period dividing
+\(\mathrm{ord}_r(2)\); \(r=1\) forces eventual constancy, so
+infinitely many \(I_k=1\) would kill every power-of-2 period. The
+one-step Green remainder \(O^{(1)}=1\oplus\ell\oplus c\oplus r\) is
+local and is not \(I_k\).
+[cycle_ah.md](research/cycle_ah.md).
+The prize is still open.
+
 
 
 
