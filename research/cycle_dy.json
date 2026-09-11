@@ -1,0 +1,107 @@
+{
+  "cycle": "DY",
+  "wall_s": 1.62,
+  "checks": {
+    "all_ok": true
+  },
+  "n4_type": {
+    "2": {
+      "n": 4,
+      "type": "N"
+    },
+    "4": {
+      "n": 16,
+      "type": "N"
+    },
+    "6": {
+      "n": 64,
+      "type": "N"
+    },
+    "8": {
+      "n": 256,
+      "type": "N"
+    },
+    "10": {
+      "n": 1024,
+      "type": "N"
+    },
+    "12": {
+      "n": 4096,
+      "type": "N"
+    },
+    "16": {
+      "n": 40,
+      "type": "N",
+      "sampled": true
+    }
+  },
+  "n5_ne_n6": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256,
+    "10": 1024,
+    "12": 4096,
+    "16": 40
+  },
+  "gap8_scar": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256
+  },
+  "two_step": {
+    "ok": true,
+    "n": 2
+  },
+  "prize_gap8": {
+    "4": {
+      "p": 29,
+      "pi": 4,
+      "n4": "N",
+      "gap8": true
+    },
+    "8": {
+      "p": 400,
+      "pi": 8,
+      "n4": "N",
+      "gap8": true
+    },
+    "16": {
+      "p": 87867,
+      "pi": 16,
+      "n4": "N",
+      "gap8": true
+    }
+  },
+  "lemmas": {
+    "even_O_never_alternating": true,
+    "n4_type_N_even_n0": true,
+    "n3_ne_deriv_n4_even_n0": true,
+    "n5_ne_n6_even_n0": true,
+    "post_odd_8bit_gap_even_n0": true,
+    "n4_never_zero_odd_n0": false,
+    "ham_n4_n5_equals_n0": false,
+    "n6_always_type_N": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "even_O_never_alternating": "LEMMA",
+    "n4_type_N_even_n0": "LEMMA",
+    "n3_ne_deriv_n4_even_n0": "LEMMA",
+    "n5_ne_n6_even_n0": "LEMMA",
+    "post_odd_8bit_gap_even_n0": "LEMMA",
+    "n4_never_zero_odd_n0": "KILLED",
+    "ham_n4_n5_equals_n0": "KILLED",
+    "n6_always_type_N": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
