@@ -1,0 +1,102 @@
+{
+  "cycle": "BD",
+  "wall_s": 0.004,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "period8_invariance": true,
+    "e29_e33_tails": true,
+    "and33_only_mod8_0": true
+  },
+  "annulus": [
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "t33": [
+        64
+      ],
+      "fire33": [
+        1
+      ],
+      "x33": 1
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "t33": [
+        128
+      ],
+      "fire33": [
+        1
+      ],
+      "x33": 1
+    },
+    {
+      "k": 9,
+      "T": 256,
+      "I": 1,
+      "t33": [
+        256
+      ],
+      "fire33": [
+        1
+      ],
+      "x33": 1
+    },
+    {
+      "k": 10,
+      "T": 512,
+      "I": 1,
+      "t33": [
+        512
+      ],
+      "fire33": [
+        1
+      ],
+      "x33": 1
+    },
+    {
+      "k": 11,
+      "T": 1024,
+      "I": 1,
+      "t33": [
+        1024
+      ],
+      "fire33": [
+        1
+      ],
+      "x33": 1
+    },
+    {
+      "k": 12,
+      "T": 2048,
+      "I": 1,
+      "t33": [
+        2048
+      ],
+      "fire33": [
+        1
+      ],
+      "x33": 1
+    }
+  ],
+  "lemmas": {
+    "e29_e33_period8": true,
+    "bit33_contributes_1": true,
+    "bit29_never_fires": true,
+    "nested_left_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "e29_e33_period8": "LEMMA",
+    "bit33_contributes_1": "LEMMA",
+    "bit29_never_fires": "LEMMA",
+    "nested_left_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

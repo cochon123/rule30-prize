@@ -941,6 +941,18 @@ a closed form.
 [cycle_bc.md](research/cycle_bc.md).
 The prize is still open.
 
+## Cycle BD (2026-09-11)
+
+Cycle BA’s \(e_{27}\) period 4, \(e_{28}\equiv 0\), and
+\(e_{30}\equiv 1\) force period-8 tails for \(e_{29},e_{31},e_{32},e_{33}\).
+The AND at packed bit 33 fires iff \(t\equiv 0\pmod{8}\), and
+\(T=2^{k-1}\equiv 0\pmod{8}\) for \(k\ge 4\), so bit 33 contributes 1
+for every \(k\ge 7\). This upgrades Cycle AW’s prefix. Nested left is
+still not a closed form.
+[cycle_bd.md](research/cycle_bd.md).
+The prize is still open.
+
+
 
 
 

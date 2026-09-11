@@ -730,3 +730,12 @@ a>=11. Octuple XOR and nonuple XOR are not I_k. Nested left is still
 not a closed form. cycle_bc.md.
 
 Prize status: still unsolved.
+
+## Cycle BD (2026-09-11)
+
+Period-8 tails e_29, e_31, e_32, e_33 from e_27 period 4, e_28=0,
+e_30=1. Bit 33 AND fires iff t≡0 mod 8, so it contributes 1 for every
+k>=7 (AW prefix upgraded). Bit 29 never fires. Nested left is still
+not a closed form. cycle_bd.md.
+
+Prize status: still unsolved.
