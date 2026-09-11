@@ -835,3 +835,14 @@ a bit-1 hit for every T=2^k and T=3*2^k; on [3U,9U) a second hit at
 cycle_bm.md.
 
 Prize status: still unsolved.
+
+## Cycle BN (2026-09-11)
+
+P(q,T) = XOR_{m<(q-1)T} G(m, qT-1) is net packed-bit-1 parity on
+[T,qT). Even doubling P(q,2S)=P(q,S) recovers Cycle AL for every q.
+P(3,4p+1)=P(3,p) and P(3,4p+3)=P(3, p OR 1), so P(3,T) reduces to
+{1,3}. Families P(3,2^k)=1 and P(3,3*2^k)=0 are net parities, not
+1-productions: S_other still cancels on theta. Covering still a prefix.
+cycle_bn.md.
+
+Prize status: still unsolved.

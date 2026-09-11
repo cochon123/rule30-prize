@@ -1,0 +1,78 @@
+{
+  "cycle": "BN",
+  "wall_s": 0.028,
+  "checks": {
+    "all_ok": true
+  },
+  "prefix": {
+    "k": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "theta": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "odd_cores": {
+    "1": 1,
+    "3": 0,
+    "5": 1,
+    "7": 1,
+    "9": 1,
+    "11": 0,
+    "13": 0,
+    "15": 0,
+    "17": 1,
+    "19": 1,
+    "21": 1,
+    "23": 1,
+    "25": 0,
+    "27": 1,
+    "29": 1,
+    "31": 1
+  },
+  "lemmas": {
+    "P_even_doubling": true,
+    "P_q_pow2_eq_P_q": true,
+    "P3_4p1_eq_P3_p": true,
+    "P3_4p3_eq_P3_p_or_1": true,
+    "P3_closed_reduction": true,
+    "P3_pow2_eq_1": true,
+    "P3_3_pow2_eq_0": true,
+    "P3_is_covering_production": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "P_even_doubling": "LEMMA",
+    "P_q_pow2_eq_P_q": "LEMMA",
+    "P3_4p1_eq_P3_p": "LEMMA",
+    "P3_4p3_eq_P3_p_or_1": "LEMMA",
+    "P3_closed_reduction": "LEMMA",
+    "P3_pow2_eq_1": "LEMMA",
+    "P3_3_pow2_eq_0": "LEMMA",
+    "P3_is_covering_production": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
