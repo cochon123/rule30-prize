@@ -1,0 +1,54 @@
+{
+  "cycle": "BZ",
+  "wall_s": 0.028,
+  "checks": {
+    "all_ok": true
+  },
+  "n_ident0": [
+    2,
+    2,
+    3,
+    3,
+    3,
+    3,
+    4,
+    4,
+    4,
+    4
+  ],
+  "ham4": {
+    "odd_p": 29,
+    "min_d": 3,
+    "n": 4
+  },
+  "ham8": {
+    "odd_p": 400,
+    "min_d": 3,
+    "n": 113
+  },
+  "lemmas": {
+    "a_eq_b_implies_ident0": true,
+    "ident0_iff_consecutive_equal": true,
+    "no_consecutive_ident0": true,
+    "post_odd_hamming_positive_all_k": null,
+    "even_weight_invariant": false,
+    "all_bits_even_pi_weight_k_ge_3": false,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "a_eq_b_implies_ident0": "LEMMA",
+    "ident0_iff_consecutive_equal": "LEMMA",
+    "no_consecutive_ident0": "LEMMA",
+    "post_odd_hamming_positive_all_k": "PREFIX",
+    "even_weight_invariant": "KILLED",
+    "all_bits_even_pi_weight_k_ge_3": "KILLED",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

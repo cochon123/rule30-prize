@@ -963,3 +963,14 @@ doubling. Covering still a prefix.
 cycle_by.md.
 
 Prize status: still unsolved.
+
+## Cycle BZ (2026-09-11)
+
+ident-0 at p iff the two previous packed-bit strings are equal.
+If a=b is not identically 0, the unique continuation is 0. Consecutive
+ident-0 would cascade left to bit 0, which is 1. After an odd high
+toggle the Hamming distance stays positive on the k=4 and k=8 lifts
+(prefix). Even weight is not invariant. Covering still a prefix.
+cycle_bz.md.
+
+Prize status: still unsolved.

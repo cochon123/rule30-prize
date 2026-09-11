@@ -1215,3 +1215,15 @@ ident-\(0\) bits can appear without doubling. The Fermat covering
 remains a prefix.
 [cycle_by.md](research/cycle_by.md).
 The prize is still open.
+
+## Cycle BZ (2026-09-11)
+
+Identically-\(0\) packed bit \(p\) iff \(\lambda_{p-2}=\lambda_{p-1}\).
+If those two strings are equal and not zero, the unique continuation
+is zero. Consecutive ident-\(0\) bits would cascade left to packed
+bit \(0\), which is \(1\). After the first odd high toggle, Hamming
+distance between consecutive reconstructed bits stays positive on
+the \(k=4\) and \(k=8\) lifts (prefix). Even weight is not invariant
+under unique continuation. The Fermat covering remains a prefix.
+[cycle_bz.md](research/cycle_bz.md).
+The prize is still open.
