@@ -1406,3 +1406,15 @@ does not persist at every later pair. The Fermat covering remains
 a prefix.
 [cycle_co.md](research/cycle_co.md).
 The prize is still open.
+
+## Cycle CP (2026-09-11)
+
+\((U,V)\) has a `10` iff \(T\) has an odd-length \(1\)-run.
+Skip-\(2\) therefore gives \(X\ne W\) on odd-run blocks. On
+even-run blocks \(U\to V\) and the \(V=1\) subsequence cannot
+alternate, so Cycle CM's witness \(B\) fires and \(X\ne W\) for
+every even \(|T_0|\ge 2\). The fifth pair is skip-\(2\) on that
+even-run gap but not on every odd-run block. The Fermat covering
+remains a prefix.
+[cycle_cp.md](research/cycle_cp.md).
+The prize is still open.

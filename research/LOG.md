@@ -1137,3 +1137,13 @@ a prefix.
 cycle_co.md.
 
 Prize status: still unsolved.
+
+## Cycle CP (2026-09-11)
+
+(U,V) has a 10 iff T has an odd-length 1-run. Skip-2 then
+kills X=W on odd-run blocks. Even-run blocks force Cycle CM's
+witness B by unequal U-counts along V=1, so X!=W for every
+even |T0|>=2. Covering still a prefix.
+cycle_cp.md.
+
+Prize status: still unsolved.

@@ -1,0 +1,44 @@
+{
+  "cycle": "CP",
+  "wall_s": 1.414,
+  "checks": {
+    "all_ok": true
+  },
+  "identities": {
+    "n_ok": 70982,
+    "n_gap": 750,
+    "n_odd_pos": 70232,
+    "n_A": 70232,
+    "n_B_gap": 750,
+    "n_VW10_gap": 750
+  },
+  "lemmas": {
+    "later_odd_V_is_1": true,
+    "UV_10_iff_odd_zero_run": true,
+    "UV_10_iff_n_odd": true,
+    "skip2_kills_WX_on_odd_runs": true,
+    "even_run_witness_B": true,
+    "fourth_pair_never_equal": true,
+    "even_run_VW_has_10": true,
+    "all_T0_2power_hamming_ge_1": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "later_odd_V_is_1": "LEMMA",
+    "UV_10_iff_odd_zero_run": "LEMMA",
+    "UV_10_iff_n_odd": "LEMMA",
+    "skip2_kills_WX_on_odd_runs": "LEMMA",
+    "even_run_witness_B": "LEMMA",
+    "fourth_pair_never_equal": "LEMMA",
+    "even_run_VW_has_10": "LEMMA",
+    "all_T0_2power_hamming_ge_1": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
