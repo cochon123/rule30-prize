@@ -683,3 +683,12 @@ Bits 14 and 15 contribute 0. Triple XOR is not I_k. Exactly five
 quads is a prefix. cycle_ax.md.
 
 Prize status: still unsolved.
+
+## Cycle AY (2026-09-11)
+
+Bit 16 is Jacobsthal S_4 and contributes 0. e_18=1 iff t≡1,2 mod 4
+(t>=20); e_18 AND e_17 is identically 0, so bit 18 never fires.
+I_k=1 XOR B^{>=19} for k>=5. Nested depth 18 is not a closed form.
+cycle_ay.md.
+
+Prize status: still unsolved.

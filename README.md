@@ -18,9 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AX**. Unique- and double-Green bits for
-\(I_k\) are classified; triples are the 5, 7, 9, 13 families. Bits
-14 and 15 contribute \(0\). The prize is still open.
+Last completed cycle is **AY**. Bits 16 and 18 contribute 0, so
+\(I_k=1\oplus B_k^{\ge 19}\) for \(k\ge 5\). Nested depth 18 is not a
+closed form. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -105,7 +105,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   so double-Green bits for \(I_k\) are exactly \(p=3T/2+1\) and
   \(p=5T/8+1\) (Cycle AW). Triple-Green bits are the families
   \(p=q\cdot 2^{j}+1\) for \(q\in\{5,7,9,13\}\); bits 14 and 15
-  contribute \(0\) (Cycle AX).
+  contribute \(0\) (Cycle AX). Packed bit 16 is Jacobsthal \(S_4\)
+  and contributes 0; \(e_{18}\) is period 4 and never meets \(e_{17}\),
+  so \(I_k=1\oplus B^{\ge 19}\) for \(k\ge 5\) (Cycle AY).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
