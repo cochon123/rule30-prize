@@ -596,3 +596,13 @@ parity P(q); N(5)=1 at t=2^{k+1}. Two-point family XOR is not a
 formula for theta. cycle_ao.md.
 
 Prize status: still unsolved.
+
+## Cycle AP (2026-09-11)
+
+G(m, 2^a-1)=1 iff 2^a | (m+1). G(m, 5*2^k-1) is four residues mod
+2^{k+3}. Four unique-Green bits on the 3-fold annulus for k>=3:
+p=1 (always fires), p=2^{k-1}+1, p=2^k+1, p=2^{k+1}+1. The extra
+three do not always fire. Exactly-four is a prefix k=3..8.
+cycle_ap.md.
+
+Prize status: still unsolved.
