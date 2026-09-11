@@ -1,0 +1,116 @@
+{
+  "cycle": "EA",
+  "wall_s": 1.68,
+  "checks": {
+    "all_ok": true
+  },
+  "ov_n5": {
+    "2": 4,
+    "4": 24,
+    "6": 132,
+    "8": 688,
+    "10": 3420,
+    "12": 16392
+  },
+  "n78_hold": {
+    "ok": true,
+    "hold": 1,
+    "keys": [
+      [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    ]
+  },
+  "critical_agree1": {
+    "2": 0,
+    "4": 8,
+    "6": 60,
+    "8": 336,
+    "10": 1700,
+    "12": 8184
+  },
+  "empty_n6_or": {
+    "2": 4,
+    "4": 24,
+    "6": 132,
+    "8": 688,
+    "10": 3420,
+    "12": 16392
+  },
+  "n7_ne_n8": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256,
+    "10": 1024,
+    "12": 4096,
+    "16": 40
+  },
+  "gap10_scar": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256
+  },
+  "prize_gap10": {
+    "4": {
+      "p": 29,
+      "pi": 4,
+      "gap10": true
+    },
+    "8": {
+      "p": 400,
+      "pi": 8,
+      "gap10": true
+    },
+    "16": {
+      "p": 87867,
+      "pi": 16,
+      "gap10": true
+    }
+  },
+  "n8_ne_n9_prefix": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256,
+    "10": 1024
+  },
+  "lemmas": {
+    "ov_implies_n5_one": true,
+    "empty_not_follow_empty": true,
+    "n7_eq_n8_only_both_001": true,
+    "empty_n6_or": true,
+    "n7_ne_n8_even_n0": true,
+    "post_odd_10bit_gap_even_n0": true,
+    "post_odd_11bit_gap_all_n0": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "ov_implies_n5_one": "LEMMA",
+    "empty_not_follow_empty": "LEMMA",
+    "n7_eq_n8_only_both_001": "LEMMA",
+    "empty_n6_or": "LEMMA",
+    "n7_ne_n8_even_n0": "LEMMA",
+    "post_odd_10bit_gap_even_n0": "LEMMA",
+    "post_odd_11bit_gap_all_n0": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
