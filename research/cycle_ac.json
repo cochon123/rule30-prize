@@ -1,0 +1,237 @@
+{
+  "cycle": "AC",
+  "wall_s": 0.044,
+  "checks": {
+    "all_ok": true
+  },
+  "triples_00": [
+    "000",
+    "101"
+  ],
+  "triples_11": [
+    "010",
+    "011"
+  ],
+  "windows_000": [
+    "00000",
+    "11101",
+    "11110",
+    "11111"
+  ],
+  "windows_101": [
+    "01010",
+    "01011",
+    "01100",
+    "10001"
+  ],
+  "recurrence_ok": true,
+  "recurrence_n": 66048,
+  "diagonals": [
+    {
+      "j": 0,
+      "c": 1,
+      "T": 0,
+      "p": 1,
+      "onset_in_tail": true
+    },
+    {
+      "j": 1,
+      "c": 1,
+      "T": 0,
+      "p": 1,
+      "onset_in_tail": true
+    },
+    {
+      "j": 2,
+      "c": 0,
+      "T": 0,
+      "p": 1,
+      "onset_in_tail": true
+    },
+    {
+      "j": 3,
+      "c": 1,
+      "T": 0,
+      "p": 2,
+      "onset_in_tail": true
+    },
+    {
+      "j": 4,
+      "c": 1,
+      "T": 0,
+      "p": 1,
+      "onset_in_tail": true
+    },
+    {
+      "j": 5,
+      "c": 1,
+      "T": 0,
+      "p": 2,
+      "onset_in_tail": true
+    },
+    {
+      "j": 6,
+      "c": 0,
+      "T": 0,
+      "p": 2,
+      "onset_in_tail": true
+    },
+    {
+      "j": 7,
+      "c": 0,
+      "T": 0,
+      "p": 1,
+      "onset_in_tail": true
+    },
+    {
+      "j": 8,
+      "c": 1,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 9,
+      "c": 1,
+      "T": 0,
+      "p": 1,
+      "onset_in_tail": true
+    },
+    {
+      "j": 10,
+      "c": 0,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 11,
+      "c": 0,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 12,
+      "c": 0,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 13,
+      "c": 1,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 14,
+      "c": 0,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 15,
+      "c": 1,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 16,
+      "c": 1,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 17,
+      "c": 0,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 18,
+      "c": 0,
+      "T": 2,
+      "p": 4,
+      "onset_in_tail": false
+    },
+    {
+      "j": 19,
+      "c": 1,
+      "T": 0,
+      "p": 4,
+      "onset_in_tail": true
+    },
+    {
+      "j": 20,
+      "c": 0,
+      "T": 3,
+      "p": 4,
+      "onset_in_tail": false
+    },
+    {
+      "j": 21,
+      "c": 0,
+      "T": 2,
+      "p": 4,
+      "onset_in_tail": false
+    },
+    {
+      "j": 22,
+      "c": 1,
+      "T": 3,
+      "p": 4,
+      "onset_in_tail": false
+    },
+    {
+      "j": 23,
+      "c": 1,
+      "T": 1,
+      "p": 2,
+      "onset_in_tail": false
+    }
+  ],
+  "first_onset_not_in_tail": 18,
+  "n00": 1063,
+  "n000": 534,
+  "n101": 529,
+  "n11": 1022,
+  "pred_000": {
+    "00000": 151,
+    "11101": 122,
+    "11110": 131,
+    "11111": 130
+  },
+  "pred_101": {
+    "01010": 141,
+    "01011": 131,
+    "01100": 132,
+    "10001": 125
+  },
+  "illegal_000_pred": 0,
+  "lemmas": {
+    "00_is_000_or_101": true,
+    "000_preimages": true,
+    "left_diagonal_recurrence": true,
+    "left_diagonals_eventually_periodic": true,
+    "onset_is_periodic_tail": false,
+    "infinitely_many_00": null,
+    "prize": false
+  },
+  "verdict": {
+    "00_triples": "LEMMA",
+    "000_5windows": "LEMMA",
+    "101_5windows": "LEMMA",
+    "left_diagonal_recurrence": "LEMMA",
+    "left_diagonals_eventually_periodic": "LEMMA",
+    "c_from_diagonal_tail": "KILLED",
+    "00_is_only_000": "KILLED",
+    "infinitely_many_00": "OPEN",
+    "prize": "unsolved"
+  }
+}

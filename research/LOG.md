@@ -458,6 +458,15 @@ including period 2; unproved. cycle_ab.md.
 
 Prize status: still unsolved.
 
+## Cycle AC (2026-09-11)
+
+00 is 000 or 101; each has four 5-window preimages (32-case check).
+Every left-diagonal e_j(t)=x(t,-t+j) is eventually periodic via a
+2p-state driven bit. The centre is the onset e_t(t), not the tail
+(first fail j=18). Infinitely many 00s still open. cycle_ac.md.
+
+Prize status: still unsolved.
+
 
 
 
