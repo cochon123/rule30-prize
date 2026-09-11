@@ -1,0 +1,175 @@
+{
+  "cycle": "AZ",
+  "wall_s": 4.144,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "no_even_quads": true,
+    "odd_lifts": true,
+    "a5_seeds": true,
+    "even_blockers": true,
+    "e19_tail": true
+  },
+  "annulus": [
+    {
+      "k": 5,
+      "T": 16,
+      "I": 1,
+      "n4": 5,
+      "quads": [
+        18,
+        19,
+        23,
+        27,
+        29
+      ],
+      "expected": [
+        18,
+        19,
+        23,
+        27,
+        29
+      ],
+      "quad_xor": 1,
+      "t19": [
+        16,
+        18,
+        20,
+        24
+      ],
+      "fire19": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "x19": 0,
+      "B20": null
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "I": 1,
+      "n4": 5,
+      "quads": [
+        35,
+        37,
+        45,
+        53,
+        57
+      ],
+      "expected": [
+        35,
+        37,
+        45,
+        53,
+        57
+      ],
+      "quad_xor": 1,
+      "t19": [
+        34,
+        36,
+        40
+      ],
+      "fire19": [
+        1,
+        0,
+        0
+      ],
+      "x19": 1,
+      "B20": 1
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "n4": 5,
+      "quads": [
+        69,
+        73,
+        89,
+        105,
+        113
+      ],
+      "expected": [
+        69,
+        73,
+        89,
+        105,
+        113
+      ],
+      "quad_xor": 0,
+      "t19": [
+        66,
+        68,
+        72
+      ],
+      "fire19": [
+        1,
+        0,
+        0
+      ],
+      "x19": 1,
+      "B20": 0
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "n4": 5,
+      "quads": [
+        137,
+        145,
+        177,
+        209,
+        225
+      ],
+      "expected": [
+        137,
+        145,
+        177,
+        209,
+        225
+      ],
+      "quad_xor": 1,
+      "t19": [
+        130,
+        132,
+        136
+      ],
+      "fire19": [
+        1,
+        0,
+        0
+      ],
+      "x19": 1,
+      "B20": 0
+    }
+  ],
+  "quad_xor_mismatch_k": [
+    8
+  ],
+  "lemmas": {
+    "no_even_quads_a_ge_6": true,
+    "exactly_five_quads": true,
+    "e19_period4": true,
+    "bit19_contributes_1": true,
+    "I_eq_B20": true,
+    "nested19_is_I": false,
+    "quad_xor_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "no_even_quads_a_ge_6": "LEMMA",
+    "exactly_five_quads": "LEMMA",
+    "e19_period4": "LEMMA",
+    "bit19_contributes_1": "LEMMA",
+    "I_eq_B20": "LEMMA",
+    "nested19_is_I": "KILLED",
+    "quad_xor_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
