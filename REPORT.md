@@ -827,6 +827,18 @@ bits and two doubles is a prefix.
 [cycle_as.md](research/cycle_as.md).
 The prize is still open.
 
+## Cycle AT (2026-09-11)
+
+For \(n<2^{a-1}\), \(G(n,2^a-2^b)=1\) iff \(2^{a-1}-1-n\in S_b\),
+where \(S_b\) is the Jacobsthal set of size
+\((2^b-(-1)^b)/3\). Packed bits \(p=(2^c-1)2^j+1\) on the dyadic
+annulus Green-hit at \(t=T+s\cdot 2^j\) for \(s\in S_c\) (when
+\(k-j>c\)), recovering Cycle AS at \(c=1,2\). The \(c=3\) family is
+triple-Green and not identically 1; the XOR of all Mersenne-odd
+families is not \(I_k\).
+[cycle_at.md](research/cycle_at.md).
+The prize is still open.
+
 
 
 
