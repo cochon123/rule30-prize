@@ -1,0 +1,39 @@
+{
+  "cycle": "CR",
+  "wall_s": 1.707,
+  "checks": {
+    "all_ok": true
+  },
+  "identities": {
+    "n_ok": 70982,
+    "n_z3": 68256,
+    "n_even1": 2726,
+    "n_even": 750,
+    "n_site": 70982
+  },
+  "lemmas": {
+    "U_flips_on_V11": true,
+    "U00_V_is_01_or_10": true,
+    "some_U00_has_V10": true,
+    "W_has_11_and_WU_has_10": true,
+    "even_run_WX_has_10": true,
+    "all_T0_2power_hamming_ge_1": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "U_flips_on_V11": "LEMMA",
+    "U00_V_is_01_or_10": "LEMMA",
+    "some_U00_has_V10": "LEMMA",
+    "W_has_11_and_WU_has_10": "LEMMA",
+    "even_run_WX_has_10": "LEMMA",
+    "all_T0_2power_hamming_ge_1": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

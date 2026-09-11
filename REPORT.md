@@ -1428,3 +1428,13 @@ witness \(B\). Hence \(Y\ne X\) for every even \(|T_0|\ge 2\). The
 Fermat covering remains a prefix.
 [cycle_cq.md](research/cycle_cq.md).
 The prize is still open.
+
+## Cycle CR (2026-09-11)
+
+\(U\) flips on every \(V\) `11`. Some `00` of \(U\) has \(V=10\),
+so \((W,U)\) has a `10` and \(W\) has consecutive \(1\)s. On
+even-run blocks that yields a `10` in \((W,X)\) and skip-\(2\)
+kills the sixth pair; on odd-run blocks the sixth pair remains a
+prefix. The Fermat covering remains a prefix.
+[cycle_cr.md](research/cycle_cr.md).
+The prize is still open.

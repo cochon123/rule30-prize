@@ -1156,3 +1156,13 @@ so Y!=X for every even |T0|>=2. Covering still a prefix.
 cycle_cq.md.
 
 Prize status: still unsolved.
+
+## Cycle CR (2026-09-11)
+
+U flips on every V 11. Some U 00 has V=10, so W has consecutive
+1s and (W,U) has a 10. Even-run blocks have a 10 in (W,X);
+the sixth pair on odd-run blocks remains a prefix. Covering
+still a prefix.
+cycle_cr.md.
+
+Prize status: still unsolved.
