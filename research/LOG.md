@@ -448,6 +448,16 @@ die. cycle_aa.md.
 
 Prize status: still unsolved.
 
+## Cycle AB (2026-09-11)
+
+Annulus coboundary: I_k = XOR (ell XOR r XOR (c AND r)) on [T,2T).
+R_k is the palindrome-defect parity. d=ell XOR r is not eventually 0.
+Spatial vacuums radius 7 do not explain centre 0-runs of length 19.
+Infinitely many centred 000s would kill isolated-zero periods
+including period 2; unproved. cycle_ab.md.
+
+Prize status: still unsolved.
+
 
 
 

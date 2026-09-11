@@ -18,11 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AA**. Every centre-right AND \(c_t\land r_t\)
-on a dyadic annulus contributes to \(I_k\) (central trinomials are odd
-over \(\mathrm{GF}(2)\)), but the off-centre remainder does not vanish,
-so this is not a closed form. \((c_{2^k})\) is eventually constant iff
-\(I_k\) is eventually 0, which is unproved. The prize is still open.
+Last completed cycle is **AB**. The Green remainder \(R_k\) equals the
+annulus parity of the palindrome defect \(\ell\oplus r\), which cannot
+be eventually 0. Spatial vacuums do not construct unbounded centre
+runs. \((c_{2^k})\) is eventually constant iff \(I_k\) is eventually
+0, which is unproved. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -36,7 +36,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   forces \((c_{2^j})_{j\ge k}\) constant (Cycle Y). One doubling is
   \(c_{2^k}=c_{2^{k-1}}\oplus I_k\) with \(I_k\) the AND-Green remainder
   (Cycle Z). Every \(c_t\land r_t\) on that annulus hits \(I_k\)
-  (Cycle AA); the off-centre remainder still cancels on some \(k\).
+  (Cycle AA); the off-centre remainder is the palindrome-defect
+  parity \(\bigoplus(\ell\oplus r)\) and cannot be eventually the zero
+  sequence (Cycle AB).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
