@@ -18,9 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AZ**. Exactly five quads; bit 19 contributes
-1, so \(I_k=B_k^{\ge 20}\) for \(k\ge 6\). Nested depth 19 is not a
-closed form. The prize is still open.
+Last completed cycle is **BA**. Even pentuples are
+\(2^a-\{12,16,18,20,26,28,34,50\}\) for \(a\ge 7\); bits 20, 24, 25
+never fire. Nested left is still not a closed form. The prize is still
+open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -110,7 +111,12 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   so \(I_k=1\oplus B^{\ge 19}\) for \(k\ge 5\) (Cycle AY). For \(a\ge 6\)
   there are no even quads, so there are exactly five quadruple-Green
   packed bits; bit 19 contributes 1 and
-  \(I_k=B^{\ge 20}\) for \(k\ge 6\) (Cycle AZ).
+  \(I_k=B^{\ge 20}\) for \(k\ge 6\) (Cycle AZ). Even pentuples are
+  \(2^a-\{12,16,18,20,26,28,34,50\}\) for \(a\ge 7\), so pentuple-Green
+  bits are the families \(p=r\cdot 2^{j}+1\) for
+  \(r\in\{11,15,17,19,25,27,33,49\}\); \(e_{20},\ldots,e_{27}\) are
+  period 4, \(e_{30}\equiv 1\) for \(t\ge 33\), and bits 20, 24, 25
+  never fire (Cycle BA).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
