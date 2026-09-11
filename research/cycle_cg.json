@@ -1,0 +1,58 @@
+{
+  "cycle": "CG",
+  "wall_s": 0.089,
+  "checks": {
+    "all_ok": true
+  },
+  "e2": {
+    "n0": 2,
+    "n_extra": 20,
+    "n_ok": 0,
+    "n_none": 2,
+    "tot_and": 0,
+    "tot_ident0": 0,
+    "tot_both_nz": 0,
+    "clean": false
+  },
+  "e4": {
+    "n0": 4,
+    "n_extra": 80,
+    "n_ok": 14,
+    "n_none": 0,
+    "tot_and": 0,
+    "tot_ident0": 0,
+    "tot_both_nz": 40
+  },
+  "e8": {
+    "n0": 8,
+    "n_extra": 130,
+    "n_ok": 254,
+    "n_none": 0,
+    "tot_and": 0,
+    "tot_ident0": 0,
+    "tot_both_nz": 30
+  },
+  "lemmas": {
+    "n0_2_always_second_double": true,
+    "n0_4_no_later_ident0": true,
+    "n0_8_no_later_ident0": true,
+    "no_both_nz_after_scar": false,
+    "all_T0_2power_no_later_ident0": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n0_2_always_second_double": "LEMMA",
+    "n0_4_no_later_ident0": "LEMMA",
+    "n0_8_no_later_ident0": "LEMMA",
+    "no_both_nz_after_scar": "KILLED",
+    "all_T0_2power_no_later_ident0": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

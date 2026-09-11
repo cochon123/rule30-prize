@@ -1301,3 +1301,15 @@ as orbit-free). After the scar, both implications hold together only
 at \(c\equiv 0\) (prefix). The Fermat covering remains a prefix.
 [cycle_cf.md](research/cycle_cf.md).
 The prize is still open.
+
+## Cycle CG (2026-09-11)
+
+Unique continuation after ident-\(0\), \(T=T_0\|\lnot T_0\),
+ident-\(1\) depends only on \(T\). Every nonconstant \(T_0\) of
+length \(4\) (resp. \(8\)) produces no later ident-\(0\) and no
+AND-triple in the next \(80\) (resp. \(130\)) bits, covering the
+prize \(k=4\) and \(k=8\) odd lifts. Length \(2\) always hits a
+second odd doubling. Both implications with \(c\not\equiv 0\) still
+occur. The Fermat covering remains a prefix.
+[cycle_cg.md](research/cycle_cg.md).
+The prize is still open.
