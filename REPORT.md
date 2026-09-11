@@ -1043,3 +1043,15 @@ and is not a closed form for \(\varphi^{(5)}\) or \(\varphi^{(9)}\).
 The Fermat covering remains a prefix.
 [cycle_bk.md](research/cycle_bk.md).
 The prize is still open.
+
+## Cycle BL (2026-09-11)
+
+Green-lift \(C_{\le}\) on the 3-fold annulus upgrades Cycles AP–AR
+from prefix exhaustiveness to lemmas: exactly four unique-Green bits,
+one double, five triples, and four quads for every \(k\ge 3\), and
+exactly eight pentuples for every \(k\ge 5\). Extra bits of those
+multiplicities are identically 0. Their firing XOR takes both values,
+and unique XOR triple XOR pentuple is not \(\theta_k\). The Fermat
+covering remains a prefix.
+[cycle_bl.md](research/cycle_bl.md).
+The prize is still open.
