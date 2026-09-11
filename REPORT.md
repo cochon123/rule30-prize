@@ -863,6 +863,17 @@ XOR \(1\) at \(k=12\). Nested left is not a formula for \(I_k\).
 [cycle_av.md](research/cycle_av.md).
 The prize is still open.
 
+## Cycle AW (2026-09-11)
+
+For \(a\ge 4\) there are no even half-window doubles of \(G\). Both
+double targets are the odd lifts of the \(a=4\) pair, so
+\(|S(a,D)|=2\) iff \(D=2^{a-2}-1\) or \(D=3\cdot 2^{a-3}-1\).
+Double-Green packed bits for \(I_k\) are exactly \(p=3T/2+1\) and
+\(p=5T/8+1\). All left-diagonals eventually period 4 is false
+(\(e_{29}\) has period 8). Bit 33 firing at \(T\) is a prefix.
+[cycle_aw.md](research/cycle_aw.md).
+The prize is still open.
+
 
 
 

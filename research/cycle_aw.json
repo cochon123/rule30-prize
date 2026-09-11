@@ -1,0 +1,113 @@
+{
+  "cycle": "AW",
+  "wall_s": 3.969,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "no_even_doubles": true,
+    "double_D": true,
+    "mersenne_double": true,
+    "five_double": true,
+    "even_blockers": true,
+    "e29_not_period4": true
+  },
+  "annulus": [
+    {
+      "k": 4,
+      "T": 8,
+      "n2": 2,
+      "doubles": [
+        11,
+        13
+      ],
+      "expected": [
+        11,
+        13
+      ],
+      "family_times": true
+    },
+    {
+      "k": 5,
+      "T": 16,
+      "n2": 2,
+      "doubles": [
+        21,
+        25
+      ],
+      "expected": [
+        21,
+        25
+      ],
+      "family_times": true
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "n2": 2,
+      "doubles": [
+        41,
+        49
+      ],
+      "expected": [
+        41,
+        49
+      ],
+      "family_times": true
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "n2": 2,
+      "doubles": [
+        81,
+        97
+      ],
+      "expected": [
+        81,
+        97
+      ],
+      "family_times": true
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "n2": 2,
+      "doubles": [
+        161,
+        193
+      ],
+      "expected": [
+        161,
+        193
+      ],
+      "family_times": true
+    }
+  ],
+  "bit33_fires_k7_to_12": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "lemmas": {
+    "no_even_doubles_a_ge_4": true,
+    "double_D_exactly_two": true,
+    "exactly_two_double_Green_bits": true,
+    "all_e_j_period4": false,
+    "bit33_always_fires": null,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "no_even_doubles_a_ge_4": "LEMMA",
+    "double_D_exactly_two": "LEMMA",
+    "exactly_two_double_Green_bits": "LEMMA",
+    "all_e_j_period4": "KILLED",
+    "bit33_always_fires": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

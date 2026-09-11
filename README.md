@@ -18,11 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AV**. Unique half-window \(G\)-supports are
-exactly Cycle AS’s \(2\)-family and \(3\)-family, so \(I_k\) has
-exactly \(2k-2\) unique-Green packed bits. Bits 13 and 17 contribute
-\(0\). The remaining unique \(3\)-family is not identically \(0\).
-The prize is still open.
+Last completed cycle is **AW**. Unique-Green bits for \(I_k\) are the
+AS families; double-Green bits are exactly \(p=3T/2+1\) and
+\(p=5T/8+1\). All left-diagonals period 4 is false. The prize is
+still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -103,7 +102,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   (Cycle AU). Unique half-window supports of \(G\) are exactly the
   AS families, so unique-Green bits for \(I_k\) are exactly those
   \(2k-2\) packed indices; bits 13 and 17 contribute \(0\)
-  (Cycle AV).
+  (Cycle AV). There are no even half-window doubles for \(a\ge 4\),
+  so double-Green bits for \(I_k\) are exactly \(p=3T/2+1\) and
+  \(p=5T/8+1\) (Cycle AW).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

@@ -664,3 +664,13 @@ Double p=3T/2+1 XOR 0 dies at k=12. Nested left is not a formula
 for I_k. cycle_av.md.
 
 Prize status: still unsolved.
+
+## Cycle AW (2026-09-11)
+
+No even half-window doubles for a>=4. Double D are exactly
+2^{a-2}-1 and 3*2^{a-3}-1, so I_k has exactly two double-Green
+bits p=3T/2+1 and p=5T/8+1 (AS prefix upgraded). All e_j period 4
+is false (e_29). Bit 33 fires at T on 7<=k<=12 (prefix).
+cycle_aw.md.
+
+Prize status: still unsolved.
