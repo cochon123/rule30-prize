@@ -1114,3 +1114,14 @@ non-bit-1 remainder on \([2U,6U)\to 6U\) is 1 and those two
 remainders are 0. The Fermat covering remains a prefix.
 [cycle_bq.md](research/cycle_bq.md).
 The prize is still open.
+
+## Cycle BR (2026-09-11)
+
+The cone \(t\le(T+p-2)/2\) makes every packed bit \(p\le 2U+1\) silent
+on the covering blocks \(B\) and \(C\). Packed bit \(p=2U+2\) is
+unique-Green on \(B\) at \(t=6U\) and on \(C\) at \(t=10U\), both
+on the diagonal \(G(m,2m)=1\). That unique AND takes both firing
+values, so it is not a 1-production. The Fermat covering remains a
+prefix.
+[cycle_br.md](research/cycle_br.md).
+The prize is still open.
