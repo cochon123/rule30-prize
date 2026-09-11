@@ -18,10 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AJ**. The 3-spine and 1-spine differ by a
-Green remainder \(\theta_k=c_{3\cdot 2^k}\oplus c_{2^k}\) that
-eventual period \(2^m\) forces to 0. The leftmost 11 always hits
-\(\theta_k\). The prize is still open.
+Last completed cycle is **AK**. For every Fermat-odd \(q=2^a+1\),
+\(\varphi^{(q)}_k=c_{q 2^k}\oplus c_{2^k}\) equals a Green remainder
+whose leftmost-11 hits have odd parity, so \(\varphi=1\oplus S\).
+Eventual period \(2^m\) forces every such \(\varphi\) to 0. The prize
+is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -63,7 +64,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(2\) and \(4\) have mixing SCCs, so they do not extend Cycle AB.
   The 3-fold remainder \(\theta_k=c_{3\cdot 2^k}\oplus c_{2^k}\)
   vanishes under eventual period \(2^m\); the leftmost 11 always hits
-  it, so \(\theta_k=1\oplus S_k\) (Cycle AJ).
+  it, so \(\theta_k=1\oplus S_k\) (Cycle AJ). The same remainder
+  exists for every Fermat-odd \(q=2^a+1\), and the leftmost-11 hit
+  parity is odd for the whole family (Cycle AK).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

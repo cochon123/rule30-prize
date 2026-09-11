@@ -1,0 +1,166 @@
+{
+  "cycle": "AK",
+  "wall_s": 0.37,
+  "checks": {
+    "all_ok": true
+  },
+  "G_parity": {
+    "mersenne_ok": true,
+    "fermat_ok": true,
+    "sU_hit": {
+      "1": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "2": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "3": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "4": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "p1_counts": {
+      "1": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "2": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "3": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "4": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  },
+  "identity_fail": 0,
+  "p1_parity_fail": 0,
+  "phi": {
+    "3": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "5": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "9": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "synthetic": {
+    "all_ok": true,
+    "rows": [
+      {
+        "m": 0,
+        "ok": true,
+        "n": 31
+      },
+      {
+        "m": 1,
+        "ok": true,
+        "n": 31
+      },
+      {
+        "m": 2,
+        "ok": true,
+        "n": 31
+      },
+      {
+        "m": 3,
+        "ok": true,
+        "n": 31
+      },
+      {
+        "m": 4,
+        "ok": true,
+        "n": 27
+      }
+    ]
+  },
+  "lemmas": {
+    "fermat_odd_identity": true,
+    "p1_hit_parity_odd": true,
+    "period_2m_forces_all_phi_0": true,
+    "some_phi_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "fermat_odd_identity": "LEMMA",
+    "p1_hit_parity_odd": "LEMMA",
+    "period_2m_forces_all_phi_0": "LEMMA",
+    "S_identically_0": "KILLED",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

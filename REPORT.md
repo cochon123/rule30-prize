@@ -704,6 +704,19 @@ Infinitely many \(\theta_k=1\) remains open.
 [cycle_aj.md](research/cycle_aj.md).
 The prize is still open.
 
+## Cycle AK (2026-09-11)
+
+For every \(q=2^a+1\), Cycle AI from \(t=2^k\) by \(2^{k+a}\) gives
+\(\varphi^{(q)}_k=c_{q 2^k}\oplus c_{2^k}\) as a Green remainder on
+\([2^k,q\cdot 2^k)\). Eventual period \(2^m\) forces every such
+\(\varphi\) to 0. A doubling argument on \(G\) shows that the XOR of
+leftmost-11 hits on that interval is identically 1, so
+\(\varphi^{(q)}_k=1\oplus S^{(q)}_k\) for the whole family (Cycle AJ
+is \(q=3\)). \(S\equiv 0\) fails for \(q=3,5,9\). On \(k\le 10\) at
+least one of those three is 1 for every \(k\ge 2\); that is not a proof.
+[cycle_ak.md](research/cycle_ak.md).
+The prize is still open.
+
 
 
 
