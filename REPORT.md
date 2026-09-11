@@ -851,6 +851,18 @@ closed form.
 [cycle_au.md](research/cycle_au.md).
 The prize is still open.
 
+## Cycle AV (2026-09-11)
+
+Unique half-window \(G\)-supports are exactly Cycle AS’s \(2\)-family
+and \(3\)-family (induction on the doubling recurrence and the
+\(W\)-interval). Unique-Green packed bits for \(I_k\) are therefore
+exactly those \(2k-2\) indices. The tails \(e_{13},\ldots,e_{17}\)
+are period 4, so bits 13 and 17 contribute \(0\). The remaining
+unique \(3\)-family fires at \(k=15\); the double \(p=3T/2+1\) has
+XOR \(1\) at \(k=12\). Nested left is not a formula for \(I_k\).
+[cycle_av.md](research/cycle_av.md).
+The prize is still open.
+
 
 
 

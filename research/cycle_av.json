@@ -1,0 +1,236 @@
+{
+  "cycle": "AV",
+  "wall_s": 7.922,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "unique_even": true,
+    "unique_D_families": true,
+    "odd_doubling": true,
+    "even_count": true,
+    "consecutive_same_support": true,
+    "W_interval_uniques": true,
+    "family_n": true,
+    "e13_e17_tails": true,
+    "bit13_17_zero": true
+  },
+  "annulus": [
+    {
+      "k": 4,
+      "T": 8,
+      "n1": 6,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "expected_uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "doubles": [
+        11,
+        13
+      ]
+    },
+    {
+      "k": 5,
+      "T": 16,
+      "n1": 8,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17
+      ],
+      "expected_uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17
+      ],
+      "doubles": [
+        21,
+        25
+      ]
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "n1": 10,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33
+      ],
+      "expected_uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33
+      ],
+      "doubles": [
+        41,
+        49
+      ]
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "n1": 12,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33,
+        49,
+        65
+      ],
+      "expected_uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33,
+        49,
+        65
+      ],
+      "doubles": [
+        81,
+        97
+      ]
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "n1": 14,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33,
+        49,
+        65,
+        97,
+        129
+      ],
+      "expected_uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33,
+        49,
+        65,
+        97,
+        129
+      ],
+      "doubles": [
+        161,
+        193
+      ]
+    }
+  ],
+  "kills": {
+    "three_family_ge13": {
+      "k": 15,
+      "j": 12,
+      "p": 12289,
+      "t": 20480,
+      "fire": 1
+    },
+    "double_3T2": {
+      "k": 12,
+      "p": 3073,
+      "fires": [
+        0,
+        1
+      ],
+      "xor": 1
+    }
+  },
+  "lemmas": {
+    "unique_even_only_2a_minus_2_4": true,
+    "unique_D_are_AS_families": true,
+    "unique_Green_bits_exactly_2k_minus_2": true,
+    "e13_e17_period4": true,
+    "bit13_contributes_0": true,
+    "bit17_contributes_0": true,
+    "exactly_two_doubles_all_k": null,
+    "three_family_ge13_identically_0": false,
+    "double_3T2_xor_0": false,
+    "nested_left_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "unique_even_only_2a_minus_2_4": "LEMMA",
+    "unique_D_are_AS_families": "LEMMA",
+    "unique_Green_bits_exactly_2k_minus_2": "LEMMA",
+    "e13_e17_period4": "LEMMA",
+    "bit13_contributes_0": "LEMMA",
+    "bit17_contributes_0": "LEMMA",
+    "exactly_two_doubles_all_k": "PREFIX",
+    "three_family_ge13_identically_0": "KILLED",
+    "double_3T2_xor_0": "KILLED",
+    "nested_left_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
