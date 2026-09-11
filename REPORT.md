@@ -1254,3 +1254,14 @@ on every remaining pair (prefix). The Fermat covering remains a
 prefix.
 [cycle_cb.md](research/cycle_cb.md).
 The prize is still open.
+
+## Cycle CC (2026-09-11)
+
+On a Rule 30 orbit, \(A=DB\) for consecutive packed bits
+\((p-2,p-1)\) iff \(\lambda_{p-3}=\lambda_{p-2}\land\lambda_{p-1}\)
+as time series (eight-row identity). Later ident-\(0\) is exactly a
+later AND-triple. The slice \(011\) is not always present. No
+AND-triple after the scar on the \(k=4\) and \(k=8\) odd lifts
+(prefix). The Fermat covering remains a prefix.
+[cycle_cc.md](research/cycle_cc.md).
+The prize is still open.

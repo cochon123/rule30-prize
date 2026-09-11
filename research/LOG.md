@@ -998,3 +998,14 @@ pair (prefix). Covering still a prefix.
 cycle_cb.md.
 
 Prize status: still unsolved.
+
+## Cycle CC (2026-09-11)
+
+A=DB iff the next-right packed bit is the spatial AND of the pair
+(3-bit identity). Later ident-0 is exactly a later AND-triple.
+The pattern 011 is not a universal witness. No AND-triple after
+the scar on the k=4 and k=8 odd lifts (prefix). Covering still a
+prefix.
+cycle_cc.md.
+
+Prize status: still unsolved.
