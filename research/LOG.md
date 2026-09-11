@@ -438,6 +438,16 @@ eventually 0, still open. cycle_z.md.
 
 Prize status: still unsolved.
 
+## Cycle AA (2026-09-11)
+
+Central trinomial \(G(m,m)=1\); every \(c_t\land r_t\) on the dyadic
+annulus hits \(I_k\). Remainder \(R_k\) is not identically 0 (fails
+at \(k=3\)). Leftmost 11 always present, never hits. Near-central
+\(G(m,m-1)=v_2(m+1)\bmod 2\). Mersenne locals and small recurrences
+die. cycle_aa.md.
+
+Prize status: still unsolved.
+
 
 
 
