@@ -721,3 +721,12 @@ Sextuple XOR and septuple XOR are not I_k. Nested left is still not
 a closed form. cycle_bb.md.
 
 Prize status: still unsolved.
+
+## Cycle BC (2026-09-11)
+
+No even octuples for a>=10; exactly eleven octuples, the odd-lift
+orbit of a=9's eleven packed bits. Even nonuples are ten seeds for
+a>=11. Octuple XOR and nonuple XOR are not I_k. Nested left is still
+not a closed form. cycle_bc.md.
+
+Prize status: still unsolved.
