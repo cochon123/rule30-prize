@@ -929,6 +929,19 @@ closed form.
 [cycle_bb.md](research/cycle_bb.md).
 The prize is still open.
 
+## Cycle BC (2026-09-11)
+
+There are no even half-window octuples for \(a\ge 10\), so the eleven
+octuples are the odd-lift orbit of
+\(\{258,259,263,269,329,369,393,401,433,465,481\}\) at \(a=9\). Even
+nonuples stabilize at ten seeds
+\(2^a-\{38,54,132,196,258,260,386,388,514,770\}\) for \(a\ge 11\).
+Octuple XOR and nonuple XOR are not \(I_k\). Nested left is still not
+a closed form.
+[cycle_bc.md](research/cycle_bc.md).
+The prize is still open.
+
+
 
 
 

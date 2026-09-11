@@ -18,9 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **BB**. No even sextuples for \(a\ge 8\);
-exactly five sextuples; ten even septuple seeds; bit 22 contributes 1.
-Nested left is still not a closed form. The prize is still open.
+Last completed cycle is **BC**. No even octuples for \(a\ge 10\);
+exactly eleven octuples; ten even nonuple seeds. Nested left is still
+not a closed form. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -118,7 +118,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   never fire (Cycle BA). There are no even sextuples for \(a\ge 8\),
   so there are exactly five sextuple-Green packed bits for \(a\ge 7\);
   even septuples are ten seeds for \(a\ge 9\), and bit 22 contributes
-  1 (Cycle BB).
+  1 (Cycle BB). There are no even octuples for \(a\ge 10\), so there
+  are exactly eleven octuple-Green packed bits for \(a\ge 9\); even
+  nonuples are ten seeds for \(a\ge 11\) (Cycle BC).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
