@@ -1,0 +1,48 @@
+{
+  "cycle": "DO",
+  "wall_s": 187.568,
+  "checks": {
+    "all_ok": true
+  },
+  "pi_19": 32,
+  "high": {
+    "17": {
+      "n_odd": 0,
+      "n_even": 0,
+      "pi": 32
+    },
+    "18": {
+      "n_odd": 0,
+      "n_even": 0,
+      "pi": 32
+    },
+    "19": {
+      "n_odd": 0,
+      "n_even": 0,
+      "pi": 32
+    }
+  },
+  "lemmas": {
+    "unfold_int_matches_list": true,
+    "pi_formula_k_le_19": true,
+    "period_H_seed_k_le_19": true,
+    "odd_high_toggle_iff_k_pow2_le_19": true,
+    "k_17_18_19_high_no_ident0": true,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "unfold_int_matches_list": "LEMMA",
+    "pi_formula_k_le_19": "LEMMA",
+    "period_H_seed_k_le_19": "LEMMA",
+    "odd_high_toggle_iff_k_pow2_le_19": "LEMMA",
+    "k_17_18_19_high_no_ident0": "LEMMA",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
