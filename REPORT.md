@@ -1340,3 +1340,15 @@ nonconstant length-\(16\) block has consecutive Hamming at least
 \(3\) on \(24\) extra bits. The Fermat covering remains a prefix.
 [cycle_ci.md](research/cycle_ci.md).
 The prize is still open.
+
+## Cycle CJ (2026-09-11)
+
+Reset-toggle unfolds to \(U_t\equiv r_T(t-2)\pmod{2}\), the
+\(1\)-run length of \(T\) ending at \(t-2\). Counting windows gives
+\(\operatorname{ham}(S,U)=\frac32(n_0-n_{\mathrm{odd}})\). For even
+\(|T_0|\ge 2\), \(T=T_0\|\lnot T_0\) is balanced and not
+alternating, so \(n_{\mathrm{odd}}\le n_0-2\) and the first tail
+pair has Hamming at least \(3\). The Fermat covering remains a
+prefix.
+[cycle_cj.md](research/cycle_cj.md).
+The prize is still open.

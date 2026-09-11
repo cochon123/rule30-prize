@@ -1078,3 +1078,13 @@ Covering still a prefix.
 cycle_ci.md.
 
 Prize status: still unsolved.
+
+## Cycle CJ (2026-09-11)
+
+U_t is the 1-run length of T ending at t-2, mod 2. Then
+ham(S,U)=(3/2)(n0 - n_odd). Balanced non-alternating T forces
+n_odd <= n0-2, so the first tail pair has Hamming at least 3
+for every even |T0|>=2. Covering still a prefix.
+cycle_cj.md.
+
+Prize status: still unsolved.
