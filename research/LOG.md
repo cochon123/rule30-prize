@@ -1147,3 +1147,12 @@ even |T0|>=2. Covering still a prefix.
 cycle_cp.md.
 
 Prize status: still unsolved.
+
+## Cycle CQ (2026-09-11)
+
+V always has consecutive 1s (run length >=3, or 0011, or 001).
+Skip-2 from (V,W) or V implying W plus that 11 gives witness B,
+so Y!=X for every even |T0|>=2. Covering still a prefix.
+cycle_cq.md.
+
+Prize status: still unsolved.
