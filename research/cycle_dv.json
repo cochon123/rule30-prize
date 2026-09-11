@@ -1,0 +1,81 @@
+{
+  "cycle": "DV",
+  "wall_s": 1.53,
+  "checks": {
+    "all_ok": true
+  },
+  "n3n4_n0": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    12,
+    16
+  ],
+  "prize_ham": {
+    "4": {
+      "p": 29,
+      "pi": 4,
+      "ham_n3_n4": 4,
+      "n3": "N"
+    },
+    "8": {
+      "p": 400,
+      "pi": 8,
+      "ham_n3_n4": 8,
+      "n3": "N"
+    },
+    "16": {
+      "p": 87867,
+      "pi": 16,
+      "ham_n3_n4": 16,
+      "n3": "N"
+    }
+  },
+  "dual_antecedent_k": [
+    15
+  ],
+  "lemmas": {
+    "reconstruct_ones_is_NOR": true,
+    "shifted_not_preserves_O": true,
+    "O_type_first_three_ham_n0": true,
+    "ham_n3_n4_equals_n0_O_type": true,
+    "ham_n3_n4_equals_n0_generic_s": false,
+    "ham_s_n3_equals_n0": false,
+    "prize_k_4_8_16_ham_n3_n4": true,
+    "covering_never_fail_iff_matched_complement": true,
+    "dual_I0_kills_allzero_kernel": true,
+    "dual_I_phi6_phi10_0_implies_phi18_1_k_2_to_18": true,
+    "dual_I_phi6_phi10_0_implies_phi18_1_all_k": null,
+    "first_odd_weight_always_offset_3": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "reconstruct_ones_is_NOR": "LEMMA",
+    "shifted_not_preserves_O": "LEMMA",
+    "O_type_first_three_ham_n0": "LEMMA",
+    "ham_n3_n4_equals_n0_O_type": "LEMMA",
+    "ham_n3_n4_equals_n0_generic_s": "KILLED",
+    "ham_s_n3_equals_n0": "KILLED",
+    "prize_k_4_8_16_ham_n3_n4": "LEMMA",
+    "covering_never_fail_iff_matched_complement": "LEMMA",
+    "dual_I0_kills_allzero_kernel": "LEMMA",
+    "dual_I_phi6_phi10_0_implies_phi18_1_k_2_to_18": "PREFIX",
+    "dual_I_phi6_phi10_0_implies_phi18_1_all_k": "PREFIX",
+    "first_odd_weight_always_offset_3": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
