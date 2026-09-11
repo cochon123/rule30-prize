@@ -592,6 +592,19 @@ unproved.
 [cycle_ab.md](research/cycle_ab.md).
 The prize is still open.
 
+## Cycle AC (2026-09-11)
+
+Centre `00` is the triple `000` or `101`, not `000` alone. Those
+triples arise from four 5-windows each (32-case local check). Every
+left-diagonal \(e_j(t)=x(t,-t+j)\) is eventually periodic: the packed
+step is a one-bit recurrence driven by two previous diagonals, hence
+a \(2p\)-state machine. The centre samples the onset \(e_t(t)\), which
+leaves the periodic tail at \(j=18\), so the tails are not a formula
+for \(c\). Infinitely many `00`s remain unproved.
+[cycle_ac.md](research/cycle_ac.md).
+The prize is still open.
+
+
 
 
 
