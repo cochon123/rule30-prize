@@ -748,3 +748,14 @@ Still a prefix, not a theorem. A proof for all k>=2 would kill every
 eventual period 2^m. cycle_be.md.
 
 Prize status: still unsolved.
+
+## Cycle BF (2026-09-11)
+
+Fermat p=1 times are t=(2^a-s)U with G(s,2^a)=1; covering triple
+q=3,5,9 at U / 2U / {U,3U,4U}. Mersenne centre-right unique bits
+p=U+1 and p=(2^{a-1}+1)U+1 on every Fermat-odd annulus. Extra unique
+bits are not identically-1 productions. Doubling
+phi^(q)_{k+1}=phi^(2q)_k XOR I_{k+1}. Covering still a prefix.
+cycle_bf.md.
+
+Prize status: still unsolved.

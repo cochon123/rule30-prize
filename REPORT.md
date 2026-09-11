@@ -962,6 +962,20 @@ every eventual period \(2^m\). Nested left is still not a closed form.
 [cycle_be.md](research/cycle_be.md).
 The prize is still open.
 
+## Cycle BF (2026-09-11)
+
+Cycle AR’s lift specialises on the \(q\)-fold annulus to the exact
+leftmost-11 times for every Fermat-odd \(\varphi^{(q)}\): \(q=3\) at
+\(U\), \(q=5\) at \(2U\), \(q=9\) at \(U,3U,4U\). Every such annulus
+has unique-Green centre-right bits \(p=U+1\) (fires iff
+\(c_U\land r_U\)) and \(p=(2^{a-1}+1)U+1\). On \(3\le k\le 7\) those,
+with \(p=1\), are the only unique-Green bits on the 5-fold and 9-fold
+annuli (prefix). Extra unique bits are not identically-1 productions.
+Doubling: \(\varphi^{(q)}_{k+1}=\varphi^{(2q)}_k\oplus I_{k+1}\). The
+Fermat covering remains a prefix.
+[cycle_bf.md](research/cycle_bf.md).
+The prize is still open.
+
 
 
 

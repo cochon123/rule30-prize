@@ -1,0 +1,269 @@
+{
+  "cycle": "BF",
+  "wall_s": 0.059,
+  "checks": {
+    "all_ok": true
+  },
+  "annulus": [
+    {
+      "k": 3,
+      "p1_times": {
+        "3": [
+          8
+        ],
+        "5": [
+          16
+        ],
+        "9": [
+          8,
+          24,
+          32
+        ],
+        "17": [
+          16,
+          40,
+          48,
+          56,
+          64
+        ]
+      },
+      "n_unique_q5": 3,
+      "uniq_q5": [
+        1,
+        9,
+        25
+      ],
+      "n_unique_q9": 2,
+      "uniq_q9": [
+        9,
+        41
+      ],
+      "n_p1_q9": 3,
+      "n_U1_q3": 1,
+      "n_U1_q5": 1,
+      "n_U1_q9": 1,
+      "t_U1": 8,
+      "fire_U1": 1,
+      "n_3U1_q5": 1,
+      "t_3U1": 24,
+      "fire_3U1": 1,
+      "n_5U1_q9": 1,
+      "t_5U1": 40,
+      "fire_5U1": 0,
+      "n_2U1_q3": 1,
+      "t_2U1": 16
+    },
+    {
+      "k": 4,
+      "p1_times": {
+        "3": [
+          16
+        ],
+        "5": [
+          32
+        ],
+        "9": [
+          16,
+          48,
+          64
+        ],
+        "17": [
+          32,
+          80,
+          96,
+          112,
+          128
+        ]
+      },
+      "n_unique_q5": 3,
+      "uniq_q5": [
+        1,
+        17,
+        49
+      ],
+      "n_unique_q9": 2,
+      "uniq_q9": [
+        17,
+        81
+      ],
+      "n_p1_q9": 3,
+      "n_U1_q3": 1,
+      "n_U1_q5": 1,
+      "n_U1_q9": 1,
+      "t_U1": 16,
+      "fire_U1": 0,
+      "n_3U1_q5": 1,
+      "t_3U1": 48,
+      "fire_3U1": 0,
+      "n_5U1_q9": 1,
+      "t_5U1": 80,
+      "fire_5U1": 0,
+      "n_2U1_q3": 1,
+      "t_2U1": 32
+    },
+    {
+      "k": 5,
+      "p1_times": {
+        "3": [
+          32
+        ],
+        "5": [
+          64
+        ],
+        "9": [
+          32,
+          96,
+          128
+        ],
+        "17": [
+          64,
+          160,
+          192,
+          224,
+          256
+        ]
+      },
+      "n_unique_q5": 3,
+      "uniq_q5": [
+        1,
+        33,
+        97
+      ],
+      "n_unique_q9": 2,
+      "uniq_q9": [
+        33,
+        161
+      ],
+      "n_p1_q9": 3,
+      "n_U1_q3": 1,
+      "n_U1_q5": 1,
+      "n_U1_q9": 1,
+      "t_U1": 32,
+      "fire_U1": 0,
+      "n_3U1_q5": 1,
+      "t_3U1": 96,
+      "fire_3U1": 0,
+      "n_5U1_q9": 1,
+      "t_5U1": 160,
+      "fire_5U1": 0,
+      "n_2U1_q3": 1,
+      "t_2U1": 64
+    },
+    {
+      "k": 6,
+      "p1_times": {
+        "3": [
+          64
+        ],
+        "5": [
+          128
+        ],
+        "9": [
+          64,
+          192,
+          256
+        ],
+        "17": [
+          128,
+          320,
+          384,
+          448,
+          512
+        ]
+      },
+      "n_unique_q5": 3,
+      "uniq_q5": [
+        1,
+        65,
+        193
+      ],
+      "n_unique_q9": 2,
+      "uniq_q9": [
+        65,
+        321
+      ],
+      "n_p1_q9": 3,
+      "n_U1_q3": 1,
+      "n_U1_q5": 1,
+      "n_U1_q9": 1,
+      "t_U1": 64,
+      "fire_U1": 0,
+      "n_3U1_q5": 1,
+      "t_3U1": 192,
+      "fire_3U1": 0,
+      "n_5U1_q9": 1,
+      "t_5U1": 320,
+      "fire_5U1": 0,
+      "n_2U1_q3": 1,
+      "t_2U1": 128
+    },
+    {
+      "k": 7,
+      "p1_times": {
+        "3": [
+          128
+        ],
+        "5": [
+          256
+        ],
+        "9": [
+          128,
+          384,
+          512
+        ],
+        "17": [
+          256,
+          640,
+          768,
+          896,
+          1024
+        ]
+      },
+      "n_unique_q5": 3,
+      "uniq_q5": [
+        1,
+        129,
+        385
+      ],
+      "n_unique_q9": 2,
+      "uniq_q9": [
+        129,
+        641
+      ],
+      "n_p1_q9": 3,
+      "n_U1_q3": 1,
+      "n_U1_q5": 1,
+      "n_U1_q9": 1,
+      "t_U1": 128,
+      "fire_U1": 1,
+      "n_3U1_q5": 1,
+      "t_3U1": 384,
+      "fire_3U1": 0,
+      "n_5U1_q9": 1,
+      "t_5U1": 640,
+      "fire_5U1": 0,
+      "n_2U1_q3": 1,
+      "t_2U1": 256
+    }
+  ],
+  "lemmas": {
+    "fermat_p1_times": true,
+    "mersenne_cr_unique": true,
+    "doubling_phi_q": true,
+    "unique_exactly_q5_q9": null,
+    "extra_unique_always_fire": false,
+    "fermat_cover_359_all_k": null,
+    "some_phi_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "fermat_p1_times": "LEMMA",
+    "mersenne_cr_unique": "LEMMA",
+    "doubling_phi_q": "LEMMA",
+    "unique_exactly_q5_q9": "PREFIX",
+    "extra_unique_always_fire": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

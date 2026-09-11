@@ -18,7 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **BE**. The Fermat covering
+Last completed cycle is **BF**. Fermat-odd leftmost-11 times and
+Mersenne centre-right unique bits are closed forms; they are not
+identically-1 productions. The Fermat covering
 \(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) has a 1 for every
 \(2\le k\le 15\) (prefix, not a theorem). Nested left is still not a
 closed form. The prize is still open.
@@ -125,7 +127,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(e_{29}\)–\(e_{33}\) make unique \(2\)-family bit 33 contribute 1
   for every \(k\ge 7\) (Cycle BD). The Fermat covering
   \(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) has a 1 for every
-  \(2\le k\le 15\) (Cycle BE, prefix).
+  \(2\le k\le 15\) (Cycle BE, prefix). Fermat-odd leftmost-11 times
+  are \(t=(2^a-s)U\) with \(G(s,2^a)=1\); every Fermat-odd annulus
+  has unique centre-right bits \(p=U+1\) and \(p=(2^{a-1}+1)U+1\)
+  (Cycle BF).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
