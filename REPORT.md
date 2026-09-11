@@ -733,6 +733,19 @@ Odd \(p=1\) parity fails for \(q=7\). Eventual period \(2^m\) forces
 every integer spine to vanish. [cycle_al.md](research/cycle_al.md).
 The prize is still open.
 
+## Cycle AM (2026-09-11)
+
+Packed-bit-4 ANDs fire on every odd \(t\ge 4\) and contribute exactly
+once to \(I_k\) (\(k\ge 3\)): the unique Green hit is the first odd
+time of the annulus, using \(G(m,2m)=1\). Packed bit 6 contributes 1
+for \(k\ge 4\) and cancels that production. New closed forms:
+\(e_8(t)=1\) iff \(t\equiv 0,1\pmod{4}\) (\(t\ge 8\));
+\(e_{10}(t)=1\) iff \(t\equiv 0,3\pmod{4}\) (\(t\ge 10\)). Nested
+remainder through packed bit 9 is then 1, so
+\(I_k=1\oplus B_k^{\ge 10}\) for \(k\ge 5\). Bit 10 cancels again.
+[cycle_am.md](research/cycle_am.md).
+The prize is still open.
+
 
 
 

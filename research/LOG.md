@@ -565,3 +565,13 @@ k<=15. The 7-term sum phi^{2,6,7,9,10,11,17} vanishes on k=2..15 and
 dies at k=16 (prefix accident). Extra hits for q=3 are bulk, not local S.
 
 Prize status: still unsolved.
+
+## Cycle AM (2026-09-11)
+
+Packed bit 4 contributes 1 to every I_k (k>=3): unique Green hit at
+the first odd time of the annulus, G(m,2m)=1. Packed bit 6 cancels it
+for k>=4. e_8(t)=1 iff t%4 in {0,1} (t>=8); e_10(t)=1 iff t%4 in
+{0,3} (t>=10). Nested through p=9 is 1, so I_k = 1 XOR bulk_{p>=10}
+for k>=5. Bit 10 cancels again. cycle_am.md.
+
+Prize status: still unsolved.
