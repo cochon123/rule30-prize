@@ -1127,3 +1127,13 @@ Covering still a prefix.
 cycle_cn.md.
 
 Prize status: still unsolved.
+
+## Cycle CO (2026-09-11)
+
+A 10 in (A,B) forces the pair two steps later to be unequal.
+(1,S) and (S,U) always have a 10, so U!=V and V!=W for every
+even |T0|>=2. Every pair having a 10 is killed. Covering still
+a prefix.
+cycle_co.md.
+
+Prize status: still unsolved.

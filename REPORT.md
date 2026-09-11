@@ -1395,3 +1395,14 @@ block has \(W=1\) with \(X\ne V\). The Fermat covering remains a
 prefix.
 [cycle_cn.md](research/cycle_cn.md).
 The prize is still open.
+
+## Cycle CO (2026-09-11)
+
+A `10` in \((A,B)\) forces \(DC=A\ne B\), so the pair two steps
+later is unequal. \((1,S)\) and \((S,U)\) always have a `10`, hence
+\(U\ne V\) and \(V\ne W\) for every even \(|T_0|\ge 2\). Ident-\(0\)
+and ident-\(1\) never form a `10` with their neighbours, and `10`
+does not persist at every later pair. The Fermat covering remains
+a prefix.
+[cycle_co.md](research/cycle_co.md).
+The prize is still open.
