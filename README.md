@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **X**. Vacuum kills every finite-window current
-for \(2c_t-1\) (universally and on the prize orbit). No small-range
-bond flux exists either. ideas21.1 is not a weaker form of infinitely
-many `11`s. The prize is still open.
+Last completed cycle is **Y**. If \(v_k=v_{k+1}\) then \((c_{2^j})_{j\ge k}\)
+is constant, so a non-eventually-constant dyadic centre would give an
+infinite 2-kernel. Packed Rule 30 is Rule 150 XOR adjacent ANDs.
+\((c_{2^k})\) is still not proved non-constant. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -31,7 +31,8 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 - Official site still open; width-1 center periodicity is the gap after
   Jen/Kopra (width-2 aperiodicity). Every iterate \(F^p\) has Kopra
   width \(2p\) (Cycle V), so the gap is not closed by passing to a
-  power.
+  power. An infinite 2-kernel would close it: \(v_k=v_{k+1}\) already
+  forces \((c_{2^j})_{j\ge k}\) constant (Cycle Y).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

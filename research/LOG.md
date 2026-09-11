@@ -420,6 +420,16 @@ phase 01 avoids (c,l)=(1,0). cycle_x.md.
 
 Prize status: still unsolved.
 
+## Cycle Y (2026-09-11)
+
+Spine lemma: v_k=v_{k+1} forces (c_{2^j})_{j>=k} constant. Packed
+Rule 30 is Rule 150 XOR AND; Rule 150 centre is identically 1.
+Sibling split templates (Rowland period, n=k, 4-point) all fail.
+b_k not-eventually-constant remains open. cycle_y.md.
+
+Prize status: still unsolved.
+
+
 
 
 
