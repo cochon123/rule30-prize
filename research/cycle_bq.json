@@ -1,0 +1,26 @@
+{
+  "cycle": "BQ",
+  "wall_s": 0.008,
+  "checks": {
+    "all_ok": true
+  },
+  "lemmas": {
+    "bit1_cone": true,
+    "zero_bit1_on_B": true,
+    "zero_bit1_on_C": true,
+    "bit1_net_A_eq_1": true,
+    "cover_fails_iff_SA1_SB0_SC0": true,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "bit1_cone": "LEMMA",
+    "zero_bit1_on_B": "LEMMA",
+    "zero_bit1_on_C": "LEMMA",
+    "bit1_net_A_eq_1": "LEMMA",
+    "cover_fails_iff_SA1_SB0_SC0": "LEMMA",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

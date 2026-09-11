@@ -1103,3 +1103,14 @@ iff \(\gamma_k=c_{5U}\land r_{5U}\). That AND is 1 at \(k=13\) and
 not identically \(\alpha_k\). The Fermat covering remains a prefix.
 [cycle_bp.md](research/cycle_bp.md).
 The prize is still open.
+
+## Cycle BQ (2026-09-11)
+
+Packed bit 1 Green-hits target \(T\) only at times \(t\le(T-1)/2\).
+The covering coboundary blocks \([6U,10U)\to 10U\) and
+\([10U,18U)\to 18U\) lie strictly past that cone, so they have zero
+bit-1 hits for every \(k\ge 1\). Covering fails at \(k+1\) iff the
+non-bit-1 remainder on \([2U,6U)\to 6U\) is 1 and those two
+remainders are 0. The Fermat covering remains a prefix.
+[cycle_bq.md](research/cycle_bq.md).
+The prize is still open.
