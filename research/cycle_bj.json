@@ -1,0 +1,149 @@
+{
+  "cycle": "BJ",
+  "wall_s": 0.377,
+  "checks": {
+    "all_ok": true
+  },
+  "annulus": [
+    {
+      "k": 3,
+      "quad_q5": [
+        11,
+        13
+      ],
+      "quad_q9": [
+        13,
+        65
+      ],
+      "times5_ok": true,
+      "times9_ok": true
+    },
+    {
+      "k": 4,
+      "quad_q5": [
+        21,
+        25
+      ],
+      "quad_q9": [
+        25,
+        129
+      ],
+      "times5_ok": true,
+      "times9_ok": true
+    },
+    {
+      "k": 5,
+      "quad_q5": [
+        41,
+        49
+      ],
+      "quad_q9": [
+        49,
+        257
+      ],
+      "times5_ok": true,
+      "times9_ok": true
+    },
+    {
+      "k": 6,
+      "quad_q5": [
+        81,
+        97
+      ],
+      "quad_q9": [
+        97,
+        513
+      ],
+      "times5_ok": true,
+      "times9_ok": true
+    },
+    {
+      "k": 7,
+      "quad_q5": [
+        161,
+        193
+      ],
+      "quad_q9": [
+        193,
+        1025
+      ],
+      "times5_ok": true,
+      "times9_ok": true
+    }
+  ],
+  "C_le_eq4_Mge0": {
+    "q5": [
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        15
+      ]
+    ],
+    "q9": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        15
+      ]
+    ]
+  },
+  "firing": {
+    "xor5": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "xor9": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "phi5": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "phi9": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "lemmas": {
+    "H_m_eq4": true,
+    "n3_before_comp": true,
+    "exactly_two_quads_q5": true,
+    "exactly_two_quads_q9": true,
+    "quads_always_fire": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "H_m_eq4": "LEMMA",
+    "n3_before_comp": "LEMMA",
+    "exactly_two_quads_q5": "LEMMA",
+    "exactly_two_quads_q9": "LEMMA",
+    "quads_always_fire": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
