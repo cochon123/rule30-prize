@@ -1,0 +1,483 @@
+{
+  "cycle": "W",
+  "wall_s": 0.241,
+  "checks": {
+    "all_ok": true
+  },
+  "t20_drain": {
+    "models": [
+      {
+        "u": "001000010010010001",
+        "max_zero_run_u": 4,
+        "has_0000": true,
+        "F20": 1,
+        "R16": true,
+        "F37_extra0": 1,
+        "odd_disagreements_with_vacuum": 12,
+        "best_1_then_zeros": [
+          20,
+          16
+        ]
+      },
+      {
+        "u": "010100010010010001",
+        "max_zero_run_u": 3,
+        "has_0000": false,
+        "F20": 1,
+        "R16": true,
+        "F37_extra0": 1,
+        "odd_disagreements_with_vacuum": 13,
+        "best_1_then_zeros": [
+          20,
+          16
+        ]
+      },
+      {
+        "u": "101000010010010001",
+        "max_zero_run_u": 4,
+        "has_0000": true,
+        "F20": 1,
+        "R16": true,
+        "F37_extra0": 1,
+        "odd_disagreements_with_vacuum": 13,
+        "best_1_then_zeros": [
+          20,
+          16
+        ]
+      }
+    ],
+    "n_with_0000": 2,
+    "kill_coupled_drain": true,
+    "kill_vacuum_odd": true,
+    "gap3_model_exists": true
+  },
+  "pow2": {
+    "b": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "pairs": [
+      {
+        "k": 0,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 0,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 1,
+        "c_tm1": 1,
+        "c_t": 0,
+        "c_tp1": 1,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 2,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 1,
+        "11": true,
+        "00": false
+      },
+      {
+        "k": 3,
+        "c_tm1": 0,
+        "c_t": 1,
+        "c_tp1": 1,
+        "11": true,
+        "00": false
+      },
+      {
+        "k": 4,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 0,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 5,
+        "c_tm1": 0,
+        "c_t": 0,
+        "c_tp1": 1,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 6,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 1,
+        "11": true,
+        "00": false
+      },
+      {
+        "k": 7,
+        "c_tm1": 0,
+        "c_t": 1,
+        "c_tp1": 1,
+        "11": true,
+        "00": false
+      },
+      {
+        "k": 8,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 1,
+        "11": true,
+        "00": false
+      },
+      {
+        "k": 9,
+        "c_tm1": 0,
+        "c_t": 0,
+        "c_tp1": 1,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 10,
+        "c_tm1": 0,
+        "c_t": 1,
+        "c_tp1": 0,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 11,
+        "c_tm1": 1,
+        "c_t": 0,
+        "c_tp1": 1,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 12,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 0,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 13,
+        "c_tm1": 1,
+        "c_t": 1,
+        "c_tp1": 0,
+        "11": false,
+        "00": false
+      },
+      {
+        "k": 14,
+        "c_tm1": 0,
+        "c_t": 0,
+        "c_tp1": 0,
+        "11": false,
+        "00": true
+      },
+      {
+        "k": 15,
+        "c_tm1": 0,
+        "c_t": 1,
+        "c_tp1": 0,
+        "11": false,
+        "00": false
+      }
+    ],
+    "n11_at_2k": 5,
+    "templates": {
+      "k_mod2": {
+        "fail_k": 0,
+        "killed": true
+      },
+      "not_k_mod2": {
+        "fail_k": 3,
+        "killed": true
+      },
+      "popcount_mod2": {
+        "fail_k": 0,
+        "killed": true
+      },
+      "v2_kplus1_mod2": {
+        "fail_k": 7,
+        "killed": true
+      },
+      "rowland_a_mod2": {
+        "fail_k": 1,
+        "killed": true
+      },
+      "rowland_a_gt_k": {
+        "fail_k": 1,
+        "killed": true
+      },
+      "always1": {
+        "fail_k": 1,
+        "killed": true
+      },
+      "always0": {
+        "fail_k": 0,
+        "killed": true
+      },
+      "k_ge_2": {
+        "fail_k": 0,
+        "killed": true
+      }
+    },
+    "all_templates_killed": true
+  },
+  "diagonals_head": [
+    {
+      "k": 0,
+      "c": 1,
+      "period": 1,
+      "word": "1",
+      "head": "1111111111111111"
+    },
+    {
+      "k": 1,
+      "c": 1,
+      "period": 2,
+      "word": "10",
+      "head": "1010101010101010"
+    },
+    {
+      "k": 2,
+      "c": 0,
+      "period": 2,
+      "word": "01",
+      "head": "0101010101010101"
+    },
+    {
+      "k": 3,
+      "c": 1,
+      "period": 4,
+      "word": "1001",
+      "head": "1001100110011001"
+    },
+    {
+      "k": 4,
+      "c": 1,
+      "period": 8,
+      "word": "11010010",
+      "head": "1101001011010010"
+    },
+    {
+      "k": 5,
+      "c": 1,
+      "period": 8,
+      "word": "10100010",
+      "head": "1010001010100010"
+    },
+    {
+      "k": 6,
+      "c": 0,
+      "period": 16,
+      "word": "0011101011000101",
+      "head": "0011101011000101"
+    },
+    {
+      "k": 7,
+      "c": 0,
+      "period": 32,
+      "word": "01010101011110011010101010000110",
+      "head": "0101010101111001"
+    },
+    {
+      "k": 8,
+      "c": 1,
+      "period": 32,
+      "word": "10100110101011010101010100001011",
+      "head": "1010011010101101"
+    },
+    {
+      "k": 9,
+      "c": 1,
+      "period": 64,
+      "word": "1100101101010101100110011111010100110100101010100110011000001010",
+      "head": "1100101101010101"
+    },
+    {
+      "k": 10,
+      "c": 0,
+      "period": 64,
+      "word": "0111010110010101001011010101101001010110101011001011010000010101",
+      "head": "0111010110010101"
+    },
+    {
+      "k": 11,
+      "c": 0,
+      "period": 64,
+      "word": "0101101011010101110101010101001110101010101010001010100000011001",
+      "head": "0101101011010101"
+    }
+  ],
+  "diagonal_periods": [
+    1,
+    2,
+    2,
+    4,
+    8,
+    8,
+    16,
+    32,
+    32,
+    64,
+    64,
+    64,
+    64,
+    64,
+    64,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "lc_pow2": {
+    "rows": [
+      {
+        "k": 0,
+        "t": 1,
+        "lcr": "111",
+        "is_11": false
+      },
+      {
+        "k": 1,
+        "t": 2,
+        "lcr": "100",
+        "is_11": false
+      },
+      {
+        "k": 2,
+        "t": 4,
+        "lcr": "010",
+        "is_11": true
+      },
+      {
+        "k": 3,
+        "t": 8,
+        "lcr": "011",
+        "is_11": true
+      },
+      {
+        "k": 4,
+        "t": 16,
+        "lcr": "110",
+        "is_11": false
+      },
+      {
+        "k": 5,
+        "t": 32,
+        "lcr": "001",
+        "is_11": false
+      },
+      {
+        "k": 6,
+        "t": 64,
+        "lcr": "010",
+        "is_11": true
+      },
+      {
+        "k": 7,
+        "t": 128,
+        "lcr": "011",
+        "is_11": true
+      },
+      {
+        "k": 8,
+        "t": 256,
+        "lcr": "010",
+        "is_11": true
+      }
+    ],
+    "n11": 5,
+    "uniform_11": false
+  },
+  "right_run_pow2": [
+    {
+      "k": 0,
+      "t": 1,
+      "right_run": 3,
+      "c": 1
+    },
+    {
+      "k": 1,
+      "t": 2,
+      "right_run": 1,
+      "c": 0
+    },
+    {
+      "k": 2,
+      "t": 4,
+      "right_run": 1,
+      "c": 1
+    },
+    {
+      "k": 3,
+      "t": 8,
+      "right_run": 1,
+      "c": 1
+    },
+    {
+      "k": 4,
+      "t": 16,
+      "right_run": 1,
+      "c": 1
+    },
+    {
+      "k": 5,
+      "t": 32,
+      "right_run": 1,
+      "c": 0
+    },
+    {
+      "k": 6,
+      "t": 64,
+      "right_run": 1,
+      "c": 1
+    },
+    {
+      "k": 7,
+      "t": 128,
+      "right_run": 1,
+      "c": 1
+    }
+  ],
+  "verdict": {
+    "coupled_drain": "KILLED",
+    "gap3_without_0000": true,
+    "vacuum_odd": "KILLED",
+    "b_k_templates": "KILLED",
+    "uniform_11_at_2k": false,
+    "prize": "unsolved"
+  }
+}

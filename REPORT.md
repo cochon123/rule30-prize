@@ -516,6 +516,17 @@ without a closed form.
 [cycle_v.md](research/cycle_v.md).
 The prize is still open.
 
+## Cycle W (2026-09-11)
+
+The 4-step \((e,f)\) drain of Cycle P can sit inside two of the three
+\(X\)-legal \(T=20\), \(R=16\) last-sat words, which still realise 16
+zeros of \(F\) after a 1; the third word has max zero run only 3, so
+the drain is not even universal on the worst onset. Closed forms for
+\(c_{2^k}\) (parity, popcount, Rowland \(a(k)\)) fail by \(k\le 7\).
+A centre `11` at time \(2^k\) is not uniform.
+[cycle_w.md](research/cycle_w.md).
+The prize is still open.
+
 
 
 

@@ -400,6 +400,15 @@ Longest right-special factor length 33. cycle_v.md.
 
 Prize status: still unsolved.
 
+## Cycle W (2026-09-11)
+
+Coupled 4-zero drain sits in two T=20 R=16 X-models (the third has
+only gap 3). Odd-column vacuum disagreements 12-13 on the same words.
+No closed form for c_{2^k}. Centre 11 at 2^k for 5/16 values of k,
+not uniformly. cycle_w.md.
+
+Prize status: still unsolved.
+
 
 
 

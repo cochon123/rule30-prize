@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **V**. Every iterate \(F^p\) of Rule 30 has
-Kopra width \(2p\), so width-1 Kopra never applies to
-\((c_{np})\). Prize even-right still meets \(X\) in short windows. The
-prize is still open.
+Last completed cycle is **W**. The 4-step \((e,f)\) drain sits inside
+two of the three \(T=20\), \(R=16\) \(X\)-models, so it cannot force a
+uniform \(L_0\) identity. No closed form for \(c_{2^k}\). The prize is
+still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
