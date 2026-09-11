@@ -1,0 +1,38 @@
+{
+  "cycle": "CZ",
+  "wall_s": 2.052,
+  "checks": {
+    "all_ok": true
+  },
+  "identities": {
+    "n_ok": 70982,
+    "n_A": 70934,
+    "n_imp": 48,
+    "n_Sp11": 34,
+    "n_Sp00": 14,
+    "n_Tp11": 70982
+  },
+  "lemmas": {
+    "ST_10_or_imp": true,
+    "imp_Tp11_Sp11_or_Sp00": true,
+    "Tp_always_11": true,
+    "thirteenth_pair_never_equal": true,
+    "all_T0_2power_hamming_ge_1": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "ST_10_or_imp": "LEMMA",
+    "imp_Tp11_Sp11_or_Sp00": "LEMMA",
+    "Tp_always_11": "LEMMA",
+    "thirteenth_pair_never_equal": "LEMMA",
+    "all_T0_2power_hamming_ge_1": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
