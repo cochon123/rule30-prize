@@ -315,8 +315,12 @@ prize-seed rows (weight Theta(T), span 2T).
 
 ## Cycle N (2026-09-11)
 
-Ideas13 item 1. In-hull wt=9,10 span<=20: 5.82e6 placements, max L=31,
+Ideas13. In-hull wt=9,10 span<=20: 5.82e6 placements, max L=31,
 n_ge32=0. Maximizer mask 806057 (281769 plus a 1 at +2). period2_hull910.md.
+
+Defect recurrence: d_{t+1} is not a Boolean of a width-<=8 defect
+window; the only exact local rule uses (c,l,r), the original CA.
+defect_recurrence.md.
 
 Prize status: still unsolved.
 

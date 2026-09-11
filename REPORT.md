@@ -403,5 +403,10 @@ burst \(t=320\ldots351\). Not a uniform exclusion.
 [period2_hull910.md](research/period2_hull910.md).
 The prize is still open.
 
+Defects that carry \(D(N)\) are not a width-\(\le 8\) CA on the prize
+seed: \(d_{t+1}\) is a Boolean of \((c_t,l_t,r_t)\), which is the
+original radius-1 slice and does not close on the centre column.
+[defect_recurrence.md](research/defect_recurrence.md).
+
 
 
