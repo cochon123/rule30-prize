@@ -9,7 +9,7 @@ tails \(e_{20},\ldots,e_{27}\) are period 4 and \(e_{30}\equiv 1\) for
 \(I_k\). Nested left is still not a formula for \(I_k\). Not a prize
 claim: \(I_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_ba.py --certify`. Dump:
+Helper: `python3 research/cycle_ba.py --certify` (~5s). Dump:
 `research/cycle_ba.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
