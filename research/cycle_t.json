@@ -1,0 +1,347 @@
+{
+  "cycle": "T",
+  "wall_s": 5.208,
+  "checks": {
+    "all_ok": true,
+    "e_identity": true,
+    "period2_residual": true
+  },
+  "isolated_one": {
+    "qmax": 17,
+    "radius": 6,
+    "rows": [
+      {
+        "q": 1,
+        "word": "10",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          84
+        ]
+      },
+      {
+        "q": 2,
+        "word": "100",
+        "n_recurrent": 2,
+        "n_residual": 1,
+        "residual_sizes": [
+          76
+        ]
+      },
+      {
+        "q": 3,
+        "word": "1000",
+        "n_recurrent": 3,
+        "n_residual": 2,
+        "residual_sizes": [
+          51,
+          50
+        ]
+      },
+      {
+        "q": 4,
+        "word": "10000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          204
+        ]
+      },
+      {
+        "q": 5,
+        "word": "100000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          244
+        ]
+      },
+      {
+        "q": 6,
+        "word": "1000000",
+        "n_recurrent": 2,
+        "n_residual": 2,
+        "residual_sizes": [
+          156,
+          36
+        ]
+      },
+      {
+        "q": 7,
+        "word": "10000000",
+        "n_recurrent": 3,
+        "n_residual": 2,
+        "residual_sizes": [
+          98,
+          91
+        ]
+      },
+      {
+        "q": 8,
+        "word": "100000000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          364
+        ]
+      },
+      {
+        "q": 9,
+        "word": "1000000000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          404
+        ]
+      },
+      {
+        "q": 10,
+        "word": "10000000000",
+        "n_recurrent": 2,
+        "n_residual": 2,
+        "residual_sizes": [
+          236,
+          58
+        ]
+      },
+      {
+        "q": 11,
+        "word": "100000000000",
+        "n_recurrent": 3,
+        "n_residual": 2,
+        "residual_sizes": [
+          146,
+          131
+        ]
+      },
+      {
+        "q": 12,
+        "word": "1000000000000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          524
+        ]
+      },
+      {
+        "q": 13,
+        "word": "10000000000000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          564
+        ]
+      },
+      {
+        "q": 14,
+        "word": "100000000000000",
+        "n_recurrent": 2,
+        "n_residual": 2,
+        "residual_sizes": [
+          316,
+          80
+        ]
+      },
+      {
+        "q": 15,
+        "word": "1000000000000000",
+        "n_recurrent": 3,
+        "n_residual": 2,
+        "residual_sizes": [
+          194,
+          171
+        ]
+      },
+      {
+        "q": 16,
+        "word": "10000000000000000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          684
+        ]
+      },
+      {
+        "q": 17,
+        "word": "100000000000000000",
+        "n_recurrent": 1,
+        "n_residual": 1,
+        "residual_sizes": [
+          724
+        ]
+      }
+    ],
+    "all_have_residual": true,
+    "kill": true
+  },
+  "packed_D": {
+    "N": 4096,
+    "D": -40,
+    "n11": 1022,
+    "n00": 1063,
+    "e_sum_identity": true,
+    "corr_excess": -0.0053,
+    "corr_popcount": -0.395,
+    "corr_t": -0.3955,
+    "n_D_eq_excess": 28,
+    "kill_packed_current": true,
+    "kill_bounded_J": true
+  },
+  "phi": {
+    "rows": [
+      {
+        "k": 1,
+        "injective": true,
+        "n_unique": 1,
+        "n_r": 1,
+        "n_missing": 0,
+        "max_phi": 1
+      },
+      {
+        "k": 2,
+        "injective": true,
+        "n_unique": 3,
+        "n_r": 3,
+        "n_missing": 0,
+        "max_phi": 3
+      },
+      {
+        "k": 3,
+        "injective": false,
+        "n_unique": 3,
+        "n_r": 7,
+        "n_missing": 0,
+        "max_phi": 2
+      },
+      {
+        "k": 4,
+        "injective": false,
+        "n_unique": 5,
+        "n_r": 15,
+        "n_missing": 0,
+        "max_phi": 6
+      },
+      {
+        "k": 5,
+        "injective": false,
+        "n_unique": 4,
+        "n_r": 31,
+        "n_missing": 0,
+        "max_phi": 3
+      },
+      {
+        "k": 6,
+        "injective": false,
+        "n_unique": 6,
+        "n_r": 63,
+        "n_missing": 0,
+        "max_phi": 6
+      },
+      {
+        "k": 7,
+        "injective": false,
+        "n_unique": 10,
+        "n_r": 127,
+        "n_missing": 0,
+        "max_phi": 11
+      },
+      {
+        "k": 8,
+        "injective": false,
+        "n_unique": 8,
+        "n_r": 255,
+        "n_missing": 0,
+        "max_phi": 7
+      }
+    ],
+    "first_fail": 3,
+    "kill_template": true
+  },
+  "square": [
+    {
+      "k": 0,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 1,
+      "n": 1
+    },
+    {
+      "k": 1,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 2,
+      "n": 2
+    },
+    {
+      "k": 2,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 4,
+      "n": 4
+    },
+    {
+      "k": 3,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 8,
+      "n": 8
+    },
+    {
+      "k": 4,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 16,
+      "n": 16
+    },
+    {
+      "k": 5,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 32,
+      "n": 32
+    },
+    {
+      "k": 6,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 64,
+      "n": 64
+    },
+    {
+      "k": 7,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 128,
+      "n": 128
+    },
+    {
+      "k": 8,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 256,
+      "n": 256
+    },
+    {
+      "k": 9,
+      "supported": true,
+      "distinct": true,
+      "n_distinct": 512,
+      "n": 512
+    }
+  ],
+  "square_k10": {
+    "k": 10,
+    "supported": false
+  },
+  "verdict": {
+    "isolated_one": "KILLED",
+    "packed_D": "KILLED",
+    "phi_template": "KILLED",
+    "square_k9": "distinct",
+    "square_k10": {
+      "k": 10,
+      "supported": false
+    },
+    "prize": "unsolved"
+  }
+}

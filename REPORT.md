@@ -479,6 +479,17 @@ does not force an odd-time \(11\) at \(t\).
 [cycle_s.md](research/cycle_s.md).
 The prize is still open.
 
+## Cycle T (2026-09-11)
+
+Isolated-one words \(10^q\) do not acquire a Jen-forced neighbor at
+radius 6 for any \(q\le 17\). The integer identity
+\(e_t=c_t+c_{t+1}-1\) is \(1_{11}-1_{00}\) and recovers \(D(N)\); it is
+not a packed-row current. First disagreement against residue 0 is not
+an injective fingerprint of the other \(2^k-1\) kernel columns
+(\(k=3\)).
+[cycle_t.md](research/cycle_t.md).
+The prize is still open.
+
 
 
 

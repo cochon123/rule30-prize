@@ -371,6 +371,15 @@ cycle_s.md.
 
 Prize status: still unsolved.
 
+## Cycle T (2026-09-11)
+
+Isolated-one 10^q has residual radius-6 SCCs for every q=1..17.
+e_t=c_t+c_{t+1}-1 restates D(N); packed excess corr -0.005.
+Kernel phi_k injective only for k=1,2. Square columns still
+distinct through k=9. cycle_t.md.
+
+Prize status: still unsolved.
+
 
 
 
