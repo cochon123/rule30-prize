@@ -378,5 +378,21 @@ residual strip SCC is nonempty.
 [forbidden_periodic.md](research/forbidden_periodic.md).
 The prize is still open.
 
+## Cycle M (ideas12, 2026-09-11)
+
+Restricted to origin-in-hull placements, every Hamming-weight-\(\le 8\)
+span-\(\le 24\) row has period-2 centre run length at most 31 (12 million
+placements; maximizer still mask \(281769\)). Off-hull length-35 rows
+are excluded by construction. This is a finite theorem for that class,
+not a uniform exclusion of eventual period 2: a later prize-seed row
+has weight \(\Theta(T)\) and span \(2T\).
+[period2_hull.md](research/period2_hull.md).
+
+Fixing the leftmost 1 at \(-w\) (the prize light-cone edge) does not
+cut the bursts: the short-cap table matches unrestricted Cycle I, and
+a long cap still grows (\(L=24,25,27\) at \(w=8,9,10\)).
+[period2_leftbit.md](research/period2_leftbit.md).
+The prize is still open.
+
 
 

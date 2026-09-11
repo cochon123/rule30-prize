@@ -300,5 +300,18 @@ Ideas11. No prize claim.
 Prize status: still unsolved. Next: origin-in-hull-only census
 (possible L<=31); prize-seed left-edge constraint.
 
+## Cycle M (2026-09-11)
+
+Ideas12. One finite theorem; left-edge restriction dies. No prize claim.
+
+1. Origin-in-hull weight<=8 span<=24: 12.1e6 placements, max L=31,
+   n_ge32=0. Maximizer mask 281769. Off-hull L=35 excluded.
+   period2_hull.md.
+2. Left-edge bit 0 fixed: short cap matches Cycle I; long cap L=24,25,27
+   at w=8,9,10. period2_leftbit.md.
+
+Prize status: still unsolved. The hull theorem does not cover later
+prize-seed rows (weight Theta(T), span 2T).
+
 
 
