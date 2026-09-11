@@ -487,3 +487,13 @@ centred 5-window. Green formula for d=ell XOR r (linear parts cancel).
 00 production. cycle_ae.md.
 
 Prize status: still unsolved.
+
+## Cycle AF (2026-09-11)
+
+Two-step Green support G(1,d)=1 for d=0,1,2. Identity
+c_{s+2}=1 XOR (ell AND c) XOR (c AND r) XOR (r AND e) XOR (c' AND r')
+XOR O_s. At a 1-run ending this is (r AND NOT e) XOR O_s, and O_s
+takes both values (local ANDs do not force 00). Annulus 10/00/11
+parities are not I_k. cycle_af.md.
+
+Prize status: still unsolved.

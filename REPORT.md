@@ -635,6 +635,19 @@ right is not a `00` production; the remaining gap is a bulk production.
 [cycle_ae.md](research/cycle_ae.md).
 The prize is still open.
 
+## Cycle AF (2026-09-11)
+
+\(G(1,\cdot)\) is supported on \(\{0,1,2\}\), so the only time-\(s\)
+ANDs that hit \(c_{s+2}\) are \((\ell,c)\), \((c,r)\), and
+\((r,e)\). The two-step identity is
+\(c_{s+2}=1\oplus(\ell\land c)\oplus(c\land r)\oplus(r\land e)\oplus(c'\land r')\oplus O_s\).
+At a 1-run ending this is \((r\land\lnot e)\oplus O_s\), and \(O_s\)
+takes both values, so the local ANDs do not force `00`. Annulus
+parities of `10`, `00`, `11`, and of the 1-run Booleans
+\(r\land\lnot e\) and \(a=r\lor e\), are not \(I_k\).
+[cycle_af.md](research/cycle_af.md).
+The prize is still open.
+
 
 
 

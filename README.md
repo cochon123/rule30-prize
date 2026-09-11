@@ -18,11 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AE**. Right-diagonals are pure integrators:
-the only eventually-constant one is the right edge, so there are no
-white stripes on the right. Each fixed right-diagonal meets the centred
-5-window at most five times, so nested right is not a `00` production.
-The palindrome defect \(d\) is a Green difference of AND injections.
+Last completed cycle is **AF**. A 1-run ending’s centre-left AND
+always Green-hits \(c_{s+2}\). The two-step identity includes an older
+remainder \(O_s\) that is not identically 0, so the three local ANDs
+do not force `00`. Annulus parities of `10`/`00`/`11` are not \(I_k\).
 Infinitely many centre `00`s remain unproved. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
@@ -47,7 +46,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   meets the centred 5-window only finitely often, so nested left is
   not a `00` production. Right-diagonals are pure integrators with no
   white stripes; nested right is likewise not a `00` production
-  (Cycle AE).
+  (Cycle AE). The two-step Green identity for \(c_{s+2}\) has an older
+  remainder \(O_s\) that is not identically 0, so local ANDs at a
+  1-run ending do not force `00` (Cycle AF).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
