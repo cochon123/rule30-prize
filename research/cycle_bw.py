@@ -68,15 +68,13 @@ def left_word(row: int, W: int) -> int:
 
 
 def left_step(word: int, W: int) -> int:
-    out = 1
-    for p in range(1, W + 1):
-        lo = (word >> (p - 2)) & 1 if p >= 2 else 0
-        mid = (word >> (p - 1)) & 1
-        hi = (word >> p) & 1
-        bit = lo ^ (mid | hi)
-        if bit:
-            out |= 1 << p
-    return out
+    """Packed update new_p = old_{p-2} xor (old_{p-1} or old_p); bit 0 stays 1."""
+    mask = (1 << (W + 1)) - 1
+    hi = word & mask
+    mid = (word << 1) & mask
+    lo = (word << 2) & mask
+    new = (lo ^ (mid | hi)) & mask
+    return (new & ~1) | 1
 
 
 def apply_n(word: int, W: int, n: int) -> int:
@@ -204,10 +202,9 @@ def unique_cycle_ok(k: int, period: int) -> dict:
         w = 0b011 | (high << 3)
         if apply_n(w, W, period) == w:
             hits.append(w)
-    # every state flows to one of the hits
+    hitset = set(hits)
     attract = True
     bound = 4 * W
-    hitset = set(hits)
     for high in range(1 << nfree):
         w = 0b011 | (high << 3)
         s = w
@@ -226,6 +223,64 @@ def unique_cycle_ok(k: int, period: int) -> dict:
         "n_fixed": len(hits),
         "unique_4": len(hits) == 4,
         "globally_attracting": attract,
+        "hits": hits,
+    }
+
+
+def unique_driven_lift(low_hits: list[int], W: int, n_high: int) -> dict:
+    """High n_high bits driven by a low cycle: unique attracting cycle?"""
+    P = len(low_hits)
+    H = W >> 1
+    low_bits = H + 1
+    LOWMASK = (1 << low_bits) - 1
+    s = low_hits[0]
+    cyc = [s]
+    for _ in range(P - 1):
+        s = left_step(s, H)
+        cyc.append(s)
+    if set(cyc) != set(low_hits):
+        return {"unique": False, "n_cycles": -1, "period": 0, "hits": []}
+    N = 1 << n_high
+    tot = P * N
+
+    def succ(sid: int) -> int:
+        phase = sid % P
+        high = sid // P
+        word = cyc[phase] | (high << low_bits)
+        nxt = left_step(word, W)
+        nphase = (phase + 1) % P
+        if (nxt & LOWMASK) != cyc[nphase]:
+            raise RuntimeError("low bits drifted")
+        nhigh = nxt >> low_bits
+        return nphase + P * nhigh
+
+    seen = bytearray(tot)
+    cycles = []
+    for start in range(tot):
+        if seen[start]:
+            continue
+        trail: list[int] = []
+        pos: dict[int, int] = {}
+        s = start
+        while not seen[s] and s not in pos:
+            pos[s] = len(trail)
+            trail.append(s)
+            s = succ(s)
+        if s in pos:
+            cycles.append(trail[pos[s] :])
+        for u in trail:
+            seen[u] = 1
+    hits = []
+    if len(cycles) == 1:
+        for sid in cycles[0]:
+            phase = sid % P
+            high = sid // P
+            hits.append(cyc[phase] | (high << low_bits))
+    return {
+        "unique": len(cycles) == 1,
+        "n_cycles": len(cycles),
+        "period": len(cycles[0]) if cycles else 0,
+        "n_states": tot,
         "hits": hits,
     }
 
@@ -315,8 +370,10 @@ def self_checks(
     k12: bool,
     cyc3: dict,
     cyc4: dict,
+    lift5: dict,
     on3: bool,
     on4: bool,
+    on5: bool,
     seed: dict,
     failW: dict,
     not_whole: bool,
@@ -326,6 +383,7 @@ def self_checks(
     assert shift and prod and nested and ident and k12
     assert cyc3["unique_4"] and cyc3["globally_attracting"] and on3
     assert cyc4["unique_4"] and cyc4["globally_attracting"] and on4
+    assert lift5["unique"] and lift5["period"] == 8 and on5
     assert seed["all_seed"] and seed["all_eq23"]
     assert failW["killed_from_W"] and failW["high_only"]
     assert not_whole
@@ -346,8 +404,10 @@ def main() -> None:
     k12 = k1_k2_period_ok(128)
     cyc3 = unique_cycle_ok(3, 4)
     cyc4 = unique_cycle_ok(4, 4)
+    lift5 = unique_driven_lift(cyc4["hits"], 32, 16)
     on3 = prize_on_cycle(3, 2, cyc3["hits"])
     on4 = prize_on_cycle(4, 16, cyc4["hits"])
+    on5 = prize_on_cycle(5, 64, lift5["hits"])
     seed = seed_period_H(12)
     failW = fail_at_W_high_only(rows, 6)
     not_whole = whole_space_not_period_H()
@@ -360,8 +420,10 @@ def main() -> None:
         k12,
         cyc3,
         cyc4,
+        lift5,
         on3,
         on4,
+        on5,
         seed,
         failW,
         not_whole,
@@ -378,8 +440,12 @@ def main() -> None:
             "k4_n_fixed": cyc4["n_fixed"],
             "k3_attracting": cyc3["globally_attracting"],
             "k4_attracting": cyc4["globally_attracting"],
+            "k5_driven_unique": lift5["unique"],
+            "k5_driven_period": lift5["period"],
+            "k5_driven_states": lift5["n_states"],
             "prize_on_k3_at_t2": on3,
             "prize_on_k4_at_t16": on4,
+            "prize_on_k5_at_t64": on5,
         },
         "lemmas": {
             "green_shift_small_degree": True,
@@ -390,6 +456,7 @@ def main() -> None:
             "seed_implies_global_period_H": True,
             "period_H_implies_BV_freeze": True,
             "unique_attractor_k3_k4": True,
+            "unique_driven_lift_k5": True,
             "period_H_from_time_W_all_k": False,
             "F_H_id_on_whole_affine_space": False,
             "period_H_seed_all_k": None,
@@ -405,6 +472,7 @@ def main() -> None:
             "seed_implies_global_period_H": "LEMMA",
             "period_H_implies_BV_freeze": "LEMMA",
             "unique_attractor_k3_k4": "LEMMA",
+            "unique_driven_lift_k5": "LEMMA",
             "period_H_from_time_W_all_k": "KILLED",
             "F_H_id_on_whole_affine_space": "KILLED",
             "period_H_seed_all_k": "PREFIX",

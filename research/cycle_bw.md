@@ -12,7 +12,7 @@ on a \(W\)-window at degrees \(d<H\) have period \(H\) because
 (prefix). Period \(H\) from time \(W\) fails at \(k=5\) (high bits
 only). Not a prize claim: the Fermat covering remains a prefix.
 
-Helper: `python3 research/cycle_bw.py --certify`. Dump:
+Helper: `python3 research/cycle_bw.py --certify` (~0.3s). Dump:
 `research/cycle_bw.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
@@ -72,15 +72,19 @@ at time \(W\) (when they exist) cannot live on bits \(\le H\).
 Certified nested truncation for \(2\le k\le 6\); high-only failures
 at \(t=W\) for \(k=5,6\).
 
-## Lemma (unique attractor at \(k=3,4\))
+## Lemma (unique attractor at \(k=3,4\); unique lift at \(k=5\))
 
 On the invariant affine space with packed bits \(0,1,2=1,1,0\), the
 9-bit machine (\(k=3\)) has exactly four states with \(F^4=\mathrm{id}\),
 a single 4-cycle, and every one of the 64 states reaches it. The
 17-bit machine (\(k=4\)) likewise has exactly four states with
 \(F^4=\mathrm{id}\), globally attracting among all \(2^{14}\) affine
-states. The prize orbit is on the \(k=3\) cycle at \(t=2\) and on the
-\(k=4\) cycle at \(t=16=W\). Exhaustive, not a sampling prefix.
+states. Once the low 17 bits sit on that 4-cycle, the remaining 16
+high bits of the \(k=5\) machine are a driven system of \(4\cdot 2^{16}\)
+states with a unique attracting 8-cycle. The prize orbit is on the
+\(k=3\) cycle at \(t=2\), the \(k=4\) cycle at \(t=16=W\), and the
+\(k=5\) lift at \(t=64=2W\). Exhaustive, not a sampling prefix.
+Uniqueness of the lift is **not** claimed for \(k\ge 6\).
 
 ## Prefix (seed for all \(k\))
 
@@ -105,7 +109,7 @@ Period \(H\) is an attractor property, not an identity of the map.
 
 `LEMMA` (Green shift; packed period-\(H\) identity; \(k=1,2\); seed
 implies global period \(H\); period \(H\) implies BV freeze; low half
-inducts; unique attractor at \(k=3,4\)).
+inducts; unique attractor at \(k=3,4\); unique driven lift at \(k=5\)).
 `PREFIX` (seed for all \(k\); Fermat covering for all \(k\ge 2\)).
 `KILLED` (period \(H\) from time \(W\) for all \(k\);
 \(F^H=\mathrm{id}\) on the whole affine space).

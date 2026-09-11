@@ -21,9 +21,10 @@ These are proposals.
 1. **Prove the period-\(H\) seed for every \(k\)**
 
    The low half inducts from \(P_{k-1}\). The remainder is bits
-   \(H+1,\ldots,W\) of \(L_k(2W)\). Unique attracting cycles at
-   \(k=3,4\) (period 4) suggest a unique lift of the previous
-   attractor; do not treat uniqueness as proved for \(k\ge 5\). One
+   \(H+1,\ldots,W\) of \(L_k(2W)\).    Unique attracting cycles at \(k=3,4\) (period 4) and a unique
+   8-cycle lift at \(k=5\) (driven high half, \(4\cdot 2^{16}\) states)
+   suggest a unique lift of the previous attractor; do not treat
+   uniqueness as proved for \(k\ge 6\). One
    seed still forces \(J_B^{\to 2U}=0\) for every covering scale,
    which simplifies failure to \(J_A=0\), \(J_B=d_B\), and
    \(J_C=d_B\oplus J_B^{\to 18U}\). Then prove that triple never
