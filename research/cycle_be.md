@@ -9,7 +9,7 @@ period \(2^m\) (Cycle AL: period \(2^m\) forces every integer
 and a later \(k\) could vanish. Not a prize claim: some
 \(\varphi^{(q)}_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_be.py --certify`. Dump:
+Helper: `python3 research/cycle_be.py --certify` (~0.2s). Dump:
 `research/cycle_be.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
