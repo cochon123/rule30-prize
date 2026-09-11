@@ -69,7 +69,7 @@ def two_odds_kills_seed_at_k2() -> bool:
 
 
 def period_mechanism() -> bool:
-    """reconstruct preserves length; odd unfold doubles; even unfold does not."""
+    """reconstruct preserves length; even unfold closes; odd unfold 2-copies."""
     for n in range(2, 9):
         for mask in range(1 << n):
             a = [(mask >> i) & 1 for i in range(n)]
@@ -80,17 +80,23 @@ def period_mechanism() -> bool:
             u = reconstruct(a, b)
             if u is None or len(u) != n:
                 return False
-            sm = xorcat(a)
             un = unfold(a)
-            if len(un) != n:
+            if len(un) != n or un[0] != 0:
                 return False
+            sm = xorcat(a)
+            wrap = a[-1] ^ un[-1]
             if sm == 0:
-                if xorcat(un) != 0:
+                if wrap != un[0]:
                     return False
             else:
-                doubled = un + [x ^ 1 for x in un]
-                if len(doubled) != 2 * n or xorcat(doubled) != 0:
+                a2 = a + a
+                u2 = un + [x ^ 1 for x in un]
+                if len(u2) != 2 * n:
                     return False
+                for t in range(2 * n):
+                    nxt = a2[t] ^ u2[t]
+                    if u2[(t + 1) % (2 * n)] != nxt:
+                        return False
     return True
 
 
