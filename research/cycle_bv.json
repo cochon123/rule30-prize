@@ -1,0 +1,62 @@
+{
+  "cycle": "BV",
+  "wall_s": 0.044,
+  "checks": {
+    "all_ok": true
+  },
+  "freeze_k12": {
+    "eq23": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "Q_r_ge2_all_1": true
+  },
+  "JB2_zero_k11": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "lemmas": {
+    "left_machine_autonomous": true,
+    "packed_bit_2_zero_t_ge_2": true,
+    "packed_bit_4_one_t_ge_2": true,
+    "Q_eq_1_xor_alpha_xor_alpha": true,
+    "L2_eq_L3_implies_freeze": true,
+    "JB2_eq_alpha3_xor_alpha5": true,
+    "L_k_2_eq_L_k_3_all_k": null,
+    "packed_2k_identically_constant": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "left_machine_autonomous": "LEMMA",
+    "packed_bit_2_zero_t_ge_2": "LEMMA",
+    "packed_bit_4_one_t_ge_2": "LEMMA",
+    "Q_eq_1_xor_alpha_xor_alpha": "LEMMA",
+    "L2_eq_L3_implies_freeze": "LEMMA",
+    "JB2_eq_alpha3_xor_alpha5": "LEMMA",
+    "L_k_2_eq_L_k_3_all_k": "PREFIX",
+    "packed_2k_identically_constant": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

@@ -916,3 +916,14 @@ Covering still a prefix.
 cycle_bu.md.
 
 Prize status: still unsolved.
+
+## Cycle BV (2026-09-11)
+
+The left 2^k+1 packed bits evolve autonomously. Packed bit 2 is 0
+for t>=2 and packed bit 4 is 1 for t>=2. Q_k(r)=1 xor alpha(r) xor
+alpha(r+1). One equality L_k(2)=L_k(3) freezes every later sample
+and forces J_B->2U=0. That equality holds through k=12 (prefix).
+Covering still a prefix.
+cycle_bv.md.
+
+Prize status: still unsolved.

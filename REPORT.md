@@ -1159,3 +1159,16 @@ a prefix; the right extra takes both values. The Fermat covering
 remains a prefix.
 [cycle_bu.md](research/cycle_bu.md).
 The prize is still open.
+
+## Cycle BV (2026-09-11)
+
+Packed bits \(0,\ldots,2^k\) evolve autonomously. Packed bit 2 is
+\(0\) for every \(t\ge 2\) and packed bit 4 is \(1\) for every
+\(t\ge 2\). The Green remainder \(Q_k(r)\) of a \(2^k\)-step
+targeting packed bit \(2^k\) is \(1\oplus\alpha_k(r)\oplus\alpha_k(r+1)\).
+One equality of the left word at times \(2^{k+1}\) and \(3\cdot 2^k\)
+freezes every later sample and forces \(J_B^{\to 2U}=0\). That
+equality holds through \(k=12\) (prefix). The Fermat covering remains
+a prefix.
+[cycle_bv.md](research/cycle_bv.md).
+The prize is still open.
