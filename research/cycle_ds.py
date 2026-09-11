@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
-"""Cycle DS: even-spine covering-failure prefix past k=12 (no Fermat table).
+"""Cycle DS: even-spine covering-failure empty through k=18 (no Fermat table).
 
 Cycle BO: covering at k+1 fails iff phi^{(6)}_k = phi^{(10)}_k = phi^{(18)}_k
 = I_{k+1}, with I_{k+1}=phi^{(2)}_k. That dangerous set is empty for
-2<=k<=12. This cycle samples only the even spines phi^{(2,6,10)} through
-k=18 and phi^{(18)} through k=17 (and k=18 only if 6 and 10 already match
-I), plus I_k on every dyadic time that the same packed run reaches.
-
-It does not compute or dump phi^{(3)}, phi^{(5)}, or phi^{(9)} at k=16.
-Covering through k>=14 is inferred from the BO failure criterion, not from
-a new Fermat table. Not a prize claim: emptiness remains a prefix.
+2<=k<=12. Packed even-spine sampling extends emptiness through k=18, so
+the Fermat covering does not fail through k=19. Candidates (6 and 10 match
+I, 18 does not) sit at k=5,8,11,15,18. I_k through k=21 still takes both
+values. Do not compute phi^{(3,5,9)} at k=16. Not a prize claim: emptiness
+and the period-H seed remain prefixes.
 
 Run: python3 research/cycle_ds.py --certify
 Dump: research/cycle_ds.json
@@ -185,6 +183,12 @@ def self_checks(c20, bo: dict, sp: dict, cand: list[int], dang: list[int]) -> di
     for i, k in enumerate(sp["k"]):
         if k <= 17:
             assert sp["phi18_known"][i]
+    if 18 in sp["k"] and all(sp["phi18_known"]):
+        assert cand == [5, 8, 11, 15, 18]
+        assert dang == []
+        assert sp["I"] == [
+            1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1
+        ]
     return {"all_ok": True}
 
 
