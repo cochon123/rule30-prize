@@ -18,8 +18,8 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AY**. Bits 16 and 18 contribute 0, so
-\(I_k=1\oplus B_k^{\ge 19}\) for \(k\ge 5\). Nested depth 18 is not a
+Last completed cycle is **AZ**. Exactly five quads; bit 19 contributes
+1, so \(I_k=B_k^{\ge 20}\) for \(k\ge 6\). Nested depth 19 is not a
 closed form. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
@@ -107,7 +107,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(p=q\cdot 2^{j}+1\) for \(q\in\{5,7,9,13\}\); bits 14 and 15
   contribute \(0\) (Cycle AX). Packed bit 16 is Jacobsthal \(S_4\)
   and contributes 0; \(e_{18}\) is period 4 and never meets \(e_{17}\),
-  so \(I_k=1\oplus B^{\ge 19}\) for \(k\ge 5\) (Cycle AY).
+  so \(I_k=1\oplus B^{\ge 19}\) for \(k\ge 5\) (Cycle AY). For \(a\ge 6\)
+  there are no even quads, so there are exactly five quadruple-Green
+  packed bits; bit 19 contributes 1 and
+  \(I_k=B^{\ge 20}\) for \(k\ge 6\) (Cycle AZ).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

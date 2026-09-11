@@ -895,6 +895,16 @@ depth 18 is not a closed form.
 [cycle_ay.md](research/cycle_ay.md).
 The prize is still open.
 
+## Cycle AZ (2026-09-11)
+
+For \(a\ge 6\) there are no even half-window quads, so the five quads
+are the odd-lift orbit of \(\{18,19,23,27,29\}\) at \(a=5\). Packed
+bit 19 is the \(j=1\) 9-family triple and contributes 1 for
+\(k\ge 6\), hence \(I_k=B_k^{\ge 20}\). Nested depth 19 is not a
+closed form. Quad XOR is not \(I_k\).
+[cycle_az.md](research/cycle_az.md).
+The prize is still open.
+
 
 
 

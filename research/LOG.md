@@ -692,3 +692,12 @@ I_k=1 XOR B^{>=19} for k>=5. Nested depth 18 is not a closed form.
 cycle_ay.md.
 
 Prize status: still unsolved.
+
+## Cycle AZ (2026-09-11)
+
+No even quads for a>=6; exactly five quads, the odd-lift orbit of
+{18,19,23,27,29}. e_19 period 4; bit 19 (9-family j=1) contributes
+1, so I_k=B^{>=20} for k>=6. Nested depth 19 is not a closed form.
+Quad XOR is not I_k. cycle_az.md.
+
+Prize status: still unsolved.
