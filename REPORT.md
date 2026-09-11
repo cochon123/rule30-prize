@@ -1172,3 +1172,19 @@ equality holds through \(k=12\) (prefix). The Fermat covering remains
 a prefix.
 [cycle_bv.md](research/cycle_bv.md).
 The prize is still open.
+
+## Cycle BW (2026-09-11)
+
+Green shift: \(G(m+2^a,d)=G(m,d)\) for \(m,d<2^a\). The left
+\(2^k+1\)-bit word has period \(H=2^{k-1}\) for all \(t\ge 2\) when
+\(k=1,2\). A single seed \(F^H(L_k(2W))=L_k(2W)\) extends that period
+to every later time by autonomy, which implies Cycle BV's freeze and
+\(J_B^{\to 2U}=0\). The low half inducts from the previous scale.
+The 9-bit and 17-bit machines each have a unique attracting 4-cycle;
+the \(k=5\) high half, driven by that 4-cycle, has a unique attracting
+8-cycle among all \(4\cdot 2^{16}\) states. The prize orbit sits on
+them by times \(2\), \(16\), and \(64\). The seed
+holds through \(k=12\) (prefix). Period \(H\) from time \(W\) fails
+at \(k=5\). The Fermat covering remains a prefix.
+[cycle_bw.md](research/cycle_bw.md).
+The prize is still open.

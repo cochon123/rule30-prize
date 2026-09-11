@@ -927,3 +927,15 @@ Covering still a prefix.
 cycle_bv.md.
 
 Prize status: still unsolved.
+
+## Cycle BW (2026-09-11)
+
+Green shift G(m+2^a,d)=G(m,d) for m,d<2^a. The left word has period
+H=2^{k-1} for t>=2 when k=1,2, and a single seed F^H(L(2W))=L(2W)
+extends that period to all later times (stronger than BV freeze).
+Low bits induct from P_{k-1}. Unique attracting 4-cycle at k=3,4; unique 8-cycle lift at k=5.
+The seed is a prefix through k=12. Period H from time W is killed
+at k=5. Covering still a prefix.
+cycle_bw.md.
+
+Prize status: still unsolved.
