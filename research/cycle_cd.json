@@ -1,0 +1,54 @@
+{
+  "cycle": "CD",
+  "wall_s": 0.022,
+  "checks": {
+    "all_ok": true
+  },
+  "absorb": {
+    "n_enter": 8,
+    "n_leave": 8
+  },
+  "known": {
+    "ok": true,
+    "n": 10
+  },
+  "ham4": {
+    "odd_p": 29,
+    "n": 4,
+    "n_and": 0,
+    "n_Da": 3,
+    "min_bad": 2
+  },
+  "ham8": {
+    "odd_p": 400,
+    "n": 113,
+    "n_and": 0,
+    "n_Da": 4,
+    "min_bad": 3
+  },
+  "lemmas": {
+    "stay_iff_forced_e": true,
+    "collapse_a_b_under_S": true,
+    "ident_AND_implies_d_eq_Da": true,
+    "no_enter_S_when_ed_01": true,
+    "S_absorbing": false,
+    "no_AND_triple_after_scar_all_k": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "stay_iff_forced_e": "LEMMA",
+    "collapse_a_b_under_S": "LEMMA",
+    "ident_AND_implies_d_eq_Da": "LEMMA",
+    "no_enter_S_when_ed_01": "LEMMA",
+    "S_absorbing": "KILLED",
+    "no_AND_triple_after_scar_all_k": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

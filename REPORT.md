@@ -1265,3 +1265,16 @@ AND-triple after the scar on the \(k=4\) and \(k=8\) odd lifts
 (prefix). The Fermat covering remains a prefix.
 [cycle_cc.md](research/cycle_cc.md).
 The prize is still open.
+
+## Cycle CD (2026-09-11)
+
+If a packed triple \((c,a,b)\) is AND-closed, the update collapses
+to \(a'=d\oplus a\) and \(b'=a\oplus b\), and the next triple stays
+AND-closed iff \(e=a\oplus(d\land\lnot(a\lor b))\). Identically AND
+forces \(d=Da\), hence \(d_t=b_t\oplus b_{t+2}\). A forbidden triple
+cannot enter the AND-closed set when \((e,d)=(0,1)\). The AND-closed
+set is not absorbing. No AND-triple after the scar on the \(k=4\)
+and \(k=8\) odd lifts (prefix). The Fermat covering remains a
+prefix.
+[cycle_cd.md](research/cycle_cd.md).
+The prize is still open.

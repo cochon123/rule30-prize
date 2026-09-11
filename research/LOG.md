@@ -1009,3 +1009,15 @@ prefix.
 cycle_cc.md.
 
 Prize status: still unsolved.
+
+## Cycle CD (2026-09-11)
+
+If a packed triple is AND-closed, the update collapses to a'=d xor a
+and b'=a xor b, and the next triple stays AND-closed iff a forced
+fifth bit. Identically AND forces d=Da. Forbidden triples cannot
+enter S when (e,d)=(0,1). S is not absorbing. No AND-triple after
+the scar on the k=4 and k=8 odd lifts (prefix). Covering still a
+prefix.
+cycle_cd.md.
+
+Prize status: still unsolved.
