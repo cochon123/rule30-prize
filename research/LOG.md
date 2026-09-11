@@ -905,3 +905,14 @@ are not the raw Green AND-parities. Covering still a prefix.
 cycle_bt.md.
 
 Prize status: still unsolved.
+
+## Cycle BU (2026-09-11)
+
+S(2^a,d)=XOR_{m<2^a} G(m,d) vanishes for d<2^{a-1}. Palindrome
+defects chain when 2M>t, so d_C = d_B xor J_B->2U xor J_B->18U,
+with those three Green parities on disjoint packed-bit ranges.
+J_B->2U=0 through k=12 is a prefix; J_B->18U takes both values.
+Covering still a prefix.
+cycle_bu.md.
+
+Prize status: still unsolved.

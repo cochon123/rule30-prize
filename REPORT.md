@@ -1148,3 +1148,14 @@ raw Green AND-parities on those blocks. The Fermat covering remains
 a prefix.
 [cycle_bt.md](research/cycle_bt.md).
 The prize is still open.
+
+## Cycle BU (2026-09-11)
+
+The unweighted Green sum \(S(2^a,d)\) vanishes for every
+\(d<2^{a-1}\). Palindrome defects chain when \(2M>t\), so
+\(d_C=d_B\oplus J_B^{\to 2U}\oplus J_B^{\to 18U}\) with disjoint
+packed-bit supports on \(B\). \(J_B^{\to 2U}=0\) through \(k=12\) is
+a prefix; the right extra takes both values. The Fermat covering
+remains a prefix.
+[cycle_bu.md](research/cycle_bu.md).
+The prize is still open.

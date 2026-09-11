@@ -1,0 +1,103 @@
+{
+  "cycle": "BU",
+  "wall_s": 0.314,
+  "checks": {
+    "all_ok": true
+  },
+  "S_vanish_a_le": 16,
+  "chaining": {
+    "tmax": 24,
+    "amax": 6,
+    "n": 97,
+    "ok": true
+  },
+  "covering": {
+    "kmax": 6,
+    "dB": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "dC": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "JB2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "JB18": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  "left_extra_k12": {
+    "eq": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "left": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "all_eq": true
+  },
+  "lemmas": {
+    "S_pow2_small_d_vanishes": true,
+    "defect_chain_2M_gt_t": true,
+    "dC_eq_dB_xor_JB_extras": true,
+    "disjoint_supports_on_B": true,
+    "JB2_identically_0": null,
+    "JB18_identically_0": false,
+    "dC_identically_dB": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "S_pow2_small_d_vanishes": "LEMMA",
+    "defect_chain_2M_gt_t": "LEMMA",
+    "dC_eq_dB_xor_JB_extras": "LEMMA",
+    "disjoint_supports_on_B": "LEMMA",
+    "JB2_identically_0": "PREFIX",
+    "JB18_identically_0": "KILLED",
+    "dC_identically_dB": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
