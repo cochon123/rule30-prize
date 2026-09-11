@@ -746,6 +746,22 @@ remainder through packed bit 9 is then 1, so
 [cycle_am.md](research/cycle_am.md).
 The prize is still open.
 
+## Cycle AN (2026-09-11)
+
+Over \(\mathrm{GF}(2)\), \(x(1+x)\sum_{m<n}(1+x+x^2)^m=1+(1+x+x^2)^n\).
+At \(n=2^a\) this is the interval \(W(2^a,D)=1\) iff
+\(2^a-1\le D\le 2^{a+1}-2\), which contains Cycle AM’s two endpoint
+identities. Mersenne \(G(2^a-1,d)\) is the mod-3 window
+\(f(d)\oplus f(d-2^a)\oplus f(d-2^{a+1})\); Fermat \(G(2^a+1,d)\) is
+the 3-sparse product with \(1+x+x^2\);
+\(W(3\cdot 2^a,D)\) occupies two intervals. The \(W(T,\cdot)\) support
+splits \(I_k=I^{\mathrm{left}}\oplus I^{\mathrm{right}}\) on packed
+bits \([2,T+1]\) versus \(\ge T+2\). \(I^{\mathrm{left}}=0\) holds on
+\(7\le k\le 12\) but is not proved. The time-\(T\) Mersenne slice is
+not a formula for \(I_k\).
+[cycle_an.md](research/cycle_an.md).
+The prize is still open.
+
 
 
 

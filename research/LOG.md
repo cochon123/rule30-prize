@@ -575,3 +575,15 @@ for k>=4. e_8(t)=1 iff t%4 in {0,1} (t>=8); e_10(t)=1 iff t%4 in
 for k>=5. Bit 10 cancels again. cycle_am.md.
 
 Prize status: still unsolved.
+
+## Cycle AN (2026-09-11)
+
+W generating function x(1+x) sum_{m<n} r^m = 1+r^n over GF(2).
+W(2^a, D)=1 iff D in [2^a-1, 2^{a+1}-2]. Mersenne G(2^a-1,d) is
+f(d) XOR f(d-2^a) XOR f(d-2^{a+1}) with f=1 iff n>=0 and n not 2
+mod 3. Fermat G(2^a+1,d) is 3-sparse. W(3*2^a, D) is two intervals.
+I_k splits as left packed bits [2, T+1] XOR right p>=T+2. I_left=0
+on 7<=k<=12 (prefix, not a theorem). Time-T slice equals the
+Mersenne filter of ANDs at t=T and is not I_k. cycle_an.md.
+
+Prize status: still unsolved.
