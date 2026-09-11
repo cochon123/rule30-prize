@@ -1055,3 +1055,17 @@ and unique XOR triple XOR pentuple is not \(\theta_k\). The Fermat
 covering remains a prefix.
 [cycle_bl.md](research/cycle_bl.md).
 The prize is still open.
+
+## Cycle BM (2026-09-11)
+
+\(G(2T-1,3T-1)\) is the Green hit of packed bit 1 at time \(T\) on
+\(\Theta(T)=c_{3T}\oplus c_T\). It depends only on the odd part \(r\)
+of \(T\), and equals 1 iff \(r=1\) or \(r\equiv 3\pmod{4}\) with no
+adjacent \(0\)-bits. Time \(T\) is a packed-bit-1 hit for every
+\(T=2^k\) and every \(T=3\cdot 2^k\). On \([3U,9U)\) a second hit at
+\(t=4U\) cancels the net bit-1 parity, so
+\(\Theta(3\cdot 2^k)=\varphi^{(9)}_k\oplus\theta_k\) is not a forced
+1. \(\{\theta,\varphi^{(9)}\}\) is not a covering (both vanish at
+\(k=3\)). The Fermat covering remains a prefix.
+[cycle_bm.md](research/cycle_bm.md).
+The prize is still open.

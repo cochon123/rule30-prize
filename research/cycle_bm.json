@@ -1,0 +1,84 @@
+{
+  "cycle": "BM",
+  "wall_s": 0.084,
+  "checks": {
+    "all_ok": true
+  },
+  "prefix": {
+    "k": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "theta": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Theta3U": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "both0": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "lemmas": {
+    "chi_even_doubling": true,
+    "chi_closed_form": true,
+    "leftmost_hits_T_pow2": true,
+    "leftmost_hits_T_3_pow2": true,
+    "two_bit1_hits_3U_9U": true,
+    "Theta3U_identically_1": false,
+    "phi3_or_phi9_all_k": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "chi_even_doubling": "LEMMA",
+    "chi_closed_form": "LEMMA",
+    "leftmost_hits_T_pow2": "LEMMA",
+    "leftmost_hits_T_3_pow2": "LEMMA",
+    "two_bit1_hits_3U_9U": "LEMMA",
+    "Theta3U_identically_1": "KILLED",
+    "phi3_or_phi9_all_k": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
