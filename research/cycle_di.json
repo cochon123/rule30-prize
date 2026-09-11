@@ -1,0 +1,50 @@
+{
+  "cycle": "DI",
+  "wall_s": 0.004,
+  "checks": {
+    "all_ok": true
+  },
+  "len2": {
+    "extra": 22,
+    "packed": 29,
+    "a": {
+      "00": "1101",
+      "10": "1110",
+      "01": "1011",
+      "11": "0111"
+    }
+  },
+  "len4": {
+    "n89": 8,
+    "n372": 8,
+    "prize_extra": 372,
+    "packed": 400
+  },
+  "lemmas": {
+    "len2_all_odd_double_at_22": true,
+    "len2_a_rotations_of_0111": true,
+    "prize_p4_is_8_plus_21": true,
+    "len4_odd_double_at_89_or_372": true,
+    "prize_0010_is_372_orbit": true,
+    "prize_p8_is_29_plus_371": true,
+    "n0_4_always_waits_for_pow2": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "len2_all_odd_double_at_22": "LEMMA",
+    "len2_a_rotations_of_0111": "LEMMA",
+    "prize_p4_is_8_plus_21": "LEMMA",
+    "len4_odd_double_at_89_or_372": "LEMMA",
+    "prize_0010_is_372_orbit": "LEMMA",
+    "prize_p8_is_29_plus_371": "LEMMA",
+    "n0_4_always_waits_for_pow2": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
