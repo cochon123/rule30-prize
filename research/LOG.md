@@ -265,5 +265,24 @@ short traces are unsat. No prize claim.
 Prize status: still unsolved. Next: leftover streaming next-bit
 (ideas9 item 5); whether L_run(w) is unbounded; periods 4–7.
 
+## Cycle K (2026-09-11)
+
+Ideas10. No prize claim.
+
+1. L_run families: concat/repeat of 4369552 and 7503 never beat L=29.
+   Hunt found w=17 mask 281769 with L=31 (t=320..351), stable at
+   tcap=784; Cycle J cap 8w+128 misses it. Not an unbounded family.
+   period2_lrun_family.md.
+2. Periods 4–5, w≤7: L5 still grows (max 22 at w=7); L4≤22 on w=6..7
+   only. No eventual witness. period45_fiber.md.
+3. Defect pairing: density 0.4997 at N=10^5, L(d)/n=0.5, D almost
+   entirely on defects. period2_defects.md.
+4. Streaming next bit: popcount/v2/windows fail on t=8..4096.
+   stream_nextbit.md.
+
+Prize status: still unsolved. Next: leftover forbidden-spacetime-block
+search (ideas10 item 5); periods 6–7; seed-specific constraints the
+all-finite-row scans omit.
+
 
 

@@ -345,5 +345,22 @@ are unsat on \(t=1,\ldots,255\).
 [trace_product.md](research/trace_product.md).
 The prize is still open.
 
+## Cycle K (ideas10, 2026-09-11)
+
+Concatenating Cycle J maximizers never exceeds length 29. A different
+radius-17 row (mask \(281769\)) has a period-2 centre burst of length
+31 that Cycle J’s shorter cap misses. That kills the constant 29, not
+eventual period 2, and is not an unbounded family.
+[period2_lrun_family.md](research/period2_lrun_family.md).
+
+Period-5 finite-row runs still grow at radius 7; period 4 only plateaus
+at the scan edge. Defects that break alternation have density \(\approx 1/2\)
+and \(L(N)\approx N/2\), so they carry \(D(N)\). Cheap summaries of the
+packed row do not determine the next centre bit.
+[period45_fiber.md](research/period45_fiber.md),
+[period2_defects.md](research/period2_defects.md),
+[stream_nextbit.md](research/stream_nextbit.md).
+The prize is still open.
+
 
 
