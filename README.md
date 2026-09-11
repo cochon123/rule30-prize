@@ -18,9 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **BD**. Period-8 tails \(e_{29}\)–\(e_{33}\)
-make bit 33 contribute 1 for every \(k\ge 7\). Nested left is still
-not a closed form. The prize is still open.
+Last completed cycle is **BE**. The Fermat covering
+\(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) has a 1 for every
+\(2\le k\le 15\) (prefix, not a theorem). Nested left is still not a
+closed form. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -122,7 +123,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   are exactly eleven octuple-Green packed bits for \(a\ge 9\); even
   nonuples are ten seeds for \(a\ge 11\) (Cycle BC). Period-8 tails of
   \(e_{29}\)–\(e_{33}\) make unique \(2\)-family bit 33 contribute 1
-  for every \(k\ge 7\) (Cycle BD).
+  for every \(k\ge 7\) (Cycle BD). The Fermat covering
+  \(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) has a 1 for every
+  \(2\le k\le 15\) (Cycle BE, prefix).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

@@ -739,3 +739,12 @@ k>=7 (AW prefix upgraded). Bit 29 never fires. Nested left is still
 not a closed form. cycle_bd.md.
 
 Prize status: still unsolved.
+
+## Cycle BE (2026-09-11)
+
+Fermat covering phi^(3), phi^(5), phi^(9) has a 1 for every 2<=k<=15
+(AK prefix k<=10 extended). No single Fermat q<=17 is identically 1.
+Still a prefix, not a theorem. A proof for all k>=2 would kill every
+eventual period 2^m. cycle_be.md.
+
+Prize status: still unsolved.

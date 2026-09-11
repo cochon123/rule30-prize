@@ -952,6 +952,17 @@ still not a closed form.
 [cycle_bd.md](research/cycle_bd.md).
 The prize is still open.
 
+## Cycle BE (2026-09-11)
+
+Cycle AK’s Fermat covering (at least one of
+\(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) is 1) holds through
+\(k=15\), not only \(k=10\). No single Fermat \(q\le 17\) is
+identically 1. Still a prefix: a proof for all \(k\ge 2\) would kill
+every eventual period \(2^m\). Nested left is still not a closed form.
+[cycle_be.md](research/cycle_be.md).
+The prize is still open.
+
+
 
 
 
