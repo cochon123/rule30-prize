@@ -1,0 +1,118 @@
+{
+  "cycle": "BS",
+  "wall_s": 0.001,
+  "checks": {
+    "all_ok": true
+  },
+  "firing": {
+    "xor": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "rows": [
+      {
+        "k": 1,
+        "f": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "xor": 1
+      },
+      {
+        "k": 2,
+        "f": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "xor": 1
+      },
+      {
+        "k": 3,
+        "f": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "xor": 1
+      },
+      {
+        "k": 4,
+        "f": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "xor": 1
+      },
+      {
+        "k": 5,
+        "f": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "xor": 0
+      },
+      {
+        "k": 6,
+        "f": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "xor": 0
+      },
+      {
+        "k": 7,
+        "f": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "xor": 1
+      },
+      {
+        "k": 8,
+        "f": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "xor": 1
+      }
+    ]
+  },
+  "lemmas": {
+    "G_m_1_eq_m_mod_2": true,
+    "four_left_unique_on_B": true,
+    "four_left_unique_on_C": true,
+    "unique4_xor_identically_1": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "G_m_1_eq_m_mod_2": "LEMMA",
+    "four_left_unique_on_B": "LEMMA",
+    "four_left_unique_on_C": "LEMMA",
+    "unique4_xor_identically_1": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

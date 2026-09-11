@@ -885,3 +885,12 @@ firing values. Covering still a prefix.
 cycle_br.md.
 
 Prize status: still unsolved.
+
+## Cycle BS (2026-09-11)
+
+The four leftmost admissible bits p=2U+2..2U+5 are unique-Green on
+B (times 6U, 6U, 6U+1, 6U) and on C (times 10U, 10U, 10U+1, 10U).
+Their firing XOR takes both values. Covering still a prefix.
+cycle_bs.md.
+
+Prize status: still unsolved.
