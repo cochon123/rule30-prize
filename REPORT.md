@@ -1005,3 +1005,16 @@ The Fermat covering remains a prefix.
 [cycle_bh.md](research/cycle_bh.md).
 The prize is still open.
 
+## Cycle BI (2026-09-11)
+
+The even-target interval \([m,2m]\) has \(H(m)=3\) only for
+\(m\in\{3,6\}\); for \(m\ge 8\) a complementary hit at \(2m-2\) or
+\(2m-1\) forces \(H(m)\ge 4\). Truncated covering windows therefore
+have \(C_{\le}\ge 4\) except two 5-fold \(M=1\) slots. Cycle AX
+leaves only 5-fold \(M=2\), \(r=19\) as a full-window even triple.
+The triple-Green bits are exactly four on the 5-fold annulus and
+three on the 9-fold (\(\{1,2U+1,4U+1\}\)), for every \(k\ge 3\), with
+closed times. Their firing XOR takes both values. The Fermat
+covering remains a prefix.
+[cycle_bi.md](research/cycle_bi.md).
+The prize is still open.

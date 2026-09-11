@@ -134,7 +134,11 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(p=1\), and the 9-fold has exactly the two centre-right bits, for
   every \(k\ge 3\) (Cycle BG). The 5-fold annulus has exactly two
   double-Green bits \(p=2U+1,4U+1\), and the 9-fold exactly three
-  \(p=3U+1,6U+1,7U+1\), for every \(k\ge 3\) (Cycle BH).
+  \(p=3U+1,6U+1,7U+1\), for every \(k\ge 3\) (Cycle BH). The 5-fold
+  annulus has exactly four triple-Green bits
+  \(p=2^{k-2}+1,2^{k-1}+1,5\cdot 2^{k-1}+1,7\cdot 2^{k-1}+1\), and
+  the 9-fold exactly three \(p=1,2U+1,4U+1\), for every \(k\ge 3\)
+  (Cycle BI).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

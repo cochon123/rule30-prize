@@ -781,3 +781,14 @@ productions. Covering still a prefix.
 cycle_bh.md.
 
 Prize status: still unsolved.
+
+## Cycle BI (2026-09-11)
+
+H(m)=3 only for m in {3,6}; complementary hit at 2m-2 or 2m-1 for
+m>=8. Truncated windows have C_le>=4 except two 5-fold M=1 slots;
+Cycle AX leaves only 5-fold M=2, r=19. Exactly four triple-Green
+bits on the 5-fold annulus and three on the 9-fold, for every k>=3.
+Triples are not identically-1 productions. Covering still a prefix.
+cycle_bi.md.
+
+Prize status: still unsolved.
