@@ -1,0 +1,118 @@
+{
+  "cycle": "BT",
+  "wall_s": 0.3,
+  "checks": {
+    "all_ok": true
+  },
+  "freshman_a_le": 12,
+  "general_identity": {
+    "tmax": 24,
+    "amax": 6,
+    "ok": true
+  },
+  "covering": {
+    "kmax": 6,
+    "dA": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "dB": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "dC": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "jb_equals_centre_coboundary": [
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    "jc_equals_centre_coboundary": [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true
+    ]
+  },
+  "defects_k8": {
+    "dA": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "dB": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "dC": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "A_zero": true,
+    "B_both": true,
+    "C_both": true
+  },
+  "lemmas": {
+    "freshman_power2": true,
+    "general_freshman_defect": true,
+    "A_extras_vanish": true,
+    "B_C_extras_survive": true,
+    "dB_eq_JA_extras": true,
+    "cover_fails_iff_JA0_JB_eq_dB_JC_eq_dC": true,
+    "dB_identically_0": false,
+    "dC_identically_0": false,
+    "centre_coboundary_equals_JB": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "freshman_power2": "LEMMA",
+    "general_freshman_defect": "LEMMA",
+    "A_extras_vanish": "LEMMA",
+    "B_C_extras_survive": "LEMMA",
+    "dB_eq_JA_extras": "LEMMA",
+    "cover_fails_iff_JA0_JB_eq_dB_JC_eq_dC": "LEMMA",
+    "dB_identically_0": "KILLED",
+    "dC_identically_0": "KILLED",
+    "centre_coboundary_equals_JB": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

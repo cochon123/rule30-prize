@@ -1136,3 +1136,15 @@ XOR takes both values, so it is not a 1-production. The Fermat
 covering remains a prefix.
 [cycle_bs.md](research/cycle_bs.md).
 The prize is still open.
+
+## Cycle BT (2026-09-11)
+
+A power-of-two Rule-150 step of length \(M=2^a\) is Freshman, so
+\(c_{t+M}\oplus c_t=x(t,\pm M)\oplus J\). The extras vanish on the
+dyadic block \(A\) and survive on \(B\) and \(C\). Covering fails
+at \(k+1\) iff \(J_A=0\) and \(J_B=d_B\) and \(J_C=d_C\). The
+defects take both values, so the centre coboundaries are not the
+raw Green AND-parities on those blocks. The Fermat covering remains
+a prefix.
+[cycle_bt.md](research/cycle_bt.md).
+The prize is still open.
