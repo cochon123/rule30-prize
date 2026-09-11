@@ -1352,3 +1352,14 @@ pair has Hamming at least \(3\). The Fermat covering remains a
 prefix.
 [cycle_cj.md](research/cycle_cj.md).
 The prize is still open.
+
+## Cycle CK (2026-09-11)
+
+\(U\) has no consecutive \(1\)s. Packed update of \(V\) splits on
+\(U\), so \(\delta=U\oplus V\) toggles after \(U=0\) and resets to
+\(T_{t-1}\) after \(U=1\). A half-period shift is a
+length-preserving bijection from \(1\)-runs of odd \(2\)-copy \(T\)
+to \(0\)-runs, hence \(\operatorname{ham}(U,V)=|T_0|\) for every
+even \(|T_0|\ge 2\). The Fermat covering remains a prefix.
+[cycle_ck.md](research/cycle_ck.md).
+The prize is still open.
