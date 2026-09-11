@@ -976,6 +976,21 @@ Fermat covering remains a prefix.
 [cycle_bf.md](research/cycle_bf.md).
 The prize is still open.
 
+## Cycle BG (2026-09-11)
+
+The first even-target hit is the diagonal \(G(m,2m)=1\). A second hit
+always exists in \((m,3m/2+1]\), by a mod-4 case analysis
+(\(n=m+1\) if \(m\equiv 0,1\pmod{4}\); otherwise a 2-adic step
+\(2^{v_2(m+2)-1}\) or \(2^{v_2(m+1)-1}\)). Unique even Green windows
+therefore satisfy \(3d\ge 4N-2\), which the 5-fold and 9-fold annuli
+contradict for every \(M=k-j\ge 1\). Together with the \(r=1\) count,
+the unique-Green bits are exactly \(\{1,U+1,3U+1\}\) on the 5-fold
+annulus and exactly \(\{U+1,5U+1\}\) on the 9-fold, for every
+\(k\ge 3\). Extra unique bits are not identically-1 productions. The
+Fermat covering remains a prefix.
+[cycle_bg.md](research/cycle_bg.md).
+The prize is still open.
+
 
 
 

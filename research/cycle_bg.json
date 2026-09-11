@@ -1,0 +1,133 @@
+{
+  "cycle": "BG",
+  "wall_s": 0.092,
+  "checks": {
+    "all_ok": true
+  },
+  "annulus": [
+    {
+      "k": 3,
+      "uniq_q5": [
+        1,
+        9,
+        25
+      ],
+      "uniq_q9": [
+        9,
+        41
+      ],
+      "n_p1_q9": 3,
+      "r1_unique_q5": [
+        4,
+        5
+      ],
+      "r1_unique_q9": [
+        5,
+        6
+      ]
+    },
+    {
+      "k": 4,
+      "uniq_q5": [
+        1,
+        17,
+        49
+      ],
+      "uniq_q9": [
+        17,
+        81
+      ],
+      "n_p1_q9": 3,
+      "r1_unique_q5": [
+        5,
+        6
+      ],
+      "r1_unique_q9": [
+        6,
+        7
+      ]
+    },
+    {
+      "k": 5,
+      "uniq_q5": [
+        1,
+        33,
+        97
+      ],
+      "uniq_q9": [
+        33,
+        161
+      ],
+      "n_p1_q9": 3,
+      "r1_unique_q5": [
+        6,
+        7
+      ],
+      "r1_unique_q9": [
+        7,
+        8
+      ]
+    },
+    {
+      "k": 6,
+      "uniq_q5": [
+        1,
+        65,
+        193
+      ],
+      "uniq_q9": [
+        65,
+        321
+      ],
+      "n_p1_q9": 3,
+      "r1_unique_q5": [
+        7,
+        8
+      ],
+      "r1_unique_q9": [
+        8,
+        9
+      ]
+    },
+    {
+      "k": 7,
+      "uniq_q5": [
+        1,
+        129,
+        385
+      ],
+      "uniq_q9": [
+        129,
+        641
+      ],
+      "n_p1_q9": 3,
+      "r1_unique_q5": [
+        8,
+        9
+      ],
+      "r1_unique_q9": [
+        9,
+        10
+      ]
+    }
+  ],
+  "lemmas": {
+    "C_unique_even": true,
+    "second_hit_2m": true,
+    "r1_unique_js": true,
+    "unique_exactly_q5_q9": true,
+    "extra_unique_always_fire": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "C_unique_even": "LEMMA",
+    "second_hit_2m": "LEMMA",
+    "r1_unique_js": "LEMMA",
+    "unique_exactly_q5_q9": "LEMMA",
+    "extra_unique_always_fire": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

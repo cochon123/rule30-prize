@@ -759,3 +759,14 @@ phi^(q)_{k+1}=phi^(2q)_k XOR I_{k+1}. Covering still a prefix.
 cycle_bf.md.
 
 Prize status: still unsolved.
+
+## Cycle BG (2026-09-11)
+
+Second hit for G(.,2m) in (m, 3m/2+1] by mod-4 / 2-adic cases; unique even windows have
+3d>=4N-2, which 5-fold and 9-fold annuli contradict for M>=1.
+Exactly three unique-Green bits on the 5-fold annulus and two on the
+9-fold, for every k>=3 (BF prefix upgraded). Extra unique bits are
+not identically-1 productions. Covering still a prefix.
+cycle_bg.md.
+
+Prize status: still unsolved.
