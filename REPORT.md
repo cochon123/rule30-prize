@@ -578,6 +578,21 @@ recurrences for \(I_k\) fail.
 [cycle_aa.md](research/cycle_aa.md).
 The prize is still open.
 
+## Cycle AB (2026-09-11)
+
+The Rule 30 update makes \(c\oplus c'=\ell\oplus r\oplus(c\land r)\),
+so summing over a dyadic annulus telescopes to \(I_k\). The Green
+remainder is therefore the palindrome-defect parity
+\(R_k=\bigoplus(\ell\oplus r)\). That defect cannot be eventually 0
+(it would force an eventually constant centre). Spatial vacuums about
+the origin have radius at most 7 on \(t<2^{16}\) and do not construct
+the length-19 centre 0-runs. Infinitely many centred `000`s would
+kill every isolated-zero eventual period, including period 2; that is
+unproved.
+[cycle_ab.md](research/cycle_ab.md).
+The prize is still open.
+
+
 
 
 
