@@ -1,0 +1,43 @@
+{
+  "cycle": "CC",
+  "wall_s": 0.001,
+  "checks": {
+    "all_ok": true
+  },
+  "ham4": {
+    "odd_p": 29,
+    "n": 4,
+    "min_bad": 2,
+    "n011_zero": [
+      29,
+      30
+    ]
+  },
+  "ham8": {
+    "odd_p": 400,
+    "n": 113,
+    "min_bad": 3,
+    "n_n011_zero": 14
+  },
+  "lemmas": {
+    "A_eq_DB_iff_spatial_AND": true,
+    "later_ident0_iff_AND_triple": true,
+    "always_011_witness": false,
+    "no_AND_triple_after_scar_all_k": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "A_eq_DB_iff_spatial_AND": "LEMMA",
+    "later_ident0_iff_AND_triple": "LEMMA",
+    "always_011_witness": "KILLED",
+    "no_AND_triple_after_scar_all_k": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
