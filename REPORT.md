@@ -1289,3 +1289,15 @@ at the ident-\(0\)/ident-\(1\) scar triple, where \(011\) kills AND
 (prefix). The Fermat covering remains a prefix.
 [cycle_ce.md](research/cycle_ce.md).
 The prize is still open.
+
+## Cycle CF (2026-09-11)
+
+Ident-\(1\) at packed bit \(p\ge 2\) iff ident-\(0\) at \(p-2\).
+Consecutive ident-\(1\) occurs only at bits \(0\) and \(1\): a later
+consecutive pair would force ident-\(0\) at \(p\) and \(p+2\).
+Both implications with \(c\not\equiv 0\), and identically AND with
+\(c\not\equiv 0\), occur on consistent length-\(4\) windows (killed
+as orbit-free). After the scar, both implications hold together only
+at \(c\equiv 0\) (prefix). The Fermat covering remains a prefix.
+[cycle_cf.md](research/cycle_cf.md).
+The prize is still open.

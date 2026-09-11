@@ -1,0 +1,47 @@
+{
+  "cycle": "CF",
+  "wall_s": 0.609,
+  "checks": {
+    "all_ok": true
+  },
+  "twin": {
+    "n": 10
+  },
+  "abstract": {
+    "n_ok": 256,
+    "n_both_nz": 30,
+    "n_and_nz": 14,
+    "n_both_z": 17
+  },
+  "ham4_both": [
+    31
+  ],
+  "ham8_both": [
+    402
+  ],
+  "lemmas": {
+    "ident1_iff_ident0_shift2": true,
+    "consecutive_ident1_only_01": true,
+    "both_implies_c_eq_0_orbit_free": false,
+    "AND_implies_c_eq_0_orbit_free": false,
+    "both_implications_only_c_eq_0_all_k": null,
+    "no_AND_triple_after_scar_all_k": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "ident1_iff_ident0_shift2": "LEMMA",
+    "consecutive_ident1_only_01": "LEMMA",
+    "both_implies_c_eq_0_orbit_free": "KILLED",
+    "AND_implies_c_eq_0_orbit_free": "KILLED",
+    "both_implications_only_c_eq_0_all_k": "PREFIX",
+    "no_AND_triple_after_scar_all_k": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

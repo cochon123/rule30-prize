@@ -1032,3 +1032,14 @@ AND (prefix). Covering still a prefix.
 cycle_ce.md.
 
 Prize status: still unsolved.
+
+## Cycle CF (2026-09-11)
+
+Ident-1 at p>=2 iff ident-0 at p-2. Consecutive ident-1 only at
+bits 0 and 1. Both implications with c not 0, and identically AND
+with c not 0, exist on consistent length-4 windows (killed as
+orbit-free). After the scar both hold together only at c=0 (prefix).
+Covering still a prefix.
+cycle_cf.md.
+
+Prize status: still unsolved.
