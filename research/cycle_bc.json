@@ -1,0 +1,245 @@
+{
+  "cycle": "BC",
+  "wall_s": 6.761,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "non_s_sets": true,
+    "even_octuples": true,
+    "even_nonuples": true,
+    "odd_lifts_8": true,
+    "odd_lifts_9": true,
+    "oct_mechanisms": true,
+    "non_mechanisms": true
+  },
+  "annulus": [
+    {
+      "k": 5,
+      "T": 16,
+      "I": 1,
+      "n8": 5,
+      "n9": 0,
+      "oct": [
+        24,
+        26,
+        28,
+        30,
+        31
+      ],
+      "non": [],
+      "expected8": [
+        24,
+        26,
+        28,
+        30,
+        31
+      ],
+      "expected9": [],
+      "family_times": true,
+      "oct_xor": 1,
+      "non_xor": 0
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "I": 1,
+      "n8": 7,
+      "n9": 0,
+      "oct": [
+        42,
+        47,
+        50,
+        51,
+        55,
+        59,
+        61
+      ],
+      "non": [],
+      "expected8": [
+        42,
+        47,
+        50,
+        51,
+        55,
+        59,
+        61
+      ],
+      "expected9": [],
+      "family_times": true,
+      "oct_xor": 0,
+      "non_xor": 0
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "n8": 8,
+      "n9": 2,
+      "oct": [
+        68,
+        83,
+        93,
+        99,
+        101,
+        109,
+        117,
+        121
+      ],
+      "non": [
+        38,
+        54
+      ],
+      "expected8": [
+        68,
+        83,
+        93,
+        99,
+        101,
+        109,
+        117,
+        121
+      ],
+      "expected9": [
+        38,
+        54
+      ],
+      "family_times": true,
+      "oct_xor": 0,
+      "non_xor": 0
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "n8": 10,
+      "n9": 4,
+      "oct": [
+        130,
+        132,
+        135,
+        165,
+        185,
+        197,
+        201,
+        217,
+        233,
+        241
+      ],
+      "non": [
+        38,
+        54,
+        75,
+        107
+      ],
+      "expected8": [
+        130,
+        132,
+        135,
+        165,
+        185,
+        197,
+        201,
+        217,
+        233,
+        241
+      ],
+      "expected9": [
+        38,
+        54,
+        75,
+        107
+      ],
+      "family_times": true,
+      "oct_xor": 1,
+      "non_xor": 1
+    },
+    {
+      "k": 9,
+      "T": 256,
+      "I": 1,
+      "n8": 11,
+      "n9": 8,
+      "oct": [
+        258,
+        259,
+        263,
+        269,
+        329,
+        369,
+        393,
+        401,
+        433,
+        465,
+        481
+      ],
+      "non": [
+        38,
+        54,
+        75,
+        107,
+        132,
+        149,
+        196,
+        213
+      ],
+      "expected8": [
+        258,
+        259,
+        263,
+        269,
+        329,
+        369,
+        393,
+        401,
+        433,
+        465,
+        481
+      ],
+      "expected9": [
+        38,
+        54,
+        75,
+        107,
+        132,
+        149,
+        196,
+        213
+      ],
+      "family_times": true,
+      "oct_xor": 0,
+      "non_xor": 0
+    }
+  ],
+  "oct_xor_mismatch_k": [
+    6,
+    8,
+    9
+  ],
+  "non_xor_mismatch_k": [
+    8,
+    9
+  ],
+  "lemmas": {
+    "no_even_octuples_a_ge_10": true,
+    "exactly_eleven_octuples": true,
+    "even_nonuples_exactly_ten": true,
+    "nonuples_are_ten_families": true,
+    "oct_xor_is_I": false,
+    "non_xor_is_I": false,
+    "nested_left_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "no_even_octuples_a_ge_10": "LEMMA",
+    "exactly_eleven_octuples": "LEMMA",
+    "even_nonuples_exactly_ten": "LEMMA",
+    "nonuples_are_ten_families": "LEMMA",
+    "oct_xor_is_I": "KILLED",
+    "non_xor_is_I": "KILLED",
+    "nested_left_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
