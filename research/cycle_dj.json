@@ -1,0 +1,43 @@
+{
+  "cycle": "DJ",
+  "wall_s": 0.005,
+  "checks": {
+    "all_ok": true
+  },
+  "leftover": {
+    "2": 0,
+    "4": 3,
+    "8": 112,
+    "16": 43205
+  },
+  "gap": {
+    "E2": 22,
+    "E4": [
+      89,
+      372
+    ],
+    "cg8_extra": 130,
+    "k16_leftover": 43205
+  },
+  "lemmas": {
+    "leftover_2_4_8_16": true,
+    "no_second_odd_in_leftover_k_2_4_8": true,
+    "next_odd_always_in_pow2_high_half": false,
+    "k16_leftover_too_short": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "leftover_2_4_8_16": "LEMMA",
+    "no_second_odd_in_leftover_k_2_4_8": "LEMMA",
+    "next_odd_always_in_pow2_high_half": "KILLED",
+    "k16_leftover_too_short": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
