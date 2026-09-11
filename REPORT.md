@@ -1227,3 +1227,17 @@ the \(k=4\) and \(k=8\) lifts (prefix). Even weight is not invariant
 under unique continuation. The Fermat covering remains a prefix.
 [cycle_bz.md](research/cycle_bz.md).
 The prize is still open.
+
+## Cycle CA (2026-09-11)
+
+Packed update \(U_{t+1}=A_t\oplus(B_t\lor U_t)\). Unique
+continuation equals \(B\) iff \(A\) is the cyclic derivative \(DB\).
+A later ident-\(0\) is exactly a later \(A=DB\) pair. After an odd
+doubling \(T=T_0\|\lnot T_0\), the scar pairs \((0,T)\), \((T,1)\),
+\((1,\lnot T)\) are not derivatives when the pre-toggle period is a
+\(2\)-power at least \(2\). The rest of the \(k=4\) and \(k=8\) high
+halves also avoid \(A=DB\) (prefix). Post-scar differences of
+\(B\oplus U\) span \(\mathbb{F}_2^{16}\) at \(k=8\); there is no
+linear syndrome. The Fermat covering remains a prefix.
+[cycle_ca.md](research/cycle_ca.md).
+The prize is still open.

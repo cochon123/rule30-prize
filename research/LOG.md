@@ -974,3 +974,15 @@ toggle the Hamming distance stays positive on the k=4 and k=8 lifts
 cycle_bz.md.
 
 Prize status: still unsolved.
+
+## Cycle CA (2026-09-11)
+
+Unique continuation equals B iff A is the cyclic derivative of B.
+A later ident-0 is exactly a later A=DB pair. After an odd doubling
+the scar pairs (0,T), (T,1), (1,~T) are not derivatives (pre-toggle
+period a 2-power at least 2). The rest of the k=4 and k=8 high
+halves also avoid A=DB (prefix). No linear functional of B xor U
+is constant after the scar. Covering still a prefix.
+cycle_ca.md.
+
+Prize status: still unsolved.
