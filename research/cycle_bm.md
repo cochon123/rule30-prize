@@ -6,10 +6,12 @@ Even doubling gives \(\chi(2S)=\chi(S)\), so the value depends only
 on the odd part \(r\) of \(T\). The odd cases reduce to
 \(\chi(1)=1\), \(\chi(4p+1)=0\) for \(p\ge 1\), and
 \(\chi(4p+3)=\chi(p+1)\), which match the predicate “\(r=1\), or
-\(r\equiv 3\pmod{4}\) with no adjacent \(0\)-bits”. In particular
-the hit is identically 1 for \(T=2^k\) (Cycle AJ) and for
-\(T=3\cdot 2^k\), so \(\varphi^{(9)}_k\oplus\theta_k\) always has a
-forced leftmost-11. That remainder is not identically 1, and
+\(r\equiv 3\pmod{4}\) with no adjacent \(0\)-bits”. Time \(T\) itself
+is therefore a hit for every \(T=2^k\) (Cycle AJ, unique on
+\([U,3U)\)) and every \(T=3\cdot 2^k\). On \([3U,9U)\) there is a
+second packed-bit-1 hit at \(t=4U\), so the two always-firing hits
+cancel and \(\varphi^{(9)}_k\oplus\theta_k\) has net bit-1 parity 0.
+That remainder is not identically 1, and
 \(\{\theta,\varphi^{(9)}\}\) is not a covering (both vanish at
 \(k=3\)). Not a prize claim: the Fermat covering remains a prefix.
 
@@ -52,17 +54,30 @@ or \(r\equiv 3\pmod{4}\) and the binary of \(r\) has no substring
 \(\mathrm{pred}(4p+3)=\mathrm{pred}(p+1)\). Therefore
 \(\chi(T)=\mathrm{pred}(T)\). Certified \(1\le T\le 4096\).
 
-So the leftmost 11 contributes to \(\Theta(T)\) precisely for those
-\(T\). Families: identically 1 on \(T=2^k\), \(3\cdot 2^k\),
-\(7\cdot 2^k\), \(11\cdot 2^k\); identically 0 on \(T=5\cdot 2^k\)
-and \(T=9\cdot 2^k\). Certified \(k\le 12\).
+So the leftmost 11 contributes at time \(T\) precisely for those
+\(T\). That is a single-time statement, not a net-parity statement
+on \([T,3T)\). Families for \(\chi(T)\): identically 1 on
+\(T=2^k\), \(3\cdot 2^k\), \(7\cdot 2^k\), \(11\cdot 2^k\);
+identically 0 on \(T=5\cdot 2^k\) and \(T=9\cdot 2^k\). Certified
+\(k\le 12\).
+
+## Lemma (two bit-1 hits on \([3U,9U)\))
+
+Let \(U=2^k\) and \(T=3U\). Cycle AR/BF: \(G(m,9U-1)=1\) iff
+\(2^k\mid(m+1)\) and \(G((m+1)/U-1,8)=1\). On \(t\in[3U,9U)\) one
+has \(m+1=\lambda U\) with \(\lambda\in\{1,\ldots,6\}\), and
+\(G(\lambda-1,8)=1\) only for \(\lambda\in\{5,6\}\). The times are
+\(t=(9-\lambda)U\), i.e. \(t=4U\) and \(t=3U\). Packed bit 1 always
+fires (Cycle AA), so the two hits cancel and the bit-1 parity on
+this annulus is 0. Hence \(\Theta(3U)=\varphi^{(9)}_k\oplus\theta_k\)
+has **no** forced net 1 from packed bit 1. Certified \(2\le k\le 8\).
 
 ## \(\Theta(3\cdot 2^k)\) identically 1 — killed
 
-For \(T=3U\) with \(U=2^k\) one has \(\chi(T)=1\), hence
-\(\varphi^{(9)}_k\oplus\theta_k=\Theta(3U)=1\oplus S'_k\) with a
-forced packed-bit-1 hit at time \(3U\). On \(2\le k\le 12\) the
-value takes both \(0\) and \(1\) (zero at \(k=2\)). **Killed.**
+\(\chi(3U)=1\) only says time \(3U\) is a hit. The second hit at
+\(4U\) cancels it. On \(2\le k\le 12\) the value \(\Theta(3U)\) takes
+both \(0\) and \(1\) (zero at \(k=2\)). **Killed** as a 1-production,
+and as \(1\oplus S'\) with a net forced 1.
 
 ## \(\{\theta,\varphi^{(9)}\}\) covering — killed
 
@@ -75,10 +90,10 @@ the Fermat covering through \(k=15\).
 ## Verdict
 
 `LEMMA` (\(\chi(2S)=\chi(S)\); \(G(2p,3p)=0\); odd reduction;
-\(\chi=\mathrm{pred}\); leftmost 11 hits \(\Theta(2^k)\) and
-\(\Theta(3\cdot 2^k)\)).
-`KILLED` (\(\Theta(3\cdot 2^k)\equiv 1\);
-\(\theta_k\lor\varphi^{(9)}_k\) for all \(k\ge 2\)).
+\(\chi=\mathrm{pred}\); leftmost 11 hits at \(T=2^k\) (unique) and
+at \(T=3\cdot 2^k\); exactly two bit-1 hits on \([3U,9U)\), net 0).
+`KILLED` (\(\Theta(3\cdot 2^k)\equiv 1\), including the net-forced-1
+reading; \(\theta_k\lor\varphi^{(9)}_k\) for all \(k\ge 2\)).
 `PREFIX` (Fermat covering for all \(k\ge 2\)).
 `OPEN` (some \(\varphi^{(q)}_k=1\) infinitely often). Prize unsolved.
 

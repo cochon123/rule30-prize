@@ -1,6 +1,6 @@
 {
   "cycle": "BM",
-  "wall_s": 0.083,
+  "wall_s": 0.084,
   "checks": {
     "all_ok": true
   },
@@ -63,6 +63,7 @@
     "chi_closed_form": true,
     "leftmost_hits_T_pow2": true,
     "leftmost_hits_T_3_pow2": true,
+    "two_bit1_hits_3U_9U": true,
     "Theta3U_identically_1": false,
     "phi3_or_phi9_all_k": false,
     "fermat_cover_359_all_k": null,
@@ -73,6 +74,7 @@
     "chi_closed_form": "LEMMA",
     "leftmost_hits_T_pow2": "LEMMA",
     "leftmost_hits_T_3_pow2": "LEMMA",
+    "two_bit1_hits_3U_9U": "LEMMA",
     "Theta3U_identically_1": "KILLED",
     "phi3_or_phi9_all_k": "KILLED",
     "fermat_cover_359_all_k": "PREFIX",

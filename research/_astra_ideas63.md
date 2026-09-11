@@ -15,10 +15,11 @@ These are proposals.
    A theorem that for every \(k\ge 2\) at least one of
    \(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) is 1 would kill every
    eventual period \(2^m\). Unique through pentuple Green remainder
-   is closed on all three covering annuli. Leftmost 11 hits both
-   \(\theta_k\) and \(\Theta(3\cdot 2^k)=\varphi^{(9)}_k\oplus\theta_k\),
-   but \(\{\theta,\varphi^{(9)}\}\) still fails at \(k=3\) and is
-   unproved for \(k\ge 4\). Do not hunt another finite nested-left
+   is closed on all three covering annuli. Time \(T=3\cdot 2^k\) is
+   a packed-bit-1 hit on \(\Theta(3\cdot 2^k)=\varphi^{(9)}_k\oplus\theta_k\),
+   but a second hit at \(t=4U\) cancels the net parity, so that
+   remainder is not a forced 1. \(\{\theta,\varphi^{(9)}\}\) still
+   fails at \(k=3\) and is unproved for \(k\ge 4\). Do not hunt another finite nested-left
    family. Do not treat \(I^{\mathrm{left}}=0\) as proved. Do not
    treat \(c_{5\cdot 2^k}\land r_{5\cdot 2^k}=0\) as proved. Do not
    treat the 9-fold pentuple XOR as \(\varphi^{(9)}\). Do not treat

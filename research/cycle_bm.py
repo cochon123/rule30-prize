@@ -7,10 +7,11 @@ remainder Theta(T)=c_{3T} xor c_T. Even doubling gives chi(2S)=chi(S),
 so the value depends only on the odd part r of T. For r=4p+1>1 the
 count vanishes (G(2p,3p)=0). For r=4p+3 it reduces to chi(p+1). Those
 recurrences match the predicate: r=1, or r≡3 (mod 4) with no adjacent
-0-bits. In particular the hit is 1 for every T=2^k (Cycle AJ) and every
-T=3*2^k, so phi^{(9)}_k xor theta_k always has a forced leftmost-11.
-It is not identically 1, and {theta, phi^{(9)}} is not a covering
-(fails at k=3).
+0-bits. In particular the hit at time T is 1 for every T=2^k (Cycle AJ) and every
+T=3*2^k. On [3U,9U) a second packed-bit-1 hit at t=4U cancels it, so
+phi^{(9)}_k xor theta_k has net bit-1 parity 0.
+It is not identically 1 (two bit-1 hits on [3U,9U) cancel), and
+{theta, phi^{(9)}} is not a covering (fails at k=3).
 
 Not a prize claim: the Fermat covering remains a prefix.
 
@@ -124,6 +125,26 @@ def families_ok(kmax: int) -> bool:
     return True
 
 
+def bit1_times(T: int, q: int = 3) -> list[int]:
+    end = q * T
+    ts = []
+    for t in range(T, end):
+        if G(end - t - 1, end - 1):
+            ts.append(t)
+    return ts
+
+
+def two_hits_3U_ok(kmax: int) -> bool:
+    for k in range(2, kmax + 1):
+        U = 1 << k
+        ts = bit1_times(3 * U)
+        if ts != [3 * U, 4 * U]:
+            return False
+        if len(bit1_times(U)) != 1:
+            return False
+    return True
+
+
 def theta_prefix_ok(kmax: int) -> dict:
     c = packed_center_bits(9 * (1 << kmax) + 1)
     th, th3, both0 = [], [], []
@@ -152,11 +173,12 @@ def self_checks(
     odd: bool,
     match: bool,
     fam: bool,
+    two: bool,
     pref: dict,
 ) -> dict:
     assert list(c20) == KNOWN20
     assert list(c20) == list(experiment_center_bits(20))
-    assert dbl and g23 and odd and match and fam
+    assert dbl and g23 and odd and match and fam and two
     assert chi(1) == 1 and chi(3) == 1 and chi(5) == 0 and chi(9) == 0
     assert pref["theta_both"] and pref["Theta3U_both"]
     assert pref["k3_both0"]
@@ -175,8 +197,9 @@ def main() -> None:
     odd = odd_cases_ok(256)
     match = pred_match_ok(4096)
     fam = families_ok(12)
+    two = two_hits_3U_ok(8)
     pref = theta_prefix_ok(12)
-    checks = self_checks(c20, dbl, g23, odd, match, fam, pref)
+    checks = self_checks(c20, dbl, g23, odd, match, fam, two, pref)
     dump = {
         "cycle": "BM",
         "wall_s": round(time.perf_counter() - t0, 3),
@@ -192,6 +215,7 @@ def main() -> None:
             "chi_closed_form": True,
             "leftmost_hits_T_pow2": True,
             "leftmost_hits_T_3_pow2": True,
+            "two_bit1_hits_3U_9U": True,
             "Theta3U_identically_1": False,
             "phi3_or_phi9_all_k": False,
             "fermat_cover_359_all_k": None,
@@ -202,6 +226,7 @@ def main() -> None:
             "chi_closed_form": "LEMMA",
             "leftmost_hits_T_pow2": "LEMMA",
             "leftmost_hits_T_3_pow2": "LEMMA",
+            "two_bit1_hits_3U_9U": "LEMMA",
             "Theta3U_identically_1": "KILLED",
             "phi3_or_phi9_all_k": "KILLED",
             "fermat_cover_359_all_k": "PREFIX",
