@@ -565,8 +565,18 @@ is eventually constant iff \(I_k\) is eventually 0. Local formulas for
 fail. [cycle_z.md](research/cycle_z.md).
 The prize is still open.
 
+## Cycle AA (2026-09-11)
 
-
+The central trinomial coefficient \([x^m](1+x+x^2)^m\) is \(1\) over
+\(\mathrm{GF}(2)\) for every \(m\), so every centre-right AND
+\(c_t\land r_t\) on \([2^{k-1},2^k)\) contributes to \(I_k\). This is
+not a closed form: the off-centre remainder already disagrees at
+\(k=3\). Packed bit 1 is identically 1 for \(t\ge 1\), but that
+leftmost 11 never reaches the next dyadic centre.
+\(G(m,m-1)=v_2(m+1)\bmod 2\). Mersenne-time 3-windows and small
+recurrences for \(I_k\) fail.
+[cycle_aa.md](research/cycle_aa.md).
+The prize is still open.
 
 
 
