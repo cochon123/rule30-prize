@@ -1,0 +1,46 @@
+{
+  "cycle": "DG",
+  "wall_s": 1.496,
+  "checks": {
+    "all_ok": true
+  },
+  "prize_tuple": {
+    "4": {
+      "p": 29,
+      "a_type": "N"
+    },
+    "8": {
+      "p": 400,
+      "a_type": "N"
+    },
+    "16": {
+      "p": 87867,
+      "a_type": "N"
+    }
+  },
+  "lemmas": {
+    "xorcat_s_cat_not_s_is_n_mod_2": true,
+    "E_never_odd_double_O_iff_half_odd": true,
+    "pi_k_ge_4_for_k_ge_3": true,
+    "odd_ident0_k_ge_3_needs_type_N": true,
+    "post_odd_double_4bit_gap": true,
+    "k2_O_is_the_half_odd_exception": true,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "xorcat_s_cat_not_s_is_n_mod_2": "LEMMA",
+    "E_never_odd_double_O_iff_half_odd": "LEMMA",
+    "pi_k_ge_4_for_k_ge_3": "LEMMA",
+    "odd_ident0_k_ge_3_needs_type_N": "LEMMA",
+    "post_odd_double_4bit_gap": "LEMMA",
+    "k2_O_is_the_half_odd_exception": "LEMMA",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
