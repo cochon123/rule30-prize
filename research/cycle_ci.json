@@ -1,0 +1,90 @@
+{
+  "cycle": "CI",
+  "wall_s": 6.1,
+  "checks": {
+    "all_ok": true
+  },
+  "identities": {
+    "n_ok": 70982,
+    "su_vals": {
+      "2": [
+        3
+      ],
+      "4": [
+        3,
+        6
+      ],
+      "6": [
+        3,
+        6,
+        9
+      ],
+      "8": [
+        3,
+        6,
+        9,
+        12
+      ],
+      "10": [
+        3,
+        6,
+        9,
+        12,
+        15
+      ],
+      "12": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18
+      ],
+      "16": [
+        3,
+        6,
+        9,
+        12,
+        15,
+        18,
+        21,
+        24
+      ]
+    }
+  },
+  "n0_16_tail": {
+    "n0": 16,
+    "n_extra": 24,
+    "n_ok": 65534,
+    "n_none": 0,
+    "min_h": 3,
+    "n_h1": 0
+  },
+  "lemmas": {
+    "reset_toggle_U": true,
+    "S_DU_iff_U_S": true,
+    "second_pair_never_equal": true,
+    "ham_UV_eq_n0_through_16": true,
+    "ham_SU_mult3_ge3_through_16": true,
+    "n0_16_tail_hamming_ge_3": true,
+    "all_T0_2power_hamming_ge_1": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "reset_toggle_U": "LEMMA",
+    "S_DU_iff_U_S": "LEMMA",
+    "second_pair_never_equal": "LEMMA",
+    "ham_UV_eq_n0_through_16": "LEMMA",
+    "ham_SU_mult3_ge3_through_16": "LEMMA",
+    "n0_16_tail_hamming_ge_3": "LEMMA",
+    "all_T0_2power_hamming_ge_1": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
