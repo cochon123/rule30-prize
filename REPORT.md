@@ -1030,3 +1030,16 @@ giving two quad-Green bits on each covering annulus for every
 The Fermat covering remains a prefix.
 [cycle_bj.md](research/cycle_bj.md).
 The prize is still open.
+
+## Cycle BK (2026-09-11)
+
+\(C_{\le}=5\) occurs at nine \((M,r)\) slots on the 5-fold covering
+annulus and seven on the 9-fold. Those match Cycle BA’s even
+pentuple seeds on full windows (only \(r=17,37,39,79\) survive) plus
+truncated residues. For \(k\ge 4\) there are exactly nine
+pentuple-Green bits on the 5-fold annulus and exactly seven on the
+9-fold, with Green-lift times. Their firing XOR takes both values
+and is not a closed form for \(\varphi^{(5)}\) or \(\varphi^{(9)}\).
+The Fermat covering remains a prefix.
+[cycle_bk.md](research/cycle_bk.md).
+The prize is still open.

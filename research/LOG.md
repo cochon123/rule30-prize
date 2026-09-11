@@ -802,3 +802,14 @@ not identically-1 productions. Covering still a prefix.
 cycle_bj.md.
 
 Prize status: still unsolved.
+
+## Cycle BK (2026-09-11)
+
+C_le=5 at nine 5-fold (M,r) slots and seven 9-fold slots; BA even
+pentuples leave only r=17,37,39,79 on full windows. Exactly nine
+pentuple-Green bits on the 5-fold annulus for k>=4 (eight at k=3)
+and seven on the 9-fold. Pentuples are not identically-1 productions.
+Covering still a prefix.
+cycle_bk.md.
+
+Prize status: still unsolved.
