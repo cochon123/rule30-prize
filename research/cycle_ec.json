@@ -1,0 +1,94 @@
+{
+  "cycle": "EC",
+  "wall_s": 4.278,
+  "checks": {
+    "all_ok": true
+  },
+  "type_parity_n": 49,
+  "inherit_odd": {
+    "1": 4,
+    "2": 8,
+    "3": 16,
+    "4": 32,
+    "5": 64
+  },
+  "inherit_even_n": 56,
+  "n0_12": {
+    "ok": true,
+    "n89": 8,
+    "n372": 8,
+    "n_none": 4080
+  },
+  "extra6_odd_n0": {
+    "1": 2,
+    "3": 2,
+    "5": 2,
+    "7": 2,
+    "9": 2,
+    "11": 2
+  },
+  "pi_pow2": [
+    1,
+    2,
+    4,
+    4,
+    8,
+    8,
+    8,
+    8,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    32,
+    32,
+    32
+  ],
+  "odd_n0_left_machine": {
+    "1": 1,
+    "2": 2,
+    "4": 4,
+    "8": 8,
+    "16": 16
+  },
+  "lemmas": {
+    "rfold_type_any_n0": true,
+    "extra_invariant_odd_rfold": true,
+    "extra_invariant_even_rfold_E": true,
+    "n0_12_extra_89_372_are_n4_3folds": true,
+    "extra6_iff_T_alternating": true,
+    "pow2_n0_fold_primitive": true,
+    "left_machine_pi_always_pow2": true,
+    "extra6_and_extra22_folds_unreachable_after_k2": true,
+    "extra_ge_22_all_n0": false,
+    "extra_ge_22_all_even_n0": null,
+    "at_most_one_odd_all_k": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "rfold_type_any_n0": "LEMMA",
+    "extra_invariant_odd_rfold": "LEMMA",
+    "extra_invariant_even_rfold_E": "LEMMA",
+    "n0_12_extra_89_372_are_n4_3folds": "LEMMA",
+    "extra6_iff_T_alternating": "LEMMA",
+    "pow2_n0_fold_primitive": "LEMMA",
+    "left_machine_pi_always_pow2": "LEMMA",
+    "extra6_and_extra22_folds_unreachable_after_k2": "LEMMA",
+    "extra_ge_22_all_n0": "KILLED",
+    "extra_ge_22_all_even_n0": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
