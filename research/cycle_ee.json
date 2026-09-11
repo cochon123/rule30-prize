@@ -1,0 +1,79 @@
+{
+  "cycle": "EE",
+  "wall_s": 0.006,
+  "checks": {
+    "all_ok": true
+  },
+  "unfold_0111": {
+    "0111": "0010",
+    "1011": "0110",
+    "1101": "0100",
+    "1110": "0101"
+  },
+  "n0_2_lift": {
+    "00": "0100",
+    "10": "0101",
+    "01": "0110",
+    "11": "0010"
+  },
+  "landings": {
+    "22_from_2": {
+      "lo": 26,
+      "hi": 29,
+      "k_lo": 4,
+      "k_hi": 4
+    },
+    "372_from_4": {
+      "lo": 388,
+      "hi": 403,
+      "k_lo": 8,
+      "k_hi": 8
+    },
+    "89_from_4": {
+      "lo": 105,
+      "hi": 120,
+      "k_lo": 6,
+      "k_hi": 6
+    }
+  },
+  "prize_next": {
+    "8": 29,
+    "29": 400
+  },
+  "lemmas": {
+    "unfold_rots_0111_in_FAM372": true,
+    "n0_2_lifts_to_FAM372": true,
+    "FAM372_all_extra_372": true,
+    "extra22_k2_lands_k4": true,
+    "extra372_k4_lands_k8": true,
+    "extra89_k4_lands_k6": true,
+    "FAM89_reachable_from_n0_2": false,
+    "every_n0_4_waits_for_pow2": false,
+    "n0_8_lift_closed_form": null,
+    "k8_lands_k16": null,
+    "at_most_one_odd_all_k": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "unfold_rots_0111_in_FAM372": "LEMMA",
+    "n0_2_lifts_to_FAM372": "LEMMA",
+    "FAM372_all_extra_372": "LEMMA",
+    "extra22_k2_lands_k4": "LEMMA",
+    "extra372_k4_lands_k8": "LEMMA",
+    "extra89_k4_lands_k6": "LEMMA",
+    "FAM89_reachable_from_n0_2": "KILLED",
+    "every_n0_4_waits_for_pow2": "KILLED",
+    "n0_8_lift_closed_form": "PREFIX",
+    "k8_lands_k16": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
