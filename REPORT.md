@@ -874,6 +874,17 @@ Double-Green packed bits for \(I_k\) are exactly \(p=3T/2+1\) and
 [cycle_aw.md](research/cycle_aw.md).
 The prize is still open.
 
+## Cycle AX (2026-09-11)
+
+Even half-window triples are \(2^a-\{6,8,10,14\}\) for \(a\ge 5\);
+odd triples are one doubling of a previous triple. Packed bits are
+the families \(p=q\cdot 2^{j}+1\) for \(q\in\{5,7,9,13\}\), with
+times from \(s\in\{0,1,2\}\), \(\{0,2,3\}\), \(\{1,2,4\}\),
+\(\{0,5,6\}\). Bits 14 and 15 contribute \(0\). Triple XOR is not
+\(I_k\). Exactly five quads is a prefix.
+[cycle_ax.md](research/cycle_ax.md).
+The prize is still open.
+
 
 
 

@@ -18,10 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AW**. Unique-Green bits for \(I_k\) are the
-AS families; double-Green bits are exactly \(p=3T/2+1\) and
-\(p=5T/8+1\). All left-diagonals period 4 is false. The prize is
-still open.
+Last completed cycle is **AX**. Unique- and double-Green bits for
+\(I_k\) are classified; triples are the 5, 7, 9, 13 families. Bits
+14 and 15 contribute \(0\). The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -104,7 +103,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(2k-2\) packed indices; bits 13 and 17 contribute \(0\)
   (Cycle AV). There are no even half-window doubles for \(a\ge 4\),
   so double-Green bits for \(I_k\) are exactly \(p=3T/2+1\) and
-  \(p=5T/8+1\) (Cycle AW).
+  \(p=5T/8+1\) (Cycle AW). Triple-Green bits are the families
+  \(p=q\cdot 2^{j}+1\) for \(q\in\{5,7,9,13\}\); bits 14 and 15
+  contribute \(0\) (Cycle AX).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
