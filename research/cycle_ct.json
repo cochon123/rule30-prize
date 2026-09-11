@@ -1,0 +1,36 @@
+{
+  "cycle": "CT",
+  "wall_s": 1.753,
+  "checks": {
+    "all_ok": true
+  },
+  "identities": {
+    "n_ok": 70982,
+    "n_Tt1": 70232,
+    "n_WX00": 61786,
+    "n_even": 750,
+    "n_zodd": 56884,
+    "n_e1z1": 13348
+  },
+  "lemmas": {
+    "X_run_start_W1": true,
+    "XY_10_from_X11": true,
+    "seventh_pair_never_equal": true,
+    "all_T0_2power_hamming_ge_1": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "X_run_start_W1": "LEMMA",
+    "XY_10_from_X11": "LEMMA",
+    "seventh_pair_never_equal": "LEMMA",
+    "all_T0_2power_hamming_ge_1": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
