@@ -1098,3 +1098,12 @@ for every even |T0|>=2. Covering still a prefix.
 cycle_ck.md.
 
 Prize status: still unsolved.
+
+## Cycle CL (2026-09-11)
+
+W splits on V. When U=0, DV=S, so a 00 in T witnesses U!=DV.
+Even T0||not T0 always has a 00, hence the third tail pair is
+never equal. Covering still a prefix.
+cycle_cl.md.
+
+Prize status: still unsolved.

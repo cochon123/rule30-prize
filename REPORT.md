@@ -1363,3 +1363,13 @@ to \(0\)-runs, hence \(\operatorname{ham}(U,V)=|T_0|\) for every
 even \(|T_0|\ge 2\). The Fermat covering remains a prefix.
 [cycle_ck.md](research/cycle_ck.md).
 The prize is still open.
+
+## Cycle CL (2026-09-11)
+
+\(W=\operatorname{reconstruct}(U,V)\) splits on \(V\). When
+\(U_t=0\), \(DV_t=S_t\). A `00` in \(T\) therefore witnesses
+\(U\ne DV\). Even \(T_0\|\lnot T_0\) always has a `00`, so the
+third tail pair is never equal for every even \(|T_0|\ge 2\). The
+Fermat covering remains a prefix.
+[cycle_cl.md](research/cycle_cl.md).
+The prize is still open.
