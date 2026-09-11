@@ -1201,3 +1201,17 @@ on every unblocked lift through \(k=12\). Period \(8\) for all
 Fermat covering remains a prefix.
 [cycle_bx.md](research/cycle_bx.md).
 The prize is still open.
+
+## Cycle BY (2026-09-11)
+
+An identically-\(0\) packed bit \(p\) with a live left neighbour
+forces identically-\(1\) at \(p+2\). The left-word period is a
+\(2\)-power and a nested multiple of the previous period, so
+\(\pi_{k+1}=\pi_k\cdot 2^{r}\) with \(r\) the number of odd-weight
+high toggles. If \(r\le 1\) at every scale then
+\(\pi_k\mid 2^{k-1}\) for every \(k\), which is the Cycle BW seed.
+Every ratio through \(k=16\) is \(1\) or \(2\) (prefix). Two new
+ident-\(0\) bits can appear without doubling. The Fermat covering
+remains a prefix.
+[cycle_by.md](research/cycle_by.md).
+The prize is still open.
