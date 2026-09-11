@@ -635,3 +635,12 @@ p=3*2^{k-2}+1. Bit 9 always fires at T. Unique XOR is not I_k.
 Exactly 2k-2 unique / two doubles are prefixes. cycle_as.md.
 
 Prize status: still unsolved.
+
+## Cycle AT (2026-09-11)
+
+G(n, 2^a-2^b)=1 on n<2^{a-1} iff 2^{a-1}-1-n in Jacobsthal S_b.
+Mersenne-odd packed bits p=(2^c-1)2^j+1 hit I_k at t=T+s*2^j,
+s in S_c. Recovers AS at c=1,2. 7-family is triples, not identically 1.
+Mersenne-odd XOR is not I_k. cycle_at.md.
+
+Prize status: still unsolved.

@@ -18,11 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AS**. On \(n<2^{a-1}\),
-\(G(n,2^a-2)=1\) iff \(n=2^{a-1}-1\), and for \(a\ge 3\)
-\(G(n,2^a-4)=1\) iff \(n=2^{a-1}-2\). Those laws classify two
-unique-Green families for \(I_k\) and the two double-Green bits.
-Packed bit 9 always fires at \(T=2^{k-1}\). The prize is still open.
+Last completed cycle is **AT**. For \(n<2^{a-1}\),
+\(G(n,2^a-2^b)=1\) iff \(2^{a-1}-1-n\) lies in a Jacobsthal set
+\(S_b\). Packed bits \(p=(2^c-1)2^j+1\) Green-hit \(I_k\) at times
+\(T+s\cdot 2^j\) (\(s\in S_c\)). Recovers Cycle AS at \(c=1,2\). The
+prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -95,6 +95,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(2^j+1\) and \(3\cdot 2^j+1\) (\(j\le k-3\)) unique-Green for
   \(I_k\); the two doubles are \(5\cdot 2^{k-3}+1\) and
   \(3\cdot 2^{k-2}+1\); bit 9 always fires at \(T\) (Cycle AS).
+  Half-window \(G(n,2^a-2^b)\) has Jacobsthal support \(S_b\); every
+  Mersenne-odd packed bit \(p=(2^c-1)2^j+1\) has times
+  \(T+s\cdot 2^j\) (Cycle AT).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
