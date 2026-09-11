@@ -1,0 +1,47 @@
+{
+  "cycle": "CM",
+  "wall_s": 1.133,
+  "checks": {
+    "all_ok": true
+  },
+  "identities": {
+    "n_ok": 70982,
+    "min_wx": {
+      "2": 1,
+      "4": 2,
+      "6": 3,
+      "8": 4,
+      "10": 5,
+      "12": 6,
+      "16": 8
+    },
+    "n_A": 70232,
+    "n_B": 70626,
+    "n_neither": 0
+  },
+  "lemmas": {
+    "X_splits_on_W": true,
+    "V0_implies_DW_eq_U": true,
+    "complementary_witnesses_A_or_B": true,
+    "fourth_pair_never_equal": true,
+    "ham_WX_ge_n0_half": true,
+    "all_T0_2power_hamming_ge_1": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "X_splits_on_W": "LEMMA",
+    "V0_implies_DW_eq_U": "LEMMA",
+    "complementary_witnesses_A_or_B": "LEMMA",
+    "fourth_pair_never_equal": "LEMMA",
+    "ham_WX_ge_n0_half": "LEMMA",
+    "all_T0_2power_hamming_ge_1": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

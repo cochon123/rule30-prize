@@ -1373,3 +1373,15 @@ third tail pair is never equal for every even \(|T_0|\ge 2\). The
 Fermat covering remains a prefix.
 [cycle_cl.md](research/cycle_cl.md).
 The prize is still open.
+
+## Cycle CM (2026-09-11)
+
+\(X=\operatorname{reconstruct}(V,W)\) splits on \(W\). When
+\(V_t=0\), \(DW_t=U_t\), so \(V=DW\) iff \(U\to V\) and
+\(V=1\Rightarrow W=U\). Complementary witnesses cover every even
+\(T_0\|\lnot T_0\) through length \(16\): some \(U=1,V=0\), or some
+\(V=1\) with \(W\ne U\). The fourth tail pair is never equal on
+that range, with Hamming at least \(n_0/2\). The Fermat covering
+remains a prefix.
+[cycle_cm.md](research/cycle_cm.md).
+The prize is still open.
