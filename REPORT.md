@@ -1438,3 +1438,14 @@ kills the sixth pair; on odd-run blocks the sixth pair remains a
 prefix. The Fermat covering remains a prefix.
 [cycle_cr.md](research/cycle_cr.md).
 The prize is still open.
+
+## Cycle CS (2026-09-11)
+
+Every \(V\) \(1\)-run starts with \(U=0\). A run of length at least
+\(2\) is then a \(V\) `11` with \(U=01\): either \(W=1\) there, so
+\(X_{\mathrm{next}}=0\), or \(W=0\) and \(X=1\), so an isolated
+\(W\) \(1\) has \(X=0\). In both cases \((W,X)\) has a `10`, and
+skip-\(2\) gives \(Y\ne Z\) for every even \(|T_0|\ge 2\). The
+Fermat covering remains a prefix.
+[cycle_cs.md](research/cycle_cs.md).
+The prize is still open.

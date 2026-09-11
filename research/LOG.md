@@ -1166,3 +1166,12 @@ still a prefix.
 cycle_cr.md.
 
 Prize status: still unsolved.
+
+## Cycle CS (2026-09-11)
+
+Every V 1-run starts with U=0. A long V run then gives a 10 in
+(W,X) by origin A or an isolated W 1 with X=0. Skip-2 closes
+the sixth pair for every even |T0|>=2. Covering still a prefix.
+cycle_cs.md.
+
+Prize status: still unsolved.
