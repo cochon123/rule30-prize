@@ -8,7 +8,7 @@ on \([2^k,3\cdot 2^k)\) for \(k\ge 3\). The extra three do not always
 fire, so they are not further forced 1s. Not a prize claim:
 \(\theta_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_ap.py --certify`. Dump:
+Helper: `python3 research/cycle_ap.py --certify` (~0.10s). Dump:
 `research/cycle_ap.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
