@@ -1,0 +1,26 @@
+{
+  "cycle": "AG",
+  "wall_s": 0.001,
+  "checks": {
+    "all_ok": true
+  },
+  "boolean_O_eq_a_xor_e": true,
+  "boolean_00_eq_a_or": true,
+  "green_vs_local_fail": 0,
+  "ending_a_xor_e_fail": 0,
+  "n10": 10,
+  "n_windows_seen": 20,
+  "lemmas": {
+    "O_is_local": true,
+    "O_eq_a_xor_e_at_10": true,
+    "infinitely_many_00": null,
+    "prize": false
+  },
+  "verdict": {
+    "O_is_local": "LEMMA",
+    "O_eq_a_xor_e_at_10": "LEMMA",
+    "O_is_bulk_00_handle": "KILLED",
+    "infinitely_many_00": "OPEN",
+    "prize": "unsolved"
+  }
+}

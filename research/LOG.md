@@ -497,3 +497,12 @@ takes both values (local ANDs do not force 00). Annulus 10/00/11
 parities are not I_k. cycle_af.md.
 
 Prize status: still unsolved.
+
+## Cycle AG (2026-09-11)
+
+O_s in the two-step identity is a local 5-window Boolean on the prize
+orbit (Green matches c'' XOR 1 XOR local ANDs). At 1-run endings
+O_s = a XOR e, the distance-2 palindrome defect. Killed as a bulk 00
+handle: it restates a = r OR e. cycle_ag.md.
+
+Prize status: still unsolved.
