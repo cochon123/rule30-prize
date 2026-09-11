@@ -18,12 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AL**. For every integer \(q\ge 1\),
-\(\varphi^{(q)}_k=c_{q 2^k}\oplus c_{2^k}\) equals the Green remainder
-on \([2^k,q\cdot 2^k)\): the Freshman edges cancel. Leftmost-11 hit
-parity is \(1\oplus\mathrm{popcount}(q)\), independent of \(k\).
-Eventual period \(2^m\) forces every integer spine to vanish. The prize
-is still open.
+Last completed cycle is **AM**. Packed-bit-4 ANDs contribute 1 to every
+\(I_k\) (\(k\ge 3\)); packed bit 6 cancels that 1. After the period-4
+forms of \(e_8\) and \(e_{10}\), \(I_k=1\oplus B_k^{\ge 10}\) for
+\(k\ge 5\). The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -70,7 +68,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   parity is odd for the whole family (Cycle AK). The identity is not
   special to Fermat-odd \(q\): for every integer \(q\ge 1\) the
   Freshman edges cancel, so \(\varphi^{(q)}_k=J\), and the leftmost-11
-  hit parity is \(1\oplus\mathrm{popcount}(q)\) (Cycle AL).
+  hit parity is \(1\oplus\mathrm{popcount}(q)\) (Cycle AL). Nested-left
+  ANDs at packed bit 4 contribute 1 to every \(I_k\); bit 6 cancels
+  it. With the period-4 forms of \(e_8\) and \(e_{10}\),
+  \(I_k=1\oplus B_k^{\ge 10}\) for \(k\ge 5\) (Cycle AM).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
