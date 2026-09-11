@@ -18,12 +18,12 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **BF**. Fermat-odd leftmost-11 times and
-Mersenne centre-right unique bits are closed forms; they are not
-identically-1 productions. The Fermat covering
-\(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) has a 1 for every
-\(2\le k\le 15\) (prefix, not a theorem). Nested left is still not a
-closed form. The prize is still open.
+Last completed cycle is **BG**. The 5-fold Fermat annulus has exactly
+three unique-Green packed bits and the 9-fold has exactly two, for
+every \(k\ge 3\). Those bits are not identically-1 productions. The
+Fermat covering \(\varphi^{(3)},\varphi^{(5)},\varphi^{(9)}\) has a 1
+for every \(2\le k\le 15\) (prefix, not a theorem). Nested left is
+still not a closed form. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -130,7 +130,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(2\le k\le 15\) (Cycle BE, prefix). Fermat-odd leftmost-11 times
   are \(t=(2^a-s)U\) with \(G(s,2^a)=1\); every Fermat-odd annulus
   has unique centre-right bits \(p=U+1\) and \(p=(2^{a-1}+1)U+1\)
-  (Cycle BF).
+  (Cycle BF). The 5-fold annulus has exactly those two together with
+  \(p=1\), and the 9-fold has exactly the two centre-right bits, for
+  every \(k\ge 3\) (Cycle BG).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
