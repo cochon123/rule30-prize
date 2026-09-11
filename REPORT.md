@@ -1418,3 +1418,13 @@ even-run gap but not on every odd-run block. The Fermat covering
 remains a prefix.
 [cycle_cp.md](research/cycle_cp.md).
 The prize is still open.
+
+## Cycle CQ (2026-09-11)
+
+\(V\) always has consecutive \(1\)s: a \(1\)-run of \(T\) of length
+at least \(3\), a `0011`, or a `001`. Skip-\(2\) from a `10` in
+\((V,W)\) gives \(Y\ne X\); if \(V\to W\), that `11` is Cycle CN's
+witness \(B\). Hence \(Y\ne X\) for every even \(|T_0|\ge 2\). The
+Fermat covering remains a prefix.
+[cycle_cq.md](research/cycle_cq.md).
+The prize is still open.
