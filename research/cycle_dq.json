@@ -1,0 +1,40 @@
+{
+  "cycle": "DQ",
+  "wall_s": 9.143,
+  "checks": {
+    "all_ok": true
+  },
+  "n16": {
+    "n_extra": 65536,
+    "n_hit": 0,
+    "n_none": 65536,
+    "prize_u16": "0000110011110011",
+    "E16": 65537
+  },
+  "k16": {
+    "W": 65536,
+    "leftover": 43205,
+    "second_fits_rmax": false
+  },
+  "lemmas": {
+    "n0_16_no_ident0_in_65536": true,
+    "k16_all_T0_early_odd_leftover_too_short": true,
+    "at_most_one_ident0_after_odd_k_2_to_16": true,
+    "n0_16_extras_closed_form": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n0_16_no_ident0_in_65536": "LEMMA",
+    "k16_all_T0_early_odd_leftover_too_short": "LEMMA",
+    "at_most_one_ident0_after_odd_k_2_to_16": "LEMMA",
+    "n0_16_extras_closed_form": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
