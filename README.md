@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **Y**. If \(v_k=v_{k+1}\) then \((c_{2^j})_{j\ge k}\)
-is constant, so a non-eventually-constant dyadic centre would give an
-infinite 2-kernel. Packed Rule 30 is Rule 150 XOR adjacent ANDs.
-\((c_{2^k})\) is still not proved non-constant. The prize is still open.
+Last completed cycle is **Z**. One doubling of packed Rule 150 sends
+the dyadic centre to itself XOR the Green parity \(I_k\) of AND
+injections on \([2^{k-1},2^k)\). \((c_{2^k})\) is eventually constant
+iff \(I_k\) is eventually 0, which is unproved. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -32,7 +32,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   Jen/Kopra (width-2 aperiodicity). Every iterate \(F^p\) has Kopra
   width \(2p\) (Cycle V), so the gap is not closed by passing to a
   power. An infinite 2-kernel would close it: \(v_k=v_{k+1}\) already
-  forces \((c_{2^j})_{j\ge k}\) constant (Cycle Y).
+  forces \((c_{2^j})_{j\ge k}\) constant (Cycle Y). One doubling is
+  \(c_{2^k}=c_{2^{k-1}}\oplus I_k\) with \(I_k\) the AND-Green remainder
+  (Cycle Z).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

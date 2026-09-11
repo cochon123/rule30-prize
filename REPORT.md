@@ -554,6 +554,18 @@ constancy of \((c_{2^k})\) is still open.
 [cycle_y.md](research/cycle_y.md).
 The prize is still open.
 
+## Cycle Z (2026-09-11)
+
+One doubling of packed Rule 150 sends the dyadic centre to itself XOR
+the Green parity \(I_k\) of AND injections on \([2^{k-1},2^k)\): the
+linear image of the half-time row is exactly \(b_{k-1}\) because both
+light-cone edges are 1. Thus \(b_k=b_{k-1}\oplus I_k\), and \((b_k)\)
+is eventually constant iff \(I_k\) is eventually 0. Local formulas for
+\(I_k\) (3-window at half-time, unweighted 11-parity, right-edge AND)
+fail. [cycle_z.md](research/cycle_z.md).
+The prize is still open.
+
+
 
 
 

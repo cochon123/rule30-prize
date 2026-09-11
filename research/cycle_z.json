@@ -1,0 +1,816 @@
+{
+  "cycle": "Z",
+  "wall_s": 0.027,
+  "checks": {
+    "all_ok": true
+  },
+  "b": [
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1
+  ],
+  "I": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "n_I_ones": 8,
+  "n_I_zeros": 4,
+  "linear": [
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 1,
+      "b_prev": 1,
+      "b": 0,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 0,
+      "right_edge": 1,
+      "lin": 0,
+      "k": 2,
+      "b_prev": 0,
+      "b": 1,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 3,
+      "b_prev": 1,
+      "b": 1,
+      "I_xor": 0,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 4,
+      "b_prev": 1,
+      "b": 1,
+      "I_xor": 0,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 5,
+      "b_prev": 1,
+      "b": 0,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 0,
+      "right_edge": 1,
+      "lin": 0,
+      "k": 6,
+      "b_prev": 0,
+      "b": 1,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 7,
+      "b_prev": 1,
+      "b": 1,
+      "I_xor": 0,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 8,
+      "b_prev": 1,
+      "b": 1,
+      "I_xor": 0,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 9,
+      "b_prev": 1,
+      "b": 0,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 0,
+      "right_edge": 1,
+      "lin": 0,
+      "k": 10,
+      "b_prev": 0,
+      "b": 1,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 1,
+      "right_edge": 1,
+      "lin": 1,
+      "k": 11,
+      "b_prev": 1,
+      "b": 0,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    },
+    {
+      "left_edge": 1,
+      "centre": 0,
+      "right_edge": 1,
+      "lin": 0,
+      "k": 12,
+      "b_prev": 0,
+      "b": 1,
+      "I_xor": 1,
+      "match_lin_b_prev": true
+    }
+  ],
+  "I_independent": [
+    {
+      "k": 1,
+      "I_ind": 1,
+      "I_xor": 1,
+      "match": true,
+      "n_contrib": 1,
+      "n11": 2,
+      "n11_parity": 0,
+      "n11_parity_eq_I": false,
+      "local": {
+        "l": 1,
+        "c": 1,
+        "r": 1,
+        "c_and_r": 1,
+        "l_xor_r": 0,
+        "right_inward": 1
+      },
+      "named_eq": {
+        "l": true,
+        "c": true,
+        "r": true,
+        "c_and_r": true,
+        "l_xor_r": false
+      },
+      "right_inward": 1,
+      "right_and_fires": true
+    },
+    {
+      "k": 2,
+      "I_ind": 1,
+      "I_xor": 1,
+      "match": true,
+      "n_contrib": 1,
+      "n11": 5,
+      "n11_parity": 1,
+      "n11_parity_eq_I": true,
+      "local": {
+        "l": 1,
+        "c": 0,
+        "r": 0,
+        "c_and_r": 0,
+        "l_xor_r": 1,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": true,
+        "c": false,
+        "r": false,
+        "c_and_r": false,
+        "l_xor_r": true
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 3,
+      "I_ind": 0,
+      "I_xor": 0,
+      "match": true,
+      "n_contrib": 0,
+      "n11": 17,
+      "n11_parity": 1,
+      "n11_parity_eq_I": false,
+      "local": {
+        "l": 0,
+        "c": 1,
+        "r": 0,
+        "c_and_r": 0,
+        "l_xor_r": 0,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": true,
+        "c": false,
+        "r": true,
+        "c_and_r": true,
+        "l_xor_r": true
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 4,
+      "I_ind": 0,
+      "I_xor": 0,
+      "match": true,
+      "n_contrib": 2,
+      "n11": 60,
+      "n11_parity": 0,
+      "n11_parity_eq_I": true,
+      "local": {
+        "l": 0,
+        "c": 1,
+        "r": 1,
+        "c_and_r": 1,
+        "l_xor_r": 1,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": true,
+        "c": false,
+        "r": false,
+        "c_and_r": false,
+        "l_xor_r": false
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 5,
+      "I_ind": 1,
+      "I_xor": 1,
+      "match": true,
+      "n_contrib": 7,
+      "n11": 225,
+      "n11_parity": 1,
+      "n11_parity_eq_I": true,
+      "local": {
+        "l": 1,
+        "c": 1,
+        "r": 0,
+        "c_and_r": 0,
+        "l_xor_r": 1,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": true,
+        "c": true,
+        "r": false,
+        "c_and_r": false,
+        "l_xor_r": true
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 6,
+      "I_ind": 1,
+      "I_xor": 1,
+      "match": true,
+      "n_contrib": 17,
+      "n11": 826,
+      "n11_parity": 0,
+      "n11_parity_eq_I": false,
+      "local": {
+        "l": 0,
+        "c": 0,
+        "r": 1,
+        "c_and_r": 0,
+        "l_xor_r": 1,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": false,
+        "c": false,
+        "r": true,
+        "c_and_r": false,
+        "l_xor_r": true
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 7,
+      "I_ind": 0,
+      "I_xor": 0,
+      "match": true,
+      "n_contrib": 22,
+      "n11": 3182,
+      "n11_parity": 0,
+      "n11_parity_eq_I": true,
+      "local": {
+        "l": 0,
+        "c": 1,
+        "r": 0,
+        "c_and_r": 0,
+        "l_xor_r": 0,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": true,
+        "c": false,
+        "r": true,
+        "c_and_r": true,
+        "l_xor_r": true
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 8,
+      "I_ind": 0,
+      "I_xor": 0,
+      "match": true,
+      "n_contrib": 68,
+      "n11": 12231,
+      "n11_parity": 1,
+      "n11_parity_eq_I": false,
+      "local": {
+        "l": 0,
+        "c": 1,
+        "r": 1,
+        "c_and_r": 1,
+        "l_xor_r": 1,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": true,
+        "c": false,
+        "r": false,
+        "c_and_r": false,
+        "l_xor_r": false
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 9,
+      "I_ind": 1,
+      "I_xor": 1,
+      "match": true,
+      "n_contrib": 115,
+      "n11": 48717,
+      "n11_parity": 1,
+      "n11_parity_eq_I": true,
+      "local": {
+        "l": 0,
+        "c": 1,
+        "r": 0,
+        "c_and_r": 0,
+        "l_xor_r": 0,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": false,
+        "c": true,
+        "r": false,
+        "c_and_r": false,
+        "l_xor_r": false
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    },
+    {
+      "k": 10,
+      "I_ind": 1,
+      "I_xor": 1,
+      "match": true,
+      "n_contrib": 261,
+      "n11": 196383,
+      "n11_parity": 1,
+      "n11_parity_eq_I": true,
+      "local": {
+        "l": 0,
+        "c": 0,
+        "r": 1,
+        "c_and_r": 0,
+        "l_xor_r": 1,
+        "right_inward": 0
+      },
+      "named_eq": {
+        "l": false,
+        "c": false,
+        "r": true,
+        "c_and_r": false,
+        "l_xor_r": true
+      },
+      "right_inward": 0,
+      "right_and_fires": false
+    }
+  ],
+  "universal_local": {
+    "l": false,
+    "c": false,
+    "r": false,
+    "c_and_r": false,
+    "l_xor_r": false
+  },
+  "any_universal_local": false,
+  "n11_parity_universal": false,
+  "right_and_universal": false,
+  "sparse_power": [
+    {
+      "n": 1,
+      "xor": 0,
+      "head": [
+        {
+          "a": 0,
+          "time": 2,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        }
+      ],
+      "k": 2,
+      "I": 1,
+      "equals_I": false
+    },
+    {
+      "n": 2,
+      "xor": 0,
+      "head": [
+        {
+          "a": 0,
+          "time": 6,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 1,
+          "time": 5,
+          "bits": [
+            0,
+            1,
+            1
+          ],
+          "xor": 0
+        }
+      ],
+      "k": 3,
+      "I": 0,
+      "equals_I": true
+    },
+    {
+      "n": 3,
+      "xor": 1,
+      "head": [
+        {
+          "a": 0,
+          "time": 14,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 1,
+          "time": 13,
+          "bits": [
+            0,
+            1,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 2,
+          "time": 11,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        }
+      ],
+      "k": 4,
+      "I": 0,
+      "equals_I": false
+    },
+    {
+      "n": 4,
+      "xor": 1,
+      "head": [
+        {
+          "a": 0,
+          "time": 30,
+          "bits": [
+            0,
+            0,
+            1
+          ],
+          "xor": 1
+        },
+        {
+          "a": 1,
+          "time": 29,
+          "bits": [
+            1,
+            0,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 2,
+          "time": 27,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 3,
+          "time": 23,
+          "bits": [
+            0,
+            0,
+            1
+          ],
+          "xor": 1
+        }
+      ],
+      "k": 5,
+      "I": 1,
+      "equals_I": true
+    },
+    {
+      "n": 5,
+      "xor": 0,
+      "head": [
+        {
+          "a": 0,
+          "time": 62,
+          "bits": [
+            0,
+            1,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 1,
+          "time": 61,
+          "bits": [
+            1,
+            0,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 2,
+          "time": 59,
+          "bits": [
+            1,
+            0,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 3,
+          "time": 55,
+          "bits": [
+            1,
+            1,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 4,
+          "time": 47,
+          "bits": [
+            0,
+            1,
+            0
+          ],
+          "xor": 1
+        }
+      ],
+      "k": 6,
+      "I": 1,
+      "equals_I": false
+    },
+    {
+      "n": 6,
+      "xor": 0,
+      "head": [
+        {
+          "a": 0,
+          "time": 126,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 1,
+          "time": 125,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 2,
+          "time": 123,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 3,
+          "time": 119,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 4,
+          "time": 111,
+          "bits": [
+            1,
+            0,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 5,
+          "time": 95,
+          "bits": [
+            1,
+            0,
+            0
+          ],
+          "xor": 1
+        }
+      ],
+      "k": 7,
+      "I": 0,
+      "equals_I": true
+    },
+    {
+      "n": 7,
+      "xor": 1,
+      "head": [
+        {
+          "a": 0,
+          "time": 254,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 1,
+          "time": 253,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 2,
+          "time": 251,
+          "bits": [
+            0,
+            1,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 3,
+          "time": 247,
+          "bits": [
+            0,
+            1,
+            0
+          ],
+          "xor": 1
+        },
+        {
+          "a": 4,
+          "time": 239,
+          "bits": [
+            0,
+            0,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 5,
+          "time": 223,
+          "bits": [
+            1,
+            1,
+            0
+          ],
+          "xor": 0
+        },
+        {
+          "a": 6,
+          "time": 191,
+          "bits": [
+            0,
+            1,
+            0
+          ],
+          "xor": 1
+        }
+      ],
+      "k": 8,
+      "I": 0,
+      "equals_I": false
+    }
+  ],
+  "sparse_equals_I_any": true,
+  "lemmas": {
+    "half_step": true,
+    "linear_part_is_b_prev": true,
+    "edges_are_one": true,
+    "I_independently_certified": true,
+    "b_not_eventually_constant": null
+  },
+  "verdict": {
+    "half_step": "LEMMA",
+    "local_I": "KILLED",
+    "n11_parity": "KILLED",
+    "right_edge_and": "KILLED",
+    "sparse_m_pow2": "PARTIAL",
+    "b_k_eventual_constancy": "OPEN",
+    "prize": "unsolved"
+  }
+}
