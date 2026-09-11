@@ -951,3 +951,15 @@ Covering still a prefix.
 cycle_bx.md.
 
 Prize status: still unsolved.
+
+## Cycle BY (2026-09-11)
+
+Ident-0 at p with a live left neighbour forces ident-1 at p+2.
+The left-word period is a 2-power and a nested multiple, so
+pi_{k+1}=pi_k * 2^r with r the odd-toggle count. If r<=1 at every
+scale then the BW seed holds for all k. Ratios stay in {1,2}
+through k=16 (prefix). Two ident-0 bits can appear without
+doubling. Covering still a prefix.
+cycle_by.md.
+
+Prize status: still unsolved.
