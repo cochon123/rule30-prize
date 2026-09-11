@@ -1,0 +1,136 @@
+{
+  "cycle": "DT",
+  "wall_s": 0.0,
+  "checks": {
+    "all_ok": true
+  },
+  "I_kmax": 21,
+  "I": [
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1
+  ],
+  "all_equal_k": [
+    14
+  ],
+  "match11_k": [
+    5,
+    6,
+    7,
+    8,
+    11,
+    18
+  ],
+  "match00_k": [
+    13,
+    14,
+    15,
+    17
+  ],
+  "twosided_fail_k": [
+    14
+  ],
+  "theta_zero_k": [
+    2,
+    12,
+    14
+  ],
+  "inferred_cover_k": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "inferred_cover": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "fermat_all_ones_k": [
+    2,
+    15
+  ],
+  "i1_dangerous_k": [],
+  "i0_dangerous_k": [],
+  "lemmas": {
+    "even_all_equal_iff_fermat_all_equal": true,
+    "onesided_11_kills_I1_dangerous": true,
+    "phi6_phi10_1_implies_phi18_0_k_2_to_18": true,
+    "all_zero_even_spines_only_k14": true,
+    "fermat_all_ones_at_2_and_15": true,
+    "fermat_cover_3_to_19": true,
+    "twosided_match_implies_complement": false,
+    "even_spines_never_all_equal": false,
+    "fermat_all_ones_only_k2": false,
+    "Theta6U_identically_1": false,
+    "I_identically_1_kge13": false,
+    "phi6_phi10_1_implies_phi18_0_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "even_all_equal_iff_fermat_all_equal": "LEMMA",
+    "onesided_11_kills_I1_dangerous": "LEMMA",
+    "phi6_phi10_1_implies_phi18_0_k_2_to_18": "PREFIX",
+    "all_zero_even_spines_only_k14": "PREFIX",
+    "fermat_all_ones_at_2_and_15": "PREFIX",
+    "fermat_cover_3_to_19": "PREFIX",
+    "twosided_match_implies_complement": "KILLED",
+    "even_spines_never_all_equal": "KILLED",
+    "fermat_all_ones_only_k2": "KILLED",
+    "Theta6U_identically_1": "KILLED",
+    "I_identically_1_kge13": "KILLED",
+    "phi6_phi10_1_implies_phi18_0_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "period_H_seed_all_k": "PREFIX",
+    "prize": "unsolved"
+  }
+}

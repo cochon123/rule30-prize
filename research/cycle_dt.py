@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
-"""Cycle DT: even spines never all equal through k=18 (covers through 19).
+"""Cycle DT: if phi6=phi10=1 then phi18=0, through k=18; all-zero only at 14.
 
-Cycle BO: covering at k+1 fails iff phi^{(6,10,18)}_k = I_{k+1}. Cycle DS
-found that dangerous set empty through k=18. Algebra of doubling says the
-three even spines are all equal iff the Fermat triple at k+1 is all equal,
-so covering failure is the all-zero case and Fermat all-ones is the
-all-equal-to-not-I case. On 2<=k<=18 the even spines are never all equal,
-which is strictly stronger than dangerous-empty: it also forbids Fermat
-all-ones at k=3..19 (k=2 is the unique all-ones in that range). Equivalent
-slice: phi6=phi10 implies phi18 = phi6 xor 1, i.e. Theta(6*2^k)=1 on that
-slice. Do not compute phi^{(3,5,9)} at k=16. Not a prize claim: never-equal
-and covering for all k remain prefixes.
+Cycle BO: covering at k+1 fails iff phi^{(6,10,18)}_k = I_{k+1}. Doubling
+identifies all-equal even spines with an all-equal Fermat triple at k+1
+(failure = all-zero Fermat; all-ones Fermat = all-equal-to-not-I).
+
+On 2<=k<=18, phi6=phi10=1 forces phi18=0, so the even spines are never
+all 1. The only all-equal row is k=14 (all 0, I_15=1), which produces
+Fermat all-ones at k=15, not a covering failure. Hence I=1 dangerous is
+empty on that prefix, and covering failure can only be all-zero spines
+with I=0, which does not occur. The two-sided slice phi6=phi10 =>
+phi18=not phi6 fails at k=14. Do not compute phi^{(3,5,9)} at k=16.
+Not a prize claim: the one-sided implication remains a prefix.
 
 Run: python3 research/cycle_dt.py --certify
 Dump: research/cycle_dt.json
@@ -36,7 +37,10 @@ BE_JSON = Path(__file__).resolve().parent / "cycle_be.json"
 
 I_THRU_21 = [1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1]
 CANDIDATE_K = [5, 8, 11, 15, 18]
-THETA_ZEROS = [2, 12]
+MATCH11_K = [5, 6, 7, 8, 11, 18]
+MATCH00_K = [13, 14, 15, 17]
+ALL_EQUAL_K = [14]
+THETA_ZEROS = [2, 12, 14]
 
 
 def all_equal_iff_fermat_all_equal() -> bool:
@@ -51,22 +55,30 @@ def all_equal_iff_fermat_all_equal() -> bool:
                         return False
                     fail = even_eq and a == i
                     all_ones = even_eq and a == (i ^ 1)
-                    if fail != ((a ^ i) == 0 and (b ^ i) == 0 and (g ^ i) == 0):
+                    if fail != ((a ^ i) == (b ^ i) == (g ^ i) == 0):
                         return False
-                    if all_ones != ((a ^ i) == 1 and (b ^ i) == 1 and (g ^ i) == 1):
+                    if all_ones != ((a ^ i) == (b ^ i) == (g ^ i) == 1):
                         return False
+                    # all-1 even spines with I=1 is dangerous of type I=1
+                    if (a, b, g, i) == (1, 1, 1, 1) and not fail:
+                        return False
+                    # one-sided 11 => phi18=0 forbids that tuple
+                    if a == b == 1 and g == 0:
+                        if fail:
+                            return False
     return True
 
 
-def match_implies_complement_iff_never_all_equal() -> bool:
-    """(a==b => g==a^1) is exactly not (a==b==g)."""
+def onesided_kills_I1_dangerous() -> bool:
+    """If a=b=1 => g=0, then (a,b,g,I) never equals (1,1,1,1)."""
     for a in (0, 1):
         for b in (0, 1):
             for g in (0, 1):
-                impl = (a != b) or (g == (a ^ 1))
-                never = not (a == b == g)
-                if impl != never:
-                    return False
+                if a == b == 1 and g != 0:
+                    continue
+                for i in (0, 1):
+                    if (a, b, g, i) == (1, 1, 1, 1):
+                        return False
     return True
 
 
@@ -103,33 +115,48 @@ def ds_prefix() -> dict:
 def spine_facts(sp: dict) -> dict:
     ks, p2, p6, p10, p18 = sp["k"], sp["phi2"], sp["phi6"], sp["phi10"], sp["phi18"]
     all_eq = []
-    match610 = []
-    theta = []
+    match11 = []
+    match00 = []
+    theta_zero = []
     cover_next = []
     fermat_all_ones_next = []
+    twosided_fail = []
+    onesided_ok = True
     for i, k in enumerate(ks):
         a, b, g, i_next = p6[i], p10[i], p18[i], p2[i]
-        eq = a == b == g
-        all_eq.append(k if eq else None)
-        if a == b:
-            match610.append(k)
-        th = g ^ a
-        theta.append(th)
-        p3 = a ^ i_next
-        p5 = b ^ i_next
-        p9 = g ^ i_next
+        if a == b == g:
+            all_eq.append(k)
+        if a == b == 1:
+            match11.append(k)
+            if g != 0:
+                onesided_ok = False
+        if a == b == 0:
+            match00.append(k)
+        if a == b and g != (a ^ 1):
+            twosided_fail.append(k)
+        if (g ^ a) == 0:
+            theta_zero.append(k)
+        p3, p5, p9 = a ^ i_next, b ^ i_next, g ^ i_next
         cover_next.append(p3 | p5 | p9)
-        fermat_all_ones_next.append(int(p3 == 1 and p5 == 1 and p9 == 1))
+        fermat_all_ones_next.append(int(p3 == p5 == p9 == 1))
+    ones_at = [ks[i] + 1 for i, v in enumerate(fermat_all_ones_next) if v]
     return {
-        "all_equal_k": [k for k in all_eq if k is not None],
-        "match610_k": match610,
-        "theta": theta,
-        "theta_zero_k": [ks[i] for i, th in enumerate(theta) if th == 0],
+        "all_equal_k": all_eq,
+        "match11_k": match11,
+        "match00_k": match00,
+        "twosided_fail_k": twosided_fail,
+        "theta_zero_k": theta_zero,
         "cover_at_kplus1": cover_next,
-        "fermat_all_ones_at_kplus1": fermat_all_ones_next,
-        "impl_ok": all(
-            p18[i] == (p6[i] ^ 1) for i, k in enumerate(ks) if k in match610
-        ),
+        "fermat_all_ones_at": ones_at,
+        "onesided_ok": onesided_ok,
+        "i1_dangerous": [
+            k for i, k in enumerate(ks)
+            if p6[i] == p10[i] == p18[i] == p2[i] == 1
+        ],
+        "i0_dangerous": [
+            k for i, k in enumerate(ks)
+            if p6[i] == p10[i] == p18[i] == p2[i] == 0
+        ],
     }
 
 
@@ -138,13 +165,14 @@ def self_checks(c20, sp: dict, facts: dict, taut1: bool, taut2: bool) -> dict:
     assert list(c20) == list(experiment_center_bits(20))
     assert sp["ok"] and taut1 and taut2
     assert sp["I"] == I_THRU_21
-    assert facts["all_equal_k"] == []
-    assert facts["impl_ok"]
-    assert facts["match610_k"] == [5, 6, 7, 8, 11, 13, 14, 15, 17, 18]
+    assert facts["all_equal_k"] == ALL_EQUAL_K
+    assert facts["match11_k"] == MATCH11_K
+    assert facts["match00_k"] == MATCH00_K
+    assert facts["onesided_ok"] and facts["twosided_fail_k"] == [14]
     assert facts["theta_zero_k"] == THETA_ZEROS
     assert all(facts["cover_at_kplus1"])
-    assert facts["fermat_all_ones_at_kplus1"] == [0] * len(sp["k"])
-    # doubling matches BO Fermat values through k=13, without a new table
+    assert facts["fermat_all_ones_at"] == [15]
+    assert facts["i1_dangerous"] == [] and facts["i0_dangerous"] == []
     bo = sp["bo"]
     nbo = len(bo["k"])
     assert sp["k"][:nbo] == bo["k"]
@@ -157,11 +185,13 @@ def self_checks(c20, sp: dict, facts: dict, taut1: bool, taut2: bool) -> dict:
         assert (sp["phi18"][i] ^ sp["phi2"][i]) == bo["phi9"][i + 1]
         assert facts["cover_at_kplus1"][i] == bo["cover359"][i + 1]
     assert sp["be_k2_cover"] == 1
-    assert sp["be_k2_phi"]["3"] == 1
-    assert sp["be_k2_phi"]["5"] == 1
-    assert sp["be_k2_phi"]["9"] == 1
+    assert sp["be_k2_phi"]["3"] == sp["be_k2_phi"]["5"] == sp["be_k2_phi"]["9"] == 1
     assert 0 in sp["I"][12:] and 1 in sp["I"][12:]
     assert sp["I"][12] == 0 and sp["I"][15] == 0 and sp["I"][19] == 0
+    # k=14 all-zero even spines, I_15 = phi2_14 = 1
+    i14 = sp["k"].index(14)
+    assert sp["phi6"][i14] == sp["phi10"][i14] == sp["phi18"][i14] == 0
+    assert sp["phi2"][i14] == 1
     return {"all_ok": True}
 
 
@@ -172,7 +202,7 @@ def main() -> None:
     t0 = time.perf_counter()
     c20 = packed_center_bits(20)
     taut1 = all_equal_iff_fermat_all_equal()
-    taut2 = match_implies_complement_iff_never_all_equal()
+    taut2 = onesided_kills_I1_dangerous()
     sp = ds_prefix()
     facts = spine_facts(sp)
     checks = self_checks(c20, sp, facts, taut1, taut2)
@@ -182,38 +212,46 @@ def main() -> None:
         "checks": checks,
         "I_kmax": 21,
         "I": sp["I"],
-        "never_all_equal_k": [2, 18],
-        "match610_k": facts["match610_k"],
+        "all_equal_k": facts["all_equal_k"],
+        "match11_k": facts["match11_k"],
+        "match00_k": facts["match00_k"],
+        "twosided_fail_k": facts["twosided_fail_k"],
         "theta_zero_k": facts["theta_zero_k"],
         "inferred_cover_k": list(range(3, 20)),
         "inferred_cover": facts["cover_at_kplus1"],
-        "fermat_all_ones_k": [2],
+        "fermat_all_ones_k": [2] + facts["fermat_all_ones_at"],
+        "i1_dangerous_k": facts["i1_dangerous"],
+        "i0_dangerous_k": facts["i0_dangerous"],
         "lemmas": {
             "even_all_equal_iff_fermat_all_equal": True,
-            "match610_implies_complement_iff_never_all_equal": True,
-            "even_spines_never_all_equal_k_2_to_18": True,
-            "fermat_all_ones_only_k2_through_19": True,
+            "onesided_11_kills_I1_dangerous": True,
+            "phi6_phi10_1_implies_phi18_0_k_2_to_18": True,
+            "all_zero_even_spines_only_k14": True,
+            "fermat_all_ones_at_2_and_15": True,
             "fermat_cover_3_to_19": True,
+            "twosided_match_implies_complement": False,
+            "even_spines_never_all_equal": False,
+            "fermat_all_ones_only_k2": False,
             "Theta6U_identically_1": False,
-            "phi6_equals_phi10_all_k": False,
-            "phi18_equals_not_phi6_all_k": False,
             "I_identically_1_kge13": False,
-            "even_spines_never_all_equal_all_k": None,
+            "phi6_phi10_1_implies_phi18_0_all_k": None,
             "fermat_cover_359_all_k": None,
             "I_1_infinitely_often": None,
             "prize": False,
         },
         "verdict": {
             "even_all_equal_iff_fermat_all_equal": "LEMMA",
-            "match610_implies_complement_iff_never_all_equal": "LEMMA",
-            "even_spines_never_all_equal_k_2_to_18": "PREFIX",
-            "fermat_all_ones_only_k2_through_19": "PREFIX",
+            "onesided_11_kills_I1_dangerous": "LEMMA",
+            "phi6_phi10_1_implies_phi18_0_k_2_to_18": "PREFIX",
+            "all_zero_even_spines_only_k14": "PREFIX",
+            "fermat_all_ones_at_2_and_15": "PREFIX",
             "fermat_cover_3_to_19": "PREFIX",
+            "twosided_match_implies_complement": "KILLED",
+            "even_spines_never_all_equal": "KILLED",
+            "fermat_all_ones_only_k2": "KILLED",
             "Theta6U_identically_1": "KILLED",
-            "phi6_equals_phi10_all_k": "KILLED",
-            "phi18_equals_not_phi6_all_k": "KILLED",
             "I_identically_1_kge13": "KILLED",
-            "even_spines_never_all_equal_all_k": "PREFIX",
+            "phi6_phi10_1_implies_phi18_0_all_k": "PREFIX",
             "fermat_cover_359_all_k": "PREFIX",
             "I_1_infinitely_often": "OPEN",
             "some_phi_1_infinitely_often": "OPEN",
@@ -226,10 +264,11 @@ def main() -> None:
         print("wrote", OUT)
     print(json.dumps(dump["verdict"], indent=2))
     print("wall_s", dump["wall_s"])
-    print("never_all_equal", facts["all_equal_k"])
-    print("match610_k", facts["match610_k"])
+    print("all_equal_k", facts["all_equal_k"])
+    print("match11_k", facts["match11_k"])
+    print("twosided_fail_k", facts["twosided_fail_k"])
+    print("fermat_all_ones_k", dump["fermat_all_ones_k"])
     print("theta_zero_k", facts["theta_zero_k"])
-    print("fermat_all_ones_next", facts["fermat_all_ones_at_kplus1"])
 
 
 if __name__ == "__main__":
