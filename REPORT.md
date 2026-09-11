@@ -917,6 +917,19 @@ Pentuple XOR is not \(I_k\). Nested left is still not a closed form.
 [cycle_ba.md](research/cycle_ba.md).
 The prize is still open.
 
+## Cycle BB (2026-09-11)
+
+There are no even half-window sextuples for \(a\ge 8\), so the five
+sextuples are the odd-lift orbit of \(\{66,67,71,77,85\}\) at \(a=7\).
+Even septuples stabilize at ten seeds
+\(2^a-\{22,30,36,52,66,68,98,100,130,194\}\) for \(a\ge 9\). Packed
+bit 22 is the \(j=0\) 21-family septuple and contributes 1. Sextuple
+XOR and septuple XOR are not \(I_k\). Nested left is still not a
+closed form.
+[cycle_bb.md](research/cycle_bb.md).
+The prize is still open.
+
+
 
 
 

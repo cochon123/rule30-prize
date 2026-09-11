@@ -711,3 +711,13 @@ Pentuple XOR is not I_k. Nested left is still not a closed form.
 cycle_ba.md.
 
 Prize status: still unsolved.
+
+## Cycle BB (2026-09-11)
+
+No even sextuples for a>=8; exactly five sextuples, the odd-lift
+orbit of {66,67,71,77,85}. Even septuples are ten seeds for a>=9,
+the 21,29,35,51,65,67,97,99,129,193 families. Bit 22 contributes 1.
+Sextuple XOR and septuple XOR are not I_k. Nested left is still not
+a closed form. cycle_bb.md.
+
+Prize status: still unsolved.
