@@ -991,15 +991,17 @@ Fermat covering remains a prefix.
 [cycle_bg.md](research/cycle_bg.md).
 The prize is still open.
 
+## Cycle BH (2026-09-11)
 
-
-
-
-
-
-
-
-
-
-
+\(G(n,n)=1\) for every \(n\). A third even-target hit therefore lies
+at most at the second diagonal \(n=2m\) whenever \(m\ge 3\). On the
+covering annuli the cone forces \(d\le n_{\mathrm{cone}}\) for every
+\(M\ge 1\), so truncated windows have \(C_{\le}\ge 3\); full
+power-of-two windows have no even doubles by Cycle AW. The
+double-Green bits are exactly \(\{2U+1,4U+1\}\) on the 5-fold
+annulus and exactly \(\{3U+1,6U+1,7U+1\}\) on the 9-fold, for every
+\(k\ge 3\), with closed times. Their firing XOR takes both values.
+The Fermat covering remains a prefix.
+[cycle_bh.md](research/cycle_bh.md).
+The prize is still open.
 
