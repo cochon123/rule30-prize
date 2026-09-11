@@ -389,6 +389,17 @@ cycle_u.md.
 
 Prize status: still unsolved.
 
+## Cycle V (2026-09-11)
+
+Light-cone lemma: a 1 at ±p is a shifted prize seed, so the
+p-step centre depends on both edges and F^p has Kopra width 2p.
+Never width 1. Prize u=x(2n,1) has length-8 factors in X (16.7%)
+and 32738 factors 11, max gap 46; no never-in-X lemma.
+Even-decimation n_* in {1,2,3} through k=15, not a proof.
+Longest right-special factor length 33. cycle_v.md.
+
+Prize status: still unsolved.
+
 
 
 

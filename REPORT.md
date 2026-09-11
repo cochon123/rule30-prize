@@ -501,6 +501,21 @@ Predicted 2-kernel disagreement indices
 [cycle_u.md](research/cycle_u.md).
 The prize is still open.
 
+## Cycle V (2026-09-11)
+
+The \(p\)-step centre of Rule 30 depends on both light-cone edges:
+a single \(1\) at \(\pm p\) is a shifted prize seed, whose left or
+right edge lands on the origin after \(p\) steps. Thus \(F^p\) has
+Kopra width \(2p\) for every \(p\ge 1\), and width-1 rapid left
+expansivity never applies to an iterate. The prize even-right
+neighbour has short factors in the period-2 SFT \(X\) (so it is not
+uniformly excluded from \(X\)) and has many \(11\)s with max gap 46
+in a \(2^{17}\) sample, which is not an infinitude proof. First
+even-decimation disagreements stay in \(\{1,2,3\}\) through depth 15
+without a closed form.
+[cycle_v.md](research/cycle_v.md).
+The prize is still open.
+
 
 
 
