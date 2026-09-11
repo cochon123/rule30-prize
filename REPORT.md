@@ -1278,3 +1278,14 @@ and \(k=8\) odd lifts (prefix). The Fermat covering remains a
 prefix.
 [cycle_cd.md](research/cycle_cd.md).
 The prize is still open.
+
+## Cycle CE (2026-09-11)
+
+Packed update \(a'=d\oplus(c\lor a)\) makes \(d=Da\) iff \(c\to a\),
+pointwise. Identically AND therefore requires \(c\to a\) and
+\(c\to b\); the latter forbids consecutive \(11\)s in \(c\). On the
+\(k=4\) and \(k=8\) odd lifts both implications hold together only
+at the ident-\(0\)/ident-\(1\) scar triple, where \(011\) kills AND
+(prefix). The Fermat covering remains a prefix.
+[cycle_ce.md](research/cycle_ce.md).
+The prize is still open.

@@ -1021,3 +1021,14 @@ prefix.
 cycle_cd.md.
 
 Prize status: still unsolved.
+
+## Cycle CE (2026-09-11)
+
+d=Da iff c implies a, from the packed update of a. Identically AND
+needs c implies a and c implies b; the latter forbids consecutive
+11s in c. On the k=4 and k=8 odd lifts both implications hold
+together only at the ident-0/ident-1 scar triple, where 011 kills
+AND (prefix). Covering still a prefix.
+cycle_ce.md.
+
+Prize status: still unsolved.
