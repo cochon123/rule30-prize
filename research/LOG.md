@@ -467,12 +467,13 @@ Every left-diagonal e_j(t)=x(t,-t+j) is eventually periodic via a
 
 Prize status: still unsolved.
 
+## Cycle AD (2026-09-11)
 
+Freshman Green matches doubling; Fibonacci-binary m have a unique
+writing. Reset/integrator dichotomy; white-stripe implication
+(agreeing nonzero drivers force e_j=0). Closed forms through e_9
+including e_7=0; e_28=0 on period-4 tails. Nested left and 1-run
+endings killed as 00 productions (finite incidence; all eight 11***
+windows occur). White-stripe onsets are 01 not 00. cycle_ad.md.
 
-
-
-
-
-
-
-
+Prize status: still unsolved.

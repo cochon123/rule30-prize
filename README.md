@@ -18,11 +18,12 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AC**. Centre `00` is the triple `000` or
-`101`, each with four 5-window preimages. Every left-diagonal
-\(e_j(t)=x(t,-t+j)\) is eventually periodic, but \(c_t=e_t(t)\) is an
-onset, not a tail value. Infinitely many `00`s are unproved. The prize
-is still open.
+Last completed cycle is **AD**. Freshman expansion of the Green
+trinomial matches Cycle AA’s doubling recurrence. Agreeing nonzero
+left-diagonals force a white stripe; \(e_7\equiv 0\) and \(e_9\equiv 1\)
+by closed forms, and \(e_{28}\equiv 0\) by the same implication.
+Bounded-depth nested left and 1-run endings are not a production of
+infinitely many centre `00`s. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -40,7 +41,11 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   parity \(\bigoplus(\ell\oplus r)\) and cannot be eventually the zero
   sequence (Cycle AB). Every left-diagonal \(x(t,-t+j)\) is eventually
   periodic; the centre is the onset \(e_t(t)\), not the tail
-  (Cycle AC). Centre `00` is the triple `000` or `101`.
+  (Cycle AC). Centre `00` is the triple `000` or `101`. Agreeing
+  nonzero left-diagonals force a white stripe; \(e_7\equiv 0\) and
+  \(e_{28}\equiv 0\) (Cycle AD). A finite family of left-diagonals
+  meets the centred 5-window only finitely often, so nested left is
+  not a `00` production.
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
