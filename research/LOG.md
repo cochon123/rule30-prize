@@ -519,3 +519,13 @@ I_k would kill every power-of-2 period. One-step O^{(1)} is local
 and is not I_k. cycle_ah.md.
 
 Prize status: still unsolved.
+
+## Cycle AI (2026-09-11)
+
+Dyadic step from arbitrary time: c_{t+2^k} = c_t XOR x(t,-2^k) XOR
+x(t,2^k) XOR J_{t,k}. Cycle Z is t=2^k. J is a Boolean of the
+causal 2^{k+1}+1 window. Distance-1 palindrome graph has only
+constant-c recurrent SCCs (Cycle AB). Distances 2 and 4 have mixing
+SCCs; 00 at lag 2^k is not a production. cycle_ai.md.
+
+Prize status: still unsolved.

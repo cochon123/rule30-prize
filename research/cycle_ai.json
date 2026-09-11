@@ -1,0 +1,132 @@
+{
+  "cycle": "AI",
+  "wall_s": 0.18,
+  "checks": {
+    "all_ok": true
+  },
+  "identity": {
+    "fail": 0,
+    "n": 840,
+    "Z_fail": 0,
+    "k0_J_eq_c_and_r_fail": 0
+  },
+  "window_locality": [
+    {
+      "k": 1,
+      "n_windows": 32,
+      "ambig": 0
+    },
+    {
+      "k": 2,
+      "n_windows": 145,
+      "ambig": 0
+    },
+    {
+      "k": 3,
+      "n_windows": 152,
+      "ambig": 0
+    }
+  ],
+  "palindrome_k0": {
+    "all_rec_constant_c": true,
+    "n_rec": 3,
+    "rec": [
+      {
+        "n": 1,
+        "c_vals": [
+          1
+        ],
+        "constant_c": true
+      },
+      {
+        "n": 1,
+        "c_vals": [
+          0
+        ],
+        "constant_c": true
+      },
+      {
+        "n": 2,
+        "c_vals": [
+          0
+        ],
+        "constant_c": true
+      }
+    ]
+  },
+  "palindrome_k1": {
+    "some_rec_both_c": true,
+    "n_rec": 3,
+    "rec": [
+      {
+        "n": 2,
+        "c_vals": [
+          1
+        ],
+        "constant_c": true
+      },
+      {
+        "n": 1,
+        "c_vals": [
+          0
+        ],
+        "constant_c": true
+      },
+      {
+        "n": 21,
+        "c_vals": [
+          0,
+          1
+        ],
+        "constant_c": false
+      }
+    ]
+  },
+  "palindrome_k2": {
+    "some_rec_both_c": true,
+    "n_rec": 4,
+    "largest_rec": 355
+  },
+  "shift_00": {
+    "0": {
+      "hit": 32,
+      "n00": 61
+    },
+    "1": {
+      "hit": 15,
+      "n00": 61
+    },
+    "2": {
+      "hit": 12,
+      "n00": 61
+    },
+    "3": {
+      "hit": 12,
+      "n00": 61
+    },
+    "4": {
+      "hit": 11,
+      "n00": 61
+    },
+    "5": {
+      "hit": 18,
+      "n00": 61
+    }
+  },
+  "lemmas": {
+    "dyadic_step": true,
+    "J_causal_window": true,
+    "k0_palindrome_constant_c": true,
+    "I_k_not_eventually_0": null,
+    "prize": false
+  },
+  "verdict": {
+    "dyadic_step": "LEMMA",
+    "J_causal_window": "LEMMA",
+    "k0_palindrome_graph": "LEMMA",
+    "k_ge_1_palindrome_graph": "KILLED",
+    "shift_00_production": "KILLED",
+    "I_k_eventually_0": "OPEN",
+    "prize": "unsolved"
+  }
+}
