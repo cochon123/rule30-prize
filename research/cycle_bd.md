@@ -10,7 +10,7 @@ Since \(T=2^{k-1}\equiv 0\pmod{8}\) for \(k\ge 4\), bit 33 contributes
 1 for every \(k\ge 7\). Nested left is still not a formula for
 \(I_k\). Not a prize claim: \(I_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_bd.py --certify`. Dump:
+Helper: `python3 research/cycle_bd.py --certify` (~0.01s). Dump:
 `research/cycle_bd.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
