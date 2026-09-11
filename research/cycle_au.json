@@ -1,0 +1,210 @@
+{
+  "cycle": "AU",
+  "wall_s": 0.019,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "fermat_subtract": true,
+    "derived_s": true,
+    "e11_e12_tails": true
+  },
+  "annulus": [
+    {
+      "k": 5,
+      "T": 16,
+      "I": 1,
+      "t10": [
+        17,
+        18,
+        20
+      ],
+      "fire10": [
+        0,
+        0,
+        1
+      ],
+      "x10": 1,
+      "t11": [
+        16,
+        18,
+        20
+      ],
+      "fire11": [
+        0,
+        0,
+        0
+      ],
+      "x11": 0,
+      "t12": [
+        16,
+        17,
+        18,
+        19,
+        21
+      ],
+      "fire12": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x12": 1,
+      "B13": 0
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "I": 1,
+      "t10": [
+        33,
+        34,
+        36
+      ],
+      "fire10": [
+        0,
+        0,
+        1
+      ],
+      "x10": 1,
+      "t11": [
+        32,
+        34,
+        36
+      ],
+      "fire11": [
+        0,
+        0,
+        0
+      ],
+      "x11": 0,
+      "t12": [
+        32,
+        33,
+        34,
+        35,
+        37
+      ],
+      "fire12": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x12": 1,
+      "B13": 0
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "t10": [
+        65,
+        66,
+        68
+      ],
+      "fire10": [
+        0,
+        0,
+        1
+      ],
+      "x10": 1,
+      "t11": [
+        64,
+        66,
+        68
+      ],
+      "fire11": [
+        0,
+        0,
+        0
+      ],
+      "x11": 0,
+      "t12": [
+        64,
+        65,
+        66,
+        67,
+        69
+      ],
+      "fire12": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x12": 1,
+      "B13": 1
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "t10": [
+        129,
+        130,
+        132
+      ],
+      "fire10": [
+        0,
+        0,
+        1
+      ],
+      "x10": 1,
+      "t11": [
+        128,
+        130,
+        132
+      ],
+      "fire11": [
+        0,
+        0,
+        0
+      ],
+      "x11": 0,
+      "t12": [
+        128,
+        129,
+        130,
+        131,
+        133
+      ],
+      "fire12": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x12": 1,
+      "B13": 1
+    }
+  ],
+  "lemmas": {
+    "G_fermat_subtract": true,
+    "G_2a_minus_6_7_10_12": true,
+    "e11_e12_period4": true,
+    "bit10_contributes_1": true,
+    "bit11_contributes_0": true,
+    "bit12_contributes_1": true,
+    "I_eq_1_xor_B13": true,
+    "nested12_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "G_fermat_subtract": "LEMMA",
+    "G_2a_minus_6_7_10_12": "LEMMA",
+    "e11_e12_period4": "LEMMA",
+    "bit10_contributes_1": "LEMMA",
+    "bit11_contributes_0": "LEMMA",
+    "bit12_contributes_1": "LEMMA",
+    "I_eq_1_xor_B13": "LEMMA",
+    "nested12_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

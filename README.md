@@ -18,11 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AT**. For \(n<2^{a-1}\),
-\(G(n,2^a-2^b)=1\) iff \(2^{a-1}-1-n\) lies in a Jacobsthal set
-\(S_b\). Packed bits \(p=(2^c-1)2^j+1\) Green-hit \(I_k\) at times
-\(T+s\cdot 2^j\) (\(s\in S_c\)). Recovers Cycle AS at \(c=1,2\). The
-prize is still open.
+Last completed cycle is **AU**. Fermat-subtract
+\(G(n,2^a-2^c-1)\) is unique at the cone edge. Packed bits 10, 11, 12
+contribute \(1,0,1\) to \(I_k\), so \(I_k=1\oplus B_k^{\ge 13}\) for
+\(k\ge 5\). Nested depth 12 is not a closed form. The prize is still
+open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -97,7 +97,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(3\cdot 2^{k-2}+1\); bit 9 always fires at \(T\) (Cycle AS).
   Half-window \(G(n,2^a-2^b)\) has Jacobsthal support \(S_b\); every
   Mersenne-odd packed bit \(p=(2^c-1)2^j+1\) has times
-  \(T+s\cdot 2^j\) (Cycle AT).
+  \(T+s\cdot 2^j\) (Cycle AT). Fermat-subtract
+  \(G(n,2^a-2^c-1)\) is unique at the cone edge; bits 10–12
+  contribute \(1,0,1\), so \(I_k=1\oplus B^{\ge 13}\) for \(k\ge 5\)
+  (Cycle AU).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
