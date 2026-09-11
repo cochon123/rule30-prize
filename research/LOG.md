@@ -1107,3 +1107,13 @@ never equal. Covering still a prefix.
 cycle_cl.md.
 
 Prize status: still unsolved.
+
+## Cycle CM (2026-09-11)
+
+X splits on W. When V=0, DW=U. Every even T0||not T0 has either
+U=1 V=0 or V=1 with W!=U, so the fourth tail pair is never equal
+through length 16, with ham(W,X) at least n0/2. Covering still a
+prefix.
+cycle_cm.md.
+
+Prize status: still unsolved.
