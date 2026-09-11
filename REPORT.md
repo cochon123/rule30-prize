@@ -1313,3 +1313,17 @@ second odd doubling. Both implications with \(c\not\equiv 0\) still
 occur. The Fermat covering remains a prefix.
 [cycle_cg.md](research/cycle_cg.md).
 The prize is still open.
+
+## Cycle CH (2026-09-11)
+
+Packed update at an identically-\(1\) bit forces the next packed
+bit to be \(\lnot T\) shifted. For even \(|T_0|\ge 2\),
+\(T_0\|\lnot T_0\) is never alternating, so the first tail pair is
+never equal. Consecutive Hamming is at least \(2\) on every
+length-\(8\) nonconstant scar tail of \(130\) bits (prize \(k=8\)
+lift included). Length \(4\) reaches Hamming \(1\) at \(q=43\) on
+an \(80\)-bit window; the prize \(k=4\) lift stays at Hamming
+\(\ge 2\). A blanket gap of \(3\) fails, and Hamming is not always
+even. The Fermat covering remains a prefix.
+[cycle_ch.md](research/cycle_ch.md).
+The prize is still open.
