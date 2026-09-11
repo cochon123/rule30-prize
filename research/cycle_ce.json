@@ -1,0 +1,72 @@
+{
+  "cycle": "CE",
+  "wall_s": 0.001,
+  "checks": {
+    "all_ok": true
+  },
+  "ham4": {
+    "odd_p": 29,
+    "n": 4,
+    "cia": [
+      29,
+      31,
+      32
+    ],
+    "cib": [
+      31
+    ],
+    "both": [
+      31
+    ],
+    "ands": [],
+    "no11": [
+      31
+    ]
+  },
+  "ham8": {
+    "odd_p": 400,
+    "n": 113,
+    "cia": [
+      400,
+      402,
+      403,
+      410
+    ],
+    "cib": [
+      402,
+      406,
+      436
+    ],
+    "both": [
+      402
+    ],
+    "ands": [],
+    "no11": [
+      402,
+      406,
+      410,
+      436
+    ]
+  },
+  "lemmas": {
+    "d_eq_Da_iff_c_implies_a": true,
+    "c_implies_b_forbids_11": true,
+    "both_implications_only_c_eq_0_all_k": null,
+    "no_AND_triple_after_scar_all_k": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "d_eq_Da_iff_c_implies_a": "LEMMA",
+    "c_implies_b_forbids_11": "LEMMA",
+    "both_implications_only_c_eq_0_all_k": "PREFIX",
+    "no_AND_triple_after_scar_all_k": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
