@@ -894,3 +894,14 @@ Their firing XOR takes both values. Covering still a prefix.
 cycle_bs.md.
 
 Prize status: still unsolved.
+
+## Cycle BT (2026-09-11)
+
+For M=2^a, freshman gives c_{t+M} xor c_t = x(t,M) xor x(t,-M) xor J.
+Extras vanish on dyadic block A (4U>2U) and survive on B (4U<6U)
+and C (8U<10U). Covering fails iff J_A=0 and J_B=d_B and J_C=d_C.
+The defects d_B, d_C take both values, so the centre coboundaries
+are not the raw Green AND-parities. Covering still a prefix.
+cycle_bt.md.
+
+Prize status: still unsolved.
