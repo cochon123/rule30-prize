@@ -284,5 +284,21 @@ Prize status: still unsolved. Next: leftover forbidden-spacetime-block
 search (ideas10 item 5); periods 6–7; seed-specific constraints the
 all-finite-row scans omit.
 
+## Cycle L (2026-09-11)
+
+Ideas11. No prize claim.
+
+1. Weight-8 span-24 census, tcap=32w+512: 536155 supports, 3.53e7
+   placements. Max L vs wt = 7,19,26,31,32,32,32,35. Witness w=38
+   mask 17057305, L=35 off-hull. Origin-in-hull dump still L<=31.
+   No L>=40. period2_weight8.md.
+2. Forbidden periodic-centre blocks: residual SCC nonempty; no 3x3/4x4
+   local-rule violation is forced. forbidden_periodic.md.
+3. Periods 6–7, w<=6: L6 to 21, L7 to 23, still growing.
+   period67_fiber.md.
+
+Prize status: still unsolved. Next: origin-in-hull-only census
+(possible L<=31); prize-seed left-edge constraint.
+
 
 

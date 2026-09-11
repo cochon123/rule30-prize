@@ -362,5 +362,21 @@ packed row do not determine the next centre bit.
 [stream_nextbit.md](research/stream_nextbit.md).
 The prize is still open.
 
+## Cycle L (ideas11, 2026-09-11)
+
+A complete-up-to-translation census of Hamming weight \(\le 8\) and
+span \(\le 24\) (35 million placements, long cap) has max period-2
+centre run 35. Every recorded run of length \(\ge 32\) has the origin
+outside the live hull; origin-in-hull still maxes at 31 on that dump.
+No run of length 40, and span is not strictly increasing.
+[period2_weight8.md](research/period2_weight8.md).
+
+Periods 6 and 7 still grow at radius 6. A period-2 centre does not
+force any locally illegal \(3\times 3\) or \(4\times 4\) block: the
+residual strip SCC is nonempty.
+[period67_fiber.md](research/period67_fiber.md),
+[forbidden_periodic.md](research/forbidden_periodic.md).
+The prize is still open.
+
 
 
