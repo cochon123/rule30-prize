@@ -691,6 +691,19 @@ method, and a `00` at \(t\) does not force a `00` at \(t+2^k\).
 [cycle_ai.md](research/cycle_ai.md).
 The prize is still open.
 
+## Cycle AJ (2026-09-11)
+
+AI’s step from \(t=2^k\) by \(2^{k+1}\) has both extras off the cone, so
+\(\theta_k:=c_{3\cdot 2^k}\oplus c_{2^k}\) is the Green AND remainder
+on \([2^k,3\cdot 2^k)\). Eventual period \(2^m\) forces \(\theta_k=0\)
+(the 3-spine and 1-spine agree). The leftmost 11, which never hits
+\(I_k\), always hits \(\theta_k\) because
+\(G(2^{k+1}-1,3\cdot 2^k-1)=1\), hence \(\theta_k=1\oplus S_k\).
+\(S\equiv 0\) would already kill every \(2^m\) period; it fails.
+Infinitely many \(\theta_k=1\) remains open.
+[cycle_aj.md](research/cycle_aj.md).
+The prize is still open.
+
 
 
 

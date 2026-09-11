@@ -529,3 +529,13 @@ constant-c recurrent SCCs (Cycle AB). Distances 2 and 4 have mixing
 SCCs; 00 at lag 2^k is not a production. cycle_ai.md.
 
 Prize status: still unsolved.
+
+## Cycle AJ (2026-09-11)
+
+theta_k = c_{3*2^k} XOR c_{2^k} is the Green remainder on
+[2^k, 3*2^k) targeting 3*2^k. Period 2^m forces theta=0. Leftmost
+11 always hits (G(2^{k+1}-1, 3*2^k-1)=1 by induction), so
+theta = 1 XOR S. S is not identically 0; theta is not I_k, XOR d,
+or XOR (c AND r). cycle_aj.md.
+
+Prize status: still unsolved.
