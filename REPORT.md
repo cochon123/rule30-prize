@@ -542,6 +542,19 @@ not force a centre `11`: period-2 phase `01` avoids \((c,\ell)=(1,0)\).
 [cycle_x.md](research/cycle_x.md).
 The prize is still open.
 
+## Cycle Y (2026-09-11)
+
+If \(v_k=v_{k+1}\) then \(v_k[n]=v_k[2n]\) for all \(n\), so
+\((c_{2^j})_{j\ge k}\) is constant. A non-eventually-periodic
+\((c_{2^k})\) therefore yields an infinite 2-kernel. Packed Rule 30
+is Rule 150 XOR adjacent ANDs; Rule 150 from a single 1 has centre
+identically 1 by palindrome. Predicted sibling-split indices
+(including Rowland’s diagonal period) are not universal. Eventual
+constancy of \((c_{2^k})\) is still open.
+[cycle_y.md](research/cycle_y.md).
+The prize is still open.
+
+
 
 
 

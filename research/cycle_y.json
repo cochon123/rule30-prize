@@ -1,0 +1,404 @@
+{
+  "cycle": "Y",
+  "wall_s": 0.243,
+  "checks": {
+    "all_ok": true
+  },
+  "rule150": {
+    "T": 64,
+    "all_ones": true,
+    "n_mismatch": 0,
+    "mismatch_head": []
+  },
+  "recon_len": 80,
+  "spine": {
+    "b": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "n_zeros_b": 5,
+    "n_ones_b": 11,
+    "last_zero_k": 14,
+    "last_one_k": 15,
+    "not_constant_on_prefix": true,
+    "all_nstar_1_iff_b_differs": true,
+    "no_collision_on_prefix": true,
+    "rows_head": [
+      {
+        "k": 0,
+        "nstar": 1,
+        "b_k": 1,
+        "b_k1": 0,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 1,
+        "nstar": 1,
+        "b_k": 0,
+        "b_k1": 1,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 2,
+        "nstar": 3,
+        "b_k": 1,
+        "b_k1": 1,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 3,
+        "nstar": 2,
+        "b_k": 1,
+        "b_k1": 1,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 4,
+        "nstar": 1,
+        "b_k": 1,
+        "b_k1": 0,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 5,
+        "nstar": 1,
+        "b_k": 0,
+        "b_k1": 1,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 6,
+        "nstar": 3,
+        "b_k": 1,
+        "b_k1": 1,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        "ray_constant": false
+      },
+      {
+        "k": 7,
+        "nstar": 2,
+        "b_k": 1,
+        "b_k1": 1,
+        "nstar_is_1_iff_b_differs": true,
+        "ray_b": [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1,
+          1,
+          0
+        ],
+        "ray_constant": false
+      }
+    ]
+  },
+  "siblings": {
+    "any_template_universal": false,
+    "universal": {
+      "n=k": false,
+      "n=k-1": false,
+      "n=k+1": false,
+      "n=rowland_p(r)": false,
+      "n=v2(r+1)": false,
+      "n=popcount(r)": false
+    },
+    "worst_n": [
+      1,
+      3,
+      6,
+      5,
+      7,
+      4,
+      6,
+      8,
+      9,
+      11
+    ],
+    "rowland_periods_0_15": [
+      1,
+      2,
+      2,
+      4,
+      8,
+      8,
+      16,
+      32,
+      32,
+      64,
+      64,
+      64,
+      64,
+      64,
+      64,
+      null
+    ],
+    "fourpoint_killed": true,
+    "fourpoint": [
+      {
+        "k": 1,
+        "n_fail_n0_and_n1": 0
+      },
+      {
+        "k": 2,
+        "n_fail_n0_and_n1": 2
+      },
+      {
+        "k": 3,
+        "n_fail_n0_and_n1": 3
+      },
+      {
+        "k": 4,
+        "n_fail_n0_and_n1": 3
+      },
+      {
+        "k": 5,
+        "n_fail_n0_and_n1": 10
+      },
+      {
+        "k": 6,
+        "n_fail_n0_and_n1": 11
+      },
+      {
+        "k": 7,
+        "n_fail_n0_and_n1": 37
+      },
+      {
+        "k": 8,
+        "n_fail_n0_and_n1": 73
+      }
+    ],
+    "by_k_head": [
+      {
+        "k": 1,
+        "nres": 2,
+        "worst_n": 1,
+        "worst_minus_k": 0,
+        "hist_head": {
+          "0": 1,
+          "1": 1
+        },
+        "template_hits": {
+          "n=k": 2,
+          "n=k-1": 1,
+          "n=k+1": 2,
+          "n=rowland_p(r)": 2,
+          "n=v2(r+1)": 2,
+          "n=popcount(r)": 2
+        }
+      },
+      {
+        "k": 2,
+        "nres": 4,
+        "worst_n": 3,
+        "worst_minus_k": 1,
+        "hist_head": {
+          "0": 1,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "template_hits": {
+          "n=k": 2,
+          "n=k-1": 2,
+          "n=k+1": 1,
+          "n=rowland_p(r)": 2,
+          "n=v2(r+1)": 0,
+          "n=popcount(r)": 0
+        }
+      },
+      {
+        "k": 3,
+        "nres": 8,
+        "worst_n": 6,
+        "worst_minus_k": 3,
+        "hist_head": {
+          "0": 3,
+          "1": 2,
+          "3": 1,
+          "5": 1,
+          "6": 1
+        },
+        "template_hits": {
+          "n=k": 5,
+          "n=k-1": 2,
+          "n=k+1": 1,
+          "n=rowland_p(r)": 2,
+          "n=v2(r+1)": 3,
+          "n=popcount(r)": 4
+        }
+      },
+      {
+        "k": 4,
+        "nres": 16,
+        "worst_n": 5,
+        "worst_minus_k": 1,
+        "hist_head": {
+          "0": 10,
+          "1": 3,
+          "3": 1,
+          "4": 1,
+          "5": 1
+        },
+        "template_hits": {
+          "n=k": 11,
+          "n=k-1": 9,
+          "n=k+1": 12,
+          "n=rowland_p(r)": 9,
+          "n=v2(r+1)": 9,
+          "n=popcount(r)": 10
+        }
+      },
+      {
+        "k": 5,
+        "nres": 32,
+        "worst_n": 7,
+        "worst_minus_k": 2,
+        "hist_head": {
+          "0": 11,
+          "1": 11,
+          "2": 4,
+          "3": 4,
+          "6": 1,
+          "7": 1
+        },
+        "template_hits": {
+          "n=k": 16,
+          "n=k-1": 16,
+          "n=k+1": 15,
+          "n=rowland_p(r)": 11,
+          "n=v2(r+1)": 13,
+          "n=popcount(r)": 15
+        }
+      },
+      {
+        "k": 6,
+        "nres": 64,
+        "worst_n": 4,
+        "worst_minus_k": -2,
+        "hist_head": {
+          "0": 37,
+          "1": 16,
+          "2": 5,
+          "3": 2,
+          "4": 4
+        },
+        "template_hits": {
+          "n=k": 30,
+          "n=k-1": 26,
+          "n=k+1": 30,
+          "n=rowland_p(r)": 40,
+          "n=v2(r+1)": 40,
+          "n=popcount(r)": 34
+        }
+      }
+    ]
+  },
+  "lemmas": {
+    "spine_reduction": true,
+    "r150_centre_identically_1": true,
+    "r30_is_r150_xor_and": true,
+    "green_reconstructs_centre": true,
+    "b_k_not_eventually_constant": null,
+    "ideas22_index_templates": true
+  },
+  "verdict": {
+    "spine_reduction": "LEMMA",
+    "r150_centre": "LEMMA",
+    "b_k_eventual_constancy": "OPEN",
+    "sibling_index_templates": "KILLED",
+    "fourpoint": "KILLED",
+    "prize": "unsolved"
+  }
+}
