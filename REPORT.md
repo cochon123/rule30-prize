@@ -648,6 +648,17 @@ parities of `10`, `00`, `11`, and of the 1-run Booleans
 [cycle_af.md](research/cycle_af.md).
 The prize is still open.
 
+## Cycle AG (2026-09-11)
+
+The older Green remainder \(O_s\) in the two-step identity equals the
+local Boolean \(c''\oplus 1\oplus(\ell\land c)\oplus(c\land r)\oplus(r\land e)\oplus(c'\land r')\)
+of the centred 5-window on the prize orbit. At a 1-run ending this is
+\(a\oplus e\). Chasing \(O_s=r\land\lnot e\) in the past light cone is
+the same 5-window condition as Cycles AD–AE, not a new bulk
+production of `00`s.
+[cycle_ag.md](research/cycle_ag.md).
+The prize is still open.
+
 
 
 
