@@ -986,3 +986,15 @@ is constant after the scar. Covering still a prefix.
 cycle_ca.md.
 
 Prize status: still unsolved.
+
+## Cycle CB (2026-09-11)
+
+Half-xor v(s)_t = s_t xor s_{t+pi} intertwines with the cyclic
+derivative: v(DB)=D(v(B)). Odd 2-copy strings are never derivatives
+of 2-copy bits. Unique continuation does not preserve 2-copy type,
+and the half-xor obstruction is not absorbing on arbitrary drives.
+After the scar window on the k=8 odd lift it fires on every remaining
+pair (prefix). Covering still a prefix.
+cycle_cb.md.
+
+Prize status: still unsolved.
