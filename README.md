@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **W**. The 4-step \((e,f)\) drain sits inside
-two of the three \(T=20\), \(R=16\) \(X\)-models, so it cannot force a
-uniform \(L_0\) identity. No closed form for \(c_{2^k}\). The prize is
-still open.
+Last completed cycle is **X**. Vacuum kills every finite-window current
+for \(2c_t-1\) (universally and on the prize orbit). No small-range
+bond flux exists either. ideas21.1 is not a weaker form of infinitely
+many `11`s. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -42,7 +42,8 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   Periods 3–7 and `q=8` remain.
 - Density and linear-time computation are untouched by a proof.
   Problem 2 is exactly \(N_{11}-N_{00}=o(N)\) via
-  \(D(N)=N_{11}-N_{00}+c_{N-1}\).
+  \(D(N)=N_{11}-N_{00}+c_{N-1}\). There is no finite-window coboundary
+  or small-range bond flux for \(2c_t-1\) (Cycle X).
 
 Helper scripts live in `research/`. Dumps are the matching `.json` files.
 Astra briefs and idea lists are `research/_astra_brief*.md` and
