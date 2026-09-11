@@ -814,6 +814,19 @@ prefixes.
 [cycle_ar.md](research/cycle_ar.md).
 The prize is still open.
 
+## Cycle AS (2026-09-11)
+
+On \(n<2^{a-1}\), \(G(n,2^a-2)=1\) iff \(n=2^{a-1}-1\); for
+\(a\ge 3\), \(G(n,2^a-4)=1\) iff \(n=2^{a-1}-2\). Packed bits
+\(p=2^j+1\) are unique-Green for \(I_k\) at time \(T=2^{k-1}\), and
+\(p=3\cdot 2^j+1\) (\(j\le k-3\)) at time \(T+2^j\). The two
+double-Green bits are \(p=5\cdot 2^{k-3}+1\) and
+\(p=3\cdot 2^{k-2}+1\). Packed bit 9 always fires at \(T\). The XOR
+of unique firings is not \(I_k\). Exhaustiveness of \(2k-2\) unique
+bits and two doubles is a prefix.
+[cycle_as.md](research/cycle_as.md).
+The prize is still open.
+
 
 
 

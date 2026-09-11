@@ -625,3 +625,13 @@ n-window. None always XOR to 1. Bit B xor = k mod 2 dies at k=9.
 Exactly-five / exactly-four / bit D silent are prefixes. cycle_ar.md.
 
 Prize status: still unsolved.
+
+## Cycle AS (2026-09-11)
+
+Half-window G(n, 2^a-2)=1 iff n=2^{a-1}-1; G(n, 2^a-4)=1 iff
+n=2^{a-1}-2 (a>=3). Unique 2^j+1 family at t=T and 3*2^j+1 family
+at t=T+2^j (j<=k-3) for I_k. Two doubles p=5*2^{k-3}+1 and
+p=3*2^{k-2}+1. Bit 9 always fires at T. Unique XOR is not I_k.
+Exactly 2k-2 unique / two doubles are prefixes. cycle_as.md.
+
+Prize status: still unsolved.
