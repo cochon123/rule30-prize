@@ -1066,3 +1066,15 @@ Covering still a prefix.
 cycle_ch.md.
 
 Prize status: still unsolved.
+
+## Cycle CI (2026-09-11)
+
+The first continuation after ident-1 is the reset-toggle
+u_{t+1}=T_{t-1} and not u_t. The second tail pair is never equal
+(S=DU iff U=S, already killed). Hamming of that pair is exactly
+|T0| through even length 16, and ham(S,U) is a positive multiple
+of 3. Length 16 has Hamming at least 3 on 24 extra bits.
+Covering still a prefix.
+cycle_ci.md.
+
+Prize status: still unsolved.

@@ -1327,3 +1327,16 @@ an \(80\)-bit window; the prize \(k=4\) lift stays at Hamming
 even. The Fermat covering remains a prefix.
 [cycle_ch.md](research/cycle_ch.md).
 The prize is still open.
+
+## Cycle CI (2026-09-11)
+
+The unique continuation \(U\) of \((1,S)\) obeys the reset-toggle
+\(u_{t+1}=T_{t-1}\land\lnot u_t\). The next bit \(V\) equals \(U\)
+iff \(S=DU\) iff \(U=S\), already killed for even \(|T_0|\ge 2\), so
+the second tail pair is never equal. Exhaustively through even
+length \(16\), \(\operatorname{ham}(U,V)=|T_0|\) and
+\(\operatorname{ham}(S,U)\) is a positive multiple of \(3\). Every
+nonconstant length-\(16\) block has consecutive Hamming at least
+\(3\) on \(24\) extra bits. The Fermat covering remains a prefix.
+[cycle_ci.md](research/cycle_ci.md).
+The prize is still open.
