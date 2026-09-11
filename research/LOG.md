@@ -539,3 +539,13 @@ theta = 1 XOR S. S is not identically 0; theta is not I_k, XOR d,
 or XOR (c AND r). cycle_aj.md.
 
 Prize status: still unsolved.
+
+## Cycle AK (2026-09-11)
+
+Fermat-odd spines q=2^a+1: phi^{(q)}_k = c_{q 2^k} XOR c_{2^k} is
+the Green remainder on [2^k, q 2^k). Period 2^m forces every phi=0.
+Leftmost-11 hit parity on that interval is identically 1 (G doubling:
+XOR_m G(m, 2^b-1)=1, then the Fermat target), so phi=1 XOR S for
+every such q. S is not identically 0. cycle_ak.md.
+
+Prize status: still unsolved.
