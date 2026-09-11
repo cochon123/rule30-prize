@@ -394,5 +394,14 @@ a long cap still grows (\(L=24,25,27\) at \(w=8,9,10\)).
 [period2_leftbit.md](research/period2_leftbit.md).
 The prize is still open.
 
+## Cycle N (ideas13, 2026-09-11)
+
+Origin-in-hull weights 9 and 10, span \(\le 20\), still have
+\(L_{\mathrm{run}}\le 31\) (5.8 million placements). The maximizer is
+mask \(806057\): Cycle M’s eight-one row plus a ninth 1 at \(+2\), same
+burst \(t=320\ldots351\). Not a uniform exclusion.
+[period2_hull910.md](research/period2_hull910.md).
+The prize is still open.
+
 
 

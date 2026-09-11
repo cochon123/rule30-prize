@@ -18,10 +18,8 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **M** (ideas12). Origin-in-hull rows of Hamming
-weight `≤8` and span `≤24` have period-2 centre runs of length at most
-31. Forcing the prize-seed left edge does not cut those bursts. The
-prize is still open.
+Last completed cycle is **N** (ideas13). Origin-in-hull rows of weight
+9–10 and span `≤20` still have `L_run≤31`. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -33,9 +31,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound. Origin-in-hull rows of
-  weight `≤8` and span `≤24` have `L_run≤31`. Off-hull weight-8
-  reaches 35. Left-edge-on rows still grow on a long cap. Periods
-  3–7 and `q=8` remain.
+  weight `≤10` and span `≤20` (weight `≤8` through span 24) have
+  `L_run≤31`. Off-hull weight-8 reaches 35. Left-edge-on rows still
+  grow on a long cap. Periods 3–7 and `q=8` remain.
 - Density and linear-time computation are untouched by a proof.
 
 Helper scripts live in `research/`. Dumps are the matching `.json` files.

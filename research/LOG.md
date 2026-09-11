@@ -313,5 +313,12 @@ Ideas12. One finite theorem; left-edge restriction dies. No prize claim.
 Prize status: still unsolved. The hull theorem does not cover later
 prize-seed rows (weight Theta(T), span 2T).
 
+## Cycle N (2026-09-11)
+
+Ideas13 item 1. In-hull wt=9,10 span<=20: 5.82e6 placements, max L=31,
+n_ge32=0. Maximizer mask 806057 (281769 plus a 1 at +2). period2_hull910.md.
+
+Prize status: still unsolved.
+
 
 
