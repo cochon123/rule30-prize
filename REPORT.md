@@ -1125,3 +1125,14 @@ values, so it is not a 1-production. The Fermat covering remains a
 prefix.
 [cycle_br.md](research/cycle_br.md).
 The prize is still open.
+
+## Cycle BS (2026-09-11)
+
+On \(B\) and \(C\), the four leftmost admissible packed bits
+\(p=2U+2,\ldots,2U+5\) are unique-Green, with closed times
+\(6U,6U,6U+1,6U\) (and \(10U,10U,10U+1,10U\)). The proofs use
+\(G(m,1)=m\bmod 2\) and the diagonal \(G(m,2m)=1\). Their firing
+XOR takes both values, so it is not a 1-production. The Fermat
+covering remains a prefix.
+[cycle_bs.md](research/cycle_bs.md).
+The prize is still open.
