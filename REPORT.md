@@ -885,6 +885,16 @@ times from \(s\in\{0,1,2\}\), \(\{0,2,3\}\), \(\{1,2,4\}\),
 [cycle_ax.md](research/cycle_ax.md).
 The prize is still open.
 
+## Cycle AY (2026-09-11)
+
+Packed bit 16 is Jacobsthal \(S_4=\{1,4,5,6,7\}\) and contributes
+\(0\). The new period-4 tail \(e_{18}(t)=1\) iff \(t\equiv 1,2\pmod{4}\)
+(\(t\ge 20\)) makes \(e_{18}\land e_{17}\) identically 0, so bit 18
+never fires. Hence \(I_k=1\oplus B_k^{\ge 19}\) for \(k\ge 5\). Nested
+depth 18 is not a closed form.
+[cycle_ay.md](research/cycle_ay.md).
+The prize is still open.
+
 
 
 
