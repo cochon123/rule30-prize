@@ -1088,3 +1088,13 @@ for every even |T0|>=2. Covering still a prefix.
 cycle_cj.md.
 
 Prize status: still unsolved.
+
+## Cycle CK (2026-09-11)
+
+U has no consecutive 1s. V splits on U, and delta=U xor V
+toggles or resets accordingly. A half-period shift pairs 1-runs
+of odd 2-copy T with 0-runs of the same length, so ham(U,V)=|T0|
+for every even |T0|>=2. Covering still a prefix.
+cycle_ck.md.
+
+Prize status: still unsolved.
