@@ -1,0 +1,47 @@
+{
+  "cycle": "DH",
+  "wall_s": 1.499,
+  "checks": {
+    "all_ok": true
+  },
+  "prize_gap": {
+    "4": {
+      "p": 29,
+      "n3": "N",
+      "upto": 32
+    },
+    "8": {
+      "p": 400,
+      "n3": "N",
+      "upto": 405,
+      "six_gap": true
+    },
+    "16": {
+      "p": 87867,
+      "n3": "N",
+      "upto": 87872,
+      "six_gap": true
+    }
+  },
+  "lemmas": {
+    "reconstruct_zero_iff_A_eq_B": true,
+    "ones_O_type_N_even_half": true,
+    "post_odd_double_6bit_gap": true,
+    "odd_ident0_after_double_needs_equal_N": true,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "reconstruct_zero_iff_A_eq_B": "LEMMA",
+    "ones_O_type_N_even_half": "LEMMA",
+    "post_odd_double_6bit_gap": "LEMMA",
+    "odd_ident0_after_double_needs_equal_N": "LEMMA",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
