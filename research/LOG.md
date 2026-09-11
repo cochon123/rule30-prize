@@ -875,3 +875,13 @@ S_B=S_C=0. Covering still a prefix.
 cycle_bq.md.
 
 Prize status: still unsolved.
+
+## Cycle BR (2026-09-11)
+
+The Green cone t<=(T+p-2)/2 makes every packed bit p<=2U+1 silent
+on covering blocks B and C. Packed bit p=2U+2 is unique-Green on B
+at t=6U and on C at t=10U (both G(m,2m)=1). That AND takes both
+firing values. Covering still a prefix.
+cycle_br.md.
+
+Prize status: still unsolved.

@@ -1,0 +1,59 @@
+{
+  "cycle": "BR",
+  "wall_s": 0.001,
+  "checks": {
+    "all_ok": true
+  },
+  "firing": {
+    "f6": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "f10": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "eq": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "both": true
+  },
+  "lemmas": {
+    "general_cone": true,
+    "low_bits_silent_B_C": true,
+    "p_2U2_unique_on_B": true,
+    "p_2U2_unique_on_C": true,
+    "p_2U2_identically_fires": false,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "general_cone": "LEMMA",
+    "low_bits_silent_B_C": "LEMMA",
+    "p_2U2_unique_on_B": "LEMMA",
+    "p_2U2_unique_on_C": "LEMMA",
+    "p_2U2_identically_fires": "KILLED",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
