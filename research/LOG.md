@@ -939,3 +939,15 @@ at k=5. Covering still a prefix.
 cycle_bw.md.
 
 Prize status: still unsolved.
+
+## Cycle BX (2026-09-11)
+
+A 1-reset in the driver forces a unique period-pi continuation of
+the next packed bit; wrap-around is automatic. An identically-0
+driver toggles, doubling the period iff the driver XOR is 1.
+Unblocked lifts match the prize through k=12. Period 8 for all
+k>=5 is false (k=9 has period 16); frozen zeros 2,7,28 grow.
+Covering still a prefix.
+cycle_bx.md.
+
+Prize status: still unsolved.
