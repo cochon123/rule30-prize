@@ -644,3 +644,12 @@ s in S_c. Recovers AS at c=1,2. 7-family is triples, not identically 1.
 Mersenne-odd XOR is not I_k. cycle_at.md.
 
 Prize status: still unsolved.
+
+## Cycle AU (2026-09-11)
+
+G(n, 2^a-2^c-1)=1 iff n=2^{a-1}-1 on the half-window. Derived
+2^a-6,7,10,12. e_11=1 iff t≡2 mod 4; e_12=1 iff t not≡0 mod 4.
+Bits 10,11,12 contribute 1,0,1, so I_k=1 XOR B^{>=13} for k>=5.
+Nested depth 12 is not a closed form. cycle_au.md.
+
+Prize status: still unsolved.

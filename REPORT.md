@@ -839,6 +839,18 @@ families is not \(I_k\).
 [cycle_at.md](research/cycle_at.md).
 The prize is still open.
 
+## Cycle AU (2026-09-11)
+
+\(G(n,2^a-2^c-1)=1\) iff \(n=2^{a-1}-1\) on the half-window.
+Derived laws for \(2^a-6,7,10,12\) give packed bits 10–12 explicit
+Green times. The new period-4 tails \(e_{11}(t)=1\) iff
+\(t\equiv 2\pmod{4}\) and \(e_{12}(t)=1\) iff \(t\not\equiv 0\pmod{4}\)
+make those contributions \(1,0,1\). Hence
+\(I_k=1\oplus B_k^{\ge 13}\) for \(k\ge 5\). Nested depth 12 is not a
+closed form.
+[cycle_au.md](research/cycle_au.md).
+The prize is still open.
+
 
 
 
