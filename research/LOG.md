@@ -615,3 +615,13 @@ the 3-fold annulus is p=3*2^{k-1}+1 at t=3U/2 and 2U; firing XOR
 takes both values. Five triples on k=4..8 (prefix). cycle_aq.md.
 
 Prize status: still unsolved.
+
+## Cycle AR (2026-09-11)
+
+G(m, q*2^j-1)=1 iff 2^j | (m+1) and G((m+1)/2^j-1, q-1)=1.
+Fermat-odd q recovers AO (q=3) and AP (q=5). Five triples and four
+quadruples on the 3-fold annulus have closed times from a k-independent
+n-window. None always XOR to 1. Bit B xor = k mod 2 dies at k=9.
+Exactly-five / exactly-four / bit D silent are prefixes. cycle_ar.md.
+
+Prize status: still unsolved.

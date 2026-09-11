@@ -18,10 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AQ**. \(G(m,2^a)\) is bit \(a\) XOR the
-parity of the 1-run from bit \(a-1\) downward. The 3-fold annulus has
-a unique double-Green bit \(p=3\cdot 2^{k-1}+1\), which does not
-always fire. The prize is still open.
+Last completed cycle is **AR**. Odd Green targets lift:
+\(G(m,q\cdot 2^j-1)=1\) iff \(2^j\mid(m+1)\) and
+\(G((m+1)/2^j-1,q-1)=1\). Fermat-odd \(q\) recovers Cycles AO and AP.
+Five triple-Green and four quadruple-Green bits on the 3-fold annulus
+have closed times and do not always fire. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -86,7 +87,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   (Cycle AP). Power-of-two targets have the bit-run form
   \(G(m,2^a)=\mathrm{bit}_a(m)\oplus(L_a(m)\bmod 2)\); the unique
   double-Green bit on the 3-fold annulus is \(p=3\cdot 2^{k-1}+1\)
-  and does not always fire (Cycle AQ).
+  and does not always fire (Cycle AQ). Odd targets lift by
+  \(G(m,q\cdot 2^j-1)=G((m+1)/2^j-1,q-1)\) on \(2^j\mid(m+1)\);
+  Fermat-odd \(q\) recovers AO/AP, and the five triples and four
+  quadruples on the 3-fold annulus have closed times (Cycle AR).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

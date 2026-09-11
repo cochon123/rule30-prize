@@ -801,6 +801,19 @@ always fire. Five triple-Green bits follow a scaling list on
 [cycle_aq.md](research/cycle_aq.md).
 The prize is still open.
 
+## Cycle AR (2026-09-11)
+
+\(G(m,q\cdot 2^j-1)=1\) iff \(2^j\mid(m+1)\) and
+\(G((m+1)/2^j-1,q-1)=1\). Fermat-odd \(q=2^a+1\) reduces to Cycle AQ
+and recovers the two-point and four-point laws. On the 3-fold annulus
+the five triple-Green bits and four quadruple-Green bits have closed
+times, because the lift window in \(n\) is independent of \(k\). None
+of those nine bits is an identically-1 production; bit B’s XOR is not
+\(k\bmod 2\). Exhaustiveness of the nine, and bit D never firing, are
+prefixes.
+[cycle_ar.md](research/cycle_ar.md).
+The prize is still open.
+
 
 
 
