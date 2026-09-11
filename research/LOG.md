@@ -653,3 +653,14 @@ Bits 10,11,12 contribute 1,0,1, so I_k=1 XOR B^{>=13} for k>=5.
 Nested depth 12 is not a closed form. cycle_au.md.
 
 Prize status: still unsolved.
+
+## Cycle AV (2026-09-11)
+
+Unique half-window G-supports are exactly the AS 2-family and
+3-family. Unique-Green bits for I_k are exactly those 2k-2 packed
+indices (AS prefix upgraded). e_13..e_17 period 4; bits 13 and 17
+contribute 0. Unique 3-family p>=13 is not identically 0 (k=15).
+Double p=3T/2+1 XOR 0 dies at k=12. Nested left is not a formula
+for I_k. cycle_av.md.
+
+Prize status: still unsolved.
