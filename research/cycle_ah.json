@@ -1,0 +1,152 @@
+{
+  "cycle": "AH",
+  "wall_s": 1.714,
+  "checks": {
+    "all_ok": true
+  },
+  "freshman_poly_ok": true,
+  "Q_support": {
+    "1": [
+      0,
+      1,
+      2
+    ],
+    "3": [
+      0,
+      1,
+      3,
+      5,
+      6
+    ],
+    "5": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "7": [
+      0,
+      1,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10,
+      11,
+      13,
+      14
+    ],
+    "9": [
+      0,
+      1,
+      2,
+      8,
+      9,
+      10,
+      16,
+      17,
+      18
+    ]
+  },
+  "spines": {
+    "1": {
+      "all_ok": true,
+      "n": 10,
+      "Delta_identically_0": true,
+      "J_identically_0": false,
+      "flip_eq_Delta": false,
+      "flip_eq_J": true,
+      "empty_extras": true
+    },
+    "3": {
+      "all_ok": true,
+      "n": 9,
+      "Delta_identically_0": false,
+      "J_identically_0": false,
+      "flip_eq_Delta": false,
+      "flip_eq_J": false,
+      "empty_extras": false
+    },
+    "5": {
+      "all_ok": true,
+      "n": 8,
+      "Delta_identically_0": false,
+      "J_identically_0": false,
+      "flip_eq_Delta": false,
+      "flip_eq_J": false,
+      "empty_extras": false
+    },
+    "7": {
+      "all_ok": true,
+      "n": 7,
+      "Delta_identically_0": false,
+      "J_identically_0": false,
+      "flip_eq_Delta": false,
+      "flip_eq_J": false,
+      "empty_extras": false
+    },
+    "9": {
+      "all_ok": true,
+      "n": 8,
+      "Delta_identically_0": false,
+      "J_identically_0": false,
+      "flip_eq_Delta": false,
+      "flip_eq_J": false,
+      "empty_extras": false
+    }
+  },
+  "q9_Delta_k8": 1,
+  "one_step": {
+    "one_fail": 0,
+    "local_fail": 0,
+    "cap": 40
+  },
+  "O1_vs_I": {
+    "fails": [
+      1,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10
+    ],
+    "matches": [
+      2,
+      4,
+      7
+    ]
+  },
+  "period_constraint": {
+    "all_ok": true,
+    "orders": {
+      "1": 1,
+      "3": 2,
+      "5": 4,
+      "7": 3,
+      "9": 6
+    }
+  },
+  "lemmas": {
+    "odd_spine_half_step": true,
+    "power_of_2_period_forces_b_constant": true,
+    "one_step_O1_local": true,
+    "I_k_not_eventually_0": null,
+    "prize": false
+  },
+  "verdict": {
+    "odd_spine_half_step": "LEMMA",
+    "period_constraint_on_b": "LEMMA",
+    "one_step_O1_local": "LEMMA",
+    "Delta_or_J_closed_form": "KILLED",
+    "O1_as_I_k_or_bulk_00": "KILLED",
+    "I_k_eventually_0": "OPEN",
+    "prize": "unsolved"
+  }
+}

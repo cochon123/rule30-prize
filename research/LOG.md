@@ -506,3 +506,16 @@ O_s = a XOR e, the distance-2 palindrome defect. Killed as a bulk 00
 handle: it restates a = r OR e. cycle_ag.md.
 
 Prize status: still unsolved.
+
+## Cycle AH (2026-09-11)
+
+Odd-spine half-step: c_{2 q 2^k} = c_{q 2^k} XOR Delta XOR J with
+Q=(1+x+x^2)^q, edges cancelling, centre from G(q,q)=1. Cycle Z is
+q=1 (empty extras). Delta and J are not identically 0 for
+q=3,5,7,9 (q=9 Delta dies at k=8) and neither is the spine flip.
+Eventual period 2^m r (r odd) forces (b_k) eventually periodic of
+period dividing ord_r(2); r=1 forces constancy, so non-vanishing
+I_k would kill every power-of-2 period. One-step O^{(1)} is local
+and is not I_k. cycle_ah.md.
+
+Prize status: still unsolved.

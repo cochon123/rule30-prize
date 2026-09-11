@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AG**. Cycle AF’s older remainder \(O_s\) is
-a local Boolean of the centred 5-window on the prize orbit; at a
-1-run ending it is \(a\oplus e\). It is not a bulk handle for
-infinitely many `00`s. The prize is still open.
+Last completed cycle is **AH**. Cycle Z is the \(q=1\) case of a
+Freshman half-step at times \(q\cdot 2^k\). Eventual period \(2^m\)
+forces \((c_{2^k})\) eventually constant, so a non-vanishing \(I_k\)
+would kill every power-of-2 period. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -49,7 +49,14 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   remainder \(O_s\) that is not identically 0, so local ANDs at a
   1-run ending do not force `00` (Cycle AF). On the prize orbit
   \(O_s\) is a local 5-window Boolean, equal to \(a\oplus e\) at
-  1-run endings, so it is not a bulk `00` handle (Cycle AG).
+  1-run endings, so it is not a bulk `00` handle (Cycle AG). The same
+  Freshman factorisation at times \(q\cdot 2^k\) gives
+  \(c_{2qU}=c_{qU}\oplus\Delta^{(q)}\oplus J^{(q)}\); for \(q=1\) this
+  is Cycle Z, and \(\Delta,J\) are not closed forms for
+  \(q\in\{3,5,7,9\}\). Eventual period \(2^m r\) with \(r\) odd forces
+  \((b_k)\) eventually periodic of period dividing \(\mathrm{ord}_r(2)\);
+  \(r=1\) forces eventual constancy (Cycle AH). The one-step Green
+  remainder is local, so it is not a bulk `00` or \(I_k\) handle.
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
