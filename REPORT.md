@@ -433,6 +433,20 @@ the even lattice is false.
 [period2_ugap.md](research/period2_ugap.md).
 The prize is still open.
 
+## Cycle Q (ideas14 items 1, remainder of 2, and 5; 2026-09-11)
+
+Morse–Hedlund rigidity of long `L_0` germs is false: last-sat words at
+`T=20` and `T=22` have `p(n)>n` through half their length, so a long
+zero run in `F` does not force a periodic `u`-tail. Free `(g,h)`
+realises every length-8 word of the gap-4 SFT `X`; realizable `u` is
+exactly `X`, not a proper subshift. Three of the six `T=20`, `R=16`
+models lie in `X` and still die only at `F_37`. Driven isolated-zero
+`q=8` does not force `σ` eventually periodic (35 mixers among 63
+rights of width `≤5`).
+[cycle_q.md](research/cycle_q.md).
+The prize is still open.
+
+
 
 
 

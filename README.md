@@ -18,9 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **P**. A period-2 centre forces the even right
-neighbor `u` to have no five consecutive zeros (SFT `{11, 00000}`
-forbidden). That does not exclude period 2. The prize is still open.
+Last completed cycle is **Q**. Morse–Hedlund of `L_0` germs, the
+realizable language of `u`, and driven `q=8` `σ` all hit their kill
+criteria. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.

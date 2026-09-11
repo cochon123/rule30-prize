@@ -340,6 +340,16 @@ kill T=20 R=16. F^2 is not width-1 left-expansive. period2_ugap.md.
 
 Prize status: still unsolved.
 
+## Cycle Q (2026-09-11)
+
+Ideas14 Morse-Hedlund, exact language of u, q=8 drive. MH rigidity
+killed (T=20,22 germs have p(n)>n through half). Realizable u is all
+of X (43 octuples). q=8: 35/63 finite rights mix sigma. Three T=20
+R=16 models survive the gap bound. cycle_q.md.
+
+Prize status: still unsolved.
+
+
 
 
 
