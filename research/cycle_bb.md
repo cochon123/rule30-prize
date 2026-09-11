@@ -9,7 +9,7 @@ member of the 21-family and contributes 1. Sextuple XOR and septuple
 XOR are not \(I_k\). Nested left is still not a formula for \(I_k\).
 Not a prize claim: \(I_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_bb.py --certify`. Dump:
+Helper: `python3 research/cycle_bb.py --certify` (~7s). Dump:
 `research/cycle_bb.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 

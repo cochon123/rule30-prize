@@ -1,0 +1,271 @@
+{
+  "cycle": "BB",
+  "wall_s": 6.863,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "sep_s_sets": true,
+    "even_sextuples": true,
+    "even_septuples": true,
+    "odd_lifts_6": true,
+    "odd_lifts_7": true,
+    "sex_mechanisms": true,
+    "sep_mechanisms": true
+  },
+  "annulus": [
+    {
+      "k": 5,
+      "T": 16,
+      "I": 1,
+      "n6": 2,
+      "n7": 0,
+      "sex": [
+        20,
+        22
+      ],
+      "sep": [],
+      "expected6": [
+        20,
+        22
+      ],
+      "expected7": [],
+      "family_times": true,
+      "sex_xor": 1,
+      "sep_xor": 0,
+      "t22": [
+        16,
+        21,
+        22,
+        24,
+        25,
+        26
+      ],
+      "fire22": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "x22": 0
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "I": 1,
+      "n6": 4,
+      "n7": 2,
+      "sex": [
+        34,
+        36,
+        39,
+        43
+      ],
+      "sep": [
+        22,
+        30
+      ],
+      "expected6": [
+        34,
+        36,
+        39,
+        43
+      ],
+      "expected7": [
+        22,
+        30
+      ],
+      "family_times": true,
+      "sex_xor": 0,
+      "sep_xor": 0,
+      "t22": [
+        33,
+        34,
+        37,
+        38,
+        40,
+        41,
+        42
+      ],
+      "fire22": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x22": 1
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "n6": 5,
+      "n7": 6,
+      "sex": [
+        66,
+        67,
+        71,
+        77,
+        85
+      ],
+      "sep": [
+        22,
+        30,
+        36,
+        43,
+        52,
+        59
+      ],
+      "expected6": [
+        66,
+        67,
+        71,
+        77,
+        85
+      ],
+      "expected7": [
+        22,
+        30,
+        36,
+        43,
+        52,
+        59
+      ],
+      "family_times": true,
+      "sex_xor": 1,
+      "sep_xor": 0,
+      "t22": [
+        65,
+        66,
+        69,
+        70,
+        72,
+        73,
+        74
+      ],
+      "fire22": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x22": 1
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "n6": 5,
+      "n7": 14,
+      "sex": [
+        131,
+        133,
+        141,
+        153,
+        169
+      ],
+      "sep": [
+        22,
+        30,
+        36,
+        43,
+        52,
+        59,
+        66,
+        68,
+        71,
+        85,
+        98,
+        100,
+        103,
+        117
+      ],
+      "expected6": [
+        131,
+        133,
+        141,
+        153,
+        169
+      ],
+      "expected7": [
+        22,
+        30,
+        36,
+        43,
+        52,
+        59,
+        66,
+        68,
+        71,
+        85,
+        98,
+        100,
+        103,
+        117
+      ],
+      "family_times": true,
+      "sex_xor": 1,
+      "sep_xor": 1,
+      "t22": [
+        129,
+        130,
+        133,
+        134,
+        136,
+        137,
+        138
+      ],
+      "fire22": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "x22": 1
+    }
+  ],
+  "sex_xor_mismatch_k": [
+    6,
+    7,
+    8
+  ],
+  "sep_xor_mismatch_k": [
+    6,
+    8
+  ],
+  "lemmas": {
+    "no_even_sextuples_a_ge_8": true,
+    "exactly_five_sextuples": true,
+    "even_septuples_exactly_ten": true,
+    "septuples_are_ten_families": true,
+    "bit22_contributes_1": true,
+    "sex_xor_is_I": false,
+    "sep_xor_is_I": false,
+    "nested_left_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "no_even_sextuples_a_ge_8": "LEMMA",
+    "exactly_five_sextuples": "LEMMA",
+    "even_septuples_exactly_ten": "LEMMA",
+    "septuples_are_ten_families": "LEMMA",
+    "bit22_contributes_1": "LEMMA",
+    "sex_xor_is_I": "KILLED",
+    "sep_xor_is_I": "KILLED",
+    "nested_left_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
