@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AH**. Cycle Z is the \(q=1\) case of a
-Freshman half-step at times \(q\cdot 2^k\). Eventual period \(2^m\)
-forces \((c_{2^k})\) eventually constant, so a non-vanishing \(I_k\)
-would kill every power-of-2 period. The prize is still open.
+Last completed cycle is **AI**. From any time \(t\),
+\(c_{t+2^k}=c_t\oplus x(t,\pm 2^k)\oplus J_{t,k}\) with \(J\) a
+Boolean of the causal window of width \(2^{k+1}+1\). Cycle Z is the
+dyadic-time case. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -57,6 +57,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \((b_k)\) eventually periodic of period dividing \(\mathrm{ord}_r(2)\);
   \(r=1\) forces eventual constancy (Cycle AH). The one-step Green
   remainder is local, so it is not a bulk `00` or \(I_k\) handle.
+  From any time \(t\), a power-of-2 step is
+  \(c_{t+2^k}=c_t\oplus x(t,\pm 2^k)\oplus J_{t,k}\) with \(J\) causal
+  of width \(2^{k+1}+1\) (Cycle AI); palindrome graphs at distance
+  \(2\) and \(4\) have mixing SCCs, so they do not extend Cycle AB.
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

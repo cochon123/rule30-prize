@@ -677,6 +677,20 @@ local and is not \(I_k\).
 [cycle_ah.md](research/cycle_ah.md).
 The prize is still open.
 
+## Cycle AI (2026-09-11)
+
+Packed Rule 150 for \(2^k\) steps multiplies by
+\(1+x^{2^k}+x^{2^{k+1}}\) from every time \(t\), so
+\(c_{t+2^k}=c_t\oplus x(t,-2^k)\oplus x(t,2^k)\oplus J_{t,k}\).
+Cycle Z is the case \(t=2^k\). \(J_{t,k}\) is a Boolean of the
+causal window \([-2^k,2^k]\). The 16-node palindrome graph at
+distance 1 has only constant-centre recurrent SCCs (Cycle AB). At
+distances 2 and 4 a mixing SCC takes both colours of \(c\), so
+eventual palindrome at those distances is not excluded by this
+method, and a `00` at \(t\) does not force a `00` at \(t+2^k\).
+[cycle_ai.md](research/cycle_ai.md).
+The prize is still open.
+
 
 
 
