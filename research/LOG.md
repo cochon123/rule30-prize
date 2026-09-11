@@ -701,3 +701,13 @@ No even quads for a>=6; exactly five quads, the odd-lift orbit of
 Quad XOR is not I_k. cycle_az.md.
 
 Prize status: still unsolved.
+
+## Cycle BA (2026-09-11)
+
+Even pentuples are 2^a-{12,16,18,20,26,28,34,50} for a>=7; all
+pentuples are the 11,15,17,19,25,27,33,49 families p=r*2^j+1.
+e_20..e_27 period 4; e_30=1 for t>=33; bits 20, 24, 25 never fire.
+Pentuple XOR is not I_k. Nested left is still not a closed form.
+cycle_ba.md.
+
+Prize status: still unsolved.

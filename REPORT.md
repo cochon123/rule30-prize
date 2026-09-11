@@ -905,6 +905,19 @@ closed form. Quad XOR is not \(I_k\).
 [cycle_az.md](research/cycle_az.md).
 The prize is still open.
 
+## Cycle BA (2026-09-11)
+
+Even half-window pentuples are \(2^a-\{12,16,18,20,26,28,34,50\}\) for
+\(a\ge 7\); odd pentuples are one doubling of a previous pentuple.
+Packed bits are the families \(p=r\cdot 2^{j}+1\) for
+\(r\in\{11,15,17,19,25,27,33,49\}\), with times from the eight
+\(s\)-sets. The tails \(e_{20},\ldots,e_{27}\) are period 4 and
+\(e_{30}\equiv 1\) for \(t\ge 33\), so bits 20, 24, and 25 never fire.
+Pentuple XOR is not \(I_k\). Nested left is still not a closed form.
+[cycle_ba.md](research/cycle_ba.md).
+The prize is still open.
+
+
 
 
 
