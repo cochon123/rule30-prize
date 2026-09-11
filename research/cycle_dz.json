@@ -1,0 +1,136 @@
+{
+  "cycle": "DZ",
+  "wall_s": 1.637,
+  "checks": {
+    "all_ok": true
+  },
+  "n5_type": {
+    "2": {
+      "n": 4,
+      "type": "N",
+      "xorcat": [
+        1
+      ]
+    },
+    "4": {
+      "n": 16,
+      "type": "N",
+      "xorcat": [
+        0
+      ]
+    },
+    "6": {
+      "n": 64,
+      "type": "N",
+      "xorcat": [
+        0,
+        1
+      ]
+    },
+    "8": {
+      "n": 256,
+      "type": "N",
+      "xorcat": [
+        0,
+        1
+      ]
+    },
+    "10": {
+      "n": 1024,
+      "type": "N",
+      "xorcat": [
+        0,
+        1
+      ]
+    },
+    "12": {
+      "n": 4096,
+      "type": "N",
+      "xorcat": [
+        0,
+        1
+      ]
+    },
+    "16": {
+      "n": 40,
+      "type": "N",
+      "sampled": true
+    }
+  },
+  "n6_ne_n7": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256,
+    "10": 1024,
+    "12": 4096,
+    "16": 40
+  },
+  "gap9_scar": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256
+  },
+  "n5_not_E": {
+    "ok": true,
+    "n": 2
+  },
+  "n6_ne_n7_step": {
+    "ok": true
+  },
+  "prize_gap9": {
+    "4": {
+      "p": 29,
+      "pi": 4,
+      "n5": "N",
+      "gap9": true
+    },
+    "8": {
+      "p": 400,
+      "pi": 8,
+      "n5": "N",
+      "gap9": true
+    },
+    "16": {
+      "p": 87867,
+      "pi": 16,
+      "n5": "N",
+      "gap9": true
+    }
+  },
+  "n7_ne_n8_prefix": {
+    "2": 4,
+    "4": 16,
+    "6": 64,
+    "8": 256,
+    "10": 1024,
+    "12": 4096
+  },
+  "lemmas": {
+    "n5_type_N_even_n0": true,
+    "n6_ne_n7_even_n0": true,
+    "post_odd_9bit_gap_even_n0": true,
+    "xorcat_n5_always_odd": false,
+    "n6_always_type_N": false,
+    "post_odd_10bit_gap_all_n0": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n5_type_N_even_n0": "LEMMA",
+    "n6_ne_n7_even_n0": "LEMMA",
+    "post_odd_9bit_gap_even_n0": "LEMMA",
+    "xorcat_n5_always_odd": "KILLED",
+    "n6_always_type_N": "KILLED",
+    "post_odd_10bit_gap_all_n0": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
