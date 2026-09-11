@@ -27,6 +27,7 @@ from cycle_ca import (
     KNOWN20,
     apply_n,
     left_at_2W,
+    left_step,
     min_period,
     packed_center_bits,
     prize_cycle,
@@ -96,9 +97,23 @@ def pack_cols(cyc: list[int], n_cols: int, pi: int) -> list[int]:
     return cols
 
 
-def high_half_packed(k: int) -> dict:
+def cycle_from(word: int, k: int) -> tuple[int, list[int]]:
+    W = 1 << k
+    pi = min_period(word, W)
+    cyc: list[int] = []
+    x = word
+    for _ in range(pi):
+        cyc.append(x)
+        x = left_step(x, W)
+    return pi, cyc
+
+
+def high_half_packed(k: int, word: int | None = None) -> dict:
     """Ident-0 census in (W,2W] via packed reconstruct. Expect none for k=17..19."""
-    pi, cyc = prize_cycle(k)
+    if word is None:
+        pi, cyc = prize_cycle(k)
+    else:
+        pi, cyc = cycle_from(word, k)
     W = 1 << k
     if pi != pi_formula(k):
         return {"ok": False, "k": k, "pi": pi}
@@ -158,7 +173,10 @@ def main() -> None:
     unfold_ok = unfold_int_matches()
     de = de_prefix()
     seed = seed_k19()
-    highs = [high_half_packed(k) for k in NEW_K]
+    highs = [
+        high_half_packed(k, seed["word"] if k == 19 else None)
+        for k in NEW_K
+    ]
     checks = self_checks(c20, unfold_ok, de, seed, highs)
     dump = {
         "cycle": "DO",
