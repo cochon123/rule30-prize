@@ -360,6 +360,17 @@ cycle_r.md.
 
 Prize status: still unsolved.
 
+## Cycle S (2026-09-11)
+
+F^2 lag-2 inverse is G_0 = x_{-2} XOR ((x_{-1} XNOR x_0) AND (x_1 OR x_2)).
+On phase 01 this is F_2=u (127/127 finite rights). Uniqueness stops at
+lag 2; ell=1 zeros x_{-2}; no Condrey horizon. Radius-8 spatial windows
+do not determine displacement from 11 to next 00 (44 collisions).
+Half-time right-edge width-8 gadget is a full 2-shift of fires.
+cycle_s.md.
+
+Prize status: still unsolved.
+
 
 
 

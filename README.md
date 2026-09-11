@@ -18,11 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **R**. The 2-kernel even-decimation disagreement
-\(d(k)\) is not injective, prize-seed `fiber_left` does not miss the
-left edge uniformly, and adjacent run lengths do not pair. Exact
-identity \(D(N)=N_{11}-N_{00}+c_{N-1}\) recasts Problem 2 as signed
-cancellation. The prize is still open.
+Last completed cycle is **S**. The lag-2 inverse of \(F^2\) is the
+known fold \(F_2=u\); spatial windows of radius \(\le 8\) do not pair
+\(11\) with \(00\). The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.

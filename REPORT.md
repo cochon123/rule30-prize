@@ -468,6 +468,17 @@ is required. Adjacent \(1\)-run and \(0\)-run lengths are equal only
 \(33.5\%\) of the time, so a local pairing fails. The prize is still
 open.
 
+## Cycle S (2026-09-11)
+
+The lag-2 inverse of \(F^2\) is not a Condrey fiber: it determines
+only column \(-2\), and on phase `01` that bit is the even right
+neighbor \(u\) (already `fold_bit`). Spatial windows of radius
+\(\le 8\) about a \(11\) do not determine the displacement to the
+next \(00\). A width-8 right-edge word at time \(\lfloor t/2\rfloor\)
+does not force an odd-time \(11\) at \(t\).
+[cycle_s.md](research/cycle_s.md).
+The prize is still open.
+
 
 
 
