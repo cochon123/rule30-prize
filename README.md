@@ -18,9 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **T**. Isolated-one \(10^q\) keeps residual
-strip SCCs; packed popcount does not carry \(D(N)\); the \(\varphi_k\)
-kernel template dies at \(k=3\). The prize is still open.
+Last completed cycle is **U**. Every binary word of length \(\le 14\)
+occurs in the centre (period/preperiod \(\ge 16384\) if eventually
+periodic). That is not disjunctivity. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.

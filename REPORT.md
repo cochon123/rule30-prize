@@ -490,6 +490,17 @@ an injective fingerprint of the other \(2^k-1\) kernel columns
 [cycle_t.md](research/cycle_t.md).
 The prize is still open.
 
+## Cycle U (2026-09-11)
+
+Every binary word of length \(\le 14\) is a factor of the centre
+(witness: prefix \(2^{18}\)). An eventual period would therefore
+satisfy \(T+p\ge 16384\). Twelve length-15 words are missing from that
+prefix, so the language is not yet certified as the full 2-shift.
+Predicted 2-kernel disagreement indices
+(\(i=0,1,v_2(s-r),\mathrm{popcount}(r\oplus s),k-1\)) all fail.
+[cycle_u.md](research/cycle_u.md).
+The prize is still open.
+
 
 
 

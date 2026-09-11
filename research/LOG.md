@@ -380,6 +380,15 @@ distinct through k=9. cycle_t.md.
 
 Prize status: still unsolved.
 
+## Cycle U (2026-09-11)
+
+Every binary word of length <=14 occurs in the first 2^18 centre bits
+(T+p >= 16384 if eventually periodic). Twelve length-15 words missing.
+Predicted kernel disagreement indices all fail by k=2.
+cycle_u.md.
+
+Prize status: still unsolved.
+
 
 
 
