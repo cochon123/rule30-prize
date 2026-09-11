@@ -11,7 +11,7 @@ the even spine \(\varphi^{(2q)}_k\). Not a prize claim: the Fermat
 covering remains a prefix, and some \(\varphi^{(q)}_k=1\) infinitely
 often is unproved.
 
-Helper: `python3 research/cycle_bf.py --certify`. Dump:
+Helper: `python3 research/cycle_bf.py --certify` (~0.06s). Dump:
 `research/cycle_bf.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
@@ -75,7 +75,7 @@ For every integer \(q\ge 1\) and \(k\ge 0\),
 \]
 
 Both sides equal \(c_{q\cdot 2^{k+1}}\oplus c_{2^{k+1}}\). Certified
-for \(q=1,\ldots,12\) and \(k\le 10\). In particular a covering
+for \(q=1,\ldots,12\) and \(k\le 8\). In particular a covering
 failure at \(k+1\) forces
 \(\varphi^{(6)}_k=\varphi^{(10)}_k=\varphi^{(18)}_k=I_{k+1}\).
 

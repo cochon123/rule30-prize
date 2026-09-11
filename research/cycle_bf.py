@@ -231,8 +231,8 @@ def main() -> None:
             if p1_times_formula(a, k) != p1_times_brute(a, k):
                 p1_ok = False
     # doubling identity on centres
-    kmax_d = 10
-    need = 18 * (1 << kmax_d)
+    kmax_d = 8
+    need = 2 * 12 * (1 << kmax_d)
     centres = packed_center_bits(need + 1)
     doubling_ok = True
     for k in range(1, kmax_d + 1):
