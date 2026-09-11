@@ -1,0 +1,31 @@
+{
+  "cycle": "DK",
+  "wall_s": 17.486,
+  "checks": {
+    "all_ok": true
+  },
+  "n0": 16,
+  "n_extra": 130,
+  "n_ok": 65534,
+  "n_hit": 0,
+  "prize_u16": "0000110011110011",
+  "lemmas": {
+    "n0_16_no_ident0_in_130": true,
+    "prize_u16_in_that_window": true,
+    "k16_leftover_43205_all_T0": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n0_16_no_ident0_in_130": "LEMMA",
+    "prize_u16_in_that_window": "LEMMA",
+    "k16_leftover_43205_all_T0": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
