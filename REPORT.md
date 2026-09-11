@@ -408,5 +408,17 @@ seed: \(d_{t+1}\) is a Boolean of \((c_t,l_t,r_t)\), which is the
 original radius-1 slice and does not close on the centre column.
 [defect_recurrence.md](research/defect_recurrence.md).
 
+## Cycle O (ideas14, 2026-09-11)
+
+The unique left of a period-2 centre is the `L_0` problem at time 0:
+no bypass via a Condrey-style closed form, and vacuum `u` is not
+eventually period 7 (the `(0001010)` run breaks at even-time index
+152). The `R≥4` identity that sends a long `L_0` to an `011` bump
+under `S` is algebraic; the bump does not decrease Hamming weight or
+last-1, and it hits `F_4=0` only for `T∈{2,3}`. Sound onsets `T=33,34`
+die with `maxR=14,12`. Worst remains `T=20`, `R=16`.
+[period2_germ.md](research/period2_germ.md).
+The prize is still open.
+
 
 

@@ -144,15 +144,17 @@ Facts on that fiber:
 - **Even-neighbor `u`.** On phase `01` the vacuum-triple identity
   never fails and `u` never has two consecutive 1s. Some rights have
   an eventually periodic `u` (period 5 pattern `00100` and period 7
-  `0001010` are the most common attractors). Most do not: 1341 of the
-  phase-`01` rights in the cumulative scan have no 6-period suffix in
-  the window. No scanned `u` is eventually zero, so the eventual-vacuum
-  lemma of `research/period2_vacuum.md` does not hand us
-  `F_k → k mod 2` on this family. For vacuum right, phase `01`, `u`
-  itself is `01` followed by `(0001010)^∞` from index 2; the
-  corresponding *spatial* left still has BM `~T/2`. Periodic `u` does
-  not force a periodic left, because `F_k` is a nonlinear function of
-  a growing prefix of `u`.
+  `0001010` are the most common attractors in the finite window).
+  Most do not: 1341 of the phase-`01` rights in the cumulative scan
+  have no 6-period suffix in the window. No scanned `u` is eventually
+  zero, so the eventual-vacuum lemma of `research/period2_vacuum.md`
+  does not hand us `F_k → k mod 2` on this family. For vacuum right,
+  phase `01`, `u` tracks `(0001010)` after a short prefix only until
+  even-time index `n=152`; the first later gap is 3, not 2 or 5
+  (`research/period2_germ.md`). The spatial left still has BM `~T/2`.
+  Periodic `u` is already Jen-excluded and does not force a periodic
+  left in any case, because `F_k` is a nonlinear function of a growing
+  prefix of `u`.
 
 Truncating the unique left at depth `w` and evolving the resulting
 radius-`w` row produces period-2 prefixes of length

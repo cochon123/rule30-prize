@@ -324,5 +324,14 @@ defect_recurrence.md.
 
 Prize status: still unsolved.
 
+## Cycle O (2026-09-11)
+
+Ideas14. Unique-left infinitude is L_0 at time 0; vacuum u's period-7
+attractor dies at n=152. Algebraic L_0 → 011-bump under S, no rank,
+onsets T=33,34 still maxR≤16. period2_germ.md. Fiber note corrected.
+
+Prize status: still unsolved.
+
+
 
 
