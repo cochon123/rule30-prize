@@ -92,6 +92,11 @@ finite evidence, not a proof that the vector
 \(\varphi=1\oplus S\)). `KILLED` (\(S\equiv 0\)). `OPEN` (some
 \(\varphi^{(q)}_k=1\) infinitely often). Prize unsolved.
 
+Cycle AL removes the Fermat-odd restriction (the identity is all
+\(q\ge 1\); hit parity is \(1\oplus\mathrm{wt}(q)\)). Thue–Morse has
+Fermat \(\varphi\equiv 1\), not \(0\); the opposite claim that
+appeared in later notes of this cycle is wrong.
+
 ## Files
 
 - `research/cycle_ak.md` (this note)

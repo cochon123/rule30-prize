@@ -18,10 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AK**. For every Fermat-odd \(q=2^a+1\),
-\(\varphi^{(q)}_k=c_{q 2^k}\oplus c_{2^k}\) equals a Green remainder
-whose leftmost-11 hits have odd parity, so \(\varphi=1\oplus S\).
-Eventual period \(2^m\) forces every such \(\varphi\) to 0. The prize
+Last completed cycle is **AL**. For every integer \(q\ge 1\),
+\(\varphi^{(q)}_k=c_{q 2^k}\oplus c_{2^k}\) equals the Green remainder
+on \([2^k,q\cdot 2^k)\): the Freshman edges cancel. Leftmost-11 hit
+parity is \(1\oplus\mathrm{popcount}(q)\), independent of \(k\).
+Eventual period \(2^m\) forces every integer spine to vanish. The prize
 is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
@@ -66,7 +67,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   vanishes under eventual period \(2^m\); the leftmost 11 always hits
   it, so \(\theta_k=1\oplus S_k\) (Cycle AJ). The same remainder
   exists for every Fermat-odd \(q=2^a+1\), and the leftmost-11 hit
-  parity is odd for the whole family (Cycle AK).
+  parity is odd for the whole family (Cycle AK). The identity is not
+  special to Fermat-odd \(q\): for every integer \(q\ge 1\) the
+  Freshman edges cancel, so \(\varphi^{(q)}_k=J\), and the leftmost-11
+  hit parity is \(1\oplus\mathrm{popcount}(q)\) (Cycle AL).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

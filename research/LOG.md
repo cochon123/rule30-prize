@@ -549,3 +549,15 @@ XOR_m G(m, 2^b-1)=1, then the Fermat target), so phi=1 XOR S for
 every such q. S is not identically 0. cycle_ak.md.
 
 Prize status: still unsolved.
+
+## Cycle AL (2026-09-11)
+
+All-q identity: c_{q 2^k} = c_{2^k} XOR J on [2^k, q 2^k). Freshman
+edges cancel because G(q-1,q)=G(q-1,q-2)=v_2(q) mod 2. Leftmost-11
+hit parity is 1 XOR popcount(q), independent of k. Fermat-odd is the
+even-weight case of that formula, not a special production. q=7 has
+P=0 (p=1 odd for every odd q is killed). Odd q: chained AI extras
+stay outside. Period 2^m forces every integer phi^{(q)}=0. TM has
+Fermat phi ≡ 1 (Cycle AK's TM parenthetical was wrong). cycle_al.md.
+
+Prize status: still unsolved.

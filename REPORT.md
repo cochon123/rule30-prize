@@ -717,6 +717,22 @@ least one of those three is 1 for every \(k\ge 2\); that is not a proof.
 [cycle_ak.md](research/cycle_ak.md).
 The prize is still open.
 
+## Cycle AL (2026-09-11)
+
+The identity \(\varphi^{(q)}_k=c_{q 2^k}\oplus c_{2^k}=J\) on
+\([2^k,q\cdot 2^k)\) holds for every integer \(q\ge 1\), not only
+Fermat-odd \(q\). Packed Rule 150 for \((q-1)U\) steps multiplies by
+\(Q_{q-1}(x^U)\); only three indices land in the light cone, the
+centre coefficient is 1, and the two edges have coefficient
+\(v_2(q)\bmod 2\), so they cancel. For odd \(q\), chained Cycle-AI
+steps keep extras strictly outside the cone. The XOR of leftmost-11
+Green hits is independent of \(k\) and equals
+\(1\oplus\mathrm{popcount}(q)\), so \(\varphi^{(q)}=P(q)\oplus S^{(q)}\)
+with \(P(q)=1\oplus\mathrm{wt}(q)\). Cycle AK is the even-weight case.
+Odd \(p=1\) parity fails for \(q=7\). Eventual period \(2^m\) forces
+every integer spine to vanish. [cycle_al.md](research/cycle_al.md).
+The prize is still open.
+
 
 
 

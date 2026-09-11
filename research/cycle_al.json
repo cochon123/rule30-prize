@@ -1,0 +1,314 @@
+{
+  "cycle": "AL",
+  "wall_s": 0.432,
+  "checks": {
+    "all_ok": true
+  },
+  "G_near_diag_ok": true,
+  "P_recurrence_and_popcount_ok": true,
+  "P_independent_of_k_ok": true,
+  "identity_fail": 0,
+  "linear_image_fail": 0,
+  "p1_fail": 0,
+  "phi": {
+    "1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "3": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "4": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "5": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "6": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "7": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "8": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "9": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "10": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "11": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ]
+  },
+  "p1": {
+    "1": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "4": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "5": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "6": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "7": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "8": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "9": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "10": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "11": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "12": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "p1_q7": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "P_pop": {
+    "1": 0,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 1,
+    "6": 1,
+    "7": 0,
+    "8": 0,
+    "9": 1,
+    "10": 1,
+    "11": 0,
+    "12": 1,
+    "13": 0,
+    "14": 0,
+    "15": 1,
+    "16": 0
+  },
+  "extras": {
+    "odd_all_outside": true,
+    "n": 75,
+    "q2_on_cone": true
+  },
+  "synthetic": {
+    "all_ok": true,
+    "rows": [
+      {
+        "m": 0,
+        "ok": true,
+        "n": 96
+      },
+      {
+        "m": 1,
+        "ok": true,
+        "n": 96
+      },
+      {
+        "m": 2,
+        "ok": true,
+        "n": 96
+      },
+      {
+        "m": 3,
+        "ok": true,
+        "n": 96
+      },
+      {
+        "m": 4,
+        "ok": true,
+        "n": 84
+      }
+    ]
+  },
+  "lemmas": {
+    "all_q_identity": true,
+    "edges_cancel": true,
+    "P_eq_1_xor_popcount": true,
+    "period_2m_forces_all_integer_phi_0": true,
+    "odd_q_extras_outside": true,
+    "p1_odd_for_every_odd_q": false,
+    "some_phi_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "all_q_identity": "LEMMA",
+    "edges_cancel": "LEMMA",
+    "P_eq_1_xor_popcount": "LEMMA",
+    "period_2m_forces_all_integer_phi_0": "LEMMA",
+    "odd_q_extras_outside": "LEMMA",
+    "p1_odd_for_every_odd_q": "KILLED",
+    "S_identically_0_even_weight": "KILLED",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
