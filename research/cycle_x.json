@@ -1,0 +1,739 @@
+{
+  "cycle": "X",
+  "wall_s": 0.627,
+  "checks": {
+    "all_ok": true
+  },
+  "vacuum": {
+    "next_is_vacuum": true,
+    "rhs_s": -1,
+    "rhs_2c": 0,
+    "rhs_e": -1,
+    "delta_phi_vacuum": 0,
+    "s_obstructed": true,
+    "e_obstructed": true,
+    "twoc_ok_on_vacuum": true
+  },
+  "period2_avoidance": {
+    "assignments": [
+      {
+        "phase": "even",
+        "u": 0,
+        "c": 0,
+        "l": 1,
+        "r": 0,
+        "triple": "100",
+        "is_spatial_11": false
+      },
+      {
+        "phase": "even",
+        "u": 1,
+        "c": 0,
+        "l": 0,
+        "r": 1,
+        "triple": "001",
+        "is_spatial_11": false
+      },
+      {
+        "phase": "odd",
+        "u": null,
+        "c": 1,
+        "l": 1,
+        "r": 0,
+        "triple": "110",
+        "is_spatial_11": false
+      },
+      {
+        "phase": "odd",
+        "u": null,
+        "c": 1,
+        "l": 1,
+        "r": 1,
+        "triple": "111",
+        "is_spatial_11": false
+      }
+    ],
+    "any_spatial_11": false,
+    "compatible_with_inf_zeros_of_l": true,
+    "compatible_with_inf_ones_of_c": true,
+    "ideas21_is_reduction": false
+  },
+  "families": [
+    {
+      "name": "phi3_2c-1",
+      "n_eq": 23,
+      "nvars": 8,
+      "rank": 7,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "win": 3,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_2c-1",
+      "n_eq": 95,
+      "nvars": 32,
+      "rank": 31,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "win": 5,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_phase2_2c-1",
+      "n_eq": 44,
+      "nvars": 16,
+      "rank": 14,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "phased": true,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_2c",
+      "n_eq": 23,
+      "nvars": 8,
+      "rank": 7,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "win": 3,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_2c",
+      "n_eq": 95,
+      "nvars": 32,
+      "rank": 31,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "win": 5,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_phase2_2c",
+      "n_eq": 44,
+      "nvars": 16,
+      "rank": 14,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "phased": true,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_pair",
+      "n_eq": 23,
+      "nvars": 8,
+      "rank": 7,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "win": 3,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_pair",
+      "n_eq": 95,
+      "nvars": 32,
+      "rank": 31,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "win": 5,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_phase2_pair",
+      "n_eq": 44,
+      "nvars": 16,
+      "rank": 14,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "phased": true,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_J2outer_2c-1",
+      "n_eq": 32,
+      "nvars": 12,
+      "rank": 10,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "flux": "outer2",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_J3overlap_2c-1",
+      "n_eq": 31,
+      "nvars": 16,
+      "rank": 13,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "flux": "overlap3",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_J3outer_2c-1",
+      "n_eq": 127,
+      "nvars": 40,
+      "rank": 37,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "flux": "outer3",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_J4outer_2c-1",
+      "n_eq": 128,
+      "nvars": 48,
+      "rank": 43,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "flux": "outer4",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_J2outer_2c",
+      "n_eq": 32,
+      "nvars": 12,
+      "rank": 10,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "flux": "outer2",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_J3overlap_2c",
+      "n_eq": 31,
+      "nvars": 16,
+      "rank": 13,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "flux": "overlap3",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_J3outer_2c",
+      "n_eq": 127,
+      "nvars": 40,
+      "rank": 37,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "flux": "outer3",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_J4outer_2c",
+      "n_eq": 128,
+      "nvars": 48,
+      "rank": 43,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "flux": "outer4",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_J2outer_pair",
+      "n_eq": 32,
+      "nvars": 12,
+      "rank": 10,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "flux": "outer2",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi3_J3overlap_pair",
+      "n_eq": 31,
+      "nvars": 16,
+      "rank": 13,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "flux": "overlap3",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_J3outer_pair",
+      "n_eq": 127,
+      "nvars": 40,
+      "rank": 37,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "flux": "outer3",
+      "verdict": "KILLED"
+    },
+    {
+      "name": "phi5_J4outer_pair",
+      "n_eq": 128,
+      "nvars": 48,
+      "rank": 43,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "pair",
+      "flux": "outer4",
+      "verdict": "KILLED"
+    }
+  ],
+  "census": {
+    "N": 16384,
+    "D_N": 170,
+    "triples": {
+      "000": 2026,
+      "001": 2026,
+      "010": 2041,
+      "011": 2107,
+      "100": 2102,
+      "101": 1953,
+      "110": 2072,
+      "111": 2057
+    },
+    "n_triples": 8,
+    "n_quints": 32,
+    "n_septs": 128,
+    "missing_quints": [],
+    "n_vacuum3": 2026,
+    "vacuum3_head": [
+      6,
+      17,
+      20,
+      31,
+      43,
+      68,
+      76,
+      86,
+      87,
+      92,
+      98,
+      104
+    ],
+    "vacuum3_phase": {
+      "even": 1003,
+      "odd": 1023
+    },
+    "n_vacuum5": 527,
+    "vacuum5_head": [
+      86,
+      104,
+      125,
+      156,
+      157,
+      158,
+      166,
+      211,
+      212,
+      213,
+      288,
+      292
+    ],
+    "vacuum5_runs_len_ge2": [
+      {
+        "start": 156,
+        "length": 3
+      },
+      {
+        "start": 211,
+        "length": 3
+      },
+      {
+        "start": 442,
+        "length": 4
+      },
+      {
+        "start": 509,
+        "length": 2
+      },
+      {
+        "start": 552,
+        "length": 2
+      },
+      {
+        "start": 666,
+        "length": 2
+      },
+      {
+        "start": 707,
+        "length": 2
+      },
+      {
+        "start": 790,
+        "length": 2
+      },
+      {
+        "start": 797,
+        "length": 2
+      },
+      {
+        "start": 842,
+        "length": 4
+      },
+      {
+        "start": 879,
+        "length": 3
+      },
+      {
+        "start": 1000,
+        "length": 2
+      }
+    ],
+    "n_vacuum5_runs_len_ge2": 96,
+    "longest_vacuum5_run": 5,
+    "all_128_septs": true,
+    "max_spatial_zero_radius": 6,
+    "zero_radius_growth": [
+      {
+        "t": 6,
+        "radius": 1
+      },
+      {
+        "t": 86,
+        "radius": 2
+      },
+      {
+        "t": 156,
+        "radius": 4
+      },
+      {
+        "t": 442,
+        "radius": 5
+      },
+      {
+        "t": 5808,
+        "radius": 6
+      }
+    ],
+    "D_by_triple": [
+      {
+        "w": "000",
+        "count": 2026,
+        "D_min": -77,
+        "D_max": 199,
+        "D_range": 276,
+        "D_first": 4
+      },
+      {
+        "w": "001",
+        "count": 2026,
+        "D_min": -79,
+        "D_max": 198,
+        "D_range": 277,
+        "D_first": 2
+      },
+      {
+        "w": "010",
+        "count": 2041,
+        "D_min": -79,
+        "D_max": 197,
+        "D_range": 276,
+        "D_first": 0
+      },
+      {
+        "w": "011",
+        "count": 2107,
+        "D_min": -80,
+        "D_max": 197,
+        "D_range": 277,
+        "D_first": 1
+      },
+      {
+        "w": "100",
+        "count": 2102,
+        "D_min": -78,
+        "D_max": 198,
+        "D_range": 276,
+        "D_first": 2
+      },
+      {
+        "w": "101",
+        "count": 1953,
+        "D_min": -78,
+        "D_max": 199,
+        "D_range": 277,
+        "D_first": 4
+      },
+      {
+        "w": "110",
+        "count": 2072,
+        "D_min": -79,
+        "D_max": 198,
+        "D_range": 277,
+        "D_first": 3
+      },
+      {
+        "w": "111",
+        "count": 2057,
+        "D_min": -78,
+        "D_max": 198,
+        "D_range": 276,
+        "D_first": 1
+      }
+    ],
+    "kill_phi3_D_not_window_fn": true,
+    "lc_counts": {
+      "c0_l0": 4052,
+      "c0_l1": 4055,
+      "c1_l0": 4148,
+      "c1_l1": 4129
+    },
+    "n_spatial_11": 4148,
+    "last_spatial_11": 16370,
+    "last_temporal_00_pair": 16380,
+    "all_8_triples": true,
+    "all_32_quints": true
+  },
+  "restricted": [
+    {
+      "name": "orbit_phi3_2c-1",
+      "n_eq": 23,
+      "nvars": 8,
+      "rank": 7,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "n_windows": 32,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi3_J2_2c-1",
+      "n_eq": 32,
+      "nvars": 12,
+      "rank": 10,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "n_windows": 32,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi5_2c-1",
+      "n_eq": 95,
+      "nvars": 32,
+      "rank": 31,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "n_windows": 128,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi5_J3_2c-1",
+      "n_eq": 127,
+      "nvars": 40,
+      "rank": 37,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c-1",
+      "n_windows": 128,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi3_2c",
+      "n_eq": 23,
+      "nvars": 8,
+      "rank": 7,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "n_windows": 32,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi3_J2_2c",
+      "n_eq": 32,
+      "nvars": 12,
+      "rank": 10,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "n_windows": 32,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi5_2c",
+      "n_eq": 95,
+      "nvars": 32,
+      "rank": 31,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "n_windows": 128,
+      "verdict": "KILLED"
+    },
+    {
+      "name": "orbit_phi5_J3_2c",
+      "n_eq": 127,
+      "nvars": 40,
+      "rank": 37,
+      "consistent": false,
+      "nullity": null,
+      "n_free": null,
+      "max_abs_particular": null,
+      "particular_scale": null,
+      "killed": true,
+      "target": "2c",
+      "n_windows": 128,
+      "verdict": "KILLED"
+    }
+  ],
+  "lemmas": {
+    "vacuum_kills_universal_2c_minus_1": true,
+    "vacuum_kills_universal_pair_current": true,
+    "vacuum_allows_2c": true,
+    "phase2_vacuum_sum": "0=-2 on two vacuum steps for 2c-1",
+    "infinitely_many_ones_kill_bounded_2c_coboundary": true,
+    "ideas21_1_not_a_reduction": true,
+    "D_not_a_3window_function_on_prefix": true,
+    "prize_visits_consecutive_vacuum5": true,
+    "prize_spatial_7_is_full_shift_on_prefix": true
+  },
+  "verdict": {
+    "universal_2c-1": "KILLED",
+    "universal_pair": "KILLED",
+    "n_universal_consistent": 0,
+    "universal_consistent": [],
+    "n_universal_killed": 21,
+    "orbit_killed": [
+      "orbit_phi3_2c-1",
+      "orbit_phi3_J2_2c-1",
+      "orbit_phi5_2c-1",
+      "orbit_phi5_J3_2c-1",
+      "orbit_phi3_2c",
+      "orbit_phi3_J2_2c",
+      "orbit_phi5_2c",
+      "orbit_phi5_J3_2c"
+    ],
+    "orbit_consistent": [],
+    "ideas21_1": "KILLED_AS_REDUCTION",
+    "consecutive_vacuum5": 5,
+    "spatial_7_full": true,
+    "prize": "unsolved"
+  }
+}

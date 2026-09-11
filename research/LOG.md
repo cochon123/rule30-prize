@@ -409,6 +409,18 @@ not uniformly. cycle_w.md.
 
 Prize status: still unsolved.
 
+## Cycle X (2026-09-11)
+
+Vacuum kills every finite-window current for 2c-1 and the pair
+current (0=-1 on 00000; prize orbit has a vacuum-5 run of length 5).
+All 21 universal families and all 8 orbit-restricted families die,
+including 2c with flux. Spatial 7-windows about the origin are a
+full 2-shift on t<2^14. ideas21.1 is not a reduction: period-2
+phase 01 avoids (c,l)=(1,0). cycle_x.md.
+
+Prize status: still unsolved.
+
+
 
 
 

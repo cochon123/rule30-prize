@@ -527,6 +527,22 @@ A centre `11` at time \(2^k\) is not uniform.
 [cycle_w.md](research/cycle_w.md).
 The prize is still open.
 
+## Cycle X (2026-09-11)
+
+The zero configuration is a fixed point with \(2c-1=-1\), so no
+finite-window coboundary (nor a 2-phase family, nor a pair current)
+can carry \(D(N)\) on all orbits. The prize light cone itself stays in
+the spatial 5-window `00000` for five consecutive times, so the same
+obstruction holds on this orbit. Gaussian elimination over \(\mathbb Q\)
+kills every coboundary and bond-flux identity of width \(\le 5\) for
+\(2c-1\), \(c_t+c_{t+1}-1\), and even the vacuum-compatible target
+\(2c\). Every spatial 7-window about the origin occurs by \(t<2^{14}\).
+Condrey’s zeros in column \(-1\) plus infinitely many 1s in \(c\) do
+not force a centre `11`: period-2 phase `01` avoids \((c,\ell)=(1,0)\).
+[cycle_x.md](research/cycle_x.md).
+The prize is still open.
+
+
 
 
 
