@@ -18,9 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **U**. Every binary word of length \(\le 14\)
-occurs in the centre (period/preperiod \(\ge 16384\) if eventually
-periodic). That is not disjunctivity. The prize is still open.
+Last completed cycle is **W**. The 4-step \((e,f)\) drain sits inside
+two of the three \(T=20\), \(R=16\) \(X\)-models, so it cannot force a
+uniform \(L_0\) identity. No closed form for \(c_{2^k}\). The prize is
+still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -28,7 +29,9 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 ## Constraints that still hold
 
 - Official site still open; width-1 center periodicity is the gap after
-  Jen/Kopra (width-2 aperiodicity).
+  Jen/Kopra (width-2 aperiodicity). Every iterate \(F^p\) has Kopra
+  width \(2p\) (Cycle V), so the gap is not closed by passing to a
+  power.
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

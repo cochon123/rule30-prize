@@ -501,6 +501,32 @@ Predicted 2-kernel disagreement indices
 [cycle_u.md](research/cycle_u.md).
 The prize is still open.
 
+## Cycle V (2026-09-11)
+
+The \(p\)-step centre of Rule 30 depends on both light-cone edges:
+a single \(1\) at \(\pm p\) is a shifted prize seed, whose left or
+right edge lands on the origin after \(p\) steps. Thus \(F^p\) has
+Kopra width \(2p\) for every \(p\ge 1\), and width-1 rapid left
+expansivity never applies to an iterate. The prize even-right
+neighbour has short factors in the period-2 SFT \(X\) (so it is not
+uniformly excluded from \(X\)) and has many \(11\)s with max gap 46
+in a \(2^{17}\) sample, which is not an infinitude proof. First
+even-decimation disagreements stay in \(\{1,2,3\}\) through depth 15
+without a closed form.
+[cycle_v.md](research/cycle_v.md).
+The prize is still open.
+
+## Cycle W (2026-09-11)
+
+The 4-step \((e,f)\) drain of Cycle P can sit inside two of the three
+\(X\)-legal \(T=20\), \(R=16\) last-sat words, which still realise 16
+zeros of \(F\) after a 1; the third word has max zero run only 3, so
+the drain is not even universal on the worst onset. Closed forms for
+\(c_{2^k}\) (parity, popcount, Rowland \(a(k)\)) fail by \(k\le 7\).
+A centre `11` at time \(2^k\) is not uniform.
+[cycle_w.md](research/cycle_w.md).
+The prize is still open.
+
 
 
 
