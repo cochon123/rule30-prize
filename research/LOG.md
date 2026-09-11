@@ -792,3 +792,13 @@ Triples are not identically-1 productions. Covering still a prefix.
 cycle_bi.md.
 
 Prize status: still unsolved.
+
+## Cycle BJ (2026-09-11)
+
+H(m)=4 only for m in {4,7,14}; n3 before complementary except m=14.
+Cycle AZ kills even N=W quads for a>=6. Exactly two quad-Green bits
+on each of the 5-fold and 9-fold annuli, for every k>=3. Quads are
+not identically-1 productions. Covering still a prefix.
+cycle_bj.md.
+
+Prize status: still unsolved.

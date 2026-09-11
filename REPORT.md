@@ -1018,3 +1018,15 @@ closed times. Their firing XOR takes both values. The Fermat
 covering remains a prefix.
 [cycle_bi.md](research/cycle_bi.md).
 The prize is still open.
+
+## Cycle BJ (2026-09-11)
+
+\(H(m)=4\) only for \(m\in\{4,7,14\}\). For \(m\ge 8\) except
+\(m=14\), a hit before the complementary pair forces \(H(m)\ge 5\).
+Truncated covering windows have \(C_{\le}\ge 5\) except 9-fold
+\(M=0\), \(r=1\). Cycle AZ leaves only the \(a=4,5\) even-quad seeds,
+giving two quad-Green bits on each covering annulus for every
+\(k\ge 3\), with closed times. Their firing XOR takes both values.
+The Fermat covering remains a prefix.
+[cycle_bj.md](research/cycle_bj.md).
+The prize is still open.
