@@ -429,6 +429,16 @@ b_k not-eventually-constant remains open. cycle_y.md.
 
 Prize status: still unsolved.
 
+## Cycle Z (2026-09-11)
+
+Half-step lemma: b_k = b_{k-1} XOR I_k with I_k the Green parity of
+AND injections on [2^{k-1}, 2^k). Linear part is b_{k-1} via the two
+edges. Local I_k formulas die. Eventual constancy of b_k iff I_k
+eventually 0, still open. cycle_z.md.
+
+Prize status: still unsolved.
+
+
 
 
 
