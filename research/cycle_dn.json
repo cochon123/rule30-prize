@@ -1,0 +1,43 @@
+{
+  "cycle": "DN",
+  "wall_s": 6.304,
+  "checks": {
+    "all_ok": true
+  },
+  "n16": {
+    "n_extra": 43205,
+    "n_words": 65536,
+    "n_hit": 0,
+    "n_none": 65536,
+    "prize_u16": "0000110011110011",
+    "leftover16": 43205
+  },
+  "n8": {
+    "min_extra": 6344,
+    "n_none": 112,
+    "leftover8": 112
+  },
+  "lemmas": {
+    "bitslice_matches_packed_reconstruct": true,
+    "n0_16_no_ident0_in_43205": true,
+    "k16_leftover_empty_all_T0": true,
+    "prize_u16_in_that_window": true,
+    "n0_16_extras_closed_form": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "bitslice_matches_packed_reconstruct": "LEMMA",
+    "n0_16_no_ident0_in_43205": "LEMMA",
+    "k16_leftover_empty_all_T0": "LEMMA",
+    "prize_u16_in_that_window": "LEMMA",
+    "n0_16_extras_closed_form": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
