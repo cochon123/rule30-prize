@@ -846,3 +846,13 @@ P(3,4p+1)=P(3,p) and P(3,4p+3)=P(3, p OR 1), so P(3,T) reduces to
 cycle_bn.md.
 
 Prize status: still unsolved.
+
+## Cycle BO (2026-09-11)
+
+Covering fails at k+1 iff phi6_k = phi10_k = phi18_k = I_{k+1}.
+That dangerous set is empty for 2<=k<=12. phi6 is not identically 1
+for k>=5 (zero at k=13), and {phi5, phi6} is not a covering.
+Covering still a prefix.
+cycle_bo.md.
+
+Prize status: still unsolved.
