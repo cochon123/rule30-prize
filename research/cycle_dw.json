@@ -1,0 +1,78 @@
+{
+  "cycle": "DW",
+  "wall_s": 2.109,
+  "checks": {
+    "all_ok": true
+  },
+  "n0_max": 16,
+  "pair_n": {
+    "1": 2,
+    "2": 4,
+    "3": 8,
+    "4": 16,
+    "5": 32,
+    "6": 64,
+    "7": 128,
+    "8": 256,
+    "9": 512,
+    "10": 1024,
+    "11": 2048,
+    "12": 4096,
+    "13": 8192,
+    "14": 16384,
+    "15": 32768,
+    "16": 65536
+  },
+  "prize_ham": {
+    "4": {
+      "p": 29,
+      "pi": 4,
+      "ham_n3_n4": 4,
+      "n3": "N"
+    },
+    "8": {
+      "p": 400,
+      "pi": 8,
+      "ham_n3_n4": 8,
+      "n3": "N"
+    },
+    "16": {
+      "p": 87867,
+      "pi": 16,
+      "ham_n3_n4": 16,
+      "n3": "N"
+    }
+  },
+  "lemmas": {
+    "n3_ones_isolated": true,
+    "O_type_complementary_support": true,
+    "d_recurrence": true,
+    "pair_invariants_n0_1_to_16": true,
+    "pair_invariants_imply_ham_n0": true,
+    "pair_invariants_all_n0": null,
+    "pair_invariants_generic_s": false,
+    "pair_invariants_E_type": false,
+    "ham_n3_n4_equals_n0_generic_s": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n3_ones_isolated": "LEMMA",
+    "O_type_complementary_support": "LEMMA",
+    "d_recurrence": "LEMMA",
+    "pair_invariants_n0_1_to_16": "LEMMA",
+    "pair_invariants_imply_ham_n0": "LEMMA",
+    "pair_invariants_all_n0": "PREFIX",
+    "pair_invariants_generic_s": "KILLED",
+    "pair_invariants_E_type": "KILLED",
+    "ham_n3_n4_equals_n0_generic_s": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
