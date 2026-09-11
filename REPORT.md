@@ -604,6 +604,24 @@ for \(c\). Infinitely many `00`s remain unproved.
 [cycle_ac.md](research/cycle_ac.md).
 The prize is still open.
 
+## Cycle AD (2026-09-11)
+
+Over \(\mathrm{GF}(2)\), \(G(m,d)\) is the parity of writings of \(d\)
+as a sum of one term from each \(\{0,2^i,2^{i+1}\}\) with \(m_i=1\).
+The left-diagonal recurrence is either a reset (period dividing the
+driver period) or an integrator (period doubling when the driver XOR
+is odd). If two consecutive left-diagonals agree and are not
+eventually 0, the next is a white stripe. Closed forms give
+\(e_7\equiv 0\) and \(e_9\equiv 1\); the same implication on the
+period-4 tails of \(e_{26}\) and \(e_{27}\) gives \(e_{28}\equiv 0\).
+Each fixed left-diagonal meets the centred 5-window at most five
+times, and 1-run endings occupy all eight `11***` windows, so neither
+nested left nor a 1-run ending is a production of infinitely many
+centre `00`s. Infinitely many white stripes remain open and would not
+by themselves give `00`s.
+[cycle_ad.md](research/cycle_ad.md).
+The prize is still open.
+
 
 
 

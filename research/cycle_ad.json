@@ -1,0 +1,215 @@
+{
+  "cycle": "AD",
+  "wall_s": 0.002,
+  "checks": {
+    "all_ok": true
+  },
+  "freshman_n": 1600,
+  "freshman_fail": 0,
+  "fib_n": 873,
+  "fib_fail": 0,
+  "closed_forms": {
+    "e3_tmod2": true,
+    "e4_one": true,
+    "e5_tmod2": true,
+    "e6_tmod2": true,
+    "e7_zero": true,
+    "e9_one": true,
+    "c2_c3": [
+      0,
+      1
+    ],
+    "c7_c8": [
+      0,
+      1
+    ],
+    "c28_c29": [
+      1,
+      1
+    ]
+  },
+  "white_stripe_boolean": true,
+  "run_end_00": [
+    "01100",
+    "11101",
+    "11110",
+    "11111"
+  ],
+  "run_end_iso0": [
+    "01101",
+    "01110",
+    "01111",
+    "11100"
+  ],
+  "stripe28": {
+    "T26": 3,
+    "p26": 4,
+    "T27": 3,
+    "p27": 4,
+    "T28": 3,
+    "p28": 1,
+    "equal_drivers": true,
+    "not_zero_drivers": true,
+    "e28_zero": true,
+    "c28": 1,
+    "c29": 1
+  },
+  "finite_incidence": {
+    "0": [
+      2
+    ],
+    "1": [
+      2,
+      3
+    ],
+    "2": [
+      2,
+      3,
+      4
+    ],
+    "4": [
+      4,
+      5,
+      6
+    ],
+    "7": [
+      7,
+      8,
+      9
+    ],
+    "9": [
+      9,
+      10,
+      11
+    ],
+    "28": [
+      28,
+      29,
+      30
+    ]
+  },
+  "n10": 59,
+  "n01": 60,
+  "n_end": 59,
+  "n_end_00": 29,
+  "n_end_iso": 30,
+  "end_windows": {
+    "11110": 6,
+    "01100": 8,
+    "01110": 8,
+    "11101": 11,
+    "01111": 7,
+    "11100": 10,
+    "01101": 5,
+    "11111": 4
+  },
+  "all_eight_11star": true,
+  "dichotomy": [
+    {
+      "j": 2,
+      "pb": 1,
+      "px": 1,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 3,
+      "pb": 1,
+      "px": 2,
+      "reset": false,
+      "integrator": true
+    },
+    {
+      "j": 4,
+      "pb": 2,
+      "px": 1,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 5,
+      "pb": 1,
+      "px": 2,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 6,
+      "pb": 2,
+      "px": 2,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 7,
+      "pb": 2,
+      "px": 1,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 8,
+      "pb": 1,
+      "px": 4,
+      "reset": false,
+      "integrator": true
+    },
+    {
+      "j": 9,
+      "pb": 4,
+      "px": 1,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 10,
+      "pb": 1,
+      "px": 4,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 11,
+      "pb": 4,
+      "px": 4,
+      "reset": true,
+      "integrator": false
+    },
+    {
+      "j": 12,
+      "pb": 4,
+      "px": 4,
+      "reset": true,
+      "integrator": false
+    }
+  ],
+  "lemmas": {
+    "freshman_G": true,
+    "fibonacci_binary_G": true,
+    "white_stripe_implication": true,
+    "e7_white_stripe": true,
+    "e9_one": true,
+    "e28_white_stripe": true,
+    "infinitely_many_10": true,
+    "finite_incidence_fixed_j": true,
+    "infinitely_many_00": null,
+    "prize": false
+  },
+  "verdict": {
+    "freshman_G": "LEMMA",
+    "fibonacci_binary_G": "LEMMA",
+    "reset_integrator": "LEMMA",
+    "white_stripe_implication": "LEMMA",
+    "e7_e9_closed_forms": "LEMMA",
+    "e28_white_stripe": "LEMMA",
+    "infinitely_many_10": "LEMMA",
+    "finite_incidence_fixed_j": "LEMMA",
+    "nested_left_5window_00": "KILLED",
+    "one_run_ending_forces_00": "KILLED",
+    "only_e2_is_white_stripe": "KILLED",
+    "white_stripe_onset_is_00": "KILLED",
+    "infinitely_many_00": "OPEN",
+    "infinitely_many_white_stripes": "OPEN",
+    "prize": "unsolved"
+  }
+}
