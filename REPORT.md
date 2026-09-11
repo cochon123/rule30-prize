@@ -789,6 +789,18 @@ through \(k=8\).
 [cycle_ap.md](research/cycle_ap.md).
 The prize is still open.
 
+## Cycle AQ (2026-09-11)
+
+\(G(m,2^a)=\mathrm{bit}_a(m)\oplus(L_a(m)\bmod 2)\), where \(L_a\) is
+the run of \(1\)s from bit \(a-1\) downward. The sequence is periodic
+of period \(2^{a+1}\) with complementary halves. On the 3-fold
+annulus the unique double-Green packed bit is Cycle AO’s
+\(p=3\cdot 2^{k-1}+1\) at times \(3U/2\) and \(2U\); it does not
+always fire. Five triple-Green bits follow a scaling list on
+\(4\le k\le 8\) (prefix).
+[cycle_aq.md](research/cycle_aq.md).
+The prize is still open.
+
 
 
 

@@ -18,10 +18,10 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AP**. Mersenne targets satisfy
-\(G(m,2^a-1)=1\) iff \(2^a\mid(m+1)\); \(5\cdot 2^k-1\) has four
-residues. Those laws give four unique-Green bits on the 3-fold
-annulus. The prize is still open.
+Last completed cycle is **AQ**. \(G(m,2^a)\) is bit \(a\) XOR the
+parity of the 1-run from bit \(a-1\) downward. The 3-fold annulus has
+a unique double-Green bit \(p=3\cdot 2^{k-1}+1\), which does not
+always fire. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -83,7 +83,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(G(m,2^a-1)=1\) iff \(2^a\mid(m+1)\), and \(5\cdot 2^k-1\) has a
   four-residue law; together they produce four unique-Green packed
   bits on the 3-fold annulus, of which only \(p=1\) always fires
-  (Cycle AP).
+  (Cycle AP). Power-of-two targets have the bit-run form
+  \(G(m,2^a)=\mathrm{bit}_a(m)\oplus(L_a(m)\bmod 2)\); the unique
+  double-Green bit on the 3-fold annulus is \(p=3\cdot 2^{k-1}+1\)
+  and does not always fire (Cycle AQ).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
