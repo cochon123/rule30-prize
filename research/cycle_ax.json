@@ -1,0 +1,154 @@
+{
+  "cycle": "AX",
+  "wall_s": 4.148,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "G_2a_minus_14": true,
+    "even_triples": true,
+    "odd_lifts": true,
+    "even_mechanisms": true,
+    "quad_prefix": true
+  },
+  "annulus": [
+    {
+      "k": 4,
+      "T": 8,
+      "I": 0,
+      "n3": 2,
+      "n4": 4,
+      "triples": [
+        6,
+        8
+      ],
+      "triple_xor": 1,
+      "x14": null,
+      "x15": null
+    },
+    {
+      "k": 5,
+      "T": 16,
+      "I": 1,
+      "n3": 6,
+      "n4": 5,
+      "triples": [
+        6,
+        8,
+        10,
+        11,
+        14,
+        15
+      ],
+      "triple_xor": 0,
+      "x14": 0,
+      "x15": 0
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "I": 1,
+      "n3": 10,
+      "n4": 5,
+      "triples": [
+        6,
+        8,
+        10,
+        11,
+        14,
+        15,
+        19,
+        21,
+        27,
+        29
+      ],
+      "triple_xor": 1,
+      "x14": 0,
+      "x15": 0
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "n3": 14,
+      "n4": 5,
+      "triples": [
+        6,
+        8,
+        10,
+        11,
+        14,
+        15,
+        19,
+        21,
+        27,
+        29,
+        37,
+        41,
+        53,
+        57
+      ],
+      "triple_xor": 1,
+      "x14": 0,
+      "x15": 0
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "n3": 18,
+      "n4": 5,
+      "triples": [
+        6,
+        8,
+        10,
+        11,
+        14,
+        15,
+        19,
+        21,
+        27,
+        29,
+        37,
+        41,
+        53,
+        57,
+        73,
+        81,
+        105,
+        113
+      ],
+      "triple_xor": 1,
+      "x14": 0,
+      "x15": 0
+    }
+  ],
+  "triple_xor_mismatch_k": [
+    4,
+    5,
+    7,
+    8
+  ],
+  "lemmas": {
+    "G_2a_minus_14": true,
+    "even_triples_exactly_four": true,
+    "triples_are_5_7_9_13_families": true,
+    "bit14_contributes_0": true,
+    "bit15_contributes_0": true,
+    "exactly_five_quads_all_k": null,
+    "triple_xor_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "G_2a_minus_14": "LEMMA",
+    "even_triples_exactly_four": "LEMMA",
+    "triples_are_5_7_9_13_families": "LEMMA",
+    "bit14_contributes_0": "LEMMA",
+    "bit15_contributes_0": "LEMMA",
+    "exactly_five_quads_all_k": "PREFIX",
+    "triple_xor_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

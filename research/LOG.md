@@ -674,3 +674,12 @@ is false (e_29). Bit 33 fires at T on 7<=k<=12 (prefix).
 cycle_aw.md.
 
 Prize status: still unsolved.
+
+## Cycle AX (2026-09-11)
+
+Even triples are 2^a-{6,8,10,14} for a>=5; all triples are the
+5,7,9,13 families p=q*2^j+1. G(n, 2^a-14) has s in {0,5,6}.
+Bits 14 and 15 contribute 0. Triple XOR is not I_k. Exactly five
+quads is a prefix. cycle_ax.md.
+
+Prize status: still unsolved.
