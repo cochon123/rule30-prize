@@ -813,3 +813,14 @@ Covering still a prefix.
 cycle_bk.md.
 
 Prize status: still unsolved.
+
+## Cycle BL (2026-09-11)
+
+C_le unique through pentuple on the 3-fold annulus upgrades AP/AQ/AR
+prefixes: exactly four unique-Green bits, one double, five triples,
+and four quads for every k>=3, and exactly eight pentuples for every
+k>=5. Classified bits are not identically-1; unique XOR triple XOR
+pentuple is not theta_k. Covering still a prefix.
+cycle_bl.md.
+
+Prize status: still unsolved.
