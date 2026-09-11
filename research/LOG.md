@@ -770,3 +770,14 @@ not identically-1 productions. Covering still a prefix.
 cycle_bg.md.
 
 Prize status: still unsolved.
+
+## Cycle BH (2026-09-11)
+
+G(n,n)=1; third even-target hit n3<=2m for m>=3; cone dominates d
+for M>=1; Cycle AW kills N=W doubles. Exactly two double-Green bits
+on the 5-fold annulus (p=2U+1, 4U+1) and three on the 9-fold
+(p=3U+1, 6U+1, 7U+1), for every k>=3. Doubles are not identically-1
+productions. Covering still a prefix.
+cycle_bh.md.
+
+Prize status: still unsolved.
