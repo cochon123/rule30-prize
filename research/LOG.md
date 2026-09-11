@@ -824,3 +824,14 @@ pentuple is not theta_k. Covering still a prefix.
 cycle_bl.md.
 
 Prize status: still unsolved.
+
+## Cycle BM (2026-09-11)
+
+chi(T)=G(2T-1, 3T-1) depends only on the odd part of T and equals 1
+iff that part is 1, or 3 (mod 4) with no adjacent 0-bits. Leftmost 11
+hits Theta(T) for every T=2^k and T=3*2^k, so phi9 xor theta always
+has a forced 1; it is not identically 1, and {theta, phi9} fails at
+k=3. Covering still a prefix.
+cycle_bm.md.
+
+Prize status: still unsolved.
