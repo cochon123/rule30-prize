@@ -18,10 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AN**. The Green prefix XOR \(W(2^a,D)\) is
-the interval \([2^a-1,2^{a+1}-2]\); Mersenne \(G(2^a-1,d)\) is mod-3
-and Fermat \(G(2^a+1,d)\) is 3-sparse. That interval splits \(I_k\)
-into packed-index halves. The prize is still open.
+Last completed cycle is **AO**. \(G(m,3\cdot 2^k-1)\) is supported on
+two residue classes modulo \(2^{k+2}\), so \(\theta_k\) has a unique
+leftmost-11 Green hit at time \(2^k\). The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -76,7 +75,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   length \(2^a\); Mersenne and Fermat \(G\) have closed forms, and
   \(I_k\) splits by that interval into packed-index halves
   (Cycle AN). The time-\(T\) Mersenne slice is not a formula for
-  \(I_k\).
+  \(I_k\). \(G(m,3\cdot 2^k-1)\) lives on two residue classes
+  modulo \(2^{k+2}\), so the leftmost-11 hit for \(\theta_k\) is
+  unique and occurs at time \(2^k\); \(N(q)\) is independent of
+  \(k\) (Cycle AO).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still

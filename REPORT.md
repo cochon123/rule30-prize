@@ -762,6 +762,19 @@ not a formula for \(I_k\).
 [cycle_an.md](research/cycle_an.md).
 The prize is still open.
 
+## Cycle AO (2026-09-11)
+
+\(G(m,3\cdot 2^k-1)=1\) iff \(m\equiv 2^{k+1}-1\) or
+\(3\cdot 2^k-1\pmod{2^{k+2}}\). In the 3-fold annulus only the first
+residue appears, so the leftmost 11 hits \(\theta_k\) at exactly one
+time, \(t=2^k\). The number \(N(q)\) of such hits on
+\([2^k,q\cdot 2^k)\) is independent of \(k\) and has parity
+\(1\oplus\mathrm{wt}(q)\); \(N(5)=1\) locates the unique \(q=5\) hit
+at \(t=2^{k+1}\). The two-point family of packed bits
+\(p=3(2^k-2^j)+1\) is bulk but is not a formula for \(\theta_k\).
+[cycle_ao.md](research/cycle_ao.md).
+The prize is still open.
+
 
 
 
