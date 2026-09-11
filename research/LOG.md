@@ -606,3 +606,12 @@ three do not always fire. Exactly-four is a prefix k=3..8.
 cycle_ap.md.
 
 Prize status: still unsolved.
+
+## Cycle AQ (2026-09-11)
+
+G(m, 2^a) = bit_a(m) XOR (L mod 2), L the 1-run from bit a-1 down.
+Period 2^{a+1}, complementary halves. Unique double-Green bit on
+the 3-fold annulus is p=3*2^{k-1}+1 at t=3U/2 and 2U; firing XOR
+takes both values. Five triples on k=4..8 (prefix). cycle_aq.md.
+
+Prize status: still unsolved.
