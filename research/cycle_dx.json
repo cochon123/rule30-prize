@@ -1,0 +1,60 @@
+{
+  "cycle": "DX",
+  "wall_s": 0.006,
+  "checks": {
+    "all_ok": true
+  },
+  "step": {
+    "ok": true,
+    "n_hold": 8,
+    "n_fail": 0
+  },
+  "prize_ham": {
+    "4": {
+      "p": 29,
+      "pi": 4,
+      "ham_n3_n4": 4,
+      "n3": "N"
+    },
+    "8": {
+      "p": 400,
+      "pi": 8,
+      "ham_n3_n4": 8,
+      "n3": "N"
+    },
+    "16": {
+      "p": 87867,
+      "pi": 16,
+      "ham_n3_n4": 16,
+      "n3": "N"
+    }
+  },
+  "lemmas": {
+    "seed_P1_P2_at_n3_one": true,
+    "step_preserves_P1_P2": true,
+    "O_type_n3_never_zero": true,
+    "pair_invariants_all_n0": true,
+    "ham_n3_n4_equals_n0_all_O_type": true,
+    "pair_invariants_generic_s": false,
+    "pair_invariants_E_type": false,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "seed_P1_P2_at_n3_one": "LEMMA",
+    "step_preserves_P1_P2": "LEMMA",
+    "O_type_n3_never_zero": "LEMMA",
+    "pair_invariants_all_n0": "LEMMA",
+    "ham_n3_n4_equals_n0_all_O_type": "LEMMA",
+    "pair_invariants_generic_s": "KILLED",
+    "pair_invariants_E_type": "KILLED",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
