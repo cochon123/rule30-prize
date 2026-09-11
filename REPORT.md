@@ -1082,3 +1082,15 @@ reduces to \(\{1,3\}\). In particular \(P(3,2^k)=1\) and
 \(\theta_k\). The Fermat covering remains a prefix.
 [cycle_bn.md](research/cycle_bn.md).
 The prize is still open.
+
+## Cycle BO (2026-09-11)
+
+Doubling turns the Fermat covering into an even-spine criterion:
+covering fails at \(k+1\) iff
+\(\varphi^{(6)}_k=\varphi^{(10)}_k=\varphi^{(18)}_k=I_{k+1}\). That
+alignment does not occur for \(2\le k\le 12\). \(\varphi^{(6)}_k\)
+is not identically 1 for \(k\ge 5\) (zero at \(k=13\)), and
+\(\{\varphi^{(5)},\varphi^{(6)}\}\) is not a covering. The Fermat
+covering remains a prefix.
+[cycle_bo.md](research/cycle_bo.md).
+The prize is still open.
