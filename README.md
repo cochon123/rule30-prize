@@ -18,9 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **Q**. Morse–Hedlund of `L_0` germs, the
-realizable language of `u`, and driven `q=8` `σ` all hit their kill
-criteria. The prize is still open.
+Last completed cycle is **R**. The 2-kernel even-decimation disagreement
+\(d(k)\) is not injective, prize-seed `fiber_left` does not miss the
+left edge uniformly, and adjacent run lengths do not pair. Exact
+identity \(D(N)=N_{11}-N_{00}+c_{N-1}\) recasts Problem 2 as signed
+cancellation. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -38,6 +40,8 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   through span 24) have `L_run≤31`. Off-hull weight-8 reaches 35.
   Periods 3–7 and `q=8` remain.
 - Density and linear-time computation are untouched by a proof.
+  Problem 2 is exactly \(N_{11}-N_{00}=o(N)\) via
+  \(D(N)=N_{11}-N_{00}+c_{N-1}\).
 
 Helper scripts live in `research/`. Dumps are the matching `.json` files.
 Astra briefs and idea lists are `research/_astra_brief*.md` and

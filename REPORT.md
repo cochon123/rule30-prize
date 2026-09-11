@@ -446,6 +446,29 @@ rights of width `≤5`).
 [cycle_q.md](research/cycle_q.md).
 The prize is still open.
 
+## Cycle R (2026-09-11)
+
+The even-decimation disagreement \(d(k)=\min\{n\ge 1:c_n\ne c_{n 2^k}\}\)
+is not injective, so \(\{v_k=(c_{2^k n})\}\) is not an infinite 2-kernel
+family by this route. The unique left of a period-2 centre, applied to
+the prize row at time \(T\), does not miss the left light-cone edge
+uniformly (predicted \(x(T,-T)=0\) for only 92 of 192 onsets).
+[cycle_r.md](research/cycle_r.md).
+
+Problem 2 has an exact rewrite: writing \(N_{11}\) and \(N_{00}\) for
+the consecutive equal-bit pair counts,
+
+\[
+D(N)=N_{11}-N_{00}+c_{N-1}.
+\]
+
+Unsigned defect density \(\approx 1/2\) (Cycle K) therefore does not
+kill density \(1/2\): only signed cancellation of \(11\) against \(00\)
+is required. Adjacent \(1\)-run and \(0\)-run lengths are equal only
+\(33.5\%\) of the time, so a local pairing fails. The prize is still
+open.
+
+
 
 
 

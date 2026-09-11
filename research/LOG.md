@@ -349,6 +349,18 @@ R=16 models survive the gap bound. cycle_q.md.
 
 Prize status: still unsolved.
 
+## Cycle R (2026-09-11)
+
+Kernel d(k) of v_k vs v_0 is not injective
+(1,2,2,5,1,2,2,3,1,5,1,2,3,1). Prize-seed fiber_left predicts left
+edge 0 for only 92/192 onsets. Exact lemma
+D(N)=N_11-N_00+c_{N-1}; local run-length pairing dies (33.5% equal).
+Square 2-kernel columns distinct through k=9, not a lemma.
+cycle_r.md.
+
+Prize status: still unsolved.
+
+
 
 
 
