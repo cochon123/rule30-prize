@@ -1043,3 +1043,14 @@ Covering still a prefix.
 cycle_cf.md.
 
 Prize status: still unsolved.
+
+## Cycle CG (2026-09-11)
+
+The tail after ident-0 / odd 2-copy T / ident-1 is a function of T
+alone. Every nonconstant T0 of length 4 (resp. 8) has no later
+ident-0 and no AND-triple in the next 80 (resp. 130) bits.
+Length 2 always doubles again. Both implications with c not 0 still
+occur. Covering still a prefix.
+cycle_cg.md.
+
+Prize status: still unsolved.
