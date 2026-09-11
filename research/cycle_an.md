@@ -8,7 +8,7 @@ gives the Mersenne and Fermat Green coefficients and
 \(I_k\) into packed-index halves. Not a prize claim: \(I_k=1\)
 infinitely often remains open.
 
-Helper: `python3 research/cycle_an.py --certify`. Dump:
+Helper: `python3 research/cycle_an.py --certify` (~3.8s). Dump:
 `research/cycle_an.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 
