@@ -587,3 +587,12 @@ on 7<=k<=12 (prefix, not a theorem). Time-T slice equals the
 Mersenne filter of ANDs at t=T and is not I_k. cycle_an.md.
 
 Prize status: still unsolved.
+
+## Cycle AO (2026-09-11)
+
+G(m, 3*2^k-1)=1 iff m ≡ 2^{k+1}-1 or 3*2^k-1 (mod 2^{k+2}). Unique
+leftmost-11 Green hit for theta_k at t=2^k. N(q) independent of k,
+parity P(q); N(5)=1 at t=2^{k+1}. Two-point family XOR is not a
+formula for theta. cycle_ao.md.
+
+Prize status: still unsolved.
