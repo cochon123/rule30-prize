@@ -7,7 +7,7 @@ time in the 3-fold annulus. The same count of leftmost-11 Green times
 is independent of \(k\) for every \(q\). Not a prize claim:
 \(\theta_k=1\) infinitely often remains open.
 
-Helper: `python3 research/cycle_ao.py --certify`. Dump:
+Helper: `python3 research/cycle_ao.py --certify` (~0.01s). Dump:
 `research/cycle_ao.json`. Packed centre matches `experiment.center_bits`
 on 20 bits.
 

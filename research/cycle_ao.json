@@ -1,0 +1,140 @@
+{
+  "cycle": "AO",
+  "wall_s": 0.009,
+  "checks": {
+    "all_ok": true
+  },
+  "N_q": {
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 1,
+    "6": 1,
+    "7": 2,
+    "8": 0,
+    "9": 3,
+    "10": 1,
+    "11": 4,
+    "12": 1,
+    "13": 2,
+    "14": 2,
+    "15": 3,
+    "16": 0
+  },
+  "annulus": [
+    {
+      "k": 1,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 2,
+      "family_xor": 0,
+      "theta": 0,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 4
+    },
+    {
+      "k": 2,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 4,
+      "family_xor": 1,
+      "theta": 1,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 8
+    },
+    {
+      "k": 3,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 8,
+      "family_xor": 1,
+      "theta": 0,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 16
+    },
+    {
+      "k": 4,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 16,
+      "family_xor": 0,
+      "theta": 0,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 32
+    },
+    {
+      "k": 5,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 32,
+      "family_xor": 1,
+      "theta": 1,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 64
+    },
+    {
+      "k": 6,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 64,
+      "family_xor": 1,
+      "theta": 0,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 128
+    },
+    {
+      "k": 7,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 128,
+      "family_xor": 0,
+      "theta": 1,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 256
+    },
+    {
+      "k": 8,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 256,
+      "family_xor": 1,
+      "theta": 1,
+      "n1_q5": 1,
+      "xor1_q5": 1,
+      "t_q5": 512
+    },
+    {
+      "k": 9,
+      "n1_q3": 1,
+      "xor1_q3": 1,
+      "t_q3": 512,
+      "family_xor": 1,
+      "theta": 0
+    }
+  ],
+  "lemmas": {
+    "two_point_congruence": true,
+    "unique_p1_q3": true,
+    "N_q_independent_of_k": true,
+    "unique_p1_q5_at_2U": true,
+    "family_xor_formula_for_theta": false,
+    "theta_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "two_point_congruence": "LEMMA",
+    "unique_p1_q3": "LEMMA",
+    "N_q_independent_of_k": "LEMMA",
+    "unique_p1_q5_at_2U": "LEMMA",
+    "family_xor_formula_for_theta": "KILLED",
+    "theta_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
