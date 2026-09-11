@@ -1054,3 +1054,15 @@ occur. Covering still a prefix.
 cycle_cg.md.
 
 Prize status: still unsolved.
+
+## Cycle CH (2026-09-11)
+
+After ident-1 the next packed bit is not T shifted. Even-length
+T0||not T0 is never alternating, so the first tail pair is never
+equal. Consecutive Hamming is at least 2 on every length-8
+nonconstant scar tail of 130 bits; length 4 reaches Hamming 1 at
+q=43 on 80 bits. Gap 3 and always-even Hamming are killed.
+Covering still a prefix.
+cycle_ch.md.
+
+Prize status: still unsolved.

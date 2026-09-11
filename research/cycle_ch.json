@@ -1,0 +1,84 @@
+{
+  "cycle": "CH",
+  "wall_s": 0.73,
+  "checks": {
+    "all_ok": true
+  },
+  "h4": {
+    "n0": 4,
+    "n_extra": 80,
+    "n_ok": 14,
+    "min_h": 1,
+    "min_su": 3,
+    "n_h1": 24,
+    "n_h2": 148,
+    "n_odd": 522,
+    "n_h1_T0": 6,
+    "first_h1": {
+      "mask": 1,
+      "q": 43,
+      "T0": [
+        1,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "h8": {
+    "n0": 8,
+    "n_extra": 130,
+    "n_ok": 254,
+    "min_h": 2,
+    "min_su": 3,
+    "n_h1": 0,
+    "n_h2": 48,
+    "n_odd": 17360,
+    "n_h1_T0": 0
+  },
+  "prize_k4_ham": {
+    "k": 4,
+    "odd_p": 29,
+    "n_pairs": 3,
+    "min_h": 3,
+    "n_h1": 0
+  },
+  "prize_k8_ham": {
+    "k": 8,
+    "odd_p": 400,
+    "n_pairs": 112,
+    "min_h": 3,
+    "n_h1": 0
+  },
+  "lemmas": {
+    "next_bit_is_shifted_not_T": true,
+    "even_T0_not_T0_never_alternating": true,
+    "SU_unequal_all_even_n0": true,
+    "SU_hamming_ge_3_n0_4_8": true,
+    "tail_hamming_ge_2_n0_8": true,
+    "tail_hamming_ge_2_n0_4_long": false,
+    "tail_hamming_ge_3": false,
+    "tail_hamming_always_even": false,
+    "all_T0_2power_hamming_ge_2": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "next_bit_is_shifted_not_T": "LEMMA",
+    "even_T0_not_T0_never_alternating": "LEMMA",
+    "SU_unequal_all_even_n0": "LEMMA",
+    "SU_hamming_ge_3_n0_4_8": "LEMMA",
+    "tail_hamming_ge_2_n0_8": "LEMMA",
+    "tail_hamming_ge_2_n0_4_long": "KILLED",
+    "tail_hamming_ge_3": "KILLED",
+    "tail_hamming_always_even": "KILLED",
+    "all_T0_2power_hamming_ge_2": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
