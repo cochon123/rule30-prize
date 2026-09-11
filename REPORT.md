@@ -1188,3 +1188,16 @@ holds through \(k=12\) (prefix). Period \(H\) from time \(W\) fails
 at \(k=5\). The Fermat covering remains a prefix.
 [cycle_bw.md](research/cycle_bw.md).
 The prize is still open.
+
+## Cycle BX (2026-09-11)
+
+A \(1\)-reset in packed bit \(p-1\) forces a unique period-\(\pi\)
+continuation of bit \(p\); wrap-around is automatic. An
+identically-\(0\) driver toggles, and the period doubles iff that
+driver's XOR is \(1\). Reset reconstruction matches the prize word
+on every unblocked lift through \(k=12\). Period \(8\) for all
+\(k\ge 5\) is false; the frozen-zero set \(\{2,7,28\}\) grows at
+\(k=9\). High identically-\(0\) bits do not force a doubling. The
+Fermat covering remains a prefix.
+[cycle_bx.md](research/cycle_bx.md).
+The prize is still open.

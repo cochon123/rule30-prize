@@ -1,0 +1,143 @@
+{
+  "cycle": "BX",
+  "wall_s": 1.192,
+  "checks": {
+    "all_ok": true
+  },
+  "periods": [
+    1,
+    2,
+    4,
+    4,
+    8,
+    8,
+    8,
+    8,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16,
+    16
+  ],
+  "ident0": [
+    [
+      2
+    ],
+    [
+      2
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      7,
+      28
+    ],
+    [
+      2,
+      7,
+      28
+    ],
+    [
+      2,
+      7,
+      28
+    ],
+    [
+      2,
+      7,
+      28
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399
+    ],
+    [
+      2,
+      7,
+      28,
+      399,
+      53207,
+      58286
+    ]
+  ],
+  "blocked_ps": [
+    29,
+    400
+  ],
+  "n_unblocked": 6,
+  "lemmas": {
+    "reset_unique_continuation": true,
+    "wrap_automatic_if_some_b_1": true,
+    "toggle_when_b_ident0": true,
+    "unblocked_lift_matches_prize": true,
+    "period_divides_H_on_prefix": true,
+    "period_8_for_all_k_ge_5": false,
+    "ident0_stable_2_7_28": false,
+    "high_ident0_iff_period_doubles": false,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "reset_unique_continuation": "LEMMA",
+    "wrap_automatic_if_some_b_1": "LEMMA",
+    "toggle_when_b_ident0": "LEMMA",
+    "unblocked_lift_matches_prize": "LEMMA",
+    "period_divides_H_on_prefix": "PREFIX",
+    "period_8_for_all_k_ge_5": "KILLED",
+    "ident0_stable_2_7_28": "KILLED",
+    "high_ident0_iff_period_doubles": "KILLED",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
