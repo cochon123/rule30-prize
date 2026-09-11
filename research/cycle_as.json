@@ -1,0 +1,193 @@
+{
+  "cycle": "AS",
+  "wall_s": 0.009,
+  "checks": {
+    "all_ok": true
+  },
+  "algebra": {
+    "half_window": true
+  },
+  "annulus": [
+    {
+      "k": 4,
+      "T": 8,
+      "I": 0,
+      "n1": 6,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "doubles": [
+        11,
+        13
+      ],
+      "uniq_xor": 0,
+      "uniq_that_fire": [
+        4,
+        9
+      ],
+      "p9_fire": 1
+    },
+    {
+      "k": 5,
+      "T": 16,
+      "I": 1,
+      "n1": 8,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17
+      ],
+      "doubles": [
+        21,
+        25
+      ],
+      "uniq_xor": 0,
+      "uniq_that_fire": [
+        4,
+        9
+      ],
+      "p9_fire": 1
+    },
+    {
+      "k": 6,
+      "T": 32,
+      "I": 1,
+      "n1": 10,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33
+      ],
+      "doubles": [
+        41,
+        49
+      ],
+      "uniq_xor": 0,
+      "uniq_that_fire": [
+        4,
+        9
+      ],
+      "p9_fire": 1
+    },
+    {
+      "k": 7,
+      "T": 64,
+      "I": 0,
+      "n1": 12,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33,
+        49,
+        65
+      ],
+      "doubles": [
+        81,
+        97
+      ],
+      "uniq_xor": 1,
+      "uniq_that_fire": [
+        4,
+        9,
+        33
+      ],
+      "p9_fire": 1
+    },
+    {
+      "k": 8,
+      "T": 128,
+      "I": 0,
+      "n1": 14,
+      "n2": 2,
+      "uniq": [
+        2,
+        3,
+        4,
+        5,
+        7,
+        9,
+        13,
+        17,
+        25,
+        33,
+        49,
+        65,
+        97,
+        129
+      ],
+      "doubles": [
+        161,
+        193
+      ],
+      "uniq_xor": 0,
+      "uniq_that_fire": [
+        4,
+        9,
+        33,
+        129
+      ],
+      "p9_fire": 1
+    }
+  ],
+  "uniq_xor_mismatch_k": [
+    5,
+    6,
+    7
+  ],
+  "lemmas": {
+    "G_half_2a_minus_2": true,
+    "G_half_2a_minus_3": true,
+    "G_half_2a_minus_4": true,
+    "unique_2_family": true,
+    "unique_3_family": true,
+    "two_double_bits": true,
+    "bit9_always_fires": true,
+    "exactly_2k_minus_2_unique_all_k": null,
+    "exactly_two_doubles_all_k": null,
+    "unique_xor_is_I": false,
+    "I_1_infinitely_often": null,
+    "prize": false
+  },
+  "verdict": {
+    "G_half_2a_minus_2": "LEMMA",
+    "G_half_2a_minus_3": "LEMMA",
+    "G_half_2a_minus_4": "LEMMA",
+    "unique_2_family": "LEMMA",
+    "unique_3_family": "LEMMA",
+    "two_double_bits": "LEMMA",
+    "bit9_always_fires": "LEMMA",
+    "exactly_2k_minus_2_unique_all_k": "PREFIX",
+    "exactly_two_doubles_all_k": "PREFIX",
+    "unique_xor_is_I": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

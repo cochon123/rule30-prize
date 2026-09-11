@@ -18,11 +18,11 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **AR**. Odd Green targets lift:
-\(G(m,q\cdot 2^j-1)=1\) iff \(2^j\mid(m+1)\) and
-\(G((m+1)/2^j-1,q-1)=1\). Fermat-odd \(q\) recovers Cycles AO and AP.
-Five triple-Green and four quadruple-Green bits on the 3-fold annulus
-have closed times and do not always fire. The prize is still open.
+Last completed cycle is **AS**. On \(n<2^{a-1}\),
+\(G(n,2^a-2)=1\) iff \(n=2^{a-1}-1\), and for \(a\ge 3\)
+\(G(n,2^a-4)=1\) iff \(n=2^{a-1}-2\). Those laws classify two
+unique-Green families for \(I_k\) and the two double-Green bits.
+Packed bit 9 always fires at \(T=2^{k-1}\). The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -91,6 +91,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   \(G(m,q\cdot 2^j-1)=G((m+1)/2^j-1,q-1)\) on \(2^j\mid(m+1)\);
   Fermat-odd \(q\) recovers AO/AP, and the five triples and four
   quadruples on the 3-fold annulus have closed times (Cycle AR).
+  Half-window \(G(n,2^a-2)\) and \(G(n,2^a-4)\) make every packed bit
+  \(2^j+1\) and \(3\cdot 2^j+1\) (\(j\le k-3\)) unique-Green for
+  \(I_k\); the two doubles are \(5\cdot 2^{k-3}+1\) and
+  \(3\cdot 2^{k-2}+1\); bit 9 always fires at \(T\) (Cycle AS).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
