@@ -477,3 +477,13 @@ endings killed as 00 productions (finite incidence; all eight 11***
 windows occur). White-stripe onsets are 01 not 00. cycle_ad.md.
 
 Prize status: still unsolved.
+
+## Cycle AE (2026-09-11)
+
+Right-diagonals are pure integrators; only u(*,0)=1 is eventually
+constant (no right white stripes). Finite incidence of each k in the
+centred 5-window. Green formula for d=ell XOR r (linear parts cancel).
+00 after a 1-run ending iff x(-2)=r OR x(2). Nested right killed as a
+00 production. cycle_ae.md.
+
+Prize status: still unsolved.

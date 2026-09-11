@@ -1,0 +1,191 @@
+{
+  "cycle": "AE",
+  "wall_s": 0.005,
+  "checks": {
+    "all_ok": true
+  },
+  "recurrence_ok": true,
+  "recurrence_n": 4096,
+  "right_edge_one": true,
+  "k1_k2_toggle": true,
+  "right_diagonals": [
+    {
+      "k": 0,
+      "values": [
+        1
+      ],
+      "n": 129
+    },
+    {
+      "k": 1,
+      "values": [
+        0,
+        1
+      ],
+      "n": 128
+    },
+    {
+      "k": 2,
+      "values": [
+        0,
+        1
+      ],
+      "n": 128
+    },
+    {
+      "k": 3,
+      "values": [
+        0,
+        1
+      ],
+      "n": 127
+    },
+    {
+      "k": 4,
+      "values": [
+        0,
+        1
+      ],
+      "n": 127
+    },
+    {
+      "k": 5,
+      "values": [
+        0,
+        1
+      ],
+      "n": 126
+    },
+    {
+      "k": 6,
+      "values": [
+        0,
+        1
+      ],
+      "n": 126
+    },
+    {
+      "k": 7,
+      "values": [
+        0,
+        1
+      ],
+      "n": 125
+    },
+    {
+      "k": 8,
+      "values": [
+        0,
+        1
+      ],
+      "n": 125
+    },
+    {
+      "k": 9,
+      "values": [
+        0,
+        1
+      ],
+      "n": 124
+    },
+    {
+      "k": 10,
+      "values": [
+        0,
+        1
+      ],
+      "n": 124
+    },
+    {
+      "k": 11,
+      "values": [
+        0,
+        1
+      ],
+      "n": 123
+    },
+    {
+      "k": 12,
+      "values": [
+        0,
+        1
+      ],
+      "n": 123
+    }
+  ],
+  "no_right_white_stripe_k1_12": true,
+  "finite_incidence": {
+    "0": [
+      2
+    ],
+    "1": [
+      2,
+      3
+    ],
+    "2": [
+      2,
+      3,
+      4
+    ],
+    "3": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "4": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "5": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "6": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "7": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "green_d_fail": 0,
+  "green_c_fail": 0,
+  "n10": 59,
+  "n10_00": 29,
+  "ae_fail": 0,
+  "lemmas": {
+    "right_integrator": true,
+    "only_u0_constant": true,
+    "finite_incidence_right": true,
+    "green_defect": true,
+    "run_end_00_iff_a_eq_r_or_e": true,
+    "infinitely_many_00": null,
+    "prize": false
+  },
+  "verdict": {
+    "right_integrator": "LEMMA",
+    "no_right_white_stripe": "LEMMA",
+    "finite_incidence_right": "LEMMA",
+    "green_defect": "LEMMA",
+    "run_end_00_iff_a_eq_r_or_e": "LEMMA",
+    "nested_right_5window_00": "KILLED",
+    "right_white_stripes_like_left": "KILLED",
+    "green_d_closed_form_for_I_k": "KILLED",
+    "infinitely_many_00": "OPEN",
+    "prize": "unsolved"
+  }
+}
