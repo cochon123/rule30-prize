@@ -622,6 +622,19 @@ by themselves give `00`s.
 [cycle_ad.md](research/cycle_ad.md).
 The prize is still open.
 
+## Cycle AE (2026-09-11)
+
+Right-diagonals \(u(t,k)=x(t,t-k)\) are pure integrators of
+\(u_{k-1}\lor u_{k-2}\). The only eventually-constant one is the right
+edge, so there are no white stripes on the right (unlike \(e_7\) and
+\(e_{28}\) on the left). Each fixed \(k\) meets the centred 5-window
+at most five times. The palindrome defect \(d=\ell\oplus r\) is the
+Green difference of AND injections to packed bits \(t-1\) and \(t+1\).
+A 1-run ending is followed by `00` iff \(x(-2)=r\lor x(2)\). Nested
+right is not a `00` production; the remaining gap is a bulk production.
+[cycle_ae.md](research/cycle_ae.md).
+The prize is still open.
+
 
 
 
