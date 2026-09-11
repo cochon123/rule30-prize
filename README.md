@@ -18,10 +18,9 @@ Read in this order:
 2. [research/LOG.md](research/LOG.md) — what was tried and what died
 3. The notes those files cite under `research/`
 
-Last completed cycle is **BA**. Even pentuples are
-\(2^a-\{12,16,18,20,26,28,34,50\}\) for \(a\ge 7\); bits 20, 24, 25
-never fire. Nested left is still not a closed form. The prize is still
-open.
+Last completed cycle is **BB**. No even sextuples for \(a\ge 8\);
+exactly five sextuples; ten even septuple seeds; bit 22 contributes 1.
+Nested left is still not a closed form. The prize is still open.
 
 Do not overwrite `experiment.py`, `research/strip_graph.py`, or
 `research/strip_extend.py`.
@@ -116,7 +115,10 @@ Do not overwrite `experiment.py`, `research/strip_graph.py`, or
   bits are the families \(p=r\cdot 2^{j}+1\) for
   \(r\in\{11,15,17,19,25,27,33,49\}\); \(e_{20},\ldots,e_{27}\) are
   period 4, \(e_{30}\equiv 1\) for \(t\ge 33\), and bits 20, 24, 25
-  never fire (Cycle BA).
+  never fire (Cycle BA). There are no even sextuples for \(a\ge 8\),
+  so there are exactly five sextuple-Green packed bits for \(a\ge 7\);
+  even septuples are ten seeds for \(a\ge 9\), and bit 22 contributes
+  1 (Cycle BB).
 - Infinitely many 0s and 1s in the center are proved.
 - Isolated-zero periods `01^q` are excluded except `q ∈ {1,2,3,4,5,6,8}`.
 - Period 2 has no uniform-in-onset bound (`maxR=16` at `T=20` is still
