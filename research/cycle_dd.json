@@ -1,0 +1,72 @@
+{
+  "cycle": "DD",
+  "wall_s": 8.389,
+  "checks": {
+    "all_ok": true
+  },
+  "seed": {
+    "pis": [
+      1,
+      2,
+      4,
+      4,
+      8,
+      8,
+      8,
+      8,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      16,
+      32
+    ],
+    "pi_17": 32
+  },
+  "even_ident0": {
+    "T0": "00000110",
+    "extra_fail": 52807,
+    "xor_a": 0
+  },
+  "pair17": {
+    "n_ok": 70982,
+    "n_eq": 10,
+    "n_10": 70898,
+    "n_imp": 84,
+    "n_imp_B": 74,
+    "n_eq_n0": {
+      "2": 2,
+      "6": 4,
+      "10": 4
+    },
+    "n_eq_pow": 0
+  },
+  "lemmas": {
+    "period_H_seed_k_le_17": true,
+    "pi_17_is_32": true,
+    "prize_n0_8_infinite_no_zero": false,
+    "seventeenth_pair_never_equal": false,
+    "pair17_eq_only_n0_2_6_10": true,
+    "pair17_2power_n0_unequal": true,
+    "period_H_seed_all_k": null,
+    "at_most_one_odd_toggle_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "period_H_seed_k_le_17": "LEMMA",
+    "pi_17_is_32": "LEMMA",
+    "prize_n0_8_infinite_no_zero": "KILLED",
+    "seventeenth_pair_never_equal": "KILLED",
+    "pair17_eq_only_n0_2_6_10": "LEMMA",
+    "pair17_2power_n0_unequal": "LEMMA",
+    "period_H_seed_all_k": "PREFIX",
+    "at_most_one_odd_toggle_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
