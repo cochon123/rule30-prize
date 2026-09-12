@@ -13,7 +13,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: the \(G=1\) FRESH/CONT XOR is still not AND along
 Green ones, so covering never-fail stays open.
 
-Helper: `g1_slice_cover`. Certify: `python3 research/cycle_hv.py --certify`.
+Helper: `g1_slice_cover`. Certify: `python3 research/cycle_hv.py --certify` (~0.13s).
 Dump: `research/cycle_hv.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HJ/HT/HU (covering \(k\le 6\); no Fermat table,
