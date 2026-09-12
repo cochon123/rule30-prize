@@ -11,7 +11,7 @@ to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: the HW fold's FRESH duals still read the packed
 row, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kf.py --certify`.
+Certify: `python3 research/cycle_kf.py --certify` (~0.12s).
 Dump: `research/cycle_kf.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HU/HX/KE (\(n<64\) reverse table; covering
