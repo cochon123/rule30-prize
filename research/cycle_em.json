@@ -1,0 +1,108 @@
+{
+  "cycle": "EM",
+  "wall_s": 1.023,
+  "checks": {
+    "all_ok": true
+  },
+  "holdout": {
+    "T0": "00001101",
+    "odd": 271197,
+    "events": [
+      [
+        52809,
+        "even"
+      ],
+      [
+        72177,
+        "even"
+      ],
+      [
+        165350,
+        "even"
+      ],
+      [
+        174051,
+        "even"
+      ],
+      [
+        179001,
+        "even"
+      ],
+      [
+        271197,
+        "odd"
+      ]
+    ],
+    "n_even": 5
+  },
+  "k18": {
+    "ok": true,
+    "land": {
+      "lo": 271453,
+      "hi": 271708,
+      "k_lo": 18,
+      "k_hi": 18
+    },
+    "leftover": 252580,
+    "k18_need": 523777,
+    "e16_from_k16": {
+      "lo": 327681,
+      "hi": 393216,
+      "k_lo": 18,
+      "k_hi": 18
+    },
+    "e16_from_k17": {
+      "lo": 393217,
+      "hi": 524288,
+      "k_lo": 18,
+      "k_hi": 18
+    }
+  },
+  "seed_k19": {
+    "pi_min": 32,
+    "pi_max": 64,
+    "H19": 262144,
+    "pis": [
+      32,
+      64
+    ]
+  },
+  "lemmas": {
+    "extra271197_k8_lands_k18": true,
+    "k18_leftover_after_271197_lt_E16": true,
+    "max_k18_covers_window_from_k8": true,
+    "holdout_00001101_odd_271197": true,
+    "e16_from_k16_or_k17_lands_k18": true,
+    "at_most_one_odd_k18_on_n0_2": true,
+    "period_H_seed_at_k19_every_n0_2": true,
+    "word_00001101_never_odd": false,
+    "every_n0_2_skips_k18": false,
+    "n271197_closed_form": null,
+    "leftover_after_271197_empty_later_k": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "pi_formula_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "extra271197_k8_lands_k18": "LEMMA",
+    "k18_leftover_after_271197_lt_E16": "LEMMA",
+    "max_k18_covers_window_from_k8": "LEMMA",
+    "holdout_00001101_odd_271197": "LEMMA",
+    "e16_from_k16_or_k17_lands_k18": "LEMMA",
+    "at_most_one_odd_k18_on_n0_2": "LEMMA",
+    "period_H_seed_at_k19_every_n0_2": "LEMMA",
+    "word_00001101_never_odd": "KILLED",
+    "every_n0_2_skips_k18": "KILLED",
+    "n271197_closed_form": "PREFIX",
+    "leftover_after_271197_empty_later_k": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
