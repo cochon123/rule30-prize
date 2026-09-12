@@ -1,0 +1,262 @@
+{
+  "cycle": "LG",
+  "wall_s": 0.212,
+  "checks": {
+    "all_ok": true
+  },
+  "p32_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_p32_ge4": 31,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_p32": 0,
+          "xor_p32": 0,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 0,
+            "1001": 0,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 0,
+          "xor_p32": 0,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 0,
+            "1001": 0,
+            "0011": 0
+          }
+        }
+      },
+      "1": {
+        "j6": {
+          "n_p32": 0,
+          "xor_p32": 0,
+          "n_other": 0,
+          "xor_j": 0,
+          "n_pat": {
+            "0010": 0,
+            "0100": 0,
+            "1001": 0,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 0,
+          "xor_p32": 0,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 0,
+            "1001": 0,
+            "0011": 0
+          }
+        }
+      },
+      "2": {
+        "j6": {
+          "n_p32": 0,
+          "xor_p32": 0,
+          "n_other": 0,
+          "xor_j": 0,
+          "n_pat": {
+            "0010": 0,
+            "0100": 0,
+            "1001": 0,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 4,
+          "xor_p32": 0,
+          "n_other": 3,
+          "xor_j": 0,
+          "n_pat": {
+            "0010": 1,
+            "0100": 1,
+            "1001": 2,
+            "0011": 0
+          }
+        }
+      },
+      "3": {
+        "j6": {
+          "n_p32": 4,
+          "xor_p32": 0,
+          "n_other": 3,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 1,
+            "0100": 1,
+            "1001": 2,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 5,
+          "xor_p32": 1,
+          "n_other": 3,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 1,
+            "0100": 2,
+            "1001": 2,
+            "0011": 0
+          }
+        }
+      },
+      "4": {
+        "j6": {
+          "n_p32": 3,
+          "xor_p32": 1,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 3,
+            "1001": 0,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 6,
+          "xor_p32": 0,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 6,
+            "1001": 0,
+            "0011": 0
+          }
+        }
+      },
+      "5": {
+        "j6": {
+          "n_p32": 5,
+          "xor_p32": 1,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 5,
+            "1001": 0,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 5,
+          "xor_p32": 1,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 5,
+            "1001": 0,
+            "0011": 0
+          }
+        }
+      },
+      "6": {
+        "j6": {
+          "n_p32": 5,
+          "xor_p32": 1,
+          "n_other": 0,
+          "xor_j": 1,
+          "n_pat": {
+            "0010": 0,
+            "0100": 5,
+            "1001": 0,
+            "0011": 0
+          }
+        },
+        "j10": {
+          "n_p32": 7,
+          "xor_p32": 1,
+          "n_other": 0,
+          "xor_j": 0,
+          "n_pat": {
+            "0010": 0,
+            "0100": 7,
+            "1001": 0,
+            "0011": 0
+          }
+        }
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_all_k": {
+    "k": 2,
+    "q": 10,
+    "n_pat": {
+      "0010": 1,
+      "0100": 1,
+      "1001": 2,
+      "0011": 0
+    }
+  },
+  "killed_xor1": {
+    "n": 6,
+    "xor": 0
+  },
+  "killed_eq_p6": {
+    "p32": 6,
+    "p6": 5
+  },
+  "killed_empty": {
+    "n": 3
+  },
+  "lemmas": {
+    "p32_0100": true,
+    "p14_0011": true,
+    "p16_1001": true,
+    "p6_0100": true,
+    "p4_1001": true,
+    "pat1001_rem": true,
+    "all_k": false,
+    "xor1": false,
+    "eq_p6": false,
+    "empty": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "p32_0100": "LEMMA",
+    "p14_0011": "LEMMA",
+    "p16_1001": "LEMMA",
+    "p6_0100": "LEMMA",
+    "p4_1001": "LEMMA",
+    "pat1001_rem": "LEMMA",
+    "all_k": "KILLED",
+    "xor1": "KILLED",
+    "eq_p6": "KILLED",
+    "empty": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
