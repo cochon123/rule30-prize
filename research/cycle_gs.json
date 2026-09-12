@@ -1,0 +1,184 @@
+{
+  "cycle": "GS",
+  "wall_s": 0.001,
+  "checks": {
+    "all_ok": true
+  },
+  "all_w_xor": {
+    "n_ok": 21,
+    "rows": {
+      "0": {
+        "4U": {
+          "hit_xor": 1,
+          "extras_xor": 0,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        }
+      },
+      "1": {
+        "4U": {
+          "hit_xor": 1,
+          "extras_xor": 0,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        }
+      },
+      "2": {
+        "4U": {
+          "hit_xor": 1,
+          "extras_xor": 0,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 1,
+          "extras_xor": 1,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 1,
+          "extras_xor": 1,
+          "Qmod2": 0
+        }
+      },
+      "3": {
+        "4U": {
+          "hit_xor": 0,
+          "extras_xor": 1,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 1,
+          "extras_xor": 1,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        }
+      },
+      "4": {
+        "4U": {
+          "hit_xor": 1,
+          "extras_xor": 0,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        }
+      },
+      "5": {
+        "4U": {
+          "hit_xor": 0,
+          "extras_xor": 1,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 1,
+          "extras_xor": 1,
+          "Qmod2": 0
+        }
+      },
+      "6": {
+        "4U": {
+          "hit_xor": 0,
+          "extras_xor": 1,
+          "Qmod2": 1
+        },
+        "8U": {
+          "hit_xor": 0,
+          "extras_xor": 0,
+          "Qmod2": 0
+        },
+        "16U": {
+          "hit_xor": 1,
+          "extras_xor": 1,
+          "Qmod2": 0
+        }
+      }
+    }
+  },
+  "w4u_extras_lo": {
+    "n_ok": 5
+  },
+  "killed_eq_extras_w4": {
+    "k": 0,
+    "W": "4U",
+    "hit_xor": 1,
+    "extras_xor": 0
+  },
+  "killed_eq_lo_qmod": {
+    "k": 5,
+    "W": "8U",
+    "hit_xor": 0,
+    "lo_xor": 1
+  },
+  "killed_w4u_extras_k5": {
+    "k": 5,
+    "W": "4U",
+    "extras": [
+      9,
+      12
+    ]
+  },
+  "lemmas": {
+    "all_W_hit_cone_XOR_eq_extras_XOR_xor_Qmod2": true,
+    "W4U_extras_subseteq_0_through_k4": true,
+    "hit_cone_XOR_eq_extras_XOR_on_W4U": false,
+    "hit_cone_XOR_eq_lo_XOR_xor_Qmod2_all_k": false,
+    "W4U_extras_only_lo_at_k5": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "all_W_hit_cone_XOR_eq_extras_XOR_xor_Qmod2": "LEMMA",
+    "W4U_extras_subseteq_0_through_k4": "LEMMA",
+    "hit_cone_XOR_eq_extras_XOR_on_W4U": "KILLED",
+    "hit_cone_XOR_eq_lo_XOR_xor_Qmod2_all_k": "KILLED",
+    "W4U_extras_only_lo_at_k5": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
