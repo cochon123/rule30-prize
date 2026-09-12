@@ -13,7 +13,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: a 4-row quad-AND table does not give a closed
 form along Green ones, so covering never-fail stays open.
 
-Helper: `QUAD_AND`. Certify: `python3 research/cycle_hp.py --certify`.
+Helper: `QUAD_AND`. Certify: `python3 research/cycle_hp.py --certify` (~0.16s).
 Dump: `research/cycle_hp.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles AL/CA/GU/HF/HG/HH/HO
 (1024-row table; covering \(k\le 6\); no Fermat table, no extra window,
