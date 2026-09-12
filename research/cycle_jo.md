@@ -13,7 +13,7 @@ Not a prize claim: a doubling-invariant core slot still leaves packed
 AND on those columns (and on pairs), so covering never-fail stays
 open.
 
-Certify: `python3 research/cycle_jo.py --certify` (~0.16s).
+Certify: `python3 research/cycle_jo.py --certify` (~0.54s).
 Dump: `research/cycle_jo.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IS/IT/JN (\(n<64\); covering \(k\le 6\); no
