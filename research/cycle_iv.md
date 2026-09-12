@@ -14,7 +14,7 @@ Not a prize claim: slot \(\mathrm{green4}\) still leaves packed AND
 on every shape (all four fire), so covering never-fail stays open.
 
 Helper: `SLOT_NEIGH`, `slot_neigh`, `slot_green4`. Certify:
-`python3 research/cycle_iv.py --certify`.
+`python3 research/cycle_iv.py --certify` (~0.76s).
 Dump: `research/cycle_iv.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IG/IH/IP/IS/IT (\(n<64\); covering \(k\le 6\);
