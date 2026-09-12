@@ -22,7 +22,7 @@ to \(n_8\).
 Not a prize claim: reducing \(J_{18}\) to a later window does not prove
 that window is 1 on candidates.
 
-Helper: `python3 research/cycle_fh.py --certify` (~0.11s). Dump:
+Helper: `python3 research/cycle_fh.py --certify` (~0.32s). Dump:
 `research/cycle_fh.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/DS/FE/FF/FG (packed check on \(k=2..6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
