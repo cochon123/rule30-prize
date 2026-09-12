@@ -1,0 +1,201 @@
+{
+  "cycle": "EU",
+  "wall_s": 0.179,
+  "checks": {
+    "all_ok": true
+  },
+  "ones": {
+    "n_exh": 2046,
+    "n_rand": 160
+  },
+  "otype_n3": {
+    "n0_1_12": {
+      "1": 2,
+      "2": 4,
+      "3": 8,
+      "4": 16,
+      "5": 32,
+      "6": 64,
+      "7": 128,
+      "8": 256,
+      "9": 512,
+      "10": 1024,
+      "11": 2048,
+      "12": 4096
+    }
+  },
+  "zero": {
+    "n_exh": 2036
+  },
+  "gap": {
+    "n_exh": 2036,
+    "n_rand": 160,
+    "n_iso": 6118
+  },
+  "inverse": {
+    "n_exh": 86870
+  },
+  "pred_ending": {
+    "n3_is_rot15_U": true,
+    "n4_is_gap_n3": true,
+    "inv_WW_is_DW": true
+  },
+  "n16_land": {
+    "extra": 414990,
+    "annulus_extra": 18,
+    "origin_le15_k18": true,
+    "k16_split": [
+      18,
+      19
+    ],
+    "k17_k18_only19": true,
+    "rows": {
+      "0": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "1": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "2": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "3": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "4": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "5": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "6": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "7": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "8": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "9": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "10": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "11": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "12": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "13": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "14": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "15": {
+        "ok": true,
+        "k_lo": 18,
+        "k_hi": 18
+      },
+      "16": {
+        "ok": false,
+        "k_lo": 18,
+        "k_hi": 19
+      },
+      "17": {
+        "ok": true,
+        "k_lo": 19,
+        "k_hi": 19
+      },
+      "18": {
+        "ok": true,
+        "k_lo": 19,
+        "k_hi": 19
+      },
+      "19": {
+        "ok": false,
+        "k_lo": 19,
+        "k_hi": 20
+      },
+      "20": {
+        "ok": false,
+        "k_lo": 20,
+        "k_hi": 21
+      },
+      "21": {
+        "ok": false,
+        "k_lo": 21,
+        "k_hi": 22
+      }
+    }
+  },
+  "lemmas": {
+    "reconstruct_A_ones_is_rot_not": true,
+    "otype_n3_is_rot_n0_minus_1": true,
+    "reconstruct_0_T_is_ones": true,
+    "reconstruct_ones_S_is_gap_parity": true,
+    "F_inverse_A_from_BU": true,
+    "ident0_ending_DW_W_W_0": true,
+    "n16_ident0_packed_ge_414990": true,
+    "n16_ident0_in_k_ge_18": true,
+    "n16_ident0_in_k_le_17": false,
+    "n16_ident0_never_in_k18": false,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "reconstruct_A_ones_is_rot_not": "LEMMA",
+    "otype_n3_is_rot_n0_minus_1": "LEMMA",
+    "reconstruct_0_T_is_ones": "LEMMA",
+    "reconstruct_ones_S_is_gap_parity": "LEMMA",
+    "F_inverse_A_from_BU": "LEMMA",
+    "ident0_ending_DW_W_W_0": "LEMMA",
+    "n16_ident0_in_k_ge_18": "LEMMA",
+    "n16_ident0_in_k_le_17": "KILLED",
+    "n16_ident0_never_in_k18": "KILLED",
+    "no_closed_form_reconstruct_T_ones": "KILLED",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
