@@ -216,9 +216,182 @@ as well.
    height-\(\le 2^{16}\) polynomial with a root in \(I_{256}\).
    algebraic_bitstream.md.
 
-(CFG parse-parity of bin(n), item 4, not required in the first three.)
+(CFG parse-parity of bin(n), item 4, completed in Cycle I: unsat.)
 
 Prize status: still unsolved.
+
+## Cycle I (2026-09-10)
+
+Leftover ideas7 item 4 plus five new screens. One finite theorem; the
+rest hit their kill criteria. No prize claim.
+
+1. CFG parse-parity of bin(n): 4 NT, ≤8 binary productions, no ε/unit.
+   Bit-sliced CYK over 5.13e9 subsets; unsat on n=1..1023 in 644s.
+   Nested 2- and 3-NT freezes also unsat. cfg_parse_parity.md.
+2. 2-kernel of c: distinct length-128 prefixes = 2^k through k=12.
+   Finite lower bound |K|≥4096, not an infinite kernel. No disagreement
+   lemma. Kill the proof-via-automaticity route. two_kernel.md.
+3. Period-2 finite-row fiber (Condrey analogue): every nonzero row of
+   radius w≤10 has L_run(w)≤24 inside tcap=8w+128. Unique left is
+   infinite in the scan, not a closed-form tail. Verdict FINITE_THEOREM;
+   not a uniform exclusion. period2_fiber.md.
+4. Packed-row OR-overlaps: mean N_t/t≈0.50 at T=16384>0.05. Valuations
+   of z XOR shifts do not extract c_t. packed_valuation.md.
+5. XOR-transforms of c: a_t, first difference, paperfolding, Laplacian,
+   Thue–Morse XOR all have L(N)≈N/2 and discrepancy of the same order
+   as D(N). xor_transform.md.
+
+Extras: coalescence killed by left-permutivity (disagree at time W+1);
+residue-class exact zeros at N=10^5 do not persist dyadically.
+
+Prize status: still unsolved. Next: upgrade L_run≤24 to a uniform-in-w
+bound, or run the same finite-row scan at periods 3–7 and q=8.
+
+## Cycle J (2026-09-10)
+
+Ideas9. The constant-24 hope dies; periods 3 and q=8 do not plateau;
+short traces are unsat. No prize claim.
+
+1. Period-2 L_run extension: exhaustive w=11 (2^{23}-1 states).
+   L_run(11)=29, witness mask 4369552, run t=159..188, stable at
+   tcap=432. Ten masks have L≥25 after doubling. A radius-10 row
+   (mask 1082165) reaches L=25 only past Cycle I’s cap. period2_lrun.md.
+2. Period-3 finite rows w≤8: L3=[11,11,12,12,17,18,20,20,22], still
+   growing, n_eventual=0. period3_fiber.md.
+3. Isolated-zero q=8 finite rows w≤7: L_iso grows to 23, no eventual
+   01^8 witness. period9_fiber.md.
+4. Trace of d≤3 products over F2/F3: unsat on t=1..255. trace_product.md.
+
+Prize status: still unsolved. Next: leftover streaming next-bit
+(ideas9 item 5); whether L_run(w) is unbounded; periods 4–7.
+
+## Cycle K (2026-09-11)
+
+Ideas10. No prize claim.
+
+1. L_run families: concat/repeat of 4369552 and 7503 never beat L=29.
+   Hunt found w=17 mask 281769 with L=31 (t=320..351), stable at
+   tcap=784; Cycle J cap 8w+128 misses it. Not an unbounded family.
+   period2_lrun_family.md.
+2. Periods 4–5, w≤7: L5 still grows (max 22 at w=7); L4≤22 on w=6..7
+   only. No eventual witness. period45_fiber.md.
+3. Defect pairing: density 0.4997 at N=10^5, L(d)/n=0.5, D almost
+   entirely on defects. period2_defects.md.
+4. Streaming next bit: popcount/v2/windows fail on t=8..4096.
+   stream_nextbit.md.
+
+Prize status: still unsolved. Next: leftover forbidden-spacetime-block
+search (ideas10 item 5); periods 6–7; seed-specific constraints the
+all-finite-row scans omit.
+
+## Cycle L (2026-09-11)
+
+Ideas11. No prize claim.
+
+1. Weight-8 span-24 census, tcap=32w+512: 536155 supports, 3.53e7
+   placements. Max L vs wt = 7,19,26,31,32,32,32,35. Witness w=38
+   mask 17057305, L=35 off-hull. Origin-in-hull dump still L<=31.
+   No L>=40. period2_weight8.md.
+2. Forbidden periodic-centre blocks: residual SCC nonempty; no 3x3/4x4
+   local-rule violation is forced. forbidden_periodic.md.
+3. Periods 6–7, w<=6: L6 to 21, L7 to 23, still growing.
+   period67_fiber.md.
+
+Prize status: still unsolved. Next: origin-in-hull-only census
+(possible L<=31); prize-seed left-edge constraint.
+
+## Cycle M (2026-09-11)
+
+Ideas12. One finite theorem; left-edge restriction dies. No prize claim.
+
+1. Origin-in-hull weight<=8 span<=24: 12.1e6 placements, max L=31,
+   n_ge32=0. Maximizer mask 281769. Off-hull L=35 excluded.
+   period2_hull.md.
+2. Left-edge bit 0 fixed: short cap matches Cycle I; long cap L=24,25,27
+   at w=8,9,10. period2_leftbit.md.
+
+Prize status: still unsolved. The hull theorem does not cover later
+prize-seed rows (weight Theta(T), span 2T).
+
+## Cycle N (2026-09-11)
+
+Ideas13. In-hull wt=9,10 span<=20: 5.82e6 placements, max L=31,
+n_ge32=0. Maximizer mask 806057 (281769 plus a 1 at +2). period2_hull910.md.
+
+Defect recurrence: d_{t+1} is not a Boolean of a width-<=8 defect
+window; the only exact local rule uses (c,l,r), the original CA.
+defect_recurrence.md.
+
+Prize status: still unsolved.
+
+## Cycle O (2026-09-11)
+
+Ideas14. Unique-left infinitude is L_0 at time 0; vacuum u's period-7
+attractor dies at n=152. Algebraic L_0 → 011-bump under S, no rank,
+onsets T=33,34 still maxR≤16. period2_germ.md. Fiber note corrected.
+
+Prize status: still unsolved.
+
+## Cycle P (2026-09-11)
+
+Ideas14 items 2–3. Period-2 even neighbor u has no 5 consecutive zeros
+(4-state drain of (e,f) while u=0). SFT {11, 00000} forbidden. Does not
+kill T=20 R=16. F^2 is not width-1 left-expansive. period2_ugap.md.
+
+Prize status: still unsolved.
+
+## Cycle Q (2026-09-11)
+
+Ideas14 Morse-Hedlund, exact language of u, q=8 drive. MH rigidity
+killed (T=20,22 germs have p(n)>n through half). Realizable u is all
+of X (43 octuples). q=8: 35/63 finite rights mix sigma. Three T=20
+R=16 models survive the gap bound. cycle_q.md.
+
+Prize status: still unsolved.
+
+## Cycle R (2026-09-11)
+
+Kernel d(k) of v_k vs v_0 is not injective
+(1,2,2,5,1,2,2,3,1,5,1,2,3,1). Prize-seed fiber_left predicts left
+edge 0 for only 92/192 onsets. Exact lemma
+D(N)=N_11-N_00+c_{N-1}; local run-length pairing dies (33.5% equal).
+Square 2-kernel columns distinct through k=9, not a lemma.
+cycle_r.md.
+
+Prize status: still unsolved.
+
+## Cycle S (2026-09-11)
+
+F^2 lag-2 inverse is G_0 = x_{-2} XOR ((x_{-1} XNOR x_0) AND (x_1 OR x_2)).
+On phase 01 this is F_2=u (127/127 finite rights). Uniqueness stops at
+lag 2; ell=1 zeros x_{-2}; no Condrey horizon. Radius-8 spatial windows
+do not determine displacement from 11 to next 00 (44 collisions).
+Half-time right-edge width-8 gadget is a full 2-shift of fires.
+cycle_s.md.
+
+Prize status: still unsolved.
+
+## Cycle T (2026-09-11)
+
+Isolated-one 10^q has residual radius-6 SCCs for every q=1..17.
+e_t=c_t+c_{t+1}-1 restates D(N); packed excess corr -0.005.
+Kernel phi_k injective only for k=1,2. Square columns still
+distinct through k=9. cycle_t.md.
+
+Prize status: still unsolved.
+
+## Cycle U (2026-09-11)
+
+Every binary word of length <=14 occurs in the first 2^18 centre bits
+(T+p >= 16384 if eventually periodic). Twelve length-15 words missing.
+Predicted kernel disagreement indices all fail by k=2.
+cycle_u.md.
+
+Prize status: still unsolved.
+
+
+
+
 
 
 

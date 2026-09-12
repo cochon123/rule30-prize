@@ -1,0 +1,797 @@
+{
+  "attack": "period3_fiber",
+  "ideas": "ideas9 item 2",
+  "problem": "no nonzero finite-support configuration has an eventually period-3 central trace",
+  "centre_words": [
+    "001",
+    "010",
+    "100",
+    "011",
+    "110",
+    "101"
+  ],
+  "necklaces": [
+    "001",
+    "011"
+  ],
+  "verdict": "KILL",
+  "kill": true,
+  "survive": false,
+  "kill_reason": "L3(w) keeps growing through w=8 with no plateau (table [11, 11, 12, 12, 17, 18, 20, 20, 22])",
+  "wall_time_sec": 9.3734,
+  "tcap_long": "8w+128",
+  "w_max": 8,
+  "n_masks_wmax": 131071,
+  "checks": {
+    "packed_matches_experiment_center_bits_256": true,
+    "prize_prefix16": "1101110011000101",
+    "prize_prefix16_ok": true,
+    "packed_matches_naive_prize": true,
+    "packed_matches_naive_small": true,
+    "synthetic_001_L": true,
+    "synthetic_001_prefix": true,
+    "synthetic_001_pattern": true,
+    "synthetic_001_necklace": true,
+    "synthetic_011_L": true,
+    "synthetic_011_pattern": true,
+    "synthetic_010_pattern": true,
+    "synthetic_010_necklace": true,
+    "period2_is_not_long_p3": true,
+    "constant0_L_lt_3": true,
+    "constant1_L_lt_3": true,
+    "scan_matches_stored_trace": true,
+    "prize_p3_prefix16": 5,
+    "prize_p3_prefix16_is_5": true,
+    "all_ok": true
+  },
+  "exhaustive": [
+    {
+      "w": 0,
+      "n_nonzero": 1,
+      "tcap": 128,
+      "L_run": 11,
+      "L3": 11,
+      "L_prefix": 5,
+      "L_suffix": 2,
+      "L_001": 7,
+      "L_011": 11,
+      "max_run_end": 117,
+      "n_at_Lrun": 1,
+      "best_prefix": {
+        "mask": 1,
+        "row": "1",
+        "L_prefix": 5,
+        "pattern": "110",
+        "L_run": 11,
+        "factor": "11011"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 16,
+      "best": {
+        "mask": 1,
+        "row": "1",
+        "L": 11,
+        "start": 106,
+        "end": 117,
+        "prefix": 5,
+        "suffix": 2,
+        "pattern": "101",
+        "necklace": "011",
+        "L_001": 7,
+        "L_011": 11,
+        "stored_L": 11,
+        "stored_pattern": "101",
+        "factor": "01101101101",
+        "factor_len": 11,
+        "ext_tcap": 512,
+        "ext_L": 11,
+        "ext_start": 106,
+        "ext_end": 117,
+        "ext_pattern": "101",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.0
+    },
+    {
+      "w": 1,
+      "n_nonzero": 7,
+      "tcap": 136,
+      "L_run": 11,
+      "L3": 11,
+      "L_prefix": 5,
+      "L_suffix": 5,
+      "L_001": 7,
+      "L_011": 11,
+      "max_run_end": 120,
+      "n_at_Lrun": 3,
+      "best_prefix": {
+        "mask": 2,
+        "row": "010",
+        "L_prefix": 5,
+        "pattern": "110",
+        "L_run": 11,
+        "factor": "11011"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 20,
+      "best": {
+        "mask": 2,
+        "row": "010",
+        "L": 11,
+        "start": 106,
+        "end": 117,
+        "prefix": 5,
+        "suffix": 5,
+        "pattern": "101",
+        "necklace": "011",
+        "L_001": 7,
+        "L_011": 11,
+        "stored_L": 11,
+        "stored_pattern": "101",
+        "factor": "01101101101",
+        "factor_len": 11,
+        "ext_tcap": 544,
+        "ext_L": 11,
+        "ext_start": 106,
+        "ext_end": 117,
+        "ext_pattern": "101",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.0003
+    },
+    {
+      "w": 2,
+      "n_nonzero": 31,
+      "tcap": 144,
+      "L_run": 12,
+      "L3": 12,
+      "L_prefix": 6,
+      "L_suffix": 5,
+      "L_001": 12,
+      "L_011": 12,
+      "max_run_end": 125,
+      "n_at_Lrun": 2,
+      "best_prefix": {
+        "mask": 18,
+        "row": "01001",
+        "L_prefix": 6,
+        "pattern": "010",
+        "L_run": 12,
+        "factor": "010010"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 24,
+      "best": {
+        "mask": 17,
+        "row": "10001",
+        "L": 12,
+        "start": 108,
+        "end": 120,
+        "prefix": 2,
+        "suffix": 2,
+        "pattern": "100",
+        "necklace": "001",
+        "L_001": 12,
+        "L_011": 9,
+        "stored_L": 12,
+        "stored_pattern": "100",
+        "factor": "100100100100",
+        "factor_len": 12,
+        "ext_tcap": 576,
+        "ext_L": 14,
+        "ext_start": 148,
+        "ext_end": 162,
+        "ext_pattern": "011",
+        "ext_grew": true,
+        "ext_same_run": false,
+        "ext_same_run_grew": false,
+        "ext_new_burst": true,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.0014
+    },
+    {
+      "w": 3,
+      "n_nonzero": 127,
+      "tcap": 152,
+      "L_run": 12,
+      "L3": 12,
+      "L_prefix": 10,
+      "L_suffix": 11,
+      "L_001": 12,
+      "L_011": 12,
+      "max_run_end": 152,
+      "n_at_Lrun": 9,
+      "best_prefix": {
+        "mask": 114,
+        "row": "0100111",
+        "L_prefix": 10,
+        "pattern": "010",
+        "L_run": 10,
+        "factor": "0100100100"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 28,
+      "best": {
+        "mask": 34,
+        "row": "0100010",
+        "L": 12,
+        "start": 108,
+        "end": 120,
+        "prefix": 2,
+        "suffix": 4,
+        "pattern": "100",
+        "necklace": "001",
+        "L_001": 12,
+        "L_011": 9,
+        "stored_L": 12,
+        "stored_pattern": "100",
+        "factor": "100100100100",
+        "factor_len": 12,
+        "ext_tcap": 608,
+        "ext_L": 14,
+        "ext_start": 148,
+        "ext_end": 162,
+        "ext_pattern": "011",
+        "ext_grew": true,
+        "ext_same_run": false,
+        "ext_same_run_grew": false,
+        "ext_new_burst": true,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.0054
+    },
+    {
+      "w": 4,
+      "n_nonzero": 511,
+      "tcap": 160,
+      "L_run": 17,
+      "L3": 17,
+      "L_prefix": 10,
+      "L_suffix": 14,
+      "L_001": 14,
+      "L_011": 17,
+      "max_run_end": 160,
+      "n_at_Lrun": 4,
+      "best_prefix": {
+        "mask": 228,
+        "row": "001001110",
+        "L_prefix": 10,
+        "pattern": "010",
+        "L_run": 10,
+        "factor": "0100100100"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 32,
+      "best": {
+        "mask": 37,
+        "row": "101001000",
+        "L": 17,
+        "start": 94,
+        "end": 111,
+        "prefix": 5,
+        "suffix": 3,
+        "pattern": "110",
+        "necklace": "011",
+        "L_001": 7,
+        "L_011": 17,
+        "stored_L": 17,
+        "stored_pattern": "110",
+        "factor": "10110110110110110",
+        "factor_len": 17,
+        "ext_tcap": 640,
+        "ext_L": 17,
+        "ext_start": 94,
+        "ext_end": 111,
+        "ext_pattern": "110",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.0228
+    },
+    {
+      "w": 5,
+      "n_nonzero": 2047,
+      "tcap": 168,
+      "L_run": 18,
+      "L3": 18,
+      "L_prefix": 10,
+      "L_suffix": 12,
+      "L_001": 16,
+      "L_011": 18,
+      "max_run_end": 168,
+      "n_at_Lrun": 2,
+      "best_prefix": {
+        "mask": 249,
+        "row": "10011111000",
+        "L_prefix": 10,
+        "pattern": "100",
+        "L_run": 10,
+        "factor": "1001001001"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 36,
+      "best": {
+        "mask": 975,
+        "row": "11110011110",
+        "L": 18,
+        "start": 121,
+        "end": 139,
+        "prefix": 3,
+        "suffix": 3,
+        "pattern": "011",
+        "necklace": "011",
+        "L_001": 8,
+        "L_011": 18,
+        "stored_L": 18,
+        "stored_pattern": "011",
+        "factor": "110110110110110110",
+        "factor_len": 18,
+        "ext_tcap": 672,
+        "ext_L": 18,
+        "ext_start": 121,
+        "ext_end": 139,
+        "ext_pattern": "011",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.0968
+    },
+    {
+      "w": 6,
+      "n_nonzero": 8191,
+      "tcap": 176,
+      "L_run": 20,
+      "L3": 20,
+      "L_prefix": 14,
+      "L_suffix": 14,
+      "L_001": 17,
+      "L_011": 20,
+      "max_run_end": 176,
+      "n_at_Lrun": 1,
+      "best_prefix": {
+        "mask": 289,
+        "row": "1000010010000",
+        "L_prefix": 14,
+        "pattern": "010",
+        "L_run": 14,
+        "factor": "01001001001001"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 40,
+      "best": {
+        "mask": 4119,
+        "row": "1110100000001",
+        "L": 20,
+        "start": 124,
+        "end": 144,
+        "prefix": 3,
+        "suffix": 3,
+        "pattern": "101",
+        "necklace": "011",
+        "L_001": 9,
+        "L_011": 20,
+        "stored_L": 20,
+        "stored_pattern": "101",
+        "factor": "01101101101101101101",
+        "factor_len": 20,
+        "ext_tcap": 704,
+        "ext_L": 20,
+        "ext_start": 124,
+        "ext_end": 144,
+        "ext_pattern": "101",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 0.4057
+    },
+    {
+      "w": 7,
+      "n_nonzero": 32767,
+      "tcap": 184,
+      "L_run": 20,
+      "L3": 20,
+      "L_prefix": 14,
+      "L_suffix": 18,
+      "L_001": 19,
+      "L_011": 20,
+      "max_run_end": 184,
+      "n_at_Lrun": 4,
+      "best_prefix": {
+        "mask": 578,
+        "row": "010000100100000",
+        "L_prefix": 14,
+        "pattern": "010",
+        "L_run": 14,
+        "factor": "01001001001001"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 44,
+      "best": {
+        "mask": 8238,
+        "row": "011101000000010",
+        "L": 20,
+        "start": 124,
+        "end": 144,
+        "prefix": 3,
+        "suffix": 4,
+        "pattern": "101",
+        "necklace": "011",
+        "L_001": 9,
+        "L_011": 20,
+        "stored_L": 20,
+        "stored_pattern": "101",
+        "factor": "01101101101101101101",
+        "factor_len": 20,
+        "ext_tcap": 736,
+        "ext_L": 20,
+        "ext_start": 124,
+        "ext_end": 144,
+        "ext_pattern": "101",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 1.6907
+    },
+    {
+      "w": 8,
+      "n_nonzero": 131071,
+      "tcap": 192,
+      "L_run": 22,
+      "L3": 22,
+      "L_prefix": 17,
+      "L_suffix": 19,
+      "L_001": 21,
+      "L_011": 22,
+      "max_run_end": 192,
+      "n_at_Lrun": 3,
+      "best_prefix": {
+        "mask": 28921,
+        "row": "10011111000011100",
+        "L_prefix": 17,
+        "pattern": "011",
+        "L_run": 17,
+        "factor": "01101101101101101"
+      },
+      "n_cap_survivors": 0,
+      "n_L_gt_4w16": 0,
+      "bound_4w16": 48,
+      "best": {
+        "mask": 30829,
+        "row": "10110110000111100",
+        "L": 22,
+        "start": 25,
+        "end": 47,
+        "prefix": 4,
+        "suffix": 3,
+        "pattern": "110",
+        "necklace": "011",
+        "L_001": 12,
+        "L_011": 22,
+        "stored_L": 22,
+        "stored_pattern": "110",
+        "factor": "1011011011011011011011",
+        "factor_len": 22,
+        "ext_tcap": 768,
+        "ext_L": 22,
+        "ext_start": 25,
+        "ext_end": 47,
+        "ext_pattern": "110",
+        "ext_grew": false,
+        "ext_same_run": true,
+        "ext_same_run_grew": false,
+        "ext_new_burst": false,
+        "ext_eventual": false
+      },
+      "elapsed_sec": 7.1449
+    }
+  ],
+  "plateau": {
+    "max_L3": 22,
+    "plateau": false,
+    "plateau_at_global_max": false,
+    "still_growing_at_wmax": true,
+    "w_at_max": [
+      8
+    ],
+    "plateau_lo": 8,
+    "plateau_hi": 8,
+    "final_constant_lo": 8,
+    "final_constant_hi": 8,
+    "final_constant_L": 22,
+    "L3_table": [
+      11,
+      11,
+      12,
+      12,
+      17,
+      18,
+      20,
+      20,
+      22
+    ]
+  },
+  "cap_survivors": [
+    {
+      "w": 7,
+      "mask": 1126,
+      "tcap": 184,
+      "eventual_in_cap": false,
+      "L_at_tcap": 17,
+      "suffix": 17,
+      "last_break": 167,
+      "pattern": "110",
+      "ext": 736,
+      "L_ext": 19,
+      "suffix_ext": 3,
+      "last_break_ext": 733,
+      "reaches_ext": false
+    }
+  ],
+  "genuine_eventual_witnesses": [],
+  "fit_L_run": {
+    "C": 1.55,
+    "Cprime": 9.688888888888888,
+    "max_residual": 1.3111111111111118,
+    "min_residual": -2.3388888888888886,
+    "note": "least-squares L3 ~ C*w+C' is a summary only; the table is the actual finite statement"
+  },
+  "fit_L_prefix": {
+    "C": 1.5166666666666666,
+    "Cprime": 4.044444444444445
+  },
+  "exclusion_table": {
+    "f_w": "L3(w)=L_run(w); an exact period-3 centre run of a radius-w row lasts at most L3(w) steps inside tcap=8w+128",
+    "L3": [
+      {
+        "w": 0,
+        "L": 11,
+        "tcap": 128
+      },
+      {
+        "w": 1,
+        "L": 11,
+        "tcap": 136
+      },
+      {
+        "w": 2,
+        "L": 12,
+        "tcap": 144
+      },
+      {
+        "w": 3,
+        "L": 12,
+        "tcap": 152
+      },
+      {
+        "w": 4,
+        "L": 17,
+        "tcap": 160
+      },
+      {
+        "w": 5,
+        "L": 18,
+        "tcap": 168
+      },
+      {
+        "w": 6,
+        "L": 20,
+        "tcap": 176
+      },
+      {
+        "w": 7,
+        "L": 20,
+        "tcap": 184
+      },
+      {
+        "w": 8,
+        "L": 22,
+        "tcap": 192
+      }
+    ],
+    "L_run": [
+      {
+        "w": 0,
+        "L": 11,
+        "tcap": 128
+      },
+      {
+        "w": 1,
+        "L": 11,
+        "tcap": 136
+      },
+      {
+        "w": 2,
+        "L": 12,
+        "tcap": 144
+      },
+      {
+        "w": 3,
+        "L": 12,
+        "tcap": 152
+      },
+      {
+        "w": 4,
+        "L": 17,
+        "tcap": 160
+      },
+      {
+        "w": 5,
+        "L": 18,
+        "tcap": 168
+      },
+      {
+        "w": 6,
+        "L": 20,
+        "tcap": 176
+      },
+      {
+        "w": 7,
+        "L": 20,
+        "tcap": 184
+      },
+      {
+        "w": 8,
+        "L": 22,
+        "tcap": 192
+      }
+    ],
+    "L_prefix": [
+      {
+        "w": 0,
+        "L": 5
+      },
+      {
+        "w": 1,
+        "L": 5
+      },
+      {
+        "w": 2,
+        "L": 6
+      },
+      {
+        "w": 3,
+        "L": 10
+      },
+      {
+        "w": 4,
+        "L": 10
+      },
+      {
+        "w": 5,
+        "L": 10
+      },
+      {
+        "w": 6,
+        "L": 14
+      },
+      {
+        "w": 7,
+        "L": 14
+      },
+      {
+        "w": 8,
+        "L": 17
+      }
+    ],
+    "L_001": [
+      {
+        "w": 0,
+        "L": 7
+      },
+      {
+        "w": 1,
+        "L": 7
+      },
+      {
+        "w": 2,
+        "L": 12
+      },
+      {
+        "w": 3,
+        "L": 12
+      },
+      {
+        "w": 4,
+        "L": 14
+      },
+      {
+        "w": 5,
+        "L": 16
+      },
+      {
+        "w": 6,
+        "L": 17
+      },
+      {
+        "w": 7,
+        "L": 19
+      },
+      {
+        "w": 8,
+        "L": 21
+      }
+    ],
+    "L_011": [
+      {
+        "w": 0,
+        "L": 11
+      },
+      {
+        "w": 1,
+        "L": 11
+      },
+      {
+        "w": 2,
+        "L": 12
+      },
+      {
+        "w": 3,
+        "L": 12
+      },
+      {
+        "w": 4,
+        "L": 17
+      },
+      {
+        "w": 5,
+        "L": 18
+      },
+      {
+        "w": 6,
+        "L": 20
+      },
+      {
+        "w": 7,
+        "L": 20
+      },
+      {
+        "w": 8,
+        "L": 22
+      }
+    ],
+    "n_L_gt_4w16": 0,
+    "n_eventual_in_cap": 0,
+    "n_genuine_eventual": 0
+  },
+  "log": [
+    "checks all_ok=True",
+    "exhaustive w=0 n=1 tcap=128 L3=11 L_prefix=5 L_suffix=2 L_001=7 L_011=11 n_at_max=1 reach=0 L>4w+16=0 0.000s",
+    "exhaustive w=1 n=7 tcap=136 L3=11 L_prefix=5 L_suffix=5 L_001=7 L_011=11 n_at_max=3 reach=0 L>4w+16=0 0.000s",
+    "exhaustive w=2 n=31 tcap=144 L3=12 L_prefix=6 L_suffix=5 L_001=12 L_011=12 n_at_max=2 reach=0 L>4w+16=0 0.001s",
+    "exhaustive w=3 n=127 tcap=152 L3=12 L_prefix=10 L_suffix=11 L_001=12 L_011=12 n_at_max=9 reach=0 L>4w+16=0 0.005s",
+    "exhaustive w=4 n=511 tcap=160 L3=17 L_prefix=10 L_suffix=14 L_001=14 L_011=17 n_at_max=4 reach=0 L>4w+16=0 0.023s",
+    "exhaustive w=5 n=2047 tcap=168 L3=18 L_prefix=10 L_suffix=12 L_001=16 L_011=18 n_at_max=2 reach=0 L>4w+16=0 0.097s",
+    "exhaustive w=6 n=8191 tcap=176 L3=20 L_prefix=14 L_suffix=14 L_001=17 L_011=20 n_at_max=1 reach=0 L>4w+16=0 0.406s",
+    "exhaustive w=7 n=32767 tcap=184 L3=20 L_prefix=14 L_suffix=18 L_001=19 L_011=20 n_at_max=4 reach=0 L>4w+16=0 1.691s",
+    "exhaustive w=8 n=131071 tcap=192 L3=22 L_prefix=17 L_suffix=19 L_001=21 L_011=22 n_at_max=3 reach=0 L>4w+16=0 7.145s"
+  ]
+}

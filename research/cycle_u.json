@@ -1,0 +1,177 @@
+{
+  "cycle": "U",
+  "wall_s": 3.985,
+  "checks": {
+    "all_ok": true,
+    "known20": true
+  },
+  "de_bruijn": {
+    "N": 262144,
+    "complete_through": 14,
+    "rows": [
+      {
+        "n": 1,
+        "n_missing": 0,
+        "p_max": 2,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 2,
+        "n_missing": 0,
+        "p_max": 4,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 3,
+        "n_missing": 0,
+        "p_max": 8,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 4,
+        "n_missing": 0,
+        "p_max": 16,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 5,
+        "n_missing": 0,
+        "p_max": 32,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 6,
+        "n_missing": 0,
+        "p_max": 64,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 7,
+        "n_missing": 0,
+        "p_max": 128,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 8,
+        "n_missing": 0,
+        "p_max": 256,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 9,
+        "n_missing": 0,
+        "p_max": 512,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 10,
+        "n_missing": 0,
+        "p_max": 1024,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 11,
+        "n_missing": 0,
+        "p_max": 2048,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 12,
+        "n_missing": 0,
+        "p_max": 4096,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 13,
+        "n_missing": 0,
+        "p_max": 8192,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 14,
+        "n_missing": 0,
+        "p_max": 16384,
+        "complete": true,
+        "missing_head": []
+      },
+      {
+        "n": 15,
+        "n_missing": 12,
+        "p_max": 32768,
+        "complete": false,
+        "missing_head": [
+          "000011100001111",
+          "001000001111001",
+          "001011110011100",
+          "001110010011010",
+          "010011001000000",
+          "010011011001000",
+          "010110010100101",
+          "011110000011010"
+        ]
+      },
+      {
+        "n": 16,
+        "n_missing": 1253,
+        "p_max": 65536,
+        "complete": false,
+        "missing_head": [
+          "0000000000011011",
+          "0000000000111011",
+          "0000000001000110",
+          "0000000010100001",
+          "0000000010111011",
+          "0000000011010011",
+          "0000000101000011",
+          "0000000101110111"
+        ]
+      }
+    ],
+    "period_lower_bound": 16384
+  },
+  "kernel_formulas": {
+    "formulas": {
+      "i=0": {
+        "fail_k": 1,
+        "killed": true
+      },
+      "i=1": {
+        "fail_k": 2,
+        "killed": true
+      },
+      "v2": {
+        "fail_k": 1,
+        "killed": true
+      },
+      "popcount": {
+        "fail_k": 2,
+        "killed": true
+      },
+      "k-1": {
+        "fail_k": 1,
+        "killed": true
+      }
+    },
+    "kill": true
+  },
+  "verdict": {
+    "de_bruijn_complete_through": 14,
+    "period_lower_bound": 16384,
+    "kernel_formulas": "KILLED",
+    "disjunctive": "NOT_PROVED",
+    "prize": "unsolved"
+  }
+}

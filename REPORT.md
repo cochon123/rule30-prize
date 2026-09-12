@@ -294,7 +294,215 @@ algebraic equation for the centre real.
 [noise_susceptibility.md](research/noise_susceptibility.md),
 [coarse_bias.md](research/coarse_bias.md),
 [algebraic_bitstream.md](research/algebraic_bitstream.md).
+The leftover CFG parse-parity attack is recorded in Cycle I.
 The prize is still open.
+
+## Cycle I (ideas8, 2026-09-10)
+
+The leftover Chomsky parse-parity freeze is unsatisfiable: no grammar
+with four nonterminals and at most eight binary productions realises
+\(c_n\) as the GF(2) parse count of \(\operatorname{bin}(n)\) on
+\(n=1,\ldots,1023\).
+[cfg_parse_parity.md](research/cfg_parse_parity.md).
+
+A Condrey-style unique-left reconstruction at period 2 yields a
+**finite theorem**, not a prize claim: every nonzero row of support
+radius \(w\le 10\) has every period-2 centre run of length at most 24
+inside \(tcap=8w+128\). The reconstructed left is infinite in the scan
+but has no closed form, so this is not a uniform exclusion.
+[period2_fiber.md](research/period2_fiber.md).
+
+The 2-kernel of \(c\) is full through depth 12 on length-128 prefixes
+(\(|K|\ge 4096\)); that is not an infinite-kernel proof. XOR-recodings
+(first difference, \(t\bmod 2\), paperfolding, Laplacian, Thue–Morse)
+all still have \(L(N)\approx N/2\). Packed-row OR-overlaps stay at
+density \(\approx 1/2\). Left-permutivity forbids coalescence inside
+the light cone. Residue-class discrepancies that vanish at \(N=10^5\)
+fail on dyadic lengths.
+[two_kernel.md](research/two_kernel.md),
+[xor_transform.md](research/xor_transform.md),
+[packed_valuation.md](research/packed_valuation.md),
+[coalescence.md](research/coalescence.md),
+[residue_discrepancy.md](research/residue_discrepancy.md).
+The prize is still open.
+
+## Cycle J (ideas9, 2026-09-10)
+
+The constant \(L_{\mathrm{run}}\le 24\) dies at radius 11: mask
+\(4369552\) has a period-2 centre burst of length 29 that survives
+doubling the time cap. Cycle I’s statement for \(w\le 10\) *inside*
+\(tcap=8w+128\) is unchanged; even at radius 10 a longer window
+reveals a length-25 burst truncated by that cap.
+[period2_lrun.md](research/period2_lrun.md).
+
+Period-3 and isolated-zero period-9 finite-row scans have no eventual
+witness, but \(L_3(w)\) and \(L_{\mathrm{iso}}(w)\) still grow through
+the scanned radii, so they do not inherit a period-2-style plateau.
+Short \(d\le 3\) matrix traces over \(\mathbb F_2\) and \(\mathbb F_3\)
+are unsat on \(t=1,\ldots,255\).
+[period3_fiber.md](research/period3_fiber.md),
+[period9_fiber.md](research/period9_fiber.md),
+[trace_product.md](research/trace_product.md).
+The prize is still open.
+
+## Cycle K (ideas10, 2026-09-11)
+
+Concatenating Cycle J maximizers never exceeds length 29. A different
+radius-17 row (mask \(281769\)) has a period-2 centre burst of length
+31 that Cycle J’s shorter cap misses. That kills the constant 29, not
+eventual period 2, and is not an unbounded family.
+[period2_lrun_family.md](research/period2_lrun_family.md).
+
+Period-5 finite-row runs still grow at radius 7; period 4 only plateaus
+at the scan edge. Defects that break alternation have density \(\approx 1/2\)
+and \(L(N)\approx N/2\), so they carry \(D(N)\). Cheap summaries of the
+packed row do not determine the next centre bit.
+[period45_fiber.md](research/period45_fiber.md),
+[period2_defects.md](research/period2_defects.md),
+[stream_nextbit.md](research/stream_nextbit.md).
+The prize is still open.
+
+## Cycle L (ideas11, 2026-09-11)
+
+A complete-up-to-translation census of Hamming weight \(\le 8\) and
+span \(\le 24\) (35 million placements, long cap) has max period-2
+centre run 35. Every recorded run of length \(\ge 32\) has the origin
+outside the live hull; origin-in-hull still maxes at 31 on that dump.
+No run of length 40, and span is not strictly increasing.
+[period2_weight8.md](research/period2_weight8.md).
+
+Periods 6 and 7 still grow at radius 6. A period-2 centre does not
+force any locally illegal \(3\times 3\) or \(4\times 4\) block: the
+residual strip SCC is nonempty.
+[period67_fiber.md](research/period67_fiber.md),
+[forbidden_periodic.md](research/forbidden_periodic.md).
+The prize is still open.
+
+## Cycle M (ideas12, 2026-09-11)
+
+Restricted to origin-in-hull placements, every Hamming-weight-\(\le 8\)
+span-\(\le 24\) row has period-2 centre run length at most 31 (12 million
+placements; maximizer still mask \(281769\)). Off-hull length-35 rows
+are excluded by construction. This is a finite theorem for that class,
+not a uniform exclusion of eventual period 2: a later prize-seed row
+has weight \(\Theta(T)\) and span \(2T\).
+[period2_hull.md](research/period2_hull.md).
+
+Fixing the leftmost 1 at \(-w\) (the prize light-cone edge) does not
+cut the bursts: the short-cap table matches unrestricted Cycle I, and
+a long cap still grows (\(L=24,25,27\) at \(w=8,9,10\)).
+[period2_leftbit.md](research/period2_leftbit.md).
+The prize is still open.
+
+## Cycle N (ideas13, 2026-09-11)
+
+Origin-in-hull weights 9 and 10, span \(\le 20\), still have
+\(L_{\mathrm{run}}\le 31\) (5.8 million placements). The maximizer is
+mask \(806057\): Cycle M’s eight-one row plus a ninth 1 at \(+2\), same
+burst \(t=320\ldots351\). Not a uniform exclusion.
+[period2_hull910.md](research/period2_hull910.md).
+The prize is still open.
+
+Defects that carry \(D(N)\) are not a width-\(\le 8\) CA on the prize
+seed: \(d_{t+1}\) is a Boolean of \((c_t,l_t,r_t)\), which is the
+original radius-1 slice and does not close on the centre column.
+[defect_recurrence.md](research/defect_recurrence.md).
+
+## Cycle O (ideas14, 2026-09-11)
+
+The unique left of a period-2 centre is the `L_0` problem at time 0:
+no bypass via a Condrey-style closed form, and vacuum `u` is not
+eventually period 7 (the `(0001010)` run breaks at even-time index
+152). The `R≥4` identity that sends a long `L_0` to an `011` bump
+under `S` is algebraic; the bump does not decrease Hamming weight or
+last-1, and it hits `F_4=0` only for `T∈{2,3}`. Sound onsets `T=33,34`
+die with `maxR=14,12`. Worst remains `T=20`, `R=16`.
+[period2_germ.md](research/period2_germ.md).
+The prize is still open.
+
+## Cycle P (ideas14 items 2–3, 2026-09-11)
+
+While a period-2 centre is in phase `01`, the even right neighbor `u`
+has no five consecutive zeros. The pair `(e,f)` while `u=0` walks an
+acyclic four-state graph whose unique longest path is
+`11→01→10→00`, independent of the right half past column 5. Together
+with no consecutive 1s this is the SFT forbidding `{11,00000}`. The
+`T=20` onset with `R=16` already lies in that SFT, so period 2 is not
+excluded. `F^2` is lag-2 permutive and not lag-1, so Kopra width 1 for
+the even lattice is false.
+[period2_ugap.md](research/period2_ugap.md).
+The prize is still open.
+
+## Cycle Q (ideas14 items 1, remainder of 2, and 5; 2026-09-11)
+
+Morse–Hedlund rigidity of long `L_0` germs is false: last-sat words at
+`T=20` and `T=22` have `p(n)>n` through half their length, so a long
+zero run in `F` does not force a periodic `u`-tail. Free `(g,h)`
+realises every length-8 word of the gap-4 SFT `X`; realizable `u` is
+exactly `X`, not a proper subshift. Three of the six `T=20`, `R=16`
+models lie in `X` and still die only at `F_37`. Driven isolated-zero
+`q=8` does not force `σ` eventually periodic (35 mixers among 63
+rights of width `≤5`).
+[cycle_q.md](research/cycle_q.md).
+The prize is still open.
+
+## Cycle R (2026-09-11)
+
+The even-decimation disagreement \(d(k)=\min\{n\ge 1:c_n\ne c_{n 2^k}\}\)
+is not injective, so \(\{v_k=(c_{2^k n})\}\) is not an infinite 2-kernel
+family by this route. The unique left of a period-2 centre, applied to
+the prize row at time \(T\), does not miss the left light-cone edge
+uniformly (predicted \(x(T,-T)=0\) for only 92 of 192 onsets).
+[cycle_r.md](research/cycle_r.md).
+
+Problem 2 has an exact rewrite: writing \(N_{11}\) and \(N_{00}\) for
+the consecutive equal-bit pair counts,
+
+\[
+D(N)=N_{11}-N_{00}+c_{N-1}.
+\]
+
+Unsigned defect density \(\approx 1/2\) (Cycle K) therefore does not
+kill density \(1/2\): only signed cancellation of \(11\) against \(00\)
+is required. Adjacent \(1\)-run and \(0\)-run lengths are equal only
+\(33.5\%\) of the time, so a local pairing fails. The prize is still
+open.
+
+## Cycle S (2026-09-11)
+
+The lag-2 inverse of \(F^2\) is not a Condrey fiber: it determines
+only column \(-2\), and on phase `01` that bit is the even right
+neighbor \(u\) (already `fold_bit`). Spatial windows of radius
+\(\le 8\) about a \(11\) do not determine the displacement to the
+next \(00\). A width-8 right-edge word at time \(\lfloor t/2\rfloor\)
+does not force an odd-time \(11\) at \(t\).
+[cycle_s.md](research/cycle_s.md).
+The prize is still open.
+
+## Cycle T (2026-09-11)
+
+Isolated-one words \(10^q\) do not acquire a Jen-forced neighbor at
+radius 6 for any \(q\le 17\). The integer identity
+\(e_t=c_t+c_{t+1}-1\) is \(1_{11}-1_{00}\) and recovers \(D(N)\); it is
+not a packed-row current. First disagreement against residue 0 is not
+an injective fingerprint of the other \(2^k-1\) kernel columns
+(\(k=3\)).
+[cycle_t.md](research/cycle_t.md).
+The prize is still open.
+
+## Cycle U (2026-09-11)
+
+Every binary word of length \(\le 14\) is a factor of the centre
+(witness: prefix \(2^{18}\)). An eventual period would therefore
+satisfy \(T+p\ge 16384\). Twelve length-15 words are missing from that
+prefix, so the language is not yet certified as the full 2-shift.
+Predicted 2-kernel disagreement indices
+(\(i=0,1,v_2(s-r),\mathrm{popcount}(r\oplus s),k-1\)) all fail.
+[cycle_u.md](research/cycle_u.md).
+The prize is still open.
+
+
+
 
 
 

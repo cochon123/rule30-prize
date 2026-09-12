@@ -1,0 +1,75 @@
+{
+  "attack": "coalescence / coupling from the past",
+  "prize_prefix_ok": true,
+  "left_flip": {
+    "w_max": 48,
+    "all_ok": true,
+    "sample": [
+      {
+        "W": 0,
+        "first_disagreement": 1,
+        "predicted": 1,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 1,
+        "first_disagreement": 2,
+        "predicted": 2,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 2,
+        "first_disagreement": 3,
+        "predicted": 3,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 3,
+        "first_disagreement": 4,
+        "predicted": 4,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 4,
+        "first_disagreement": 5,
+        "predicted": 5,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 46,
+        "first_disagreement": 47,
+        "predicted": 47,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 47,
+        "first_disagreement": 48,
+        "predicted": 48,
+        "ok": true,
+        "agree_through_W": true
+      },
+      {
+        "W": 48,
+        "first_disagreement": 49,
+        "predicted": 49,
+        "ok": true,
+        "agree_through_W": true
+      }
+    ]
+  },
+  "right_flip": {
+    "w_max": 48,
+    "never_before_cone": true,
+    "times_centre_flipped": 4
+  },
+  "kill": true,
+  "kill_reason": "Left-permutivity: a disagreement at -W-1 always flips c_{W+1} and never any earlier centre bit. Seeds agreeing on [-W,W] are coupled only up to the cone; they do not coalesce inside it. Route killed.",
+  "elapsed_sec": 0.042080975999851944,
+  "not_a_prize_claim": true
+}
