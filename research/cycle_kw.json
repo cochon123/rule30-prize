@@ -1,0 +1,354 @@
+{
+  "cycle": "KW",
+  "wall_s": 0.14,
+  "checks": {
+    "all_ok": true
+  },
+  "clip_lr_table": {
+    "n_ok": 29,
+    "rows": {
+      "0": {
+        "q6": [],
+        "q10": [
+          {
+            "n": 3,
+            "lr": [
+              0,
+              1
+            ]
+          }
+        ]
+      },
+      "1": {
+        "q6": [],
+        "q10": [
+          {
+            "n": 7,
+            "lr": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "2": {
+        "q6": [
+          {
+            "n": 7,
+            "lr": [
+              1,
+              1
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 11,
+            "lr": [
+              1,
+              1
+            ]
+          },
+          {
+            "n": 15,
+            "lr": [
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "3": {
+        "q6": [
+          {
+            "n": 15,
+            "lr": [
+              2,
+              2
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 23,
+            "lr": [
+              2,
+              2
+            ]
+          },
+          {
+            "n": 31,
+            "lr": [
+              7,
+              8
+            ]
+          }
+        ]
+      },
+      "4": {
+        "q6": [
+          {
+            "n": 31,
+            "lr": [
+              5,
+              5
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 47,
+            "lr": [
+              5,
+              5
+            ]
+          },
+          {
+            "n": 63,
+            "lr": [
+              15,
+              16
+            ]
+          }
+        ]
+      },
+      "5": {
+        "q6": [
+          {
+            "n": 63,
+            "lr": [
+              10,
+              10
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 95,
+            "lr": [
+              10,
+              10
+            ]
+          },
+          {
+            "n": 127,
+            "lr": [
+              31,
+              32
+            ]
+          }
+        ]
+      },
+      "6": {
+        "q6": [
+          {
+            "n": 127,
+            "lr": [
+              21,
+              21
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 191,
+            "lr": [
+              21,
+              21
+            ]
+          },
+          {
+            "n": 255,
+            "lr": [
+              63,
+              64
+            ]
+          }
+        ]
+      },
+      "7": {
+        "q6": [
+          {
+            "n": 255,
+            "lr": [
+              42,
+              42
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 383,
+            "lr": [
+              42,
+              42
+            ]
+          },
+          {
+            "n": 511,
+            "lr": [
+              127,
+              128
+            ]
+          }
+        ]
+      },
+      "8": {
+        "q6": [
+          {
+            "n": 511,
+            "lr": [
+              85,
+              85
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 767,
+            "lr": [
+              85,
+              85
+            ]
+          },
+          {
+            "n": 1023,
+            "lr": [
+              255,
+              256
+            ]
+          }
+        ]
+      },
+      "9": {
+        "q6": [
+          {
+            "n": 1023,
+            "lr": [
+              170,
+              170
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 1535,
+            "lr": [
+              170,
+              170
+            ]
+          },
+          {
+            "n": 2047,
+            "lr": [
+              511,
+              512
+            ]
+          }
+        ]
+      },
+      "10": {
+        "q6": [
+          {
+            "n": 2047,
+            "lr": [
+              341,
+              341
+            ]
+          }
+        ],
+        "q10": [
+          {
+            "n": 3071,
+            "lr": [
+              341,
+              341
+            ]
+          },
+          {
+            "n": 4095,
+            "lr": [
+              1023,
+              1024
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_mer10_bal": {
+    "k": 0,
+    "q": 10,
+    "n": 3,
+    "lr": [
+      0,
+      1
+    ]
+  },
+  "killed_extra_left": {
+    "k": 0,
+    "q": 10,
+    "n": 3,
+    "lr": [
+      0,
+      1
+    ]
+  },
+  "killed_q6_unbal": {
+    "k": 2,
+    "q": 6,
+    "n": 7,
+    "lr": [
+      1,
+      1
+    ]
+  },
+  "killed_tri_extra": {
+    "k": 2,
+    "q": 10,
+    "n": 11,
+    "lr": [
+      1,
+      1
+    ]
+  },
+  "lemmas": {
+    "family_clip_lr": true,
+    "family_clip_iso2": true,
+    "family_clip_g4": true,
+    "mer10_balanced": false,
+    "extra_is_left": false,
+    "q6_unbalanced": false,
+    "tri_extra_right": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "family_clip_lr": "LEMMA",
+    "family_clip_iso2": "LEMMA",
+    "family_clip_g4": "LEMMA",
+    "mer10_balanced": "KILLED",
+    "extra_is_left": "KILLED",
+    "q6_unbalanced": "KILLED",
+    "tri_extra_right": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
