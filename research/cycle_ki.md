@@ -17,7 +17,7 @@ Not a prize claim: this is the freshman mechanism for Cycle KH's
 even pair count, not the packed AND XOR \(J\), so covering
 never-fail stays open.
 
-Certify: `python3 research/cycle_ki.py --certify`.
+Certify: `python3 research/cycle_ki.py --certify` (~0.17s).
 Dump: `research/cycle_ki.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/IP/KH (\(m<128\); covering \(k\le 6\); no Fermat table, no
