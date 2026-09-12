@@ -14,7 +14,7 @@ Not a prize claim: a 4-row both-AND table plus a local AND
 obstruction does not give a closed form along Green ones, so
 covering never-fail stays open.
 
-Helper: `BOTH_AND`. Certify: `python3 research/cycle_hn.py --certify`.
+Helper: `BOTH_AND`. Certify: `python3 research/cycle_hn.py --certify` (~0.14s).
 Dump: `research/cycle_hn.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles AL/CA/GU/HF/HG/HH/HM
 (64-row table; covering \(k\le 6\); no Fermat table, no extra window,
