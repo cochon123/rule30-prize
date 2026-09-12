@@ -1,0 +1,227 @@
+{
+  "cycle": "KB",
+  "wall_s": 0.107,
+  "checks": {
+    "all_ok": true
+  },
+  "die_g4_table": {
+    "n_g1": {
+      "0110": 371,
+      "0111": 461,
+      "1010": 141,
+      "1011": 371
+    },
+    "n_iso": 461,
+    "n_tot": 1344
+  },
+  "die_g1_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_die": 1167,
+    "n_die_g0": 3614,
+    "n_iso": 359,
+    "n_ctr": 30,
+    "n_even": 285,
+    "n_odd": 882,
+    "n_g4": {
+      "0110": 313,
+      "0111": 359,
+      "1010": 134,
+      "1011": 361
+    },
+    "n_kind": {
+      "left": 98,
+      "right": 134,
+      "iso": 263
+    },
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_die": 0,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_die": 0,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_die": 0,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_die": 1,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_die": 0,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_die": 2,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_die": 4,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_die": 16,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_die": 23,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_die": 48,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_die": 62,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_die": 182,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_die": 244,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_die": 585,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_only_g0": {
+    "k": 1,
+    "s": 17,
+    "n": 1,
+    "j": 2,
+    "p": 16,
+    "four": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "g4": [
+      0,
+      1,
+      1,
+      0
+    ]
+  },
+  "killed_only_iso": {
+    "k": 3,
+    "s": 29,
+    "n": 9,
+    "j": 16,
+    "p": 16,
+    "four": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "g4": [
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  "killed_fn_of_g4": {
+    "k": 2,
+    "s": 31,
+    "n": 4,
+    "j": 0,
+    "p": 40,
+    "four": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "g4": [
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  "lemmas": {
+    "g1_four_shapes": true,
+    "die_g1_all_shapes": true,
+    "covering_die_g1": true,
+    "only_g0": false,
+    "only_iso": false,
+    "fn_of_g4": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "g1_four_shapes": "LEMMA",
+    "die_g1_all_shapes": "LEMMA",
+    "covering_die_g1": "LEMMA",
+    "only_g0": "KILLED",
+    "only_iso": "KILLED",
+    "fn_of_g4": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

@@ -12,7 +12,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: the linear-AND extra term is still unconstrained
 by Green type, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kb.py --certify`.
+Certify: `python3 research/cycle_kb.py --certify` (~0.11s).
 Dump: `research/cycle_kb.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HU/IG/IN/IR/KA (\(n<64\); covering \(k\le 6\); no
