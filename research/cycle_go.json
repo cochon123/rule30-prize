@@ -1,0 +1,63 @@
+{
+  "cycle": "GO",
+  "wall_s": 0.019,
+  "checks": {
+    "all_ok": true
+  },
+  "all_hit_pal": {
+    "n_ok": 28665,
+    "n_hits": 84,
+    "n_pre": 48,
+    "n_values": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "killed_n_always_pow2": {
+    "k": 2,
+    "n": 3
+  },
+  "killed_raw_e_in_0_U": {
+    "k": 2,
+    "e": 14,
+    "U": 4
+  },
+  "killed_G_eq_low_past_U": {
+    "k": 2,
+    "f": 4,
+    "G_2U_minus_1": 1,
+    "G_U_minus_1": 0
+  },
+  "lemmas": {
+    "every_hit_palindromes_to_low_mersenne_mod3": true,
+    "n_values_1_through_4": true,
+    "n_always_power_of_2": false,
+    "raw_e_in_0_U": false,
+    "G_Un_minus_1_eq_G_U_minus_1_past_U": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "every_hit_palindromes_to_low_mersenne_mod3": "LEMMA",
+    "n_values_1_through_4": "LEMMA",
+    "n_always_power_of_2": "KILLED",
+    "raw_e_in_0_U": "KILLED",
+    "G_Un_minus_1_eq_G_U_minus_1_past_U": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
