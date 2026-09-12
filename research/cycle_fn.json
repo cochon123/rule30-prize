@@ -1,0 +1,96 @@
+{
+  "cycle": "FN",
+  "wall_s": 0.045,
+  "checks": {
+    "all_ok": true
+  },
+  "width": {
+    "n_flat": 8204,
+    "n_clip": 8178
+  },
+  "killed_width": {
+    "k": 2,
+    "s": 21,
+    "w": 5,
+    "flat": 7
+  },
+  "freshman": {
+    "n_ok": 156
+  },
+  "packed": {
+    "n_ok": 5,
+    "n_neq24": 2,
+    "n_last_dead": 3,
+    "rows": {
+      "2": {
+        "dR": 0,
+        "j24_6": 0,
+        "j24_10": 0,
+        "j24_18": 0,
+        "last_p10": 0
+      },
+      "3": {
+        "dR": 0,
+        "j24_6": 1,
+        "j24_10": 1,
+        "j24_18": 1,
+        "last_p10": 0
+      },
+      "4": {
+        "dR": 0,
+        "j24_6": 0,
+        "j24_10": 1,
+        "j24_18": 0,
+        "last_p10": 1
+      },
+      "5": {
+        "dR": 1,
+        "j24_6": 0,
+        "j24_10": 0,
+        "j24_18": 0,
+        "last_p10": 0
+      },
+      "6": {
+        "dR": 1,
+        "j24_6": 1,
+        "j24_10": 0,
+        "j24_18": 1,
+        "last_p10": 1
+      }
+    }
+  },
+  "lemmas": {
+    "width_2U_minus_1_on_4U_5U": true,
+    "clip_width_after_5U": true,
+    "Delta4_R_eq_band_xor": true,
+    "J_2U_4U_to_6U_eq_to_18U": true,
+    "J_2U_4U_to_6U_eq_to_10U": false,
+    "width_2U_minus_1_on_all_4U_6U": false,
+    "last_AND_p10U_always_live": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "width_2U_minus_1_on_4U_5U": "LEMMA",
+    "clip_width_after_5U": "LEMMA",
+    "Delta4_R_eq_band_xor": "LEMMA",
+    "J_2U_4U_to_6U_eq_to_18U": "LEMMA",
+    "J_2U_4U_to_6U_eq_to_10U": "KILLED",
+    "width_2U_minus_1_on_all_4U_6U": "KILLED",
+    "last_AND_p10U_always_live": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
