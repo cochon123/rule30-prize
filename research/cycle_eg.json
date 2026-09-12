@@ -1,0 +1,79 @@
+{
+  "cycle": "EG",
+  "wall_s": 3.424,
+  "checks": {
+    "all_ok": true
+  },
+  "family": {
+    "n": 16,
+    "n87468": 6,
+    "n_none": 10,
+    "hit": [
+      "00110111",
+      "01000001",
+      "01101111",
+      "10111110",
+      "11001000",
+      "11110010"
+    ],
+    "miss": [
+      "00000110",
+      "00001101",
+      "00011011",
+      "00100000",
+      "01111100",
+      "10000011",
+      "10010000",
+      "11011111",
+      "11100100",
+      "11111001"
+    ],
+    "rem87468": 34659
+  },
+  "gap": {
+    "v_rem": 16,
+    "k15_worst": 32768,
+    "prize_k15_left": 12328,
+    "rem87468": 34659,
+    "land15": {
+      "lo": 53065,
+      "hi": 53320,
+      "k_lo": 15,
+      "k_hi": 15
+    }
+  },
+  "lemmas": {
+    "all_52809_next_odd_87468_or_none_131000": true,
+    "rem87468_gt_2_15": true,
+    "k15_worst_leftover_cannot_fit_next_odd": true,
+    "prize_k15_leftover_cannot_fit_next_odd": true,
+    "threshold_rem87468_is_16": true,
+    "leftover_after_52809_empty_every_later_k": false,
+    "next_odd_after_52809_before_k16": false,
+    "n87468_closed_form": null,
+    "scar_87468_is_packed_87867_on_prize_T0": null,
+    "at_most_one_odd_all_k": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "all_52809_next_odd_87468_or_none_131000": "LEMMA",
+    "rem87468_gt_2_15": "LEMMA",
+    "k15_worst_leftover_cannot_fit_next_odd": "LEMMA",
+    "prize_k15_leftover_cannot_fit_next_odd": "LEMMA",
+    "threshold_rem87468_is_16": "LEMMA",
+    "leftover_after_52809_empty_every_later_k": "KILLED",
+    "next_odd_after_52809_before_k16": "KILLED",
+    "n87468_closed_form": "PREFIX",
+    "scar_87468_is_packed_87867_on_prize_T0": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
