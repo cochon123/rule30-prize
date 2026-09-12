@@ -15,7 +15,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: this is Green-only XOR on Cycle KT's columns, not
 packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_ku.py --certify`.
+Certify: `python3 research/cycle_ku.py --certify` (~0.14s).
 Dump: `research/cycle_ku.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/HJ/KH/KR/KT (\(k\le 10\) Green-only; covering \(k\le 6\); no
