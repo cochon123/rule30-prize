@@ -16,7 +16,7 @@ Not a prize claim: the slot formula still reads the packed 4-tuple,
 so covering never-fail stays open.
 
 Helper: `g1_green4`, `g1_and_from_slots`. Certify:
-`python3 research/cycle_ig.py --certify`.
+`python3 research/cycle_ig.py --certify` (~0.14s).
 Dump: `research/cycle_ig.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HU/IF (\(n<64\) plus 4\(\times\)16-row; covering
