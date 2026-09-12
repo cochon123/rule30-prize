@@ -15,7 +15,7 @@ Not a prize claim: avoiding lift-4 windows still leaves packed AND on
 Green pairs and triples, so covering never-fail stays open.
 
 Helper: `g_step`, `g6`, `LIFT4`. Certify:
-`python3 research/cycle_ik.py --certify`.
+`python3 research/cycle_ik.py --certify` (~0.20s).
 Dump: `research/cycle_ik.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IJ (\(n<64\); covering \(k\le 6\); no Fermat
