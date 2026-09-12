@@ -15,7 +15,7 @@ Not a prize claim: dual error slots are not a function of the primal
 slots, so a Green-only discrepancy formula stays open.
 
 Helper: `g_neigh`, `g1_green4_swap`. Certify:
-`python3 research/cycle_ih.py --certify`.
+`python3 research/cycle_ih.py --certify` (~0.13s).
 Dump: `research/cycle_ih.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/HX/IG (\(n<64\); covering \(k\le 6\); no Fermat
