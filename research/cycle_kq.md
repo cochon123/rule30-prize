@@ -14,7 +14,7 @@ to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: this is family covering parity, not packed AND
 XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kq.py --certify`.
+Certify: `python3 research/cycle_kq.py --certify` (~0.14s).
 Dump: `research/cycle_kq.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/AT/CA/HG/KH/KJ/KM/KP (\(n<256\); covering \(k\le 6\); no Fermat
