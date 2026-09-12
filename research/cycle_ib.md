@@ -16,7 +16,7 @@ Not a prize claim: the zab parity still leaves Hamming-2/3 AND xor
 never-fail stays open.
 
 Helper: `zab_parity`, `ham2_and_xor`. Certify:
-`python3 research/cycle_ib.py --certify`.
+`python3 research/cycle_ib.py --certify` (~0.11s).
 Dump: `research/cycle_ib.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HT/HU/HX/HY/IA (16-row table; covering \(k\le 6\); no
