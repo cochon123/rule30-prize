@@ -13,7 +13,7 @@ consecutive `11` to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: the palindrome fold is still not AND along Green
 ones, so covering never-fail stays open.
 
-Helper: `g_palindrome_table`. Certify: `python3 research/cycle_hw.py --certify`.
+Helper: `g_palindrome_table`. Certify: `python3 research/cycle_hw.py --certify` (~0.12s).
 Dump: `research/cycle_hw.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HU/HV (algebra \(n<64\); covering \(k\le 6\); no
