@@ -15,7 +15,7 @@ even-spine scan past \(k=18\). Do **not** bump all \(n_0=16\) past
 Not a prize claim: a \(4U\)-band plus a failed \(10U\) match on
 \([2U,4U)\) does not prove covering never-fail.
 
-Helper: `python3 research/cycle_fn.py --certify`. Dump:
+Helper: `python3 research/cycle_fn.py --certify` (~0.05s). Dump:
 `research/cycle_fn.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FH/FL/FM (packed check on \(k=2..6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
