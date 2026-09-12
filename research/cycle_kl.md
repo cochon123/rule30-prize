@@ -15,7 +15,7 @@ Not a prize claim: this identifies Cycle KK's Mersenne weights with
 Cycle AT's Jacobsthal sets, not the packed AND XOR \(J\), so covering
 never-fail stays open.
 
-Certify: `python3 research/cycle_kl.py --certify`.
+Certify: `python3 research/cycle_kl.py --certify` (~0.14s).
 Dump: `research/cycle_kl.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AT/CA/KH/KJ/KK (\(n<256\), \(L\le 10\); covering \(k\le 6\); no
