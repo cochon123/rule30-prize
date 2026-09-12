@@ -1,0 +1,100 @@
+{
+  "cycle": "EV",
+  "wall_s": 0.073,
+  "checks": {
+    "all_ok": true
+  },
+  "otype_00": {
+    "n_alt": 12,
+    "n_even_00": 5460
+  },
+  "run": {
+    "n_match": 1364,
+    "n_seed": 3188,
+    "n_gen": 382
+  },
+  "ham_n4_n5": {
+    "1": {
+      "n": 2,
+      "n_type_N": 0
+    },
+    "2": {
+      "n": 4,
+      "n_type_N": 4
+    },
+    "3": {
+      "n": 8,
+      "n_type_N": 0
+    },
+    "4": {
+      "n": 16,
+      "n_type_N": 16
+    },
+    "5": {
+      "n": 32,
+      "n_type_N": 0
+    },
+    "6": {
+      "n": 64,
+      "n_type_N": 64
+    },
+    "7": {
+      "n": 128,
+      "n_type_N": 0
+    },
+    "8": {
+      "n": 256,
+      "n_type_N": 256
+    },
+    "9": {
+      "n": 512,
+      "n_type_N": 0
+    },
+    "10": {
+      "n": 1024,
+      "n_type_N": 1024
+    }
+  },
+  "tstar": {
+    "wt5": 15,
+    "type5": "N"
+  },
+  "one_run_equal": {
+    "n0": 4,
+    "t": 6
+  },
+  "lemmas": {
+    "otype_00_iff_11": true,
+    "even_n0_O_has_00": true,
+    "reconstruct_S_gap_run_form": true,
+    "scar_n5_is_run_form_of_n3": true,
+    "scar_ham_n4_n5_equals_n0": true,
+    "even_n0_n5_type_N": true,
+    "n5_is_gap_n4": false,
+    "even_n0_O_can_lack_00": false,
+    "n5_one_runs_always_alternate": false,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "otype_00_iff_11": "LEMMA",
+    "even_n0_O_has_00": "LEMMA",
+    "reconstruct_S_gap_run_form": "LEMMA",
+    "scar_n5_is_run_form_of_n3": "LEMMA",
+    "scar_ham_n4_n5_equals_n0": "LEMMA",
+    "even_n0_n5_type_N": "LEMMA",
+    "n5_is_gap_n4": "KILLED",
+    "even_n0_O_can_lack_00": "KILLED",
+    "n5_one_runs_always_alternate": "KILLED",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
