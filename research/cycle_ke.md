@@ -12,7 +12,7 @@ to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: every live packed-AND pattern is still
 unconstrained by Green type, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_ke.py --certify`.
+Certify: `python3 research/cycle_ke.py --certify` (~0.16s).
 Dump: `research/cycle_ke.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HJ/HU/IG/IN/IR/KB/KD (\(n<64\); covering
