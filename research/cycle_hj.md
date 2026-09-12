@@ -18,7 +18,7 @@ occupy does not give a closed form for the row 4-tuple along Green
 ones, so covering never-fail stays open.
 
 Helper: `green4` / `FRESH_SLOT` / `SLOT_NAMES`. Certify:
-`python3 research/cycle_hj.py --certify`. Dump:
+`python3 research/cycle_hj.py --certify` (~0.11s). Dump:
 `research/cycle_hj.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/GU/HF/HG/HH/HI (algebra \(n<64\);
 covering \(k\le 6\); no Fermat table, no extra window, no \(n_0=16\)
