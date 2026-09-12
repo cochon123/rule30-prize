@@ -16,7 +16,7 @@ form). Together with Cycle GZ the band XOR is fully in the
 (Cycle FL).
 
 Helper: `odd_clock` from `research/cycle_gu.py`. Certify:
-`python3 research/cycle_ha.py --certify` (~0.05s). Dump:
+`python3 research/cycle_ha.py --certify` (~0.04s). Dump:
 `research/cycle_ha.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FL/FR/GU/GY/GZ (packed \(k\le 6\); no
 Fermat table, no extra window, no \(n_0=16\) window).
