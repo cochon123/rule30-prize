@@ -17,7 +17,7 @@ min odd extra for every \(n_0=16\) is \(>2^{21}\). Do **not** claim an
 Not a prize claim: a necklace for one even family does not give
 covering never-fail or at-most-one-odd for all \(k\).
 
-Helper: `python3 research/cycle_eq.py --certify`. Dump:
+Helper: `python3 research/cycle_eq.py --certify` (~20.0s). Dump:
 `research/cycle_eq.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles EP, EL (`unfold_slice`), EF
 (`first_odd_continue`), EH, DN, EE. Bitsliced even-then-odd on the 32

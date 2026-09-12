@@ -203,23 +203,33 @@ def scalar_match(scan: dict) -> dict:
 
 
 def landings() -> dict:
-    """No odd through 2^21 exceeds leftover at k<=21 from a k=16 origin."""
+    """Even 414990 from k=16 splits 18/19; from k=17,18 it is k=19.
+    An odd extra >2^21 from k=16 lands in k=21."""
     k16_even = image_one_annulus(16, EXTRA414990)
-    k19_even = image_one_annulus(19, EXTRA414990)
+    k17_even = image_one_annulus(17, EXTRA414990)
+    k18_even = image_one_annulus(18, EXTRA414990)
+    odd_from_16 = image_one_annulus(16, MAX_ODD + 1)
     ok = (
         not k16_even["ok"]
         and k16_even["k_lo"] == 18
         and k16_even["k_hi"] == 19
-        and k19_even["ok"]
-        and k19_even["k_lo"] == 19
+        and k17_even["ok"]
+        and k17_even["k_lo"] == 19
+        and k18_even["ok"]
+        and k18_even["k_lo"] == 19
+        and odd_from_16["ok"]
+        and odd_from_16["k_lo"] == 21
+        and MAX_ODD == (1 << 21)
         and MAX_ODD > EXTRA414990
-        and MAX_ODD > (1 << 20)
-        and (1 << 21) == MAX_ODD
     )
     return {
         "ok": ok,
         "k16_even": {kk: k16_even[kk] for kk in ("ok", "k_lo", "k_hi")},
-        "k19_even": {kk: k19_even[kk] for kk in ("ok", "k_lo", "k_hi")},
+        "k17_even": {kk: k17_even[kk] for kk in ("ok", "k_lo", "k_hi")},
+        "k18_even": {kk: k18_even[kk] for kk in ("ok", "k_lo", "k_hi")},
+        "odd_gt_2_21_from_k16": {
+            kk: odd_from_16[kk] for kk in ("ok", "k_lo", "k_hi")
+        },
         "max_odd": MAX_ODD,
     }
 
