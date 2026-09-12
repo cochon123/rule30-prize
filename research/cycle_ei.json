@@ -1,0 +1,54 @@
+{
+  "cycle": "EI",
+  "wall_s": 0.0,
+  "checks": {
+    "all_ok": true
+  },
+  "gap": {
+    "rem": 29580,
+    "v_rem": 15,
+    "k15_worst": 32768,
+    "left_lo": 7392,
+    "left_hi": 7137,
+    "worst_fits": true,
+    "actual_fits": false,
+    "land": {
+      "lo": 58144,
+      "hi": 58399,
+      "k_lo": 15,
+      "k_hi": 15
+    }
+  },
+  "lemmas": {
+    "rem87468_after_57888_is_29580": true,
+    "threshold_29580_is_15": true,
+    "worst_k15_leftover_can_fit_29580": true,
+    "actual_57888_image_leftover_cannot_fit_87468": true,
+    "remaining_after_57888_exceeds_2_15": false,
+    "leftover_empty_at_k16": null,
+    "packed_second_k15_even_is_58287": null,
+    "n29580_closed_form": null,
+    "at_most_one_odd_all_k": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "rem87468_after_57888_is_29580": "LEMMA",
+    "threshold_29580_is_15": "LEMMA",
+    "worst_k15_leftover_can_fit_29580": "LEMMA",
+    "actual_57888_image_leftover_cannot_fit_87468": "LEMMA",
+    "remaining_after_57888_exceeds_2_15": "KILLED",
+    "leftover_empty_at_k16": "PREFIX",
+    "packed_second_k15_even_is_58287": "PREFIX",
+    "n29580_closed_form": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
