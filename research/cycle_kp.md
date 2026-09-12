@@ -13,7 +13,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: this embeds Cycle KM's two no-\(00\) families,
 not the packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kp.py --certify`.
+Certify: `python3 research/cycle_kp.py --certify` (~0.13s).
 Dump: `research/cycle_kp.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/KH/KO (\(a\le 8\); covering \(k\le 6\); no Fermat table, no
