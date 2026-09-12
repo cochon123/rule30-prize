@@ -1,0 +1,160 @@
+{
+  "cycle": "HL",
+  "wall_s": 0.093,
+  "checks": {
+    "all_ok": true
+  },
+  "odd_green4_identity": {
+    "n_ok": 4096
+  },
+  "og4_cover": {
+    "n_ok": 95821,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "xor_all": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "xor_all": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "xor_all": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "xor_all": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "xor_all": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "xor_all": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "xor_all": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "xor_all": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "xor_all": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "xor_all": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "xor_all": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "xor_all": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "xor_all": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "xor_all": 0
+        }
+      }
+    }
+  },
+  "killed_tup_eq_og4": {
+    "k": 0,
+    "s": 3,
+    "n": 1,
+    "j": 0,
+    "p": 6,
+    "tup": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "og4": [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "killed_og4_eq_green4": {
+    "n": 1,
+    "j": 0,
+    "og4": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "g4": [
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  "killed_odd_s_green_vanishes_cob": {
+    "n": 1,
+    "j": 0,
+    "og4": [
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "lemmas": {
+    "odd_s_Green_4slot_eq_odd_green4": true,
+    "odd_s_copy_slots_vanish": true,
+    "odd_s_4tuple_eq_odd_green4": false,
+    "odd_green4_eq_even_s_green4": false,
+    "odd_s_Green_vanishes_on_cob_slots": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "odd_s_Green_4slot_eq_odd_green4": "LEMMA",
+    "odd_s_copy_slots_vanish": "LEMMA",
+    "odd_s_4tuple_eq_odd_green4": "KILLED",
+    "odd_green4_eq_even_s_green4": "KILLED",
+    "odd_s_Green_vanishes_on_cob_slots": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

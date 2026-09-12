@@ -15,7 +15,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: the odd-\(s\) Green 4-slot is not a closed form
 for the row along Green ones, so covering never-fail stays open.
 
-Helper: `odd_green4`. Certify: `python3 research/cycle_hl.py --certify`.
+Helper: `odd_green4`. Certify: `python3 research/cycle_hl.py --certify` (~0.09s).
 Dump: `research/cycle_hl.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles AL/CA/GU/HF/HG/HJ/HK
 (algebra \(n<64\); covering \(k\le 6\); no Fermat table, no extra
