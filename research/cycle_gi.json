@@ -1,0 +1,57 @@
+{
+  "cycle": "GI",
+  "wall_s": 0.0,
+  "checks": {
+    "all_ok": true
+  },
+  "chi_gap": {
+    "n_ok": 84,
+    "n_zero": 36
+  },
+  "killed_gap0_pre": {
+    "k": 2,
+    "gap": 16,
+    "rstar": 26,
+    "chi": 10
+  },
+  "killed_gap_indep_q": {
+    "g0": 16,
+    "g1": 0
+  },
+  "killed_chi_eq_rstar_at_t0": {
+    "chi": 10,
+    "rstar": 26
+  },
+  "lemmas": {
+    "chi_eq_2U_plus_2_plus_4U_q": true,
+    "rstar_minus_chi_eq_4U_Q_minus_1_minus_q": true,
+    "gap_zero_iff_q_eq_Q_minus_1": true,
+    "gap_zero_on_precone": false,
+    "gap_independent_of_q": false,
+    "chi_eq_rstar_at_t0_plus_1": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "chi_eq_2U_plus_2_plus_4U_q": "LEMMA",
+    "rstar_minus_chi_eq_4U_Q_minus_1_minus_q": "LEMMA",
+    "gap_zero_iff_q_eq_Q_minus_1": "LEMMA",
+    "gap_zero_on_precone": "KILLED",
+    "gap_independent_of_q": "KILLED",
+    "chi_eq_rstar_at_t0_plus_1": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
