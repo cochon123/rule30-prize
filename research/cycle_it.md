@@ -13,7 +13,7 @@ Not a prize claim: core slots still leave packed AND on every slot
 type (and the seed), so covering never-fail stays open.
 
 Helper: `odd_core`, `g1_core_slot`. Certify:
-`python3 research/cycle_it.py --certify`.
+`python3 research/cycle_it.py --certify` (~0.32s).
 Dump: `research/cycle_it.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IS (\(n<64\); covering \(k\le 6\); no Fermat
