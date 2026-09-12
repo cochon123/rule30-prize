@@ -1,0 +1,121 @@
+{
+  "cycle": "EL",
+  "wall_s": 2.066,
+  "checks": {
+    "all_ok": true
+  },
+  "family": {
+    "n87468": 6,
+    "n228939": 6,
+    "n182785": 2,
+    "n195790": 1,
+    "n_none": 1,
+    "g228939": [
+      "00000110",
+      "00011011",
+      "10000011",
+      "11011111",
+      "11100100",
+      "11111001"
+    ],
+    "g182785": [
+      "00100000",
+      "10010000"
+    ],
+    "g195790": [
+      "01111100"
+    ],
+    "none": [
+      "00001101"
+    ],
+    "prize_odd": 228939
+  },
+  "scan": {
+    "n_hit": 214,
+    "n_none": 42,
+    "max_extra": 261633
+  },
+  "k17": {
+    "ok": true,
+    "land": {
+      "228939": {
+        "lo": 229195,
+        "hi": 229450,
+        "k_lo": 17,
+        "k_hi": 17
+      },
+      "182785": {
+        "lo": 183041,
+        "hi": 183296,
+        "k_lo": 17,
+        "k_hi": 17
+      },
+      "195790": {
+        "lo": 196046,
+        "hi": 196301,
+        "k_lo": 17,
+        "k_hi": 17
+      },
+      "87468": {
+        "lo": 87724,
+        "hi": 87979,
+        "k_lo": 16,
+        "k_hi": 16
+      }
+    },
+    "leftover": {
+      "228939": 32694,
+      "182785": 78848,
+      "195790": 65843
+    },
+    "k17_need": 261633
+  },
+  "seed_k18": {
+    "pi_no_k16_no_k17": 16,
+    "pi_k16_only": 32,
+    "pi_k17_only": 32,
+    "H18": 131072
+  },
+  "lemmas": {
+    "extra228939_k8_lands_k17": true,
+    "k17_leftover_after_228939_lt_E16": true,
+    "max_k17_covers_window_from_k8": true,
+    "prize_scar_odd_228939": true,
+    "n0_16_k16_odd_skips_k17": true,
+    "at_most_one_odd_k17_on_n0_2": true,
+    "period_H_seed_at_k18_every_n0_2": true,
+    "prize_no_scar_odd_after_k15_evens": false,
+    "every_n0_2_skips_k17": false,
+    "n228939_closed_form": null,
+    "scar_228939_is_packed_87867_on_prize_T0": null,
+    "word_00001101_never_odd": null,
+    "leftover_after_228939_empty_later_k": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "pi_formula_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "extra228939_k8_lands_k17": "LEMMA",
+    "k17_leftover_after_228939_lt_E16": "LEMMA",
+    "max_k17_covers_window_from_k8": "LEMMA",
+    "prize_scar_odd_228939": "LEMMA",
+    "n0_16_k16_odd_skips_k17": "LEMMA",
+    "at_most_one_odd_k17_on_n0_2": "LEMMA",
+    "period_H_seed_at_k18_every_n0_2": "LEMMA",
+    "prize_no_scar_odd_after_k15_evens": "KILLED",
+    "every_n0_2_skips_k17": "KILLED",
+    "n228939_closed_form": "PREFIX",
+    "scar_228939_is_packed_87867_on_prize_T0": "PREFIX",
+    "word_00001101_never_odd": "PREFIX",
+    "leftover_after_228939_empty_later_k": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
