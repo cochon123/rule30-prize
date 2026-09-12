@@ -13,7 +13,7 @@ is **not** \(1001\) at \(p=54\), **not** xor \(1\) at \(k=5\),
 Not a prize claim: this is packed AND at \(p=54\), not a Green-only
 formula for packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_lh.py --certify`.
+Certify: `python3 research/cycle_lh.py --certify` (~0.22s).
 Dump: `research/cycle_lh.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HI/HU/KH/LD (covering \(k\le 6\); no Fermat table, no
