@@ -16,7 +16,7 @@ never-fail stays open. This is the 3-window shadow of Cycle JL’s
 \(00011/01110/11000\)).
 
 Helper: `pair_dbl_threes`. Certify:
-`python3 research/cycle_js.py --certify` (~0.16s).
+`python3 research/cycle_js.py --certify` (~0.34s).
 Dump: `research/cycle_js.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IR/JF/JH/JR (\(n<64\); covering \(k\le 6\); no
