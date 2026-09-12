@@ -15,7 +15,7 @@ Not a prize claim: even-\(n\) no \(11\) still leaves packed AND on
 odd-\(n\) Green pairs and triples, so covering never-fail stays open.
 
 Helper: `g5`, `LIFT3`, `lift3_extend_sat`. Certify:
-`python3 research/cycle_im.py --certify`.
+`python3 research/cycle_im.py --certify` (~0.14s).
 Dump: `research/cycle_im.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IL (\(n<64\) plus \(16\)-row; covering \(k\le 6\);
