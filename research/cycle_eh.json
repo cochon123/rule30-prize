@@ -1,0 +1,91 @@
+{
+  "cycle": "EH",
+  "wall_s": 3.411,
+  "checks": {
+    "all_ok": true
+  },
+  "family": {
+    "n57888": 12,
+    "n72177": 4,
+    "n87468": 6,
+    "hit": [
+      "00110111",
+      "01000001",
+      "01101111",
+      "10111110",
+      "11001000",
+      "11110010"
+    ],
+    "g72177": [
+      "00001101",
+      "00100000",
+      "01111100",
+      "10010000"
+    ],
+    "prize_a": "1100001100010100",
+    "prize_e2": 57888
+  },
+  "landings": {
+    "57888_from_8": {
+      "lo": 58144,
+      "hi": 58399,
+      "k_lo": 15,
+      "k_hi": 15
+    },
+    "72177_from_8": {
+      "lo": 72433,
+      "hi": 72688,
+      "k_lo": 16,
+      "k_hi": 16
+    },
+    "87468_from_8": {
+      "lo": 87724,
+      "hi": 87979,
+      "k_lo": 16,
+      "k_hi": 16
+    }
+  },
+  "packed_image": {
+    "52809": 53208,
+    "57888": 58287,
+    "72177": 72576
+  },
+  "lemmas": {
+    "all_52809_second_even_57888_or_72177": true,
+    "87468_only_inside_57888_group": true,
+    "prize_in_57888_group_no_odd_131000": true,
+    "prize_first_even_a_is_K15_A": true,
+    "extra57888_k8_lands_k15": true,
+    "extra72177_k8_lands_k16": true,
+    "prize_hits_72177_or_rowland_72577": false,
+    "packed_second_k15_even_is_58287": null,
+    "img72177_is_rowland_72577": false,
+    "n57888_closed_form": null,
+    "scar_87468_is_packed_87867_on_prize_T0": null,
+    "at_most_one_odd_all_k": null,
+    "pi_formula_all_k": null,
+    "period_H_seed_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "all_52809_second_even_57888_or_72177": "LEMMA",
+    "87468_only_inside_57888_group": "LEMMA",
+    "prize_in_57888_group_no_odd_131000": "LEMMA",
+    "prize_first_even_a_is_K15_A": "LEMMA",
+    "extra57888_k8_lands_k15": "LEMMA",
+    "extra72177_k8_lands_k16": "LEMMA",
+    "prize_hits_72177_or_rowland_72577": "KILLED",
+    "packed_second_k15_even_is_58287": "PREFIX",
+    "img72177_is_rowland_72577": "KILLED",
+    "n57888_closed_form": "PREFIX",
+    "scar_87468_is_packed_87867_on_prize_T0": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
