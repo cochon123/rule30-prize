@@ -15,7 +15,7 @@ leaves packed AND on those columns (and on pairs), so covering
 never-fail stays open. This recovers Cycle JL from Cycles JS+JU.
 
 Helper: `cob_pair`. Certify:
-`python3 research/cycle_jv.py --certify` (~0.16s).
+`python3 research/cycle_jv.py --certify` (~0.14s).
 Dump: `research/cycle_jv.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/JD/JL/JS/JU (\(n<64\); covering \(k\le 6\); no
