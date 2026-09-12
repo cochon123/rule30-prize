@@ -5,9 +5,10 @@ Packed AND fires iff the even-s 4-tuple (z,a,b,c) is not
 coboundary-shaped and a XOR (b OR c) = 1. That is AND_ONES as two
 Boolean clauses: Cycle HT kills cob; the leftover 8 non-cob tuples
 fire iff the first AND factor a^(b|c) is 1. Not AND iff non-cob;
-not AND iff a^(b|c)=1; not G=1 AND iff FRESH. Do not claim
-J6=J10=0 implies J18=1 for all k; do not push even-spine past k=18;
-do not bump all n0=16 past 414990. Not a prize claim.
+not AND iff a^(b|c)=1; not G=1 AND iff FRESH; not AND only on G=1.
+Do not claim J6=J10=0 implies J18=1 for all k; do not push
+even-spine past k=18; do not bump all n0=16 past 414990. Not a prize
+claim.
 
 Run: python3 research/cycle_hu.py --certify
 Dump: research/cycle_hu.json
@@ -250,6 +251,30 @@ def killed_g1_and_iff_fresh() -> dict:
     }
 
 
+def killed_and_only_on_g1() -> dict:
+    """AND is not only on G=1: k=0, s=3, four=0100 FRESH, G=0."""
+    k, s, n, j, p = 0, 3, 3, 2, 6
+    row = 1
+    for _ in range(s):
+        prev = row
+        row = rule30_step(row)
+    four = tuple(bit_at(prev, p - 3 + i) for i in range(4))
+    Aodd = (row << 1) & row
+    packed = (Aodd >> p) & 1
+    ok = four == (0, 1, 0, 0) and four in FRESH and packed == 1 and G(n, j) == 0
+    return {
+        "ok": ok,
+        "k": k,
+        "s": s,
+        "n": n,
+        "j": j,
+        "p": p,
+        "four": list(four),
+        "packed": packed,
+        "G": G(n, j),
+    }
+
+
 def prefixes() -> dict:
     ht = json.loads(HT_JSON.read_text())
     ok = (
@@ -262,11 +287,19 @@ def prefixes() -> dict:
 
 
 def self_checks(
-    c20, at: dict, ac: dict, k0: dict, k1: dict, k2: dict, pref: dict
+    c20, at: dict, ac: dict, k0: dict, k1: dict, k2: dict, k3: dict, pref: dict
 ) -> dict:
     assert list(c20) == KNOWN20
     assert list(c20) == list(experiment_center_bits(20))
-    assert at["ok"] and ac["ok"] and k0["ok"] and k1["ok"] and k2["ok"] and pref["ok"]
+    assert (
+        at["ok"]
+        and ac["ok"]
+        and k0["ok"]
+        and k1["ok"]
+        and k2["ok"]
+        and k3["ok"]
+        and pref["ok"]
+    )
     assert and_clause(0, 1, 0, 0) == 1
     return {"all_ok": True}
 
@@ -282,8 +315,9 @@ def main() -> None:
     k0 = killed_and_iff_noncob()
     k1 = killed_and_iff_a_xor_borc()
     k2 = killed_g1_and_iff_fresh()
+    k3 = killed_and_only_on_g1()
     pref = prefixes()
-    checks = self_checks(c20, at, ac, k0, k1, k2, pref)
+    checks = self_checks(c20, at, ac, k0, k1, k2, k3, pref)
     dump = {
         "cycle": "HU",
         "wall_s": round(time.perf_counter() - t0, 3),
@@ -293,12 +327,14 @@ def main() -> None:
         "killed_and_iff_noncob": {k: k0[k] for k in k0 if k != "ok"},
         "killed_and_iff_a_xor_borc": {k: k1[k] for k in k1 if k != "ok"},
         "killed_g1_and_iff_fresh": {k: k2[k] for k in k2 if k != "ok"},
+        "killed_and_only_on_g1": {k: k3[k] for k in k3 if k != "ok"},
         "lemmas": {
             "AND_iff_noncob_and_a_xor_bORc": True,
             "AND_clause_eq_AND_ONES": True,
             "AND_iff_noncob": False,
             "AND_iff_a_xor_bORc": False,
             "G1_AND_iff_FRESH": False,
+            "AND_only_on_G1": False,
             "J6_J10_0_implies_J18_1_all_k": None,
             "eleven_bit_gap": None,
             "extra_414990_formula": None,
@@ -312,6 +348,7 @@ def main() -> None:
             "AND_iff_noncob": "KILLED",
             "AND_iff_a_xor_bORc": "KILLED",
             "G1_AND_iff_FRESH": "KILLED",
+            "AND_only_on_G1": "KILLED",
             "J6_J10_0_implies_J18_1_all_k": "PREFIX",
             "eleven_bit_gap": "PREFIX",
             "extra_414990_formula": "PREFIX",
@@ -345,6 +382,7 @@ def main() -> None:
     print("killed_and_iff_noncob", dump["killed_and_iff_noncob"])
     print("killed_and_iff_a_xor_borc", dump["killed_and_iff_a_xor_borc"])
     print("killed_g1_and_iff_fresh", dump["killed_g1_and_iff_fresh"])
+    print("killed_and_only_on_g1", dump["killed_and_only_on_g1"])
 
 
 if __name__ == "__main__":

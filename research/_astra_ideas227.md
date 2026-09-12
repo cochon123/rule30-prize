@@ -322,7 +322,7 @@ not-odd-AND-identically-0 / not-even-AND-eq-\(G(j)\land\lnot G(j-1)\) / not-\(\m
 cob-shaped-AND-identically-0 / \(\mathrm{green4}\)-is-cob-shaped / AND-ONES-not-cob-shaped /
 not-cob-shaped-eq-\(\mathrm{green4}\) / not-noncob-iff-AND / not-cob-shaped-only-on-\(G=0\) identities, or the
 AND-iff-noncob-and-\(a\oplus(b\lor c)\) / AND-clause-eq-AND-ONES / noncob-second-AND-factor-redundant /
-not-AND-iff-noncob / not-AND-iff-\(a\oplus(b\lor c)\) / not-\(G=1\)-AND-iff-FRESH identities.**
+not-AND-iff-noncob / not-AND-iff-\(a\oplus(b\lor c)\) / not-\(G=1\)-AND-iff-FRESH / not-AND-only-on-\(G=1\) identities.**
 Cycles BG–HU: those unique through pentuple bits are not
 identically-1 productions, \(d_C\) chains through \(B\), and
 \(J_B^{\to 2U}=0\) reduces to the left-word period-\(H\) seed
@@ -961,7 +961,7 @@ These are proposals.
    not claim cob-shaped only on \(G=0\). Do not claim AND iff
    non-coboundary (Cycle HU killed that). Do not claim AND iff
    \(a\oplus(b\lor c)\) without the non-cob clause. Do not claim
-   \(G=1\) AND iff FRESH. Do
+   \(G=1\) AND iff FRESH. Do not claim AND only on \(G=1\). Do
    not walk
    \(32U\).
 
