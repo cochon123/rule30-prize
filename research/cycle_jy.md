@@ -14,7 +14,7 @@ Not a prize claim: covering-center packed 4-tuples still fire AND on
 every `AND_ONES` pattern (the Cycle HW fold's center term still
 reads the packed row), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_jy.py --certify`.
+Certify: `python3 research/cycle_jy.py --certify` (~0.10s).
 Dump: `research/cycle_jy.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HT/HU/IF/IR/JX (\(n<64\); covering \(k\le 6\); no
