@@ -17,7 +17,7 @@ compute \(\varphi^{(3,5,9)}\) at \(k=16\). Do **not** push the
 Not a prize claim: a necklace for FAM414990 does not give covering
 never-fail or at-most-one-odd for all \(k\).
 
-Helper: `python3 research/cycle_er.py --certify`. Dump:
+Helper: `python3 research/cycle_er.py --certify` (~1.2s). Dump:
 `research/cycle_er.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles EP, EQ. Scalar `ident0_events` on \(T^*\) only
 (no new packed run, no Fermat table, no all-\(n_0=16\) window, no EQ

@@ -1,0 +1,44 @@
+{
+  "cycle": "ER",
+  "wall_s": 1.167,
+  "checks": {
+    "all_ok": true
+  },
+  "U32": "01100111001011101001100011010001",
+  "T_star": "0110011100101110",
+  "pred32": "00000001011101010010010000101011",
+  "n_fam": 32,
+  "rot16": "1001100011010001",
+  "lemmas": {
+    "fam414990_16_prefixes_of_rots_U": true,
+    "U32_O_type_min_period_32": true,
+    "rot16_prefix_is_complement": true,
+    "T_star_pred_is_W": true,
+    "no_T0_closed_form_beyond_W": false,
+    "U_eq_W": false,
+    "U_on_n0_2_cascade": false,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "pi_formula_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "fam414990_16_prefixes_of_rots_U": "LEMMA",
+    "U32_O_type_min_period_32": "LEMMA",
+    "rot16_prefix_is_complement": "LEMMA",
+    "T_star_pred_is_W": "LEMMA",
+    "no_T0_closed_form_beyond_W": "KILLED",
+    "U_eq_W": "KILLED",
+    "U_on_n0_2_cascade": "KILLED",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
