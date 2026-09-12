@@ -189,7 +189,7 @@ def self_checks(
     assert list(c20) == KNOWN20
     assert list(c20) == list(experiment_center_bits(20))
     assert rt["ok"] and sc["ok"] and k0["ok"] and k1["ok"] and k2["ok"] and k3["ok"] and pref["ok"]
-    assert clip_g4_shape(15, 21) == G4_LEFT
+    assert clip_g4_shape(15, 23) == G4_LEFT
     assert clip_g4_shape(3, 6) == G4_RIGHT
     assert clip_pair_side(7, 13) == "left"
     return {"all_ok": True}

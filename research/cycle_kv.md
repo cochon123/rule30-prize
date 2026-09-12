@@ -15,7 +15,7 @@ Not a prize claim: this is the shape of Cycle KT's columns (low-band
 \(f\bmod 3\) has runs of length 2 only), not packed AND XOR \(J\), so
 covering never-fail stays open.
 
-Certify: `python3 research/cycle_kv.py --certify`.
+Certify: `python3 research/cycle_kv.py --certify` (~0.15s).
 Dump: `research/cycle_kv.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/HJ/IG/IN/IR/KH/KR/KT (\(k\le 10\) Green-only; covering \(k\le 6\);
