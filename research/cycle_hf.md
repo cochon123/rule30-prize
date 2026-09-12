@@ -16,7 +16,7 @@ Not a prize claim: putting \(J_6\) in the \(j\)-index does not give
 a closed form for packed AND, so covering never-fail stays open.
 
 Helper: `J6_WINDOW` / `WINDOWS` / `odd_clock` from Cycles HF/HC/GU.
-Certify: `python3 research/cycle_hf.py --certify`. Dump:
+Certify: `python3 research/cycle_hf.py --certify` (~0.05s). Dump:
 `research/cycle_hf.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FR/GU/HC/HE (packed \(k\le 6\);
 algebra \(k\le 12\); no Fermat table, no extra window, no \(n_0=16\)
