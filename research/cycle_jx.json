@@ -1,0 +1,561 @@
+{
+  "cycle": "JX",
+  "wall_s": 0.139,
+  "checks": {
+    "all_ok": true
+  },
+  "g4_pair_table": {
+    "n_g11": 512,
+    "n_left": 141,
+    "n_right": 141,
+    "n_iso": 230
+  },
+  "pair_four_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_g11": 8577,
+    "n_ov": 8577,
+    "n_and": 1711,
+    "n_both": 463,
+    "n_kind": {
+      "left": 2380,
+      "right": 2380,
+      "iso": 3817
+    },
+    "n_and_kind": {
+      "left": 431,
+      "right": 534,
+      "iso": 746
+    },
+    "n_types": {
+      "left": 16,
+      "right": 16,
+      "iso": 16
+    },
+    "n_shapes": {
+      "left": 64,
+      "right": 64,
+      "iso": 64
+    },
+    "n_and_ones": {
+      "left": {
+        "0010": 123,
+        "0011": 89,
+        "0100": 127,
+        "1001": 92
+      },
+      "right": {
+        "0010": 117,
+        "0011": 151,
+        "0100": 193,
+        "1001": 73
+      },
+      "iso": {
+        "0010": 167,
+        "0011": 199,
+        "0100": 214,
+        "1001": 166
+      }
+    },
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_g11": 2,
+          "n_ov": 2,
+          "n_both": 1,
+          "n_kind": {
+            "left": 1,
+            "right": 1,
+            "iso": 0
+          },
+          "n_and_kind": {
+            "left": 1,
+            "right": 1,
+            "iso": 0
+          },
+          "n_types": {
+            "left": 1,
+            "right": 1,
+            "iso": 0
+          },
+          "n_shapes": {
+            "left": 1,
+            "right": 1,
+            "iso": 0
+          },
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_g11": 3,
+          "n_ov": 3,
+          "n_both": 0,
+          "n_kind": {
+            "left": 1,
+            "right": 1,
+            "iso": 1
+          },
+          "n_and_kind": {
+            "left": 1,
+            "right": 0,
+            "iso": 0
+          },
+          "n_types": {
+            "left": 1,
+            "right": 1,
+            "iso": 1
+          },
+          "n_shapes": {
+            "left": 1,
+            "right": 1,
+            "iso": 1
+          },
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_g11": 4,
+          "n_ov": 4,
+          "n_both": 0,
+          "n_kind": {
+            "left": 1,
+            "right": 1,
+            "iso": 2
+          },
+          "n_and_kind": {
+            "left": 0,
+            "right": 0,
+            "iso": 0
+          },
+          "n_types": {
+            "left": 1,
+            "right": 1,
+            "iso": 2
+          },
+          "n_shapes": {
+            "left": 1,
+            "right": 1,
+            "iso": 2
+          },
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_g11": 14,
+          "n_ov": 14,
+          "n_both": 1,
+          "n_kind": {
+            "left": 5,
+            "right": 5,
+            "iso": 4
+          },
+          "n_and_kind": {
+            "left": 2,
+            "right": 2,
+            "iso": 0
+          },
+          "n_types": {
+            "left": 5,
+            "right": 4,
+            "iso": 3
+          },
+          "n_shapes": {
+            "left": 5,
+            "right": 5,
+            "iso": 3
+          },
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_g11": 15,
+          "n_ov": 15,
+          "n_both": 1,
+          "n_kind": {
+            "left": 5,
+            "right": 5,
+            "iso": 5
+          },
+          "n_and_kind": {
+            "left": 0,
+            "right": 3,
+            "iso": 4
+          },
+          "n_types": {
+            "left": 3,
+            "right": 4,
+            "iso": 4
+          },
+          "n_shapes": {
+            "left": 4,
+            "right": 5,
+            "iso": 5
+          },
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_g11": 39,
+          "n_ov": 39,
+          "n_both": 2,
+          "n_kind": {
+            "left": 11,
+            "right": 11,
+            "iso": 17
+          },
+          "n_and_kind": {
+            "left": 2,
+            "right": 3,
+            "iso": 6
+          },
+          "n_types": {
+            "left": 7,
+            "right": 8,
+            "iso": 7
+          },
+          "n_shapes": {
+            "left": 9,
+            "right": 10,
+            "iso": 12
+          },
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_g11": 44,
+          "n_ov": 44,
+          "n_both": 3,
+          "n_kind": {
+            "left": 12,
+            "right": 12,
+            "iso": 20
+          },
+          "n_and_kind": {
+            "left": 2,
+            "right": 5,
+            "iso": 5
+          },
+          "n_types": {
+            "left": 8,
+            "right": 8,
+            "iso": 11
+          },
+          "n_shapes": {
+            "left": 11,
+            "right": 11,
+            "iso": 16
+          },
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_g11": 132,
+          "n_ov": 132,
+          "n_both": 8,
+          "n_kind": {
+            "left": 38,
+            "right": 38,
+            "iso": 56
+          },
+          "n_and_kind": {
+            "left": 8,
+            "right": 10,
+            "iso": 9
+          },
+          "n_types": {
+            "left": 15,
+            "right": 13,
+            "iso": 15
+          },
+          "n_shapes": {
+            "left": 24,
+            "right": 25,
+            "iso": 28
+          },
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_g11": 147,
+          "n_ov": 147,
+          "n_both": 8,
+          "n_kind": {
+            "left": 42,
+            "right": 42,
+            "iso": 63
+          },
+          "n_and_kind": {
+            "left": 11,
+            "right": 8,
+            "iso": 13
+          },
+          "n_types": {
+            "left": 15,
+            "right": 13,
+            "iso": 15
+          },
+          "n_shapes": {
+            "left": 28,
+            "right": 26,
+            "iso": 33
+          },
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_g11": 419,
+          "n_ov": 419,
+          "n_both": 15,
+          "n_kind": {
+            "left": 116,
+            "right": 116,
+            "iso": 187
+          },
+          "n_and_kind": {
+            "left": 18,
+            "right": 19,
+            "iso": 30
+          },
+          "n_types": {
+            "left": 16,
+            "right": 16,
+            "iso": 16
+          },
+          "n_shapes": {
+            "left": 46,
+            "right": 45,
+            "iso": 53
+          },
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_g11": 468,
+          "n_ov": 468,
+          "n_both": 33,
+          "n_kind": {
+            "left": 129,
+            "right": 129,
+            "iso": 210
+          },
+          "n_and_kind": {
+            "left": 27,
+            "right": 37,
+            "iso": 44
+          },
+          "n_types": {
+            "left": 16,
+            "right": 16,
+            "iso": 16
+          },
+          "n_shapes": {
+            "left": 49,
+            "right": 53,
+            "iso": 59
+          },
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_g11": 1364,
+          "n_ov": 1364,
+          "n_both": 74,
+          "n_kind": {
+            "left": 379,
+            "right": 379,
+            "iso": 606
+          },
+          "n_and_kind": {
+            "left": 58,
+            "right": 89,
+            "iso": 108
+          },
+          "n_types": {
+            "left": 16,
+            "right": 16,
+            "iso": 16
+          },
+          "n_shapes": {
+            "left": 62,
+            "right": 64,
+            "iso": 64
+          },
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_g11": 1523,
+          "n_ov": 1523,
+          "n_both": 104,
+          "n_kind": {
+            "left": 423,
+            "right": 423,
+            "iso": 677
+          },
+          "n_and_kind": {
+            "left": 85,
+            "right": 120,
+            "iso": 150
+          },
+          "n_types": {
+            "left": 16,
+            "right": 16,
+            "iso": 16
+          },
+          "n_shapes": {
+            "left": 64,
+            "right": 64,
+            "iso": 64
+          },
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_g11": 4403,
+          "n_ov": 4403,
+          "n_both": 213,
+          "n_kind": {
+            "left": 1217,
+            "right": 1217,
+            "iso": 1969
+          },
+          "n_and_kind": {
+            "left": 216,
+            "right": 237,
+            "iso": 377
+          },
+          "n_types": {
+            "left": 16,
+            "right": 16,
+            "iso": 16
+          },
+          "n_shapes": {
+            "left": 64,
+            "right": 64,
+            "iso": 64
+          },
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_fn_of_kind": {
+    "k": 1,
+    "s": 5,
+    "n": 7,
+    "j": 6,
+    "p": 8,
+    "p2": 6,
+    "left": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "right": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "killed_always_green4": {
+    "k": 1,
+    "s": 5,
+    "n": 7,
+    "j": 6,
+    "p": 8,
+    "p2": 6,
+    "left": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "right": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "killed_and_vanishes": {
+    "k": 1,
+    "s": 17,
+    "n": 1,
+    "j": 0,
+    "p": 20,
+    "p2": 18,
+    "left": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "right": [
+      1,
+      1,
+      0,
+      1
+    ]
+  },
+  "lemmas": {
+    "kind_green4_overlap": true,
+    "pair_all_64": true,
+    "covering_pair_four": true,
+    "fn_of_kind": false,
+    "always_green4": false,
+    "and_vanishes": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "kind_green4_overlap": "LEMMA",
+    "pair_all_64": "LEMMA",
+    "covering_pair_four": "LEMMA",
+    "fn_of_kind": "KILLED",
+    "always_green4": "KILLED",
+    "and_vanishes": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

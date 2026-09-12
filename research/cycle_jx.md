@@ -16,7 +16,7 @@ AND on every `AND_ONES` pattern (and on every pair kind), so covering
 never-fail stays open.
 
 Helper: `pair_shape`. Certify:
-`python3 research/cycle_jx.py --certify`.
+`python3 research/cycle_jx.py --certify` (~0.14s).
 Dump: `research/cycle_jx.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HU/II/IN/IZ/JW (\(n<64\); covering \(k\le 6\); no
