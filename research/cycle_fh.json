@@ -1,0 +1,73 @@
+{
+  "cycle": "FH",
+  "wall_s": 0.321,
+  "checks": {
+    "all_ok": true
+  },
+  "cone": {
+    "n_ok": 156
+  },
+  "split": {
+    "n_ok": 5,
+    "rows": {
+      "2": {
+        "J6": 0,
+        "J18": 0,
+        "Jpost": 0
+      },
+      "3": {
+        "J6": 0,
+        "J18": 1,
+        "Jpost": 1
+      },
+      "4": {
+        "J6": 1,
+        "J18": 0,
+        "Jpost": 1
+      },
+      "5": {
+        "J6": 0,
+        "J18": 1,
+        "Jpost": 1
+      },
+      "6": {
+        "J6": 1,
+        "J18": 0,
+        "Jpost": 1
+      }
+    }
+  },
+  "killed": {
+    "k": 2,
+    "J6": 0,
+    "J18": 0
+  },
+  "lemmas": {
+    "cone_on_2U_6U": true,
+    "J6_eq_J_2U_6U_to_18U": true,
+    "J18_eq_J6_xor_Jpost": true,
+    "J6_0_implies_J18_1": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "cone_on_2U_6U": "LEMMA",
+    "J6_eq_J_2U_6U_to_18U": "LEMMA",
+    "J18_eq_J6_xor_Jpost": "LEMMA",
+    "J6_0_implies_J18_1": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
