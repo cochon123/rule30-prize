@@ -1,0 +1,263 @@
+{
+  "cycle": "ID",
+  "wall_s": 0.11,
+  "checks": {
+    "all_ok": true
+  },
+  "mix_slots_table": {
+    "n_ok": 256,
+    "n_mix": 128,
+    "n_h1": 48,
+    "n_h2": 48,
+    "n_h3": 16,
+    "n_h4": 16
+  },
+  "mix_cover": {
+    "n_ok": 95821,
+    "n_pair": 8944,
+    "n_mix": 4383,
+    "n_mix_xor": 2216,
+    "n_h1": 1666,
+    "n_h2": 1672,
+    "n_h3": 521,
+    "n_h4": 524,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_mix": 1,
+          "n_h1": 1,
+          "n_h2": 0,
+          "n_h3": 0,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_mix": 1,
+          "n_h1": 1,
+          "n_h2": 0,
+          "n_h3": 0,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_mix": 1,
+          "n_h1": 1,
+          "n_h2": 0,
+          "n_h3": 0,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_mix": 5,
+          "n_h1": 5,
+          "n_h2": 0,
+          "n_h3": 0,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_mix": 6,
+          "n_h1": 3,
+          "n_h2": 1,
+          "n_h3": 1,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_mix": 22,
+          "n_h1": 10,
+          "n_h2": 9,
+          "n_h3": 2,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_mix": 29,
+          "n_h1": 15,
+          "n_h2": 7,
+          "n_h3": 4,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_mix": 61,
+          "n_h1": 29,
+          "n_h2": 18,
+          "n_h3": 6,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_mix": 90,
+          "n_h1": 39,
+          "n_h2": 30,
+          "n_h3": 12,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_mix": 191,
+          "n_h1": 82,
+          "n_h2": 70,
+          "n_h3": 18,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_mix": 258,
+          "n_h1": 100,
+          "n_h2": 105,
+          "n_h3": 17,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_mix": 667,
+          "n_h1": 259,
+          "n_h2": 257,
+          "n_h3": 76,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_mix": 886,
+          "n_h1": 335,
+          "n_h2": 343,
+          "n_h3": 110,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_mix": 2165,
+          "n_h1": 786,
+          "n_h2": 832,
+          "n_h3": 275,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_mix_ham1_eq_flip_c": {
+    "k": 1,
+    "s": 5,
+    "n": 7,
+    "j": 6,
+    "j2": 8,
+    "p": 8,
+    "p2": 4,
+    "four": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "four2": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "flip": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "killed_mix_ham2_no_c": {
+    "k": 2,
+    "s": 17,
+    "n": 3,
+    "j": 1,
+    "j2": 5,
+    "p": 22,
+    "p2": 14,
+    "four": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "four2": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "slots": [
+      2,
+      3
+    ]
+  },
+  "killed_mix_ham3_never_zab": {
+    "k": 2,
+    "s": 19,
+    "n": 2,
+    "j": 0,
+    "j2": 4,
+    "p": 24,
+    "p2": 16,
+    "four": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "four2": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "slots": [
+      0,
+      1,
+      2
+    ]
+  },
+  "lemmas": {
+    "mix_ham1_slots_no_c": true,
+    "mix_ham2_slots_always_c": true,
+    "mix_ham3_is_zab": true,
+    "mix_ham1_eq_flip_c": false,
+    "mix_ham2_no_c": false,
+    "mix_ham3_never_zab": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "mix_ham1_slots_no_c": "LEMMA",
+    "mix_ham2_slots_always_c": "LEMMA",
+    "mix_ham3_is_zab": "LEMMA",
+    "mix_ham1_eq_flip_c": "KILLED",
+    "mix_ham2_no_c": "KILLED",
+    "mix_ham3_never_zab": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

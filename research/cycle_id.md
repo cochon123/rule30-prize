@@ -13,7 +13,7 @@ Not a prize claim: mixed slot restrictions still leave mixed AND xor
 as the non-cob AND (Cycle HY) without a Green-side formula, and the
 center AND remains, so covering never-fail stays open.
 
-Helper: `MIX_HAM1_SLOTS`. Certify: `python3 research/cycle_id.py --certify`.
+Helper: `MIX_HAM1_SLOTS`. Certify: `python3 research/cycle_id.py --certify` (~0.11s).
 Dump: `research/cycle_id.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HT/HU/HY/IA/IB/IC (16-row table; covering \(k\le 6\);
