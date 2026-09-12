@@ -15,7 +15,7 @@ never-fail stays open. This is the 3-window shadow of Cycle JN’s
 `pair_dbl_rev` on `LIFT1`.
 
 Helper: `pair_dbl_rev`. Certify:
-`python3 research/cycle_jt.py --certify` (~0.16s).
+`python3 research/cycle_jt.py --certify` (~0.14s).
 Dump: `research/cycle_jt.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IY/JH/JS (\(n<64\); covering \(k\le 6\); no
