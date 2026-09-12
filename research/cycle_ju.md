@@ -15,7 +15,7 @@ packed AND on those columns (and on pairs), so covering never-fail
 stays open.
 
 Helper: `cob_lift5`. Certify:
-`python3 research/cycle_ju.py --certify` (~0.16s).
+`python3 research/cycle_ju.py --certify` (~0.22s).
 Dump: `research/cycle_ju.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IR/JE/JF/JH/JI/JP/JT (\(n<64\); covering \(k\le 6\);
