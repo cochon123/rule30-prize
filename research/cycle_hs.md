@@ -15,7 +15,7 @@ vanish on \(G=1\), so every covering \(J_q\) would be 0 and covering
 would always fail. The packed row is not Green, so covering
 never-fail stays open.
 
-Helper: `GREEN_DIE`. Certify: `python3 research/cycle_hs.py --certify`.
+Helper: `GREEN_DIE`. Certify: `python3 research/cycle_hs.py --certify` (~0.07s).
 Dump: `research/cycle_hs.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HK/HR (8-row table and algebra \(n<64\);
