@@ -9,7 +9,7 @@ leftover. The nine words that already odd-doubled at \(k=16\) or
 \(k=17\) are \(n_0=16\); Cycle DR has no ident-0 in 262144 extras,
 and extra 262145 from \(k=16\) or \(k=17\) lands in \(k=18\), with a
 second such extra past \(k=18\). Hence at most one odd in \(k=18\) on
-every \(n_0=2\) scar, and \(\pi_{19}\in\{16,32,64\}\) divides
+every \(n_0=2\) scar, and \(\pi_{19}\in\{32,64\}\) divides
 \(2^{18}\). Kills: `00001101` never odd-doubles; every \(n_0=2\)
 scar skips \(k=18\). Do **not** claim a closed form for 271197. Do
 **not** bump the \(n_0=8\) scan past 523777 or \(n_0=16\) extras past
@@ -51,7 +51,8 @@ that odd-doubled at \(k=16\) or \(k=17\) has at most one ident-0 in
 ## Lemma (period-\(H\) seed at \(k=19\) for every \(n_0=2\) scar)
 
 At most one odd in annulus 18, on top of Cycle EL’s counts through
-17. Then \(\pi_{19}\in\{16,32,64\}\), all dividing \(2^{18}\). Cycle
+17. A \(k=16\) odd skips \(k=17\), so \(\pi_{19}\in\{32,64\}\), both
+dividing \(2^{18}\). Cycle
 DU: at most one odd per annulus implies the seed.
 
 ## Killed

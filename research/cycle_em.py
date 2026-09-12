@@ -8,7 +8,7 @@ image is 252580<E16, so no second ident-0 in k=18 leftover. The nine
 words that already odd-doubled at k=16 or k=17 are n0=16; Cycle DR has
 no ident-0 in 262144 extras, and extra 262145 from k=16 or k=17 lands
 in k=18, with a second such extra past k=18. Hence at most one odd in
-k=18 on every n0=2 scar, and pi_19 in {16,32,64} divides 2^18. Kills:
+k=18 on every n0=2 scar, and pi_19 in {32,64} divides 2^18. Kills:
 00001101 never odd-doubles; every n0=2 scar skips k=18. Do not claim a
 closed form for 271197; do not bump n0=8 past 523777 or n0=16 past
 2^18; do not claim the seed for all k. Not a prize claim.
@@ -112,15 +112,15 @@ def k18_window() -> dict:
 
 
 def seed_k19() -> dict:
-    pis = []
-    for a in (0, 1):
-        for b in (0, 1):
-            for c in (0, 1):
-                pis.append(pi_from_odds(ODD_COUNTS_1_15 + [a, b, c]))
+    """k=16 odd skips k=17, so (k16,k17) is never (1,1). Occurring pi in {32,64}."""
+    occurring = ((1, 0, 0), (1, 0, 1), (0, 1, 0), (0, 1, 1), (0, 0, 1))
+    pis = [pi_from_odds(ODD_COUNTS_1_15 + list(abc)) for abc in occurring]
     h = 1 << 18
+    both = pi_from_odds(ODD_COUNTS_1_15 + [1, 1, 0])
     ok = (
-        set(pis) == {16, 32, 64}
+        set(pis) == {32, 64}
         and all(h % p == 0 for p in pis)
+        and both == 64
         and seed_from_at_most_one(19)
         and max(ODD_COUNTS_1_15) <= 1
     )
@@ -162,7 +162,7 @@ def self_checks(c20, hold: dict, win: dict, seed: dict, pref: dict) -> dict:
     assert win["land"]["k_lo"] == 18 and win["leftover"] < E16
     assert win["e16_from_k16"]["k_lo"] == 18
     assert win["e16_from_k17"]["k_lo"] == 18
-    assert seed["pi_max"] == 64 and seed["H19"] == 1 << 18
+    assert seed["pis"] == [32, 64] and seed["H19"] == 1 << 18
     return {"all_ok": True}
 
 
