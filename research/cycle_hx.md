@@ -13,7 +13,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: both-cob pairs dropping out still leaves cob/non-cob
 and both-non-cob disagreements, so covering never-fail stays open.
 
-Helper: `reverse_four`. Certify: `python3 research/cycle_hx.py --certify`.
+Helper: `reverse_four`. Certify: `python3 research/cycle_hx.py --certify` (~0.11s).
 Dump: `research/cycle_hx.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HJ/HT/HU/HW (16-row table; covering \(k\le 6\); no
