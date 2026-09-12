@@ -13,7 +13,7 @@ consecutive `11` to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: this is covering geometry of Cycle KQ's family
 parity, not packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kr.py --certify`.
+Certify: `python3 research/cycle_kr.py --certify` (~0.13s).
 Dump: `research/cycle_kr.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/HG/KH/KJ/KM/KQ (covering \(k\le 6\); no Fermat table, no extra
