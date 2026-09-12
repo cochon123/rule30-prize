@@ -1,0 +1,95 @@
+{
+  "cycle": "EJ",
+  "wall_s": 0.0,
+  "checks": {
+    "all_ok": true
+  },
+  "empty_k": [
+    3,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "odd_k": [
+    2,
+    4,
+    8
+  ],
+  "landings": {
+    "22": {
+      "lo": 26,
+      "hi": 29,
+      "k_lo": 4,
+      "k_hi": 4
+    },
+    "372": {
+      "lo": 388,
+      "hi": 403,
+      "k_lo": 8,
+      "k_hi": 8
+    },
+    "52809": {
+      "lo": 53065,
+      "hi": 53320,
+      "k_lo": 15,
+      "k_hi": 15
+    }
+  },
+  "seed_k16": {
+    "pi16": 16,
+    "H16": 32768,
+    "counts": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "lemmas": {
+    "n0_2_odds_only_at_k_2_4_8_through_15": true,
+    "n0_2_skips_empty_annuli_3_5_7_9_14": true,
+    "k15_even_not_odd": true,
+    "at_most_one_odd_annuli_2_to_15_on_n0_2": true,
+    "period_H_seed_at_k16_every_n0_2": true,
+    "FAM89_would_land_k6": true,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "k16_odd_every_n0_2": null,
+    "pi_formula_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n0_2_odds_only_at_k_2_4_8_through_15": "LEMMA",
+    "n0_2_skips_empty_annuli_3_5_7_9_14": "LEMMA",
+    "k15_even_not_odd": "LEMMA",
+    "at_most_one_odd_annuli_2_to_15_on_n0_2": "LEMMA",
+    "period_H_seed_at_k16_every_n0_2": "LEMMA",
+    "FAM89_would_land_k6": "LEMMA",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "k16_odd_every_n0_2": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
