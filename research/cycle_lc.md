@@ -15,7 +15,7 @@ Not a prize claim: this is the lowest live packed AND slot, not a
 Green-only formula for packed AND XOR \(J\), so covering never-fail
 stays open.
 
-Certify: `python3 research/cycle_lc.py --certify`.
+Certify: `python3 research/cycle_lc.py --certify` (~0.21s).
 Dump: `research/cycle_lc.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HI/HU/KH/LB (covering \(k\le 6\); no Fermat table, no
