@@ -1,0 +1,79 @@
+{
+  "cycle": "EQ",
+  "wall_s": 20.046,
+  "checks": {
+    "all_ok": true
+  },
+  "pred32": "00000001011101010010010000101011",
+  "even": 414990,
+  "max_odd": 2097152,
+  "n_fam": 32,
+  "scan": {
+    "even_at": 414990,
+    "n_odd": 0,
+    "n_none": 32,
+    "n_pred": 32,
+    "stopped_at": 2097154
+  },
+  "complement_pairs": 16,
+  "land": {
+    "ok": true,
+    "k16_even": {
+      "ok": false,
+      "k_lo": 18,
+      "k_hi": 19
+    },
+    "k17_even": {
+      "ok": true,
+      "k_lo": 19,
+      "k_hi": 19
+    },
+    "k18_even": {
+      "ok": true,
+      "k_lo": 19,
+      "k_hi": 19
+    },
+    "odd_gt_2_21_from_k16": {
+      "ok": true,
+      "k_lo": 21,
+      "k_hi": 21
+    },
+    "max_odd": 2097152
+  },
+  "lemmas": {
+    "fam414990_preds_rots_of_W": true,
+    "pred32_min_period_32": true,
+    "fam414990_complement_closed": true,
+    "fam414990_no_odd_through_2_21": true,
+    "preds_not_rotation_orbit": false,
+    "family_not_complement_closed": false,
+    "odd_before_2_21": false,
+    "T0_closed_form_beyond_necklace": null,
+    "W_on_n0_2_cascade": false,
+    "min_odd_all_n16_gt_2_21": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "pi_formula_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "fam414990_preds_rots_of_W": "LEMMA",
+    "pred32_min_period_32": "LEMMA",
+    "fam414990_complement_closed": "LEMMA",
+    "fam414990_no_odd_through_2_21": "LEMMA",
+    "preds_not_rotation_orbit": "KILLED",
+    "family_not_complement_closed": "KILLED",
+    "odd_before_2_21": "KILLED",
+    "T0_closed_form_beyond_necklace": "PREFIX",
+    "W_on_n0_2_cascade": "KILLED",
+    "min_odd_all_n16_gt_2_21": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
