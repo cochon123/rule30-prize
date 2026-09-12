@@ -22,7 +22,7 @@ even-spine scan past \(k=18\). Do **not** bump all \(n_0=16\) past
 Not a prize claim: an on-support translation plus a live left AND does
 not prove covering never-fail.
 
-Helper: `python3 research/cycle_fi.py --certify`. Dump:
+Helper: `python3 research/cycle_fi.py --certify` (~0.11s). Dump:
 `research/cycle_fi.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FG/FH (packed check on \(k=2..6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
