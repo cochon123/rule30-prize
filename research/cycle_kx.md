@@ -13,7 +13,7 @@ all \(n_0=16\) past 414990. Do **not** increment consecutive `11` to
 Not a prize claim: this locates Cycle KW's extra right, not packed
 AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kx.py --certify`.
+Certify: `python3 research/cycle_kx.py --certify` (~0.14s).
 Dump: `research/cycle_kx.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/HG/KH/KT/KV/KW (\(k\le 10\) Green-only; covering \(k\le 6\); no
