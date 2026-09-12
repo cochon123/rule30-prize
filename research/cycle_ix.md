@@ -14,7 +14,7 @@ Not a prize claim: pair kind still leaves packed AND on every kind
 (all three fire), so covering never-fail stays open.
 
 Helper: `SLOT_KIND`, `slot_kind`. Certify:
-`python3 research/cycle_ix.py --certify`.
+`python3 research/cycle_ix.py --certify` (~0.40s).
 Dump: `research/cycle_ix.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IT (\(n<64\); covering \(k\le 6\); no Fermat
