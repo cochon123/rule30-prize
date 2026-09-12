@@ -15,7 +15,7 @@ bump all \(n_0=16\) past 414990. Do **not** increment consecutive
 Not a prize claim: this is the left/right split of Cycle KV, not
 packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kw.py --certify`.
+Certify: `python3 research/cycle_kw.py --certify` (~0.14s).
 Dump: `research/cycle_kw.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/KR/KS/KT/KV (\(k\le 10\) Green-only; covering \(k\le 6\); no
