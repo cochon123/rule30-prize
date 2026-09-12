@@ -1,0 +1,310 @@
+{
+  "cycle": "KC",
+  "wall_s": 0.118,
+  "checks": {
+    "all_ok": true
+  },
+  "extra_rev_table": {
+    "n_ok": 16
+  },
+  "dual_extra_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_die": 1167,
+    "n_cont": 1146,
+    "n_die_pair": 1137,
+    "n_cont_pair": 1093,
+    "n_ctr_die": 30,
+    "n_ctr_cont": 53,
+    "n_die_self": 84,
+    "n_die_to_cont": 90,
+    "n_die_andxor": 294,
+    "n_cont_self": 56,
+    "n_cont_rev": 57,
+    "n_cont_to_die": 90,
+    "n_cont_andxor": 831,
+    "n_die_types": 16,
+    "n_cont_types": 16,
+    "types_die": {
+      "0000": 60,
+      "0001": 72,
+      "0010": 55,
+      "0011": 90,
+      "0100": 69,
+      "0101": 55,
+      "0110": 67,
+      "0111": 64,
+      "1000": 89,
+      "1001": 80,
+      "1010": 88,
+      "1011": 69,
+      "1100": 57,
+      "1101": 74,
+      "1110": 64,
+      "1111": 84
+    },
+    "types_cont": {
+      "0000": 104,
+      "0001": 65,
+      "0010": 69,
+      "0011": 56,
+      "0100": 81,
+      "0101": 60,
+      "0110": 77,
+      "0111": 54,
+      "1000": 57,
+      "1001": 56,
+      "1010": 90,
+      "1011": 55,
+      "1100": 57,
+      "1101": 54,
+      "1110": 68,
+      "1111": 90
+    },
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_die": 0,
+          "n_cont": 0,
+          "n_die_pair": 0,
+          "n_cont_pair": 0,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_die": 0,
+          "n_cont": 0,
+          "n_die_pair": 0,
+          "n_cont_pair": 0,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_die": 0,
+          "n_cont": 0,
+          "n_die_pair": 0,
+          "n_cont_pair": 0,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_die": 1,
+          "n_cont": 3,
+          "n_die_pair": 1,
+          "n_cont_pair": 1,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_die": 0,
+          "n_cont": 4,
+          "n_die_pair": 0,
+          "n_cont_pair": 2,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_die": 2,
+          "n_cont": 7,
+          "n_die_pair": 1,
+          "n_cont_pair": 4,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_die": 4,
+          "n_cont": 8,
+          "n_die_pair": 3,
+          "n_cont_pair": 6,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_die": 16,
+          "n_cont": 19,
+          "n_die_pair": 14,
+          "n_cont_pair": 16,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_die": 23,
+          "n_cont": 22,
+          "n_die_pair": 21,
+          "n_cont_pair": 20,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_die": 48,
+          "n_cont": 56,
+          "n_die_pair": 46,
+          "n_cont_pair": 53,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_die": 62,
+          "n_cont": 75,
+          "n_die_pair": 61,
+          "n_cont_pair": 71,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_die": 182,
+          "n_cont": 162,
+          "n_die_pair": 178,
+          "n_cont_pair": 155,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_die": 244,
+          "n_cont": 228,
+          "n_die_pair": 240,
+          "n_cont_pair": 219,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_die": 585,
+          "n_cont": 562,
+          "n_die_pair": 572,
+          "n_cont_pair": 546,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_die_self": {
+    "k": 2,
+    "s": 31,
+    "n": 4,
+    "j": 0,
+    "j2": 8,
+    "p": 40,
+    "p2": 24,
+    "four": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "four2": [
+      1,
+      0,
+      1,
+      0
+    ]
+  },
+  "killed_cont_rev": {
+    "k": 1,
+    "s": 13,
+    "n": 3,
+    "j": 1,
+    "j2": 5,
+    "p": 18,
+    "p2": 10,
+    "four": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "four2": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "rev": [
+      1,
+      1,
+      0,
+      0
+    ]
+  },
+  "killed_die_andxor0": {
+    "k": 4,
+    "s": 49,
+    "n": 23,
+    "j": 13,
+    "j2": 33,
+    "p": 70,
+    "p2": 30,
+    "four": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "four2": [
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "lemmas": {
+    "extra_reverse": true,
+    "die_dual_all_16": true,
+    "cont_dual_all_16": true,
+    "covering_dual_extra": true,
+    "die_self": false,
+    "cont_rev": false,
+    "die_andxor0": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "extra_reverse": "LEMMA",
+    "die_dual_all_16": "LEMMA",
+    "cont_dual_all_16": "LEMMA",
+    "covering_dual_extra": "LEMMA",
+    "die_self": "KILLED",
+    "cont_rev": "KILLED",
+    "die_andxor0": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
