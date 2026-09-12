@@ -15,7 +15,7 @@ Green ones, and the center AND plus mixed slice remain, so covering
 never-fail stays open.
 
 Helper: `ham3_and_xor`, `bn_and_xor`. Certify:
-`python3 research/cycle_ic.py --certify`.
+`python3 research/cycle_ic.py --certify` (~0.11s).
 Dump: `research/cycle_ic.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HT/HU/HX/HY/IB (16-row table; covering \(k\le 6\); no
