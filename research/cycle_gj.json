@@ -1,0 +1,56 @@
+{
+  "cycle": "GJ",
+  "wall_s": 0.0,
+  "checks": {
+    "all_ok": true
+  },
+  "hit_m": {
+    "n_ok": 84,
+    "n_g": 84
+  },
+  "killed_m_eq_2U_minus_2_pre": {
+    "k": 2,
+    "m0": 14,
+    "two_U_minus_2": 6
+  },
+  "killed_m_indep_q": {
+    "m0": 14,
+    "m1": 6
+  },
+  "killed_last_m_eq_half_W": {
+    "m_last": 6,
+    "half_W_minus_2": 14
+  },
+  "lemmas": {
+    "m_eq_2U_Q_minus_q_minus_2": true,
+    "m_eq_2U_minus_2_plus_gap_over_2": true,
+    "G_m_2U_minus_2_eq_1_at_hits": true,
+    "m_eq_2U_minus_2_on_precone": false,
+    "m_independent_of_q": false,
+    "last_m_eq_W_over_2_minus_2": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "m_eq_2U_Q_minus_q_minus_2": "LEMMA",
+    "m_eq_2U_minus_2_plus_gap_over_2": "LEMMA",
+    "G_m_2U_minus_2_eq_1_at_hits": "LEMMA",
+    "m_eq_2U_minus_2_on_precone": "KILLED",
+    "m_independent_of_q": "KILLED",
+    "last_m_eq_W_over_2_minus_2": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
