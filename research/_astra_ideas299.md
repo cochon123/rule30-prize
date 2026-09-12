@@ -766,7 +766,9 @@ iff they are Mersenne \(2^k-1\) or \(3\cdot 2^k-1\) (Cycle KM).
 The \(3\cdot 2^a-1\) Green row is
 \(f(d)\oplus f(d-U)\oplus f(d-3U)\oplus f(d-5U)\oplus f(d-6U)\)
 with \(U=2^a\) and \(f(t)=[t\ge 0,\,t\not\equiv 2\pmod{3}]\)
-(Cycle KN). Covering never fails iff
+(Cycle KN). That XOR splits into residue bands: low \(d\not\equiv 2\),
+middle \(d\not\equiv(1\text{ if }a\text{ even else }0)\), then
+\(f(d-U)\) and the middle rule at \(d-U\) (Cycle KO). Covering never fails iff
 \(\varphi^{(6)}=\varphi^{(10)}=I\Rightarrow\varphi^{(18)}\ne I\). The
 \(I=1\) slice is Cycle DT’s \(11\Rightarrow 0\); the \(I=0\) slice
 holds on the one DS instance \(k=15\). Equivalently the three
@@ -1360,7 +1362,10 @@ These are proposals.
    not claim it equals Mersenne \(G(2^a-1,d)\). Do not claim zeros
    are \(\min(j,2n-j)\equiv 2\pmod{3}\). Do not claim isolated AND
    xor equals covering \(J\) (fails at \((k,q)=(1,6),(3,10),(6,6)\)).
-   Do
+   Do not claim the \(3\cdot 2^a-1\) row is \(d\not\equiv 2\pmod{3}\)
+   throughout (Cycle KO killed that). Do not claim the middle band
+   zeros at \(\equiv 2\). Do not claim \([3U,5U)\) is \(f(d)\). Do
+   not claim the high band uses \(d\bmod 3\). Do
    not walk
    \(32U\).
 
