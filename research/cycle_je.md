@@ -15,7 +15,7 @@ leaves packed AND on those columns (and on pairs), so covering
 never-fail stays open.
 
 Helper: `lift5_rev`, `dual_iso_start`. Certify:
-`python3 research/cycle_je.py --certify`.
+`python3 research/cycle_je.py --certify` (~0.13s).
 Dump: `research/cycle_je.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IR/JD (\(n<64\); covering \(k\le 6\); no Fermat
