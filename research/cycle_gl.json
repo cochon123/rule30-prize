@@ -1,0 +1,58 @@
+{
+  "cycle": "GL",
+  "wall_s": 0.016,
+  "checks": {
+    "all_ok": true
+  },
+  "even_r": {
+    "n_ok": 84,
+    "n_all_even": 14,
+    "n_even_gap": 70
+  },
+  "killed_odd_r_ones": {
+    "k": 2,
+    "r": 5,
+    "G": 0
+  },
+  "killed_all_even_r": {
+    "k": 2,
+    "r": 8,
+    "G": 0
+  },
+  "killed_and_all_green": {
+    "k": 1,
+    "lo": 4,
+    "AND_lo": 0,
+    "AND_hi": 1
+  },
+  "lemmas": {
+    "hit_green_ones_only_even_r": true,
+    "all_even_r_are_ones_iff_k_le_1": true,
+    "odd_r_green_ones": false,
+    "all_even_r_are_ones": false,
+    "AND_on_all_green_ones": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "hit_green_ones_only_even_r": "LEMMA",
+    "all_even_r_are_ones_iff_k_le_1": "LEMMA",
+    "odd_r_green_ones": "KILLED",
+    "all_even_r_are_ones": "KILLED",
+    "AND_on_all_green_ones": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
