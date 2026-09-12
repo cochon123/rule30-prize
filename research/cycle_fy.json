@@ -1,0 +1,72 @@
+{
+  "cycle": "FY",
+  "wall_s": 0.02,
+  "checks": {
+    "all_ok": true
+  },
+  "residue_walk": {
+    "n_ok": 36,
+    "xor_zero": 36
+  },
+  "support_high_half": {
+    "n_ok": 15
+  },
+  "clip_corner": {
+    "n_ok": 36
+  },
+  "g_matches_walk": {
+    "n_ok": 2829
+  },
+  "killed_after_clip": {
+    "k": 2,
+    "s": 37,
+    "m": 2,
+    "G_unclip": 0,
+    "G_clip": 1
+  },
+  "killed_count_indep_W": {
+    "4U": 4,
+    "8U": 8,
+    "16U": 16
+  },
+  "killed_whole_window_xor0": {
+    "k": 2,
+    "unclip_xor": 0,
+    "n_clip": 3,
+    "whole_xor": 1
+  },
+  "lemmas": {
+    "residue_walk_2U_minus_1_to_U_minus_1": true,
+    "unclipped_hi_ones_count": true,
+    "unclipped_hi_XOR_vanishes": true,
+    "clip_corner_G_eq_1": true,
+    "unclipped_formula_after_clip": false,
+    "ones_count_independent_of_W": false,
+    "whole_window_hi_XOR_eq_0": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "residue_walk_2U_minus_1_to_U_minus_1": "LEMMA",
+    "unclipped_hi_ones_count": "LEMMA",
+    "unclipped_hi_XOR_vanishes": "LEMMA",
+    "clip_corner_G_eq_1": "LEMMA",
+    "unclipped_formula_after_clip": "KILLED",
+    "ones_count_independent_of_W": "KILLED",
+    "whole_window_hi_XOR_eq_0": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
