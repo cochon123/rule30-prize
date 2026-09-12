@@ -1,0 +1,252 @@
+{
+  "cycle": "IO",
+  "wall_s": 0.13,
+  "checks": {
+    "all_ok": true
+  },
+  "half_lift_table": {
+    "n_lift": 128,
+    "n_run3_n1": 128,
+    "n_iso": 230,
+    "n_iso_from11": 230
+  },
+  "half_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_g11": 8577,
+    "n_g11_n1": 4294,
+    "n_iso_n3": 3817,
+    "n_cov_lift": 2547,
+    "n_cov_iso": 4550,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_g11": 2,
+          "n_g11_n1": 2,
+          "n_iso_n3": 0,
+          "n_cov_lift": 1,
+          "n_cov_iso": 0,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_g11": 3,
+          "n_g11_n1": 2,
+          "n_iso_n3": 1,
+          "n_cov_lift": 1,
+          "n_cov_iso": 2,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_g11": 4,
+          "n_g11_n1": 2,
+          "n_iso_n3": 2,
+          "n_cov_lift": 1,
+          "n_cov_iso": 2,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_g11": 14,
+          "n_g11_n1": 8,
+          "n_iso_n3": 4,
+          "n_cov_lift": 4,
+          "n_cov_iso": 6,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_g11": 15,
+          "n_g11_n1": 8,
+          "n_iso_n3": 5,
+          "n_cov_lift": 4,
+          "n_cov_iso": 6,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_g11": 39,
+          "n_g11_n1": 20,
+          "n_iso_n3": 17,
+          "n_cov_lift": 12,
+          "n_cov_iso": 22,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_g11": 44,
+          "n_g11_n1": 22,
+          "n_iso_n3": 20,
+          "n_cov_lift": 12,
+          "n_cov_iso": 22,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_g11": 132,
+          "n_g11_n1": 66,
+          "n_iso_n3": 56,
+          "n_cov_lift": 40,
+          "n_cov_iso": 70,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_g11": 147,
+          "n_g11_n1": 74,
+          "n_iso_n3": 63,
+          "n_cov_lift": 40,
+          "n_cov_iso": 70,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_g11": 419,
+          "n_g11_n1": 210,
+          "n_iso_n3": 187,
+          "n_cov_lift": 128,
+          "n_cov_iso": 230,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_g11": 468,
+          "n_g11_n1": 234,
+          "n_iso_n3": 210,
+          "n_cov_lift": 128,
+          "n_cov_iso": 230,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_g11": 1364,
+          "n_g11_n1": 682,
+          "n_iso_n3": 606,
+          "n_cov_lift": 416,
+          "n_cov_iso": 742,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_g11": 1523,
+          "n_g11_n1": 762,
+          "n_iso_n3": 677,
+          "n_cov_lift": 416,
+          "n_cov_iso": 742,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_g11": 4403,
+          "n_g11_n1": 2202,
+          "n_iso_n3": 1969,
+          "n_cov_lift": 1344,
+          "n_cov_iso": 2406,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_even_one_iso": {
+    "k": 0,
+    "s": 3,
+    "n": 1,
+    "j": 0,
+    "p": 6,
+    "m": 0,
+    "neigh": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "kind": "left"
+  },
+  "killed_iso_not_half11": {
+    "k": 0,
+    "s": 3,
+    "n": 3,
+    "j": 0,
+    "p": 10,
+    "half": [
+      1,
+      1,
+      1
+    ]
+  },
+  "killed_odd_m_no_triple": {
+    "k": 1,
+    "s": 5,
+    "n": 7,
+    "j": 6,
+    "p": 8,
+    "m": 3,
+    "G_m": 1,
+    "G": [
+      1,
+      1,
+      1
+    ]
+  },
+  "lemmas": {
+    "even_m_ones_lift_triples": true,
+    "iso_from_half11": true,
+    "covering_half_lift": true,
+    "even_m_one_lifts_iso": false,
+    "iso_not_from_half11": false,
+    "odd_m_one_never_triple": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "even_m_ones_lift_triples": "LEMMA",
+    "iso_from_half11": "LEMMA",
+    "covering_half_lift": "LEMMA",
+    "even_m_one_lifts_iso": "KILLED",
+    "iso_not_from_half11": "KILLED",
+    "odd_m_one_never_triple": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

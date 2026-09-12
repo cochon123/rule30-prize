@@ -17,7 +17,7 @@ Not a prize claim: the half-index lift still leaves packed AND on
 odd-\(n\) Green pairs and triples, so covering never-fail stays open.
 
 Helper: `even_one_neigh`, `iso_from_half11`. Certify:
-`python3 research/cycle_io.py --certify`.
+`python3 research/cycle_io.py --certify` (~0.13s).
 Dump: `research/cycle_io.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN (\(n<64\); covering \(k\le 6\); no Fermat
