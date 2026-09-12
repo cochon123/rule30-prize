@@ -14,7 +14,7 @@ Not a prize claim: the slot partition still leaves packed AND on
 every slot type, so covering never-fail stays open.
 
 Helper: `IMAGE_ONES`, `g1_slot`. Certify:
-`python3 research/cycle_is.py --certify`.
+`python3 research/cycle_is.py --certify` (~0.28s).
 Dump: `research/cycle_is.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IP/IR (\(n<64\); covering \(k\le 6\); no Fermat
