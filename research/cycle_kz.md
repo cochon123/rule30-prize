@@ -15,7 +15,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: this is the run shape of Cycle KN's \(3U-1\)
 row, not packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kz.py --certify`.
+Certify: `python3 research/cycle_kz.py --certify` (~0.14s).
 Dump: `research/cycle_kz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AT/CA/IP/IR/KH/KJ/KP/KY (\(a\le 8\) Green-only; covering \(k\le 6\); no

@@ -1,0 +1,241 @@
+{
+  "cycle": "KZ",
+  "wall_s": 0.135,
+  "checks": {
+    "all_ok": true
+  },
+  "tri_iso_table": {
+    "n_ok": 9,
+    "rows": {
+      "0": {
+        "n": 2,
+        "g_wt": 3,
+        "n_run1": 3,
+        "n_run2": 0,
+        "n_run3": 0,
+        "iso": [
+          0,
+          2,
+          4
+        ],
+        "r3": []
+      },
+      "1": {
+        "n": 5,
+        "g_wt": 9,
+        "n_run1": 0,
+        "n_run2": 0,
+        "n_run3": 3,
+        "iso": [],
+        "r3": [
+          [
+            0,
+            3
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            8,
+            3
+          ]
+        ]
+      },
+      "2": {
+        "n": 11,
+        "g_wt": 15,
+        "n_run1": 3,
+        "n_run2": 6,
+        "n_run3": 0,
+        "iso": [
+          3,
+          11,
+          19
+        ],
+        "r3": []
+      },
+      "3": {
+        "n": 23,
+        "g_wt": 33,
+        "n_run1": 0,
+        "n_run2": 12,
+        "n_run3": 3,
+        "iso": [],
+        "r3": [
+          [
+            6,
+            3
+          ],
+          [
+            22,
+            3
+          ],
+          [
+            38,
+            3
+          ]
+        ]
+      },
+      "4": {
+        "n": 47,
+        "g_wt": 63,
+        "n_run1": 3,
+        "n_run2": 30,
+        "n_run3": 0,
+        "iso": [
+          15,
+          47,
+          79
+        ],
+        "r3": []
+      },
+      "5": {
+        "n": 95,
+        "g_wt": 129,
+        "n_run1": 0,
+        "n_run2": 60,
+        "n_run3": 3,
+        "iso": [],
+        "r3": [
+          [
+            30,
+            3
+          ],
+          [
+            94,
+            3
+          ],
+          [
+            158,
+            3
+          ]
+        ]
+      },
+      "6": {
+        "n": 191,
+        "g_wt": 255,
+        "n_run1": 3,
+        "n_run2": 126,
+        "n_run3": 0,
+        "iso": [
+          63,
+          191,
+          319
+        ],
+        "r3": []
+      },
+      "7": {
+        "n": 383,
+        "g_wt": 513,
+        "n_run1": 0,
+        "n_run2": 252,
+        "n_run3": 3,
+        "iso": [],
+        "r3": [
+          [
+            126,
+            3
+          ],
+          [
+            382,
+            3
+          ],
+          [
+            638,
+            3
+          ]
+        ]
+      },
+      "8": {
+        "n": 767,
+        "g_wt": 1023,
+        "n_run1": 3,
+        "n_run2": 510,
+        "n_run3": 0,
+        "iso": [
+          255,
+          767,
+          1279
+        ],
+        "r3": []
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_one_iso": {
+    "a": 2,
+    "n": 11,
+    "iso": [
+      3,
+      11,
+      19
+    ]
+  },
+  "killed_one_r3": {
+    "a": 1,
+    "n": 5,
+    "r3": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        8,
+        3
+      ]
+    ]
+  },
+  "killed_odd_iso": {
+    "a": 1,
+    "n": 5,
+    "iso": []
+  },
+  "killed_even_r3": {
+    "a": 2,
+    "n": 11,
+    "r3": []
+  },
+  "lemmas": {
+    "tri_three_iso": true,
+    "mersenne_centre_iso": true,
+    "mer10_extra_j": true,
+    "one_iso": false,
+    "one_r3": false,
+    "odd_has_iso": false,
+    "even_has_r3": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "tri_three_iso": "LEMMA",
+    "mersenne_centre_iso": "LEMMA",
+    "mer10_extra_j": "LEMMA",
+    "one_iso": "KILLED",
+    "one_r3": "KILLED",
+    "odd_has_iso": "KILLED",
+    "even_has_r3": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
