@@ -13,7 +13,7 @@ Not a prize claim: the center-slot formula still leaves packed AND
 on both types (and the seed), so covering never-fail stays open.
 
 Helper: `center_core_slot`. Certify:
-`python3 research/cycle_iw.py --certify`.
+`python3 research/cycle_iw.py --certify` (~0.11s).
 Dump: `research/cycle_iw.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IT/IV (\(n<64\); covering \(k\le 6\); no Fermat
