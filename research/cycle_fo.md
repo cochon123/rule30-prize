@@ -16,7 +16,7 @@ even-spine scan past \(k=18\). Do **not** bump all \(n_0=16\) past
 Not a prize claim: a Mersenne Green identity plus left cancellation
 on a non-covering target \(34U\) does not prove covering never-fail.
 
-Helper: `python3 research/cycle_fo.py --certify`. Dump:
+Helper: `python3 research/cycle_fo.py --certify` (~0.10s). Dump:
 `research/cycle_fo.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FJ/FK/FM/FN (packed check on
 \(k=2..5\); no Fermat table, no extra window, no \(n_0=16\) window).
