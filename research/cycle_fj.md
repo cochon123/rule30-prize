@@ -19,7 +19,7 @@ even-spine scan past \(k=18\). Do **not** bump all \(n_0=16\) past
 Not a prize claim: pinning the mismatch to the right strip \(p>10U\)
 does not prove covering never-fail.
 
-Helper: `python3 research/cycle_fj.py --certify`. Dump:
+Helper: `python3 research/cycle_fj.py --certify` (~0.12s). Dump:
 `research/cycle_fj.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FH/FI (packed check on \(k=2..6\);
 tail kill only at \(k=3\); no Fermat table, no extra window, no
