@@ -16,7 +16,7 @@ Not a prize claim: a period-3 necklace for fresh AND does not give
 a closed form along Green ones, so covering never-fail stays open.
 
 Helper: `per3_word` / `CONT_TERM`. Certify:
-`python3 research/cycle_hq.py --certify`. Dump:
+`python3 research/cycle_hq.py --certify` (~0.13s). Dump:
 `research/cycle_hq.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HN/HO/HP (finite tables; covering \(k\le 6\);
