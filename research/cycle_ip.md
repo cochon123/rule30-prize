@@ -14,7 +14,7 @@ Not a prize claim: the run dictionary still leaves packed AND on
 odd-\(n\) Green pairs and triples, so covering never-fail stays open.
 
 Helper: `half_run_image`, `g_runs`. Certify:
-`python3 research/cycle_ip.py --certify`.
+`python3 research/cycle_ip.py --certify` (~0.13s).
 Dump: `research/cycle_ip.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IO (\(n<64\); covering \(k\le 6\); no Fermat
