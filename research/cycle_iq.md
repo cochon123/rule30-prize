@@ -14,7 +14,7 @@ Not a prize claim: parent-run kind still leaves packed AND on those
 pairs and triples, so covering never-fail stays open.
 
 Helper: `g11_parent`. Certify:
-`python3 research/cycle_iq.py --certify`.
+`python3 research/cycle_iq.py --certify` (~0.20s).
 Dump: `research/cycle_iq.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IP (\(n<64\); covering \(k\le 6\); no Fermat
