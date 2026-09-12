@@ -14,7 +14,7 @@ Not a prize claim: dual slots still leave packed AND on every slot
 type (and the seed), so covering never-fail stays open.
 
 Helper: `dual_slot`, `dual_core_slot`. Certify:
-`python3 research/cycle_iu.py --certify`.
+`python3 research/cycle_iu.py --certify` (~0.42s).
 Dump: `research/cycle_iu.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IS/IT (\(n<64\); covering \(k\le 6\); no Fermat
