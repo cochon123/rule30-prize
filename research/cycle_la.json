@@ -1,0 +1,175 @@
+{
+  "cycle": "LA",
+  "wall_s": 0.135,
+  "checks": {
+    "all_ok": true
+  },
+  "mer_tri_table": {
+    "n_ok": 9,
+    "rows": {
+      "0": {
+        "nm": 0,
+        "nt": 2,
+        "mer_special": 0,
+        "from_mer": [
+          0,
+          2,
+          4
+        ],
+        "prefix": 0
+      },
+      "1": {
+        "nm": 1,
+        "nt": 5,
+        "mer_special": 0,
+        "from_mer": [
+          0,
+          4,
+          8
+        ],
+        "prefix": 2
+      },
+      "2": {
+        "nm": 3,
+        "nt": 11,
+        "mer_special": 3,
+        "from_mer": [
+          3,
+          11,
+          19
+        ],
+        "prefix": 6
+      },
+      "3": {
+        "nm": 7,
+        "nt": 23,
+        "mer_special": 6,
+        "from_mer": [
+          6,
+          22,
+          38
+        ],
+        "prefix": 14
+      },
+      "4": {
+        "nm": 15,
+        "nt": 47,
+        "mer_special": 15,
+        "from_mer": [
+          15,
+          47,
+          79
+        ],
+        "prefix": 30
+      },
+      "5": {
+        "nm": 31,
+        "nt": 95,
+        "mer_special": 30,
+        "from_mer": [
+          30,
+          94,
+          158
+        ],
+        "prefix": 62
+      },
+      "6": {
+        "nm": 63,
+        "nt": 191,
+        "mer_special": 63,
+        "from_mer": [
+          63,
+          191,
+          319
+        ],
+        "prefix": 126
+      },
+      "7": {
+        "nm": 127,
+        "nt": 383,
+        "mer_special": 126,
+        "from_mer": [
+          126,
+          382,
+          638
+        ],
+        "prefix": 254
+      },
+      "8": {
+        "nm": 255,
+        "nt": 767,
+        "mer_special": 255,
+        "from_mer": [
+          255,
+          767,
+          1279
+        ],
+        "prefix": 510
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_prefix_only": {
+    "a": 2,
+    "got": [
+      3,
+      11,
+      19
+    ]
+  },
+  "killed_no_centre": {
+    "a": 2,
+    "n": 11
+  },
+  "killed_mer_off_prefix": {
+    "a": 2,
+    "m": 3,
+    "pref": 6
+  },
+  "killed_odd_not_mer": {
+    "a": 1,
+    "got": [
+      0,
+      4,
+      8
+    ]
+  },
+  "lemmas": {
+    "tri_from_mer": true,
+    "tri_three_iso": true,
+    "mersenne_centre_iso": true,
+    "prefix_only": false,
+    "no_centre": false,
+    "mer_off_prefix": false,
+    "odd_not_mer": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "tri_from_mer": "LEMMA",
+    "tri_three_iso": "LEMMA",
+    "mersenne_centre_iso": "LEMMA",
+    "prefix_only": "KILLED",
+    "no_centre": "KILLED",
+    "mer_off_prefix": "KILLED",
+    "odd_not_mer": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
