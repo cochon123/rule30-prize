@@ -15,7 +15,7 @@ never-fail (AND still has no closed form). Together with Cycle HC,
 \(j\)-index.
 
 Helper: `WINDOWS` / `odd_clock` from Cycles HC/GU. Certify:
-`python3 research/cycle_hd.py --certify` (~0.2s). Dump:
+`python3 research/cycle_hd.py --certify` (~0.13s). Dump:
 `research/cycle_hd.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FR/GU/GY/HA/HC (packed \(k\le 6\); no
 Fermat table, no extra window, no \(n_0=16\) window).
