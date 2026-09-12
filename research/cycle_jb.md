@@ -16,7 +16,7 @@ AND on every pair (all three kinds fire all four AND patterns), so
 covering never-fail stays open.
 
 Helper: `lift6_rev`. Certify:
-`python3 research/cycle_jb.py --certify`.
+`python3 research/cycle_jb.py --certify` (~0.15s).
 Dump: `research/cycle_jb.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IY/JA (\(n<64\); covering \(k\le 6\); no
