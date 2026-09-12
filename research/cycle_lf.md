@@ -15,7 +15,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: this is packed AND at \(p=14\), not a Green-only
 formula for packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_lf.py --certify`.
+Certify: `python3 research/cycle_lf.py --certify` (~0.22s).
 Dump: `research/cycle_lf.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HI/HU/KH/LC (covering \(k\le 6\); no Fermat table, no
