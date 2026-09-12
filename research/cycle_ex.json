@@ -1,0 +1,86 @@
+{
+  "cycle": "EX",
+  "wall_s": 0.036,
+  "checks": {
+    "all_ok": true
+  },
+  "complementary": {
+    "n_one": 4238,
+    "n_both": 0
+  },
+  "z": {
+    "2": {
+      "n": 4,
+      "z_min": 1,
+      "z_max": 1
+    },
+    "4": {
+      "n": 16,
+      "z_min": 1,
+      "z_max": 2
+    },
+    "6": {
+      "n": 64,
+      "z_min": 1,
+      "z_max": 3
+    },
+    "8": {
+      "n": 256,
+      "z_min": 1,
+      "z_max": 4
+    },
+    "10": {
+      "n": 1024,
+      "z_min": 1,
+      "z_max": 5
+    }
+  },
+  "empty_n6": {
+    "n_empty": 4268,
+    "n_half": 1364,
+    "n_cons": 1364,
+    "n_slot_cons": 1171
+  },
+  "tstar": {
+    "z": 5,
+    "wt4": 11,
+    "wt6": 19,
+    "n6_consecutive_11": true
+  },
+  "lemmas": {
+    "n4_complementary_support": true,
+    "even_n0_z_at_least_one": true,
+    "empty_n4_pair_next_n6_11": true,
+    "even_n0_n6_half_period_11": true,
+    "even_n0_n6_consecutive_11": true,
+    "even_n0_n4_can_be_O": false,
+    "z_can_be_zero": false,
+    "n6_can_lack_half_period_11": false,
+    "n6_can_lack_consecutive_11": false,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n4_complementary_support": "LEMMA",
+    "even_n0_z_at_least_one": "LEMMA",
+    "empty_n4_pair_next_n6_11": "LEMMA",
+    "even_n0_n6_half_period_11": "LEMMA",
+    "even_n0_n6_consecutive_11": "LEMMA",
+    "even_n0_n4_can_be_O": "KILLED",
+    "z_can_be_zero": "KILLED",
+    "n6_can_lack_half_period_11": "KILLED",
+    "n6_can_lack_consecutive_11": "KILLED",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
