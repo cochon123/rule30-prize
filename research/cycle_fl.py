@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """Cycle FL: Delta_R lives on a sliding r-band of width 2U-1 until 9U.
 
-Cycle FK reduced Delta_R to G(10U-s-1, 8U-r) on AND p=10U+r. That
-Green is in support iff 2(s-6U+1) <= r <= min(2s-10U, 8U). On
-s in [6U,9U] the interval has length 2U-1; after 9U the r<=8U cap
-shrinks it to 20U-2s-1, ending at width 1. Outside the band the
-reduced Green vanishes, even when the AND fires (r=2 after s=6U).
+Cycle FK reduced Delta_R to G(10U-s-1, 8U-r) on AND p=10U+r.
+Green support is 2(s-6U+1) <= r <= 8U; the light cone further
+restricts r <= 2s-10U. On s in [6U,9U] that intersection has
+length 2U-1; after 9U the r<=8U cap shrinks it to 20U-2s-1,
+ending at width 1. For r < 2(s-6U+1) the reduced Green vanishes
+even when the AND fires (r=2 after s=6U).
 Kills: width 2U-1 on all of [6U,10U) (s=9U+1 clips); last AND at
 p=18U always live (dead at k=2). Do not claim J6=J10=0 implies
 J18=1 for all k; do not push even-spine past k=18; do not bump all
@@ -75,7 +76,7 @@ def killed_width_all() -> dict:
 
 
 def green_outside() -> dict:
-    """G(m, 8U-r)=0 outside the band, on endpoint samples."""
+    """G(m, 8U-r)=0 for r < lo or r > 8U (Green support, not light-cone)."""
     n_ok = 0
     for k in range(0, 13):
         U = 1 << k
@@ -84,12 +85,11 @@ def green_outside() -> dict:
             if not (t0 <= s < t1):
                 continue
             m = 10 * U - s - 1
-            lo, hi = r_band(s, U)
-            for r in (1, lo - 1 if lo > 1 else 1, lo, hi, hi + 1 if hi < 8 * U else hi):
+            lo, _hi = r_band(s, U)
+            samples = {1, max(lo - 1, 0), 8 * U + 1, 9 * U}
+            for r in samples:
                 g = G(m, 8 * U - r)
-                inside = lo <= r <= hi
-                if inside and r == 1:
-                    continue
+                inside = lo <= r <= 8 * U
                 if (not inside) and g != 0:
                     return {"ok": False, "k": k, "s": s, "r": r, "g": g}
                 n_ok += 1

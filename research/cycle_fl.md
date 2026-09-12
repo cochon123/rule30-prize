@@ -1,10 +1,10 @@
 # Cycle FL: \(\Delta_R\) lives on a sliding \(r\)-band of width \(2U-1\) until \(9U\)
 
 Cycle FK reduced \(\Delta_R\) to \(G(10U-s-1,8U-r)\) on AND \(p=10U+r\).
-That Green is in support iff
-\(2(s-6U+1)\le r\le\min(2s-10U,8U)\). On \(s\in[6U,9U]\) the interval
+Green support is \(2(s-6U+1)\le r\le 8U\); the light cone further
+restricts \(r\le 2s-10U\). On \(s\in[6U,9U]\) that intersection
 has length \(2U-1\); after \(9U\) the \(r\le 8U\) cap shrinks it to
-\(20U-2s-1\), ending at width \(1\). Outside the band the reduced
+\(20U-2s-1\), ending at width \(1\). For \(r<2(s-6U+1)\) the reduced
 Green vanishes, even when the AND fires (\(r=2\) after \(s=6U\)). Do
 **not** claim the width is \(2U-1\) on all of \([6U,10U)\) (it clips
 at \(s=9U+1\)). Do **not** claim the last AND at packed \(p=18U\) is
@@ -16,7 +16,7 @@ consecutive `11` to \(n_8\).
 Not a prize claim: locating \(\Delta_R\) on a sliding band does not
 prove covering never-fail.
 
-Helper: `python3 research/cycle_fl.py --certify`. Dump:
+Helper: `python3 research/cycle_fl.py --certify` (~0.05s). Dump:
 `research/cycle_fl.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FJ/FK (packed check on \(k=2..6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
