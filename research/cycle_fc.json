@@ -1,0 +1,46 @@
+{
+  "cycle": "FC",
+  "wall_s": 0.016,
+  "checks": {
+    "all_ok": true
+  },
+  "scar": {
+    "n_has00": 1240,
+    "n_no00": 124,
+    "n_align0": 0
+  },
+  "tstar": {
+    "n5_has00": true,
+    "n6_at_00_start": true,
+    "n7_has11": true,
+    "n7_type": "N"
+  },
+  "lemmas": {
+    "n5_00_n6_one_at_start": true,
+    "has00_n7_consecutive_11": true,
+    "no00_n7_O_has_11": true,
+    "even_n0_n7_consecutive_11_proved": true,
+    "n5_00_all_n6_zero_at_start": false,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n5_00_n6_one_at_start": "LEMMA",
+    "has00_n7_consecutive_11": "LEMMA",
+    "no00_n7_O_has_11": "LEMMA",
+    "even_n0_n7_consecutive_11_proved": "LEMMA",
+    "n5_00_all_n6_zero_at_start": "KILLED",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
