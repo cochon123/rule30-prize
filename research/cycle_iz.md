@@ -14,7 +14,7 @@ on every pair (all three kinds fire all four AND patterns), so
 covering never-fail stays open.
 
 Helper: `KIND_GREEN4`, `kind_green4`. Certify:
-`python3 research/cycle_iz.py --certify`.
+`python3 research/cycle_iz.py --certify` (~0.31s).
 Dump: `research/cycle_iz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IJ/IN/IV/IX (\(n<64\); covering \(k\le 6\); no
