@@ -13,7 +13,7 @@ Not a prize claim: a period-2 parent 3-window still leaves packed AND
 on those columns (and on pairs), so covering never-fail stays open.
 This is the 3-window shadow of Cycle JK’s `LIFT1` 4-stretch.
 
-Certify: `python3 research/cycle_jr.py --certify` (~0.16s).
+Certify: `python3 research/cycle_jr.py --certify` (~0.21s).
 Dump: `research/cycle_jr.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IR/JF/JH/JQ (\(n<64\); covering \(k\le 6\); no
