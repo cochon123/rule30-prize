@@ -16,7 +16,7 @@ Not a prize claim: this is Green-row shape for Cycle KM's
 \(3\cdot 2^a-1\) family, not the packed AND XOR \(J\), so covering
 never-fail stays open.
 
-Certify: `python3 research/cycle_kn.py --certify`.
+Certify: `python3 research/cycle_kn.py --certify` (~0.14s).
 Dump: `research/cycle_kn.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/AN/CA/KH/KJ/KM (\(a\le 8\); covering \(k\le 6\); no Fermat table, no
