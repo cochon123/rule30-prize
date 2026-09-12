@@ -18,7 +18,7 @@ compute \(\varphi^{(3,5,9)}\) at \(k=16\). Do **not** push the
 Not a prize claim: a complete \(n_0=8\) extra table does not give
 covering never-fail or at-most-one-odd for all \(k\).
 
-Helper: `python3 research/cycle_et.py --certify`. Dump:
+Helper: `python3 research/cycle_et.py --certify` (~5.1s). Dump:
 `research/cycle_et.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles DH/DM/DI/EE/EH/EP/ER/ES. Scalar
 `first_ident0_int` / `ident0_events` on the seven ES miss-class
