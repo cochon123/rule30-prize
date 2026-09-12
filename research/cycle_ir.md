@@ -14,7 +14,7 @@ those columns (and on pairs/triples), so covering never-fail stays
 open.
 
 Helper: `isolated_one`, `r3_middle`. Certify:
-`python3 research/cycle_ir.py --certify`.
+`python3 research/cycle_ir.py --certify` (~0.12s).
 Dump: `research/cycle_ir.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IP/IQ (\(n<64\); covering \(k\le 6\); no Fermat
