@@ -12,7 +12,7 @@ to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: there is no pointwise Green constraint on the
 packed 4-tuple, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kg.py --certify`.
+Certify: `python3 research/cycle_kg.py --certify` (~0.14s).
 Dump: `research/cycle_kg.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HT/HU/IG/IR/KB/KF (\(n<64\); covering \(k\le 6\);
