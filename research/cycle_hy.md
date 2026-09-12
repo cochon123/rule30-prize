@@ -14,7 +14,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: mixed one-sided AND still leaves both-non-cob
 disagreements and the center AND, so covering never-fail stays open.
 
-Helper: `mixed_oneside`. Certify: `python3 research/cycle_hy.py --certify`.
+Helper: `mixed_oneside`. Certify: `python3 research/cycle_hy.py --certify` (~0.11s).
 Dump: `research/cycle_hy.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HT/HU/HX (16-row table; covering \(k\le 6\); no
