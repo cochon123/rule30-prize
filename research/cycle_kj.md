@@ -12,7 +12,7 @@ consecutive `11` to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: this is Green-only freshman arithmetic, not the
 packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kj.py --certify`.
+Certify: `python3 research/cycle_kj.py --certify` (~0.15s).
 Dump: `research/cycle_kj.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/IP/KH/KI (\(m<128\); covering \(k\le 6\); no Fermat table, no
