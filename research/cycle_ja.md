@@ -18,7 +18,7 @@ covering never-fail stays open.
 
 Helper: `LIFT2`, `trinomial4`, `pair_lift6`, `kind_lift6`,
 `lift2_sat`. Certify:
-`python3 research/cycle_ja.py --certify`.
+`python3 research/cycle_ja.py --certify` (~0.14s).
 Dump: `research/cycle_ja.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IK/IL/IN (\(n<64\); covering \(k\le 6\); no
