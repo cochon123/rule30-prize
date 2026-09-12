@@ -16,7 +16,7 @@ This is the 3-window shadow of Cycle JJ’s `LIFT1` doubling (cob-stretch
 sends \(010\leftrightarrow 111\) to \(01110\leftrightarrow 10101\)).
 
 Helper: `iso3_double`. Certify:
-`python3 research/cycle_jq.py --certify` (~0.16s).
+`python3 research/cycle_jq.py --certify` (~0.21s).
 Dump: `research/cycle_jq.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IR/JF/JH/JP (\(n<64\); covering \(k\le 6\); no
