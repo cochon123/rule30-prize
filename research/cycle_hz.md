@@ -14,7 +14,7 @@ Not a prize claim: forbidding Hamming 4 on both-non-cob still leaves
 Hamming \(0,1,2,3\) disagreements and the center AND, so covering
 never-fail stays open.
 
-Helper: `complement_four`. Certify: `python3 research/cycle_hz.py --certify`.
+Helper: `complement_four`. Certify: `python3 research/cycle_hz.py --certify` (~0.11s).
 Dump: `research/cycle_hz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HT/HU/HX/HY (16-row table; covering \(k\le 6\); no
