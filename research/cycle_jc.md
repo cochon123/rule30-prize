@@ -16,7 +16,7 @@ never-fail stays open.
 
 Helper: `half_pair_k`, `half_neigh3`, `freshman_lift6`, `kind_half3`.
 Certify:
-`python3 research/cycle_jc.py --certify`.
+`python3 research/cycle_jc.py --certify` (~0.15s).
 Dump: `research/cycle_jc.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/JA (\(n<64\); covering \(k\le 6\); no Fermat
