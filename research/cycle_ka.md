@@ -16,7 +16,7 @@ leaves packed AND on \(G=1\) (CONT and FRESH both fire), so covering
 never-fail stays open.
 
 Helper: `tri_bit`, `tri_and`, `TRI_ONES`. Certify:
-`python3 research/cycle_ka.py --certify`.
+`python3 research/cycle_ka.py --certify` (~0.11s).
 Dump: `research/cycle_ka.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HU/JZ (\(16\)-row; covering \(k\le 6\); no
