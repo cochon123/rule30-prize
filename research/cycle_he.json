@@ -1,0 +1,63 @@
+{
+  "cycle": "HE",
+  "wall_s": 0.01,
+  "checks": {
+    "all_ok": true
+  },
+  "full_green": {
+    "n_ok": 195
+  },
+  "n_scan": {
+    "n_ok": 39
+  },
+  "killed_width_2U": {
+    "k": 2,
+    "s": 41,
+    "width": 61,
+    "flat": 7
+  },
+  "killed_and_indep_Q": {
+    "k": 0,
+    "n": 1,
+    "j": 2,
+    "tail": 0,
+    "mid10": 1
+  },
+  "killed_n_only_U": {
+    "k": 2,
+    "n": 15,
+    "U_minus_1": 3
+  },
+  "lemmas": {
+    "in_support_eq_full_Green_row": true,
+    "odd_s_enumerates_n_in_0_UQ": true,
+    "even_s_same_n_as_next_odd": true,
+    "width_eq_2U_minus_1": false,
+    "AND_n_j_independent_of_window": false,
+    "tail_n_only_in_0_U": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "in_support_eq_full_Green_row": "LEMMA",
+    "odd_s_enumerates_n_in_0_UQ": "LEMMA",
+    "even_s_same_n_as_next_odd": "LEMMA",
+    "width_eq_2U_minus_1": "KILLED",
+    "AND_n_j_independent_of_window": "KILLED",
+    "tail_n_only_in_0_U": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}

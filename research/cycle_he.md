@@ -17,7 +17,7 @@ Odd-\(s\) \(J_{\mathrm{tail}}\) is
 \(\bigoplus_{n<4U}\bigoplus_{G(n,j)=1}\mathrm{AND}(T-2j)\).
 
 Helper: `WINDOWS` / `odd_clock` from Cycles HC/GU. Certify:
-`python3 research/cycle_he.py --certify` (~0.05s). Dump:
+`python3 research/cycle_he.py --certify` (~0.01s). Dump:
 `research/cycle_he.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles CA/FQ/GU/HC/HD (algebra \(k\le 12\); packed
 AND kill at \(k=0\); no Fermat table, no extra window, no \(n_0=16\)
