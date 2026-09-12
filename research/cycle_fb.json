@@ -1,0 +1,72 @@
+{
+  "cycle": "FB",
+  "wall_s": 0.015,
+  "checks": {
+    "all_ok": true
+  },
+  "scar": {
+    "n_ok": 1364,
+    "n_no00": 124,
+    "n_n7O_with00": 316,
+    "rows": {
+      "2": {
+        "n_no00": 4,
+        "n": 4
+      },
+      "4": {
+        "n_no00": 8,
+        "n": 16
+      },
+      "6": {
+        "n_no00": 16,
+        "n": 64
+      },
+      "8": {
+        "n_no00": 32,
+        "n": 256
+      },
+      "10": {
+        "n_no00": 64,
+        "n": 1024
+      }
+    },
+    "n0_4_is_FAM89": true,
+    "n0_6_contains_folds": true
+  },
+  "tstar": {
+    "n5_has00": true,
+    "n6_has00": true,
+    "z": 5,
+    "n7_type": "N"
+  },
+  "lemmas": {
+    "n5_00_iff_n6_00": true,
+    "no00_z_n0_over_2": true,
+    "no00_n7_O_type": true,
+    "n7_O_implies_no00": false,
+    "no00_only_extra_22": false,
+    "n7_consecutive_11": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "n5_00_iff_n6_00": "LEMMA",
+    "no00_z_n0_over_2": "LEMMA",
+    "no00_n7_O_type": "LEMMA",
+    "n7_O_implies_no00": "KILLED",
+    "no00_only_extra_22": "KILLED",
+    "n7_consecutive_11": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
