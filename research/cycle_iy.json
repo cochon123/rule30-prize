@@ -1,0 +1,243 @@
+{
+  "cycle": "IY",
+  "wall_s": 0.195,
+  "checks": {
+    "all_ok": true
+  },
+  "kind_dual_table": {
+    "n_ok": 512,
+    "n_left": 141,
+    "n_right": 141,
+    "n_iso": 230
+  },
+  "kind_dual_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_pair": 6968,
+    "n_left": 1942,
+    "n_right": 1942,
+    "n_iso": 3084,
+    "n_xor": 2586,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_pair": 2,
+          "n_left": 1,
+          "n_right": 1,
+          "n_iso": 0,
+          "n_xor": 0,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_pair": 2,
+          "n_left": 1,
+          "n_right": 1,
+          "n_iso": 0,
+          "n_xor": 2,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_pair": 4,
+          "n_left": 1,
+          "n_right": 1,
+          "n_iso": 2,
+          "n_xor": 0,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_pair": 12,
+          "n_left": 5,
+          "n_right": 5,
+          "n_iso": 2,
+          "n_xor": 4,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_pair": 14,
+          "n_left": 5,
+          "n_right": 5,
+          "n_iso": 4,
+          "n_xor": 6,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_pair": 30,
+          "n_left": 9,
+          "n_right": 9,
+          "n_iso": 12,
+          "n_xor": 14,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_pair": 40,
+          "n_left": 11,
+          "n_right": 11,
+          "n_iso": 18,
+          "n_xor": 16,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_pair": 104,
+          "n_left": 31,
+          "n_right": 31,
+          "n_iso": 42,
+          "n_xor": 34,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_pair": 134,
+          "n_left": 39,
+          "n_right": 39,
+          "n_iso": 56,
+          "n_xor": 44,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_pair": 326,
+          "n_left": 91,
+          "n_right": 91,
+          "n_iso": 144,
+          "n_xor": 98,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_pair": 424,
+          "n_left": 117,
+          "n_right": 117,
+          "n_iso": 190,
+          "n_xor": 168,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_pair": 1064,
+          "n_left": 297,
+          "n_right": 297,
+          "n_iso": 470,
+          "n_xor": 418,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_pair": 1382,
+          "n_left": 385,
+          "n_right": 385,
+          "n_iso": 612,
+          "n_xor": 534,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_pair": 3430,
+          "n_left": 949,
+          "n_right": 949,
+          "n_iso": 1532,
+          "n_xor": 1248,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_left_stays": {
+    "k": 0,
+    "s": 3,
+    "n": 1,
+    "j": 0,
+    "j2": 1,
+    "p": 6,
+    "p2": 4,
+    "kind": "left",
+    "dual": "right"
+  },
+  "killed_iso_triple": {
+    "k": 2,
+    "s": 9,
+    "n": 7,
+    "j": 3,
+    "j2": 10,
+    "p": 18,
+    "p2": 4,
+    "kind": "iso",
+    "dual": "iso"
+  },
+  "killed_dual_not_pair": {
+    "k": 0,
+    "s": 3,
+    "n": 1,
+    "j": 0,
+    "j2": 1,
+    "p": 6,
+    "p2": 4,
+    "kind": "left",
+    "dual": "right"
+  },
+  "lemmas": {
+    "dual_pair_kind": true,
+    "kind_dual_swap": true,
+    "covering_kind_dual": true,
+    "left_stays_left": false,
+    "iso_is_triple": false,
+    "dual_not_pair": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "dual_pair_kind": "LEMMA",
+    "kind_dual_swap": "LEMMA",
+    "covering_kind_dual": "LEMMA",
+    "left_stays_left": "KILLED",
+    "iso_is_triple": "KILLED",
+    "dual_not_pair": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
