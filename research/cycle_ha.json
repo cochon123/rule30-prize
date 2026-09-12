@@ -1,0 +1,263 @@
+{
+  "cycle": "HA",
+  "wall_s": 0.035,
+  "checks": {
+    "all_ok": true
+  },
+  "even_s_and": {
+    "n_ok": 21,
+    "n_cob0and": 4959,
+    "n_odd_r_g1and": 2262,
+    "rows": {
+      "0": {
+        "4U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 0,
+          "n_lo_and": 0
+        },
+        "8U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 0,
+          "n_lo_and": 0
+        },
+        "16U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 0,
+          "n_lo_and": 0
+        }
+      },
+      "1": {
+        "4U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 0,
+          "n_lo_and": 0
+        },
+        "8U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 0,
+          "n_lo_and": 0
+        },
+        "16U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 0,
+          "n_lo_and": 0
+        }
+      },
+      "2": {
+        "4U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 1,
+          "n_lo_and": 0
+        },
+        "8U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 2,
+          "n_lo_and": 0
+        },
+        "16U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 0,
+          "n_odd_r_g1and": 0,
+          "n_odd_r_g0and": 4,
+          "n_lo_and": 4
+        }
+      },
+      "3": {
+        "4U": {
+          "xor_even": 1,
+          "xor_even_r": 1,
+          "xor_odd_r": 0,
+          "n_cob0and": 4,
+          "n_odd_r_g1and": 2,
+          "n_odd_r_g0and": 6,
+          "n_lo_and": 0
+        },
+        "8U": {
+          "xor_even": 0,
+          "xor_even_r": 1,
+          "xor_odd_r": 1,
+          "n_cob0and": 1,
+          "n_odd_r_g1and": 3,
+          "n_odd_r_g0and": 7,
+          "n_lo_and": 0
+        },
+        "16U": {
+          "xor_even": 1,
+          "xor_even_r": 0,
+          "xor_odd_r": 1,
+          "n_cob0and": 12,
+          "n_odd_r_g1and": 13,
+          "n_odd_r_g0and": 20,
+          "n_lo_and": 4
+        }
+      },
+      "4": {
+        "4U": {
+          "xor_even": 1,
+          "xor_even_r": 1,
+          "xor_odd_r": 0,
+          "n_cob0and": 25,
+          "n_odd_r_g1and": 26,
+          "n_odd_r_g0and": 26,
+          "n_lo_and": 3
+        },
+        "8U": {
+          "xor_even": 1,
+          "xor_even_r": 1,
+          "xor_odd_r": 0,
+          "n_cob0and": 49,
+          "n_odd_r_g1and": 38,
+          "n_odd_r_g0and": 54,
+          "n_lo_and": 15
+        },
+        "16U": {
+          "xor_even": 0,
+          "xor_even_r": 1,
+          "xor_odd_r": 1,
+          "n_cob0and": 77,
+          "n_odd_r_g1and": 61,
+          "n_odd_r_g0and": 111,
+          "n_lo_and": 26
+        }
+      },
+      "5": {
+        "4U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 99,
+          "n_odd_r_g1and": 76,
+          "n_odd_r_g0and": 118,
+          "n_lo_and": 10
+        },
+        "8U": {
+          "xor_even": 1,
+          "xor_even_r": 0,
+          "xor_odd_r": 1,
+          "n_cob0and": 214,
+          "n_odd_r_g1and": 125,
+          "n_odd_r_g0and": 263,
+          "n_lo_and": 13
+        },
+        "16U": {
+          "xor_even": 1,
+          "xor_even_r": 1,
+          "xor_odd_r": 0,
+          "n_cob0and": 482,
+          "n_odd_r_g1and": 266,
+          "n_odd_r_g0and": 554,
+          "n_lo_and": 34
+        }
+      },
+      "6": {
+        "4U": {
+          "xor_even": 0,
+          "xor_even_r": 0,
+          "xor_odd_r": 0,
+          "n_cob0and": 470,
+          "n_odd_r_g1and": 240,
+          "n_odd_r_g0and": 516,
+          "n_lo_and": 18
+        },
+        "8U": {
+          "xor_even": 1,
+          "xor_even_r": 0,
+          "xor_odd_r": 1,
+          "n_cob0and": 1107,
+          "n_odd_r_g1and": 469,
+          "n_odd_r_g0and": 1235,
+          "n_lo_and": 37
+        },
+        "16U": {
+          "xor_even": 1,
+          "xor_even_r": 0,
+          "xor_odd_r": 1,
+          "n_cob0and": 2419,
+          "n_odd_r_g1and": 943,
+          "n_odd_r_g0and": 2651,
+          "n_lo_and": 59
+        }
+      }
+    }
+  },
+  "killed_and_only_cob1": {
+    "k": 3,
+    "W": "8U",
+    "n_cob0and": 1
+  },
+  "killed_even_r_only": {
+    "k": 3,
+    "W": "8U",
+    "xor_even": 0,
+    "xor_even_r": 1,
+    "xor_odd_r": 1
+  },
+  "killed_even_s_eq_dR": {
+    "k": 2,
+    "W": "8U",
+    "xor_even": 0,
+    "dR": 1
+  },
+  "lemmas": {
+    "even_s_band_XOR_eq_cob1_even_AND_xor_G1_odd_AND": true,
+    "AND_only_on_coboundary_1": false,
+    "even_s_XOR_eq_even_r_slice": false,
+    "even_s_XOR_eq_Delta_R": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "even_s_band_XOR_eq_cob1_even_AND_xor_G1_odd_AND": "LEMMA",
+    "AND_only_on_coboundary_1": "KILLED",
+    "even_s_XOR_eq_even_r_slice": "KILLED",
+    "even_s_XOR_eq_Delta_R": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
