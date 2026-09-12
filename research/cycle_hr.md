@@ -18,7 +18,7 @@ Not a prize claim: the would-be AND-along-Green formula
 \(G(j+1)\land\lnot G(j)\) fails on the packed row, so covering
 never-fail stays open.
 
-Helper: `odd_green6`. Certify: `python3 research/cycle_hr.py --certify`.
+Helper: `odd_green6`. Certify: `python3 research/cycle_hr.py --certify` (~0.16s).
 Dump: `research/cycle_hr.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HL/HM/HQ (algebra \(n<64\); covering \(k\le 6\);
