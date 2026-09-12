@@ -21,7 +21,7 @@ past \(k=21\).
 Not a prize claim: rotation classes do not give covering never-fail or
 at-most-one-odd for all \(k\).
 
-Helper: `python3 research/cycle_es.py --certify`. Dump:
+Helper: `python3 research/cycle_es.py --certify` (~0.7s). Dump:
 `research/cycle_es.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles DI, DM, DN, EP, ER. Exhaustive reconstruct
 equivariance on rings of length 4 and 8; `census(8, 53000)` for the
@@ -49,8 +49,8 @@ length \(2,4,8,16\): class counts \(1,2,16,2048\).
 - \(n_0=4\): FAM89 and FAM372 partition all 16 words (Cycle DI).
 - \(n_0=8\): 16 classes of 16. Nine extras in 53000, all full 16-classes
   (Cycle DM counts); seven miss, representatives
-  `00011000`, `00100100`, `00110100`, `01010100`, `01011000`,
-  `01101000`, `01110000`. Prize \(T_0=00000110\) is the extra-52809
+  `00001000`, `00010010`, `00010100`, `00011000`, `00100100`,
+  `00101010`, `00101100`. Prize \(T_0=00000110\) is the extra-52809
   class.
 - \(n_0=16\): 2048 classes of 32. FAM414990 is the class of \(T^*\)
   (Cycle ER).

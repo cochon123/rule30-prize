@@ -45,13 +45,13 @@ OUT = Path(__file__).resolve().with_suffix(".json")
 ER_JSON = Path(__file__).resolve().parent / "cycle_er.json"
 DM_JSON = Path(__file__).resolve().parent / "cycle_dm.json"
 N8_NONE_REPS = (
+    "00001000",
+    "00010010",
+    "00010100",
     "00011000",
     "00100100",
-    "00110100",
-    "01010100",
-    "01011000",
-    "01101000",
-    "01110000",
+    "00101010",
+    "00101100",
 )
 
 

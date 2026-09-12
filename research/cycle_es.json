@@ -1,0 +1,153 @@
+{
+  "cycle": "ES",
+  "wall_s": 0.699,
+  "checks": {
+    "all_ok": true
+  },
+  "period": {
+    "2": {
+      "L": 4,
+      "n_words": 4,
+      "n_class": 1,
+      "class_size": 4,
+      "n_bad": 0
+    },
+    "4": {
+      "L": 8,
+      "n_words": 16,
+      "n_class": 2,
+      "class_size": 8,
+      "n_bad": 0
+    },
+    "8": {
+      "L": 16,
+      "n_words": 256,
+      "n_class": 16,
+      "class_size": 16,
+      "n_bad": 0
+    },
+    "16": {
+      "L": 32,
+      "n_words": 65536,
+      "n_class": 2048,
+      "class_size": 32,
+      "n_bad": 0
+    }
+  },
+  "n2": {
+    "extra": 22,
+    "n_class": 1
+  },
+  "n4": {
+    "n_class": 2,
+    "extras": {
+      "89": 8,
+      "372": 8
+    }
+  },
+  "n8": {
+    "n_class": 16,
+    "n_hit_classes": 9,
+    "n_none_classes": 7,
+    "hits": {
+      "6344": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00011010"
+      },
+      "18827": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00000010"
+      },
+      "26357": {
+        "odd": 1,
+        "n": 16,
+        "rep": "00001010"
+      },
+      "29168": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00001110"
+      },
+      "34855": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00010110"
+      },
+      "40805": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00001100"
+      },
+      "44842": {
+        "odd": 1,
+        "n": 16,
+        "rep": "00000100"
+      },
+      "49733": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00000000"
+      },
+      "52809": {
+        "odd": 0,
+        "n": 16,
+        "rep": "00000110"
+      }
+    },
+    "none_reps": [
+      "00001000",
+      "00010010",
+      "00010100",
+      "00011000",
+      "00100100",
+      "00101010",
+      "00101100"
+    ],
+    "prize_extra": 52809
+  },
+  "n16": {
+    "n_class": 2048,
+    "class_size": 32,
+    "fam414990_extra": 414990
+  },
+  "lemmas": {
+    "reconstruct_rotation_equivariant": true,
+    "ident0_extra_constant_on_rot_class": true,
+    "pow2_n0_T_min_period_2n0": true,
+    "n2_one_class_extra_22": true,
+    "n4_two_classes_89_372": true,
+    "n8_sixteen_classes_nine_hit": true,
+    "n16_2048_classes_FAM414990_one": true,
+    "extras_attach_to_isolated_T0": false,
+    "n8_families_of_16_coincidental": false,
+    "T_period_lt_2n0_for_pow2_n0": false,
+    "extra_414990_formula": null,
+    "every_class_eventually_hits": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "reconstruct_rotation_equivariant": "LEMMA",
+    "ident0_extra_constant_on_rot_class": "LEMMA",
+    "pow2_n0_T_min_period_2n0": "LEMMA",
+    "n2_one_class_extra_22": "LEMMA",
+    "n4_two_classes_89_372": "LEMMA",
+    "n8_sixteen_classes_nine_hit": "LEMMA",
+    "n16_2048_classes_FAM414990_one": "LEMMA",
+    "extras_attach_to_isolated_T0": "KILLED",
+    "n8_families_of_16_coincidental": "KILLED",
+    "T_period_lt_2n0_for_pow2_n0": "KILLED",
+    "extra_414990_formula": "PREFIX",
+    "every_class_eventually_hits": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
