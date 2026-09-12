@@ -14,7 +14,7 @@ push the even-spine scan past \(k=18\). Do **not** bump all
 Not a prize claim: this is a Green-only 4-bit walk identity, not
 the packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kh.py --certify`.
+Certify: `python3 research/cycle_kh.py --certify` (~0.17s).
 Dump: `research/cycle_kh.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HU/IG/KG (\(n<256\); covering \(k\le 6\);
