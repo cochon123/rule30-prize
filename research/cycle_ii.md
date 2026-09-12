@@ -15,7 +15,7 @@ Not a prize claim: the discrepancy bit-string still reads the packed
 row, so a Green-only error formula stays open.
 
 Helper: `xor4`, `stride2_overlap`, `error4`. Certify:
-`python3 research/cycle_ii.py --certify`.
+`python3 research/cycle_ii.py --certify` (~0.25s).
 Dump: `research/cycle_ii.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HT/HU/IH (\(n<64\) plus 16\(\times\)8-row;
