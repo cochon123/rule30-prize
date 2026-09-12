@@ -15,7 +15,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: this is a closed form for Cycle KR's clip table,
 not packed AND XOR \(J\), so covering never-fail stays open.
 
-Certify: `python3 research/cycle_ks.py --certify`.
+Certify: `python3 research/cycle_ks.py --certify` (~0.14s).
 Dump: `research/cycle_ks.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AT/CA/KH/KJ/KR (covering \(k\le 6\); no Fermat table, no extra

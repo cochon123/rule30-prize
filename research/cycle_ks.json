@@ -1,0 +1,253 @@
+{
+  "cycle": "KS",
+  "wall_s": 0.135,
+  "checks": {
+    "all_ok": true
+  },
+  "clip_count_table": {
+    "n_ok": 14,
+    "rows": {
+      "0": {
+        "q6": {
+          "n": [],
+          "clip": [],
+          "want": []
+        },
+        "q10": {
+          "n": [
+            3
+          ],
+          "clip": [
+            1
+          ],
+          "want": [
+            1
+          ]
+        }
+      },
+      "1": {
+        "q6": {
+          "n": [],
+          "clip": [],
+          "want": []
+        },
+        "q10": {
+          "n": [
+            7
+          ],
+          "clip": [
+            3
+          ],
+          "want": [
+            3
+          ]
+        }
+      },
+      "2": {
+        "q6": {
+          "n": [
+            7
+          ],
+          "clip": [
+            2
+          ],
+          "want": [
+            2
+          ]
+        },
+        "q10": {
+          "n": [
+            11,
+            15
+          ],
+          "clip": [
+            2,
+            7
+          ],
+          "want": [
+            2,
+            7
+          ]
+        }
+      },
+      "3": {
+        "q6": {
+          "n": [
+            15
+          ],
+          "clip": [
+            4
+          ],
+          "want": [
+            4
+          ]
+        },
+        "q10": {
+          "n": [
+            23,
+            31
+          ],
+          "clip": [
+            4,
+            15
+          ],
+          "want": [
+            4,
+            15
+          ]
+        }
+      },
+      "4": {
+        "q6": {
+          "n": [
+            31
+          ],
+          "clip": [
+            10
+          ],
+          "want": [
+            10
+          ]
+        },
+        "q10": {
+          "n": [
+            47,
+            63
+          ],
+          "clip": [
+            10,
+            31
+          ],
+          "want": [
+            10,
+            31
+          ]
+        }
+      },
+      "5": {
+        "q6": {
+          "n": [
+            63
+          ],
+          "clip": [
+            20
+          ],
+          "want": [
+            20
+          ]
+        },
+        "q10": {
+          "n": [
+            95,
+            127
+          ],
+          "clip": [
+            20,
+            63
+          ],
+          "want": [
+            20,
+            63
+          ]
+        }
+      },
+      "6": {
+        "q6": {
+          "n": [
+            127
+          ],
+          "clip": [
+            42
+          ],
+          "want": [
+            42
+          ]
+        },
+        "q10": {
+          "n": [
+            191,
+            255
+          ],
+          "clip": [
+            42,
+            127
+          ],
+          "want": [
+            42,
+            127
+          ]
+        }
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_no_minus1": {
+    "k": 2,
+    "q": 6,
+    "clip": 2,
+    "jac": 3
+  },
+  "killed_q6_eq_q10_mer": {
+    "k": 2,
+    "q6": [
+      2
+    ],
+    "q10": [
+      2,
+      7
+    ]
+  },
+  "killed_q10_tri_eq_mer": {
+    "k": 2,
+    "q": 10,
+    "clip": [
+      2,
+      7
+    ]
+  },
+  "killed_q6_pow2": {
+    "k": 2,
+    "clip": 2,
+    "pow2": 7
+  },
+  "lemmas": {
+    "family_clip_counts": true,
+    "family_clippers": true,
+    "family_wt_odd": true,
+    "fam_cover_parity_q": true,
+    "clip_no_minus1": false,
+    "q6_eq_q10_mer": false,
+    "q10_tri_eq_mer": false,
+    "q6_pow2": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "family_clip_counts": "LEMMA",
+    "family_clippers": "LEMMA",
+    "family_wt_odd": "LEMMA",
+    "fam_cover_parity_q": "LEMMA",
+    "clip_no_minus1": "KILLED",
+    "q6_eq_q10_mer": "KILLED",
+    "q10_tri_eq_mer": "KILLED",
+    "q6_pow2": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
