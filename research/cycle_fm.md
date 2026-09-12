@@ -15,7 +15,7 @@ even-spine scan past \(k=18\). Do **not** bump all \(n_0=16\) past
 Not a prize claim: a definite left bit on \([4U,6U)\) does not prove
 covering never-fail.
 
-Helper: `python3 research/cycle_fm.py --certify`. Dump:
+Helper: `python3 research/cycle_fm.py --certify` (~0.03s). Dump:
 `research/cycle_fm.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FI/FJ/FL (packed check on \(k=2..6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
