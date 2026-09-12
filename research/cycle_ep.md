@@ -17,7 +17,7 @@ past \(k=21\).
 Not a prize claim: an even extra on 32 of 65536 words does not give
 covering never-fail or at-most-one-odd for all \(k\).
 
-Helper: `python3 research/cycle_ep.py --certify`. Dump:
+Helper: `python3 research/cycle_ep.py --certify` (~60.7s). Dump:
 `research/cycle_ep.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles DJ, DK, DN, DR, EE, EH, EN, EO. Bitsliced
 `census(16, 414990)` plus scalar `ident0_events` on two witnesses.
