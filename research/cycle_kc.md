@@ -12,7 +12,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: the HW fold's extra-term duals still read the
 packed row, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_kc.py --certify`.
+Certify: `python3 research/cycle_kc.py --certify` (~0.12s).
 Dump: `research/cycle_kc.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HI/HU/HX/KA/KB (\(n<64\) reverse table; covering
