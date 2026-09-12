@@ -12,7 +12,7 @@ Not a prize claim: dual pair kinds still leave packed AND xor on
 those pairs, so covering never-fail stays open.
 
 Helper: `KIND_DUAL`, `dual_pair_start`, `dual_kind`. Certify:
-`python3 research/cycle_iy.py --certify`.
+`python3 research/cycle_iy.py --certify` (~0.20s).
 Dump: `research/cycle_iy.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IX (\(n<64\); covering \(k\le 6\); no Fermat
