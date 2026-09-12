@@ -13,7 +13,7 @@ Not a prize claim: classifying die 4-tuples does not give a closed
 form along Green ones, so covering never-fail stays open.
 
 Helper: `DIE` / `DIE_SLOT` / `slot_mask` from Cycle HJ. Certify:
-`python3 research/cycle_hk.py --certify`. Dump:
+`python3 research/cycle_hk.py --certify` (~0.07s). Dump:
 `research/cycle_hk.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/GU/HF/HG/HH/HI/HJ (covering \(k\le 6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
