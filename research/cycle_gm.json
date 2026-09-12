@@ -1,0 +1,57 @@
+{
+  "cycle": "GM",
+  "wall_s": 0.014,
+  "checks": {
+    "all_ok": true
+  },
+  "half_r": {
+    "n_ok": 28665,
+    "n_hits": 84
+  },
+  "killed_odd_naive_half": {
+    "k": 2,
+    "r": 5,
+    "G": 0,
+    "naive": 1
+  },
+  "killed_red_deg_U_minus_1": {
+    "k": 2,
+    "red": 7,
+    "U_minus_1": 3
+  },
+  "killed_red_identically_1": {
+    "k": 2,
+    "r": 8,
+    "G_red": 0
+  },
+  "lemmas": {
+    "even_r_G_eq_G_Un_minus_1_W_over_2_minus_r_over_2": true,
+    "rho_interval_length_eq_U": true,
+    "odd_r_naive_half": false,
+    "reduced_clock_eq_U_minus_1_on_precone": false,
+    "reduced_G_identically_1": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "even_r_G_eq_G_Un_minus_1_W_over_2_minus_r_over_2": "LEMMA",
+    "rho_interval_length_eq_U": "LEMMA",
+    "odd_r_naive_half": "KILLED",
+    "reduced_clock_eq_U_minus_1_on_precone": "KILLED",
+    "reduced_G_identically_1": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
