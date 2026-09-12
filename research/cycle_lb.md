@@ -14,7 +14,7 @@ Not a prize claim: this is a two-walk correction to one FRESH
 pattern, not a Green-only formula for packed AND XOR \(J\), so
 covering never-fail stays open.
 
-Certify: `python3 research/cycle_lb.py --certify`.
+Certify: `python3 research/cycle_lb.py --certify` (~0.22s).
 Dump: `research/cycle_lb.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HI/HU/KH/LA (covering \(k\le 6\); no Fermat table, no
