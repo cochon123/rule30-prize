@@ -16,7 +16,7 @@ Not a prize claim: LIFT4-unsat still leaves packed AND on Green pairs
 and triples, so covering never-fail stays open.
 
 Helper: `freshman_shape`. Certify:
-`python3 research/cycle_il.py --certify`.
+`python3 research/cycle_il.py --certify` (~0.21s).
 Dump: `research/cycle_il.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IK (\(n<64\) plus \(16\)-row; covering \(k\le 6\);
