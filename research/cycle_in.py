@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Cycle IN: n\equiv1 (mod 4) has only Green triples; isolated pairs only n\equiv3.
+"""Cycle IN: n%4==1 has only Green triples; isolated pairs only n%4==3.
 
 Even n has no consecutive ones (Cycle IM), so consecutive G=1 lives on
-odd n=2m+1. When m is even (n\equiv1 mod 4), G(m) has no 11, and every
+odd n=2m+1. When m is even (n%4==1), G(m) has no 11, and every
 G=1 lifts to a run-3; there are no isolated pairs or isolated ones.
-Isolated pairs occur only for n\equiv3 mod 4. n\equiv1 does have ones
-(all in triples); n\equiv3 does have run-3. Do not claim J6=J10=0
+Isolated pairs occur only for n%4==3. n%4==1 does have ones
+(all in triples); n%4==3 does have run-3. Do not claim J6=J10=0
 implies J18=1 for all k; do not push even-spine past k=18; do not bump
 all n0=16 past 414990. Not a prize claim.
 
@@ -49,7 +49,7 @@ def g_run_kind(n: int, j: int):
 
 
 def mod4_run_table() -> dict:
-    """n<64: n\equiv1 only triples; isolated pairs only n\equiv3."""
+    """n<64: n%4==1 only triples; isolated pairs only n%4==3."""
     n_r1 = [0, 0, 0, 0]
     n_r2 = [0, 0, 0, 0]
     n_r3 = [0, 0, 0, 0]
@@ -126,7 +126,7 @@ def mod4_run_table() -> dict:
 
 
 def _walk_mod4(k: int, q: int) -> dict:
-    """n\equiv1 only triples on covering clocks; packed J XOR."""
+    """n%4==1 only triples on covering clocks; packed J XOR."""
     U = 1 << k
     T, t0, Q = q * U, 2 * U, covering_Q(q)
     row = 1
@@ -221,7 +221,7 @@ def _walk_mod4(k: int, q: int) -> dict:
 
 
 def mod4_cover() -> dict:
-    """n\equiv1 only triples on covering clocks k<=6; XOR matches HF/HG."""
+    """n%4==1 only triples on covering clocks k<=6; XOR matches HF/HG."""
     n_ok = n_g1 = n_g11 = 0
     n_g11_n1 = n_g11_n3 = 0
     n_iso_n3 = n_left_n1 = n_right_n1 = n_left_n3 = n_right_n3 = 0
@@ -304,7 +304,7 @@ def mod4_cover() -> dict:
 
 
 def killed_n1_has_iso() -> dict:
-    """n\equiv1 has an isolated Green pair: G(1)=111 is a triple."""
+    """n%4==1 has an isolated Green pair: G(1)=111 is a triple."""
     k, s, n, j, p = 0, 3, 1, 0, 6
     kind = g_run_kind(n, j)
     ok = (
@@ -327,7 +327,7 @@ def killed_n1_has_iso() -> dict:
 
 
 def killed_n3_no_run3() -> dict:
-    """n\equiv3 has no run-3: G(7) has 111 at j=6."""
+    """n%4==3 has no run-3: G(7) has 111 at j=6."""
     k, s, n, j, p = 1, 5, 7, 6, 8
     kind = g_run_kind(n, j)
     ok = (
@@ -349,7 +349,7 @@ def killed_n3_no_run3() -> dict:
 
 
 def killed_n1_no_ones() -> dict:
-    """n\equiv1 has no Green ones: G(1,0)=1."""
+    """n%4==1 has no Green ones: G(1,0)=1."""
     k, s, n, j, p = 0, 3, 1, 0, 6
     ok = n % 4 == 1 and G(n, j) == 1 and p >= 4
     return {

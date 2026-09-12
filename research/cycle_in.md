@@ -15,7 +15,7 @@ Not a prize claim: the \(\bmod 4\) split still leaves packed AND on
 odd-\(n\) Green pairs and triples, so covering never-fail stays open.
 
 Helper: `g_run_kind`. Certify:
-`python3 research/cycle_in.py --certify`.
+`python3 research/cycle_in.py --certify` (~0.13s).
 Dump: `research/cycle_in.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IM (\(n<64\); covering \(k\le 6\); no Fermat
