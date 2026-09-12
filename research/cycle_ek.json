@@ -1,0 +1,54 @@
+{
+  "cycle": "EK",
+  "wall_s": 0.0,
+  "checks": {
+    "all_ok": true
+  },
+  "k16": {
+    "ok": true,
+    "land": {
+      "lo": 87724,
+      "hi": 87979,
+      "k_lo": 16,
+      "k_hi": 16
+    },
+    "leftover": 43093,
+    "k16_need": 130561,
+    "max_odd": 131000
+  },
+  "seed_k17": {
+    "pi_no_k16_odd": 16,
+    "pi_one_k16_odd": 32,
+    "H17": 65536
+  },
+  "n87468": 6,
+  "n_none": 10,
+  "lemmas": {
+    "extra87468_k8_lands_k16": true,
+    "k16_leftover_after_87468_lt_E16": true,
+    "max_odd_covers_k16_window_from_k8": true,
+    "at_most_one_odd_k16_on_n0_2": true,
+    "period_H_seed_at_k17_every_n0_2": true,
+    "k16_odd_every_n0_2": false,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "pi_formula_all_k": null,
+    "fermat_cover_359_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "extra87468_k8_lands_k16": "LEMMA",
+    "k16_leftover_after_87468_lt_E16": "LEMMA",
+    "max_odd_covers_k16_window_from_k8": "LEMMA",
+    "at_most_one_odd_k16_on_n0_2": "LEMMA",
+    "period_H_seed_at_k17_every_n0_2": "LEMMA",
+    "k16_odd_every_n0_2": "KILLED",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
