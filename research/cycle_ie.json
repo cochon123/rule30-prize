@@ -1,0 +1,234 @@
+{
+  "cycle": "IE",
+  "wall_s": 0.116,
+  "checks": {
+    "all_ok": true
+  },
+  "mix_xor_table": {
+    "n_ok": 256,
+    "n_mix": 128,
+    "n_h1": 48
+  },
+  "mix_cover": {
+    "n_ok": 95821,
+    "n_pair": 8944,
+    "n_mix": 4383,
+    "n_mix_xor": 2216,
+    "n_h1": 1666,
+    "n_h1_xor": 846,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_mix": 1,
+          "n_mix_xor": 1,
+          "n_h1": 1,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_mix": 1,
+          "n_mix_xor": 1,
+          "n_h1": 1,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_mix": 1,
+          "n_mix_xor": 1,
+          "n_h1": 1,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_mix": 5,
+          "n_mix_xor": 5,
+          "n_h1": 5,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_mix": 6,
+          "n_mix_xor": 6,
+          "n_h1": 3,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_mix": 22,
+          "n_mix_xor": 17,
+          "n_h1": 10,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_mix": 29,
+          "n_mix_xor": 19,
+          "n_h1": 15,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_mix": 61,
+          "n_mix_xor": 38,
+          "n_h1": 29,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_mix": 90,
+          "n_mix_xor": 46,
+          "n_h1": 39,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_mix": 191,
+          "n_mix_xor": 93,
+          "n_h1": 82,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_mix": 258,
+          "n_mix_xor": 141,
+          "n_h1": 100,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_mix": 667,
+          "n_mix_xor": 324,
+          "n_h1": 259,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_mix": 886,
+          "n_mix_xor": 451,
+          "n_h1": 335,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_mix": 2165,
+          "n_mix_xor": 1073,
+          "n_h1": 786,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_mix_ham1_xor_always_1": {
+    "k": 2,
+    "s": 23,
+    "n": 8,
+    "j": 0,
+    "j2": 16,
+    "p": 40,
+    "p2": 8,
+    "four": [
+      1,
+      0,
+      0,
+      0
+    ],
+    "four2": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "xor": 0
+  },
+  "killed_mix_ham1_xor_eq_np": {
+    "k": 2,
+    "s": 9,
+    "n": 15,
+    "j": 13,
+    "j2": 17,
+    "p": 14,
+    "p2": 6,
+    "four": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "four2": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "xor": 1,
+    "np": 0
+  },
+  "killed_mix_ham1_xor_eq_not_b": {
+    "k": 1,
+    "s": 13,
+    "n": 3,
+    "j": 1,
+    "j2": 5,
+    "p": 18,
+    "p2": 10,
+    "four": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "four2": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "xor": 1,
+    "not_b": 0
+  },
+  "lemmas": {
+    "mix_ham1_AND_xor_slot_formula": true,
+    "mix_AND_xor_from_Hamming_slots": true,
+    "covering_mix_xor_eq_mix_and_xor": true,
+    "mix_ham1_xor_always_1": false,
+    "mix_ham1_xor_eq_np": false,
+    "mix_ham1_xor_eq_not_b": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "mix_ham1_AND_xor_slot_formula": "LEMMA",
+    "mix_AND_xor_from_Hamming_slots": "LEMMA",
+    "covering_mix_xor_eq_mix_and_xor": "LEMMA",
+    "mix_ham1_xor_always_1": "KILLED",
+    "mix_ham1_xor_eq_np": "KILLED",
+    "mix_ham1_xor_eq_not_b": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
