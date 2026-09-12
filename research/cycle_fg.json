@@ -1,0 +1,72 @@
+{
+  "cycle": "FG",
+  "wall_s": 0.206,
+  "checks": {
+    "all_ok": true
+  },
+  "cone": {
+    "n_ok": 117
+  },
+  "piece": {
+    "n_eq18": 6,
+    "n_neq10": 4,
+    "rows": {
+      "2": {
+        "J6": 0,
+        "J10": 1,
+        "J18": 0
+      },
+      "3": {
+        "J6": 1,
+        "J10": 0,
+        "J18": 1
+      },
+      "4": {
+        "J6": 1,
+        "J10": 0,
+        "J18": 1
+      },
+      "5": {
+        "J6": 0,
+        "J10": 0,
+        "J18": 0
+      },
+      "6": {
+        "J6": 0,
+        "J10": 0,
+        "J18": 0
+      },
+      "7": {
+        "J6": 0,
+        "J10": 1,
+        "J18": 0
+      }
+    }
+  },
+  "lemmas": {
+    "cone_kills_freshman_extras": true,
+    "J_4U_6U_to_6U_eq_to_18U": true,
+    "J_4U_6U_to_6U_eq_to_10U": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "cone_kills_freshman_extras": "LEMMA",
+    "J_4U_6U_to_6U_eq_to_18U": "LEMMA",
+    "J_4U_6U_to_6U_eq_to_10U": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
