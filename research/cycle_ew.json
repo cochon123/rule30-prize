@@ -1,0 +1,80 @@
+{
+  "cycle": "EW",
+  "wall_s": 0.031,
+  "checks": {
+    "all_ok": true
+  },
+  "gap_rot": {
+    "n_exh": 3549,
+    "n_rand": 120
+  },
+  "dv_pair": {
+    "n": 510
+  },
+  "scar_rot": {
+    "n": 510
+  },
+  "n6": {
+    "rows": {
+      "2": {
+        "n": 4
+      },
+      "4": {
+        "n": 16
+      },
+      "6": {
+        "n": 64
+      },
+      "8": {
+        "n": 256
+      },
+      "10": {
+        "n": 1024
+      }
+    },
+    "ham_eq_n0": 268,
+    "ham_ne_n0": 1096,
+    "cex": {
+      "n0": 4,
+      "T0": "0100",
+      "ham": 3
+    }
+  },
+  "tstar": {
+    "type6": "N",
+    "wt6": 19,
+    "ham56": 14
+  },
+  "lemmas": {
+    "gap_rotation_equivariant": true,
+    "DV_pair_is_gap_and_reconstruct_T_gap": true,
+    "scar_n3_n6_are_rot_n0_minus_1": true,
+    "even_n0_n6_type_N": true,
+    "ham_n5_n6_equals_n0": false,
+    "gap_not_rotation_equivariant": false,
+    "n6_type_N_odd_n0": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "gap_rotation_equivariant": "LEMMA",
+    "DV_pair_is_gap_and_reconstruct_T_gap": "LEMMA",
+    "scar_n3_n6_are_rot_n0_minus_1": "LEMMA",
+    "even_n0_n6_type_N": "LEMMA",
+    "ham_n5_n6_equals_n0": "KILLED",
+    "gap_not_rotation_equivariant": "KILLED",
+    "n6_type_N_odd_n0": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
