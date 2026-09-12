@@ -17,7 +17,7 @@ open.
 
 Helper: `LIFT1`, `trinomial3`, `iso1_lift5`, `lift1_extend_sat`.
 Certify:
-`python3 research/cycle_jd.py --certify`.
+`python3 research/cycle_jd.py --certify` (~0.12s).
 Dump: `research/cycle_jd.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IL/IM/IR (\(n<64\); covering \(k\le 6\); no
