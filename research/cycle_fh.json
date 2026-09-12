@@ -1,0 +1,13 @@
+{
+  "cycle": "FH",
+  "certify_seconds": 0.11,
+  "k_range": [2, 6],
+  "lemma": "J_[2U,6U)->6U = J_[2U,6U)->18U, hence J_18 = J_6 XOR J_[6U,18U)->18U",
+  "n_checked": 5,
+  "n_eq_26": 5,
+  "n_split": 5,
+  "n_killed": 1,
+  "killed": "J_6=0 does not imply J_18=1 (k=2: both vanish; J_10=1)",
+  "covering_rewrite": "candidates (J_6=J_10=0) fail iff J_[6U,18U)->18U = 0",
+  "prize_unsolved": true
+}
