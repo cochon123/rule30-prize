@@ -17,7 +17,7 @@ AND has no closed form). Together with Cycle HB, \(J_{\mathrm{tail}}\)
 is this in-support XOR, not the \(W=16U\) right strip.
 
 Helper: `odd_clock` from `research/cycle_gu.py`. Certify:
-`python3 research/cycle_hc.py --certify` (~0.3s). Dump:
+`python3 research/cycle_hc.py --certify` (~0.19s). Dump:
 `research/cycle_hc.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FR/GN/GU/GX/GY/HB (packed \(k\le 6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
