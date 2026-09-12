@@ -17,7 +17,7 @@ form). The GZ/HA \(j\)-index on \(W=16U\) is therefore a formula for
 \(\Delta^{(16)}_R\), not for \(J_{\mathrm{tail}}\).
 
 Helper: `_walk16` in this file. Certify:
-`python3 research/cycle_hb.py --certify` (~0.2s). Dump:
+`python3 research/cycle_hb.py --certify` (~0.28s). Dump:
 `research/cycle_hb.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FL/FO/FR/HA (packed \(k\le 6\); no
 Fermat table, no extra window, no \(n_0=16\) window).
