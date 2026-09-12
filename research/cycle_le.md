@@ -3,8 +3,8 @@
 On covering \(J_6,J_{10}\) for \(k\le 6\), packed AND at \(p=16\) with
 \(G=1\) is only FRESH \(1001\). For \(k\ge 3\) the count equals Cycle
 LC's \(p=4\) count, hence odd, so the \(p=16\) \(1001\) XOR is \(1\).
-Small \(k\): empty at \(k=0\); \(1\) vs \(0\) at \(k=1\); \(1\) vs
-\(2\) at \(k=2\). This is **not** \(0100\) at \(p=16\), **not** xor
+Small \(k\): empty at \(k\le 1\); \(1\) vs \(2\) at \(k=2\). This is
+**not** \(0100\) at \(p=16\), **not** xor
 \(0\) for \(k\ge 3\), **not** the \(p=4\) count for all \(k\), and
 **not** empty for \(k<3\). Do **not** claim
 \(J_6=J_{10}=0\Rightarrow J_{18}=1\) for all \(k\). Do **not** push
@@ -23,7 +23,7 @@ extra window, no \(n_0=16\) window).
 
 ## Lemma (\(p=16\) AND is \(1001\))
 
-Certified \(k\le 6\) (\(48\) events). For \(k\ge 3\) the count equals
+Certified \(k\le 6\) (\(47\) events). For \(k\ge 3\) the count equals
 the \(p=4\) count. Covering \(J_6,J_{10}\) still have \(G=1\) columns
 \(22659\); odd-\(s\) \(J\) XOR matches Cycles HF/HG.
 
@@ -39,7 +39,7 @@ Cycle LC. Lowest live packed AND slot is always \(1001\).
 
 Other AND at \(p=16\): \(k=3\), \(q=6\) is only \(1001\). Xor \(0\)
 for \(k\ge 3\): count \(3\), xor \(1\). Equal to \(p=4\) count for
-all \(k\): \(k=0\) is \(0\) vs \(1\). Empty for \(k<3\): \(k=1\),
+all \(k\): \(k=0\) is \(0\) vs \(1\). Empty for \(k<3\): \(k=2\),
 \(q=6\) has \(1\).
 
 ## Verdict

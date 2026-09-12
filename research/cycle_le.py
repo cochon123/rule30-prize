@@ -3,8 +3,8 @@
 
 On covering J6,J10 for k<=6, packed AND at p=16 with G=1 is only
 FRESH 1001. For k>=3 the count equals want_p4_n, hence odd, so
-p=16 1001 XOR is 1. Small k: (0,0), (1,0), (1,2) for (k,q) in
-{(0,*), (1,6/10), (2,6/10)}. Not 0100 at p=16; not xor 0 for
+p=16 1001 XOR is 1. Small k: empty at k<=1; 1 vs 2 at k=2.
+Not 0100 at p=16; not xor 0 for
 k>=3; not equal to p=4 count for all k; not empty for k<3.
 This is packed AND at p=16, not a Green-only formula for J. Do
 not claim J6=J10=0 implies J18=1 for all k; do not push even-spine
@@ -47,10 +47,8 @@ def want_p16_n(k: int, q: int) -> int:
     """Covering G=1 AND count at p=16."""
     if k >= 3:
         return want_p4_n(k, q)
-    if k == 0:
+    if k <= 1:
         return 0
-    if k == 1:
-        return 1 if q == 6 else 0
     return 1 if q == 6 else 2
 
 
@@ -159,10 +157,10 @@ def p16_cover() -> dict:
     ok = (
         n_ok == 95821
         and n_g1 == 22659
-        and n_p16 == 48
+        and n_p16 == 47
         and rows["0"]["j6"]["n_p16"] == 0
         and rows["0"]["j10"]["n_p16"] == 0
-        and rows["1"]["j6"]["n_p16"] == 1
+        and rows["1"]["j6"]["n_p16"] == 0
         and rows["1"]["j10"]["n_p16"] == 0
         and rows["2"]["j6"]["n_p16"] == 1
         and rows["2"]["j10"]["n_p16"] == 2
@@ -203,9 +201,9 @@ def killed_eq_p4() -> dict:
 
 
 def killed_empty() -> dict:
-    """p=16 is empty for k<3: k=1 q=6 has 1."""
-    ok = want_p16_n(1, 6) == 1
-    return {"ok": ok, "n": want_p16_n(1, 6)}
+    """p=16 is empty for k<3: k=2 q=6 has 1."""
+    ok = want_p16_n(2, 6) == 1
+    return {"ok": ok, "n": want_p16_n(2, 6)}
 
 
 def prefixes() -> dict:
@@ -228,6 +226,7 @@ def self_checks(
     assert rt["ok"] and sc["ok"] and k0["ok"] and k1["ok"] and k2["ok"] and k3["ok"] and pref["ok"]
     assert PAT1001 in FRESH
     assert want_p16_n(0, 10) == 0
+    assert want_p16_n(1, 6) == 0
     assert want_p16_n(2, 6) == 1
     assert want_p16_n(2, 10) == 2
     assert want_p16_n(4, 6) == want_p4_n(4, 6)
