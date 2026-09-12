@@ -1,0 +1,271 @@
+{
+  "cycle": "KT",
+  "wall_s": 0.133,
+  "checks": {
+    "all_ok": true
+  },
+  "clip_js_table": {
+    "n_ok": 17,
+    "rows": {
+      "0": {
+        "q6": {
+          "T": 6,
+          "n": []
+        },
+        "q10": {
+          "T": 10,
+          "n": [
+            {
+              "n": 3,
+              "clip": 1
+            }
+          ]
+        }
+      },
+      "1": {
+        "q6": {
+          "T": 12,
+          "n": []
+        },
+        "q10": {
+          "T": 20,
+          "n": [
+            {
+              "n": 7,
+              "clip": 3
+            }
+          ]
+        }
+      },
+      "2": {
+        "q6": {
+          "T": 24,
+          "n": [
+            {
+              "n": 7,
+              "clip": 2
+            }
+          ]
+        },
+        "q10": {
+          "T": 40,
+          "n": [
+            {
+              "n": 11,
+              "clip": 2
+            },
+            {
+              "n": 15,
+              "clip": 7
+            }
+          ]
+        }
+      },
+      "3": {
+        "q6": {
+          "T": 48,
+          "n": [
+            {
+              "n": 15,
+              "clip": 4
+            }
+          ]
+        },
+        "q10": {
+          "T": 80,
+          "n": [
+            {
+              "n": 23,
+              "clip": 4
+            },
+            {
+              "n": 31,
+              "clip": 15
+            }
+          ]
+        }
+      },
+      "4": {
+        "q6": {
+          "T": 96,
+          "n": [
+            {
+              "n": 31,
+              "clip": 10
+            }
+          ]
+        },
+        "q10": {
+          "T": 160,
+          "n": [
+            {
+              "n": 47,
+              "clip": 10
+            },
+            {
+              "n": 63,
+              "clip": 31
+            }
+          ]
+        }
+      },
+      "5": {
+        "q6": {
+          "T": 192,
+          "n": [
+            {
+              "n": 63,
+              "clip": 20
+            }
+          ]
+        },
+        "q10": {
+          "T": 320,
+          "n": [
+            {
+              "n": 95,
+              "clip": 20
+            },
+            {
+              "n": 127,
+              "clip": 63
+            }
+          ]
+        }
+      },
+      "6": {
+        "q6": {
+          "T": 384,
+          "n": [
+            {
+              "n": 127,
+              "clip": 42
+            }
+          ]
+        },
+        "q10": {
+          "T": 640,
+          "n": [
+            {
+              "n": 191,
+              "clip": 42
+            },
+            {
+              "n": 255,
+              "clip": 127
+            }
+          ]
+        }
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_all_high": {
+    "k": 3,
+    "q": 6,
+    "n": 15,
+    "high": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "zeros": [
+      25,
+      28
+    ]
+  },
+  "killed_suffix": {
+    "k": 2,
+    "q": 10,
+    "n": 15,
+    "got": [
+      21,
+      23,
+      24,
+      26,
+      27,
+      29,
+      30
+    ],
+    "suffix": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "killed_q10_q6_dual": {
+    "k": 2,
+    "q": 10,
+    "n": 15,
+    "wrong": [
+      13,
+      14
+    ],
+    "got": [
+      21,
+      23,
+      24,
+      26,
+      27,
+      29,
+      30
+    ]
+  },
+  "killed_one_res": {
+    "k": 2,
+    "q": 6,
+    "js": [
+      13,
+      14
+    ],
+    "res": [
+      1,
+      2
+    ]
+  },
+  "lemmas": {
+    "family_clip_js": true,
+    "family_clip_counts": true,
+    "family_clippers": true,
+    "clip_all_high": false,
+    "clip_suffix": false,
+    "q10_uses_q6_dual": false,
+    "clip_one_res": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "family_clip_js": "LEMMA",
+    "family_clip_counts": "LEMMA",
+    "family_clippers": "LEMMA",
+    "clip_all_high": "KILLED",
+    "clip_suffix": "KILLED",
+    "q10_uses_q6_dual": "KILLED",
+    "clip_one_res": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
