@@ -15,7 +15,7 @@ even-spine scan past \(k=18\). Do **not** bump all \(n_0=16\) past
 Not a prize claim: reducing \(\Delta_R\) to a right-strip Green XOR
 does not prove covering never-fail.
 
-Helper: `python3 research/cycle_fk.py --certify`. Dump:
+Helper: `python3 research/cycle_fk.py --certify` (~0.06s). Dump:
 `research/cycle_fk.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/FF/FI/FJ (packed check on \(k=2..6\);
 no Fermat table, no extra window, no \(n_0=16\) window).
