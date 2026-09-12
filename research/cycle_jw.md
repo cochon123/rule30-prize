@@ -13,7 +13,7 @@ Not a prize claim: isolated-one packed 4-tuples still fire AND on
 every `AND_ONES` pattern (and on every iso3 class), so covering
 never-fail stays open.
 
-Certify: `python3 research/cycle_jw.py --certify` (~0.16s).
+Certify: `python3 research/cycle_jw.py --certify` (~0.12s).
 Dump: `research/cycle_jw.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HT/HU/IR/JV (\(n<64\); covering \(k\le 6\); no
