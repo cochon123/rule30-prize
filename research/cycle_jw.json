@@ -1,0 +1,226 @@
+{
+  "cycle": "JW",
+  "wall_s": 0.117,
+  "checks": {
+    "all_ok": true
+  },
+  "iso_g4_table": {
+    "n_iso": 461,
+    "n_seed": 1
+  },
+  "iso_four_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_iso": 7785,
+    "n_and": 1489,
+    "n_cob": 4868,
+    "n_0000": 1892,
+    "n_g4": 356,
+    "n_and_ones": {
+      "0010": 354,
+      "0011": 343,
+      "0100": 385,
+      "1001": 407
+    },
+    "n_types": 16,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_iso": 1,
+          "n_and": 1,
+          "n_types": 1,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_iso": 5,
+          "n_and": 3,
+          "n_types": 4,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_iso": 5,
+          "n_and": 3,
+          "n_types": 4,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_iso": 12,
+          "n_and": 5,
+          "n_types": 6,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_iso": 13,
+          "n_and": 4,
+          "n_types": 10,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_iso": 41,
+          "n_and": 12,
+          "n_types": 14,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_iso": 43,
+          "n_and": 15,
+          "n_types": 16,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_iso": 121,
+          "n_and": 28,
+          "n_types": 16,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_iso": 132,
+          "n_and": 31,
+          "n_types": 16,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_iso": 390,
+          "n_and": 75,
+          "n_types": 16,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_iso": 428,
+          "n_and": 87,
+          "n_types": 16,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_iso": 1238,
+          "n_and": 205,
+          "n_types": 16,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_iso": 1369,
+          "n_and": 280,
+          "n_types": 16,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_iso": 3987,
+          "n_and": 740,
+          "n_types": 16,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_always_0000": {
+    "k": 1,
+    "s": 5,
+    "n": 3,
+    "j": 3,
+    "p": 6,
+    "four": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "killed_always_cob": {
+    "k": 1,
+    "s": 5,
+    "n": 3,
+    "j": 3,
+    "p": 6,
+    "four": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "killed_and_vanishes": {
+    "k": 1,
+    "s": 5,
+    "n": 3,
+    "j": 3,
+    "p": 6,
+    "four": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "lemmas": {
+    "iso_green4_0111": true,
+    "iso_all_16": true,
+    "covering_iso_four": true,
+    "always_0000": false,
+    "always_cob": false,
+    "and_vanishes": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "iso_green4_0111": "LEMMA",
+    "iso_all_16": "LEMMA",
+    "covering_iso_four": "LEMMA",
+    "always_0000": "KILLED",
+    "always_cob": "KILLED",
+    "and_vanishes": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
