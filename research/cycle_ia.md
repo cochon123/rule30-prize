@@ -13,7 +13,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: Hamming 1 still leaves Hamming \(2,3\) both-non-cob
 disagreements and the center AND, so covering never-fail stays open.
 
-Helper: `flip_c`. Certify: `python3 research/cycle_ia.py --certify`.
+Helper: `flip_c`. Certify: `python3 research/cycle_ia.py --certify` (~0.11s).
 Dump: `research/cycle_ia.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HT/HU/HX/HY/HZ (16-row table; covering \(k\le 6\); no
