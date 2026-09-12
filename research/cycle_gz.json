@@ -1,0 +1,176 @@
+{
+  "cycle": "GZ",
+  "wall_s": 0.036,
+  "checks": {
+    "all_ok": true
+  },
+  "odd_s_and": {
+    "n_ok": 21,
+    "n_g0and": 7020,
+    "rows": {
+      "0": {
+        "4U": {
+          "xor_odd": 1,
+          "xor_even": 0,
+          "n_g0and": 0
+        },
+        "8U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 0
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 0
+        }
+      },
+      "1": {
+        "4U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 0
+        },
+        "8U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 1
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 3
+        }
+      },
+      "2": {
+        "4U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 1
+        },
+        "8U": {
+          "xor_odd": 1,
+          "xor_even": 0,
+          "n_g0and": 6
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 16
+        }
+      },
+      "3": {
+        "4U": {
+          "xor_odd": 1,
+          "xor_even": 1,
+          "n_g0and": 5
+        },
+        "8U": {
+          "xor_odd": 1,
+          "xor_even": 0,
+          "n_g0and": 31
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 1,
+          "n_g0and": 63
+        }
+      },
+      "4": {
+        "4U": {
+          "xor_odd": 1,
+          "xor_even": 1,
+          "n_g0and": 27
+        },
+        "8U": {
+          "xor_odd": 0,
+          "xor_even": 1,
+          "n_g0and": 94
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 0,
+          "n_g0and": 230
+        }
+      },
+      "5": {
+        "4U": {
+          "xor_odd": 1,
+          "xor_even": 0,
+          "n_g0and": 135
+        },
+        "8U": {
+          "xor_odd": 1,
+          "xor_even": 1,
+          "n_g0and": 382
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 1,
+          "n_g0and": 842
+        }
+      },
+      "6": {
+        "4U": {
+          "xor_odd": 1,
+          "xor_even": 0,
+          "n_g0and": 544
+        },
+        "8U": {
+          "xor_odd": 0,
+          "xor_even": 1,
+          "n_g0and": 1460
+        },
+        "16U": {
+          "xor_odd": 0,
+          "xor_even": 1,
+          "n_g0and": 3180
+        }
+      }
+    }
+  },
+  "killed_and_only_g1": {
+    "k": 1,
+    "W": "8U",
+    "n_g0and": 1
+  },
+  "killed_odd_s_eq_dR": {
+    "k": 4,
+    "W": "8U",
+    "xor_odd": 0,
+    "dR": 1
+  },
+  "killed_even_s_0": {
+    "k": 4,
+    "W": "8U",
+    "xor_even": 1
+  },
+  "lemmas": {
+    "odd_s_band_XOR_eq_AND_on_G_n_j_eq_1": true,
+    "AND_only_on_G_eq_1": false,
+    "odd_s_XOR_eq_Delta_R": false,
+    "even_s_XOR_eq_0": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "odd_s_band_XOR_eq_AND_on_G_n_j_eq_1": "LEMMA",
+    "AND_only_on_G_eq_1": "KILLED",
+    "odd_s_XOR_eq_Delta_R": "KILLED",
+    "even_s_XOR_eq_0": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
