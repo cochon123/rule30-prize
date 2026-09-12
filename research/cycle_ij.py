@@ -130,6 +130,8 @@ def _walk_g11(k: int, q: int) -> dict:
                     return {"ok": False, "neigh": True, "k": k, "n": n, "j": j}
                 if green4(n, j) != pred[0] or green4(n, j + 1) != pred[1]:
                     return {"ok": False, "g4": True, "k": k, "n": n, "j": j}
+                if j not in bits or (j + 1) not in bits:
+                    continue
                 n_g11 += 1
                 if (gm, gp2) == (0, 0):
                     n_iso += 1
@@ -137,11 +139,8 @@ def _walk_g11(k: int, q: int) -> dict:
                     n_left += 1
                 else:
                     n_right += 1
-                if j in bits and (j + 1) in bits:
-                    a = bits[j][1]
-                    a2 = bits[j + 1][1]
-                    if a and a2:
-                        n_both_and += 1
+                if bits[j][1] and bits[j + 1][1]:
+                    n_both_and += 1
         row = rule30_step(row)
         s += 1
     ok = n_ok > 0

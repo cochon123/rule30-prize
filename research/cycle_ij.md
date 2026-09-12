@@ -17,7 +17,7 @@ Not a prize claim: no Green 4-run still leaves packed AND on Green
 pairs and triples, so covering never-fail stays open.
 
 Helper: `g11_green4`. Certify:
-`python3 research/cycle_ij.py --certify`.
+`python3 research/cycle_ij.py --certify` (~0.14s).
 Dump: `research/cycle_ij.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HU/II (\(n<64\); covering \(k\le 6\); no Fermat
