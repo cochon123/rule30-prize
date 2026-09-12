@@ -16,7 +16,7 @@ covering never-fail stays open. This recovers Cycle JN from
 Cycles JT+JV.
 
 Helper: `cob_revsw`. Certify:
-`python3 research/cycle_jz.py --certify`.
+`python3 research/cycle_jz.py --certify` (~0.16s).
 Dump: `research/cycle_jz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HU/IN/IY/JL/JN/JS/JT/JV/JY (\(n<64\); covering
