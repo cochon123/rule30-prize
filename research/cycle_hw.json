@@ -1,0 +1,239 @@
+{
+  "cycle": "HW",
+  "wall_s": 0.121,
+  "checks": {
+    "all_ok": true
+  },
+  "g_palindrome_table": {
+    "n_ok": 4096
+  },
+  "fold_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_center": 762,
+    "n_center_and": 232,
+    "n_pair": 8944,
+    "n_pair_xor": 3246,
+    "n_unp": 4009,
+    "rows": {
+      "0": {
+        "j6": {
+          "n_ok": 4,
+          "n_g1": 4,
+          "n_center_and": 2,
+          "n_pair_xor": 1,
+          "n_unp": 0,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 15,
+          "n_g1": 11,
+          "n_center_and": 2,
+          "n_pair_xor": 1,
+          "n_unp": 1,
+          "xor_j": 1
+        }
+      },
+      "1": {
+        "j6": {
+          "n_ok": 16,
+          "n_g1": 12,
+          "n_center_and": 1,
+          "n_pair_xor": 1,
+          "n_unp": 0,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 58,
+          "n_g1": 36,
+          "n_center_and": 3,
+          "n_pair_xor": 6,
+          "n_unp": 4,
+          "xor_j": 1
+        }
+      },
+      "2": {
+        "j6": {
+          "n_ok": 62,
+          "n_g1": 38,
+          "n_center_and": 2,
+          "n_pair_xor": 6,
+          "n_unp": 2,
+          "xor_j": 0
+        },
+        "j10": {
+          "n_ok": 226,
+          "n_g1": 110,
+          "n_center_and": 5,
+          "n_pair_xor": 19,
+          "n_unp": 18,
+          "xor_j": 0
+        }
+      },
+      "3": {
+        "j6": {
+          "n_ok": 244,
+          "n_g1": 120,
+          "n_center_and": 5,
+          "n_pair_xor": 22,
+          "n_unp": 8,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 892,
+          "n_g1": 352,
+          "n_center_and": 8,
+          "n_pair_xor": 49,
+          "n_unp": 64,
+          "xor_j": 1
+        }
+      },
+      "4": {
+        "j6": {
+          "n_ok": 968,
+          "n_g1": 386,
+          "n_center_and": 10,
+          "n_pair_xor": 63,
+          "n_unp": 30,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 3544,
+          "n_g1": 1122,
+          "n_center_and": 18,
+          "n_pair_xor": 145,
+          "n_unp": 222,
+          "xor_j": 1
+        }
+      },
+      "5": {
+        "j6": {
+          "n_ok": 3856,
+          "n_g1": 1240,
+          "n_center_and": 21,
+          "n_pair_xor": 204,
+          "n_unp": 104,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 14128,
+          "n_g1": 3608,
+          "n_center_and": 36,
+          "n_pair_xor": 473,
+          "n_unp": 744,
+          "xor_j": 1
+        }
+      },
+      "6": {
+        "j6": {
+          "n_ok": 15392,
+          "n_g1": 4002,
+          "n_center_and": 43,
+          "n_pair_xor": 654,
+          "n_unp": 350,
+          "xor_j": 1
+        },
+        "j10": {
+          "n_ok": 56416,
+          "n_g1": 11618,
+          "n_center_and": 76,
+          "n_pair_xor": 1602,
+          "n_unp": 2462,
+          "xor_j": 0
+        }
+      }
+    }
+  },
+  "killed_and_palindrome": {
+    "k": 1,
+    "s": 5,
+    "n": 7,
+    "j": 6,
+    "j2": 8,
+    "p": 8,
+    "p2": 4,
+    "four": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "four2": [
+      1,
+      0,
+      0,
+      1
+    ],
+    "packed": 0,
+    "packed2": 1
+  },
+  "killed_center_and_always": {
+    "k": 0,
+    "s": 7,
+    "n": 1,
+    "j": 1,
+    "p": 8,
+    "four": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "packed": 0,
+    "G": 1
+  },
+  "killed_unp_eq_green4": {
+    "k": 0,
+    "s": 3,
+    "n": 3,
+    "j": 0,
+    "j2": 6,
+    "p": 10,
+    "p2": -2,
+    "four": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "g4": [
+      1,
+      0,
+      1,
+      1
+    ],
+    "G": 1
+  },
+  "lemmas": {
+    "G_palindrome": true,
+    "covering_J_eq_center_XOR_pair_disagreements": true,
+    "unpaired_G1_four_0000": true,
+    "AND_palindrome_on_G1": false,
+    "center_AND_always_live": false,
+    "unpaired_eq_green4": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "G_palindrome": "LEMMA",
+    "covering_J_eq_center_XOR_pair_disagreements": "LEMMA",
+    "unpaired_G1_four_0000": "LEMMA",
+    "AND_palindrome_on_G1": "KILLED",
+    "center_AND_always_live": "KILLED",
+    "unpaired_eq_green4": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
