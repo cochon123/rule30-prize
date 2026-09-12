@@ -15,7 +15,7 @@ Not a prize claim: cob-shaped columns contribute 0 to covering
 \(J_q\), but non-cob AND still fires on \(G=1\), so covering
 never-fail stays open.
 
-Helper: `cob_shaped`. Certify: `python3 research/cycle_ht.py --certify`.
+Helper: `cob_shaped`. Certify: `python3 research/cycle_ht.py --certify` (~0.10s).
 Dump: `research/cycle_ht.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HF/HG/HH/HJ/HS (16-row table and algebra \(n<64\);
