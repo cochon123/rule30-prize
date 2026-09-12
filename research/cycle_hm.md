@@ -18,7 +18,7 @@ not give a closed form for the row along Green ones, so covering
 never-fail stays open.
 
 Helper: `green6` / `r30_4`. Certify:
-`python3 research/cycle_hm.py --certify`. Dump:
+`python3 research/cycle_hm.py --certify` (~0.37s). Dump:
 `research/cycle_hm.json`. Packed centre matches `experiment.center_bits`
 on 20 bits. Reads Cycles AL/CA/GU/HF/HG/HH/HJ/HL (algebra \(n<64\);
 covering \(k\le 6\); no Fermat table, no extra window, no \(n_0=16\)
