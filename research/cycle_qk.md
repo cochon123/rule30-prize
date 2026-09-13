@@ -27,7 +27,7 @@ Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 Do **not** claim leftover even-\(j\) odd-\(n\) tot equals leftover
 even-\(j\) tot.
 
-Certify: `python3 research/cycle_qk.py --certify`.
+Certify: `python3 research/cycle_qk.py --certify` (~0.53s).
 Dump: `research/cycle_qk.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/LZ/MD/PB/PC/PH/PM/PT/PV/PY/QC/QD/QE/QG/QI/QJ (unique
