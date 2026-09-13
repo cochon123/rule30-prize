@@ -15,7 +15,7 @@ push the even-spine scan past \(k=18\). Do **not** bump all
 Not a prize claim: the form is certified only for \(k\le 6\), so
 covering never-fail stays open.
 
-Certify: `python3 research/cycle_lz.py --certify`.
+Certify: `python3 research/cycle_lz.py --certify` (~0.22s).
 Dump: `research/cycle_lz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HU/KH/LB/LD/LF (covering \(k\le 6\); no Fermat table,
