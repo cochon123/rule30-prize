@@ -25,7 +25,7 @@ Not a prize claim: covering never-fail stays open. Do **not**
 claim Green-only rest for all \(k\). Do **not** record unique-slot
 XOR vs \(J\).
 
-Certify: `python3 research/cycle_oa.py --certify`.
+Certify: `python3 research/cycle_oa.py --certify` (~8.84s).
 Dump: `research/cycle_oa.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/NC/NZ/NE/MJ/MM/MQ (packed-free covering \(q=10\); prefix NC
