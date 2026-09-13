@@ -29,7 +29,7 @@ Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 Do **not** claim packed rest on \(n\equiv 0\pmod{4}\) equals
 \(S\oplus T\) at \(k-2\).
 
-Certify: `python3 research/cycle_qn.py --certify`.
+Certify: `python3 research/cycle_qn.py --certify` (~0.15s).
 Dump: `research/cycle_qn.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/MD/PB/PC/PH/PK/PW/PX/PY/PZ/QB/QK/QM (\(p=8\) even tot on
