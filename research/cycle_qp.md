@@ -27,7 +27,7 @@ Do **not** claim packed rest on \(n\equiv 0\pmod{4}\) equals
 \(S\oplus T\) at \(k-2\). Do **not** claim packed unique even tot
 equals Green unique even tot.
 
-Certify: `python3 research/cycle_qp.py --certify`.
+Certify: `python3 research/cycle_qp.py --certify` (~0.13s).
 Dump: `research/cycle_qp.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/MD/PB/QF/QG/QJ/QN/QO (UNIQUE_EVEN packed tot via QF
