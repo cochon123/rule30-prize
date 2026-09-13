@@ -17,7 +17,7 @@ claim the leftover split for all \(k\) without a new probe. Do
 **not** record unique-slot XOR vs \(J\). Do **not** walk \(k=10\)
 split here.
 
-Certify: `python3 research/cycle_mf.py --certify`.
+Certify: `python3 research/cycle_mf.py --certify` (~6.57s).
 Dump: `research/cycle_mf.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/MD (k=9 covering split walks; prefix ME for \(q=10\)
