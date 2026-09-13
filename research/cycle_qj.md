@@ -28,7 +28,7 @@ is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 Do **not** claim leftover even-\(j\) tot equals even-\(j\) tot.
 
-Certify: `python3 research/cycle_qj.py --certify`.
+Certify: `python3 research/cycle_qj.py --certify` (~0.50s).
 Dump: `research/cycle_qj.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/LZ/MD/PB/PC/QG/QH/QI (leftover even/odd \(j\); unique
