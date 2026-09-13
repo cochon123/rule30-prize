@@ -20,7 +20,7 @@ Not a prize claim: covering never-fail stays open. Do **not**
 claim a Green-only formula for rest. Do **not** record unique-slot
 XOR vs \(J\).
 
-Certify: `python3 research/cycle_mv.py --certify`.
+Certify: `python3 research/cycle_mv.py --certify` (~0.61s).
 Dump: `research/cycle_mv.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/MJ/MK/MU (packed-free covering both \(q\) for \(k\le 8\);
