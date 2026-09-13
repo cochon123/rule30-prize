@@ -28,7 +28,7 @@ Do **not** claim cellwise 2-fold packed AND. Do **not** claim
 even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\) for
 all \(k\).
 
-Certify: `python3 research/cycle_qw.py --certify`.
+Certify: `python3 research/cycle_qw.py --certify` (~0.50s).
 Dump: `research/cycle_qw.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/LZ/PC/QH/QO/QU/QV (Green even/odd rest through \(k\le 8\);
