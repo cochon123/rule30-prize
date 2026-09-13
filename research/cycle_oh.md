@@ -26,7 +26,7 @@ Not a prize claim: covering never-fail stays open. Odd-\(s\)
 rest is not FR \(J\). Do **not** claim Green-only rest for all
 \(k\). Do **not** record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_oh.py --certify`.
+Certify: `python3 research/cycle_oh.py --certify` (~0.97s).
 Dump: `research/cycle_oh.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OG/NA (Green-only dyadic \(n\)-bands \(k\le 11\); prefix
