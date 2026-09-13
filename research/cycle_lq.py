@@ -2,8 +2,8 @@
 """Cycle LQ: covering AND at p=88 on G=1 is 0100 for k>=6.
 
 On covering J6,J10 for k<=6, packed AND at p=88 with G=1 is only
-FRESH 0100 when k>=6. Count is 9 vs 19, hence even, so p=88 0100
-XOR is 0. Not 0100 for all k (k=4 q=6 is 0010); not xor 1 for
+FRESH 0100 when k>=6. Count is 9 vs 19, hence odd, so p=88 0100
+XOR is 1. Not 0100 for all k (k=4 q=6 is 0010); not xor 0 for
 k>=6; not equal to the p=6 count; not empty for k<6. This is
 packed AND at p=88, not a Green-only formula for J. Do not claim
 J6=J10=0 implies J18=1 for all k; do not push even-spine past
@@ -49,8 +49,8 @@ def want_p88_n(k: int, q: int) -> int:
 
 
 def want_p88_xor(k: int, q: int) -> int:
-    """p=88 0100 XOR is 0 for k>=6 (even counts)."""
-    return 0
+    """p=88 0100 XOR is 1 for k>=6 (odd counts)."""
+    return 1
 
 
 def _walk_p88(k: int, q: int) -> dict:
@@ -160,7 +160,7 @@ def p88_cover() -> dict:
         and rows["6"]["j10"]["n_p88"] == 19
         and rows["4"]["j6"]["n_other"] > 0
         and want_p88_n(6, 6) == 9
-        and want_p88_xor(6, 10) == 0
+        and want_p88_xor(6, 10) == 1
         and PAT0100 == (0, 1, 0, 0)
     )
     return {"ok": ok, "n_ok": n_ok, "n_g1": n_g1, "n_p88_ge6": n_p88_ge6, "rows": rows}
@@ -173,9 +173,9 @@ def killed_all_k() -> dict:
     return {"ok": ok, "k": 4, "q": 6, "n_pat": w["n_pat"]}
 
 
-def killed_xor1() -> dict:
-    """p=88 0100 xor is 1 for k>=6: count 9, xor 0."""
-    ok = want_p88_n(6, 6) == 9 and want_p88_xor(6, 6) == 0
+def killed_xor0() -> dict:
+    """p=88 0100 xor is 0 for k>=6: count 9, xor 1."""
+    ok = want_p88_n(6, 6) == 9 and want_p88_xor(6, 6) == 1
     return {"ok": ok, "n": want_p88_n(6, 6), "xor": want_p88_xor(6, 6)}
 
 
@@ -212,7 +212,7 @@ def self_checks(
     assert rt["ok"] and sc["ok"] and k0["ok"] and k1["ok"] and k2["ok"] and k3["ok"] and pref["ok"]
     assert PAT0100 in FRESH
     assert want_p88_n(6, 10) == 19
-    assert want_p88_xor(6, 10) == 0
+    assert want_p88_xor(6, 10) == 1
     return {"all_ok": True}
 
 
@@ -225,7 +225,7 @@ def main() -> None:
     rt = p88_cover()
     sc = g4_xor_cover()
     k0 = killed_all_k()
-    k1 = killed_xor1()
+    k1 = killed_xor0()
     k2 = killed_eq_p6()
     k3 = killed_empty()
     pref = prefixes()
@@ -241,7 +241,7 @@ def main() -> None:
             "n_eq_pack": sc["n_eq_pack"],
         },
         "killed_all_k": {k: k0[k] for k in k0 if k != "ok"},
-        "killed_xor1": {k: k1[k] for k in k1 if k != "ok"},
+        "killed_xor0": {k: k1[k] for k in k1 if k != "ok"},
         "killed_eq_p6": {k: k2[k] for k in k2 if k != "ok"},
         "killed_empty": {k: k3[k] for k in k3 if k != "ok"},
         "lemmas": {
@@ -262,7 +262,7 @@ def main() -> None:
             "p4_1001": True,
             "pat1001_rem": True,
             "all_k": False,
-            "xor1": False,
+            "xor0": False,
             "eq_p6": False,
             "empty": False,
             "J6_J10_0_implies_J18_1_all_k": None,
@@ -290,7 +290,7 @@ def main() -> None:
             "p4_1001": "LEMMA",
             "pat1001_rem": "LEMMA",
             "all_k": "KILLED",
-            "xor1": "KILLED",
+            "xor0": "KILLED",
             "eq_p6": "KILLED",
             "empty": "KILLED",
             "J6_J10_0_implies_J18_1_all_k": "PREFIX",
@@ -318,7 +318,7 @@ def main() -> None:
     )
     print("g4_xor_cover", dump["g4_xor_cover"])
     print("killed_all_k", dump["killed_all_k"])
-    print("killed_xor1", dump["killed_xor1"])
+    print("killed_xor0", dump["killed_xor0"])
     print("killed_eq_p6", dump["killed_eq_p6"])
     print("killed_empty", dump["killed_empty"])
 
