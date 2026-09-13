@@ -17,7 +17,7 @@ Not a prize claim: covering never-fail stays open. Do **not**
 guess a replacement modulus form for all \(k\) without a new
 probe.
 
-Certify: `python3 research/cycle_md.py --certify`.
+Certify: `python3 research/cycle_md.py --certify` (~0.13s).
 Dump: `research/cycle_md.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HU/KH/LZ/MB (prefix dumps for \(k\le 10\); one
