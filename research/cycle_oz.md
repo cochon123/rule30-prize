@@ -27,7 +27,7 @@ packed. Do **not** walk \(k=12\) \(T\)-bands.
 Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 
-Certify: `python3 research/cycle_oz.py --certify`.
+Certify: `python3 research/cycle_oz.py --certify` (~0.96s).
 Dump: `research/cycle_oz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/OS/OW/OY/OG (r0 fold, covering split; prefix OY n3
