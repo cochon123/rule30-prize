@@ -13,7 +13,7 @@ push the even-spine scan past \(k=18\). Do **not** bump all
 Not a prize claim: the two Green-forced slots do not make packed AND
 XOR \(J\) Green-only, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_lx.py --certify`.
+Certify: `python3 research/cycle_lx.py --certify` (~0.22s).
 Dump: `research/cycle_lx.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HU/KH (covering \(k\le 6\); no Fermat table, no extra
