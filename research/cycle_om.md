@@ -21,7 +21,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 
-Certify: `python3 research/cycle_om.py --certify`.
+Certify: `python3 research/cycle_om.py --certify` (~0.17s).
 Dump: `research/cycle_om.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OK/OL/OJ/OG (fold \(S(8t+7)=S(2t+1)\); prefix OL even-parent
@@ -32,7 +32,7 @@ no extra window, no \(n_0=16\) window, no packed covering \(k=11\)).
 
 Green doubling of \(n=2(2s+1)+1\) with odd \(s\) maps pal-right
 \(S\)-cells of \(s\) into the child; the identity holds on
-\(t=0,\ldots,127\). At \(t=0\), \(S(7)=S(1)=0\). At \(t=4\),
+\(t=0,\ldots,127\) (\(81\) of those rows have xor \(=1\)). At \(t=0\), \(S(7)=S(1)=0\). At \(t=4\),
 \(S(39)=S(9)=1\). Status: **certified** on this range, not a lemma
 for all \(t\).
 
