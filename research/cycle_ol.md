@@ -29,7 +29,7 @@ walk \(k=11\) covering packed. Do **not** walk \(k=12\) \(T\)-bands.
 Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 
-Certify: `python3 research/cycle_ol.py --certify`.
+Certify: `python3 research/cycle_ol.py --certify` (~0.18s).
 Dump: `research/cycle_ol.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OK/OJ/OG (even-parent residue xor; \(n=8t+3\) off-residue
@@ -51,9 +51,10 @@ Checked on \(t<128\).
 
 ## Certificate (\(S(8t+3)=1\) for \(1\le t\le 127\))
 
-The off-residue xor is \(1\) at \(t=1,\ldots,127\) and \(0\) at
-\(t=0\). Status: **certified** on this range, not a lemma for all
-\(t\ge 1\).
+The off-residue xor is \(1\) at \(t=1,\ldots,127\) (\(n=11,\ldots,1019\))
+and \(0\) at \(t=0\). Status: **certified** on this range, not a lemma
+for all \(t\ge 1\). Even parent: \(64\) even \(m<128\), of which
+\(32\) have \(S(2m+1)=1\).
 
 ## Killed
 
