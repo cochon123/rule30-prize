@@ -18,7 +18,7 @@ to \(n_8\). Do **not** walk \(32U\).
 Not a prize claim: covering never-fail stays open. Do **not**
 claim rest8 for all \(k\) without a new probe.
 
-Certify: `python3 research/cycle_mb.py --certify`.
+Certify: `python3 research/cycle_mb.py --certify` (~6.49s).
 Dump: `research/cycle_mb.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/LZ (k=9 covering walks; prefix LZ for \(k\le 6\) and MA

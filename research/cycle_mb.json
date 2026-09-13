@@ -1,0 +1,217 @@
+{
+  "cycle": "MB",
+  "wall_s": 6.491,
+  "checks": {
+    "all_ok": true
+  },
+  "rest8_prefix": {
+    "rows": {
+      "0": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 0,
+          "wr8": 0
+        }
+      },
+      "1": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 0,
+          "wr8": 0
+        }
+      },
+      "2": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 1,
+          "wr8": 1
+        }
+      },
+      "3": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 0,
+          "wr8": 0
+        }
+      },
+      "4": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 0,
+          "wr8": 0
+        }
+      },
+      "5": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 0,
+          "wr8": 0
+        }
+      },
+      "6": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0
+        },
+        "j10": {
+          "xor_rest": 1,
+          "wr8": 1
+        }
+      },
+      "7": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0,
+          "xor_j": 1,
+          "wj8": 1
+        },
+        "j10": {
+          "xor_rest": 0,
+          "wr8": 0,
+          "xor_j": 1,
+          "wj8": 1
+        }
+      },
+      "8": {
+        "j6": {
+          "xor_rest": 0,
+          "wr8": 0,
+          "xor_j": 1,
+          "wj8": 1
+        },
+        "j10": {
+          "xor_rest": 1,
+          "wr8": 1,
+          "xor_j": 0,
+          "wj8": 0
+        }
+      }
+    }
+  },
+  "k9_holds": {
+    "n_ok": 4588544,
+    "n_g1": 526576,
+    "rows": {
+      "j6": {
+        "xor_j": 1,
+        "xor_f": 1,
+        "xor_rest": 0,
+        "wj8": 1,
+        "wf": 1,
+        "wr8": 0,
+        "wr": 0,
+        "ge8": 0
+      },
+      "j10": {
+        "xor_j": 1,
+        "xor_f": 1,
+        "xor_rest": 0,
+        "wj8": 1,
+        "wf": 1,
+        "wr8": 0,
+        "wr": 0,
+        "ge8": 1
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_ge8": {
+    "k": 9,
+    "q": 10,
+    "rest": 0,
+    "ge8": 1
+  },
+  "killed_from8": {
+    "k": 9,
+    "j6": 1,
+    "j10": 1
+  },
+  "killed_rest8_k9": {
+    "k": 9,
+    "r6": 0,
+    "r10": 0
+  },
+  "killed_forced9": {
+    "k": 9,
+    "f6": 1,
+    "f10": 1
+  },
+  "lemmas": {
+    "rest8": true,
+    "k9_holds": true,
+    "forced9": true,
+    "k7_holds": true,
+    "k8_kill": true,
+    "forced8": true,
+    "j_form": true,
+    "rest_q10": true,
+    "p14_except": true,
+    "only_p4_p6": true,
+    "p6_g1_and": true,
+    "p4_g1_and": true,
+    "ge8": false,
+    "from8": false,
+    "rest8_k9_fail": false,
+    "forced9_die": false,
+    "all_k": false,
+    "rest_all_k": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "rest8": "LEMMA",
+    "k9_holds": "LEMMA",
+    "forced9": "LEMMA",
+    "k7_holds": "LEMMA",
+    "k8_kill": "KILLED",
+    "forced8": "LEMMA",
+    "j_form": "LEMMA",
+    "rest_q10": "LEMMA",
+    "p14_except": "LEMMA",
+    "only_p4_p6": "LEMMA",
+    "p6_g1_and": "LEMMA",
+    "p4_g1_and": "LEMMA",
+    "ge8": "KILLED",
+    "from8": "KILLED",
+    "rest8_k9_fail": "KILLED",
+    "forced9_die": "KILLED",
+    "all_k": "KILLED",
+    "rest_all_k": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
