@@ -1,0 +1,220 @@
+{
+  "cycle": "PY",
+  "wall_s": 0.146,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "frozen_b6972": {
+    "n_ok": 129,
+    "n_even": 15,
+    "early72": [
+      58,
+      60,
+      80,
+      84,
+      88,
+      90
+    ],
+    "t_hi": 128
+  },
+  "left73_period": {
+    "n_ok": 129,
+    "n_even": 15,
+    "t100": 5147007073629865371411,
+    "t108": 5147007073629865371411
+  },
+  "green_p20": {
+    "n_ok": 3111,
+    "k_hi": 10,
+    "rows": {
+      "2": {
+        "n1": 6,
+        "xor": 0
+      },
+      "3": {
+        "n1": 6,
+        "xor": 0
+      },
+      "4": {
+        "n1": 11,
+        "xor": 1
+      },
+      "5": {
+        "n1": 11,
+        "xor": 1
+      },
+      "6": {
+        "n1": 17,
+        "xor": 1
+      },
+      "7": {
+        "n1": 17,
+        "xor": 1
+      },
+      "8": {
+        "n1": 23,
+        "xor": 1
+      },
+      "9": {
+        "n1": 23,
+        "xor": 1
+      },
+      "10": {
+        "n1": 29,
+        "xor": 1
+      }
+    }
+  },
+  "green_n2": {
+    "n_ok": 3066,
+    "k_hi": 10,
+    "rows": {
+      "6": {
+        "n2": 10,
+        "xor": 0
+      },
+      "7": {
+        "n2": 12,
+        "xor": 0
+      },
+      "8": {
+        "n2": 18,
+        "xor": 0
+      },
+      "9": {
+        "n2": 20,
+        "xor": 0
+      },
+      "10": {
+        "n2": 26,
+        "xor": 0
+      }
+    }
+  },
+  "thin_p72": {
+    "n_ok": 9,
+    "k_hi": 8,
+    "rows": {
+      "0": {
+        "xor_a": 0,
+        "n_g": 0,
+        "n_and": 0,
+        "n_sil": 0,
+        "j": -31,
+        "t0": 2
+      },
+      "1": {
+        "xor_a": 0,
+        "n_g": 0,
+        "n_and": 0,
+        "n_sil": 0,
+        "j": -26,
+        "t0": 4
+      },
+      "2": {
+        "xor_a": 0,
+        "n_g": 0,
+        "n_and": 0,
+        "n_sil": 0,
+        "j": -16,
+        "t0": 8
+      },
+      "3": {
+        "xor_a": 1,
+        "n_g": 16,
+        "n_and": 1,
+        "n_sil": 15,
+        "j": 4,
+        "t0": 16
+      },
+      "4": {
+        "xor_a": 0,
+        "n_g": 12,
+        "n_and": 2,
+        "n_sil": 10,
+        "j": 44,
+        "t0": 32
+      },
+      "5": {
+        "xor_a": 0,
+        "n_g": 8,
+        "n_and": 2,
+        "n_sil": 6,
+        "j": 124,
+        "t0": 64
+      },
+      "6": {
+        "xor_a": 0,
+        "n_g": 19,
+        "n_and": 10,
+        "n_sil": 9,
+        "j": 284,
+        "t0": 128
+      },
+      "7": {
+        "xor_a": 0,
+        "n_g": 21,
+        "n_and": 12,
+        "n_sil": 9,
+        "j": 604,
+        "t0": 256
+      },
+      "8": {
+        "xor_a": 0,
+        "n_g": 33,
+        "n_and": 18,
+        "n_sil": 15,
+        "j": 1244,
+        "t0": 512
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "bit69_72_mod8": true,
+    "and72_even_t_ge_100": true,
+    "p20_gxor_k_ge_4": true,
+    "p72_n2_via_p18_p20": true,
+    "p72_xor_iff_k3": true,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "p72_silent": false,
+    "unique_rest_xor0": false,
+    "prize": false
+  },
+  "verdict": {
+    "bit69_72_mod8": "LEMMA",
+    "left73_period8": "LEMMA",
+    "and72_even_t_ge_100": "LEMMA",
+    "p20_gxor_k_ge_4": "LEMMA",
+    "p72_n2_via_p18_p20": "LEMMA",
+    "p72_xor_iff_k3": "LEMMA",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "E_all_k": "PREFIX",
+    "p72_silent": "KILLED",
+    "unique_rest_xor0": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
