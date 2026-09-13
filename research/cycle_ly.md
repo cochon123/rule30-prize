@@ -15,7 +15,7 @@ Not a prize claim: \(p=14\) is Green-forced except two explicit
 cells, but the rest of packed AND XOR \(J\) still reads the packed
 row, so covering never-fail stays open.
 
-Certify: `python3 research/cycle_ly.py --certify`.
+Certify: `python3 research/cycle_ly.py --certify` (~0.22s).
 Dump: `research/cycle_ly.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HU/KH/LF (covering \(k\le 6\); no Fermat table, no
