@@ -1,0 +1,108 @@
+{
+  "cycle": "KI",
+  "wall_s": 0.173,
+  "checks": {
+    "all_ok": true
+  },
+  "pair_lift_table": {
+    "n_img": 2688,
+    "n_child": 128,
+    "n_even": 128,
+    "n_r1": 1485,
+    "n_r2": 742,
+    "n_r3": 461,
+    "image_pairs": 2
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_zero_pairs": {
+    "r": 1,
+    "bits": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "n_pairs": 2
+  },
+  "killed_eq_runs": {
+    "m": 0,
+    "n": 1,
+    "n_runs": 1,
+    "n_pairs": 2
+  },
+  "killed_even_pairs": {
+    "n": 2,
+    "n_pairs": 0,
+    "runs": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ]
+  },
+  "killed_r3_from_r2": {
+    "m": 2,
+    "n": 5,
+    "rc_m": [
+      0,
+      3,
+      0,
+      0
+    ],
+    "rc_n": [
+      0,
+      0,
+      0,
+      3
+    ]
+  },
+  "lemmas": {
+    "image_two_pairs": true,
+    "n_pairs_twice_runs": true,
+    "g4_row_xor_0111": true,
+    "covering_clip_g4": true,
+    "image_zero_pairs": false,
+    "n_pairs_eq_runs": false,
+    "even_has_pairs": false,
+    "r3_from_r2": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "image_two_pairs": "LEMMA",
+    "n_pairs_twice_runs": "LEMMA",
+    "g4_row_xor_0111": "LEMMA",
+    "covering_clip_g4": "LEMMA",
+    "image_zero_pairs": "KILLED",
+    "n_pairs_eq_runs": "KILLED",
+    "even_has_pairs": "KILLED",
+    "r3_from_r2": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
