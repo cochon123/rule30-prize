@@ -28,7 +28,7 @@ Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 
-Certify: `python3 research/cycle_pk.py --certify`.
+Certify: `python3 research/cycle_pk.py --certify` (~0.16s).
 Dump: `research/cycle_pk.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/LG/PC/PH/PI/PJ/PD/GU/HG/HH/HU (bits \(29..32\), even-\(t\)
