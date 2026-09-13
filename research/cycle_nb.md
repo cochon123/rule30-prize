@@ -19,7 +19,7 @@ Green-only rest on the certified range \(q=10\), \(k\le 10\); do
 **not** claim the form on \(q=6\), and do **not** claim Green-only
 rest for all \(k\). Do **not** record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_nb.py --certify`.
+Certify: `python3 research/cycle_nb.py --certify` (~8.72s).
 Dump: `research/cycle_nb.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/NA/MD (packed-free covering \(q=10\) for \(k=9,10\);
