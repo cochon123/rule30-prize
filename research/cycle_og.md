@@ -36,7 +36,7 @@ Not a prize claim: covering never-fail stays open. Even-time
 \(J_{\mathrm{full}}\). Do **not** claim Green-only rest for all
 \(k\). Do **not** record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_og.py --certify`.
+Certify: `python3 research/cycle_og.py --certify` (~32.31s).
 Dump: `research/cycle_og.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/NB/MD/HF/HG/MJ (packed odd-\(s\) \(R\) with Green \(S,T\)
