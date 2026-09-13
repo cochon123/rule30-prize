@@ -19,7 +19,7 @@ Not a prize claim: covering never-fail stays open. Do **not**
 claim Green-only rest for all \(k\). Do **not** record unique-slot
 XOR vs \(J\).
 
-Certify: `python3 research/cycle_nf.py --certify`.
+Certify: `python3 research/cycle_nf.py --certify` (~0.60s).
 Dump: `research/cycle_nf.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/MJ/NA/NE (packed-free covering both \(q\) for \(k\le 8\);
