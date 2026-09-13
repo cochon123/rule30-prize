@@ -38,7 +38,7 @@ Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\). Do
 **not** record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_oi.py --certify`.
+Certify: `python3 research/cycle_oi.py --certify` (~1.41s).
 Dump: `research/cycle_oi.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OH/OG (Green even-\(n\) / odd-\(d\) and palindrome-right
@@ -57,9 +57,12 @@ for all even \(n\). Checked on \(n<2048\).
 ## Certificate (odd \(n<2048\): pal-right \(T\)-xor \(=1\))
 
 Every odd \(n<2048\) has palindrome-right xor of \(G(n,j-1)\) on
-\(G=1\) equal to \(1\). Odd \(n=1,3,\ldots,63\) each xor \(=1\);
-\(n=1\) has \(n_T=1\) and one fire. Status: **certified** on this
-range, not a lemma for all odd \(n\).
+\(G=1\) equal to \(1\) (\(n_{\mathrm{odd}}=1024\),
+\(n_T^{\mathrm{odd}}=164352\), \(n_{\mathrm{fire}}^{\mathrm{odd}}=91136\)).
+Odd \(n=1,3,\ldots,63\) each xor \(=1\); \(n=1\) has \(n_T=1\) and
+one fire. Even \(n<2048\) have \(n_{\mathrm{fire}}=0\) with
+\(n_T^{\mathrm{even}}=73216\) on \(1023\) nonempty rows. Status:
+**certified** on this range, not a lemma for all odd \(n\).
 
 ## Killed
 
