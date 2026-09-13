@@ -28,7 +28,7 @@ Do **not** claim packed rest on \(n\equiv 0\pmod{4}\) equals
 \(S\oplus T\) at \(k-2\). Do **not** claim even-\(n\) rest equals
 parent rest tot. Do **not** claim cellwise 2-fold packed AND.
 
-Certify: `python3 research/cycle_qu.py --certify`.
+Certify: `python3 research/cycle_qu.py --certify` (~0.14s).
 Dump: `research/cycle_qu.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/MD/PB/QO/QR/QS/QT (even-\(n\) rest tot vs parent odd-\(n\)
