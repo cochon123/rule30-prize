@@ -17,7 +17,7 @@ push the even-spine scan past \(k=18\). Do **not** bump all
 Not a prize claim: covering never-fail stays open. Do **not**
 record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_na.py --certify`.
+Certify: `python3 research/cycle_na.py --certify` (~0.55s).
 Dump: `research/cycle_na.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/MJ/MM/MN/MZ (packed-free covering \(q=10\) for \(k\le 8\);
