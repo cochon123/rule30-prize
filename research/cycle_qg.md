@@ -29,7 +29,7 @@ is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 Do **not** claim Green unique tot equals packed unique tot.
 
-Certify: `python3 research/cycle_qg.py --certify`.
+Certify: `python3 research/cycle_qg.py --certify` (~0.25s).
 Dump: `research/cycle_qg.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/MD/PC/PM/PN/PT/PV/PY/QA/QC/QD/QE/QF (Green UNIQUE_REST
