@@ -31,7 +31,9 @@ table, no extra window, no \(n_0=16\) window).
 Covering \(q=10\), \(k\le 10\). Cycle NA's \(S\oplus T\) equals
 rest at \(k=9\) and \(k=10\) (both \(0\)). The walk does not read
 the packed row. Together with Cycle NA that is Green-only rest on
-the full Cycle MD rest10 range.
+the full Cycle MD rest10 range. Rest and \(S\oplus T\) are
+odd-\(s\) objects (HF/HG \(\mathrm{xor}_{\mathrm{odd}}\) after
+forced), **not** FR \(J_{\mathrm{full}}\). See Cycle OG.
 
 ## Killed
 
