@@ -16,7 +16,7 @@ Not a prize claim: the \(p=6\) slot contribution is Green-forced,
 but the rest of packed AND XOR \(J\) still reads the packed row, so
 covering never-fail stays open.
 
-Certify: `python3 research/cycle_lw.py --certify`.
+Certify: `python3 research/cycle_lw.py --certify` (~0.22s).
 Dump: `research/cycle_lw.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 AL/CA/GU/HG/HH/HU/KH/LC/LD (covering \(k\le 6\); no Fermat table, no
