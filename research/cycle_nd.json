@@ -1,0 +1,362 @@
+{
+  "cycle": "ND",
+  "wall_s": 0.608,
+  "checks": {
+    "all_ok": true
+  },
+  "bothq_s_mid": {
+    "n_ok": 1530189,
+    "n_g1": 235959,
+    "n_mid": 3930,
+    "n_midg": 1672,
+    "rows": {
+      "0": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 0,
+          "n_midg": 0,
+          "n_hi": 0,
+          "n_hig": 0,
+          "n_ok": 4,
+          "n_g1": 4
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 0,
+          "n_midg": 0,
+          "n_hi": 0,
+          "n_hig": 0,
+          "n_ok": 15,
+          "n_g1": 11
+        }
+      },
+      "1": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 0,
+          "n_midg": 0,
+          "n_hi": 0,
+          "n_hig": 0,
+          "n_ok": 16,
+          "n_g1": 12
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 0,
+          "n_midg": 0,
+          "n_hi": 2,
+          "n_hig": 0,
+          "n_ok": 58,
+          "n_g1": 36
+        }
+      },
+      "2": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 1,
+          "n_midg": 0,
+          "n_hi": 1,
+          "n_hig": 0,
+          "n_ok": 62,
+          "n_g1": 38
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 1,
+          "n_mid": 1,
+          "n_midg": 0,
+          "n_hi": 4,
+          "n_hig": 2,
+          "n_ok": 226,
+          "n_g1": 110
+        }
+      },
+      "3": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 1,
+          "xor_nltu": 0,
+          "xor_sall": 1,
+          "rest": 0,
+          "n_mid": 3,
+          "n_midg": 2,
+          "n_hi": 1,
+          "n_hig": 1,
+          "n_ok": 244,
+          "n_g1": 120
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 3,
+          "n_midg": 2,
+          "n_hi": 16,
+          "n_hig": 4,
+          "n_ok": 892,
+          "n_g1": 352
+        }
+      },
+      "4": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 1,
+          "xor_nltu": 1,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 13,
+          "n_midg": 4,
+          "n_hi": 10,
+          "n_hig": 1,
+          "n_ok": 968,
+          "n_g1": 386
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 1,
+          "xor_nltu": 1,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 13,
+          "n_midg": 4,
+          "n_hi": 48,
+          "n_hig": 21,
+          "n_ok": 3544,
+          "n_g1": 1122
+        }
+      },
+      "5": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 35,
+          "n_midg": 20,
+          "n_hi": 23,
+          "n_hig": 14,
+          "n_ok": 3856,
+          "n_g1": 1240
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 35,
+          "n_midg": 20,
+          "n_hi": 177,
+          "n_hig": 62,
+          "n_ok": 14128,
+          "n_g1": 3608
+        }
+      },
+      "6": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 135,
+          "n_midg": 50,
+          "n_hi": 105,
+          "n_hig": 30,
+          "n_ok": 15392,
+          "n_g1": 4002
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 1,
+          "xor_nltu": 0,
+          "xor_sall": 1,
+          "rest": 1,
+          "n_mid": 135,
+          "n_midg": 50,
+          "n_hi": 560,
+          "n_hig": 245,
+          "n_ok": 56416,
+          "n_g1": 11618
+        }
+      },
+      "7": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 389,
+          "n_midg": 200,
+          "n_hi": 287,
+          "n_hig": 150,
+          "n_ok": 61504,
+          "n_g1": 12920
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 0,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 389,
+          "n_midg": 200,
+          "n_hi": 1958,
+          "n_hig": 774,
+          "n_ok": 225472,
+          "n_g1": 37496
+        }
+      },
+      "8": {
+        "j6": {
+          "xor_mid": 0,
+          "xor_hi": 1,
+          "xor_nltu": 1,
+          "xor_sall": 0,
+          "rest": 0,
+          "n_mid": 1389,
+          "n_midg": 560,
+          "n_hi": 1094,
+          "n_hig": 397,
+          "n_ok": 245888,
+          "n_g1": 41762
+        },
+        "j10": {
+          "xor_mid": 0,
+          "xor_hi": 0,
+          "xor_nltu": 1,
+          "xor_sall": 1,
+          "rest": 1,
+          "n_mid": 1389,
+          "n_midg": 560,
+          "n_hi": 6284,
+          "n_hig": 2772,
+          "n_ok": 901504,
+          "n_g1": 121122
+        }
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_eq_rest": {
+    "k": 2,
+    "q": 10,
+    "xor_mid": 0,
+    "rest": 1
+  },
+  "killed_empty": {
+    "k": 2,
+    "q": 10,
+    "n_mid": 1
+  },
+  "killed_pointwise": {
+    "k": 4,
+    "q": 10,
+    "n_midg": 4
+  },
+  "killed_eq_nltu": {
+    "k": 4,
+    "q": 10,
+    "xor_mid": 0,
+    "xor_nltu": 1
+  },
+  "killed_eq_s": {
+    "k": 6,
+    "q": 10,
+    "xor_mid": 0,
+    "xor_sall": 1
+  },
+  "killed_eq_hi": {
+    "k": 3,
+    "q": 6,
+    "xor_mid": 0,
+    "xor_hi": 1
+  },
+  "killed_q6_die": {
+    "k": 4,
+    "q": 6,
+    "xor_mid": 0,
+    "n_mid": 13
+  },
+  "lemmas": {
+    "s_mid": true,
+    "s_nltu": true,
+    "green_rest": true,
+    "jgtn_even": true,
+    "eq_rest": false,
+    "nmid_empty": false,
+    "pointwise": false,
+    "eq_nltu": false,
+    "eq_s": false,
+    "eq_hi": false,
+    "q6_die": false,
+    "all_k": false,
+    "u_vs_j": false,
+    "unique0": false,
+    "left_eq": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "s_mid": "LEMMA",
+    "s_nltu": "LEMMA",
+    "green_rest": "LEMMA",
+    "jgtn_even": "LEMMA",
+    "eq_rest": "KILLED",
+    "nmid_empty": "KILLED",
+    "pointwise": "KILLED",
+    "eq_nltu": "KILLED",
+    "eq_s": "KILLED",
+    "eq_hi": "KILLED",
+    "q6_die": "KILLED",
+    "all_k": "KILLED",
+    "u_vs_j": "KILLED",
+    "unique0": "KILLED",
+    "left_eq": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
