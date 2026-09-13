@@ -25,7 +25,7 @@ past 414990. Do **not** increment consecutive `11` to \(n_8\). Do
 Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 
-Certify: `python3 research/cycle_os.py --certify`.
+Certify: `python3 research/cycle_os.py --certify` (~0.17s).
 Dump: `research/cycle_os.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/OP/OQ/OR/OG (\(G(2p,2e)=G(p,e)\); even-parent \(R_2\)
