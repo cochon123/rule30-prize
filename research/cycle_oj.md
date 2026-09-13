@@ -45,7 +45,7 @@ is not FR \(J\). Even-time \(J_{\mathrm{even}}\) is still required
 for \(J_{\mathrm{full}}\). Do **not** claim Green-only rest for all
 \(k\). Do **not** record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_oj.py --certify`.
+Certify: `python3 research/cycle_oj.py --certify` (~0.14s).
 Dump: `research/cycle_oj.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OI/OG (Green doubling on odd \(n=2m+1\); prefix OI even-\(n\)
@@ -57,8 +57,8 @@ extra window, no \(n_0=16\) window, no packed covering \(k=11\), no
 
 Green doubling plus the endpoint telescope, using \(G(m,m)=1\) and
 \(G(m,2m)=1\). Status: **lemma** for every odd \(n\). Checked on
-\(m<128\) (the doubling slots, the even/odd contributions, and the
-telescope).
+\(m<128\) (the doubling slots \(n_{\mathrm{ok}}=16512\), the even/odd
+contributions, and the telescope). \(n=1\) has \(n_T=1\).
 
 ## Lemma (covering \(T_k=1\) iff \(k=2\))
 
