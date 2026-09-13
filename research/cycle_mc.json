@@ -1,0 +1,125 @@
+{
+  "cycle": "MC",
+  "wall_s": 31.357,
+  "checks": {
+    "all_ok": true
+  },
+  "k10_kill": {
+    "n_ok": 18352128,
+    "n_g1": 1702980,
+    "rows": {
+      "j6": {
+        "xor_j": 1,
+        "xor_f": 1,
+        "xor_rest": 0,
+        "wj8": 1,
+        "wj": 1,
+        "wf": 1,
+        "wr8": 0,
+        "wr": 0
+      },
+      "j10": {
+        "xor_j": 1,
+        "xor_f": 1,
+        "xor_rest": 0,
+        "wj8": 0,
+        "wj": 0,
+        "wf": 1,
+        "wr8": 1,
+        "wr": 1
+      }
+    }
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "killed_rest8_all": {
+    "k": 10,
+    "q": 10,
+    "rest": 0,
+    "wr8": 1
+  },
+  "killed_j8_all": {
+    "k": 10,
+    "q": 10,
+    "xor_j": 1,
+    "wj8": 0
+  },
+  "killed_q6_fail": {
+    "k": 10,
+    "q": 6,
+    "rest": 0,
+    "xor_j": 1
+  },
+  "killed_forced10": {
+    "k": 10,
+    "f6": 1,
+    "f10": 1
+  },
+  "lemmas": {
+    "k10_kill": true,
+    "forced10": true,
+    "q6_rest0": true,
+    "rest8": true,
+    "k9_holds": true,
+    "forced9": true,
+    "k7_holds": true,
+    "forced8": true,
+    "j_form": true,
+    "rest_q10": true,
+    "p14_except": true,
+    "only_p4_p6": true,
+    "p6_g1_and": true,
+    "p4_g1_and": true,
+    "rest8_all": false,
+    "j8_all": false,
+    "q6_fail": false,
+    "forced10_die": false,
+    "ge8": false,
+    "from8": false,
+    "all_k": false,
+    "rest_all_k": false,
+    "J6_J10_0_implies_J18_1_all_k": null,
+    "eleven_bit_gap": null,
+    "extra_414990_formula": null,
+    "at_most_one_odd_all_k": null,
+    "period_H_seed_all_k": null,
+    "prize": false
+  },
+  "verdict": {
+    "k10_kill": "KILLED",
+    "forced10": "LEMMA",
+    "q6_rest0": "LEMMA",
+    "rest8": "LEMMA",
+    "k9_holds": "LEMMA",
+    "forced9": "LEMMA",
+    "k7_holds": "LEMMA",
+    "forced8": "LEMMA",
+    "j_form": "LEMMA",
+    "rest_q10": "LEMMA",
+    "p14_except": "LEMMA",
+    "only_p4_p6": "LEMMA",
+    "p6_g1_and": "LEMMA",
+    "p4_g1_and": "LEMMA",
+    "rest8_all": "KILLED",
+    "j8_all": "KILLED",
+    "q6_fail": "KILLED",
+    "forced10_die": "KILLED",
+    "ge8": "KILLED",
+    "from8": "KILLED",
+    "all_k": "KILLED",
+    "rest_all_k": "KILLED",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
