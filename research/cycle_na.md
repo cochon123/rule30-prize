@@ -31,7 +31,12 @@ on palindrome-right \(d\bmod 3=1\) cells with \(G(n,j-1)=0\), and
 let \(T\) be the XOR of \(G(n,j-1)\) on palindrome-right cells with
 \(n<U/2\). Then \(S\oplus T\) equals rest. The walk does not read
 the packed row. At \(k=8\), \(S=1\) and \(T=0\) close MN's proxy
-miss; at \(k=2\), \(S=0\) and \(T=1\).
+miss; at \(k=2\), \(S=0\) and \(T=1\). Rest here is odd-\(s\)
+packed AND xor off \(\{4,6,14\}\), matching HF/HG
+\(\mathrm{xor}_{\mathrm{odd}}\) after forced, **not** the FR full
+remainder
+\(J_{\mathrm{full}}=\mathrm{xor}_{\mathrm{odd}}\oplus\mathrm{xor}_{\mathrm{even}}\).
+See Cycle OG for \(E_k=R_k\oplus S_k\oplus T_k\).
 
 ## Killed
 
