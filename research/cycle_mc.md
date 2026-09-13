@@ -18,7 +18,7 @@ guess a replacement rest formula for all \(k\) without a new
 probe. The \(k\equiv 2\pmod{4}\) rest pattern itself fails at
 \(k=10\), \(q=10\).
 
-Certify: `python3 research/cycle_mc.py --certify`.
+Certify: `python3 research/cycle_mc.py --certify` (~31.36s).
 Dump: `research/cycle_mc.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/LZ/MB (k=10 covering walks; prefix MB for \(k\le 9\); no
