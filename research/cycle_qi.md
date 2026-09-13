@@ -31,7 +31,7 @@ is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 Do **not** claim even-\(j\) tot equals leftover or unique Green tot.
 
-Certify: `python3 research/cycle_qi.py --certify`.
+Certify: `python3 research/cycle_qi.py --certify` (~0.51s).
 Dump: `research/cycle_qi.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OJ/PA/PB/PC/QG/QH (clip-edge \(p=0\); unique column
