@@ -36,7 +36,7 @@ Do **not** walk \(k=11\) covering packed. Do **not** walk \(k=12\)
 Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 
-Certify: `python3 research/cycle_or.py --certify`.
+Certify: `python3 research/cycle_or.py --certify` (~0.30s).
 Dump: `research/cycle_or.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/MD/OJ/OK/OQ/OG/NA (\(P(2^k)\); unclipped covering window;
