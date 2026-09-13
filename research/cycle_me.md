@@ -15,7 +15,7 @@ Not a prize claim: covering never-fail stays open. Do **not**
 claim the \(q=10\) leftover split for all \(k\) without a new
 probe. Do **not** record unique-slot XOR vs \(J\).
 
-Certify: `python3 research/cycle_me.py --certify`.
+Certify: `python3 research/cycle_me.py --certify` (~1.59s).
 Dump: `research/cycle_me.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/MD (covering \(q=10\) for \(k\le 8\); prefix MD for
