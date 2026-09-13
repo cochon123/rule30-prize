@@ -25,7 +25,7 @@ packed. Do **not** walk \(k=12\) \(T\)-bands.
 Not a prize claim: covering never-fail stays open. Odd-\(s\) rest
 is not FR \(J\). Do **not** claim Green-only rest for all \(k\).
 
-Certify: `python3 research/cycle_ok.py --certify`.
+Certify: `python3 research/cycle_ok.py --certify` (~0.14s).
 Dump: `research/cycle_ok.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/AL/OI/OJ/OG (Green even-\(n\) \(S\)-vanish; odd \(n=2m+1\)
@@ -38,7 +38,7 @@ covering \(k=11\)).
 Let \(n\) be even and \(G(n,j)=1\). Then \(j\) is even, \(j+1\) is
 odd, and \(G(n,j+1)=0\). Every palindrome-right \(S\)-cell on even
 \(n\) is silent. Status: **lemma** for all even \(n\). Checked on
-\(n<256\).
+\(n<256\) (\(n_S=611\) silent cells on \(111\) nonempty even rows).
 
 ## Lemma (odd \(n=2m+1\): doubling reduction)
 
