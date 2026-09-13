@@ -27,7 +27,7 @@ Do **not** claim packed rest equals \(S\oplus T\) for all \(k\).
 Do **not** claim packed rest on \(n\equiv 0\pmod{4}\) equals
 \(S\oplus T\) at \(k-2\).
 
-Certify: `python3 research/cycle_qo.py --certify`.
+Certify: `python3 research/cycle_qo.py --certify` (~9.80s).
 Dump: `research/cycle_qo.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/MD/PB/QN (packed rest \(n\bmod 4\) through \(k\le 10\);
