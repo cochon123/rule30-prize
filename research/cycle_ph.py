@@ -296,8 +296,9 @@ def thin_p16() -> dict:
                         else:
                             n_sil += 1
                     if k >= 3:
-                        if packed != want_and16_even(s):
-                            return {"ok": False, "and": True, "k": k, "s": s}
+                        s_even = s - 1
+                        if packed != want_and16_even(s_even):
+                            return {"ok": False, "and": True, "k": k, "s": s_even}
                         if G(n, j) == 1 and packed != int(n % 2 == 0):
                             return {"ok": False, "parity": True, "k": k, "n": n}
             row = rule30_step(row)
