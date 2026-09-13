@@ -32,7 +32,7 @@ Do **not** claim Green \(n\equiv 3\pmod{4}\) rest is \(1\) for all
 even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\) for
 all \(k\).
 
-Certify: `python3 research/cycle_qx.py --certify`.
+Certify: `python3 research/cycle_qx.py --certify` (~0.50s).
 Dump: `research/cycle_qx.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/LZ/QH/QO/QV/QW (Green rest \(n\bmod 4\) through \(k\le 8\);
