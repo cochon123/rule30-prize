@@ -17,7 +17,7 @@ Not a prize claim: covering never-fail stays open. Do **not**
 guess a replacement rest formula for all \(k\) without a new
 probe.
 
-Certify: `python3 research/cycle_ma.py --certify`.
+Certify: `python3 research/cycle_ma.py --certify` (~1.82s).
 Dump: `research/cycle_ma.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/LZ (k=7 and k=8 covering walks; prefix LZ for \(k\le 6\);
