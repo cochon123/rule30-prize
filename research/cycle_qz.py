@@ -36,8 +36,8 @@ from cycle_hh import bit_at
 from cycle_hu import and_clause
 from cycle_kh import g4_xor_cover
 from cycle_oj import doubling_slots, green_center_corner_pal
-from cycle_pn import want_p38_pack
 from cycle_pm import want_p30_pack
+from cycle_pn import want_p38_pack
 from cycle_pr import want_p42_pack
 from cycle_ps import want_p54_pack
 from cycle_pv import want_p58_pack
