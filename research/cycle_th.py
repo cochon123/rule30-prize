@@ -63,23 +63,37 @@ PAT0011 = (0, 0, 1, 1)
 
 
 def n1_times(k: int) -> list[int]:
-    """Covering times of n=1 mod 4: AP 2U+5 .. 10U-3 step 8."""
+    """Covering times of n=1 mod 4: AP 2U+5 .. 10U-3 step 8.
+
+    Only materialize for small k (census). Algebra uses endpoints.
+    """
     u = 1 << k
     return list(range(2 * u + 5, 10 * u - 3 + 1, 8))
+
+
+def n1_ap_ok(k: int) -> bool:
+    """Length U, endpoints 2U+5 and 10U-3, step 8."""
+    u = 1 << k
+    lo = 2 * u + 5
+    hi = 10 * u - 3
+    if lo > hi or (hi - lo) % 8:
+        return False
+    return ((hi - lo) // 8) + 1 == u
 
 
 def tot_form() -> dict:
     """k<=64: AP endpoints; odd child of even n is n=1 mod 4 d=1."""
     n_ok = 0
-    if n1_times(0) != [7] or covering_t(0, 1) != 7:
+    if covering_t(0, 1) != 7 or not n1_ap_ok(0):
         return {"ok": False, "k0": True}
     for k in range(0, K_ALG + 1):
         u = 1 << k
-        ap = n1_times(k)
-        if len(ap) != u or ap[0] != 2 * u + 5 or ap[-1] != 10 * u - 3:
+        if not n1_ap_ok(k):
             return {"ok": False, "ap": True, "k": k}
-        if k >= 1 and (ap[1] - ap[0] != 8):
-            return {"ok": False, "step": True, "k": k}
+        if k >= 1 and covering_t(k, 1) != 10 * u - 3:
+            return {"ok": False, "hi": True, "k": k}
+        if k >= 1 and covering_t(k, 4 * u - 3) != 2 * u + 5:
+            return {"ok": False, "lo": True, "k": k}
         if want_d1_r1_n(k) != 1 << k:
             return {"ok": False, "r1": True, "k": k}
         if k >= 1 and want_d1_r3_n(k) != want_d2_r3_n(k - 1):
@@ -119,6 +133,8 @@ def tot_form() -> dict:
         n_ok += 1
     ok = (
         n_ok == K_ALG + 1
+        and n1_ap_ok(64)
+        and covering_t(0, 1) == 7
         and want_d1_r1_n(7) == 128
         and want_d1_r3_n(7) == 43
         and d1_children(1) == (2, 3)
