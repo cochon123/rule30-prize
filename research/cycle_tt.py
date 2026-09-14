@@ -2,14 +2,15 @@
 """Cycle TT: leftover pal-pair rest tot is leftover raw xor 1 for k>=3.
 
 Leftover pal-pairs have pal-distance not in {1,2} and are not
-clip-edge. Cycle SV's unique even forced cell n=3U-2 has
-pal-distance 2U, so it is leftover and is the unique even forced
-pal-pair. Even leftover rest tot is leftover-even raw xor 1 for
-k>=1. Odd leftover rest tot equals odd leftover raw for k>=3.
-Hence leftover rest tot equals leftover raw xor 1 for k>=3. Not
-rest=S xor T. Do not walk leftover p catalogues. Do not walk
-leftover d catalogues. Do not walk k=11 packed covering. Do not
-walk k=12 T-bands. Not a prize claim.
+clip-edge. Leftover is a pair property: Cycle SV's unique even
+forced pair has pal-distance 2U, so it is leftover and is the
+unique even forced pal-pair, even when the same covering n also
+carries a d=2 pair (k even). Even leftover rest tot is leftover-
+even raw xor 1 for k>=1. Odd leftover rest tot equals odd leftover
+raw for k>=3. Hence leftover rest tot equals leftover raw xor 1
+for k>=3. Not rest=S xor T. Do not walk leftover p catalogues. Do
+not walk leftover d catalogues. Do not walk k=11 packed covering.
+Do not walk k=12 T-bands. Not a prize claim.
 
 Run: python3 research/cycle_tt.py --certify
 Dump: research/cycle_tt.json
@@ -79,7 +80,11 @@ def is_clip_edge(n: int, j: int, k: int) -> bool:
 
 
 def unique_even_leftover(k: int) -> bool:
-    """Unique even pal-right at p=4 is leftover: d=2U, not clip-edge."""
+    """Unique even pal-right at p=4 is leftover: d=2U, not clip-edge.
+
+    Leftover is a pair property. The same covering n also has a d=2
+    pal-pair when k is even; that other pair is not leftover.
+    """
     if k < 1:
         return False
     n = unique_even_n(k)
@@ -91,8 +96,6 @@ def unique_even_leftover(k: int) -> bool:
         and d == 2 * u
         and d not in (1, 2)
         and not is_clip_edge(n, j, k)
-        and not d1_v2(n)
-        and not d2_v2(n)
     )
 
 
@@ -129,6 +132,11 @@ def tot_form() -> dict:
         if k >= 1:
             if not unique_even_leftover(k):
                 return {"ok": False, "u": True, "k": k}
+            n_u = unique_even_n(k)
+            if d2_v2(n_u) != int(k % 2 == 0):
+                return {"ok": False, "ov": True, "k": k}
+            if d1_v2(n_u):
+                return {"ok": False, "d1n": True, "k": k}
             j4 = forced_right_j(4, k)
             if j4 % 2 != 0:
                 return {"ok": False, "j4": True, "k": k}
@@ -170,14 +178,24 @@ def leftover_unique() -> dict:
                 hits.append(n)
         if hits != [want] or not unique_even_leftover(k):
             return {"ok": False, "k": k, "hits": hits, "want": want}
+        if d2_v2(want) != int(k % 2 == 0):
+            return {"ok": False, "ov": True, "k": k}
         n_ok += 1
-        rows[str(k)] = {"n": want, "d": 2 * u, "n_hit": 1}
+        rows[str(k)] = {
+            "n": want,
+            "d": 2 * u,
+            "n_hit": 1,
+            "d2_n": d2_v2(want),
+        }
     ok = (
         n_ok == K_COUNT
         and rows["1"]["n"] == 4
+        and rows["1"]["d2_n"] == 0
+        and rows["2"]["d2_n"] == 1
         and rows["10"]["n"] == 3070
         and rows["12"]["n"] == 12286
         and rows["12"]["d"] == 8192
+        and rows["12"]["d2_n"] == 1
     )
     return {"ok": ok, "n_ok": n_ok, "k_hi": K_COUNT, "rows": rows}
 
@@ -188,6 +206,8 @@ def killed_eq() -> dict:
         want_lo_corr(3) == 1
         and want_even_lo_corr(1) == 1
         and unique_even_leftover(1)
+        and unique_even_leftover(2)
+        and d2_v2(unique_even_n(2)) == 1
         and not unique_even_leftover(0)
         and PAT0011 in AND_ONES
         and odd_forced_corr(2) != 0
@@ -264,6 +284,7 @@ def main() -> None:
             "lo_rest_eq_raw_xor_1_k_ge_3": True,
             "lo_rest_eq_raw_all_k": False,
             "leftover_pairs_empty": False,
+            "lo_n_disjoint_named": False,
             "packed_R_eq_ST": False,
             "E_all_k": False,
             "prize": False,
@@ -274,6 +295,7 @@ def main() -> None:
             "lo_rest_eq_raw_xor_1_k_ge_3": "LEMMA",
             "lo_rest_eq_raw_all_k": "KILLED",
             "leftover_pairs_empty": "KILLED",
+            "lo_n_disjoint_named": "KILLED",
             "three_types_partition_n": "KILLED",
             "pal_c_eq_ST": "KILLED",
             "E_q10_10": "CERTIFIED",

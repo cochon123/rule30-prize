@@ -1,14 +1,18 @@
 # Cycle TT: leftover pal-pair rest tot is leftover raw xor \(1\) for \(k\ge 3\)
 
 Leftover pal-pairs are those with pal-distance not in \(\{1,2\}\) and
-not clip-edge. Cycle SV's unique even forced cell \(n=3U-2\) has
-pal-distance \(2U\), so it is leftover, and it is the unique even
-forced pal-pair. Even leftover rest tot is therefore leftover-even
-raw xor \(1\) for \(k\ge 1\). Odd leftover rest tot equals odd
-leftover raw for \(k\ge 3\) (Cycles SY/TP/TQ/TS). Hence leftover
-rest tot equals leftover raw xor \(1\) for \(k\ge 3\). Do **not**
-claim leftover rest equals raw for all \(k\). Do **not** claim
-leftover pal-pairs empty. Do **not** catalogue leftover \(d\). Do
+not clip-edge. Leftover is a pal-pair property, not an \(n\)
+property: Cycle SV's unique even forced cell \(n=3U-2\) has
+pal-distance \(2U\), so that pair is leftover, and it is the unique
+even forced pal-pair, even though the same covering \(n\) also
+carries a \(d=2\) pal-pair when \(k\) is even. Even leftover rest
+tot is therefore leftover-even raw xor \(1\) for \(k\ge 1\). Odd
+leftover rest tot equals odd leftover raw for \(k\ge 3\) (Cycles
+SY/TP/TQ/TS). Hence leftover rest tot equals leftover raw xor \(1\)
+for \(k\ge 3\). Do **not** claim leftover rest equals raw for all
+\(k\). Do **not** claim leftover pal-pairs empty. Do **not** claim
+leftover \(n\) disjoint from named types. Do **not** catalogue
+leftover \(d\). Do
 **not** PREFIX leftover spat tot. Do **not** PREFIX pal-center tot.
 Do **not** PREFIX \(d=1\)/\(d=2\) spat tot. Do **not** claim
 pal-center tot equals \(S\oplus T\). This is **not** rest
@@ -40,9 +44,12 @@ CA/AL/HH/HU/KH/LZ/OJ/PB/QV/SO/SV/SY/TA/TB/TC/TD/TE/TP/TQ/TS
 
 Even pal-pair rest tot is raw xor \(1\) (Cycle SV), from the unique
 even cell at pal-distance \(2U\). Even \(d=2\) never forced (Cycle
-TQ); clip-edge never forced (Cycle TS). So that unique cell is the
-unique even leftover forced pal-pair. Status: **lemma**. Algebra
-through \(k\le 64\); census through \(k\le 12\).
+TQ); clip-edge never forced (Cycle TS). So that unique pair is the
+unique even leftover forced pal-pair. The same covering \(n\) also
+has a \(d=2\) pal-pair when \(k\) is even; that other pair is named,
+not leftover. Status: **lemma**. Algebra through \(k\le 64\); census
+through \(k\le 12\). **Killed:** leftover \(n\) disjoint from named
+types.
 
 ## Lemma (leftover rest tot \(=\) raw xor \(1\) for \(k\ge 3\))
 
@@ -62,8 +69,8 @@ unique even forced cell is leftover).
 `CERTIFIED` (census through \(k\le 12\); \(E_k=0\) on odd-\(s\) rest
 for \(q=10\), \(k\le 10\)).
 `KILLED` (leftover rest equals raw for all \(k\); leftover pal-pairs
-empty; three types partition covering \(n\); pal-center tot equals
-\(S\oplus T\)).
+empty; leftover \(n\) disjoint from named types; three types
+partition covering \(n\); pal-center tot equals \(S\oplus T\)).
 `PREFIX` (even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at
 \(k-1\) for all \(k\); packed rest \(=S\oplus T\) for all \(k\);
 \(E_k=0\) for all \(k\); leftover after classified columns equals
