@@ -32,7 +32,7 @@ UNIQUE_ODD \(n\equiv 3\) tot. Do **not** claim cellwise 2-fold packed
 AND. Do **not** claim even-\(n\) rest xor at \(k\) equals odd-\(n\)
 rest xor at \(k-1\) for all \(k\).
 
-Certify: `python3 research/cycle_qz.py --certify`.
+Certify: `python3 research/cycle_qz.py --certify` (~0.17s).
 Dump: `research/cycle_qz.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/PM/PN/PR/PS/PV/QA/QC/QD/QE/QJ/QO/QP/QR/QS/QX (UNIQUE_ODD
