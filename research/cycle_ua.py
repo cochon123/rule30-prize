@@ -2,11 +2,13 @@
 """Cycle UA: unpaired count recurrence unp(k)=2 unp(k-1)+J_{k+1}+extra.
 
 Even unpaired is parent unpaired (Cycles TA/TZ). Odd unpaired is
-odd-j unpaired plus odd-n even-j extra. Odd-j unpaired is parent
-unpaired plus J_{k+1} (Cycle TZ). Hence unpaired(k)=2 unpaired(k-1)
-+J_{k+1}+extra(k) for k>=1. Extra is nonempty for every k (it
-contains j=0 unpaired on odd n>5U/2), so the J_{k+1} recurrence
-without extra fails. Not rest=S xor T. Do not walk leftover p
+odd-j unpaired plus odd-n even-j extra. Odd-j unpaired is even
+unpaired plus J_{k+1} (Cycle TZ), so unpaired is 2 even unpaired
+plus J_{k+1} plus extra for k>=1. Substituting even unpaired =
+parent unpaired gives unpaired(k)=2 unpaired(k-1)+J_{k+1}+extra(k)
+for k>=1. Extra is nonempty for every k (it contains j=0 unpaired
+on odd n>5U/2), so the J_{k+1} recurrence without extra fails. Do
+not claim unpaired is twice even unpaired plus extra. Not rest=S xor T. Do not walk leftover p
 catalogues. Do not walk leftover d catalogues. Do not walk k=11
 packed covering. Do not walk k=12 T-bands. Not a prize claim.
 
@@ -64,16 +66,23 @@ def want_j0_odd_unp(k: int) -> int:
     return 3 * (1 << (k - 2))
 
 
+def want_unp_from_even(unp_e: int, extra: int, k: int) -> int:
+    """unpaired = 2 even + J_{k+1} + extra for k>=1."""
+    return 2 * unp_e + jacobsthal(k + 1) + extra
+
+
 def want_unp_rec(unp_prev: int, extra: int, k: int) -> int:
     """unpaired(k)=2 unpaired(k-1)+J_{k+1}+extra for k>=1."""
-    return 2 * unp_prev + jacobsthal(k + 1) + extra
+    return want_unp_from_even(unp_prev, extra, k)
 
 
 def tot_form() -> dict:
     """k<=64: J_{k+1}=edge(k-1); j=0 extra lower bound; unique even."""
     n_ok = 0
-    if want_unp_rec(1, 1, 1) != 4:
+    if want_unp_from_even(1, 1, 1) != 4:
         return {"ok": False, "k1": True}
+    if want_unp_from_even(1, 1, 1) == 2 * 1 + 1:
+        return {"ok": False, "noJ": True}
     if want_unp_rec(4, 7, 2) != 18:
         return {"ok": False, "k2": True}
     if want_j0_odd_unp(0) != 1 or want_j0_odd_unp(1) != 1:
@@ -118,7 +127,7 @@ def tot_form() -> dict:
 
 
 def unpaired_rec() -> dict:
-    """k<=8: unp=2 unp_e+extra; k>=1 recurrence; extra nonempty."""
+    """k<=8: unp=2 unp_e+J_{k+1}+extra for k>=1; extra nonempty."""
     n_ok = 0
     rows = {}
     prev_unp = None
@@ -128,10 +137,17 @@ def unpaired_rec() -> dict:
         ps = pal_split(k, None)
         if r["unp"] != ps["n_unp"]:
             return {"ok": False, "ps": True, "k": k}
-        if r["unp"] != 2 * r["unp_e"] + extra:
-            return {"ok": False, "sum": True, "k": k, **r}
         if extra != r["unp_ej"] - r["unp_e"]:
             return {"ok": False, "ej": True, "k": k}
+        if k == 0:
+            if r["unp"] != r["unp_e"] + extra:
+                return {"ok": False, "k0": True, "k": k, **r}
+        else:
+            want_e = want_unp_from_even(r["unp_e"], extra, k)
+            if r["unp"] != want_e:
+                return {"ok": False, "sum": True, "k": k, **r}
+            if r["unp"] == 2 * r["unp_e"] + extra:
+                return {"ok": False, "noJ": True, "k": k}
         if extra < want_j0_odd_unp(k):
             return {"ok": False, "j0": True, "k": k, "extra": extra}
         if extra == 0:
@@ -174,7 +190,8 @@ def unpaired_rec() -> dict:
 def killed_eq() -> dict:
     """unpaired 2-folds parent; recurrence without extra."""
     ok = (
-        want_unp_rec(1, 0, 1) != 4
+        want_unp_from_even(1, 1, 1) != 2 * 1 + 1
+        and want_unp_rec(1, 0, 1) != 4
         and want_unp_rec(1, 1, 1) == 4
         and want_unp_rec(4, 0, 2) != 18
         and want_unp_rec(4, 7, 2) == 18
@@ -254,9 +271,10 @@ def main() -> None:
             "n_eq_pack": sc["n_eq_pack"],
         },
         "lemmas": {
-            "unp_eq_2_even_plus_extra": True,
+            "unp_eq_2_even_plus_J_extra_k_ge_1": True,
             "unp_rec_2prev_J_extra_k_ge_1": True,
             "j0_odd_unp_eq_3_2km2": True,
+            "unp_eq_2_even_plus_extra": False,
             "unp_rec_without_extra": False,
             "unp_eq_2_parent_unp": False,
             "packed_R_eq_ST": False,
@@ -264,9 +282,10 @@ def main() -> None:
             "prize": False,
         },
         "verdict": {
-            "unp_eq_2_even_plus_extra": "LEMMA",
+            "unp_eq_2_even_plus_J_extra_k_ge_1": "LEMMA",
             "unp_rec_2prev_J_extra_k_ge_1": "LEMMA",
             "j0_odd_unp_eq_3_2km2": "LEMMA",
+            "unp_eq_2_even_plus_extra": "KILLED",
             "unp_rec_without_extra": "KILLED",
             "unp_eq_2_parent_unp": "KILLED",
             "extra_unp_empty": "KILLED",
