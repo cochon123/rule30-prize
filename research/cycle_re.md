@@ -29,7 +29,7 @@ period. Do **not** claim cellwise 2-fold packed AND. Do **not**
 claim even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at
 \(k-1\) for all \(k\).
 
-Certify: `python3 research/cycle_re.py --certify`.
+Certify: `python3 research/cycle_re.py --certify` (~0.13s).
 Dump: `research/cycle_re.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/QX/QY/QO/RB/RC/RD (silent xor leftover from Green xor
