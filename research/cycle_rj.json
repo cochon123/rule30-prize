@@ -1,0 +1,118 @@
+{
+  "cycle": "RJ",
+  "wall_s": 0.133,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "tot_form": {
+    "off": [
+      64,
+      84,
+      104,
+      108,
+      116,
+      120,
+      144,
+      152,
+      172,
+      176,
+      196,
+      212,
+      228
+    ],
+    "n_even": 13
+  },
+  "covering_geom": {
+    "n_ok": 60,
+    "k_hi": 64,
+    "rows": {
+      "5": {
+        "U": 16,
+        "T": 160,
+        "Tp": 320
+      },
+      "6": {
+        "U": 32,
+        "T": 320,
+        "Tp": 640
+      },
+      "7": {
+        "U": 64,
+        "T": 640,
+        "Tp": 1280
+      }
+    },
+    "src": [
+      32,
+      42,
+      52,
+      54,
+      58,
+      60,
+      72,
+      76,
+      86,
+      88,
+      98,
+      106,
+      114
+    ]
+  },
+  "killed_eq": {
+    "off": [
+      64,
+      84,
+      104,
+      108,
+      116,
+      120,
+      144,
+      152,
+      172,
+      176,
+      196,
+      212,
+      228
+    ]
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "u_fold_off_13_even_lo": true,
+    "u_fold_off_hits_unique": false,
+    "u_fold_off_hits_forced": false,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "u_fold_off_13_even_lo": "LEMMA",
+    "u_fold_off_hits_unique": "KILLED",
+    "u_fold_off_hits_forced": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
