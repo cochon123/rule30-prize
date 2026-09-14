@@ -28,7 +28,7 @@ Do **not** claim leftover \(n\bmod 4\) has a small period. Do **not**
 claim cellwise 2-fold packed AND. Do **not** claim even-\(n\) rest
 xor at \(k\) equals odd-\(n\) rest xor at \(k-1\) for all \(k\).
 
-Certify: `python3 research/cycle_rd.py --certify`.
+Certify: `python3 research/cycle_rd.py --certify` (~0.13s).
 Dump: `research/cycle_rd.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/PB/QO/QX/QY/RB/RC (silent \(n\equiv 3\) from QY Green xor
