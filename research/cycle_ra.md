@@ -32,7 +32,7 @@ unique even even-\(n\) tot. Do **not** claim cellwise 2-fold packed
 AND. Do **not** claim even-\(n\) rest xor at \(k\) equals odd-\(n\)
 rest xor at \(k-1\) for all \(k\).
 
-Certify: `python3 research/cycle_ra.py --certify`.
+Certify: `python3 research/cycle_ra.py --certify` (~0.18s).
 Dump: `research/cycle_ra.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/PH/PK/PW/PX/PY/PZ/QB/QJ/QP/QS/QQ/QZ (UNIQUE_EVEN
