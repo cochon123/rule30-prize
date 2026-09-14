@@ -1,16 +1,15 @@
 #!/usr/bin/env python3
-"""Cycle SR: even-n clip-unpaired G=1 never packed-AND through k<=10.
+"""Cycle SR: clip-unpaired G=1 never packed-AND through k<=10.
 
-Palindrome pairs of even-n clipped G=1 cancel, and there are 2^{k+1}
-pal-centers (all clipped, each G=1), so even-n clipped G=1 xor equals
-the xor of clip-unpaired cells. Those unpaired cells are pal-left
-j<2n-5U on even n>5U/2; their pal-partner has negative packed p.
-Packed AND vanishes on them through k<=10, so even-n rest tot is
-pal-center AND xor pal-pair AND-mismatch. That is the even-n
-obstruction to Green-only rest, not rest=S xor T. Do not claim
-unpaired silence for all k. Do not walk leftover p catalogues. Do
-not walk k=11 packed covering. Do not walk k=12 T-bands. Not a
-prize claim.
+Palindrome pairs of clipped G=1 cancel, and each n-parity has 2^{k+1}
+pal-centers (all clipped, each G=1), so clipped G=1 xor equals the xor
+of clip-unpaired cells. Those unpaired cells are pal-left j<2n-5U on
+n>5U/2; their pal-partner has negative packed p. Packed AND vanishes
+on them through k<=10, for even and odd n, so rest tot is pal-center
+AND xor pal-pair AND-mismatch. That localizes the obstruction to
+Green-only rest, not rest=S xor T. Do not claim unpaired silence for
+all k. Do not walk leftover p catalogues. Do not walk k=11 packed
+covering. Do not walk k=12 T-bands. Not a prize claim.
 
 Run: python3 research/cycle_sr.py --certify
 Dump: research/cycle_sr.json
@@ -39,7 +38,7 @@ from cycle_oj import doubling_slots, green_center_corner_pal
 from cycle_pb import want_rest_e0
 from cycle_qv import even_slots
 from cycle_qw import want_g1_even, want_green_even
-from cycle_so import want_even
+from cycle_so import want_even, want_odd
 from period2_fiber import rule30_step
 
 OUT = Path(__file__).resolve().with_suffix(".json")
@@ -57,19 +56,20 @@ Q = 10
 
 
 def pal_center_count(k: int) -> int:
-    """Even n in the q=10 covering window: 2U = 2^{k+1}."""
+    """One n-parity in the q=10 covering window: 2U = 2^{k+1}."""
     return 1 << (k + 1)
 
 
-def _green_even_pal(k: int) -> dict:
-    """Clipped even-n G=1 split: pal-center, pal-pair, clip-unpaired."""
+def _green_pal(k: int, parity: int) -> dict:
+    """Clipped G=1 split on n%2==parity: pal-center, pal-pair, unpaired."""
     U = 1 << k
     clip = 5 * U
     g1 = pal_c = unp = 0
     n_pal = n_unp = n_pair = 0
-    for n in range(0, 4 * U, 2):
+    step = 2 if parity == 0 else 1
+    for n in range(parity, 4 * U, 2):
         hi = min(2 * n, clip)
-        for j in range(0, hi + 1, 2):
+        for j in range(0, hi + 1, step):
             if G(n, j) == 0:
                 continue
             g1 ^= 1
@@ -93,38 +93,45 @@ def _green_even_pal(k: int) -> dict:
 
 
 def green_split() -> dict:
-    """k<=8: pal-centers all clipped, xor 0; g1e equals unpaired tot."""
+    """k<=8: pal-centers all clipped, xor 0; g1 xor equals unpaired tot."""
     n_ok = 0
     rows = {}
     for k in range(0, K_GREEN + 1):
         U = 1 << k
-        r = _green_even_pal(k)
-        if r["n_pal"] != pal_center_count(k):
-            return {"ok": False, "count": True, "k": k, "r": r}
-        if r["pal_c"] != 0:
-            return {"ok": False, "pal_c": True, "k": k, "r": r}
-        if r["g1"] != r["unp"] or r["g1"] != want_g1_even(k):
-            return {"ok": False, "g1": True, "k": k, "r": r}
-        if k == 0 and r["n_unp"] != 0:
-            return {"ok": False, "k0_unp": True, "r": r}
-        if k == 1 and r["n_unp"] == 0:
-            return {"ok": False, "k1_empty": True, "r": r}
         if 4 * U - 2 > 5 * U:
             return {"ok": False, "clip": True, "k": k}
+        parts = {}
+        for parity in (0, 1):
+            r = _green_pal(k, parity)
+            if r["n_pal"] != pal_center_count(k):
+                return {"ok": False, "count": True, "k": k, "parity": parity, "r": r}
+            if r["pal_c"] != 0:
+                return {"ok": False, "pal_c": True, "k": k, "parity": parity, "r": r}
+            if r["g1"] != r["unp"]:
+                return {"ok": False, "g1": True, "k": k, "parity": parity, "r": r}
+            if parity == 0 and r["g1"] != want_g1_even(k):
+                return {"ok": False, "g1e": True, "k": k, "r": r}
+            parts[parity] = r
+        if k == 0 and parts[0]["n_unp"] != 0:
+            return {"ok": False, "k0_unp": True, "r": parts[0]}
+        if k == 1 and parts[0]["n_unp"] == 0:
+            return {"ok": False, "k1_empty": True, "r": parts[0]}
         n_ok += 1
         rows[str(k)] = {
-            "g1": r["g1"],
-            "unp": r["unp"],
-            "n_pal": r["n_pal"],
-            "n_unp": r["n_unp"],
-            "n_pair": r["n_pair"],
+            "g1e": parts[0]["g1"],
+            "g1o": parts[1]["g1"],
+            "unp_e": parts[0]["unp"],
+            "unp_o": parts[1]["unp"],
+            "n_unp_e": parts[0]["n_unp"],
+            "n_unp_o": parts[1]["n_unp"],
+            "n_pal": parts[0]["n_pal"],
         }
     ok = (
         n_ok == K_GREEN + 1
-        and rows["0"]["g1"] == 0
-        and rows["1"]["g1"] == 1
-        and rows["2"]["g1"] == 0
-        and rows["1"]["n_unp"] == 1
+        and rows["0"]["g1e"] == 0
+        and rows["1"]["g1e"] == 1
+        and rows["2"]["g1e"] == 0
+        and rows["1"]["n_unp_e"] == 1
         and pal_center_count(0) == 2
         and pal_center_count(8) == 512
     )
@@ -132,7 +139,7 @@ def green_split() -> dict:
 
 
 def tot_form() -> dict:
-    """k<=64: pal-center count even; all pal-centers clipped; G(m,m)=1."""
+    """k<=64: each n-parity has 2^{k+1} pal-centers, all clipped; G(m,m)=1."""
     n_ok = 0
     for k in range(0, K_ALG + 1):
         U = 1 << k
@@ -162,85 +169,29 @@ def tot_form() -> dict:
     return {"ok": ok, "n_ok": n_ok, "k_hi": K_ALG}
 
 
-def _walk_even_pal(k: int) -> dict:
-    """Even-n packed rest split: pal-center, pal-pair mismatch, unpaired AND."""
+def _walk_pal(k: int) -> dict:
+    """Packed rest split by n parity: pal-center, pal-pair mismatch, unpaired AND."""
     U = 1 << k
     T, t0, Qc = Q * U, 2 * U, covering_Q(Q)
     clip = 5 * U
     row = 1
     for _ in range(t0):
         row = rule30_step(row)
-    pal_c = pair_mis = rest = 0
-    n_pal = n_unp = n_pair = n_pair_mis = 0
-    n_unp_and = n_unp_raw = n_pal_and = 0
-    s = t0
-    prev = None
-    while s < T:
-        if s % 2 == 0:
-            prev = row
-        else:
-            t = (s - t0) // 2
-            n = odd_clock(t, U, Qc)
-            if n % 2 == 0:
-                cells = {}
-                raw = {}
-                hi = min(2 * n, clip)
-                for j in range(0, hi + 1, 2):
-                    p = T - 2 * j
-                    if p < 0:
-                        continue
-                    if G(n, j) == 0:
-                        continue
-                    z, a, b, c = (bit_at(prev, p - 3 + i) for i in range(4))
-                    packed = and_clause(z, a, b, c)
-                    raw[j] = packed
-                    cells[j] = int(packed and p not in FORCED)
-                    rest ^= cells[j]
-                if n <= clip and n in cells:
-                    pal_c ^= cells[n]
-                    n_pal += 1
-                    n_pal_and += cells[n]
-                seen = set()
-                for j, rbit in cells.items():
-                    if j in seen or j == n:
-                        continue
-                    jp = 2 * n - j
-                    if jp in cells:
-                        seen.add(j)
-                        seen.add(jp)
-                        n_pair += 1
-                        if rbit != cells[jp]:
-                            pair_mis ^= 1
-                            n_pair_mis += 1
-                    else:
-                        n_unp += 1
-                        n_unp_raw += raw[j]
-                        n_unp_and += rbit
-        row = rule30_step(row)
-        s += 1
-    return {
-        "rest": rest,
-        "pal_c": pal_c,
-        "pair_mis": pair_mis,
-        "n_pal": n_pal,
-        "n_unp": n_unp,
-        "n_pair": n_pair,
-        "n_pair_mis": n_pair_mis,
-        "n_unp_and": n_unp_and,
-        "n_unp_raw": n_unp_raw,
-        "n_pal_and": n_pal_and,
+    acc = {
+        p: {
+            "rest": 0,
+            "pal_c": 0,
+            "pair_mis": 0,
+            "n_pal": 0,
+            "n_unp": 0,
+            "n_pair": 0,
+            "n_pair_mis": 0,
+            "n_unp_and": 0,
+            "n_unp_raw": 0,
+            "n_pal_and": 0,
+        }
+        for p in (0, 1)
     }
-
-
-def _walk_odd_unp(k: int) -> dict:
-    """Odd-n clip-unpaired packed AND count (killed identically 0)."""
-    U = 1 << k
-    T, t0, Qc = Q * U, 2 * U, covering_Q(Q)
-    clip = 5 * U
-    row = 1
-    for _ in range(t0):
-        row = rule30_step(row)
-    n_unp = n_unp_raw = 0
     s = t0
     prev = None
     while s < T:
@@ -249,74 +200,101 @@ def _walk_odd_unp(k: int) -> dict:
         else:
             t = (s - t0) // 2
             n = odd_clock(t, U, Qc)
-            if n % 2 == 1:
-                hi = min(2 * n, clip)
-                for j in range(0, hi + 1):
-                    p = T - 2 * j
-                    if p < 0:
-                        continue
-                    if G(n, j) == 0:
-                        continue
-                    jp = 2 * n - j
-                    if j == n or jp <= clip:
-                        continue
-                    z, a, b, c = (bit_at(prev, p - 3 + i) for i in range(4))
-                    n_unp += 1
-                    n_unp_raw += and_clause(z, a, b, c)
+            par = n % 2
+            a = acc[par]
+            cells = {}
+            raw = {}
+            hi = min(2 * n, clip)
+            jstep = 2 if par == 0 else 1
+            for j in range(0, hi + 1, jstep):
+                p = T - 2 * j
+                if p < 0:
+                    continue
+                if G(n, j) == 0:
+                    continue
+                z, aa, b, c = (bit_at(prev, p - 3 + i) for i in range(4))
+                packed = and_clause(z, aa, b, c)
+                raw[j] = packed
+                cells[j] = int(packed and p not in FORCED)
+                a["rest"] ^= cells[j]
+            if n <= clip and n in cells:
+                a["pal_c"] ^= cells[n]
+                a["n_pal"] += 1
+                a["n_pal_and"] += cells[n]
+            seen = set()
+            for j, rbit in cells.items():
+                if j in seen or j == n:
+                    continue
+                jp = 2 * n - j
+                if jp in cells:
+                    seen.add(j)
+                    seen.add(jp)
+                    a["n_pair"] += 1
+                    if rbit != cells[jp]:
+                        a["pair_mis"] ^= 1
+                        a["n_pair_mis"] += 1
+                else:
+                    a["n_unp"] += 1
+                    a["n_unp_raw"] += raw[j]
+                    a["n_unp_and"] += rbit
         row = rule30_step(row)
         s += 1
-    return {"n_unp": n_unp, "n_unp_raw": n_unp_raw}
+    return acc
 
 
 def fold_split() -> dict:
-    """k<=10: even-n unpaired packed AND is 0; rest = pal_c xor pair_mis."""
+    """k<=10: unpaired packed AND is 0; rest = pal_c xor pair_mis on each parity."""
     n_ok = 0
     rows = {}
     for k in range(0, K_REST + 1):
-        r = _walk_even_pal(k)
-        if r["n_unp_and"] != 0 or r["n_unp_raw"] != 0:
-            return {"ok": False, "unp_and": True, "k": k, "r": r}
-        if r["rest"] != (r["pal_c"] ^ r["pair_mis"]):
-            return {"ok": False, "sum": True, "k": k, "r": r}
-        if r["rest"] != want_even(k):
-            return {"ok": False, "even": True, "k": k, "r": r}
-        if r["n_pal"] != pal_center_count(k):
-            return {"ok": False, "pal_n": True, "k": k, "r": r}
+        acc = _walk_pal(k)
+        for par, want in ((0, want_even(k)), (1, want_odd(k))):
+            r = acc[par]
+            if r["n_unp_and"] != 0 or r["n_unp_raw"] != 0:
+                return {"ok": False, "unp_and": True, "k": k, "par": par, "r": r}
+            if r["rest"] != (r["pal_c"] ^ r["pair_mis"]):
+                return {"ok": False, "sum": True, "k": k, "par": par, "r": r}
+            if r["rest"] != want:
+                return {"ok": False, "tot": True, "k": k, "par": par, "r": r}
+            if r["n_pal"] != pal_center_count(k):
+                return {"ok": False, "pal_n": True, "k": k, "par": par, "r": r}
         n_ok += 1
+        e, o = acc[0], acc[1]
         rows[str(k)] = {
-            "rest": r["rest"],
-            "pal_c": r["pal_c"],
-            "pair_mis": r["pair_mis"],
-            "n_unp": r["n_unp"],
-            "n_pair_mis": r["n_pair_mis"],
-            "n_pal_and": r["n_pal_and"],
+            "even": e["rest"],
+            "odd": o["rest"],
+            "pal_c_e": e["pal_c"],
+            "pal_c_o": o["pal_c"],
+            "pair_e": e["pair_mis"],
+            "pair_o": o["pair_mis"],
+            "n_unp_e": e["n_unp"],
+            "n_unp_o": o["n_unp"],
+            "n_pal_and_e": e["n_pal_and"],
+            "n_pal_and_o": o["n_pal_and"],
         }
-    odd = _walk_odd_unp(3)
     ok = (
         n_ok == K_REST + 1
-        and rows["0"]["rest"] == 1
-        and rows["0"]["pal_c"] == 0
-        and rows["0"]["pair_mis"] == 1
-        and rows["1"]["n_unp"] > 0
-        and rows["6"]["rest"] == 0
-        and rows["7"]["rest"] == 1
-        and rows["10"]["rest"] == 0
-        and rows["3"]["pal_c"] == 1
-        and rows["3"]["pair_mis"] == 1
-        and odd["n_unp_raw"] > 0
-        and odd["n_unp"] > 0
+        and rows["0"]["even"] == 1
+        and rows["0"]["pal_c_e"] == 0
+        and rows["0"]["pair_e"] == 1
+        and rows["1"]["n_unp_e"] > 0
+        and rows["1"]["n_unp_o"] > 0
+        and rows["6"]["even"] == 0
+        and rows["6"]["odd"] == 1
+        and rows["7"]["even"] == 1
+        and rows["7"]["odd"] == 1
+        and rows["10"]["even"] == 0
+        and rows["10"]["odd"] == 0
+        and rows["3"]["pal_c_e"] == 1
+        and rows["3"]["pair_e"] == 1
+        and rows["0"]["odd"] == 1
+        and rows["2"]["odd"] == 0
     )
-    return {
-        "ok": ok,
-        "n_ok": n_ok,
-        "k_hi": K_REST,
-        "rows": rows,
-        "odd_unp_k3": odd,
-    }
+    return {"ok": ok, "n_ok": n_ok, "k_hi": K_REST, "rows": rows}
 
 
 def killed_eq() -> dict:
-    """pal-center tot equals want_even; unpaired empty; pair_mis=0; all-n silent."""
+    """pal-center tot equals want_even; unpaired empty; pair_mis identically 0."""
     ok = (
         want_even(0) == 1
         and want_green_even(0) == 1
@@ -393,7 +371,7 @@ def main() -> None:
             "n_eq_pack": sc["n_eq_pack"],
         },
         "lemmas": {
-            "even_g1_eq_unpaired_k_le_8": True,
+            "g1_eq_unpaired_k_le_8": True,
             "pal_center_count_all_k": True,
             "unpaired_packed_and_0_k_le_10": True,
             "unpaired_packed_and_0_all_k": False,
@@ -402,15 +380,14 @@ def main() -> None:
             "prize": False,
         },
         "verdict": {
-            "even_g1_eq_unpaired": "LEMMA",
+            "g1_eq_unpaired": "LEMMA",
             "pal_center_count_all_k": "LEMMA",
             "unpaired_packed_and_0_k_le_10": "CERTIFIED",
-            "even_rest_eq_pal_c_xor_pair_mis_k_le_10": "CERTIFIED",
+            "rest_eq_pal_c_xor_pair_mis_k_le_10": "CERTIFIED",
             "unpaired_packed_and_0_all_k": "PREFIX",
             "pal_c_eq_want_even": "KILLED",
             "pair_mis_identically_0": "KILLED",
             "unpaired_empty": "KILLED",
-            "odd_unpaired_and_0": "KILLED",
             "green_even_eq_packed_even": "KILLED",
             "E_q10_10": "CERTIFIED",
             "packed_R_eq_ST": "PREFIX",
@@ -436,12 +413,12 @@ def main() -> None:
     print(
         "fold n_ok",
         dump["fold_split"]["n_ok"],
-        "k0 pal_c",
-        dump["fold_split"]["rows"]["0"]["pal_c"],
-        "k7 rest",
-        dump["fold_split"]["rows"]["7"]["rest"],
-        "odd_unp_k3",
-        dump["fold_split"]["odd_unp_k3"]["n_unp_raw"],
+        "k0 pal_c_e",
+        dump["fold_split"]["rows"]["0"]["pal_c_e"],
+        "k7 even",
+        dump["fold_split"]["rows"]["7"]["even"],
+        "k7 odd",
+        dump["fold_split"]["rows"]["7"]["odd"],
     )
     print("g4_xor_cover", dump["g4_xor_cover"])
 
