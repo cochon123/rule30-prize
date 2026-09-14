@@ -28,7 +28,7 @@ cellwise 2-fold packed AND. Do **not** claim even-\(n\) rest xor at
 claim \(p=2\) is unique-rest. Do **not** claim \(p=64\) is
 unique-rest.
 
-Certify: `python3 research/cycle_rg.py --certify`.
+Certify: `python3 research/cycle_rg.py --certify` (~0.14s).
 Dump: `research/cycle_rg.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/LZ/MD/PD/PF/PH/PK/PO/RF (spine \(2\to 4\to 8\to 16\to 32\to 64\);
