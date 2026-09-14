@@ -6,7 +6,7 @@ Silent xor leftover on a residue is Green xor unique. Cycle QY Green
 \((1,1,1,0)\). Unique \(n\equiv 2\) tot is \(0\), so silent xor
 leftover on \(n\equiv 2\) equals Green \(n\equiv 2\) tot for every
 \(k\). This is **not** the tuple \((1,1,1,0)\) for all \(k\)
-(\(k=0\) is \((1,0,1,1)\)). **Not** silent equals leftover on all
+(\(k=0\) is \((1,0,0,1)\)). **Not** silent equals leftover on all
 residues for \(k\ge 6\) (only \(n\equiv 3\) agrees). This is **not**
 rest \(=S\oplus T\). **Not** \(E_k=0\) for all \(k\). Do **not**
 catalogue leftover \(p\) one-by-one. Do **not** catalogue further

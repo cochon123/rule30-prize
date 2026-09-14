@@ -5,7 +5,7 @@ Silent xor leftover on a residue is Green xor unique. Cycle QY Green
 n%4 is (0,1,1,1) for k>=3 and Cycle RB unique n%4 is (1,0,0,1) for
 k>=6, so the xor is (1,1,1,0). Unique n2 tot is 0, so silent xor
 leftover on n%4==2 equals Green n2 tot for every k. Not the tuple
-(1,1,1,0) for all k (k=0 is (1,0,1,1)). Not silent equals leftover
+(1,1,1,0) for all k (k=0 is (1,0,0,1)). Not silent equals leftover
 on all residues for k>=6 (only n%4==3 agrees). Not rest=S xor T.
 Do not walk leftover p catalogues. Do not walk k=11 packed covering.
 Do not walk k=12 T-bands. Not a prize claim.
@@ -82,7 +82,7 @@ def tot_form() -> dict:
         n_ok += 1
     ok = (
         n_ok == K_ALG + 1
-        and want_sil_xor_lo(0) == [1, 0, 1, 1]
+        and want_sil_xor_lo(0) == [1, 0, 0, 1]
         and want_sil_xor_lo(4) == [0, 0, 1, 0]
         and want_sil_xor_lo(6) == [1, 1, 1, 0]
         and want_g_nmod(6) == [0, 1, 1, 1]
@@ -117,7 +117,7 @@ def rest_split() -> dict:
         rows[str(k)] = {"sil": sil, "lo": lo, "xor": xor}
     ok = (
         n_ok == K_REST + 1
-        and rows["0"]["xor"] == [1, 0, 1, 1]
+        and rows["0"]["xor"] == [1, 0, 0, 1]
         and rows["4"]["xor"] == [0, 0, 1, 0]
         and rows["6"]["xor"] == [1, 1, 1, 0]
         and rows["10"]["xor"] == [1, 1, 1, 0]
@@ -132,7 +132,7 @@ def killed_eq() -> dict:
     x3 = want_sil_xor_lo(3)
     x6 = want_sil_xor_lo(6)
     ok = (
-        x0 == [1, 0, 1, 1]
+        x0 == [1, 0, 0, 1]
         and x0 != [1, 1, 1, 0]
         and x3 == [1, 0, 1, 1]
         and x3 != [1, 1, 1, 0]
