@@ -6,11 +6,13 @@ gp_s is (2^{k-3}(12 F_{k+1}+9 F_{k-1}-35)-2(-1)^k+3)/3 for k>=3.
 pg_l is (2^{k-3}(5 F_{k-1}+16 L_{k-1}-15)+2)/5 for k>=3.
 gp_l is (2^{k-3}(5 F_{k-1}+16 L_{k-1}-5)+5(-1)^k-3)/5 for k>=3.
 They sum to Cycle WA leftover xor n_pg/n_gp and Cycle VT xor_lo
-halves. Dies at k=3 for all four F/L forms with shift 0 (pg_s got
-0, not 10; gp_s got 1, not 5; pg_l got 0, not 8; gp_l got -2, not
-8). Dies at k=8 without gp_s +3 (got 5226, not 5227), without pg_l
-+2 (got 3289, not 3290), and without gp_l 5(-1)^k (got 3353, not
-3354). Do not kill without gp_l -3 at k=8: floor-div masks it.
+halves. Dies at k=3 for gp_s/pg_l/gp_l F/L forms with shift 0
+(gp_s got 1, not 5; pg_l got 0, not 8; gp_l got -2, not 8). Do
+not kill pg_s shift 0 at k=3: 2^{0}=1 so it matches. Dies at k=8
+without pg_s 2^{k-3} (got 170, not 5440), without gp_s +3 (got
+5226, not 5227), without pg_l +2 (got 3289, not 3290), and
+without gp_l 5(-1)^k (got 3353, not 3354). Do not kill without
+gp_l -3 at k=8: floor-div masks it.
 Dies at k=8 for pg_s equals tot small (got 5440, not 10667), pg_s
 equals tot pg (got 5440, not 8730), and pg_s equals gp_s (got
 5440, not 5227). Special gp_l=2 at k=2, not 0. Census k=8: pg_s
@@ -127,16 +129,16 @@ def want_xor_gp_l_fl(k: int) -> int:
 
 
 def tot_form() -> dict:
-    """k<=64: leftover xor 4-way F/L; dies at k=3 with shift 0.
+    """k<=64: leftover xor 4-way F/L; dies at k=3 with shift 0 on three.
 
     Do not call leftover_xor_half / leftover_xor_split here.
-    Census is xor_4w_fold for k<=8.
+    Census is xor_4w_fold for k<=8. pg_s shift 0 at k=3 matches.
     """
     n_ok = 0
-    raw_pgs3 = 4 * fib(4) + 3 * fib(2) - 5
     raw_gps3 = (-2 * ((-1) ** 3) + 3) // 3
     raw_pgl3 = 2 // 5
     raw_gpl3 = (5 * ((-1) ** 3) - 3) // 5
+    miss_pgs_pow = 4 * fib(9) + 3 * fib(7) - 5
     miss_gps3 = (
         (1 << 5) * (12 * fib(9) + 9 * fib(7) - 35) - 2 * ((-1) ** 8)
     ) // 3
@@ -163,8 +165,8 @@ def tot_form() -> dict:
         return {"ok": False, "k8s": True}
     if want_xor_pg_l_fl(8) != 3290 or want_xor_gp_l_fl(8) != 3354:
         return {"ok": False, "k8l": True}
-    if want_xor_pg_s_fl(3) == raw_pgs3:
-        return {"ok": False, "raws": True}
+    if want_xor_pg_s_fl(8) == miss_pgs_pow:
+        return {"ok": False, "pow": True}
     if want_xor_gp_s_fl(3) == raw_gps3:
         return {"ok": False, "rawgs": True}
     if want_xor_pg_l_fl(3) == raw_pgl3:
@@ -248,7 +250,7 @@ def tot_form() -> dict:
         n_ok += 1
     ok = (
         n_ok == K_ALG + 1
-        and want_xor_pg_s_fl(3) != raw_pgs3
+        and want_xor_pg_s_fl(8) != miss_pgs_pow
         and want_xor_gp_s_fl(3) != raw_gps3
         and want_xor_pg_l_fl(3) != raw_pgl3
         and want_xor_gp_l_fl(3) != raw_gpl3
@@ -292,7 +294,7 @@ def tot_form() -> dict:
         and miss_pgl2 == 3289
         and miss_gplsign == 3353
         and miss_gplm3 == 3354
-        and raw_pgs3 == 0
+        and miss_pgs_pow == 170
         and raw_gps3 == 1
         and raw_pgl3 == 0
         and raw_gpl3 == -2
@@ -354,11 +356,11 @@ def xor_4w_fold() -> dict:
 
 
 def killed_eq() -> dict:
-    """F/L forms at k=3 with shift 0; gp_s +3, pg_l +2, gp_l sign at k=8."""
-    raw_pgs3 = 4 * fib(4) + 3 * fib(2) - 5
+    """F/L forms at k=3 with shift 0; pg_s power, gp_s +3, pg_l +2, gp_l sign."""
     raw_gps3 = (-2 * ((-1) ** 3) + 3) // 3
     raw_pgl3 = 2 // 5
     raw_gpl3 = (5 * ((-1) ** 3) - 3) // 5
+    miss_pgs_pow = 4 * fib(9) + 3 * fib(7) - 5
     miss_gps3 = (
         (1 << 5) * (12 * fib(9) + 9 * fib(7) - 35) - 2 * ((-1) ** 8)
     ) // 3
@@ -371,7 +373,7 @@ def killed_eq() -> dict:
     ) // 5
     a8 = leftover_xor_half(8)
     ok = (
-        want_xor_pg_s_fl(3) != raw_pgs3
+        want_xor_pg_s_fl(8) != miss_pgs_pow
         and want_xor_gp_s_fl(3) != raw_gps3
         and want_xor_pg_l_fl(3) != raw_pgl3
         and want_xor_gp_l_fl(3) != raw_gpl3
@@ -386,7 +388,7 @@ def killed_eq() -> dict:
         and a8["gp_s"] == 5227
         and a8["pg_l"] == 3290
         and a8["gp_l"] == 3354
-        and raw_pgs3 == 0
+        and miss_pgs_pow == 170
         and raw_gps3 == 1
         and raw_pgl3 == 0
         and raw_gpl3 == -2
@@ -488,6 +490,7 @@ def main() -> None:
             "xor_pg_l_eq_FL_closed_k_ge_3": "LEMMA",
             "xor_gp_l_eq_FL_closed_k_ge_3": "LEMMA",
             "xor_4w_FL_shift0_at_k3": "KILLED",
+            "xor_pg_s_without_pow_at_k8": "KILLED",
             "xor_gp_s_without_plus3_at_k8": "KILLED",
             "xor_pg_l_without_plus2_at_k8": "KILLED",
             "xor_gp_l_without_sign_at_k8": "KILLED",

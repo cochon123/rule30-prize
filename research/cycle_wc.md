@@ -21,11 +21,14 @@ Cycle WA leftover xor \(n_{\mathrm{gp}}\). Special-case
 \(\mathrm{pg}_s=1\) at \(k=1\) and \(3\) at \(k=2\);
 \(\mathrm{gp}_s=0\) at \(k\le 2\); \(\mathrm{pg}_l=1\) at \(k=2\);
 \(\mathrm{gp}_l=2\) at \(k=2\) (not \(0\)); zeros at \(k\le 1\) on
-the large half. Dies at \(k=3\) for all four F/L forms with shift
-\(0\) (\(\mathrm{pg}_s\) got \(0\), not \(10\); \(\mathrm{gp}_s\)
-got \(1\), not \(5\); \(\mathrm{pg}_l\) got \(0\), not \(8\);
-\(\mathrm{gp}_l\) got \(-2\), not \(8\)). Dies at \(k=8\) without
-the \(\mathrm{gp}_s\) \(+3\) (got \(5226\), not \(5227\)), without
+the large half. Dies at \(k=3\) for \(\mathrm{gp}_s\),
+\(\mathrm{pg}_l\), and \(\mathrm{gp}_l\) F/L forms with shift
+\(0\) (\(\mathrm{gp}_s\) got \(1\), not \(5\); \(\mathrm{pg}_l\)
+got \(0\), not \(8\); \(\mathrm{gp}_l\) got \(-2\), not \(8\)). Do
+**not** kill \(\mathrm{pg}_s\) shift \(0\) at \(k=3\): \(2^{0}=1\)
+so it matches. Dies at \(k=8\) without the \(\mathrm{pg}_s\)
+\(2^{k-3}\) (got \(170\), not \(5440\)), without the
+\(\mathrm{gp}_s\) \(+3\) (got \(5226\), not \(5227\)), without
 the \(\mathrm{pg}_l\) \(+2\) (got \(3289\), not \(3290\)), and
 without the \(\mathrm{gp}_l\) \(5(-1)^k\) (got \(3353\), not
 \(3354\)). Do **not** kill without the \(\mathrm{gp}_l\) \(-3\) at
@@ -67,7 +70,7 @@ CA/HH/HU/KH/LZ/OJ/QV/SO/SV/SY/TA/TB/TD/TE/TT/TU/TW/UC/UD/UE/UP/UR/UU/UV/UW/UZ/VA
 
 Special-case \(1\) at \(k=1\); \(3\) at \(k=2\); \(0\) at \(k\le 0\).
 Status: **lemma**. Algebra through \(k\le 64\); census through
-\(k\le 8\). **Killed** at \(k=3\) for the F/L form with shift \(0\);
+\(k\le 8\). **Killed** without \(2^{k-3}\) at \(k=8\);
 small equals tot at \(k=8\); small equals tot \(n_{\mathrm{pg}}\) at
 \(k=8\); \(\mathrm{pg}_s=\mathrm{gp}_s\) at \(k=8\).
 
@@ -99,10 +102,12 @@ the F/L form with shift \(0\); without \(5(-1)^k\) at \(k=8\). Do
 sum to xor_lo small/large and leftover xor \(n_{\mathrm{pg}}/n_{\mathrm{gp}}\)).
 `CERTIFIED` (census through \(k\le 8\); \(E_k=0\) on odd-\(s\) rest
 for \(q=10\), \(k\le 10\)).
-`KILLED` (all four F/L forms at \(k=3\); without \(\mathrm{gp}_s\)
-\(+3\); without \(\mathrm{pg}_l\) \(+2\); without \(\mathrm{gp}_l\)
-sign at \(k=8\); \(\mathrm{pg}_s\) equals tot small; \(\mathrm{pg}_s\)
-equals tot \(n_{\mathrm{pg}}\); \(\mathrm{pg}_s=\mathrm{gp}_s\);
+`KILLED` (\(\mathrm{gp}_s/\mathrm{pg}_l/\mathrm{gp}_l\) F/L forms at
+\(k=3\); without \(\mathrm{pg}_s\) \(2^{k-3}\); without
+\(\mathrm{gp}_s\) \(+3\); without \(\mathrm{pg}_l\) \(+2\); without
+\(\mathrm{gp}_l\) sign at \(k=8\); \(\mathrm{pg}_s\) equals tot small;
+\(\mathrm{pg}_s\) equals tot \(n_{\mathrm{pg}}\);
+\(\mathrm{pg}_s=\mathrm{gp}_s\);
 pal-center tot equals \(S\oplus T\)).
 `PREFIX` (even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at
 \(k-1\) for all \(k\); packed rest \(=S\oplus T\) for all \(k\);
