@@ -25,7 +25,7 @@ Do **not** claim cellwise 2-fold packed AND. Do **not** claim
 even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\)
 for all \(k\). Do **not** claim UNIQUE_REST 2-fold all stay unique.
 
-Certify: `python3 research/cycle_rm.py --certify`.
+Certify: `python3 research/cycle_rm.py --certify` (~0.62s).
 Dump: `research/cycle_rm.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/LZ/MD/QG/QJ/QX/RB/RL (leftover Green \(n\bmod 4=(0,0,0,1)\)
