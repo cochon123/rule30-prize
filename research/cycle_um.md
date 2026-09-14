@@ -27,7 +27,7 @@ Do **not** claim cellwise 2-fold packed AND. Do **not** claim
 even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\)
 for all \(k\). Do **not** claim UNIQUE_REST 2-fold all stay unique.
 
-Certify: `python3 research/cycle_um.py --certify`.
+Certify: `python3 research/cycle_um.py --certify` (~0.30s).
 Dump: `research/cycle_um.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/HH/HU/KH/LZ/OJ/QV/SO/SV/SY/TB/TD/TE/TT/TU/UC/UD/UE/UI/UK/UL
@@ -51,7 +51,7 @@ and \(3\cdot 2^{k-1}+J_{k-2}-2J_k-2\) for \(k\ge 2\). Census \(k=8\):
 \(8560-8327=233\). Status: **lemma**. **Killed:** \(\mathrm{pg{:}lo}=\mathrm{gp{:}lo}\).
 **Killed:** the difference equals Cycle UI. **Killed:** the difference
 equals named leftover extra. **Killed:** leftover-parent xor sum
-equals the difference. Do **not** PREFIX \(\mathrm{pg{:}lo}+\mathrm{gp{:}lo}\).
+equals the difference (dies at \(k=2\): \(\mathrm{gp{:}lo}=0\)). Do **not** PREFIX \(\mathrm{pg{:}lo}+\mathrm{gp{:}lo}\).
 
 ## Verdict
 

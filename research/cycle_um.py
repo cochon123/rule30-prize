@@ -160,7 +160,7 @@ def parent_diff_fold() -> dict:
         xor_lo = r["n_pg_d2"] + r["n_pg_lo"] + r["n_gp_d1"] + r["n_gp_d2"] + r["n_gp_lo"]
         if xor_lo - (r["n_gp_d1"] + r["n_pg_d2"] + r["n_gp_d2"]) != tot:
             return {"ok": False, "xor": True, "k": k}
-        if k >= 2 and tot == want_lo_parent_diff(k):
+        if k >= 3 and tot == want_lo_parent_diff(k):
             return {"ok": False, "sum": True, "k": k}
         if k >= 2 and r["n_pg_lo"] == r["n_gp_lo"]:
             return {"ok": False, "eq": True, "k": k}
