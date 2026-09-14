@@ -1,0 +1,105 @@
+{
+  "cycle": "RZ",
+  "wall_s": 0.785,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "even_slots": {
+    "m_hi": 64,
+    "n_ok": 4096
+  },
+  "identity": {
+    "n_ok": 8256,
+    "n_g1": 3008,
+    "n_dead": 8256,
+    "m_hi": 64
+  },
+  "covering_chk": {
+    "n_ok": 9,
+    "k_hi": 8,
+    "rows": {
+      "0": {
+        "n_cell": 10,
+        "n_g1": 8
+      },
+      "1": {
+        "n_cell": 36,
+        "n_g1": 28
+      },
+      "2": {
+        "n_cell": 136,
+        "n_g1": 88
+      },
+      "3": {
+        "n_cell": 528,
+        "n_g1": 288
+      },
+      "4": {
+        "n_cell": 2080,
+        "n_g1": 928
+      },
+      "5": {
+        "n_cell": 8256,
+        "n_g1": 3008
+      },
+      "6": {
+        "n_cell": 32896,
+        "n_g1": 9728
+      },
+      "7": {
+        "n_cell": 131328,
+        "n_g1": 31488
+      },
+      "8": {
+        "n_cell": 524800,
+        "n_g1": 101888
+      }
+    }
+  },
+  "tot_form": {},
+  "killed_eq": {},
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "odd_child_green4_eq_G_Gm_xor_G": true,
+    "odd_child_green4_never_AND": true,
+    "odd_child_green4_eq_parent_green4": false,
+    "odd_child_green4_eq_even_child_green4": false,
+    "odd_child_green4_eq_hj_cons": false,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "odd_child_green4_eq_G_Gm_xor_G": "LEMMA",
+    "odd_child_green4_never_AND": "LEMMA",
+    "odd_child_green4_eq_parent_green4": "KILLED",
+    "odd_child_green4_eq_even_child_green4": "KILLED",
+    "odd_child_green4_eq_hj_cons": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
