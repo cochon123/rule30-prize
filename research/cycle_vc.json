@@ -1,0 +1,117 @@
+{
+  "cycle": "VC",
+  "wall_s": 0.246,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "even_slots": {
+    "m_hi": 64,
+    "n_ok": 4096
+  },
+  "tot_form": {
+    "n_ok": 65,
+    "k_hi": 64
+  },
+  "xor_sm_fold": {
+    "n_ok": 9,
+    "k_hi": 8,
+    "rows": {
+      "0": {
+        "ssum": 0,
+        "sdiff": 0,
+        "lsum": 0,
+        "ldiff": 0
+      },
+      "1": {
+        "ssum": 0,
+        "sdiff": 0,
+        "lsum": 0,
+        "ldiff": 0
+      },
+      "2": {
+        "ssum": 0,
+        "sdiff": 0,
+        "lsum": 1,
+        "ldiff": 1
+      },
+      "3": {
+        "ssum": 3,
+        "sdiff": 3,
+        "lsum": 3,
+        "ldiff": -1
+      },
+      "4": {
+        "ssum": 15,
+        "sdiff": 5,
+        "lsum": 16,
+        "ldiff": 0
+      },
+      "5": {
+        "ssum": 71,
+        "sdiff": 13,
+        "lsum": 52,
+        "ldiff": -4
+      },
+      "6": {
+        "ssum": 263,
+        "sdiff": 25,
+        "lsum": 186,
+        "ldiff": -6
+      },
+      "7": {
+        "ssum": 939,
+        "sdiff": 53,
+        "lsum": 612,
+        "ldiff": -16
+      },
+      "8": {
+        "ssum": 3191,
+        "sdiff": 105,
+        "lsum": 2034,
+        "ldiff": -30
+      }
+    }
+  },
+  "killed_eq": {},
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "ej_xor_small_eq_lo_small_minus_j0_k_ge_3": true,
+    "ej_xor_small_diff_eq_j0_minus_d2e_k_ge_4": true,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "ej_xor_small_eq_lo_small_minus_j0_k_ge_3": "LEMMA",
+    "ej_xor_small_diff_eq_j0_minus_d2e_k_ge_4": "LEMMA",
+    "ej_xor_small_cnt_at_k2": "KILLED",
+    "ej_xor_small_diff_at_k3": "KILLED",
+    "pal_c_eq_ST": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
