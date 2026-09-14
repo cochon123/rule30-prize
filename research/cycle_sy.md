@@ -27,7 +27,7 @@ Do **not** claim cellwise 2-fold packed AND. Do **not** claim
 even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\)
 for all \(k\). Do **not** claim UNIQUE_REST 2-fold all stay unique.
 
-Certify: `python3 research/cycle_sy.py --certify`.
+Certify: `python3 research/cycle_sy.py --certify` (~0.26s).
 Dump: `research/cycle_sy.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/HH/HU/KH/LC/LD/LF/OJ/PB/PC/PD/QV/SO/SV/SW/SX (odd pal-pair rest
