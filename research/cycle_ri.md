@@ -25,7 +25,7 @@ even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\)
 for all \(k\). Do **not** claim UNIQUE_ODD 2-fold all stay unique.
 Do **not** claim \(p=2\) is unique-rest.
 
-Certify: `python3 research/cycle_ri.py --certify`.
+Certify: `python3 research/cycle_ri.py --certify` (~0.13s).
 Dump: `research/cycle_ri.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/MD/QJ/RG/RH (UNIQUE_REST 2-fold stay \(\{16,30,38\}\) image
