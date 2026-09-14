@@ -197,7 +197,7 @@ def spat_fold() -> dict:
         n_ok += 1
         rows[str(k)] = rec
     held = all(rows[str(k)]["eq_xor_even"] for k in range(1, 9))
-    die_p = rows["9"]["eq_parent"] == 0 and rows["10"]["eq_parent"] == 0
+    die_p = rows["2"]["eq_parent"] == 0 and rows["9"]["eq_parent"] == 0
     die_x = rows["9"]["eq_xor_even"] == 0 and rows["10"]["eq_xor_even"] == 0
     ok = (
         n_ok == K_SPAT + 1
