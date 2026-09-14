@@ -29,7 +29,7 @@ Do **not** claim cellwise 2-fold packed AND. Do **not** claim
 even-\(n\) rest xor at \(k\) equals odd-\(n\) rest xor at \(k-1\)
 for all \(k\). Do **not** claim UNIQUE_REST 2-fold all stay unique.
 
-Certify: `python3 research/cycle_sx.py --certify`.
+Certify: `python3 research/cycle_sx.py --certify` (~0.41s).
 Dump: `research/cycle_sx.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/AL/HH/HU/KH/LF/OJ/PB/QV/SO/SS/SV/SW (odd pal-right \(p=14\) AND
@@ -60,7 +60,7 @@ Status: **lemma**.
 
 ## Certified (dyadic bits \(13\land 14=1\); listed family fires)
 
-One packed walk through \(t\le 2^{16}+5\): bits \(13\land 14=1\) at
+One packed walk through \(t\le 2^{16}+7\): bits \(13\land 14=1\) at
 every \(t=2^m+1\) for \(4\le m\le 16\), every \(t=2^m+5\) for
 \(3\le m\le 16\), and every \(t=2^a+2^b+5\) for \(14\ge a>b\ge 2\).
 The listed covering times of odd pal-right \(p=14\) sit in that

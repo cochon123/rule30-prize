@@ -50,7 +50,7 @@ K_GREEN = 12
 M_PLUS1 = 16
 M_PLUS5 = 16
 A_HI = 14
-T_WALK = (1 << M_PLUS1) + 5
+T_WALK = (1 << M_PLUS1) + 7
 TUPLE_0011 = (0, 0, 1, 1)
 Q = 10
 
