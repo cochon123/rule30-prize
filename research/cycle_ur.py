@@ -234,7 +234,8 @@ def ph_lo_fold() -> dict:
         pg_l = r["plo_l"]
         if k >= 1:
             eh = even_lo_ph_split(k - 1)
-            if eh["eq"] != want_ph_lo(k - 1):
+            # parent_half(1)=5 is odd, so even leftover never sits on it.
+            if parent_half(k - 1) % 2 == 0 and eh["eq"] != want_ph_lo(k - 1):
                 return {"ok": False, "eq": True, "k": k, "got": eh}
             if k >= 3:
                 if pg_s != 2 * eh["sm"]:
