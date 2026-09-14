@@ -8,8 +8,9 @@ On n=1 mod 4, s is even, so leftover extra has G(s,t)=1 iff j=0
 mod 4 and G(s,t)=0 iff j=2 mod 4; those cells pair as (j,j+2) from
 even parent leftover union d=2, so signs balance and leftover extra
 on n=1 mod 4 contributes 0 to leftover-parent xor large difference.
-The imbalance lives on n=3 mod 4. Dies at k=0 for leftover empty at
-3U (d=2 clip overlap). Do not PREFIX leftover-parent xor large
+The imbalance lives on n=3 mod 4. Dies at k=1 for equal
+j mod 4 counts. Dies at k=0 for leftover empty at 3U (d=2 clip
+overlap). Do not PREFIX leftover-parent xor large
 difference or pal-center tot. Not rest=S xor T. Do not walk leftover
 p catalogues. Do not walk leftover d catalogues. Do not walk k=11
 packed covering. Do not walk k=12 T-bands. Not a prize claim.
@@ -295,11 +296,11 @@ def n1_bal_fold() -> dict:
         z = leftover_extra_n1_split(k)
         if z["g_bad"] != 0:
             return {"ok": False, "g": True, "k": k}
-        if z["j0"] != z["j2"]:
-            return {"ok": False, "bal": True, "k": k, "got": z}
-        if z["j0_lg"] != z["j2_lg"]:
-            return {"ok": False, "blg": True, "k": k, "got": z}
         if k >= 2:
+            if z["j0"] != z["j2"]:
+                return {"ok": False, "bal": True, "k": k, "got": z}
+            if z["j0_lg"] != z["j2_lg"]:
+                return {"ok": False, "blg": True, "k": k, "got": z}
             if z["n3_empty"] != 0:
                 return {"ok": False, "n3e": True, "k": k, "got": z}
             if z["n1_empty"] != 1 or z["miss_hit"] != 1:
@@ -329,6 +330,7 @@ def n1_bal_fold() -> dict:
         and rows["7"]["j0_lg"] == 501
         and rows["7"]["n1_empty"] == 1
         and rows["7"]["n3_lg"] == 48
+        and rows["1"]["j0"] != rows["1"]["j2"]
         and want_miss_n(8) != want_3u(8)
     )
     return {
@@ -343,11 +345,13 @@ def n1_bal_fold() -> dict:
 
 def killed_eq() -> dict:
     """leftover at 3U; extra at 3U+1; n=1 unbalanced."""
+    z1 = leftover_extra_n1_split(1)
     z8 = leftover_extra_n1_split(8)
     ok = (
         leftover_at_n(want_3u(8), 8) == 0
         and leftover_extra_n(want_miss_n(8), 8) == 0
         and leftover_at_n(want_3u(0), 0) == 0
+        and z1["j0"] != z1["j2"]
         and z8["j0"] == z8["j2"]
         and z8["j0_lg"] == z8["j2_lg"]
         and z8["n1_empty"] == 1
@@ -438,7 +442,7 @@ def main() -> None:
         "lemmas": {
             "n_3u_no_leftover": True,
             "extra_empty_at_3u_plus_1": True,
-            "n1_extra_sign_balanced": True,
+            "n1_extra_sign_balanced_k_ge_2": True,
             "n1_extra_large_xor_diff_0": True,
             "lo_parent_large_diff_closed": False,
             "packed_R_eq_ST": False,
@@ -448,7 +452,8 @@ def main() -> None:
         "verdict": {
             "n_3u_no_leftover": "LEMMA",
             "extra_empty_at_3u_plus_1": "LEMMA",
-            "n1_extra_sign_balanced": "LEMMA",
+            "n1_extra_sign_balanced_k_ge_2": "LEMMA",
+            "n1_bal_at_k1": "KILLED",
             "n1_extra_large_xor_diff_0": "LEMMA",
             "leftover_at_3u_k0_d2": "KILLED",
             "extra_at_3u_plus_1": "KILLED",

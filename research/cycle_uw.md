@@ -7,10 +7,11 @@ empty at \(n=3U_p\), so leftover extra is empty at the child
 \(n=3U+1\). On \(n\equiv 1\pmod{4}\), \(s\) is even, so leftover extra
 has \(G(s,t)=1\) iff \(j\equiv 0\pmod{4}\) and \(G(s,t)=0\) iff
 \(j\equiv 2\pmod{4}\). Those cells pair as \((j,j+2)\) from even
-parent leftover \(\cup d=2\), so the signs balance and leftover extra
+parent leftover \(\cup d=2\) for \(k\ge 2\), so the signs balance and leftover extra
 on \(n\equiv 1\pmod{4}\) contributes \(0\) to leftover-parent xor
 large difference. The imbalance lives on \(n\equiv 3\pmod{4}\). Dies
-at \(k=0\) for leftover empty at \(3U\) (\(d=2\) clip overlap). Census
+at \(k=1\) for equal \(j\bmod 4\) counts. Dies at \(k=0\) for leftover
+empty at \(3U\) (\(d=2\) clip overlap). Census
 \(k=8\): large \(n\equiv 1\) leftover extra \(j\equiv 0\) and
 \(j\equiv 2\) both \(1645\). Unique empty at \(3U+1\) through
 \(k\le 16\). Do **not** PREFIX leftover-parent xor large difference
@@ -59,12 +60,13 @@ The even parent \(n=3U_p\) has no leftover and no \(d=2\) (\(n\equiv 0
 
 \(s\) even, so \(G(s,t)=0\) on odd \(t\) and leftover extra at even
 \(t\) has \(G(s,t)=1\). Even parent leftover \(\cup d=2\) produces
-pal-left leftover extra in \((j,j+2)\) pairs, hence equal \(j\equiv 0
+pal-left leftover extra in \((j,j+2)\) pairs for \(k\ge 2\), hence equal \(j\equiv 0
 \pmod{4}\) and \(j\equiv 2\pmod{4}\) counts. Large \(n\equiv 1\)
 therefore contributes \(0\) to leftover-parent xor large difference.
 Census through \(k\le 8\): every large \(n\equiv 3\pmod{4}\) has
 leftover extra; every large \(n\equiv 1\pmod{4}\) except \(3U+1\)
-has leftover extra. Status: **lemma**. **Killed:** unbalanced signs
+has leftover extra. Status: **lemma**. **Killed** at \(k=1\) for
+equal counts. **Killed:** unbalanced signs
 on \(n\equiv 1\); large difference from leftover extra on \(n\equiv
 1\). Do **not** PREFIX leftover-parent xor large difference.
 
@@ -76,7 +78,7 @@ leftover extra empty at \(n=3U+1\); leftover extra on
 leftover-parent xor large difference).
 `CERTIFIED` (unique through \(k\le 16\); census through \(k\le 8\);
 \(E_k=0\) on odd-\(s\) rest for \(q=10\), \(k\le 10\)).
-`KILLED` (leftover empty at \(3U\) as no \(d=2\) at \(k=0\); leftover
+`KILLED` (equal \(j\bmod 4\) counts at \(k=1\); leftover empty at \(3U\) as no \(d=2\) at \(k=0\); leftover
 extra at \(3U+1\); \(n\equiv 1\) unbalanced; large difference from
 \(n\equiv 1\); pal-center tot equals \(S\oplus T\)).
 `PREFIX` (leftover-parent xor large difference; even-\(n\) rest xor
