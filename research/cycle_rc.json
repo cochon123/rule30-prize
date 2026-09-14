@@ -1,0 +1,287 @@
+{
+  "cycle": "RC",
+  "wall_s": 0.135,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "tot_form": {
+    "n_ok": 65,
+    "k_hi": 64
+  },
+  "rest_split": {
+    "n_ok": 11,
+    "k_hi": 10,
+    "rows": {
+      "0": {
+        "tot": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "lo": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "u": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "1": {
+        "tot": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "lo": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "u": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "2": {
+        "tot": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "lo": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "u": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "3": {
+        "tot": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lo": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "u": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "4": {
+        "tot": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "lo": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "u": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "5": {
+        "tot": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "lo": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "u": [
+          1,
+          1,
+          0,
+          0
+        ]
+      },
+      "6": {
+        "tot": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "lo": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "u": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "7": {
+        "tot": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "lo": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "u": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "8": {
+        "tot": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "lo": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "u": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "9": {
+        "tot": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "lo": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "u": [
+          1,
+          0,
+          0,
+          1
+        ]
+      },
+      "10": {
+        "tot": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "lo": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "u": [
+          1,
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  },
+  "killed_eq": {
+    "lo2_0": 1,
+    "st0": 0,
+    "lo2_6": 0,
+    "st6": 1,
+    "lo2_3": 0,
+    "lo_e3": 1
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "lo_n2_eq_rest_n2": true,
+    "lo_nmod_eq_rest_xor_unique": true,
+    "lo_n2_eq_ST": false,
+    "lo_n2_eq_lo_even": false,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "lo_n2_eq_rest_n2": "LEMMA",
+    "lo_nmod_eq_rest_xor_unique": "LEMMA",
+    "lo_n2_eq_ST": "KILLED",
+    "lo_n2_eq_lo_even": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
