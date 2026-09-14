@@ -133,7 +133,7 @@ def killed_eq() -> dict:
         and want_n0(4) != want_rest_e0(4)
         and want_n0(0) != want_g_n0(0)
         and want_n0(2) == want_g_n0(2)
-        and want_n3e_pack(1) != want_g_n3e(1)
+        and want_n3e_pack(3) != want_g_n3e(3)
         and want_n3e_pack(0) != want_g_n3e(0)
     )
     return {"ok": ok}
