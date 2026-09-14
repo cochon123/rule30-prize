@@ -28,7 +28,7 @@ cellwise 2-fold packed AND. Do **not** claim even-\(n\) rest xor at
 claim silent xor leftover is \((1,1,1,0)\) for all \(k\). Do **not**
 claim silent equals leftover on all residues for \(k\ge 6\).
 
-Certify: `python3 research/cycle_rf.py --certify`.
+Certify: `python3 research/cycle_rf.py --certify` (~0.14s).
 Dump: `research/cycle_rf.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. Reads Cycles
 CA/KH/OJ/LZ/PF/PG/PL/QV/RE (2-fold of FORCED is silent
