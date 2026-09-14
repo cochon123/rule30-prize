@@ -1,0 +1,123 @@
+{
+  "cycle": "RO",
+  "wall_s": 0.136,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "tot_form": {
+    "n_ok": 65,
+    "k_hi": 64
+  },
+  "uo_walk": {
+    "n_ok": 9,
+    "k_hi": 8,
+    "rows": {
+      "0": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "5": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "7": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "8": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "killed_eq": {
+    "tot5": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "uo_g_nmod_0001_k_ge_6": true,
+    "uo_g_n1_iff_k_eq_5": true,
+    "uo_g_n3_iff_k_eq_4_or_ge_6": true,
+    "uo_g_nmod_0001_all_k": false,
+    "uo_g_n3_eq_packed": false,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "uo_g_nmod_0001_k_ge_6": "LEMMA",
+    "uo_g_n1_iff_k_eq_5": "LEMMA",
+    "uo_g_n3_iff_k_eq_4_or_ge_6": "LEMMA",
+    "uo_g_nmod_0001_all_k": "KILLED",
+    "uo_g_n3_eq_packed": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
