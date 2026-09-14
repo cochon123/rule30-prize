@@ -1,0 +1,137 @@
+{
+  "cycle": "UC",
+  "wall_s": 0.289,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "even_slots": {
+    "m_hi": 64,
+    "n_ok": 4096
+  },
+  "tot_form": {
+    "n_ok": 65,
+    "k_hi": 64
+  },
+  "extra_sum_fold": {
+    "n_ok": 9,
+    "k_hi": 8,
+    "rows": {
+      "0": {
+        "tot": 2,
+        "d1": 1,
+        "edge": 0,
+        "lo": 0,
+        "unp": 1
+      },
+      "1": {
+        "tot": 8,
+        "d1": 3,
+        "edge": 2,
+        "lo": 2,
+        "unp": 1
+      },
+      "2": {
+        "tot": 24,
+        "d1": 5,
+        "edge": 2,
+        "lo": 10,
+        "unp": 7
+      },
+      "3": {
+        "tot": 80,
+        "d1": 11,
+        "edge": 6,
+        "lo": 40,
+        "unp": 23
+      },
+      "4": {
+        "tot": 256,
+        "d1": 21,
+        "edge": 10,
+        "lo": 142,
+        "unp": 83
+      },
+      "5": {
+        "tot": 832,
+        "d1": 43,
+        "edge": 22,
+        "lo": 488,
+        "unp": 279
+      },
+      "6": {
+        "tot": 2688,
+        "d1": 85,
+        "edge": 42,
+        "lo": 1630,
+        "unp": 931
+      },
+      "7": {
+        "tot": 8704,
+        "d1": 171,
+        "edge": 86,
+        "lo": 5384,
+        "unp": 3063
+      },
+      "8": {
+        "tot": 28160,
+        "d1": 341,
+        "edge": 170,
+        "lo": 17630,
+        "unp": 10019
+      }
+    }
+  },
+  "killed_eq": {},
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "ej_odd_pal_left_partition": true,
+    "ej_odd_tot_eq_2km1_fib": true,
+    "extra_sum_eq_2km1_Fm1_pm1": true,
+    "edge_odd_eq_2_J_k": true,
+    "trans_eq_wt_half": true,
+    "ej_odd_tot_eq_2kp2": false,
+    "extra_sum_empty": false,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "ej_odd_pal_left_partition": "LEMMA",
+    "ej_odd_tot_eq_2km1_fib": "LEMMA",
+    "extra_sum_eq_2km1_Fm1_pm1": "LEMMA",
+    "edge_odd_eq_2_J_k": "LEMMA",
+    "trans_eq_wt_half": "LEMMA",
+    "ej_odd_tot_eq_2kp2": "KILLED",
+    "extra_sum_empty": "KILLED",
+    "d1_on_even_n": "KILLED",
+    "unp_extra_empty": "KILLED",
+    "pair_g0_in_unp_extra": "KILLED",
+    "pal_c_eq_ST": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
