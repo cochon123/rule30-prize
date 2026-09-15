@@ -1,0 +1,124 @@
+{
+  "cycle": "YK",
+  "wall_s": 0.134,
+  "checks": {
+    "all_ok": true
+  },
+  "green_center_corner_pal": {
+    "n_hi": 64,
+    "n_ok": 2080
+  },
+  "doubling_slots": {
+    "m_hi": 64,
+    "n_ok": 4160
+  },
+  "even_slots": {
+    "m_hi": 64,
+    "n_ok": 4096
+  },
+  "tot_form": {
+    "n_ok": 65,
+    "k_hi": 64
+  },
+  "even_s65536_fold": {
+    "n_ok": 9,
+    "k_hi": 8,
+    "rows": {
+      "0": {
+        "n_at": 0,
+        "first": null
+      },
+      "1": {
+        "n_at": 0,
+        "first": null
+      },
+      "2": {
+        "n_at": 0,
+        "first": null
+      },
+      "3": {
+        "n_at": 0,
+        "first": null
+      },
+      "4": {
+        "n_at": 0,
+        "first": null
+      },
+      "5": {
+        "n_at": 0,
+        "first": null
+      },
+      "6": {
+        "n_at": 0,
+        "first": null
+      },
+      "7": {
+        "n_at": 0,
+        "first": null
+      },
+      "8": {
+        "n_at": 0,
+        "first": null
+      }
+    }
+  },
+  "killed_eq": {},
+  "g4_xor_cover": {
+    "n_ok": 95821,
+    "n_g1": 22659,
+    "n_eq_pack": 1
+  },
+  "lemmas": {
+    "even_s65536_eq_J_k_plus_10923m1_plus_10922_k_ge_17": true,
+    "s65536_tot_eq_J_k1_plus_21845m1_plus_21844_k_ge_17": true,
+    "first_even_s65536_eq_ph32770_k_ge_15": true,
+    "packed_R_eq_ST": false,
+    "E_all_k": false,
+    "prize": false
+  },
+  "verdict": {
+    "even_s65536_eq_J_k_plus_10923m1_plus_10922_k_ge_17": "LEMMA",
+    "s65536_tot_eq_J_k1_plus_21845m1_plus_21844_k_ge_17": "LEMMA",
+    "first_even_s65536_eq_ph32770_k_ge_15": "LEMMA",
+    "even_s65536_eq_form_at_k16": "KILLED",
+    "even_s65536_eq_form_at_k15": "KILLED",
+    "even_s65536_eq_odd_at_k16": "KILLED",
+    "even_s65536_eq_odd_at_k15": "KILLED",
+    "s65536_tot_eq_J_k1_at_k15": "KILLED",
+    "s65536_tot_eq_J_k1_at_k16": "KILLED",
+    "s65536_tot_eq_J_k1_at_k17": "KILLED",
+    "even_s65536_eq_clip_gp_at_k8": "KILLED",
+    "even_s65536_eq_J_k_at_k8": "KILLED",
+    "even_s65536_eq_odd_s512_at_k8": "KILLED",
+    "even_s65536_eq_even_s512_at_k8": "KILLED",
+    "even_s65536_eq_odd_s256_at_k8": "KILLED",
+    "even_s65536_eq_even_s256_at_k8": "KILLED",
+    "even_s65536_eq_odd_s128_at_k8": "KILLED",
+    "even_s65536_eq_even_s128_at_k8": "KILLED",
+    "even_s65536_eq_odd_s64_at_k8": "KILLED",
+    "even_s65536_eq_even_s64_at_k8": "KILLED",
+    "even_s65536_eq_odd_s16_at_k8": "KILLED",
+    "even_s65536_eq_even_s16_at_k8": "KILLED",
+    "even_s65536_eq_odd_s8_at_k8": "KILLED",
+    "even_s65536_eq_even_s32_at_k8": "KILLED",
+    "even_s65536_eq_even_s8_at_k8": "KILLED",
+    "even_s65536_eq_ug_at_k8": "KILLED",
+    "even_s65536_eq_j0_odd_at_k8": "KILLED",
+    "ph32770_covering_at_k14": "KILLED",
+    "pal_c_eq_ST": "KILLED",
+    "E_q10_10": "CERTIFIED",
+    "packed_R_eq_ST": "PREFIX",
+    "even_rest_eq_parent_odd_all_k": "PREFIX",
+    "E_all_k": "PREFIX",
+    "J6_J10_0_implies_J18_1_all_k": "PREFIX",
+    "eleven_bit_gap": "PREFIX",
+    "extra_414990_formula": "PREFIX",
+    "at_most_one_odd_all_k": "PREFIX",
+    "period_H_seed_all_k": "PREFIX",
+    "pi_formula_all_k": "PREFIX",
+    "fermat_cover_359_all_k": "PREFIX",
+    "I_1_infinitely_often": "OPEN",
+    "some_phi_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
