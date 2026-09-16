@@ -72,8 +72,10 @@ the certificate.
 
 Extra \(\le 8\) at large \(T\) would finish period 2 of the prize
 centre (every even-right \(u\) is ugap). The census through \(T=48\)
-(`research/period2_e8cap.md`) is not that bound, and \(T=37\) shows
-the implied \(R\le 17\) is sharp. Other periods of \(c_t\) are
+(`research/period2_e8cap.md`) is not that bound: extra \(=10\) and
+\(R=20\) occur \(S\)-minimally at \(T=51\)
+(`research/period2_e10t51.md`). \(T=37\) shows the implied \(R\le 17\)
+is sharp *inside extra \(\le 8\)*. Other periods of \(c_t\) are
 untouched.
 
 Periodic \(u\) is already infinite on the left
@@ -88,7 +90,8 @@ bounded, aperiodic \(u\) dies too.
 - Kill of period 2: no.
 - Sound \(R\) from Q-clip: yes.
 - Extra \(\le 8\Rightarrow R\le 17\): yes.
-- Uniform extra \(\le 8\): no; \(T=37\) attains the cap \(R=17\).
+- Uniform extra \(\le 8\): no; \(T=37\) attains the extra-\(\le 8\) cap
+  \(R=17\), and \(T=51\) exceeds it (\(R=20\)).
 
 ## Files
 
@@ -98,3 +101,4 @@ bounded, aperiodic \(u\) dies too.
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
 - `research/period2_alldesc.md` (every clip class extra-rank at \(T+2\))
 - `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
+- `research/period2_e10t51.md` (\(S\)-minimal extra \(=10\), \(R=20\))

@@ -70,7 +70,9 @@ odd \(T\). Isolated onsets meeting the threshold are births of bump
 families. A uniform extra \(\le 8\) for *all* ugap onsets is the
 statement that no \(S\)-minimal member has extra \(\ge 9\). That
 statement is a census through \(T=48\)
-(`research/period2_e8cap.md`), not a theorem.
+(`research/period2_e8cap.md`) and is false for all \(T\):
+\(S\)-minimal extra \(=10\) exists at \(T=51\)
+(`research/period2_e10t51.md`).
 
 ## What this does not do
 
@@ -79,10 +81,11 @@ statement is a census through \(T=48\)
 not killed. Even-\(F\) extra \(=2\) at even \(T\) has \(R=3\), below
 the \(B_0\) threshold, and is not this identity. Under \(S\) it
 becomes an isolated onset at \(T+1\) (`research/period2_r3iso.md`),
-without an extra rank. Extra \(\le 8\) through \(T=48\) is now a
-certificate (`research/period2_e8cap.md`), with isolated even-\(F\)
-extra \(=8\) at \(T=43\) the \((00010010)^2\)-tail family. Other
-periods of \(c_t\) are untouched.
+without an extra rank. Extra \(\le 8\) through \(T=48\) is a
+certificate (`research/period2_e8cap.md`) that fails at \(T=51\)
+(`research/period2_e10t51.md`). Isolated even-\(F\) extra \(=8\) at
+\(T=43\) is the \((00010010)^2\)-tail family. Other periods of
+\(c_t\) are untouched.
 
 ## Verdict
 
@@ -92,7 +95,7 @@ periods of \(c_t\) are untouched.
 - Extra rank on every clip class: yes.
 - `11`/`00000` extra \(\ge 2\): yes.
 - Isolated extra \(\mapsto\) bump extra\(-2\): yes.
-- Uniform extra \(\le 8\): no.
+- Uniform extra \(\le 8\): no (counterexample at \(T=51\)).
 
 ## Files
 
@@ -105,3 +108,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)
 - `research/period2_t35ten.md` (\(T=35\) isolated extra \(=7\) is the \(10\)-tail family)
 - `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
+- `research/period2_e10t51.md` (\(S\)-minimal extra \(=10\) at \(T=51\))

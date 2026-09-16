@@ -43,11 +43,13 @@ through \(T=48\) are therefore
 
 ## What this does not do
 
-Extra \(\le 8\) is still a census. Compactness would kill every
-finite-seed \(L_0\) if the bound held for all \(T\), but that is not
-proved. \(S\)-minimal extra \(=8\) exists (nine of the \(T=43\)
-isolated words; the \(T=37\) bump `11` family). Infinite \(B_0\) is
-untouched. Other periods of \(c_t\) are untouched.
+Extra \(\le 8\) through \(T=48\) is a census. Compactness would kill
+every finite-seed \(L_0\) if the bound held for all \(T\); it does
+not (`research/period2_e10t51.md`: \(S\)-minimal extra \(=10\) at
+\(T=51\)). \(S\)-minimal extra \(=8\) exists through \(T=48\) (nine
+of the \(T=43\) isolated words; the \(T=37\) bump `11` family).
+Infinite \(B_0\) is untouched. Other periods of \(c_t\) are
+untouched.
 
 ## Verdict
 
@@ -55,7 +57,7 @@ untouched. Other periods of \(c_t\) are untouched.
 
 - Kill of period 2: no.
 - Extra \(\le 8\) through \(T=48\): yes (census).
-- Uniform extra \(\le 8\) for all \(T\): no.
+- Uniform extra \(\le 8\) for all \(T\): no (fails at \(T=51\)).
 - \(T=43\) isolated extra \(=8\) is the period-8 tail: yes.
 
 ## Files
@@ -67,3 +69,4 @@ untouched. Other periods of \(c_t\) are untouched.
 - `research/period2_t35ten.md` (\(T=43\) extra-\(8\) words)
 - `research/period2_e8fam.md` (extra \(=8\) is two prefix families)
 - `research/period2_qextra.md` (extra to sound \(R\))
+- `research/period2_e10t51.md` (extra \(\le 8\) fails at \(T=51\))
