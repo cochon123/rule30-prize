@@ -94,11 +94,13 @@ Sound enumeration, exact variable bound. New rows:
 | 33 | 14 | 5 | `F_48` |
 | 34 | 12 | 5 | `F_47` |
 
-Together with Cycle D’s table through `T=32`, every onset width
+Together with Cycle D’s table through `T=22` and the Fibonacci fill
+`T=23..32` of `research/period2_ugap_sat.md`, every onset width
 `1≤T≤34` dies at finite extra `R`, and `maxR≤16` still, uniquely at
-`T=20`. This is not a proof that `R≤16` for all `T`. Widths `≥35` were
-not enumerated: `nvars(T+16)` is already 26 at `T=35` (`F_27` Fibonacci
-strings).
+`T=20`. The pair `(26,5)` in the shift-table list below is not
+last-sat: Fibonacci `T=26` has `maxR=11`. This is not a proof that
+`R≤16` for all `T`. Widths `≥35` were not enumerated: `nvars(T+16)` is
+already 26 at `T=35` (`F_27` Fibonacci strings).
 
 ## Vacuum `u` is not eventually period 7
 
@@ -141,3 +143,4 @@ and a finite right is the same `L_0` problem read at time 0
 - `research/period2_germ.md` (this note)
 - `research/period2_germ.py`
 - `research/period2_germ.json`
+- `research/period2_ugap_sat.md` (ugap onset; Fibonacci \(T=23..32\))

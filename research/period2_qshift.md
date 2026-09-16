@@ -84,6 +84,9 @@ locality of \(Q_n\) already fails on the \(T=20\) last-sat words
 descend under \(S\) (`research/period2_b0.md`); an infinite \(L_0\)
 tail does not.
 
+The three ugap-legal \(T=20\) last-sat words still 11-clip at \(n=18\)
+with extra \(8\) (`research/period2_ugap_sat.md`).
+
 Periodic \(u\) is already infinite on the left
 (`research/period2_periodic.md`). Aperiodic \(u\) remains the
 obstruction to period 2.
@@ -101,3 +104,4 @@ obstruction to period 2.
 - `research/period2_qshift.md` (this note)
 - `research/period2_qshift.py` (`--certify`)
 - `research/period2_qshift.json` (dump)
+- `research/period2_ugap_sat.md` (ugap last-sat Q-force)
