@@ -1,0 +1,40 @@
+{
+  "checks": {
+    "even_T_e2_evenF_R_is_3": true,
+    "fib_germ_isolated_at_Tplus1": true,
+    "ugap_evenF_e2_all_isolated_at_Tplus1": true
+  },
+  "arithmetic": {
+    "n_T": 37,
+    "ok": true
+  },
+  "fib": {
+    "nlen": 12,
+    "Tmin": 5,
+    "Tmax": 16,
+    "n_pattern": 222,
+    "n_germ": 222,
+    "ok": true
+  },
+  "ugap": {
+    "Tmin": 8,
+    "Tmax": 32,
+    "n_evenF_e2": 270,
+    "n_isolated_at_Tplus1": 270,
+    "src_kind": {
+      "iso": 122,
+      "bump": 148
+    },
+    "image_extra_when_onset": {
+      "0": 71,
+      "1": 120,
+      "2": 59,
+      "3": 4,
+      "4": 3,
+      "5": 8,
+      "7": 5
+    },
+    "ok": true
+  },
+  "wall_time_sec": 0.6035344050033018
+}
