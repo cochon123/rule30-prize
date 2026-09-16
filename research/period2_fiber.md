@@ -235,3 +235,4 @@ stays period 2 through an extended cap — did not fire.
 - `research/period2_fiber.py` (`--certify` runs the checks, the
   radius-`w` exhaustive, and the fiber reconstruction)
 - `research/period2_fiber.json` (dump)
+- `research/period2_phase10.md` (phase `10` SFT `{00, 111}`)

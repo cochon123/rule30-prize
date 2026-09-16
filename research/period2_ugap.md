@@ -42,10 +42,11 @@ longest path has four vertices, hence four consecutive even times with
 only through column 5, so extra right-hand bits cannot add an edge.
 
 Together with “no consecutive 1s” (`research/period2_neighbor.md`) every
-even-right sequence compatible with a period-2 centre — finite or
-infinite right — lies in the subshift of finite type forbidding
-`{11, 00000}`. Infinitely many 1s still follow from Jen (an eventually
-zero `u` makes column `-1` eventually constant).
+even-right sequence compatible with a period-2 centre of phase `01` —
+finite or infinite right — lies in the subshift of finite type forbidding
+`{11, 00000}`. Phase `10` is a different SFT, forbidding `{00, 111}`
+(`research/period2_phase10.md`); aperiodic words exist, and finite
+seeds reduce to phase `01` by one step.
 
 ## What this does not do
 
@@ -84,3 +85,4 @@ not an independent census.
 - `research/period2_ugap.py`
 - `research/period2_ugap.json`
 - `research/period2_ugap_sat.md` (onset table inside this SFT)
+- `research/period2_phase10.md` (phase `10` dual SFT `{00, 111}`)
