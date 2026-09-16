@@ -73,6 +73,12 @@ Cycle D’s obstruction stands: a zero run of length `R` does not
 transfer to `Su` with a loss that can reach vacuum in
 `nvars(T+R)≈(T+R)/2` shifts.
 
+The tail itself is unique given the onset prefix:
+`research/period2_lead.md` proves \(F_{2n+1}=u_n\oplus Q_n\), so
+\(F_k=0\) for \(k>T\) forces \(u_n=Q_n\) for all
+\(n>\lfloor(T-1)/2\rfloor\). The \(T=20\) models already follow that
+continuation.
+
 ## Onset table
 
 Sound enumeration, exact variable bound. New rows:
