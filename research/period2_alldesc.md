@@ -94,3 +94,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_alldesc.md` (this note)
 - `research/period2_alldesc.py` (`--certify`)
 - `research/period2_alldesc.json` (dump)
+- `research/period2_silent.md` (\(u_0\) silent in \(F_k\) for \(k\ge 3\))

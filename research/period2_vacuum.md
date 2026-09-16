@@ -22,6 +22,7 @@ one has `max_index(F_k) <= floor((k-1)/2)` and
 `max_index(G_k) <= floor(k/2)`. So `F_0,\ldots,F_K` are determined by
 the `nvars(K) = floor((K-1)/2)+1` bits `u_0,\ldots,u_{nvars(K)-1}`.
 Padding extra zeros past that index does not change those values.
+For \(K\ge 3\), \(u_0\) is in fact absent (`research/period2_silent.md`).
 
 ## Vacuum and the fold machine
 
