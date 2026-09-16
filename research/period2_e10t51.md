@@ -50,7 +50,7 @@ finite check.
 
 ## Verdict
 
-`LEMMA`, wall time ~100s.
+`LEMMA`, wall time ~101s.
 
 - Kill of period 2: no.
 - Uniform extra \(\le 8\): no (counterexample).
