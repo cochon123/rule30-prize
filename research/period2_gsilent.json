@@ -1,0 +1,93 @@
+{
+  "checks": {
+    "G_u1_absent_k_ge_8": true,
+    "G7_has_u1": true,
+    "G6_or_G7_is_1": true,
+    "G7_or_G8_is_1": true,
+    "G8_is_u3_plus_u4": true,
+    "G9_is_1_plus_u2_u4": true,
+    "F8_still_has_u1": true,
+    "G_k_independent_of_u1_on_fib_flip": true,
+    "extra_not_invariant_under_u1_flip": true
+  },
+  "anf": {
+    "kmax": 20,
+    "ok": true,
+    "G6_or_G7": "1",
+    "G7_or_G8": "1",
+    "G8": "u3 + u4",
+    "G9": "1 + u2*u4",
+    "F8": "u1*u3"
+  },
+  "anf_support": [
+    {
+      "k": 6,
+      "F_vars": [
+        2
+      ],
+      "G_vars": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "k": 7,
+      "F_vars": [
+        2,
+        3
+      ],
+      "G_vars": [
+        1,
+        3
+      ]
+    },
+    {
+      "k": 8,
+      "F_vars": [
+        1,
+        3
+      ],
+      "G_vars": [
+        3,
+        4
+      ]
+    },
+    {
+      "k": 9,
+      "F_vars": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "G_vars": [
+        2,
+        4
+      ]
+    }
+  ],
+  "flip": {
+    "nlen": 8,
+    "kmin": 8,
+    "kmax": 16,
+    "n_words": 43,
+    "n_fib_flip": 19,
+    "n_G_match": 19,
+    "ok": true
+  },
+  "extra_not_invariant": {
+    "Tmin": 5,
+    "Tmax": 16,
+    "n_onset": 106,
+    "n_legal_flip": 40,
+    "n_extra_match": 20,
+    "n_extra_mismatch": 20,
+    "sample_mismatch": {
+      "T": 5,
+      "u": "000"
+    },
+    "ok": true
+  },
+  "wall_time_sec": 0.16686117701465264
+}
