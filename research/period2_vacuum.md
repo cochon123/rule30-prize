@@ -25,7 +25,9 @@ Padding extra zeros past that index does not change those values.
 For \(K\ge 3\), \(u_0\) is in fact absent (`research/period2_silent.md`).
 For \(K\ge 8\), \(u_1\) is absent from every \(G_K\)
 (`research/period2_gsilent.md`); in \(F_K\) it appears only as a
-factor of \(u_1 u_3\) (`research/period2_u1u3.md`).
+factor of \(u_1 u_3\) (`research/period2_u1u3.md`). For \(K\ge 9\),
+\(u_2\) in \(G_K\) appears only as a factor of \(u_2 u_4\)
+(`research/period2_gu2u4.md`).
 
 ## Vacuum and the fold machine
 
