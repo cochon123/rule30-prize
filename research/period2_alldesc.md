@@ -69,7 +69,8 @@ extra \(\in\{0,1\}\) after \(\lfloor e/2\rfloor\) shifts of \(+2\) in
 odd \(T\). Isolated onsets meeting the threshold are births of bump
 families. A uniform extra \(\le 8\) for *all* ugap onsets is the
 statement that no \(S\)-minimal member has extra \(\ge 9\). That
-statement is a census through \(T=40\), not a theorem.
+statement is a census through \(T=48\)
+(`research/period2_e8cap.md`), not a theorem.
 
 ## What this does not do
 
@@ -78,9 +79,9 @@ statement is a census through \(T=40\), not a theorem.
 not killed. Even-\(F\) extra \(=2\) at even \(T\) has \(R=3\), below
 the \(B_0\) threshold, and is not this identity. Under \(S\) it
 becomes an isolated onset at \(T+1\) (`research/period2_r3iso.md`),
-without an extra rank. A probe through
-\(T=48\) still has extra \(\le 8\), with isolated even-\(F\) extra
-\(=8\) at \(T=43\); that probe is not in the certificate. Other
+without an extra rank. Extra \(\le 8\) through \(T=48\) is now a
+certificate (`research/period2_e8cap.md`), with isolated even-\(F\)
+extra \(=8\) at \(T=43\) the \((00010010)^2\)-tail family. Other
 periods of \(c_t\) are untouched.
 
 ## Verdict
@@ -103,3 +104,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))
 - `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)
 - `research/period2_t35ten.md` (\(T=35\) isolated extra \(=7\) is the \(10\)-tail family)
+- `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))

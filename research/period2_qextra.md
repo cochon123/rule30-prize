@@ -71,9 +71,10 @@ the certificate.
 ## What this does not do
 
 Extra \(\le 8\) at large \(T\) would finish period 2 of the prize
-centre (every even-right \(u\) is ugap). The census through \(T=40\)
-is not that bound, and \(T=37\) shows the implied \(R\le 17\) is sharp.
-Other periods of \(c_t\) are untouched.
+centre (every even-right \(u\) is ugap). The census through \(T=48\)
+(`research/period2_e8cap.md`) is not that bound, and \(T=37\) shows
+the implied \(R\le 17\) is sharp. Other periods of \(c_t\) are
+untouched.
 
 Periodic \(u\) is already infinite on the left
 (`research/period2_periodic.md`). Aperiodic \(u\) remains the
@@ -96,3 +97,4 @@ bounded, aperiodic \(u\) dies too.
 - `research/period2_qextra.json` (dump)
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
 - `research/period2_alldesc.md` (every clip class extra-rank at \(T+2\))
+- `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
