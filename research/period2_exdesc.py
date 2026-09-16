@@ -8,7 +8,8 @@ The clip therefore propagates: Su is a bump 11-clip at T+2 with
 extra e-2. Extra of a 11-clip bump family is a rank, equal to
 e_ker+2m with e_ker in {0,1,2} at the large-T end. A uniform extra
 <=8 for this class is equivalent to extra<=8 at every S-minimal
-member. Isolated onsets and even_F clips are not this identity.
+member. Isolated onsets and even_F clips obey the same extra-2 step
+as bumps of every clip kind (research/period2_alldesc.md).
 Not a prize claim: S-minimal extra is not bounded.
 
 Run: python3 research/period2_exdesc.py --certify

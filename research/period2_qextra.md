@@ -95,3 +95,4 @@ bounded, aperiodic \(u\) dies too.
 - `research/period2_qextra.py` (`--certify`)
 - `research/period2_qextra.json` (dump)
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
+- `research/period2_alldesc.md` (every clip class extra-rank at \(T+2\))
