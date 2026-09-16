@@ -23,7 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from period2_lead import T20_WORDS
-from period2_qshift import shift_u
+from period2_qshift import force_from, shift_u
 from period2_vacuum import F_of_u, fib_strings, nvars
 
 OUT = Path(__file__).resolve().with_suffix(".json")
@@ -192,6 +192,50 @@ def certify_iso_bump_split(Tmax: int = 22, Rmax: int = 18) -> dict:
     }
 
 
+TAIL11 = [1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1]
+
+
+def certify_tail_family() -> dict:
+    """Worst bump last-sat at T=20,22,24 share the 100-tail and 11-clip with extra=28-T."""
+    rows = []
+    for T, R in ((20, 16), (22, 12), (24, 8)):
+        mods = survivors_l0(T, R)
+        bump = []
+        for u, F, G, kmax in mods:
+            if T >= 1 and F[T - 1] == 1:
+                bump.append(u)
+        n0 = nvars(T)
+        stops = []
+        extras = []
+        nstops = []
+        n_tail = 0
+        for u in bump:
+            if len(u) >= 11 and u[-11:] == TAIL11:
+                n_tail += 1
+            bits, ev = force_from(u[:n0], T, n_max=n0 + 24)
+            stop = ev[-1].get("stop")
+            extras.append(ev[-1]["n"] - n0)
+            nstops.append(ev[-1]["n"])
+            stops.append(stop)
+        want_extra = 28 - T
+        rec = {
+            "T": T,
+            "R": R,
+            "n_bump": len(bump),
+            "n_tail11": n_tail,
+            "stops": stops,
+            "extras": extras,
+            "nstops": nstops,
+            "want_extra": want_extra,
+        }
+        rows.append(rec)
+        assert len(bump) > 0
+        assert all(s == "11" for s in stops), rec
+        assert all(e == want_extra for e in extras), rec
+    assert rows[0]["n_tail11"] == 6 and rows[0]["nstops"] == [18] * 6
+    return rows
+
+
 def certify() -> dict:
     t0 = time.perf_counter()
     checks: dict = {}
@@ -218,6 +262,10 @@ def certify() -> dict:
     assert checks["bump_is_worst"]
     assert checks["all_R_ge_12_are_bump"]
 
+    fam = certify_tail_family()
+    checks["bump_family_extra_28_minus_T"] = True
+    checks["t20_tail11_clip_n18"] = fam[0]["n_tail11"] == 6
+
     checks["all_ok"] = True
     wall = time.perf_counter() - t0
     dump = {
@@ -238,6 +286,7 @@ def certify() -> dict:
         "g_pattern": {"n": gp["n"], "n_fail": gp["n_fail"]},
         "l0_to_b0": l0,
         "b0_S19": b0,
+        "tail_family": fam,
         "iso_bump": {
             "Tmax": split["Tmax"],
             "worst_iso": split["worst_iso"],

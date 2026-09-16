@@ -6,7 +6,7 @@
   "survive": false,
   "prize": false,
   "kill_reason": "Long L_0 becomes B_0 under S with R-4 zeros after the bump; S then sends B_0(S,R) to B_0(S+2,R-4) with G_S=0. Finite R descends; infinite L_0 still yields infinite B_0 at larger S. Isolated L_0 has maxR<=9 through T=22. Not a uniform R.",
-  "wall_time_sec": 2.3417,
+  "wall_time_sec": 3.2053,
   "checks": {
     "g_pattern_fib12": true,
     "l0_to_b0_last_sat": true,
@@ -14,6 +14,8 @@
     "iso_maxR_le_9_Tle22": true,
     "bump_is_worst": true,
     "all_R_ge_12_are_bump": true,
+    "bump_family_extra_28_minus_T": true,
+    "t20_tail11_clip_n18": true,
     "all_ok": true
   },
   "g_pattern": {
@@ -125,6 +127,110 @@
       "ok": true,
       "z_after_S+4": 12,
       "want": 12
+    }
+  ],
+  "tail_family": [
+    {
+      "T": 20,
+      "R": 16,
+      "n_bump": 6,
+      "n_tail11": 6,
+      "stops": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+      ],
+      "extras": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "nstops": [
+        18,
+        18,
+        18,
+        18,
+        18,
+        18
+      ],
+      "want_extra": 8
+    },
+    {
+      "T": 22,
+      "R": 12,
+      "n_bump": 7,
+      "n_tail11": 7,
+      "stops": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+      ],
+      "extras": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "nstops": [
+        17,
+        17,
+        17,
+        17,
+        17,
+        17,
+        17
+      ],
+      "want_extra": 6
+    },
+    {
+      "T": 24,
+      "R": 8,
+      "n_bump": 8,
+      "n_tail11": 8,
+      "stops": [
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11",
+        "11"
+      ],
+      "extras": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "nstops": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16
+      ],
+      "want_extra": 4
     }
   ],
   "iso_bump": {

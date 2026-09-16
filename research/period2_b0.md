@@ -68,6 +68,12 @@ R-4\), and \(S\) increases.
 - Sound split through \(T=22\): isolated \(\max R\le 9\); bump
   \(\max R=16\) uniquely at \(T=20\); every \(R\ge 12\) last-sat is a
   bump.
+- Worst bump family at \(T=20,22,24\): Q-forced continuation 11-clips
+  with extra \(=28-T\). The six \(T=20\) words all end in `10010010001`
+  and clip at \(n=18\). This is the same \(B_0\) chain, read at later
+  \(T\): as \(nvars(T)\) eats more of the prefix, the remaining extra
+  to the clip shrinks. It is not a proof that no other family appears
+  at large \(T\).
 
 ## What this does not do
 
