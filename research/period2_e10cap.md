@@ -42,7 +42,7 @@ untouched. Other periods of \(c_t\) are untouched.
 
 ## Verdict
 
-`CENSUS`, wall time ~273s.
+`CENSUS`, wall time ~271s.
 
 - Kill of period 2: no.
 - Extra \(\le 10\) through \(T=56\): yes (census).
