@@ -75,11 +75,18 @@ Certified: the six last-sat words of \(T=20\), \(R=16\) from
 
 Forcing determines the tail; it does not make the tail illegal. The
 \(T=20\) period-3 tail `00010010010001` is ugap-legal and matches
-\(u_n=Q_n\) until the extra zero at \(u_{18}\) produces \(F_{37}=1\).
+\(u_n=Q_n\) through \(n=17\); the next forced bit is \(Q_{18}=1\) with
+\(u_{17}=1\), which is the 11-clip of `research/period2_qshift.md`.
+The bounded-`nvars` scan's extra zero at \(u_{18}\) is what produces
+\(F_{37}=1\).
 A uniform \(R(T)\) would still need a \(T\)-independent reason that
 the forced continuation fires a later \(F_k\) (or a `11` / `00000`)
 inside a bounded window. The leading-variable identity is that
-reason's first step, not the bound.
+reason's first step, not the bound. The second step is the
+three-zero skip \(Q_n(u)=Q_{n-1}(Su)\) of
+`research/period2_qshift.md`: on \(T=20\) the forced bit is an
+11-clip at \(n=18\), and \(F_{37}\) is the padding artifact of
+refusing it.
 
 Periodic \(u\) is already infinite on the left
 (`research/period2_periodic.md`). Aperiodic \(u\) remains the

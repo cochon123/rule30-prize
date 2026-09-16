@@ -77,7 +77,10 @@ The tail itself is unique given the onset prefix:
 `research/period2_lead.md` proves \(F_{2n+1}=u_n\oplus Q_n\), so
 \(F_k=0\) for \(k>T\) forces \(u_n=Q_n\) for all
 \(n>\lfloor(T-1)/2\rfloor\). The \(T=20\) models already follow that
-continuation.
+continuation. On the same tail, `research/period2_qshift.md` gives
+the one-step identity \(Q_n(u)=Q_{n-1}(Su)\) whenever \(2n-3>T\);
+it does not iterate under \(S\) because \(Su\) is the bump above,
+not a smaller \(L_0\).
 
 ## Onset table
 

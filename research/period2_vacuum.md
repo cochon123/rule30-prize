@@ -69,10 +69,13 @@ That is a complete check for infinite `u`, because later bits do not
 appear.
 
 Every `T = 1,\ldots,28` dies at a finite `R` (longest survivor is
-`T=20` with `R=16`, killed by `F_{37}`). `T=4` is identically `0`.
-There is no uniform-in-`T` bound in this table, so a period-2 regime
-that starts only after a huge left-edge distance is not excluded.
-The tail past `nvars(T)` is nevertheless unique:
+`T=20` with `R=16`, killed by `F_{37}` in the bounded-`nvars` scan).
+`T=4` is identically `0`. The unbounded \(Q\)-forced continuation of
+those six words 11-clips at \(n=18\) (`research/period2_qshift.md`);
+`F_{37}` is the padding-zero artifact of refusing the clip. There is
+no uniform-in-`T` bound in this table, so a period-2 regime that
+starts only after a huge left-edge distance is not excluded. The
+tail past `nvars(T)` is nevertheless unique:
 `research/period2_lead.md` gives \(F_{2n+1}=u_n\oplus Q_n\).
 
 If such a bound existed — a number `R_0` with no `T` and no Fibonacci
