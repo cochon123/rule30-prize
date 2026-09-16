@@ -80,7 +80,10 @@ The tail itself is unique given the onset prefix:
 continuation. On the same tail, `research/period2_qshift.md` gives
 the one-step identity \(Q_n(u)=Q_{n-1}(Su)\) whenever \(2n-3>T\);
 it does not iterate under \(S\) because \(Su\) is the bump above,
-not a smaller \(L_0\).
+not a smaller \(L_0\). The bump itself is \(B_0\) of run \(R-4\), and
+`research/period2_b0.md` records that \(S\) then sends \(B_0(S,R)\) to
+\(B_0(S+2,R-4)\) with \(G_S=0\). Finite extra zeros descend; an
+infinite tail does not.
 
 ## Onset table
 

@@ -80,7 +80,9 @@ forced continuation 11-clips, 00000-clips, or fires an even column
 inside a bounded window. The one-step identity \(Q_n=Q_{n-1}\circ S\)
 is that reason's second step, not the bound. Window-of-\(w\le 8\)
 locality of \(Q_n\) already fails on the \(T=20\) last-sat words
-(`research/period2_lead.md`).
+(`research/period2_lead.md`). Finite extra zeros of the 11-bump do
+descend under \(S\) (`research/period2_b0.md`); an infinite \(L_0\)
+tail does not.
 
 Periodic \(u\) is already infinite on the left
 (`research/period2_periodic.md`). Aperiodic \(u\) remains the
