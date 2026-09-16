@@ -5,8 +5,9 @@ tail 11-clips with extra \(e\ge 3\) has \(Su\) a bump 11-clip at
 \(T+2\) with extra \(e-2\). Extra of a 11-clip bump family is
 therefore a rank. Uniform extra \(\le 8\) on this class is equivalent
 to extra \(\le 8\) at every \(S\)-minimal member, which is **not**
-proved. Isolated onsets and even-\(F\) clips are outside the identity.
-Not a prize claim.
+proved. Isolated onsets and even-\(F\) clips obey the same extra
+\(\mapsto\) extra\(-2\) identity as bumps, landing on a bump of the
+same clip kind (`research/period2_alldesc.md`). Not a prize claim.
 
 Helper: `python3 research/period2_exdesc.py --certify`. Dump:
 `research/period2_exdesc.json`. Skip identity from
@@ -40,7 +41,8 @@ hence the extra of \(Su\) at \(T+2\) is \(e-2\). The \(B_0\) identity
 makes \(Su\) a bump at \(T+2\) once \(R\ge 4\).
 
 Certified on every ugap bump 11-clip of extra \(\ge 3\) through
-\(T=40\): 122 onsets, 122 descents, 0 failures. The same scan has
+\(T=40\): 122 onsets, 122 descents, 0 failures. Extra \(\ge 2\) is the
+same identity (`research/period2_alldesc.md`). The same scan has
 max extra \(8\), uniquely at \(T=20\) (three words) and \(T=37\)
 (three words). Those two families descend to extra \(6\) at \(T=22\)
 and \(T=39\).
@@ -61,11 +63,11 @@ one instance. The identity is not special to that family.
 
 ## What this does not do
 
-Isolated 11-clips and even-\(F\) clips do not obey extra \(\mapsto\)
-extra\(-2\) at \(T+2\). \(T=43\) isolated even-\(F\) extra \(=8\) is
-untouched. Infinite \(B_0\) (infinite extra) is a fixed point of
-\(e\mapsto e-2\) and is not killed. Other periods of \(c_t\) are
-untouched.
+Isolated 11-clips and even-\(F\) clips *do* obey extra \(\mapsto\)
+extra\(-2\) at \(T+2\), as bumps of the same clip kind
+(`research/period2_alldesc.md`). Infinite \(B_0\) (infinite extra) is
+a fixed point of \(e\mapsto e-2\) and is not killed. Other periods of
+\(c_t\) are untouched.
 
 ## Verdict
 
@@ -80,3 +82,4 @@ untouched.
 - `research/period2_exdesc.md` (this note)
 - `research/period2_exdesc.py` (`--certify`)
 - `research/period2_exdesc.json` (dump)
+- `research/period2_alldesc.md` (all clip classes, isolated included)

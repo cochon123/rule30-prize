@@ -109,3 +109,4 @@ obstruction to period 2.
 - `research/period2_b0.json` (dump)
 - `research/period2_ugap_sat.md` (isolated ugap \(R=14\) at \(T=33\))
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
+- `research/period2_alldesc.md` (isolated extra \(\ge 3\) becomes bump extra\(-2\))

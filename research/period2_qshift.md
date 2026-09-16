@@ -87,7 +87,8 @@ tail does not.
 The three ugap-legal \(T=20\) last-sat words still 11-clip at \(n=18\)
 with extra \(8\) (`research/period2_ugap_sat.md`). Every ugap bump
 11-clip of extra \(\ge 3\) descends by extra \(2\) at \(T+2\)
-(`research/period2_exdesc.md`).
+(`research/period2_exdesc.md`). Every clip class does
+(`research/period2_alldesc.md`).
 
 Periodic \(u\) is already infinite on the left
 (`research/period2_periodic.md`). Aperiodic \(u\) remains the
@@ -109,3 +110,4 @@ obstruction to period 2.
 - `research/period2_ugap_sat.md` (ugap last-sat Q-force)
 - `research/period2_qextra.md` (clip-to-\(R\); \(T=37\) has \(R=17\))
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
+- `research/period2_alldesc.md` (every clip class extra-rank at \(T+2\))
