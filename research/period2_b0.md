@@ -72,8 +72,10 @@ R-4\), and \(S\) increases.
   with extra \(=28-T\). The six \(T=20\) words all end in `10010010001`
   and clip at \(n=18\). This is the same \(B_0\) chain, read at later
   \(T\): as \(nvars(T)\) eats more of the prefix, the remaining extra
-  to the clip shrinks. It is not a proof that no other family appears
-  at large \(T\).
+  to the clip shrinks. The same extra-\(2\) step holds for **every**
+  ugap bump 11-clip of extra \(\ge 3\), not only this family
+  (`research/period2_exdesc.md`). It is not a proof that no other
+  family appears at large \(T\).
 
 ## What this does not do
 
@@ -106,3 +108,4 @@ obstruction to period 2.
 - `research/period2_b0.py` (`--certify`)
 - `research/period2_b0.json` (dump)
 - `research/period2_ugap_sat.md` (isolated ugap \(R=14\) at \(T=33\))
+- `research/period2_exdesc.md` (11-clip extra rank on bumps)

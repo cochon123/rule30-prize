@@ -94,3 +94,4 @@ bounded, aperiodic \(u\) dies too.
 - `research/period2_qextra.md` (this note)
 - `research/period2_qextra.py` (`--certify`)
 - `research/period2_qextra.json` (dump)
+- `research/period2_exdesc.md` (11-clip extra rank on bumps)
