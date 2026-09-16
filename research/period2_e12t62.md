@@ -59,11 +59,16 @@ finite check. Extra unbounded is not proved.
 - \(S\)-minimal extra \(=14\): yes, at \(T=62\).
 - Extra unbounded: not proved.
 
+Extra \(=14\) recurs \(S\)-minimally at \(T=66\)
+(`research/period2_e14t66.md`); that is a later lemma, not part of
+this `--certify`.
+
 ## Files
 
 - `research/period2_e12t62.md` (this note)
 - `research/period2_e12t62.py` (`--certify`)
 - `research/period2_e12t62.json` (dump)
+- `research/period2_e14t66.md` (extra \(=14\) recurs at \(T=66\))
 - `research/period2_e11t58.md` (\(P_8\) extra \(=11\))
 - `research/period2_e10cap.md` (extra \(\le 10\) through \(T=56\))
 - `research/period2_e10t51.md` (extra \(\le 8\) fails)
