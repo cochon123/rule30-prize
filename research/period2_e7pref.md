@@ -33,14 +33,15 @@ the scan is still \(8\).
 
 A uniform extra \(\le 6\) would follow from extra \(\le 6\) on these
 eighteen cylinders. A uniform extra \(\le 8\) would follow from extra
-\(\le 8\) on the same cylinders. Neither cylinder bound is proved.
+\(\le 8\) on the same cylinders. Neither cylinder bound holds:
+\(S\)-minimal extra \(=10\) exists at \(T=51\)
+(`research/period2_e10t51.md`).
 
 ## What this does not do
 
 The support can grow at larger \(T\). Extra \(\le 8\) on the cylinders
-is still a census. \(S\)-minimal extra \(=8\) exists inside the
-support. Infinite \(L_0\) is untouched. Other periods of \(c_t\) are
-untouched.
+fails at \(T=51\). Infinite \(L_0\) is untouched. Other periods of
+\(c_t\) are untouched.
 
 ## Verdict
 
@@ -48,7 +49,7 @@ untouched.
 
 - Kill of period 2: no.
 - Extra \(\ge 7\) through \(T=48\) confined to 18 prefixes: yes.
-- Uniform extra \(\le 8\): no.
+- Uniform extra \(\le 8\): no (fails at \(T=51\)).
 - Cylinder bound for all \(T\): no.
 
 ## Files
@@ -58,3 +59,4 @@ untouched.
 - `research/period2_e7pref.json` (dump)
 - `research/period2_e8fam.md` (extra \(=8\) families)
 - `research/period2_t35ten.md` (\(P_{35}\) and \(P_{43}\) sources)
+- `research/period2_e10t51.md` (\(S\)-minimal extra \(=10\) at \(T=51\))

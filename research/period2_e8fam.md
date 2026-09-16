@@ -46,9 +46,10 @@ separate \(10\)-run family.
 ## What this does not do
 
 The families are \(S\)-minimal at these \(T\) (no extra-\(10\) parent,
-and \(T=47\) is not \(R=3\)). Uniform extra \(\le 8\) is still a
-census. Infinite \(L_0\) is untouched. Other periods of \(c_t\) are
-untouched.
+and \(T=47\) is not \(R=3\)). Uniform extra \(\le 8\) is false:
+\(S\)-minimal extra \(=10\) exists at \(T=51\)
+(`research/period2_e10t51.md`). Infinite \(L_0\) is untouched. Other
+periods of \(c_t\) are untouched.
 
 ## Verdict
 
@@ -56,7 +57,7 @@ untouched.
 
 - Kill of period 2: no.
 - Extra \(=8\) through \(T=48\) classified: yes.
-- Uniform extra \(\le 8\): no.
+- Uniform extra \(\le 8\): no (fails at \(T=51\)).
 - \(T=47\) extra \(=8\) is \(R=3\): no.
 
 ## Files
@@ -67,3 +68,4 @@ untouched.
 - `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
 - `research/period2_t35ten.md` (\(P_{35}\) and \(P_{43}\))
 - `research/period2_e7pref.md` (extra \(\ge 7\) through \(T=48\) lives on these 18 prefixes)
+- `research/period2_e10t51.md` (\(S\)-minimal extra \(=10\) at \(T=51\))
