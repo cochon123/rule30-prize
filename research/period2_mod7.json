@@ -1,0 +1,309 @@
+{
+  "attack": "period2_mod7",
+  "problem": "closed-form unique left for a period-2 centre whose even right neighbor is strictly alternating",
+  "verdict": "LEMMA",
+  "kill": false,
+  "survive": false,
+  "prize": false,
+  "kill_reason": "alternating u gives an explicit period-7 infinite left; finite seeds with eventually-periodic u are already Jen-excluded; aperiodic u remains open",
+  "wall_time_sec": 0.049,
+  "checks": {
+    "prize_prefix16": "1101110011000101",
+    "prize_prefix16_ok": true,
+    "fsm_7cycle_both": true,
+    "fsm_F_matches_both": true,
+    "anf_matches_fsm_k_le_16": true,
+    "F1_xor_F2_is_one": true,
+    "kernels_T256": true,
+    "kernel_u0_ef0": true,
+    "kernel_u1": true,
+    "vacuum_not_oscillator": true,
+    "00000111_breaks_ef0": true,
+    "family_all_alternating": true,
+    "family_all_mod7": true,
+    "family_n": 22,
+    "family_has_kernel": true,
+    "family_has_dual": true,
+    "family_no_vacuum": true,
+    "ef0_implies_alternating": true,
+    "all_ok": true
+  },
+  "fsm": {
+    "0": {
+      "pat": "1000000",
+      "F_1_to_21": "100000010000001000000",
+      "state_7cycle": true,
+      "F_matches_pat": true,
+      "ones_per_period": 1
+    },
+    "1": {
+      "pat": "0110010",
+      "F_1_to_21": "011001001100100110010",
+      "state_7cycle": true,
+      "F_matches_pat": true,
+      "ones_per_period": 3
+    }
+  },
+  "kernels": [
+    {
+      "right": "000001",
+      "u0": 0,
+      "T": 256,
+      "u_alternating": true,
+      "even_ef_zero": true,
+      "left_mod7": true,
+      "prefix_stable": true,
+      "n_u": 129
+    },
+    {
+      "right": "1001",
+      "u0": 1,
+      "T": 256,
+      "u_alternating": true,
+      "even_ef_zero": true,
+      "left_mod7": true,
+      "prefix_stable": true,
+      "n_u": 129
+    }
+  ],
+  "family_w_le_8": [
+    {
+      "w": 4,
+      "right": "1001",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 5,
+      "right": "10010",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 5,
+      "right": "10011",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 6,
+      "right": "100100",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 6,
+      "right": "100110",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 6,
+      "right": "000001",
+      "u0": 0,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 6,
+      "right": "100101",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 7,
+      "right": "1001000",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 7,
+      "right": "1001100",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 7,
+      "right": "0000010",
+      "u0": 0,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 7,
+      "right": "1001010",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 7,
+      "right": "0000011",
+      "u0": 0,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 7,
+      "right": "1001011",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "10010000",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "10011000",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "00000100",
+      "u0": 0,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "10010100",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "00000110",
+      "u0": 0,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "10010110",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "10011001",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "00000101",
+      "u0": 0,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    },
+    {
+      "w": 8,
+      "right": "10010101",
+      "u0": 1,
+      "u_alternating": true,
+      "left_matches_mod7": true
+    }
+  ],
+  "patterns": {
+    "u0=0": "1000000",
+    "u0=1": "0110010"
+  },
+  "anf_eval": [
+    {
+      "u0": 0,
+      "eval": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "pred": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "u0": 1,
+      "eval": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "pred": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    }
+  ]
+}
