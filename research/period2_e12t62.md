@@ -44,7 +44,7 @@ finite check. Extra unbounded is not proved.
 
 ## Verdict
 
-`LEMMA`, wall time ~11 min (T=60 scan + T=62 scan).
+`LEMMA`, wall time ~665s (T=60 scan + T=62 scan).
 
 - Kill of period 2: no.
 - Uniform extra \(\le 11\): no (counterexample).
