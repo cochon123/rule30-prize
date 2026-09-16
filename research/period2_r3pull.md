@@ -43,11 +43,11 @@ onset at \(T=32\).
 
 Isolated extra \(=7\) still occurs \(S\)-minimally. The six \(T=35\)
 isolated even-\(F\) extra-\(7\) words with \(10\)-periodic tail
-`101010101010` have no even-\(F\) extra-\(2\) preimage at \(T=34\).
-\(T=37\) bump `11` extra \(=8\) is likewise not an \(R=3\) image
-(\(R=3\) lands on isolated onsets at odd \(T\)). Uniform extra
-\(\le 8\) remains a census. Infinite \(L_0\) is untouched. Other
-periods of \(c_t\) are untouched.
+`101010101010` have no even-\(F\) extra-\(2\) preimage at \(T=34\)
+(`research/period2_t35ten.md`). \(T=37\) bump `11` extra \(=8\) is
+likewise not an \(R=3\) image (\(R=3\) lands on isolated onsets at
+odd \(T\)). Uniform extra \(\le 8\) remains a census. Infinite
+\(L_0\) is untouched. Other periods of \(c_t\) are untouched.
 
 ## Verdict
 
@@ -65,3 +65,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_r3pull.json` (dump)
 - `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))
 - `research/period2_alldesc.md` (the three \(T=33\) words as isolated extra max)
+- `research/period2_t35ten.md` (\(T=35\) isolated extra \(=7\) is the \(10\)-tail family)
