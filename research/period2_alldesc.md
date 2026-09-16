@@ -102,3 +102,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_gsilent.md` (\(u_1\) silent in \(G_k\) for \(k\ge 8\))
 - `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))
 - `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)
+- `research/period2_t35ten.md` (\(T=35\) isolated extra \(=7\) is the \(10\)-tail family)
