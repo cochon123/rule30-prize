@@ -138,9 +138,11 @@ Facts on that fiber:
   52 at `w=10`). They are not eventually periodic, not `k mod 2`,
   and not Condrey’s checkerboard. Max gaps grow slowly with `w` (5
   at vacuum, 16 by `w=6`) so even a uniform gap bound is not visible.
-  The exception is strictly alternating `u`: `research/period2_mod7.md`
-  gives an explicit period-7 left, infinite on that class. That class
-  is Jen-excluded for finite seeds.
+  The exception is periodic `u`: `research/period2_periodic.md` gives
+  infinitude of the unique left for every finite period (spatially
+  eventually periodic), and `research/period2_mod7.md` the explicit
+  period-7 word at period 2. That class is Jen-excluded for finite
+  seeds.
 - **One sparse family.** The single 1 at position 6, phase `01`, is
   the `u_0=0` oscillator of `research/period2_mod7.md`: left
   `(1000000)^∞`. The dual right `1001` is `(0110010)^∞`. Not the
@@ -156,10 +158,11 @@ Facts on that fiber:
   phase `01`, `u` tracks `(0001010)` after a short prefix only until
   even-time index `n=152`; the first later gap is 3, not 2 or 5
   (`research/period2_germ.md`). The spatial left still has BM `~T/2`.
-  Periodic `u` is already Jen-excluded for finite seeds. Alternating
-  `u` *does* force a periodic spatial left (`research/period2_mod7.md`);
-  a generic period does not have a listed closed form, because `F_k`
-  is a nonlinear function of a growing prefix of `u`.
+  Periodic `u` is already Jen-excluded for finite seeds. Periodic
+  `u` *does* force a spatially eventually-periodic infinite left
+  (`research/period2_periodic.md`); a generic aperiodic `u` does not
+  have a listed closed form, because `F_k` is a nonlinear function of
+  a growing prefix of `u`.
 
 Truncating the unique left at depth `w` and evolving the resulting
 radius-`w` row produces period-2 prefixes of length
@@ -201,9 +204,10 @@ Not proved:
 Condrey’s constant case works because the unique left is an explicit
 Boolean of the right (prefix-OR, or one checkerboard), visibly
 infinite. Period 2 keeps uniqueness and, in the scan, infinitude of
-the left. Alternating `u` now has a Condrey-style period-7 formula
-(`research/period2_mod7.md`), but that class is not a function of the
-leading 1 and is already Jen-excluded for finite seeds. Generic
+the left. Periodic `u` now has a Condrey-style infinitude
+(`research/period2_periodic.md`), with an explicit period-7 formula
+at period 2 (`research/period2_mod7.md`), but that class is not a
+function of the leading 1 and is already Jen-excluded for finite seeds. Generic
 rights still drop the closed form: the right half under a forced
 period-2 boundary injects a chaotic wake, `u` is not classified by
 the leading 1, and `F_k(u)` is a nonlinear sliding function of a

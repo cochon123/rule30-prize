@@ -1,0 +1,92 @@
+{
+  "attack": "period2_periodic",
+  "problem": "unique left of a period-2 centre whose even right neighbor is periodic of any finite period",
+  "verdict": "LEMMA",
+  "kill": false,
+  "survive": false,
+  "prize": false,
+  "kill_reason": "periodic u forces a spatially eventually-periodic infinite left; finite seeds with eventually-periodic u are already Jen-excluded; aperiodic u remains open",
+  "wall_time_sec": 0.1294,
+  "checks": {
+    "zero_unique_preimage_p_le_4": true,
+    "initial_G0_not_zero": true,
+    "vacuum_F_is_k_mod_2": true,
+    "p2_01_is_PAT0": true,
+    "p2_10_is_PAT1": true,
+    "p2_matches_mod7_fsm": true,
+    "fsm_matches_fold_and_anf": true,
+    "spatial_identity_periodic": true,
+    "p_le_7_all_cycled": true,
+    "p_le_7_cycle_has_1": true,
+    "p4_0001_tail": "000001000000100000010",
+    "p4_0001_period7": true,
+    "all_ok": true
+  },
+  "zero_preimages": {
+    "1": {
+      "n": 1,
+      "only_zero": true
+    },
+    "2": {
+      "n": 1,
+      "only_zero": true
+    },
+    "3": {
+      "n": 1,
+      "only_zero": true
+    },
+    "4": {
+      "n": 1,
+      "only_zero": true
+    }
+  },
+  "p_le_7_scan": [
+    {
+      "p": 1,
+      "n": 1,
+      "cycled": 1,
+      "with_1": 1
+    },
+    {
+      "p": 2,
+      "n": 3,
+      "cycled": 3,
+      "with_1": 3
+    },
+    {
+      "p": 3,
+      "n": 3,
+      "cycled": 3,
+      "with_1": 3
+    },
+    {
+      "p": 4,
+      "n": 6,
+      "cycled": 6,
+      "with_1": 6
+    },
+    {
+      "p": 5,
+      "n": 10,
+      "cycled": 10,
+      "with_1": 10
+    },
+    {
+      "p": 6,
+      "n": 11,
+      "cycled": 11,
+      "with_1": 11
+    },
+    {
+      "p": 7,
+      "n": 21,
+      "cycled": 21,
+      "with_1": 21
+    }
+  ],
+  "patterns": {
+    "u=01": "1000000",
+    "u=10": "0110010",
+    "u=0001_tail": "0000010"
+  }
+}
