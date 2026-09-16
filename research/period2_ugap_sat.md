@@ -40,8 +40,9 @@ does not change the killing column.
 
 ## Ugap onset through \(T=36\)
 
-Every width dies at finite extra \(R\). Global \(\max R=16\), uniquely
-at \(T=20\). Through \(T=32\), every last-sat with \(R\ge 12\) is a bump
+Every width dies at finite extra \(R\). Through \(T=36\), global
+\(\max R=16\), uniquely at \(T=20\). That uniqueness dies at \(T=37\):
+see `research/period2_qextra.md`. Through \(T=32\), every last-sat with \(R\ge 12\) is a bump
 (\(F_{T-1}=1\)) and isolated \(\max R=9\), attained at \(T=8\) (one word
 `010101001`) and \(T=16\) (two words). That isolated cap is **not** a
 bound: \(T=33\) last-sat is three isolated words with \(R=14\), and
@@ -107,9 +108,12 @@ obstruction to period 2.
 - \(T=20\), \(R=16\) dies under ugap: no (3 models remain).
 - Isolated ugap \(\max R\le 9\): only through \(T=32\); \(T=33\) has \(R=14\).
 - Q-forced extra \(\le 8\) through \(T=36\): yes, not a bound.
+  Through \(T=40\) the same extra cap holds, but \(T=37\) attains
+  \(R=17\) (`research/period2_qextra.md`).
 
 ## Files
 
 - `research/period2_ugap_sat.md` (this note)
 - `research/period2_ugap_sat.py` (`--certify`)
 - `research/period2_ugap_sat.json` (dump)
+- `research/period2_qextra.md` (clip-to-\(R\); \(T=37\) has \(R=17\))
