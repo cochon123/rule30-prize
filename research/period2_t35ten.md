@@ -68,3 +68,4 @@ untouched. Other periods of \(c_t\) are untouched.
 - `research/period2_t35ten.json` (dump)
 - `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)
 - `research/period2_mod7.md` (strictly alternating \(u\) has period-\(7\) left)
+- `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\); \(T=43\) period-8 tail)
