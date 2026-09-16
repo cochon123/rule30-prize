@@ -1,51 +1,56 @@
-# Period-2 \(L_0\): extra \(\le 11\) fails; extra \(=12\) at \(T=62\)
+# Period-2 \(L_0\): extra \(\le 13\) fails; \(S\)-minimal extra \(=14\) at \(T=62\)
 
-Checked lemma: the eight length-\(8\) prefixes of the \(T=58\)
-isolated extra-\(11\) family
-(`research/period2_e11t58.md`) each extend to an isolated even-\(F\)
-extra-\(12\) ugap onset at \(T=62\), with \(R=23\),
-\(n_{\mathrm{clip}}=43\), extra bits `010000101001`, and \(F\)-pattern
-\(1\) then twenty-three zeros then \(1\). The same eight prefixes
-repeat extra \(=12\) at \(T=64\) (\(R=23\), \(n_{\mathrm{clip}}=44\)).
-Uniform extra \(\le 11\) is therefore false. This is a forced-word
-certificate, not a complete \(T=62\) scan, and \(S\)-minimality is
-not claimed. Not a prize claim: extra may still be bounded.
+Checked lemma: a complete ugap onset scan of \(T=62\) has max extra
+\(14\). The extra-\(14\) class is ten bump even-\(F\) words,
+\(R=27\), extra bits `01001010001000`, \(n_{\mathrm{clip}}=45\). The
+\(F\)-pattern is \(1\) then twenty-seven zeros then \(1\). \(T=60\) has
+max extra \(11\), so extra \(16\) at \(T=60\) does not exist and extra
+\(14\) at \(T=62\) is not a \(T+2\) descent. Uniform extra \(\le 11\),
+\(\le 12\), and \(\le 13\) are therefore false. Compactness via those
+caps does not kill finite-seed \(L_0\). Not a prize claim: extra may
+still be bounded.
 
 Helper: `python3 research/period2_e12t62.py --certify`. Dump:
-`research/period2_e12t62.json`. Prefixes as in
+`research/period2_e12t62.json`. Extra \(\le 10\) through \(T=56\) as in
+`research/period2_e10cap.md`; extra \(=11\) at \(T=58\) as in
 `research/period2_e11t58.md`.
 
-## Lemma (extra \(=12\) on the extra-\(11\) prefixes)
+## Lemma (extra \(=14\) is \(S\)-minimal)
 
-Write \(P_8\) for
+\(\mathrm{nvars}(62)=31\). The ten words are the length-\(5\) prefixes
 \[
-\{00001000,00010000,00101000,01001000,01010000,10001000,10010000,10101000\}.
+\{00001,00010,00100,00101,01001,01010,10001,10010,10100,10101\}
 \]
-At \(T=62\), \(\mathrm{nvars}(62)=31\) and the eight words \(P_8\)
-followed by `10001001001000100100100` are isolated even-\(F\) extra
-\(=12\). They descend to bump even \(F\) extra \(=10\) at \(T=64\).
-At \(T=64\), \(\mathrm{nvars}(64)=32\) and \(P_8\) followed by
-`100100100101010001010010` are again isolated even-\(F\) extra
-\(=12\), descending to extra \(=10\) at \(T=66\).
+followed by the common tail `00100001000100010001000100`. They descend
+to bump even \(F\) extra \(=12\) at \(T=64\). The same \(T\) also has
+fifteen isolated even-\(F\) extra-\(12\) onsets (\(R=23\)); eight of
+those are the \(T=58\) extra-\(11\) prefixes \(P_8\) with tail
+`10001001001000100100100`. There is no extra \(=13\) at \(T=62\).
 
-High extra on this cylinder climbs \(11\) at \(T=58\) then \(12\) at
-\(T=62\) and \(T=64\). Sound \(R=23\) exceeds the \(T=58\) value
-\(R=21\).
+Sound \(R=27\) exceeds the \(T=58\) extra-\(11\) value \(R=21\) and the
+isolated extra-\(12\) value \(R=23\). Extra \(\le 8\) was already false
+at \(T=51\); extra \(\le 10\) at \(T=58\).
+
+The eight \(P_8\) prefixes also give isolated even-\(F\) extra \(=12\)
+at \(T=64\) (tail `100100100101010001010010`, \(R=23\)). That class is
+not needed for the extra-\(\le 13\) kill.
 
 ## What this does not do
 
-Max extra at \(T=62\) on prefixes outside \(P_8\) is not scanned.
-\(S\)-minimal extra \(=12\) is not certified (that would need a
-complete \(T=60\) scan). Infinite \(L_0\) is untouched. Other periods
-of \(c_t\) are untouched. Extra unbounded is not proved.
+Extra may still admit a uniform bound larger than \(14\). Infinite
+\(L_0\) / infinite \(B_0\) is untouched. Other periods of \(c_t\) are
+untouched. The \(T\le 58\) extra-\(\le 11\) census remains correct as a
+finite check. Extra unbounded is not proved.
 
 ## Verdict
 
-`LEMMA`, wall time ~0.2s.
+`LEMMA`, wall time ~11 min (T=60 scan + T=62 scan).
 
 - Kill of period 2: no.
 - Uniform extra \(\le 11\): no (counterexample).
-- Extra \(=12\) on the \(T=58\) prefixes: yes.
+- Uniform extra \(\le 12\): no (counterexample).
+- Uniform extra \(\le 13\): no (counterexample).
+- \(S\)-minimal extra \(=14\): yes, at \(T=62\).
 - Extra unbounded: not proved.
 
 ## Files
@@ -54,5 +59,6 @@ of \(c_t\) are untouched. Extra unbounded is not proved.
 - `research/period2_e12t62.py` (`--certify`)
 - `research/period2_e12t62.json` (dump)
 - `research/period2_e11t58.md` (\(P_8\) extra \(=11\))
-- `research/period2_e10t51.md` (extra \(\le 8\) fails)
 - `research/period2_e10cap.md` (extra \(\le 10\) through \(T=56\))
+- `research/period2_e10t51.md` (extra \(\le 8\) fails)
+- `research/period2_alldesc.md` (extra descent)
