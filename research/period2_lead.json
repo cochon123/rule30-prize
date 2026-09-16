@@ -1,0 +1,179 @@
+{
+  "attack": "period2_lead",
+  "problem": "leading variable of F_{2n+1} and L_0 tail forcing",
+  "verdict": "LEMMA",
+  "kill": false,
+  "survive": false,
+  "prize": false,
+  "kill_reason": "u_n is the leading variable of F_{2n+1}, so an L_0 tail forces a unique continuation of u; the T=20 models obey that forcing and still only die at F_37. Not a uniform R.",
+  "wall_time_sec": 0.0107,
+  "checks": {
+    "anf_lin_un_n_le_7": true,
+    "anf_un_not_before_F_2n1": true,
+    "anf_G_2n_lin_un": true,
+    "fold_en_n_le_48": true,
+    "vacuum_odd_is_one": true,
+    "nvars_2n1_is_n_plus_1": true,
+    "t20_forcing_n_10_17": true,
+    "all_ok": true
+  },
+  "anf": [
+    {
+      "n": 0,
+      "k": 1,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": null
+    },
+    {
+      "n": 1,
+      "k": 3,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    },
+    {
+      "n": 2,
+      "k": 5,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    },
+    {
+      "n": 3,
+      "k": 7,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    },
+    {
+      "n": 4,
+      "k": 9,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    },
+    {
+      "n": 5,
+      "k": 11,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    },
+    {
+      "n": 6,
+      "k": 13,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    },
+    {
+      "n": 7,
+      "k": 15,
+      "lin_un": 1,
+      "early_F": [],
+      "early_G_lt_2n": [],
+      "G_2n_lin": 1
+    }
+  ],
+  "t20_forcing": [
+    {
+      "i": 0,
+      "F20": 1,
+      "F37": 1,
+      "u_eq_Q": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "i": 1,
+      "F20": 1,
+      "F37": 1,
+      "u_eq_Q": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "i": 2,
+      "F20": 1,
+      "F37": 1,
+      "u_eq_Q": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "i": 3,
+      "F20": 1,
+      "F37": 1,
+      "u_eq_Q": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "i": 4,
+      "F20": 1,
+      "F37": 1,
+      "u_eq_Q": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "i": 5,
+      "F20": 1,
+      "F37": 1,
+      "u_eq_Q": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "n_fold": 48
+}
