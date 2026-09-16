@@ -23,6 +23,8 @@ one has `max_index(F_k) <= floor((k-1)/2)` and
 the `nvars(K) = floor((K-1)/2)+1` bits `u_0,\ldots,u_{nvars(K)-1}`.
 Padding extra zeros past that index does not change those values.
 For \(K\ge 3\), \(u_0\) is in fact absent (`research/period2_silent.md`).
+For \(K\ge 8\), \(u_1\) is absent from every \(G_K\)
+(`research/period2_gsilent.md`); it remains in \(F_K\).
 
 ## Vacuum and the fold machine
 

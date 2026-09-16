@@ -87,3 +87,4 @@ bound. Other periods of \(c_t\) are untouched.
 - `research/period2_silent.md` (this note)
 - `research/period2_silent.py` (`--certify`)
 - `research/period2_silent.json` (dump)
+- `research/period2_gsilent.md` (\(u_1\) silent in \(G_k\) for \(k\ge 8\))
