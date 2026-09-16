@@ -110,3 +110,4 @@ obstruction to period 2.
 - `research/period2_ugap_sat.md` (isolated ugap \(R=14\) at \(T=33\))
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
 - `research/period2_alldesc.md` (isolated extra \(\ge 3\) becomes bump extra\(-2\))
+- `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))

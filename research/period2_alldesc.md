@@ -74,7 +74,9 @@ statement is a census through \(T=40\), not a theorem.
 \(S\)-minimal extra is not bounded independently of \(T\). Infinite
 \(B_0\) (infinite extra) is a fixed point of \(e\mapsto e-2\) and is
 not killed. Even-\(F\) extra \(=2\) at even \(T\) has \(R=3\), below
-the \(B_0\) threshold, and is not this identity. A probe through
+the \(B_0\) threshold, and is not this identity. Under \(S\) it
+becomes an isolated onset at \(T+1\) (`research/period2_r3iso.md`),
+without an extra rank. A probe through
 \(T=48\) still has extra \(\le 8\), with isolated even-\(F\) extra
 \(=8\) at \(T=43\); that probe is not in the certificate. Other
 periods of \(c_t\) are untouched.
@@ -96,3 +98,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_alldesc.json` (dump)
 - `research/period2_silent.md` (\(u_0\) silent in \(F_k\) for \(k\ge 3\))
 - `research/period2_gsilent.md` (\(u_1\) silent in \(G_k\) for \(k\ge 8\))
+- `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))
