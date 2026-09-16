@@ -41,7 +41,8 @@ hence the extra of \(Su\) at \(T+2\) is \(e-2\). The \(B_0\) identity
 makes \(Su\) a bump at \(T+2\) once \(R\ge 4\).
 
 Certified on every ugap bump 11-clip of extra \(\ge 3\) through
-\(T=40\): 122 onsets, 122 descents, 0 failures. The same scan has
+\(T=40\): 122 onsets, 122 descents, 0 failures. Extra \(\ge 2\) is the
+same identity (`research/period2_alldesc.md`). The same scan has
 max extra \(8\), uniquely at \(T=20\) (three words) and \(T=37\)
 (three words). Those two families descend to extra \(6\) at \(T=22\)
 and \(T=39\).

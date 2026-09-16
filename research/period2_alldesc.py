@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
-"""Every extra>=3 Q-clip descends by 2 at T+2 onto a bump of the same kind.
+"""Q-clip extra descends by 2 at T+2 onto a bump of the same kind.
 
 A phase-01 ugap onset (isolated or bump) whose Q-forced tail clips
-with extra e>=3 — by 11, 00000, or even F_{2n}>T — has Su a bump of
-the same clip kind at T+2 with extra e-2. Isolated onsets become
-bumps; bumps stay bumps. Extra of every finite clip family is a rank.
-Uniform extra<=8 is equivalent to extra<=8 at every S-minimal member,
-which is not proved. Infinite B_0 is a fixed point of e|->e-2.
+by 11 or 00000 with extra e>=2, or by even F_{2n}>T with extra e>=3
+(or e=2 at odd T), has Su a bump of the same clip kind at T+2 with
+extra e-2. Isolated onsets become bumps. Extra of every finite clip
+family is a rank; 11/00000 kernels are extra in {0,1}. Uniform
+extra<=8 is equivalent to extra<=8 at every S-minimal member, which
+is not proved. Infinite B_0 is a fixed point of e|->e-2.
 Not a prize claim.
 
 Run: python3 research/period2_alldesc.py --certify
@@ -48,26 +49,40 @@ def r_of(T, extra, stop):
     return sound_R(T, n0 + extra, stop)
 
 
+def min_extra(stop, T):
+    """Smallest extra at which the T+2 descent is claimed."""
+    if stop in ("11", "00000"):
+        return 2
+    if T % 2 == 1:
+        return 2
+    return 3
+
+
 def certify_arithmetic():
     rows = []
     for T in range(5, 81):
         n0 = nvars(T)
         n0p = nvars(T + 2)
         assert n0p == n0 + 1
-        for e in range(3, 12):
+        assert (2 * (n0 + 1) - 3 <= T) and (2 * (n0 + 2) - 3 > T)
+        for e in range(2, 12):
             n_clip = n0 + e
             extra_S = (n_clip - 1) - n0p
             assert extra_S == e - 2
-            for stop in ("11", "00000", "even_F"):
+            for stop in ("11", "00000"):
                 R = r_of(T, e, stop)
-                if stop == "even_F":
-                    assert R >= 5
-                else:
-                    assert R >= 6
+                assert R >= 4
+                assert skip_applies(T, e, e)  # skip at n_clip only
+            R_ef = r_of(T, e, "even_F")
+            if e >= 3:
+                assert R_ef >= 5
                 assert skip_applies(T, e, e)
                 assert skip_applies(T, e, e - 1)
-                assert 2 * n_clip - 4 > T  # four-zero even skip window
-                assert R >= 4  # B_0 hypothesis of period2_b0
+                assert 2 * n_clip - 4 > T
+            elif T % 2 == 1:
+                assert R_ef == 4
+                assert skip_applies(T, e, e)
+                assert 2 * n_clip - 4 > T
         rows.append({"T": T, "n0": n0, "n0_Tplus2": n0p})
     return {"n_T": len(rows), "ok": True}
 
@@ -100,7 +115,7 @@ def scan_all(Tmin=8, Tmax=40):
                     at_iso_max = [(T, rec["stop"], rec["sample"], rec["extra"])]
                 elif rec["extra"] == max_iso:
                     at_iso_max.append((T, rec["stop"], rec["sample"], rec["extra"]))
-            if rec["extra"] < 3:
+            if rec["extra"] < min_extra(rec["stop"], T):
                 n_short[key] += 1
                 continue
             n_ge3 += 1
@@ -183,23 +198,23 @@ def certify():
     t0 = time.perf_counter()
     checks = {}
     arith = certify_arithmetic()
-    checks["nvars_Tplus2_and_skip_for_e_ge_3"] = arith["ok"]
+    checks["nvars_Tplus2_and_skip"] = arith["ok"]
     scan = scan_all(8, 40)
     assert scan["n_ge3"] == scan["n_descended"]
-    assert scan["n_ge3"] == 1761
-    assert scan["n_iso_ge3"] == 860
-    assert scan["n_class_ge3"]["bump/11"] == 122
-    assert scan["n_class_ge3"]["bump/even_F"] == 774
-    assert scan["n_class_ge3"]["bump/00000"] == 5
-    assert scan["n_class_ge3"]["iso/11"] == 135
-    assert scan["n_class_ge3"]["iso/even_F"] == 703
-    assert scan["n_class_ge3"]["iso/00000"] == 22
+    assert scan["n_class_ge3"]["bump/11"] == 352
+    assert scan["n_class_ge3"]["iso/11"] == 374
+    assert scan["n_class_ge3"]["bump/00000"] == 35
+    assert scan["n_class_ge3"]["iso/00000"] == 40
+    assert scan["n_class_ge3"]["bump/even_F"] == 1232
+    assert scan["n_class_ge3"]["iso/even_F"] == 1007
     assert scan["max_extra"] == 8
     assert scan["max_iso_extra"] == 7
     Ts = sorted({r["T"] for r in scan["at_max"]})
     assert Ts == [20, 37]
     checks["all_class_descent_through_40"] = True
     checks["iso_becomes_bump"] = True
+    checks["sft_extra_ge_2"] = True
+    checks["even_F_odd_T_extra_2"] = True
     checks["max_extra_8_still_bump_11"] = True
     checks["iso_max_extra_7_through_40"] = True
     fam = certify_families()
