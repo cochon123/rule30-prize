@@ -74,3 +74,4 @@ census. Other periods of \(c_t\) are untouched.
 - `research/period2_u1u3.py` (`--certify`)
 - `research/period2_u1u3.json` (dump)
 - `research/period2_gsilent.md` (\(u_1\) silent in \(G_k\) for \(k\ge 8\))
+- `research/period2_gu2u4.md` (\(u_2\) in \(G_k\) factors through \(u_4\) for \(k\ge 9\))
