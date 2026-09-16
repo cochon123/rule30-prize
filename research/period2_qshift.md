@@ -105,3 +105,4 @@ obstruction to period 2.
 - `research/period2_qshift.py` (`--certify`)
 - `research/period2_qshift.json` (dump)
 - `research/period2_ugap_sat.md` (ugap last-sat Q-force)
+- `research/period2_qextra.md` (clip-to-\(R\); \(T=37\) has \(R=17\))
