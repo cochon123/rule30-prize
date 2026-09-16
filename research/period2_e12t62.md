@@ -35,6 +35,12 @@ The eight \(P_8\) prefixes also give isolated even-\(F\) extra \(=12\)
 at \(T=64\) (tail `100100100101010001010010`, \(R=23\)). That class is
 not needed for the extra-\(\le 13\) kill.
 
+A complete ugap scan of \(T=64\) has max extra \(12\) (33 onsets) and
+no extra \(\ge 14\). Extra \(=14\) at \(T=62\) therefore does not
+persist or climb at \(T+2\); it descends, as the family certificate
+already requires, to extra \(=12\). That \(T=64\) census is a probe,
+not part of `--certify`.
+
 ## What this does not do
 
 Extra may still admit a uniform bound larger than \(14\). Infinite
