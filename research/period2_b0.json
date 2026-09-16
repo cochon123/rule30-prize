@@ -1,0 +1,227 @@
+{
+  "attack": "period2_b0",
+  "problem": "L_0 to B_0 tail and S-descent of the 11-bump",
+  "verdict": "LEMMA",
+  "kill": false,
+  "survive": false,
+  "prize": false,
+  "kill_reason": "Long L_0 becomes B_0 under S with R-4 zeros after the bump; S then sends B_0(S,R) to B_0(S+2,R-4) with G_S=0. Finite R descends; infinite L_0 still yields infinite B_0 at larger S. Isolated L_0 has maxR<=9 through T=22. Not a uniform R.",
+  "wall_time_sec": 2.3417,
+  "checks": {
+    "g_pattern_fib12": true,
+    "l0_to_b0_last_sat": true,
+    "b0_S19_to_S21": true,
+    "iso_maxR_le_9_Tle22": true,
+    "bump_is_worst": true,
+    "all_R_ge_12_are_bump": true,
+    "all_ok": true
+  },
+  "g_pattern": {
+    "n": 888,
+    "n_fail": 0
+  },
+  "l0_to_b0": [
+    {
+      "T": 8,
+      "R": 9,
+      "n_models": 1,
+      "n_ok": 1,
+      "n_fail": 0,
+      "want_Rprime": 5,
+      "F_Tminus1": {
+        "0": 1
+      }
+    },
+    {
+      "T": 15,
+      "R": 6,
+      "n_models": 1,
+      "n_ok": 1,
+      "n_fail": 0,
+      "want_Rprime": 2,
+      "F_Tminus1": {
+        "0": 1
+      }
+    },
+    {
+      "T": 16,
+      "R": 9,
+      "n_models": 4,
+      "n_ok": 4,
+      "n_fail": 0,
+      "want_Rprime": 5,
+      "F_Tminus1": {
+        "0": 4
+      }
+    },
+    {
+      "T": 20,
+      "R": 16,
+      "n_models": 6,
+      "n_ok": 6,
+      "n_fail": 0,
+      "want_Rprime": 12,
+      "F_Tminus1": {
+        "1": 6
+      }
+    },
+    {
+      "T": 22,
+      "R": 12,
+      "n_models": 7,
+      "n_ok": 7,
+      "n_fail": 0,
+      "want_Rprime": 8,
+      "F_Tminus1": {
+        "1": 7
+      }
+    },
+    {
+      "T": 26,
+      "R": 5,
+      "n_models": 37,
+      "n_ok": 37,
+      "n_fail": 0,
+      "want_Rprime": 1,
+      "F_Tminus1": {
+        "0": 25,
+        "1": 12
+      }
+    }
+  ],
+  "b0_S19": [
+    {
+      "i": 0,
+      "ok": true,
+      "z_after_S+4": 12,
+      "want": 12
+    },
+    {
+      "i": 1,
+      "ok": true,
+      "z_after_S+4": 12,
+      "want": 12
+    },
+    {
+      "i": 2,
+      "ok": true,
+      "z_after_S+4": 12,
+      "want": 12
+    },
+    {
+      "i": 3,
+      "ok": true,
+      "z_after_S+4": 12,
+      "want": 12
+    },
+    {
+      "i": 4,
+      "ok": true,
+      "z_after_S+4": 12,
+      "want": 12
+    },
+    {
+      "i": 5,
+      "ok": true,
+      "z_after_S+4": 12,
+      "want": 12
+    }
+  ],
+  "iso_bump": {
+    "Tmax": 22,
+    "worst_iso": 9,
+    "worst_bump": 16,
+    "rows": [
+      {
+        "T": 5,
+        "iso_maxR": 3,
+        "bump_maxR": -1
+      },
+      {
+        "T": 6,
+        "iso_maxR": 3,
+        "bump_maxR": -1
+      },
+      {
+        "T": 7,
+        "iso_maxR": 2,
+        "bump_maxR": -1
+      },
+      {
+        "T": 8,
+        "iso_maxR": 9,
+        "bump_maxR": -1
+      },
+      {
+        "T": 9,
+        "iso_maxR": 6,
+        "bump_maxR": -1
+      },
+      {
+        "T": 10,
+        "iso_maxR": 1,
+        "bump_maxR": 5
+      },
+      {
+        "T": 11,
+        "iso_maxR": 2,
+        "bump_maxR": 2
+      },
+      {
+        "T": 12,
+        "iso_maxR": 0,
+        "bump_maxR": 1
+      },
+      {
+        "T": 13,
+        "iso_maxR": 3,
+        "bump_maxR": 0
+      },
+      {
+        "T": 14,
+        "iso_maxR": 5,
+        "bump_maxR": 3
+      },
+      {
+        "T": 15,
+        "iso_maxR": 6,
+        "bump_maxR": 3
+      },
+      {
+        "T": 16,
+        "iso_maxR": 9,
+        "bump_maxR": 3
+      },
+      {
+        "T": 17,
+        "iso_maxR": 7,
+        "bump_maxR": 5
+      },
+      {
+        "T": 18,
+        "iso_maxR": 5,
+        "bump_maxR": 5
+      },
+      {
+        "T": 19,
+        "iso_maxR": 4,
+        "bump_maxR": 4
+      },
+      {
+        "T": 20,
+        "iso_maxR": 5,
+        "bump_maxR": 16
+      },
+      {
+        "T": 21,
+        "iso_maxR": 4,
+        "bump_maxR": 5
+      },
+      {
+        "T": 22,
+        "iso_maxR": 6,
+        "bump_maxR": 12
+      }
+    ]
+  }
+}
