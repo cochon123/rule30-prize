@@ -66,3 +66,4 @@ untouched.
 - `research/period2_e8fam.json` (dump)
 - `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
 - `research/period2_t35ten.md` (\(P_{35}\) and \(P_{43}\))
+- `research/period2_e7pref.md` (extra \(\ge 7\) through \(T=48\) lives on these 18 prefixes)
