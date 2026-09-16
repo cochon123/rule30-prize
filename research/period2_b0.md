@@ -83,7 +83,8 @@ hit the empty bump-table at \(S\in\{1,3,\ldots,8\}\), which lies at
 *smaller* \(S\). Isolated onsets are empirically short, but
 \(\max R\le 9\) through \(T=22\) is not a bound. On the ugap SFT the
 same isolated cap holds through \(T=32\), still attained at \(T=8\)
-and \(T=16\) (`research/period2_ugap_sat.md`). A uniform \(R(T)\)
+and \(T=16\), but \(T=33\) isolated last-sat already has \(R=14\)
+(`research/period2_ugap_sat.md`). A uniform \(R(T)\)
 still needs a \(T\)-independent 11-clip, `00000`-clip, or even-column
 fire of the forced tail (`research/period2_qshift.md`).
 
@@ -104,4 +105,4 @@ obstruction to period 2.
 - `research/period2_b0.md` (this note)
 - `research/period2_b0.py` (`--certify`)
 - `research/period2_b0.json` (dump)
-- `research/period2_ugap_sat.md` (isolated ugap \(\max R=9\) through \(T=32\))
+- `research/period2_ugap_sat.md` (isolated ugap \(R=14\) at \(T=33\))

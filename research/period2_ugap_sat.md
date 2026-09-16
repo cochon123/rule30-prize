@@ -6,8 +6,10 @@ Fibonacci onset scan of `research/period2_certificate.md` ignores the
 five-zero forbidden word, so several recorded last-sat models are not
 prefixes of any period-2 \(u\). Intersecting with max zero-run \(\le 4\)
 does **not** kill the worst onset: three of the six \(T=20\), \(R=16\)
-words are ugap-legal and remain last-sat. Isolated ugap \(\max R=9\)
-through \(T=32\). Not a prize claim.
+words are ugap-legal and remain last-sat. Isolated \(\max R=9\) holds
+only through \(T=32\): at \(T=33\) an isolated last-sat already has
+\(R=14\). Q-forced extra is \(\le 8\) through \(T=36\), uniquely 8
+at \(T=20\). Not a prize claim.
 
 Helper: `python3 research/period2_ugap_sat.py --certify`. Dump:
 `research/period2_ugap_sat.json`. Sound scan: exactly `nvars(T+R)`
@@ -36,18 +38,19 @@ does not change the killing column.
 `period2_ugap.py --certify` never scanned these words: it only checks the
 4-state \((e,f)\) drain and finite-right width \(\le 8\).
 
-## Ugap onset through \(T=32\)
+## Ugap onset through \(T=36\)
 
 Every width dies at finite extra \(R\). Global \(\max R=16\), uniquely
-at \(T=20\). Every last-sat with \(R\ge 12\) is a bump
-(\(F_{T-1}=1\)). Isolated \(\max R=9\), attained at \(T=8\) (one word
-`010101001`) and \(T=16\) (two words). After \(T=16\), isolated
-\(\max R\le 8\).
+at \(T=20\). Through \(T=32\), every last-sat with \(R\ge 12\) is a bump
+(\(F_{T-1}=1\)) and isolated \(\max R=9\), attained at \(T=8\) (one word
+`010101001`) and \(T=16\) (two words). That isolated cap is **not** a
+bound: \(T=33\) last-sat is three isolated words with \(R=14\), and
+\(T=35\) isolated \(\max R=14\) as well.
 
 Long ugap last-sat and Q-forced obstruction (`research/period2_qshift.md`):
 
 | \(T\) | max \(R\) | \(n\) | kind | stop | extra |
-| ---: | ---: | ---: | --- | --- | ---: |
+| ---: | ---: | ---: | --- | ---: | ---: |
 | 8 | 9 | 1 | iso | even \(F\) | 5 |
 | 16 | 9 | 2 | iso | even \(F\) | 5 |
 | 20 | 16 | 3 | bump | `11` | 8 |
@@ -57,9 +60,16 @@ Long ugap last-sat and Q-forced obstruction (`research/period2_qshift.md`):
 | 29 | 12 | 4 | bump | even \(F\) | 6 |
 | 31 | 12 | 3 | bump | even \(F\) | 6 |
 | 32 | 8 | 6 | mixed | `11` | 4 |
+| 33 | 14 | 3 | iso | even \(F\) | 7 |
+| 34 | 12 | 4 | bump | `11` | 6 |
+| 35 | 14 | 6 | iso | even \(F\) | 7 |
+| 36 | 10 | 5 | iso | `11` | 5 |
 
 The \(T=20,22,24\) 11-clips are the same family already recorded: extra
 \(=28-T\). \(T=26,29,31\) are a different even-column family, extra 6.
+\(T=33,35\) isolated last-sat even-fire with extra 7. Through \(T=36\)
+every ugap last-sat with \(\max R\ge 8\) Q-clips with extra \(\le 8\),
+attained only at \(T=20\). This is not a proof that extra is bounded.
 
 ## Fibonacci overcount at \(T=23..32\)
 
@@ -79,11 +89,11 @@ required by inclusion.
 ## What this does not do
 
 A uniform \(R(T)\) would still need a \(T\)-independent clip of the
-Q-forced tail. Isolated onsets are empirically short on ugap
-(\(\le 9\) through \(T=32\)), but that is not a bound: \(T=8\) and
-\(T=16\) already hit 9, and \(T=32\) isolated still has \(R=8\).
-Infinite \(L_0\) is untouched. The three surviving \(T=20\) words are
-genuine ugap prefixes, so the SFT does not remove the worst onset.
+Q-forced tail. Isolated onsets are not uniformly short: \(R=14\) at
+\(T=33\) and \(T=35\). The extra \(\le 8\) census through \(T=36\) is
+the remaining empirical gate, not a proof. Infinite \(L_0\) is
+untouched. The three surviving \(T=20\) words are genuine ugap
+prefixes, so the SFT does not remove the worst onset.
 
 Periodic \(u\) is already infinite on the left
 (`research/period2_periodic.md`). Aperiodic \(u\) remains the
@@ -91,11 +101,12 @@ obstruction to period 2.
 
 ## Verdict
 
-`LEMMA`, wall time ~25s.
+`LEMMA`, wall time ~50s.
 
 - Kill of period 2: no.
 - \(T=20\), \(R=16\) dies under ugap: no (3 models remain).
-- Isolated ugap \(\max R\le 9\) through \(T=32\): yes, not a bound.
+- Isolated ugap \(\max R\le 9\): only through \(T=32\); \(T=33\) has \(R=14\).
+- Q-forced extra \(\le 8\) through \(T=36\): yes, not a bound.
 
 ## Files
 

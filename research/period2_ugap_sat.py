@@ -6,8 +6,9 @@ Genuine period-2 even-right u lies in the SFT forbidding {11, 00000}
 research/period2_certificate.py enumerates all Fibonacci strings, so
 last-sat words may contain five consecutive zeros. Restricting to ugap
 does not kill the worst onset: three of the six T=20 R=16 words are
-legal and still last-sat. Isolated ugap maxR is 9 through T=32.
-Not a prize claim.
+legal and still last-sat. Isolated ugap maxR is 9 through T=32 and
+already 14 at T=33. Q-forced extra is <=8 through T=36. Not a prize
+claim.
 
 Run: python3 research/period2_ugap_sat.py --certify
 Dump: research/period2_ugap_sat.json
@@ -218,7 +219,7 @@ def certify():
         fib_set = {tuple(u) for u in F}
         assert all(tuple(u) in fib_set for u in U)
 
-    ugap_rows = onset_scan(ugap_strings, 1, 32, 20)
+    ugap_rows = onset_scan(ugap_strings, 1, 36, 20)
     fib_tail = onset_scan(fib_strings, 23, 32, 20)
 
     byT = {r["T"]: r for r in ugap_rows}
@@ -230,18 +231,24 @@ def certify():
     assert byT[22]["max_sat_R"] == 12
     assert byT[26]["max_sat_R"] == 11
     assert byT[32]["max_sat_R"] == 8
+    assert byT[33]["iso_maxR"] == 14
+    assert byT[33]["max_sat_R"] == 14
+    assert byT[35]["iso_maxR"] == 14
     for r in ugap_rows:
         assert r["n_gap_illegal"] == 0
-        if r["max_sat_R"] >= 12:
+        if r["T"] <= 32 and r["max_sat_R"] >= 12:
             assert r["kinds"].get("iso", 0) == 0, r
     checks["t20_r16_survives_ugap"] = True
     checks["r_ge_12_all_bumps_through_32"] = True
+    checks["t33_iso_maxR_14"] = True
 
-    iso_max = max(r["iso_maxR"] for r in ugap_rows)
-    assert iso_max == 9
-    iso_attained = [r["T"] for r in ugap_rows if r["iso_maxR"] == 9]
+    iso_through_32 = max(r["iso_maxR"] for r in ugap_rows if r["T"] <= 32)
+    assert iso_through_32 == 9
+    iso_attained = [r["T"] for r in ugap_rows if r["T"] <= 32 and r["iso_maxR"] == 9]
     assert iso_attained == [8, 16], iso_attained
-    checks["iso_maxR_9_at_T8_T16"] = True
+    checks["iso_maxR_9_through_32"] = True
+    iso_global = max(r["iso_maxR"] for r in ugap_rows)
+    assert iso_global == 14
 
     bump_max = max(r["bump_maxR"] for r in ugap_rows)
     assert bump_max == 16
@@ -272,10 +279,15 @@ def certify():
     assert q_byT[22]["force_stops"] == {"11": 5}
     assert set(q_byT[22]["force_extras"]) == {6}
     assert q_byT[26]["force_stops"] == {"even_F": 4}
+    assert q_byT[33]["force_stops"] == {"even_F": 3}
+    assert set(q_byT[33]["force_extras"]) == {7}
+    extras = [x for r in qrows for x in r["force_extras"]]
+    assert max(extras) == 8
     for r in qrows:
         assert set(r["force_stops"]).issubset({"11", "00000", "even_F"})
         assert r["n_models"] > 0
     checks["t20_ugap_11clip_extra_8"] = True
+    checks["qforce_extra_le_8_through_36"] = True
 
     return {
         "checks": checks,
@@ -285,7 +297,8 @@ def certify():
         "ugap_compact": compact(ugap_rows),
         "fib_compact_23_32": compact(fib_tail),
         "qforce": qrows,
-        "iso_maxR": iso_max,
+        "iso_maxR_through_32": iso_through_32,
+        "iso_maxR": iso_global,
         "bump_maxR": bump_max,
         "wall_time_sec": time.perf_counter() - t0,
     }
@@ -297,7 +310,7 @@ def main():
     args = parser.parse_args()
     report = certify()
     print("checks", report["checks"])
-    print("iso_maxR", report["iso_maxR"], "bump_maxR", report["bump_maxR"])
+    print("iso_maxR_32", report["iso_maxR_through_32"], "iso_maxR", report["iso_maxR"], "bump_maxR", report["bump_maxR"])
     print("t20", report["t20_words"])
     for row in report["ugap_compact"]:
         print(
