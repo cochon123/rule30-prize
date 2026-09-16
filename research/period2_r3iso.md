@@ -58,9 +58,11 @@ even \(T\in[8,32]\) (270/270).
 ## What this does not do
 
 The image isolated onset at \(T+1\) can have extra larger or smaller
-than 2; extra is not a rank on this class. Infinite \(L_0\) is
-untouched. Uniform extra \(\le 8\) is still a census. Other periods
-of \(c_t\) are untouched.
+than 2; extra is not a rank on this class. The three \(T=33\) isolated
+extra-\(7\) onsets are extra-raising instances
+(`research/period2_r3pull.md`); later isolated extra \(=7\) need not
+pull back. Infinite \(L_0\) is untouched. Uniform extra \(\le 8\) is
+still a census. Other periods of \(c_t\) are untouched.
 
 ## Verdict
 
@@ -78,3 +80,4 @@ of \(c_t\) are untouched.
 - `research/period2_r3iso.json` (dump)
 - `research/period2_germ.md` (\(R\ge 4\) germ to a bump)
 - `research/period2_alldesc.md` (even-\(F\) extra \(=2\) at even \(T\) excluded from extra-\(-2\))
+- `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)

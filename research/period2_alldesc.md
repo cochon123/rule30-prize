@@ -57,7 +57,9 @@ extra is \(7\).
 The \(T=20\) and \(T=37\) bump `11` extra-\(8\) families descend to
 extra \(6\). The three \(T=33\) isolated even-\(F\) extra-\(7\) words
 (shared tail `00010100100100`, \(R=14\)) descend to bump even-\(F\)
-extra \(5\) at \(T=35\).
+extra \(5\) at \(T=35\); they are not \(S\)-minimal births, but
+\(R=3\) images of bump even-\(F\) extra \(=2\) at \(T=32\)
+(`research/period2_r3pull.md`).
 
 ## Corollary (rank, not a bound)
 
@@ -99,3 +101,4 @@ periods of \(c_t\) are untouched.
 - `research/period2_silent.md` (\(u_0\) silent in \(F_k\) for \(k\ge 3\))
 - `research/period2_gsilent.md` (\(u_1\) silent in \(G_k\) for \(k\ge 8\))
 - `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))
+- `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)

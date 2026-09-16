@@ -111,3 +111,4 @@ obstruction to period 2.
 - `research/period2_exdesc.md` (11-clip extra rank on bumps)
 - `research/period2_alldesc.md` (isolated extra \(\ge 3\) becomes bump extra\(-2\))
 - `research/period2_r3iso.md` (\(R=3\) even fire \(\mapsto\) isolated at \(T+1\))
+- `research/period2_r3pull.md` (\(T=33\) isolated extra \(=7\) is an \(R=3\) image)
