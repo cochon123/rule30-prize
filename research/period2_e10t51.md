@@ -43,10 +43,11 @@ extra \(\le 8\).
 
 ## What this does not do
 
-Extra may still admit a uniform bound larger than \(8\). Infinite
-\(L_0\) / infinite \(B_0\) is untouched. Other periods of \(c_t\) are
-untouched. The \(T\le 48\) extra-\(\le 8\) census remains correct as a
-finite check.
+Extra may still admit a uniform bound larger than \(8\). A census
+through \(T=56\) has extra \(\le 10\) with \(S\)-minimal extra \(=10\)
+recurring (`research/period2_e10cap.md`). Infinite \(L_0\) / infinite
+\(B_0\) is untouched. Other periods of \(c_t\) are untouched. The
+\(T\le 48\) extra-\(\le 8\) census remains correct as a finite check.
 
 ## Verdict
 
@@ -62,6 +63,7 @@ finite check.
 - `research/period2_e10t51.md` (this note)
 - `research/period2_e10t51.py` (`--certify`)
 - `research/period2_e10t51.json` (dump)
+- `research/period2_e10cap.md` (extra \(\le 10\) through \(T=56\))
 - `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
 - `research/period2_alldesc.md` (extra descent)
 - `research/period2_r3pull.md` (\(R=3\) pullback)
