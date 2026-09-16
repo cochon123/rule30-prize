@@ -33,10 +33,11 @@ the extra-\(\le 8\) cap \(R=17\). Extra \(\le 8\) was already false at
 
 ## What this does not do
 
-Extra may still admit a uniform bound larger than \(11\). Infinite
-\(L_0\) / infinite \(B_0\) is untouched. Other periods of \(c_t\) are
-untouched. The \(T\le 56\) extra-\(\le 10\) census remains correct as
-a finite check.
+Extra may still admit a uniform bound larger than \(11\). Extra
+\(=12\) already occurs at \(T=62\) on these eight prefixes
+(`research/period2_e12t62.md`). Infinite \(L_0\) / infinite \(B_0\) is
+untouched. Other periods of \(c_t\) are untouched. The \(T\le 56\)
+extra-\(\le 10\) census remains correct as a finite check.
 
 ## Verdict
 
@@ -52,6 +53,7 @@ a finite check.
 - `research/period2_e11t58.md` (this note)
 - `research/period2_e11t58.py` (`--certify`)
 - `research/period2_e11t58.json` (dump)
+- `research/period2_e12t62.md` (extra \(=12\) at \(T=62\) on the same prefixes)
 - `research/period2_e10cap.md` (extra \(\le 10\) through \(T=56\))
 - `research/period2_e10t51.md` (first extra \(=10\) at \(T=51\))
 - `research/period2_alldesc.md` (extra descent)
