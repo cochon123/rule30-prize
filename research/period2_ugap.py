@@ -8,8 +8,8 @@ create a loop). Together with no consecutive 1s, realizable and
 unrealizable period-2 even-right sequences both live in the SFT
 forbidding {11, 00000}.
 
-This is not a prize claim: T=20 last-sat L_0 models already obey the
-gap bound and still have R=16.
+This is not a prize claim: three of six T=20 last-sat L_0 models are
+ugap-legal and still have R=16 (research/period2_ugap_sat.md).
 
 Run: python3 research/period2_ugap.py --certify
 Dump: research/period2_ugap.json

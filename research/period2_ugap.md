@@ -2,8 +2,9 @@
 
 Checked lemma on the even right neighbor of a period-2 centre, phase
 `01`. It restricts the Fibonacci subshift that `L_0` quantifies over. It
-does **not** exclude eventual period 2: the worst onset `T=20`, `R=16`
-already obeys the gap bound. Not a prize claim.
+does **not** exclude eventual period 2: three of the six Fibonacci
+`T=20`, `R=16` last-sat words are ugap-legal and remain last-sat
+(`research/period2_ugap_sat.md`). Not a prize claim.
 
 Helper: `python3 research/period2_ugap.py --certify`. Dump:
 `research/period2_ugap.json`. Uses `forced_right_traces` from
@@ -49,10 +50,13 @@ zero `u` makes column `-1` eventually constant).
 ## What this does not do
 
 The `T=20` last-sat `L_0` words of `research/period2_certificate.md`
-have period-3 tail `00010010010001` (max zero run 3) and remain legal.
-Restricting onset search to this SFT does not kill `R=16` and does not
-supply a uniform `R(T)`. Random words in the SFT have `F`-zero runs of
-length at most 12 in a short sample; that is not a bound.
+share the period-3 tail `00010010010001` (max zero run 3), but three of
+the six prefixes contain a leading zero-run of length 5, 6, or 7 and
+are illegal in this SFT. The other three remain last-sat at `R=16`.
+Restricting onset search to ugap therefore does not kill `R=16` and
+does not supply a uniform `R(T)` (`research/period2_ugap_sat.md`).
+Random words in the SFT have `F`-zero runs of length at most 12 in a
+short sample; that is not a bound.
 
 `F^2` is left-permutive of lag 2 (flipping `x_{-2}` always flips the
 even-time centre) but not of lag 1 (4 of 16 neighborhoods keep `G_0`
@@ -79,3 +83,4 @@ not an independent census.
 - `research/period2_ugap.md` (this note)
 - `research/period2_ugap.py`
 - `research/period2_ugap.json`
+- `research/period2_ugap_sat.md` (onset table inside this SFT)
