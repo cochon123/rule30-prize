@@ -1,0 +1,258 @@
+{
+  "attack": "period2_qshift",
+  "problem": "deep-tail Q_n = Q_{n-1}(Su) under a three-zero run",
+  "verdict": "LEMMA",
+  "kill": false,
+  "survive": false,
+  "prize": false,
+  "kill_reason": "Three consecutive F zeros skip two columns under S, so Q_n(u)=Q_{n-1}(Su) on an L_0 tail; the T=20 forced bit is an 11-clip at n=18. Q_n is not a T-independent sliding window and a fixed Q_{n0} does not iterate. Not a uniform R.",
+  "wall_time_sec": 0.8932,
+  "checks": {
+    "odd_skip_fib12": true,
+    "even_skip_fib12": true,
+    "last_sat_deep_Q": true,
+    "last_sat_force_sft_or_even": true,
+    "iter_slide_fails_somewhere": true,
+    "t20_force_clip11_n18": true,
+    "t20_slide_Q11_not_identity": true,
+    "all_ok": true
+  },
+  "skip_fib12": {
+    "L": 12,
+    "n_odd": 575,
+    "n_odd_fail": 0,
+    "n_even": 345,
+    "n_even_fail": 0
+  },
+  "last_sat": [
+    {
+      "T": 8,
+      "R": 9,
+      "n_models": 1,
+      "n_deep": 3,
+      "n_deep_fail": 0,
+      "n_iter": 2,
+      "n_iter_fail": 0,
+      "force_stops": {
+        "even_F": 1
+      },
+      "force_extras": [
+        5
+      ]
+    },
+    {
+      "T": 15,
+      "R": 6,
+      "n_models": 1,
+      "n_deep": 1,
+      "n_deep_fail": 0,
+      "n_iter": 0,
+      "n_iter_fail": 0,
+      "force_stops": {
+        "even_F": 1
+      },
+      "force_extras": [
+        3
+      ]
+    },
+    {
+      "T": 16,
+      "R": 9,
+      "n_models": 4,
+      "n_deep": 12,
+      "n_deep_fail": 0,
+      "n_iter": 8,
+      "n_iter_fail": 0,
+      "force_stops": {
+        "even_F": 2,
+        "00000": 2
+      },
+      "force_extras": [
+        5,
+        3,
+        5,
+        3
+      ]
+    },
+    {
+      "T": 20,
+      "R": 16,
+      "n_models": 6,
+      "n_deep": 36,
+      "n_deep_fail": 0,
+      "n_iter": 30,
+      "n_iter_fail": 18,
+      "force_stops": {
+        "11": 6
+      },
+      "force_extras": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    },
+    {
+      "T": 22,
+      "R": 12,
+      "n_models": 7,
+      "n_deep": 28,
+      "n_deep_fail": 0,
+      "n_iter": 21,
+      "n_iter_fail": 7,
+      "force_stops": {
+        "11": 7
+      },
+      "force_extras": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "T": 26,
+      "R": 5,
+      "n_models": 37,
+      "n_deep": 37,
+      "n_deep_fail": 0,
+      "n_iter": 0,
+      "n_iter_fail": 0,
+      "force_stops": {
+        "00000": 13,
+        "11": 13,
+        "even_F": 11
+      },
+      "force_extras": [
+        0,
+        4,
+        6,
+        3,
+        4,
+        0,
+        3,
+        0,
+        4,
+        0,
+        4,
+        6,
+        3,
+        0,
+        0,
+        4,
+        6,
+        3,
+        4,
+        0,
+        3,
+        0,
+        4,
+        0,
+        4,
+        6,
+        3,
+        4,
+        0,
+        3,
+        0,
+        4,
+        0,
+        4,
+        6,
+        3,
+        0
+      ]
+    }
+  ],
+  "t20_force": [
+    {
+      "i": 0,
+      "stop": "11",
+      "nstop": 18,
+      "deep_12_17": true,
+      "slide_Q11_fail_n": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "u17": 1,
+      "Q18": 1
+    },
+    {
+      "i": 1,
+      "stop": "11",
+      "nstop": 18,
+      "deep_12_17": true,
+      "slide_Q11_fail_n": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "u17": 1,
+      "Q18": 1
+    },
+    {
+      "i": 2,
+      "stop": "11",
+      "nstop": 18,
+      "deep_12_17": true,
+      "slide_Q11_fail_n": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "u17": 1,
+      "Q18": 1
+    },
+    {
+      "i": 3,
+      "stop": "11",
+      "nstop": 18,
+      "deep_12_17": true,
+      "slide_Q11_fail_n": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "u17": 1,
+      "Q18": 1
+    },
+    {
+      "i": 4,
+      "stop": "11",
+      "nstop": 18,
+      "deep_12_17": true,
+      "slide_Q11_fail_n": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "u17": 1,
+      "Q18": 1
+    },
+    {
+      "i": 5,
+      "stop": "11",
+      "nstop": 18,
+      "deep_12_17": true,
+      "slide_Q11_fail_n": [
+        13,
+        14,
+        15,
+        17
+      ],
+      "u17": 1,
+      "Q18": 1
+    }
+  ]
+}
