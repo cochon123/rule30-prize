@@ -133,14 +133,18 @@ Facts on that fiber:
   `C_m`, bits past the first right-hand 1 change the left. At width 8
   phase `01`, the 128 rights with leading 1 already produce 49
   distinct 40-bit left prefixes; at width 10 that count is 129.
-- **No closed-form tail.** Generic lefts have Berlekamp–Massey length
-  growing with the prefix (`max_bm80` reaches 52 at `w=10`). They are
-  not eventually periodic, not `k mod 2`, and not Condrey’s
-  checkerboard. Max gaps grow slowly with `w` (5 at vacuum, 16 by
-  `w=6`) so even a uniform gap bound is not visible.
-- **One sparse family.** The single 1 at position 6, phase `01`, has
-  left head `1000000100000010000001…` (period 7, BM 7, infinitely
-  many 1s). This is a special kernel, not the generic fiber.
+- **No closed-form tail, except oscillators.** Generic lefts have
+  Berlekamp–Massey length growing with the prefix (`max_bm80` reaches
+  52 at `w=10`). They are not eventually periodic, not `k mod 2`,
+  and not Condrey’s checkerboard. Max gaps grow slowly with `w` (5
+  at vacuum, 16 by `w=6`) so even a uniform gap bound is not visible.
+  The exception is strictly alternating `u`: `research/period2_mod7.md`
+  gives an explicit period-7 left, infinite on that class. That class
+  is Jen-excluded for finite seeds.
+- **One sparse family.** The single 1 at position 6, phase `01`, is
+  the `u_0=0` oscillator of `research/period2_mod7.md`: left
+  `(1000000)^∞`. The dual right `1001` is `(0110010)^∞`. Not the
+  generic fiber.
 - **Even-neighbor `u`.** On phase `01` the vacuum-triple identity
   never fails and `u` never has two consecutive 1s. Some rights have
   an eventually periodic `u` (period 5 pattern `00100` and period 7
@@ -152,9 +156,10 @@ Facts on that fiber:
   phase `01`, `u` tracks `(0001010)` after a short prefix only until
   even-time index `n=152`; the first later gap is 3, not 2 or 5
   (`research/period2_germ.md`). The spatial left still has BM `~T/2`.
-  Periodic `u` is already Jen-excluded and does not force a periodic
-  left in any case, because `F_k` is a nonlinear function of a growing
-  prefix of `u`.
+  Periodic `u` is already Jen-excluded for finite seeds. Alternating
+  `u` *does* force a periodic spatial left (`research/period2_mod7.md`);
+  a generic period does not have a listed closed form, because `F_k`
+  is a nonlinear function of a growing prefix of `u`.
 
 Truncating the unique left at depth `w` and evolving the resulting
 radius-`w` row produces period-2 prefixes of length
@@ -196,13 +201,16 @@ Not proved:
 Condrey’s constant case works because the unique left is an explicit
 Boolean of the right (prefix-OR, or one checkerboard), visibly
 infinite. Period 2 keeps uniqueness and, in the scan, infinitude of
-the left, but drops the closed form: the right half under a forced
+the left. Alternating `u` now has a Condrey-style period-7 formula
+(`research/period2_mod7.md`), but that class is not a function of the
+leading 1 and is already Jen-excluded for finite seeds. Generic
+rights still drop the closed form: the right half under a forced
 period-2 boundary injects a chaotic wake, `u` is not classified by
 the leading 1, and `F_k(u)` is a nonlinear sliding function of a
 growing prefix. A finite list of `u`-attractors does not cover width
-10. Without that formula there is no `T`-independent identification
-of a 1 at an odd depth past any radius, so there is no sharp horizon
-`w+2` and no uniform exclusion of all finite rows.
+10. Without a formula for aperiodic `u` there is no `T`-independent
+identification of a 1 at an odd depth past any radius, so there is
+no sharp horizon `w+2` and no uniform exclusion of all finite rows.
 
 The complementary kill — a finite fiber member, or a row whose centre
 stays period 2 through an extended cap — did not fire.
