@@ -65,4 +65,5 @@ untouched. Other periods of \(c_t\) are untouched.
 - `research/period2_e8cap.json` (dump)
 - `research/period2_alldesc.md` (extra \(\le 8\) through \(T=40\))
 - `research/period2_t35ten.md` (\(T=43\) extra-\(8\) words)
+- `research/period2_e8fam.md` (extra \(=8\) is two prefix families)
 - `research/period2_qextra.md` (extra to sound \(R\))
