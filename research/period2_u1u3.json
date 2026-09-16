@@ -1,0 +1,78 @@
+{
+  "checks": {
+    "F_k_u1_implies_u3_k_ge_8": true,
+    "F8_is_u1_u3": true,
+    "F7_no_u1": true,
+    "F5_has_u1_without_u3": true,
+    "u3_zero_F_independent_of_u1": true,
+    "u3_zero_extra_kind_stop_match": true
+  },
+  "anf": {
+    "kmax": 20,
+    "ok": true,
+    "F7": "1 + u2 + u3",
+    "F8": "u1*u3",
+    "F5": "1 + u1 + u2"
+  },
+  "anf_support": [
+    {
+      "k": 5,
+      "F_vars": [
+        1,
+        2
+      ],
+      "F_u1_without_u3": true
+    },
+    {
+      "k": 6,
+      "F_vars": [
+        2
+      ],
+      "F_u1_without_u3": false
+    },
+    {
+      "k": 7,
+      "F_vars": [
+        2,
+        3
+      ],
+      "F_u1_without_u3": false
+    },
+    {
+      "k": 8,
+      "F_vars": [
+        1,
+        3
+      ],
+      "F_u1_without_u3": false
+    },
+    {
+      "k": 9,
+      "F_vars": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "F_u1_without_u3": false
+    },
+    {
+      "k": 10,
+      "F_vars": [
+        2,
+        4
+      ],
+      "F_u1_without_u3": false
+    }
+  ],
+  "slice": {
+    "Tmin": 8,
+    "Tmax": 28,
+    "n_onset_u3_zero": 1085,
+    "n_legal_flip": 238,
+    "n_F_k_ge_8_same": 238,
+    "n_extra_match": 238,
+    "ok": true
+  },
+  "wall_time_sec": 0.30186656303703785
+}
