@@ -60,8 +60,9 @@ Silent \(u_1\) in \(G\) does not make \(u_1\) silent in \(F\):
 \(\min\mathrm{index}(F_k)=1\) for every \(k\ge 8\) except \(k=10\),
 and \(F_8=u_1 u_3\). Extra, kind, and stop of a ugap onset are not
 invariant under flipping \(u_1\) (mismatch already at \(T=5\) and
-\(T=8\)). \(Q_n\) still sees \(u_1\). Uniform extra \(\le 8\) is
-still a census.
+\(T=8\)). Every such \(u_1\) in \(F_k\) for \(k\ge 8\) is a multiple
+of \(u_3\) (`research/period2_u1u3.md`). \(Q_n\) still sees \(u_1\)
+on \(u_3=1\). Uniform extra \(\le 8\) is still a census.
 
 ## Verdict
 
@@ -78,3 +79,4 @@ still a census.
 - `research/period2_gsilent.py` (`--certify`)
 - `research/period2_gsilent.json` (dump)
 - `research/period2_silent.md` (\(u_0\) silent in \(F_k\) for \(k\ge 3\))
+- `research/period2_u1u3.md` (\(u_1\) in \(F_k\) factors through \(u_3\) for \(k\ge 8\))
