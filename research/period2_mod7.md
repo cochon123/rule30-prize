@@ -74,7 +74,8 @@ period-7 word, so those rights cannot occur with a finite left and
 a period-2 centre. Generic finite rights have aperiodic `u` (BM of
 the spatial left grows; `research/period2_fiber.md`). The missing
 step for period 2 is still a last `1` in `F_k` for aperiodic `u`,
-or a uniform `L_0` bound.
+or a uniform `L_0` bound. Infinitude for every finite period of
+`u`, not just period 2, is `research/period2_periodic.md`.
 
 `L_1\oplus L_2=1` holds for every `u` (`F_1=1+u_0`, `F_2=u_0`), so
 every unique left has a `1` at depth `1` or `2`. That is not
