@@ -105,3 +105,4 @@ obstruction to period 2.
 - `research/period2_lead.md` (this note)
 - `research/period2_lead.py` (`--certify`)
 - `research/period2_lead.json` (dump)
+- `research/period2_silent.md` (\(u_0\) silent in \(F_k\) for \(k\ge 3\))
