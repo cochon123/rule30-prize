@@ -35,9 +35,10 @@ words that end in `01` and lie in \(P_{43}\).
 
 ## What this does not do
 
-Extra \(\le 10\) is a census through \(T=56\). \(S\)-minimal extra
-\(=10\) keeps being born, so compactness via extra \(\le 8\) stays
-dead and extra \(\le 10\) is not a theorem. Infinite \(L_0\) is
+Extra \(\le 10\) is a census through \(T=56\). It fails at \(T=58\):
+\(S\)-minimal extra \(=11\) exists (`research/period2_e11t58.md`).
+\(S\)-minimal extra \(=10\) keeps being born through \(T=56\), so
+compactness via extra \(\le 8\) stays dead. Infinite \(L_0\) is
 untouched. Other periods of \(c_t\) are untouched.
 
 ## Verdict
@@ -46,7 +47,7 @@ untouched. Other periods of \(c_t\) are untouched.
 
 - Kill of period 2: no.
 - Extra \(\le 10\) through \(T=56\): yes (census).
-- Uniform extra \(\le 10\): no.
+- Uniform extra \(\le 10\): no (fails at \(T=58\)).
 - \(S\)-minimal extra \(=10\) recurs: yes.
 
 ## Files
@@ -57,3 +58,4 @@ untouched. Other periods of \(c_t\) are untouched.
 - `research/period2_e10t51.md` (first extra \(=10\) at \(T=51\))
 - `research/period2_t35ten.md` (\(P_{35}\))
 - `research/period2_e8cap.md` (extra \(\le 8\) through \(T=48\))
+- `research/period2_e11t58.md` (extra \(\le 10\) fails at \(T=58\))
