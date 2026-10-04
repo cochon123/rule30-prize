@@ -27,7 +27,9 @@ Cycle OI’s even-\(n\) vanish, palindrome-right \(T\)-xor equals
 it is the number of odd integers in that range, mod \(2\): \(0\) for
 \(k\le 1\), \(1\) at \(k=2\), and \(2^{k-2}\) (even) for \(k\ge 3\).
 Thus covering \(T_k=1\) iff \(k=2\), for all \(k\). Dyadic bands
-\(B_k=0\) for \(k=0\) and \(k\ge 3\), and \(B_1=B_2=1\).
+\(B_k=0\) for \(k=0\) and \(k\ge 3\), and \(B_1=B_2=1\). The same
+even-degree clause makes the \(S\)-bit \(G(n,j+1)\) vanish on every
+even row (Cycle OK).
 
 This is **not** pal-right \(T\)-xor vanishing on odd \(n\), **not**
 \(T_2=0\), **not** \(T=E\) (\(T_2=1\), \(E_2=0\) on \(q=10\)), and
@@ -92,3 +94,4 @@ infinitely often). Prize unsolved.
 - `research/cycle_oj.md` (this note)
 - `research/cycle_oj.py`
 - `research/cycle_oj.json`
+- `research/cycle_ok.md` (even-row \(S\)-bit vanishes)
