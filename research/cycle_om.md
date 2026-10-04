@@ -23,10 +23,11 @@ The largest admissible \(r\) is \(\lfloor(q-2)/3\rfloor\), so for
 \]
 
 with \(\gamma(0)=0\) and \(\gamma(1)=1\). About one third of the
-exponent in the Cycle OL bound is removed. The bound is sharp at
-\(q=2,3,4,5,8\) (and at other small \(q\)); it is not sharp at every
-\(q\). Diagonal \(4\) still has \(u(4,4)=1\), so the period does not
-divide \(4=\!2^{q-2}\).
+exponent in the Cycle OL bound is removed. On \(q<22\) the bound
+meets the minimal exponent for every \(q\le 9\), and it is already
+strict at \(q=10\) (minimal exponent \(6\), bound \(7\)). Diagonal
+\(4\) still has \(u(4,4)=1\), so the period does not divide
+\(4=2^{q-2}\).
 
 On the dyadic annulus the same cone argument as Cycle OL now silences
 every adjacent AND whose depth \(s\) satisfies
@@ -40,7 +41,7 @@ still \(O(k)\) cells in from the right edge of a row of width \(2^k\).
 Not a prize claim. Do not walk \(k=12\) \(T\)-bands. Do not treat a
 wider empirical margin as a theorem.
 
-Certify: `python3 research/cycle_om.py --certify`. Dump:
+Certify: `python3 research/cycle_om.py --certify` (~0.27s). Dump:
 `research/cycle_om.json`. Packed centre matches
 `experiment.center_bits` on 20 bits. The exponent is checked for
 \(q<22\) on \(t<2^{16}\). The margin is checked for \(k\le 12\),
