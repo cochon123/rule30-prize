@@ -1,0 +1,122 @@
+{
+  "ok": true,
+  "wall_s": 0.025,
+  "known20": true,
+  "prefix": {
+    "n_max": 512,
+    "cone_ok": true,
+    "n_mismatch": 0,
+    "first_mismatch": [],
+    "c1": 1
+  },
+  "j_sum_ok": true,
+  "endpoints": [
+    {
+      "k": 2,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 3,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 4,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 5,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 0,
+      "b": 0
+    },
+    {
+      "k": 6,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 7,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 8,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 9,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 0,
+      "b": 0
+    },
+    {
+      "k": 10,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    },
+    {
+      "k": 11,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 0,
+      "b": 0
+    },
+    {
+      "k": 12,
+      "edge": 1,
+      "e1": 1,
+      "e2": 0,
+      "j0": 1,
+      "sum": 1,
+      "b": 1
+    }
+  ],
+  "verdict": {
+    "telescope": "LEMMA",
+    "compression_of_b_k": "KILLED",
+    "I_1_infinitely_often": "OPEN",
+    "b_not_eventually_periodic": "OPEN",
+    "infinitely_many_00": "OPEN",
+    "prize": "unsolved"
+  }
+}
