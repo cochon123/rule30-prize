@@ -1,0 +1,122 @@
+{
+  "cycle": "OL",
+  "wall_s": 0.039,
+  "checks": {
+    "all_ok": true
+  },
+  "closed_forms": {
+    "ok": true,
+    "n_t": 4096
+  },
+  "period": {
+    "ok": true,
+    "qmax": 12,
+    "n": 16384
+  },
+  "integrator_match": {
+    "ok": true,
+    "n_ok": 49164
+  },
+  "margin": {
+    "n_silent": 66,
+    "fires": [
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        4,
+        8
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        5,
+        9
+      ],
+      [
+        5,
+        10
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "fires_by_s": {
+      "0": [
+        1
+      ],
+      "2": [
+        2
+      ],
+      "4": [
+        3
+      ],
+      "6": [
+        3,
+        5
+      ],
+      "7": [
+        4,
+        5
+      ],
+      "8": [
+        4,
+        6
+      ],
+      "9": [
+        5
+      ],
+      "10": [
+        5
+      ]
+    },
+    "k_scan": 12,
+    "s_scan": 10
+  },
+  "lemmas": {
+    "period_div_2q": true,
+    "margin_silent": true,
+    "closed_forms_q_le_4": true,
+    "s0_iff_k1": true,
+    "s1_never": true,
+    "s2_iff_k2": true,
+    "I_1_infinitely_often": false,
+    "prize": false
+  },
+  "verdict": {
+    "period_div_2q": "LEMMA",
+    "margin_s_le_k_minus_2": "LEMMA",
+    "closed_forms_q_le_4": "LEMMA",
+    "s0_hits_iff_k1": "LEMMA",
+    "s1_never_hits": "LEMMA",
+    "s2_hits_iff_k2": "LEMMA",
+    "s3_never_hits": "LEMMA",
+    "sharper_than_k_minus_2": "OPEN",
+    "I_1_infinitely_often": "OPEN",
+    "prize": "unsolved"
+  }
+}
