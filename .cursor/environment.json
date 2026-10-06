@@ -1,0 +1,4 @@
+{
+  "name": "rule30-prize",
+  "install": "python3 --version && python3 -m compileall -q experiment.py edge_audit.py research"
+}
