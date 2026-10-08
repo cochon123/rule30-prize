@@ -1,0 +1,214 @@
+{
+  "cycle": "S",
+  "wall_s": 0.132,
+  "checks": {
+    "all_ok": true,
+    "known20": true,
+    "F2_eq_u": true,
+    "formula": true
+  },
+  "f2": {
+    "n_neighborhoods": 32,
+    "formula_ok": true,
+    "lag1_keeps_G0": 8,
+    "ell1_forces_F2_zero": 8,
+    "kill_whole_left_unique": true,
+    "kill_horizon": true
+  },
+  "F2_eq_u": {
+    "n_rights": 127,
+    "n_fail": 0,
+    "F2_eq_u": true
+  },
+  "pairing": {
+    "N": 16384,
+    "n11": 4148,
+    "n00": 3978,
+    "n_odd11": 2095,
+    "n_even11": 2053,
+    "last_odd11": 16345,
+    "last_even11": 16370,
+    "by_rad": {
+      "1": {
+        "n_windows_11": 2,
+        "n_multi_disp": 2,
+        "n_windows_10": 2,
+        "n_multi_M": 2,
+        "kill_disp": true,
+        "kill_M": true,
+        "disp_counter_head": [
+          [
+            2,
+            1017
+          ],
+          [
+            4,
+            503
+          ],
+          [
+            3,
+            471
+          ],
+          [
+            5,
+            409
+          ],
+          [
+            6,
+            326
+          ],
+          [
+            7,
+            281
+          ],
+          [
+            8,
+            230
+          ],
+          [
+            9,
+            183
+          ]
+        ]
+      },
+      "2": {
+        "n_windows_11": 8,
+        "n_multi_disp": 8,
+        "n_windows_10": 8,
+        "n_multi_M": 4,
+        "kill_disp": true,
+        "kill_M": true,
+        "disp_counter_head": [
+          [
+            2,
+            1017
+          ],
+          [
+            4,
+            503
+          ],
+          [
+            3,
+            471
+          ],
+          [
+            5,
+            409
+          ],
+          [
+            6,
+            326
+          ],
+          [
+            7,
+            281
+          ],
+          [
+            8,
+            230
+          ],
+          [
+            9,
+            183
+          ]
+        ]
+      },
+      "4": {
+        "n_windows_11": 128,
+        "n_multi_disp": 80,
+        "n_windows_10": 128,
+        "n_multi_M": 17,
+        "kill_disp": true,
+        "kill_M": true,
+        "disp_counter_head": [
+          [
+            2,
+            1017
+          ],
+          [
+            4,
+            503
+          ],
+          [
+            3,
+            471
+          ],
+          [
+            5,
+            409
+          ],
+          [
+            6,
+            326
+          ],
+          [
+            7,
+            281
+          ],
+          [
+            8,
+            230
+          ],
+          [
+            9,
+            183
+          ]
+        ]
+      },
+      "8": {
+        "n_windows_11": 3881,
+        "n_multi_disp": 44,
+        "n_windows_10": 3869,
+        "n_multi_M": 1,
+        "kill_disp": true,
+        "kill_M": true,
+        "disp_counter_head": [
+          [
+            2,
+            1017
+          ],
+          [
+            4,
+            503
+          ],
+          [
+            3,
+            471
+          ],
+          [
+            5,
+            409
+          ],
+          [
+            6,
+            326
+          ],
+          [
+            7,
+            281
+          ],
+          [
+            8,
+            230
+          ],
+          [
+            9,
+            183
+          ]
+        ]
+      }
+    },
+    "kill_local_window": true
+  },
+  "gadget": {
+    "n_words": 32,
+    "n_ambiguous": 32,
+    "kill": true
+  },
+  "verdict": {
+    "f2_condrey": "KILLED",
+    "pairing": "KILLED",
+    "gadget": "KILLED",
+    "prize": "unsolved"
+  }
+}

@@ -1,0 +1,977 @@
+{
+  "not_a_prize_claim": true,
+  "status": "UNSAT",
+  "family": {
+    "fields": [
+      2,
+      3
+    ],
+    "d": [
+      2,
+      3
+    ],
+    "readouts": [
+      "Tr(product)",
+      "Tr(product)+k",
+      "fixed entry (1,1) and all other entries",
+      "fixed entry + k",
+      "d=2 linear representation lambda^T M rho",
+      "d=2 lambda^T M rho + k"
+    ],
+    "bin": "MSB-first, no leading zeros, t>=1",
+    "fit": [
+      1,
+      255
+    ],
+    "holdout": [
+      256,
+      4095
+    ],
+    "not": [
+      "F3 concatenation-rank freeze of dimension 16 (time_digit_matrices)",
+      "Lax pairs",
+      "communication rank of f_h"
+    ]
+  },
+  "self_check_prefix": true,
+  "self_check_mul": true,
+  "self_check_planted": {
+    "planted_train_sat": true,
+    "planted_holdout_ok": true,
+    "recovered_verifies": true,
+    "status": "sat"
+  },
+  "pair_screens": [
+    {
+      "p": 2,
+      "d": 2,
+      "nmat": 16,
+      "pairs": 256,
+      "checked": 256,
+      "timed_out": false,
+      "elapsed_sec": 0.0005831718444824219,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ]
+    },
+    {
+      "p": 2,
+      "d": 3,
+      "nmat": 512,
+      "pairs": 262144,
+      "checked": 262144,
+      "timed_out": false,
+      "elapsed_sec": 2.9166879653930664,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry13",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry23",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry31",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry32",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry33",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry13_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry23_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry31_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry32_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry33_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "d": 2,
+      "nmat": 81,
+      "pairs": 6561,
+      "checked": 6561,
+      "timed_out": false,
+      "elapsed_sec": 0.026166200637817383,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "d": 3,
+      "nmat": 19683,
+      "pairs": 387420489,
+      "checked": 387420489,
+      "timed_out": false,
+      "elapsed_sec": 21.740584,
+      "engine": "gcc-openmp",
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry13",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry23",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry31",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry32",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry33",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry12_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry13_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry21_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry22_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry23_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry31_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry32_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry33_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ]
+    }
+  ],
+  "pair_declared": [
+    {
+      "p": 2,
+      "d": 2,
+      "timed_out": false,
+      "elapsed_sec": 0.0005831718444824219,
+      "checked": 256,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ],
+      "any_sat": false,
+      "any_holdout_fail": false,
+      "all_unsat": true
+    },
+    {
+      "p": 2,
+      "d": 3,
+      "timed_out": false,
+      "elapsed_sec": 2.9166879653930664,
+      "checked": 262144,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ],
+      "any_sat": false,
+      "any_holdout_fail": false,
+      "all_unsat": true
+    },
+    {
+      "p": 3,
+      "d": 2,
+      "timed_out": false,
+      "elapsed_sec": 0.026166200637817383,
+      "checked": 6561,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ],
+      "any_sat": false,
+      "any_holdout_fail": false,
+      "all_unsat": true
+    },
+    {
+      "p": 3,
+      "d": 3,
+      "timed_out": false,
+      "elapsed_sec": 21.740584,
+      "checked": 387420489,
+      "families": [
+        {
+          "name": "tr",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "tr_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        },
+        {
+          "name": "entry11_affine",
+          "train_sat": 0,
+          "holdout_ok": 0,
+          "holdout_fail": 0,
+          "holdout_mismatch": null,
+          "train_witness": null,
+          "holdout_witness": null,
+          "status": "unsat"
+        }
+      ],
+      "any_sat": false,
+      "any_holdout_fail": false,
+      "all_unsat": true
+    }
+  ],
+  "linrep_d2": [
+    {
+      "p": 2,
+      "d": 2,
+      "affine": false,
+      "pairs_times_vectors": 4096,
+      "checked": 1152,
+      "timed_out": false,
+      "elapsed_sec": 0.002644777297973633,
+      "train_sat": 0,
+      "holdout_ok": 0,
+      "holdout_fail": 0,
+      "holdout_mismatch": null,
+      "train_witness": null,
+      "holdout_witness": null,
+      "status": "unsat"
+    },
+    {
+      "p": 2,
+      "d": 2,
+      "affine": true,
+      "pairs_times_vectors": 8192,
+      "checked": 4096,
+      "timed_out": false,
+      "elapsed_sec": 0.006994485855102539,
+      "train_sat": 0,
+      "holdout_ok": 0,
+      "holdout_fail": 0,
+      "holdout_mismatch": null,
+      "train_witness": null,
+      "holdout_witness": null,
+      "status": "unsat"
+    },
+    {
+      "p": 3,
+      "d": 2,
+      "affine": false,
+      "pairs_times_vectors": 531441,
+      "checked": 139968,
+      "timed_out": false,
+      "elapsed_sec": 0.19529342651367188,
+      "train_sat": 0,
+      "holdout_ok": 0,
+      "holdout_fail": 0,
+      "holdout_mismatch": null,
+      "train_witness": null,
+      "holdout_witness": null,
+      "status": "unsat"
+    },
+    {
+      "p": 3,
+      "d": 2,
+      "affine": true,
+      "pairs_times_vectors": 1594323,
+      "checked": 531441,
+      "timed_out": false,
+      "elapsed_sec": 0.2175452709197998,
+      "train_sat": 0,
+      "holdout_ok": 0,
+      "holdout_fail": 0,
+      "holdout_mismatch": null,
+      "train_witness": null,
+      "holdout_witness": null,
+      "status": "unsat"
+    }
+  ],
+  "extra_entry_holdout_sat": [],
+  "f3_d3_elapsed_sec": 21.740584,
+  "kill": {
+    "no_train_fit": true,
+    "holdout_mismatch": false,
+    "timeout": false,
+    "fired": true,
+    "text": "No pair A0, A1 of d<=3 matrices over F2 or F3 realises c_t as Tr of the MSB-first bin(t) product, as that trace plus a constant, as a fixed matrix entry (including (1,1)) plus an optional constant, or as a dimension-2 linear representation lambda^T M rho (exact or affine), on the training times t=1..255."
+  },
+  "elapsed_sec": 26.030711889266968
+}
